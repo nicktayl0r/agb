@@ -2,6 +2,8 @@ publish
 local_api/dependencies/grapes/dist/**
 local_api/dependencies/PlaycanvasEngine/dist/**
 local_api/dependencies/app/dist/**
+local_api/imex/token.json
+
 
 **node_modules**
 
@@ -9,4 +11,5 @@ project/assets/*/**
 !project/assets/case.css
 
 local.yaml
+local_api/imex/token.json
 
