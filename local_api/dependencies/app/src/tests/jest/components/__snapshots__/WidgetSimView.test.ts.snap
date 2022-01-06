@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetSimView matches html snapshot 1`] = `
+<div
+  class="simView"
+  id="testWidget"
+  play-state="default"
+>
+  <div
+    class="loadingBarParent"
+  >
+    <div
+      class="loadingBar"
+    >
+      <div
+        class="loadingBarSpinner"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="simStateRetry"
+    style="display: none;"
+  >
+    <div
+      class="textBackgroundBasic dropShadow"
+    >
+      <p>
+        There was an issue loading this simulation. Please wait a moment and try again.
+      </p>
+       
+      <span
+        class="buttonParent buttonBasic-Grey buttonBlinkBlue marginTop2"
+      >
+        <fieldset
+          class="button"
+          id="retrySimStateButton"
+        >
+          <span
+            class="bgImage"
+          />
+           
+          <span
+            class="slot"
+          >
+            <p>
+              Retry
+            </p>
+          </span>
+        </fieldset>
+      </span>
+    </div>
+  </div>
+</div>
+`;

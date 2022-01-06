@@ -1,0 +1,1954 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "grid_Main",
+					"label": "grid_Main",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "grid_Main",
+			"components": [
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_T4",
+							"label": "grid_T4",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "paged0186",
+							"label": "paged0186",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T4_HandbookTextTop",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "item1_T4",
+									"label": "item1_T4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item1_T4",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "text_1",
+											"label": "text_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_1",
+									"components": [
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "One of the most important jobs is to find food and water for the group. ",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										},
+										{
+											"tagName": "br",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "Br",
+											"components": []
+										},
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "This job is done by forager bees.",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										},
+										{
+											"tagName": "br",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "Br",
+											"components": []
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_Bee_1",
+									"label": "button_Bee_1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								":enabled": true,
+								"id": "ikxf",
+								":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ikxf',key:'visible',val:true},fireOnceID:'firstButtonShow_paged0186',delay:5}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ikxf',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'igrn',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_Bee_1",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_1",
+											"label": "buttonFill_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_1",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": 0
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "SH_LoopCheckpoint",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "SH_LoopCheckpoint",
+									"label": "SH_LoopCheckpoint",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								"id": "igrn"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "selected",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_Bee_2",
+									"label": "button_Bee_2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								":enabled": true,
+								"id": "iis9w",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0},{effectData:{effectType:'nextPage'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iis9w',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_Bee_2",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_2",
+											"label": "buttonFill_2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_2",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": 1
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_Popper",
+									"label": "anchor_Popper",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": true,
+								"id": "ivtv"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "anchor_Popper",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "widget-popper",
+							"type": "widget-popper",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								":click-to-dismiss": false,
+								"id": "i16g",
+								":delay": 0,
+								":delay-once": false,
+								"anchor-id": "ivtv",
+								":options": "{placement:'top-start'}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetPopper",
+							"custom-name": "popper_1",
+							"components": [
+								{
+									"tagName": "span",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text",
+									"components": [
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "They leave the hive and search for food.",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										},
+										{
+											"tagName": "br",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "Br",
+											"components": []
+										},
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Bees eat nectar and pollen from flowers.",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						}
+					],
+					"open": 1
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_Clipping",
+							"label": "grid_Clipping",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "paged0186",
+							"label": "paged0186",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_Clipping",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "grid_Visuals",
+									"label": "grid_Visuals",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "paged0186",
+									"label": "paged0186",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "grid_Visuals",
+							"components": [
+								{
+									"tagName": "widget-video-player",
+									"type": "widget-video-player",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": true,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": {},
+									"classes": [
+										{
+											"name": "videoFill",
+											"label": "videoFill",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "video_Styles",
+											"label": "video_Styles",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										"id": "i9bx",
+										":visible": true,
+										"play-state": "default",
+										":muted": true,
+										":speed": 1,
+										":loop": true,
+										":controls": false,
+										":auto-play": false,
+										":enable-scrub": false,
+										":start-time": 0,
+										":end-time": 0,
+										":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i9bx',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i9bx',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i9bx',key:'playState',val:'play'},fireOnceID:'',delay:0.01}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+										"src-mp4": "../../assets/movies/bees_FlyToHive_Sahara1_MOV_compressed.mp4",
+										"src-webm": "../../assets/movies/bees_FlyToHive_Sahara1_MOV_compressed.webm",
+										":loop-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'igrn',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ibkds',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibkds',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i9bx',key:'visible',val:false},fireOnceID:'',delay:1}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetVideoPlayer",
+									"custom-name": "video_1",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "widget-video-player",
+									"type": "widget-video-player",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": true,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "videoFill",
+											"label": "videoFill",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "video_Styles",
+											"label": "video_Styles",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": false,
+										"play-state": "default",
+										":muted": true,
+										":speed": 1,
+										":loop": false,
+										":controls": false,
+										":auto-play": false,
+										":enable-scrub": false,
+										":start-time": 0,
+										":end-time": 0,
+										":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i89qh',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i89qh',key:'playState',val:'play'},fireOnceID:'PlayVideo3Once_paged0186',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibkds',key:'visible',val:false},fireOnceID:'',delay:1},{effectData:{effectType:'updateWidget',widgetID:'i16g',key:'visible',val:true},fireOnceID:'PopperShowOnce_paged0186',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iis9w',key:'visible',val:true},fireOnceID:'button2ShowOnce_paged0186',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+										":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ibkds',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ibkds',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibkds',key:'playState',val:'play'},fireOnceID:'',delay:0.01}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+										"src-mp4": "../../assets/movies/bees_FlyToHive_Sahara2_MOV_compressed.mp4",
+										"src-webm": "../../assets/movies/bees_FlyToHive_Sahara2_MOV_compressed.webm",
+										"id": "ibkds"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetVideoPlayer",
+									"custom-name": "video_2",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "widget-video-player",
+									"type": "widget-video-player",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": true,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "videoFill",
+											"label": "videoFill",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "video_Styles",
+											"label": "video_Styles",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "paged0186",
+											"label": "paged0186",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": false,
+										"play-state": "default",
+										":muted": true,
+										":speed": 1,
+										":loop": true,
+										":controls": false,
+										":auto-play": false,
+										":enable-scrub": false,
+										":start-time": 0,
+										":end-time": 0,
+										":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iujh',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibmy',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+										":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i89qh',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i89qh',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i89qh',key:'playState',val:'play'},fireOnceID:'',delay:0.01}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+										"src-mp4": "../../assets/movies/bees_FlyToHive_Sahara3_MOV_compressed.mp4",
+										"src-webm": "../../assets/movies/bees_FlyToHive_Sahara3_MOV_compressed.webm",
+										"id": "i89qh"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetVideoPlayer",
+									"custom-name": "video_3",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": true
+						}
+					],
+					"open": true
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_Main",
+					"label": "grid_Main",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"width": "100%",
+				"height": "100%",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T4",
+					"label": "grid_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "3",
+				"width": "100%",
+				"height": "100%",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"padding": "6vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1",
+				"display": "flex",
+				"flex-direction": "row",
+				"justify-content": "flex-start",
+				"align-items": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_Clipping",
+					"label": "grid_Clipping",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"overflow": "hidden",
+				"-webkit-mask-image": "-webkit-radial-gradient(center, white, black)",
+				"width": "100%",
+				"height": "100%",
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_Visuals",
+					"label": "grid_Visuals",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"height": "102%",
+				"width": "102%",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "video_Styles",
+					"label": "video_Styles",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "0",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"align-self": "stretch",
+				"justify-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_1",
+					"label": "buttonFill_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "8vh",
+				"height": "8vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_2",
+					"label": "buttonFill_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "10vh",
+				"height": "10vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_Bee_1",
+					"label": "button_Bee_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "-5vh -55vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_Bee_2",
+					"label": "button_Bee_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "0 0 -62vh -45vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_Popper",
+					"label": "anchor_Popper",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "0",
+				"height": "0",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "0 0 -49vh -52vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "textBackground-DarkBlue",
+					"label": "textBackground-DarkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "videoFill",
+					"label": "videoFill",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "video_Styles",
+					"label": "video_Styles",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "dropShadow",
+					"label": "dropShadow",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackgroundBasic",
+					"label": "textBackgroundBasic",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackground-DarkBlue",
+					"label": "textBackground-DarkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "noPadding",
+					"label": "noPadding",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Bee_1",
+					"label": "button_Bee_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "SH_LoopCheckpoint",
+					"label": "SH_LoopCheckpoint",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "0",
+				"height": "0",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "start",
+				"align-self": "start"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "noPadding",
+					"label": "noPadding",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "paged0186",
+					"label": "paged0186",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Bee_2",
+					"label": "button_Bee_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

@@ -1,0 +1,57 @@
+<h2>shared page 1</h2>
+<p>All widgets read the project for a default value, but write any changes to the shared data store.</p>
+<br />
+<widget-textbox id="p2textbox1" placeholder="placeholder text" shared-data-read-key="proj_TextBoxKey1"
+    shared-data-write-key="textBoxKey1" />
+<widget-shared-data-text id="sharedText" shared-data-read-key="textBoxKey1" text="no shared text yet"></widget-shared-data-text>
+<br>
+<widget-drop id="drag1Start" class="buttonDrop" />
+<widget-drop id="drop1" class="buttonDrop" />
+<widget-drop id="drop2" class="buttonDrop" />
+<widget-drag class="buttonDrag" id="drag1" drop-id="drag1Start" shared-data-read-key="proj_DragKey1"
+    shared-data-write-key="dropKey1">drag1</widget-drag>
+<widget-slider id="slider" :min=100 :max=200 :val=150 shared-data-read-key="proj_SliderKey1" shared-data-write-key="sliderKey1"></widget-slider>
+<container-enable-disable id="fieldset">
+    <p>These are check boxes. They write their individual checked state to different shares.</p>
+    <widget-checkbox id="checkbox1" class="buttonCheck" shared-data-read-key="proj_CheckKey1" shared-data-write-key="checkKey1" />
+    <widget-checkbox id="checkbox2" class="buttonCheck" shared-data-write-key="checkKey2" />
+    <widget-checkbox id="checkbox3" class="buttonCheck" shared-data-write-key="checkKey3" />
+    <br />
+
+    <br />
+    <p>These are radios in a radio group. They are sharing which one is selected.</p>
+    <widget-radio id="radio1" class="buttonRadio" group="radioGroup" shared-data-read-key="proj_RadioKey1"
+        shared-data-write-key="radioKey1">1</widget-radio>
+    <widget-radio id="radio2" class="buttonRadio" group="radioGroup" shared-data-read-key="proj_RadioKey1"
+        shared-data-write-key="radioKey1">2</widget-radio>
+    <widget-radio id="radio3" class="buttonRadio" group="radioGroup" shared-data-read-key="proj_RadioKey1"
+        shared-data-write-key="radioKey1">3</widget-radio>
+    <br />
+    <widget-textarea id="textarea" placeholder="for when you need multiple lines" shared-data-read-key="proj_TextAreaKey1"
+        shared-data-write-key="textAreaKey1" :conditions="{
+    conditionList:[ 
+    { 
+        comparisons:[
+            {comparisonData:{comparisonType:'radioSelection', group:'radioGroup', selected:'radioIDEquals', radioID:'radio3'}}
+            ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'textarea', key:'enabled', val:false}}
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'textarea', key:'enabled', val:true}}
+        ]
+    }   
+    ] 
+} " />
+</container-enable-disable>
+<br />
+<br />
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

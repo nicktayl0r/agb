@@ -1,0 +1,1201 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    overflow: hidden;
+}
+
+.jsonModal {
+    overflow-y: scroll;
+    max-height: 90vh;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.jsonModal select.form-control {
+    height: auto !important;
+}
+
+/** this prevents the page from spazzing out 
+(turning the scroll bars on and off because it can't figure out the overflow)
+*/
+
+.gjs-mdl-container {
+    overflow: hidden;
+}
+
+.gjs-mdl-backlayer {
+    overflow: hidden;
+    height: 101vh;
+    width: 101vw;
+}
+
+/**
+  the following are for the gradient plugin
+  we should probaly move editor css into another file
+  but I don't know how to get webpack to include one yet
+*/
+
+.gjs-sm-sector .gjs-sm-gradient {
+    width: 100%;
+}
+
+.grp-wrapper {
+    margin: 15px 0;
+}
+
+.grp-handler-close {
+    background-color: #444;
+    color: #ddd;
+}
+
+.grp-handler-cp-wrap {
+    border-color: #444;
+}
+
+.grp-preview,
+.grp-wrapper {
+    border-radius: 3px;
+}
+
+/**
+* these are for select2
+*/
+
+.select2-container {
+    width: 100% !important;
+}
+
+.gjs-input-holder .select2-container {
+    border: none;
+}
+
+.gjs-input-holder .select2-selection--single {
+    border: none !important;
+}
+
+.gjs-input-holder .select2-selection__rendered {
+    background-color: #363636;
+    color: #ddd !important;
+    text-align: left;
+}
+
+.gjs-input-holder .select2-results__option {
+    font-size: 0.7rem;
+}
+
+.template {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+/* Custom icons for the editor */
+
+.customBlock {
+    color: rgb(255, 204, 153);
+}
+
+.fa.black::before {
+    color: black;
+}
+.fa.left::before {
+    text-align: left;
+}
+.fa.right::before {
+    text-align: right;
+}
+
+.fa.font14::before {
+font-size: 1.166666667rem;
+}
+.fa.font18::before {
+font-size: 1.5rem;
+}
+.fa.font20::before {
+font-size: 1.666666667rem;
+}
+.fa.font22::before {
+font-size: 1.833333333rem;
+}
+.fa.font30::before {
+font-size: 2.5rem;
+}
+
+.t1::before {
+    content: url(./dist/css/svg/Template_1.svg);
+}
+
+.t2::before {
+    content: url(./dist/css/svg/Template_2.svg);
+}
+
+.t3::before {
+    content: url(./dist/css/svg/Template_3.svg);
+}
+
+.t4::before {
+    content: url(./dist/css/svg/Template_4.svg);
+}
+
+.t5::before {
+    content: url(./dist/css/svg/Template_5.svg);
+}
+
+.t6::before {
+    content: url(./dist/css/svg/Template_6.svg);
+}
+
+.t7::before {
+    content: url(./dist/css/svg/Template_7.svg);
+}
+
+.t8::before {
+    content: url(./dist/css/svg/Template_8.svg);
+}
+
+.t9::before {
+    content: url(./dist/css/svg/Template_9.svg);
+}
+
+.t10::before {
+    content: url(./dist/css/svg/Template_10.svg);
+}
+
+.t11::before {
+    content: url(./dist/css/svg/Template_11.svg);
+}
+
+.t12::before {
+    content: url(./dist/css/svg/Template_12.svg);
+}
+
+.t13::before {
+    content: url(./dist/css/svg/Template_13.svg);
+}
+
+.t14::before {
+    content: url(./dist/css/svg/Template_14.svg);
+}
+
+.t15::before {
+    content: url(./dist/css/svg/Template_15.svg);
+}
+
+.t16::before {
+    content: url(./dist/css/svg/Template_16.svg);
+}
+
+.t17::before {
+    content: url(./dist/css/svg/Template_17.svg);
+}
+
+.t18::before {
+    content: url(./dist/css/svg/Template_18.svg);
+}
+
+.t19::before {
+    content: url(./dist/css/svg/Template_19.svg);
+}
+
+.t20::before {
+    content: url(./dist/css/svg/Template_20.svg);
+}
+
+.t21::before {
+    content: url(./dist/css/svg/Template_21.svg);
+}
+
+.t22::before {
+    content: url(./dist/css/svg/Template_22.svg);
+}
+
+.t23::before {
+    content: url(./dist/css/svg/Template_23.svg);
+}
+
+.t24::before {
+    content: url(./dist/css/svg/Template_24.svg);
+}
+
+.t25::before {
+    content: url(./dist/css/svg/Template_25.svg);
+}
+
+.t26::before {
+    content: url(./dist/css/svg/Template_26.svg);
+}
+
+.t27::before {
+    content: url(./dist/css/svg/Template_27.svg);
+}
+
+.t28::before {
+    content: url(./dist/css/svg/Template_28.svg);
+}
+
+.t29::before {
+    content: url(./dist/css/svg/Template_29.svg);
+}
+
+.t30::before {
+    content: url(./dist/css/svg/Template_30.svg);
+}
+
+.t31::before {
+    content: url(./dist/css/svg/Template_31.svg);
+}
+
+.t32::before {
+    content: url(./dist/css/svg/Template_32.svg);
+}
+
+.t33::before {
+    content: url(./dist/css/svg/Template_33.svg);
+}
+
+.t34::before {
+    content: url(./dist/css/svg/Template_34.svg);
+}
+
+.t35::before {
+    content: url(./dist/css/svg/Template_35.svg);
+}
+
+.t36::before {
+    content: url(./dist/css/svg/Template_36.svg);
+}
+
+.t37::before {
+    content: url(./dist/css/svg/Template_37.svg);
+}
+
+.t38::before {
+    content: url(./dist/css/svg/Template_38.svg);
+}
+
+.t39::before {
+    content: url(./dist/css/svg/Template_39.svg);
+}
+
+.t40::before {
+    content: url(./dist/css/svg/Template_40.svg);
+}
+
+.t41::before {
+    content: url(./dist/css/svg/Template_41.svg);
+}
+
+.t42::before {
+    content: url(./dist/css/svg/Template_42.svg);
+}
+
+.t43::before {
+    content: url(./dist/css/svg/Template_43.svg);
+}
+
+.t44::before {
+    content: url(./dist/css/svg/Template_44.svg);
+}
+
+.t45::before {
+    content: url(./dist/css/svg/Template_45.svg);
+}
+
+.t46::before {
+    content: url(./dist/css/svg/Template_46.svg);
+}
+
+.t47::before {
+    content: url(./dist/css/svg/Template_47.svg);
+}
+
+.t48::before {
+    content: url(./dist/css/svg/Template_48.svg);
+}
+
+.t49::before {
+    content: url(./dist/css/svg/Template_49.svg);
+}
+
+.t50::before {
+    content: url(./dist/css/svg/Template_50.svg);
+}
+
+.t51::before {
+    content: url(./dist/css/svg/Template_51.svg);
+}
+
+.t52::before {
+    content: url(./dist/css/svg/Template_52.svg);
+}
+
+.t53::before {
+    content: url(./dist/css/svg/Template_53.svg);
+}
+
+.t54::before {
+    content: url(./dist/css/svg/Template_54.svg);
+}
+
+.t55::before {
+    content: url(./dist/css/svg/Template_55.svg);
+}
+
+.t56::before {
+    content: url(./dist/css/svg/Template_56.svg);
+}
+
+.t57::before {
+    content: url(./dist/css/svg/Template_57.svg);
+}
+
+.t58::before {
+    content: url(./dist/css/svg/Template_58.svg);
+}
+
+.t59::before {
+    content: url(./dist/css/svg/Template_59.svg);
+}
+
+.t60::before {
+    content: url(./dist/css/svg/Template_60.svg);
+}
+
+.t61::before {
+    content: url(./dist/css/svg/Template_61.svg);
+}
+
+.t62::before {
+    content: url(./dist/css/svg/Template_62.svg);
+}
+
+.t63::before {
+    content: url(./dist/css/svg/Template_63.svg);
+}
+
+.t64::before {
+    content: url(./dist/css/svg/Template_64.svg);
+}
+
+.t65::before {
+    content: url(./dist/css/svg/Template_65.svg);
+}
+
+.t66::before {
+    content: url(./dist/css/svg/Template_66.svg);
+}
+
+.t67::before {
+    content: url(./dist/css/svg/Template_67.svg);
+}
+
+.t68::before {
+    content: url(./dist/css/svg/Template_68.svg);
+}
+
+.t69::before {
+    content: url(./dist/css/svg/Template_69.svg);
+}
+
+.t70::before {
+    content: url(./dist/css/svg/Template_70.svg);
+}
+
+.t71::before {
+    content: url(./dist/css/svg/Template_71.svg);
+}
+
+.t72::before {
+    content: url(./dist/css/svg/Template_72.svg);
+}
+
+.t73::before {
+    content: url(./dist/css/svg/Template_73.svg);
+}
+
+.t74::before {
+    content: url(./dist/css/svg/Template_74.svg);
+}
+
+.t75::before {
+    content: url(./dist/css/svg/Template_75.svg);
+}
+
+.t76::before {
+    content: url(./dist/css/svg/Template_76.svg);
+}
+
+.t77::before {
+    content: url(./dist/css/svg/Template_77.svg);
+}
+
+.t78::before {
+    content: url(./dist/css/svg/Template_78.svg);
+}
+
+.zoom::before {
+    content: url(./dist/css/svg/buttonZoom_Normal.svg);
+}
+
+.drag::before {
+    content: url(./dist/css/svg/buttonDrag_Normal.svg);
+}
+
+.toggle::before {
+    content: url(./dist/css/svg/buttonToggle_Normal.svg);
+}
+
+.play::before {
+    content: url(./dist/css/svg/iconPlay_Normal.svg);
+}
+
+.pause::before {
+    content: url(./dist/css/svg/iconPause_Normal.svg);
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+
+.replay::before {
+    content: url(./dist/css/svg/iconReplay_Normal.svg);
+}
+
+.arrowUp::before {
+    content: url(./dist/css/svg/iconArrowUp_Normal.svg);
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.arrowDown::before {
+    content: url(./dist/css/svg/iconArrowDown_Normal.svg);
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.arrowNoChange::before {
+    content: url(./dist/css/svg/iconArrowNoChange_Normal.svg);
+}
+
+.next::before {
+    content: url(./dist/css/svg/arrowNext_Normal.svg);
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.previous::before {
+    content: url(./dist/css/svg/arrowPrevious_Normal.svg);
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.colorBox {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.cb_white::before {
+    content: url(./dist/css/svg/icon_colorBox_White.svg);
+}
+
+.cb_black::before {
+    content: url(./dist/css/svg/icon_colorBox_Black.svg);
+}
+
+.cb_grey1::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey1.svg);
+}
+
+.cb_grey2::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey2.svg);
+}
+
+.cb_grey3::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey3.svg);
+}
+
+.cb_grey4::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey4.svg);
+}
+
+.cb_grey5::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey5.svg);
+}
+
+.cb_grey6::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey6.svg);
+}
+
+.cb_grey7::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey7.svg);
+}
+
+.cb_grey8::before {
+    content: url(./dist/css/svg/icon_colorBox_Grey8_Trans.svg);
+}
+
+.cb_red1::before {
+    content: url(./dist/css/svg/icon_colorBox_Red1.svg);
+}
+
+.cb_red2::before {
+    content: url(./dist/css/svg/icon_colorBox_Red2.svg);
+}
+
+.cb_red3::before {
+    content: url(./dist/css/svg/icon_colorBox_Red3.svg);
+}
+
+.cb_ora1::before {
+    content: url(./dist/css/svg/icon_colorBox_Orange1.svg);
+}
+
+.cb_ora2::before {
+    content: url(./dist/css/svg/icon_colorBox_Orange2.svg);
+}
+
+.cb_ora3::before {
+    content: url(./dist/css/svg/icon_colorBox_Orange3.svg);
+}
+
+.cb_ora4::before {
+    content: url(./dist/css/svg/icon_colorBox_Orange4.svg);
+}
+
+.cb_ora5::before {
+    content: url(./dist/css/svg/icon_colorBox_Orange5.svg);
+}
+
+.cb_yel1::before {
+    content: url(./dist/css/svg/icon_colorBox_Yellow1.svg);
+}
+
+.cb_yel2::before {
+    content: url(./dist/css/svg/icon_colorBox_Yellow2.svg);
+}
+
+.cb_yel3::before {
+    content: url(./dist/css/svg/icon_colorBox_Yellow3.svg);
+}
+
+.cb_gre1::before {
+    content: url(./dist/css/svg/icon_colorBox_Green1.svg);
+}
+
+.cb_gre2::before {
+    content: url(./dist/css/svg/icon_colorBox_Green2.svg);
+}
+
+.cb_gre3::before {
+    content: url(./dist/css/svg/icon_colorBox_Green3.svg);
+}
+
+.cb_gre4::before {
+    content: url(./dist/css/svg/icon_colorBox_Green4.svg);
+}
+
+.cb_gre5::before {
+    content: url(./dist/css/svg/icon_colorBox_Green5.svg);
+}
+
+.cb_tea1::before {
+    content: url(./dist/css/svg/icon_colorBox_Teal1.svg);
+}
+
+.cb_tea2::before {
+    content: url(./dist/css/svg/icon_colorBox_Teal2.svg);
+}
+
+.cb_tea3::before {
+    content: url(./dist/css/svg/icon_colorBox_Teal3.svg);
+}
+
+.cb_blu1::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue1.svg);
+}
+
+.cb_blu2::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue2.svg);
+}
+
+.cb_blu3::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue3.svg);
+}
+
+.cb_blu4::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue4.svg);
+}
+
+.cb_blu5::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue5.svg);
+}
+
+.cb_blu6::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue6.svg);
+}
+
+.cb_blu7::before {
+    content: url(./dist/css/svg/icon_colorBox_Blue7.svg);
+}
+
+.cb_ind1::before {
+    content: url(./dist/css/svg/icon_colorBox_Indigo1.svg);
+}
+
+.cb_ind2::before {
+    content: url(./dist/css/svg/icon_colorBox_Indigo2.svg);
+}
+
+.cb_pur1::before {
+    content: url(./dist/css/svg/icon_colorBox_Purple1.svg);
+}
+
+.cb_pur2::before {
+    content: url(./dist/css/svg/icon_colorBox_Purple2.svg);
+}
+
+.cb_pur3::before {
+    content: url(./dist/css/svg/icon_colorBox_Purple3.svg);
+}
+
+.cb_pur4::before {
+    content: url(./dist/css/svg/icon_colorBox_Purple4.svg);
+}
+
+.cb_pin1::before {
+    content: url(./dist/css/svg/icon_colorBox_Pink1.svg);
+}
+
+.cb_pin2::before {
+    content: url(./dist/css/svg/icon_colorBox_Pink2.svg);
+}
+
+.cb_pin3::before {
+    content: url(./dist/css/svg/icon_colorBox_Pink3.svg);
+}
+
+.flatLine {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.fl_white::before {
+    content: url(./dist/css/svg/icon_flatLine_White.svg);
+}
+
+.fl_black::before {
+    content: url(./dist/css/svg/icon_flatLine_Black.svg);
+}
+
+.fl_grey1::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey1.svg);
+}
+
+.fl_grey2::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey2.svg);
+}
+
+.fl_grey3::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey3.svg);
+}
+
+.fl_grey4::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey4.svg);
+}
+
+.fl_grey5::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey5.svg);
+}
+
+.fl_grey6::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey6.svg);
+}
+
+.fl_grey7::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey7.svg);
+}
+
+.fl_grey8::before {
+    content: url(./dist/css/svg/icon_flatLine_Grey8_Trans.svg);
+}
+
+.fl_red1::before {
+    content: url(./dist/css/svg/icon_flatLine_Red1.svg);
+}
+
+.fl_red2::before {
+    content: url(./dist/css/svg/icon_flatLine_Red2.svg);
+}
+
+.fl_red3::before {
+    content: url(./dist/css/svg/icon_flatLine_Red3.svg);
+}
+
+.fl_ora1::before {
+    content: url(./dist/css/svg/icon_flatLine_Orange1.svg);
+}
+
+.fl_ora2::before {
+    content: url(./dist/css/svg/icon_flatLine_Orange2.svg);
+}
+
+.fl_ora3::before {
+    content: url(./dist/css/svg/icon_flatLine_Orange3.svg);
+}
+
+.fl_ora4::before {
+    content: url(./dist/css/svg/icon_flatLine_Orange4.svg);
+}
+
+.fl_ora5::before {
+    content: url(./dist/css/svg/icon_flatLine_Orange5.svg);
+}
+
+.fl_yel1::before {
+    content: url(./dist/css/svg/icon_flatLine_Yellow1.svg);
+}
+
+.fl_yel2::before {
+    content: url(./dist/css/svg/icon_flatLine_Yellow2.svg);
+}
+
+.fl_yel3::before {
+    content: url(./dist/css/svg/icon_flatLine_Yellow3.svg);
+}
+
+.fl_gre1::before {
+    content: url(./dist/css/svg/icon_flatLine_Green1.svg);
+}
+
+.fl_gre2::before {
+    content: url(./dist/css/svg/icon_flatLine_Green2.svg);
+}
+
+.fl_gre3::before {
+    content: url(./dist/css/svg/icon_flatLine_Green3.svg);
+}
+
+.fl_gre4::before {
+    content: url(./dist/css/svg/icon_flatLine_Green4.svg);
+}
+
+.fl_gre5::before {
+    content: url(./dist/css/svg/icon_flatLine_Green5.svg);
+}
+
+.fl_tea1::before {
+    content: url(./dist/css/svg/icon_flatLine_Teal1.svg);
+}
+
+.fl_tea2::before {
+    content: url(./dist/css/svg/icon_flatLine_Teal2.svg);
+}
+
+.fl_tea3::before {
+    content: url(./dist/css/svg/icon_flatLine_Teal3.svg);
+}
+
+.fl_blu1::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue1.svg);
+}
+
+.fl_blu2::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue2.svg);
+}
+
+.fl_blu3::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue3.svg);
+}
+
+.fl_blu4::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue4.svg);
+}
+
+.fl_blu5::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue5.svg);
+}
+
+.fl_blu6::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue6.svg);
+}
+
+.fl_blu7::before {
+    content: url(./dist/css/svg/icon_flatLine_Blue7.svg);
+}
+
+.fl_ind1::before {
+    content: url(./dist/css/svg/icon_flatLine_Indigo1.svg);
+}
+
+.fl_ind2::before {
+    content: url(./dist/css/svg/icon_flatLine_Indigo2.svg);
+}
+
+.fl_pur1::before {
+    content: url(./dist/css/svg/icon_flatLine_Purple1.svg);
+}
+
+.fl_pur2::before {
+    content: url(./dist/css/svg/icon_flatLine_Purple2.svg);
+}
+
+.fl_pur3::before {
+    content: url(./dist/css/svg/icon_flatLine_Purple3.svg);
+}
+
+.fl_pur4::before {
+    content: url(./dist/css/svg/icon_flatLine_Purple4.svg);
+}
+
+.fl_pin1::before {
+    content: url(./dist/css/svg/icon_flatLine_Pink1.svg);
+}
+
+.fl_pin2::before {
+    content: url(./dist/css/svg/icon_flatLine_Pink2.svg);
+}
+
+.fl_pin3::before {
+    content: url(./dist/css/svg/icon_flatLine_Pink3.svg);
+}
+
+.ar_L::before {
+    content: url(./dist/css/svg/icon_ArrowLeft.svg);
+}
+
+.ar_R::before {
+    content: url(./dist/css/svg/icon_ArrowRight.svg);
+}
+
+.ar_U::before {
+    content: url(./dist/css/svg/icon_ArrowUp.svg);
+}
+
+.ar_D::before {
+    content: url(./dist/css/svg/icon_ArrowDown.svg);
+}
+
+.fa-link-gl::before {
+    color: #ec891a;
+}
+
+.fa-link-ex::before {
+    color: #3d85c6;
+}
+
+.imgIcon img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.imgIcon.block-wide img {
+    width: 100%;
+    max-width: none;
+}
+
+/* make the source editor more readable */
+
+.cm-s-hopscotch span.cm-tag {
+    color: white;
+}
+
+.cm-s-hopscotch span.cm-error {
+    color: white;
+}
+
+/* grapes flex style sector styles */
+
+.icons-flex {
+    background-size: 70% 65% !important;
+    height: 15px;
+    width: 17px;
+    opacity: 0.9;
+}
+
+.icon-dir-row {
+    background: url("./img/flex/flex-dir-row.png") no-repeat center;
+}
+
+.icon-dir-row-rev {
+    background: url("./img/flex/flex-dir-row-rev.png") no-repeat center;
+}
+
+.icon-dir-col {
+    background: url("./img/flex/flex-dir-col.png") no-repeat center;
+}
+
+.icon-dir-col-rev {
+    background: url("./img/flex/flex-dir-col-rev.png") no-repeat center;
+}
+
+.icon-just-start {
+    background: url("./img/flex/flex-just-start.png") no-repeat center;
+}
+
+.icon-just-end {
+    background: url("./img/flex/flex-just-end.png") no-repeat center;
+}
+
+.icon-just-sp-bet {
+    background: url("./img/flex/flex-just-sp-bet.png") no-repeat center;
+}
+
+.icon-just-sp-ar {
+    background: url("./img/flex/flex-just-sp-ar.png") no-repeat center;
+}
+
+.icon-just-sp-cent {
+    background: url("./img/flex/flex-just-sp-cent.png") no-repeat center;
+}
+
+.icon-al-start {
+    background: url("./img/flex/flex-al-start.png") no-repeat center;
+}
+
+.icon-al-end {
+    background: url("./img/flex/flex-al-end.png") no-repeat center;
+}
+
+.icon-al-str {
+    background: url("./img/flex/flex-al-str.png") no-repeat center;
+}
+
+.icon-al-center {
+    background: url("./img/flex/flex-al-center.png") no-repeat center;
+}
+
+/* related to custom UI */
+
+.gjs-pn-panel {
+    position: relative;
+    text-align: left;
+}
+
+.fraction_Inline_gjs {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 1.2vh;
+    vertical-align: middle;
+    margin: -0.2vh 0 -0.2vh 0;
+}
+
+.text_NumeratorB_gjs {
+    border-bottom: thin black solid;
+    color: black;
+    width: auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text_DenominatorB_gjs {
+    width: auto;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+
+.text_NumeratorW_gjs {
+    border-bottom: thin white solid;
+    color: white;
+    width: auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text_DenominatorW_gjs {
+    width: auto;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.column {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+    overflow: auto;
+}
+
+.editor-clm {
+    display: flex;
+    flex-direction: column;
+}
+
+.gjs-cv-canvas {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+}
+
+.gjs-blocks-cs {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+}
+
+#options {
+    right: 0;
+    text-align: center;
+}
+
+.gjs-pn-buttons {
+    display: inline-block;
+}
+
+#devices {
+    display: inline-block;
+    width: 150px;
+}
+
+#style-manager {
+    border: 1px solid rgb(58, 58, 58);
+}
+
+.gjs-frame {
+    position: relative;
+}
+
+.gjs-cv-canvas #gjs-tools {
+    width: 100%;
+    height: 100%;
+}
+
+.column.gjs-pn-panel::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.column.gjs-pn-panel::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.column.gjs-pn-panel::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.gjs-editor-cont ::-webkit-scrollbar {
+    height: 8px;
+}
+
+.awesomplete {
+    width: 100%;
+}
+
+.awesomplete li {
+    color: grey;
+}
+
+/* make the asset manager taller */
+
+.gjs-am-assets-cont {
+    height: 83vh;
+}
+
+.gjs-am-assets {
+    /* 40px from padding, 2rem from path and filter lines */
+    height: calc(100% - 40px - 2rem);
+}
+
+/* this fixes an issue in Chrome where the caret was disapearing at zoom levels < 100%  */
+
+.cm-s-hopscotch .CodeMirror-cursor {
+    border-left: 1.4px solid #989498 !important;
+}
+
+.gjs-block {
+    overflow-wrap: break-word;
+}
+
+.block-wide {
+    width: 100%;
+    min-height: auto;
+}
+
+.CodeMirror-dialog {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: inherit;
+    z-index: 15;
+    padding: 0.1em 0.8em;
+    overflow: hidden;
+    color: inherit;
+}
+
+.CodeMirror-dialog-top {
+    border-bottom: 1px solid #eee;
+    top: 0;
+}
+
+.CodeMirror-dialog-bottom {
+    border-top: 1px solid #eee;
+    bottom: 0;
+}
+
+.CodeMirror-dialog input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 20em;
+    color: inherit;
+    font-family: monospace;
+}
+
+.CodeMirror-dialog button {
+    font-size: 70%;
+}
+
+.gjs-mdl-dialog {
+    margin-top: 30px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    max-width: none !important;
+    max-height: calc(100% - 60px);
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gjs-mdl-content {
+    flex-grow: 1;
+    max-height: 100%;
+    min-height: 0;
+    height: 100%;
+}
+
+#gjs-mdl-c {
+    height: 100%;
+}
+
+input[type="sourcePath"] {
+    border: #aaa medium double;
+}
+
+input[type="sourcePath"] {
+    border: #aaa medium double;
+}

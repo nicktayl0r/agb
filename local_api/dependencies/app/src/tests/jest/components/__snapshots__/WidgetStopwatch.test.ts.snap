@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 1`] = `
+<span
+  class=""
+  end_ms="5000"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="0"
+  text="stopwatch text"
+>
+  
+	0
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 2`] = `
+<span
+  class=""
+  end_ms="0"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="5000"
+  text="stopwatch text"
+>
+  
+	5
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 3`] = `
+<span
+  class=""
+  end_ms="300000"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="0"
+  text="stopwatch text"
+>
+  
+	0
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 4`] = `
+<span
+  class=""
+  end_ms="0"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="300000"
+  text="stopwatch text"
+>
+  
+	5
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 5`] = `
+<span
+  class=""
+  end_ms="5000"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="0"
+  text="stopwatch text"
+>
+  
+	00:00
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 6`] = `
+<span
+  class=""
+  end_ms="0"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="5000"
+  text="stopwatch text"
+>
+  
+	05:00
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 7`] = `
+<span
+  class=""
+  end_ms="300000"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="0"
+  text="stopwatch text"
+>
+  
+	00:00
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 8`] = `
+<span
+  class=""
+  end_ms="0"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="300000"
+  text="stopwatch text"
+>
+  
+	05:00:00
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 9`] = `
+<span
+  class=""
+  end_ms="300000"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="0"
+  text="stopwatch text"
+>
+  
+	00 hrs 00 mins
+
+</span>
+`;
+
+exports[`WidgetStopwatch snapshot stopwatch snapshots 10`] = `
+<span
+  class=""
+  end_ms="0"
+  id="testWidgetStopwatch"
+  play-state="default"
+  speed="1"
+  start_ms="300000"
+  text="stopwatch text"
+>
+  
+	00 hrs 05 mins
+
+</span>
+`;

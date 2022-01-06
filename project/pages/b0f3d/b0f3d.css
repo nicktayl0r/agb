@@ -1,0 +1,90 @@
+.simPreview.pageb0f3d {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: #000000;
+}
+
+.simParent.pageb0f3d {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin: 0em 0px 0px 0px;
+}
+
+.simPageContent.pageb0f3d {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.div_PlayReplay.pageb0f3d {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh;
+	border-width: 0.2vh;
+	border-style: solid;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: 1.5vh;
+}
+
+.text_PlayReplay.pageb0f3d {
+	margin-left: 1.5vh;
+}
+
+.div_belowGrid.pageb0f3d {
+	display: grid;
+	align-items: center;
+}
+
+.farmButtonGrid.pageb0f3d {
+	grid-template-columns: 2fr 1fr 7fr 0.2fr;
+	grid-template-rows: 2.7fr 5fr;
+	display: grid;
+}
+
+.farmAnchor.pageb0f3d {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.beeAnchor.pageb0f3d {
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+.beeButton.pageb0f3d {
+	width: 10vh;
+	height: 10vh;
+	justify-self: end;
+	align-self: end;
+	margin: 0 0 8vh 0;
+}
+
+.buttonFillSq.pageb0f3d {
+	width: 10vh;
+	height: 10vh;
+}
+
+.farmPopper.pageb0f3d {
+	width: 45vh;
+}
+
+.pageb0f3d.beePopper {
+	width: 50vh;
+}
+
+

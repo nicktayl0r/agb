@@ -1,0 +1,1 @@
+This folder contains all files related to the case portion of the interactive case.

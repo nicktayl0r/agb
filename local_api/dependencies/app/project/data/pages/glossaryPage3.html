@@ -1,0 +1,22 @@
+glossary page 3
+<br>
+<br>
+<span>
+<container-enable-disable id="enable">
+    <div>
+    <container-show-hide id="show">
+        <widget-image id="img3" src="https://steamuserimages-a.akamaihd.net/ugc/366280865472644785/B691F4FE51FFC45C2962845A95BB43437F276C79/"/>
+        <widget-textarea id="p3textbox1" placeholder="type your answer here" :conditions="{conditionList:[
+            {   
+                comparisons:[
+                    {comparisonData:{comparisonType:'trackVal', trackID:'testGlossary'}}
+                ],
+                effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'p3textbox1', key:'text', val:'track detected testGlossary'}},],
+                effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'p3textbox1', key:'text', val:'track detected not testGlossary'}},],
+                evaluateWhen:'pageLoads'
+            },
+        ]}" />
+    </container-show-hide>
+</div>
+</container-enable-disable>
+</span>

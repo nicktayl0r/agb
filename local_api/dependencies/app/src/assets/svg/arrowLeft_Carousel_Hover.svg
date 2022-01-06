@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 129 118">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #55bcea;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="64.42" y1="113.89" x2="64.42" y2="8.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55bdea"/>
+      <stop offset="1" stop-color="#7fd7fe"/>
+    </linearGradient>
+  </defs>
+  <title>arrowLeft_Carousel_Hover</title>
+  <g id="arrow_Carousel_Hover">
+    <g id="arrowLeft_Large_Button_Hover_SVG">
+      <g id="arrowLeft_Large_Button_Hover_SVG-2" data-name="arrowLeft_Large_Button_Hover_SVG" class="cls-1">
+        <path class="cls-2" d="M50.42,5.35C43.47,12.31,10,46.7,5.88,51a12.51,12.51,0,0,0-3.31,8.2,12.16,12.16,0,0,0,3.31,8.06C10,71.6,43.47,106,50.42,113c5.25,5.25,13.72,2.2,13.72-5.45V85h51.42c6.2,0,10.71-5.64,10.71-11.47V44.82c0-5.83-4.51-11.46-10.71-11.46H64.14V10.8C64.14,3.15,55.67.1,50.42,5.35Z"/>
+      </g>
+      <g id="arrowLeft_Large_Button_Hover_SVG-3" data-name="arrowLeft_Large_Button_Hover_SVG">
+        <path class="cls-3" d="M56.48,2.73a7.66,7.66,0,0,1,7.66,8.07V33.36h51.42c6.2,0,10.71,5.63,10.71,11.46V73.48c0,5.83-4.51,11.47-10.71,11.47H64.14V107.5a7.66,7.66,0,0,1-7.66,8.07A8.55,8.55,0,0,1,50.42,113c-7-7-40.4-41.35-44.54-45.67a12.16,12.16,0,0,1-3.31-8.06A12.51,12.51,0,0,1,5.88,51C10,46.7,43.47,12.31,50.42,5.35a8.59,8.59,0,0,1,6.06-2.62m0-2A10.56,10.56,0,0,0,49,3.94C41.79,11.16,8.33,45.57,4.44,49.64A14.45,14.45,0,0,0,.57,59.17v.1a14.16,14.16,0,0,0,3.87,9.39c3.89,4.07,37.34,38.48,44.57,45.7a10.56,10.56,0,0,0,7.47,3.21c5.51,0,9.66-4.33,9.66-10.07V87h49.42c7.6,0,12.71-7,12.71-13.47V44.82c0-6.5-5.11-13.46-12.71-13.46H66.14V10.8C66.14,5.06,62,.73,56.48.73Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

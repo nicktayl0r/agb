@@ -1,0 +1,77 @@
+<div class="simParent page4823c">
+  <widget-sim-view id="ipft" scenename="Sahara_Farm_Map" simstateid="vo8p52" :visible="false" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iusk',key:'enabled',val:true},fireOnceID:'firstButtonEnabled_page4823c',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page4823c" />
+  <widget-button :visible="true" :enabled="false" id="iusk" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iusk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue page4823c button_1">
+    <div class="buttonFillSq page4823c">
+      <p class="colorWhite textCenter page4823c text_Experiment1a">Experiment 3</p>
+      <widget-image src="../../assets/images/beehive_Manmade2_Bees_IMG.png" :visible="true" id="ia8n" class="page4823c image_Cotton" />
+      <p class="colorWhite textCenter page4823c text_Experiment1b">Add fake hives.<br />The elephants will see the beehives and be scared away.</p>
+    </div>
+  </widget-button>
+  <container-show-hide :visible="false" id="ipf1y" class="page4823c SH_PlantingSeeds dropShadow">
+    <widget-image src="../../assets/movies/plantSeeds_Corn_APNG.png" :visible="true" id="i1eo1" class="page4823c APNG_PlantSeeds" />
+  </container-show-hide>
+  <container-show-hide :visible="true" id="iitq4" class="page4823c anchor_WhitePopper"></container-show-hide>
+  <widget-popper :visible="false" :click-to-dismiss="false" id="imifw" :delay="0" :delay-once="false" anchor-id="iitq4" :options="{placement:'top'}" class="page4823c"><span class="page4823c">The trampled corn is now replaced with new corn.</span></widget-popper>
+  <container-show-hide :visible="false" id="ia9d" class="simPageContent farmMapSimClose_PageContent page4823c">
+    <div class="page4823c div_farmGrid">
+      <container-show-hide :visible="false" id="i702" class="dropShadow textBackgroundBasic popper_ArrowWidget_White page4823c">
+        <p class="page4823c">Fake hives have been added.</p>
+        <widget-arrow :visible="true" id="it9m" :source-offset-x="100" :source-offset-y="50" :target-offset-x="100" :target-offset-y="100" source-id="i702" color="var(--color-grey2)" :width="3" :show-head="true" :duration="0" :delay="0" target-id="iysm" class="page4823c" />
+        <widget-arrow :visible="true" :source-offset-x="100" :source-offset-y="50" :target-offset-x="100" :target-offset-y="100" source-id="i702" color="var(--color-grey2)" :width="3" :show-head="true" :duration="0" :delay="0" id="ic3la" target-id="iyfvo" class="page4823c" />
+      </container-show-hide>
+      <container-show-hide :visible="true" id="iysm" class="page4823c anchor_GridPos anchor_1"></container-show-hide>
+      <container-show-hide :visible="true" id="iyfvo" class="page4823c anchor_GridPos anchor_2"></container-show-hide>
+      <widget-drop :visible="true" :enabled="true" :max-children="1" overflow-style="reset-child" id="ioqt" class="drop_Appearance drop_1 page4823c noSelect"></widget-drop>
+      <widget-drop :visible="false" :enabled="true" :max-children="1" overflow-style="reset-child" id="ihwrl" class="drop_Appearance drop_1 page4823c noSelect"></widget-drop>
+    </div>
+    <div class="div_belowGrid page4823c">
+      <div class="div_DragStart page4823c">
+        <widget-drop :visible="true" :enabled="true" :max-children="1" overflow-style="reset-child" id="ivj9" class="startingDrop_Appearance page4823c"></widget-drop>
+        <widget-drag :visible="true" :enabled="true" id="iegd" :child-index="0" drop-id="ivj9" group-id="" correct-drop-ids="['ioqt']" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'dropsHaveDrags',dropIDs:['ioqt']}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ioqt',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iegd',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ivj9',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'simstateid',val:'qr6dvo'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i702',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iv88',key:'visible',val:true},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="drag_Appearance dragButtons_Appearance page4823c">
+          <div class="div_DragFiller page4823c">
+            <widget-button :visible="true" :enabled="true" id="i3c7" class="buttonBasic_Image page4823c button_Hive noSelect">
+              <widget-image :visible="true" id="ii2q" src="../../assets/images/icons/beehive_Manmade2_Night_Icon_IMG.png" class="buttonImage page4823c" />
+            </widget-button>
+          </div>
+        </widget-drag>
+      </div>
+      <div class="div_DragStart page4823c">
+        <widget-drop :visible="false" :enabled="true" :max-children="1" overflow-style="reset-child" id="i5knw" class="startingDrop_Appearance page4823c"></widget-drop>
+        <widget-drag :visible="false" :enabled="true" :child-index="0" drop-id="i5knw" group-id="" correct-drop-ids="['ioqt']" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'dropsHaveDrags',dropIDs:['ihwrl']}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ipovm',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihwrl',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i7wni',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'simstateid',val:'m8cumq'},fireOnceID:'',delay:3},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:false},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'imifw',key:'visible',val:true},fireOnceID:'',delay:7},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:10}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" id="i7wni" class="drag_Appearance dragButtons_Appearance page4823c">
+          <div class="div_DragFiller page4823c">
+            <widget-button :visible="true" :enabled="true" id="i4l2g" class="buttonBasic_Image page4823c button_Hive noSelect">
+              <widget-image :visible="true" src="../../assets/images/seeds_Corn_IMG.png" id="ir0dm" class="buttonImage page4823c" />
+            </widget-button>
+          </div>
+        </widget-drag>
+      </div>
+      <widget-popper :visible="false" :click-to-dismiss="false" id="ikl1" :delay="0" :delay-once="false" anchor-id="i3c7" :options="{placement:'right'}" class="textBackground-Popup-Blue page4823c"><span class="page4823c">Help Farmer Lucy add fake hives around the farm.</span></widget-popper>
+      <widget-popper :visible="false" :click-to-dismiss="false" :delay="0" :delay-once="false" anchor-id="i4l2g" :options="{placement:'right'}" id="ipovm" class="textBackground-Popup-Blue page4823c"><span class="page4823c">Next, help Farmer Lucy plant new corn<br/>by dragging the seeds onto the farm.</span></widget-popper>
+      <widget-button :visible="false" :enabled="true" id="iv88" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iv88',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i702',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i5knw',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i7wni',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihwrl',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipovm',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue page4823c button_Next">
+        <p class="page4823c">Next</p>
+      </widget-button>
+    </div>
+    <div class="div_farmMapSimKey page4823c">
+      <div class="div_farmMapSimKeyItem page4823c">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i621" class="image_farmMapSimKeyItem page4823c" />
+        <p class="text_farmMapSimKeyItem page4823c">Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem page4823c">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="iujm" class="image_farmMapSimKeyItem page4823c" />
+        <p class="text_farmMapSimKeyItem page4823c">Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem page4823c">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="iwng" class="image_farmMapSimKeyItem page4823c" />
+        <p class="text_farmMapSimKeyItem page4823c">Trampled Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem page4823c">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="ibqm" class="image_farmMapSimKeyItem page4823c" />
+        <p class="text_farmMapSimKeyItem page4823c">Trampled Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem page4823c">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="ixus" class="image_farmMapSimKeyItem page4823c" />
+        <p class="text_farmMapSimKeyItem page4823c">Beehive</p>
+      </div>
+    </div>
+  </container-show-hide>
+</div>

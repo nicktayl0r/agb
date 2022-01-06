@@ -1,0 +1,54 @@
+page 4
+<br>
+<br>
+<widget-slider id="slider" shared-data-write-key="proj_SliderKey1" :min=100 :max=200 :val=150 :step=5></widget-slider>
+<br>
+<br>
+<widget-button id="sliderToggleVisibleButton" :clickEffects="{conditionList:[
+    {
+        comparisons:[
+        {comparisonData:{comparisonType:'widgetVal', widgetID:'slider', key:'visible', val:true}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'slider', key:'visible', val:false}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'slider', key:'visible', val:true}}]
+    }
+]}"
+    text="slider toggle visible" />
+<widget-button id="sliderToggleEnabledButton" :clickEffects="{conditionList:[
+    {
+        comparisons:[
+        {comparisonData:{comparisonType:'widgetVal', widgetID:'slider', key:'enabled', val:true}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'slider', key:'enabled', val:false}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'slider', key:'enabled', val:true}}]
+    }
+]}"
+    text="slider toggle enabled" />
+    <widget-button id="sliderReset" :clickEffects="{conditionList:[
+        {
+            effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'slider', key:'val', val:150}}]
+        }
+    ]}"
+        text="slider reset" />
+<widget-popper id="popper1" anchor-id="slider" class="textBackground-Popup-Blue" :clickToDismiss=false :conditions="{
+        conditionList:[ 
+            { 
+                evaluateWhen:'pageLoads',
+                effectsPass:[{effectData: {effectType:'updateWidget', widgetID:'popper1', key:'visible', val:false}, delay:3}]
+            }, 
+        ]}">
+    slide that thing
+</widget-popper>
+<br />
+<br />
+<br />
+<br />
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

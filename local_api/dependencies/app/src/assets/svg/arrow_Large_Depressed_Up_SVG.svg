@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123 490">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #55bcea;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="61.42" y1="485" x2="61.42" y2="5.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55bcea"/>
+      <stop offset="1" stop-color="#7ed6ff"/>
+    </linearGradient>
+  </defs>
+  <title>arrow_Large_Depressed_Up_PNG</title>
+  <g id="arrow_Large_Button_Down">
+    <path id="arrowUp_Large_Button_Down_SVG" class="cls-1" d="M115.22,53.15c-7-6.95-41.35-40.4-45.67-44.54a12.51,12.51,0,0,0-8.2-3.31,12.16,12.16,0,0,0-8.06,3.31C49,12.75,14.58,46.2,7.62,53.15c-5.25,5.25-2.2,13.72,5.45,13.72H35.63V474.29c0,6.2,5.63,10.71,11.46,10.71H75.75c5.83,0,11.46-4.51,11.46-10.71V66.87h22.56C117.42,66.87,120.47,58.4,115.22,53.15Z"/>
+  </g>
+</svg>

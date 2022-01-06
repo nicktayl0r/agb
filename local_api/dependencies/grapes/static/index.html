@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>GrapesJS Plugin project-api-plugin</title>
+		<link rel="icon" href="img/grapes-64-293005.png" />
+		<link rel="icon" href="img/favicon.ico" />
+		<link href="dist/css/grapes.min.css" rel="stylesheet" />
+		<!-- grapick is for the gradient plugin -->
+		<link href="dist/css/grapick.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./editor.css" />
+		<link rel="stylesheet" href="./jsoneditor.css" />
+		<!-- needed for select2 in the json editor -->
+		<link href="dist/css/select2.min.css" rel="stylesheet" />
+		<link href="dist/css/awesomplete.css" rel="stylesheet" />
+		<script src="dist/jquery-3.3.1.min.js"></script>
+		<script src="dist/select2.min.js"></script>
+		<!-- end needed for select2 in the json editor -->
+		<script src="jsonEditor/jsoneditor.min.js"></script>
+		<script src="ckeditor/ckeditor.js"></script>
+		<script src="dist/grapes.js"></script>
+		<script>
+			JSONEditor.defaults.theme = "bootstrap3";
+			JSONEditor.defaults.iconlib = "fontawesome4";
+		</script>
+	</head>
+
+	<body>
+		<div class="row" style="height:100%">
+			<div id="blocks" class="column" style="flex-basis: 300px">
+				Blocks
+				<hr />
+			</div>
+
+			<div class="column editor-clm">
+				<div id="options">
+					<div id="devices"></div>
+				</div>
+
+				<div id="gjs2" style="overflow:hidden;"></div>
+			</div>
+
+			<div id="layers" class="column" style="flex-basis: 600px;">
+				Layers
+				<hr />
+				<div id="layers-container"></div>
+			</div>
+
+			<div id="style-manager" class="column" style="flex-basis: 600px">
+				Component settings
+				<hr />
+				<div id="traits-container"></div>
+				<br />
+				Style Manager
+				<hr />
+				<div id="selectors-container"></div>
+				<div id="style-manager-container"></div>
+			</div>
+		</div>
+		<script src="./dist/project-api-plugin.min.js"></script>
+	</body>
+</html>

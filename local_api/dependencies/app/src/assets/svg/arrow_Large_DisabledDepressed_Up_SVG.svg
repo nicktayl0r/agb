@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 490">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9d9d9;
+        stroke: #d9d9d9;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <title>arrowUp_Large_Disabled_Up_PNG</title>
+  <g id="arrow_Large_Button_Disabled">
+    <path id="arrowUp_Large_Disabled_Up_SVG" class="cls-1" d="M115.22,53.15c-7-6.95-41.35-40.4-45.67-44.54a12.51,12.51,0,0,0-8.2-3.31,12.16,12.16,0,0,0-8.06,3.31C49,12.75,14.58,46.2,7.62,53.15c-5.25,5.25-2.2,13.72,5.45,13.72H35.63V474.29c0,6.2,5.63,10.71,11.46,10.71H75.75c5.83,0,11.46-4.51,11.46-10.71V66.87h22.56C117.42,66.87,120.47,58.4,115.22,53.15Z"/>
+  </g>
+</svg>

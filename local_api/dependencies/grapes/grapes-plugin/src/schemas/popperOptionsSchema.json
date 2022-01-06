@@ -1,0 +1,53 @@
+{
+	"title": "Popper options",
+	"description": "Click \"Properties\" to add some option properties. &uarr;",
+	"$ref": "#/definitions/Options",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"Options": {
+			"additionalProperties": false,
+			"properties": {
+				"placement": {
+					"description": "See <a  target='_blank' href='https://popper.js.org/popper-documentation.html#Popper.placements'>the popper.js documentation</a>. It helps to think of -start and -end as alignment, the popper will try to align it's edge with the edge of the element it's anchoring to.",
+					"$ref": "#/definitions/Placements",
+					"default": "top"
+				},
+				"positionFixed": {
+					"description": "Set this to true if you want popper to position it self in 'fixed' mode",
+					"type": "boolean",
+					"default": "false"
+				},
+				"eventsEnabled": {
+					"description": "Whether events (resize, scroll) are initially enabled",
+					"type": "boolean",
+					"default": "true"
+				},
+				"removeOnDestroy": {
+					"description": "Set to true if you want to automatically remove the popper when you call the destroy method.",
+					"type": "boolean",
+					"default": "false"
+				}
+			}
+		},
+		"Placements": {
+			"enum": [
+				"auto-start",
+				"auto",
+				"auto-end",
+				"top-start",
+				"top",
+				"top-end",
+				"right-start",
+				"right",
+				"right-end",
+				"bottom-end",
+				"bottom",
+				"bottom-start",
+				"left-end",
+				"left",
+				"left-start"
+			],
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,132 @@
+.pageButtons {
+    display: flex;
+    padding: 8px;
+}
+
+a.edit-link:before {
+    font-family: FontAwesome;
+    content: "\f044";
+}
+
+.edit-link {
+    /* margin-left: 0.5em; */
+    margin-right: 0.5em;
+    flex: 1;
+}
+
+.launch-link {
+    flex: 1;
+}
+
+a.launch-link:before {
+    /* content: url("./css/space-shuttle.svg"); */
+    content: "";
+    display: inline-block;
+    background: url("./css/space-shuttle.svg") no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 6px -6px 0;
+}
+
+@media (min-width: 992px) {
+    .tabs.list-group.col-md-2 {
+        width: 24em;
+    }
+
+    .tabs.list-group.col-md-2+.col-md-10 {
+        width: calc(100% - 24em);
+    }
+}
+
+.list-group-item {
+    padding: 0.5em;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+#popper {
+    background: white;
+    color: black;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    width: 28em;
+    box-shadow: 0 4px 8px 0 rgba(17, 18, 17, 0.25),
+        0 6px 20px 0 rgba(17, 18, 17, 0.25);
+    z-index: 3;
+}
+
+#popper img {
+    width: 100%;
+}
+
+#popper[data-popper-reference-hidden] {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#arrow,
+#arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: -1;
+}
+
+#arrow::before {
+    content: '';
+    transform: rotate(45deg);
+    background: white;
+}
+
+#popper[data-popper-placement^='top']>#arrow {
+    bottom: -4px;
+}
+
+#popper[data-popper-placement^='bottom']>#arrow {
+    top: -4px;
+}
+
+#popper[data-popper-placement^='left']>#arrow {
+    right: -4px;
+}
+
+#popper[data-popper-placement^='right']>#arrow {
+    left: -4px;
+}
+
+.popperContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+.styleTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#popperClose {
+    align-self: center;
+    padding: 0px;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+}
+
+.infoButton {
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 0;
+    border: 0;
+}

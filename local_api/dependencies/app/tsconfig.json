@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,
+    "declarationDir": "./types/",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "pretty": true,
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "es6"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "true-myth/*": ["node_modules/true-myth/dist/types/src/*"],
+      "@playcanvas": ["../PlaycanvasEngine/dist"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "exclude": ["node_modules", "src/tests/testcafe"]
+}

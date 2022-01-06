@@ -1,0 +1,2067 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "grid_Visuals",
+					"label": "grid_Visuals",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "grid_Visuals",
+			"components": [
+				{
+					"tagName": "widget-image",
+					"type": "widget-image",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "image_Bee1",
+							"label": "image_Bee1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"src": "../../assets/images/bee_Sunset_IMG.png",
+						":visible": "true",
+						"id": "i7zg"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetImage",
+					"custom-name": "image_Bee1",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "widget-button",
+					"type": "widget-button",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "button_Bee2",
+							"label": "button_Bee2",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "buttonBasic_Image",
+							"label": "buttonBasic_Image",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": "false",
+						":enabled": "false",
+						"id": "is3h",
+						":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'is3h',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i025',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iz2nj',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itji',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itvc5',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetButton",
+					"custom-name": "button_Bee2",
+					"components": [
+						{
+							"tagName": "widget-image",
+							"type": "widget-image",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": true,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "image_Bee2",
+									"label": "image_Bee2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "true",
+								"id": "iz44",
+								"src": "../../assets/movies/bee_MemoryBrain_Sunset_APNG.png"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetImage",
+							"custom-name": "button_Image_Bee2",
+							"components": [],
+							"open": false
+						}
+					],
+					"open": false
+				},
+				{
+					"tagName": "widget-button",
+					"type": "widget-button",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": {},
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "button_Flower",
+							"label": "button_Flower",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "buttonBasic_BigBlink_Image",
+							"label": "buttonBasic_BigBlink_Image",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": true,
+						":enabled": true,
+						"id": "ilcg",
+						":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ilcg',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iasn',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'is3h',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'irp8',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'is3h',key:'enabled',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetButton",
+					"custom-name": "button_Flower",
+					"components": [
+						{
+							"tagName": "widget-image",
+							"type": "widget-image",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": true,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "image_Flower",
+									"label": "image_Flower",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": true,
+								"id": "iapj",
+								"src": "../../assets/images/flower_Cotton_IMG.png"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetImage",
+							"custom-name": "button_Image_Flower",
+							"components": [],
+							"open": false
+						}
+					],
+					"open": false
+				},
+				{
+					"tagName": "widget-arrow",
+					"type": "widget-arrow",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": "false",
+						"id": "irp8",
+						":source-offset-x": "80",
+						":source-offset-y": "1",
+						":target-offset-x": "10",
+						":target-offset-y": "35",
+						"source-id": "ilcg",
+						"color": "rgb(27, 41, 55)",
+						":width": "5",
+						":show-head": "true",
+						":duration": "0",
+						":delay": "0",
+						"target-id": "i7zg",
+						"control-points": "0.25,-2 0.75,-1.5"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetArrow",
+					"custom-name": "arrow_1",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "widget-arrow",
+					"type": "widget-arrow",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": "false",
+						":source-offset-x": "50",
+						":source-offset-y": "100",
+						":target-offset-x": "100",
+						":target-offset-y": "50",
+						"source-id": "i7zg",
+						"color": "rgb(27, 41, 55)",
+						":width": "5",
+						":show-head": "true",
+						":duration": "0",
+						":delay": "0",
+						"target-id": "ilcg",
+						"control-points": "1,1 0.3,1.4",
+						"id": "iz2nj"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetArrow",
+					"custom-name": "arrow_2",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "container-show-hide",
+					"type": "container-show-hide",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "SH_Label",
+							"label": "SH_Label",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "SH_Label_Nectar",
+							"label": "SH_Label_Nectar",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": false,
+						"id": "itji"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "ContainerShowHide",
+					"custom-name": "SH_Label_Nectar",
+					"components": [
+						{
+							"tagName": "widget-arrow",
+							"type": "widget-arrow",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": true,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": true,
+								":source-offset-x": 50,
+								":source-offset-y": 105,
+								":target-offset-x": 100,
+								":target-offset-y": 50,
+								"source-id": "itji",
+								"color": "white",
+								":width": 3,
+								":show-head": true,
+								":duration": 0,
+								":delay": 0,
+								"target-id": "ijfl",
+								"control-points": "",
+								"id": "iewcl"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetArrow",
+							"custom-name": "arrow_3",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "p",
+							"type": "text",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": true,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "Nectar",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "text_Labels",
+									"label": "text_Labels",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "text_Nectar",
+							"components": [],
+							"open": false
+						}
+					],
+					"open": false
+				},
+				{
+					"tagName": "container-show-hide",
+					"type": "container-show-hide",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "SH_Label",
+							"label": "SH_Label",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "SH_Label_Pollen",
+							"label": "SH_Label_Pollen",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": false,
+						"id": "itvc5"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "ContainerShowHide",
+					"custom-name": "SH_Label_Pollen",
+					"components": [
+						{
+							"tagName": "widget-arrow",
+							"type": "widget-arrow",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": true,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": true,
+								":source-offset-x": -5,
+								":source-offset-y": 50,
+								":target-offset-x": 100,
+								":target-offset-y": 50,
+								"source-id": "itvc5",
+								"color": "white",
+								":width": 3,
+								":show-head": true,
+								":duration": 0,
+								":delay": 0,
+								"target-id": "i3opj",
+								"control-points": "",
+								"id": "ijmpd"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetArrow",
+							"custom-name": "arrow_4",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "p",
+							"type": "text",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": false,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": true,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "Pollen",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "text_Labels",
+									"label": "text_Labels",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "text_Pollen",
+							"components": [],
+							"open": false
+						}
+					],
+					"open": false
+				},
+				{
+					"tagName": "container-show-hide",
+					"type": "container-show-hide",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "anchor_Arrow_Pos",
+							"label": "anchor_Arrow_Pos",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "anchor_Arrow3",
+							"label": "anchor_Arrow3",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": true,
+						"id": "ijfl"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "ContainerShowHide",
+					"custom-name": "anchor_Arrow3",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "container-show-hide",
+					"type": "container-show-hide",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "anchor_Arrow_Pos",
+							"label": "anchor_Arrow_Pos",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "anchor_Arrow4",
+							"label": "anchor_Arrow4",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						":visible": "true",
+						"id": "i3opj"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "ContainerShowHide",
+					"custom-name": "anchor_Arrow4",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_T4",
+							"label": "grid_T4",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page379d1",
+							"label": "page379d1",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T4_TextTop",
+					"components": [
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "item1_T4",
+									"label": "item1_T4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								"id": "iasn"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "item1_T4",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "When they see a flower, a signal is sent to their brain.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page379d1",
+											"label": "page379d1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_basic_BackgroundDarkBlue",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page379d1",
+									"label": "page379d1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "item2_T4",
+									"label": "item2_T4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								"id": "i025"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "item2_T4",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "The bee then flies to the flower to collect nectar and pollen.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page379d1",
+											"label": "page379d1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_basic_BackgroundDarkBlue",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						}
+					],
+					"open": false
+				}
+			],
+			"open": false
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_Visuals",
+					"label": "grid_Visuals",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"overflow": "hidden",
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"width": "100%",
+				"height": "100%",
+				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_Sky_Sunset_IMG.jpg)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "cover"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T4",
+					"label": "grid_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"padding": "6vh",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1",
+				"width": "auto",
+				"align-self": "start",
+				"justify-self": "start"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T4",
+					"label": "item2_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "2",
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "2",
+				"grid-row-end": "span 1",
+				"justify-self": "end",
+				"align-self": "end",
+				"width": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "image_Bee1",
+					"label": "image_Bee1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"width": "30vh",
+				"height": "32vh",
+				"margin": "-30vh -66vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_Bee2",
+					"label": "button_Bee2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "-30vh -66vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "image_Bee2",
+					"label": "image_Bee2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "31vh",
+				"height": "33vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_Flower",
+					"label": "button_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "start",
+				"align-self": "end",
+				"margin": "0 0 -13vh 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "image_Flower",
+					"label": "image_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "60vh",
+				"height": "74.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_Arrow_Pos",
+					"label": "anchor_Arrow_Pos",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "0",
+				"height": "0",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_Arrow3",
+					"label": "anchor_Arrow3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 -28vh -59vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_Arrow4",
+					"label": "anchor_Arrow4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 -22vh -49vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "SH_Label",
+					"label": "SH_Label",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "2",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"width": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "SH_Label_Pollen",
+					"label": "SH_Label_Pollen",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 -44vh -30vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "SH_Label_Nectar",
+					"label": "SH_Label_Nectar",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 0 -73vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_Labels",
+					"label": "text_Labels",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"color": "white",
+				"font-size": "3vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Flower",
+					"label": "button_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBasic_Image",
+					"label": "buttonBasic_Image",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Flower",
+					"label": "button_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBasic_Image",
+					"label": "buttonBasic_Image",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBgImgBlinkBlue",
+					"label": "buttonBgImgBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Flower",
+					"label": "button_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBasic_Image",
+					"label": "buttonBasic_Image",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "imageOutline",
+					"label": "imageOutline",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "image_Flower",
+					"label": "image_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "imageOutline",
+					"label": "imageOutline",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "dropShadow",
+					"label": "dropShadow",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackgroundBasic",
+					"label": "textBackgroundBasic",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackground-DarkBlue",
+					"label": "textBackground-DarkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page379d1",
+					"label": "page379d1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_Flower",
+					"label": "button_Flower",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBasic_BigBlink_Image",
+					"label": "buttonBasic_BigBlink_Image",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

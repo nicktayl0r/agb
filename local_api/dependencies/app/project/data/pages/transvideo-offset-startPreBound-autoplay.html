@@ -1,0 +1,133 @@
+<div style="background-color: red">
+        <br />
+        <br />
+        <widget-button id="vidVisible" :clickEffects="{
+            conditionList:[ 
+            { 
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'videoTest', key:'visible', val:true}},
+                ]
+            }   
+            ] 
+        } "
+            text="set visible" />
+        <widget-button id="playvideo" :clickEffects="{
+            conditionList:[ 
+            { 
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'videoTest', key:'playState', val:'play'}}
+                ]
+            }   
+            ] 
+        } "
+            text="play video " />
+        <widget-button id="pausevideo" :clickEffects="{
+            conditionList:[ 
+            { 
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'videoTest', key:'playState', val:'pause'}}
+                ]
+            }   
+            ] 
+        } "
+            text="pause video " />
+        <widget-button id="stopvideo" :clickEffects="{
+            conditionList:[ 
+            { 
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'videoTest', key:'playState', val:'stop'}}
+                ]
+            }   
+            ] 
+        } "
+            text="stop video " />
+        <widget-transparent-video :visible=true id="videoTest" play-state="play"
+        src-mp4="./assets/videos/test_timecode_trans.mp4" src-webm="./assets/videos/test_timecode_trans.webm" src-mp4ios="./assets/videos/test_timecode_trans_iOS.mp4"
+        :start-time="-2" :end-time="2"
+         :loop=true poster="./assets/videos/test_timecode_trans_poster.png" :alphaMask=false :muted=true :speed=1.0 :playEffects="{conditionList:[
+            {
+                effectsPass:[ 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:true}}, 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPause', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidStop', key:'visible', val:false}},
+                {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'video-playCount', incrementValue: 1}}  
+                ], 
+            }, 
+        ]}"
+        :pauseEffects="{conditionList:[
+            {
+                effectsPass:[ 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:false}}, 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPause', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidLoop', key:'visible', val:false}},
+                {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'video-pauseCount', incrementValue: 1}}  
+                ], 
+            }, 
+        ]}"
+        :loopEffects="{conditionList:[
+            {
+                effectsPass:[ 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidLoop', key:'visible', val:true}},
+                {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'video-loopCount', incrementValue: 1}} 
+                ], 
+            }, 
+        ]}"
+        :stopEffects="{conditionList:[
+            {
+                effectsPass:[ 
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidLoop', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidPause', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'onVidStop', key:'visible', val:true}},
+                {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'video-stopCount', incrementValue: 1}}
+                ], 
+            }, 
+        ]}"
+        :endEffects="{conditionList:[
+            {
+                effectsPass:[
+                {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'video-endCount', incrementValue: 1}}
+                ], 
+            }, 
+        ]}" class="videoFill" style="width: 20rem; height: 20rem;"></widget-transparent-video>
+            <container-show-hide id="onVidPlay" :visible=false>
+                    <div style="display: flex; flex-direction: row;">
+                        <span>Video Playing | Play-count:</span>
+                        <widget-shared-data-text id="playCount" shared-data-read-key="video-playCount"></widget-shared-data-text>
+                    </div>
+                </container-show-hide>
+                <container-show-hide id="onVidPause" :visible=false>
+                    <div style="display: flex; flex-direction: row;">
+                        <span>Video Paused | Pause-count:</span>
+                        <widget-shared-data-text id="pauseCount" shared-data-read-key="video-pauseCount"></widget-shared-data-text>
+                    </div>
+                </container-show-hide>
+                <container-show-hide id="onVidEnd" :visible=false>
+                    <div style="display: flex; flex-direction: row;">
+                        <span>Video End | End-count:</span>
+                        <widget-shared-data-text id="endCount" shared-data-read-key="video-endCount"></widget-shared-data-text>
+                    </div>
+                </container-show-hide>
+                <container-show-hide id="onVidLoop" :visible=false>
+                    <div style="display: flex; flex-direction: row;">
+                        <span>Video Loop | Loop-count:</span>
+                        <widget-shared-data-text id="loopCount" shared-data-read-key="video-loopCount"></widget-shared-data-text>
+                    </div>
+                </container-show-hide>
+                <container-show-hide id="onVidStop" :visible=false>
+                    <div style="display: flex; flex-direction: row;">
+                        <span>Video Stop | Stop-count:</span>
+                        <widget-shared-data-text id="stopCount" shared-data-read-key="video-stopCount"></widget-shared-data-text>
+                    </div>
+                </container-show-hide>
+        <br><br>
+        <widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+            'previousPage'}}] } ]}"
+            class="buttonBasic-Grey">
+            <p class="marginLeft2 marginRight2">previous page</p>
+        </widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+                {effectType: 'unlockNextPage'}}] } ]}">
+            <p class="marginLeft2 marginRight2">unlock next page</p>
+        </widget-button>
+        </div>

@@ -1,0 +1,1002 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "bodyParent",
+					"label": "bodyParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "page_CaseCompleted",
+			"components": [
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_T62",
+							"label": "grid_T62",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page853d0",
+							"label": "page853d0",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T62_PageContent",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "item1_T62_Header",
+									"label": "item1_T62_Header",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page853d0",
+									"label": "page853d0",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item1_T62_Header",
+							"components": [
+								{
+									"tagName": "h3",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "selected",
+									"content": "You Have Completed the <br>​​​​​​​Animal Group Behavior Case!",
+									"icon": "",
+									"style": {},
+									"classes": [
+										{
+											"name": "text_Completed",
+											"label": "text_Completed",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "colorWhite",
+											"label": "colorWhite",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "textCenter",
+											"label": "textCenter",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page853d0",
+											"label": "page853d0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_Completed",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": 1
+						},
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "item2_T62_grid_Footer",
+									"label": "item2_T62_grid_Footer",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page853d0",
+									"label": "page853d0",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item2_T62_grid_Footer",
+							"components": [
+								{
+									"tagName": "widget-image",
+									"type": "widget-image",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": true,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item1_Footer_image_GAPeach",
+											"label": "item1_Footer_image_GAPeach",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page853d0",
+											"label": "page853d0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										"src": "../../assets/svg/Other/logo_GA_Color_SVG.svg",
+										":visible": true,
+										"id": "i4fy"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetImage",
+									"custom-name": "item1_Footer_image_GAPeach",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "This project was completed with assistance from the Digital Entertainment team, a division of the Georgia Department of Economic Development",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item1_Footer_text_Credits",
+											"label": "item1_Footer_text_Credits",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "colorWhite",
+											"label": "colorWhite",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page853d0",
+											"label": "page853d0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "item2_Footer_text_Credits",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item3_Footer_div_Music",
+											"label": "item3_Footer_div_Music",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page853d0",
+											"label": "page853d0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "item3_Footer_div_Music",
+									"components": [
+										{
+											"tagName": "span",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Photo: Lucy King/Elephants and Bees Project ",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "white",
+													"label": "white",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page853d0",
+													"label": "page853d0",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "photo Credit",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page853d0",
+													"label": "page853d0",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "music",
+											"components": [
+												{
+													"tagName": "span",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Audio: George Vlad/",
+													"icon": "",
+													"style": {},
+													"classes": [
+														{
+															"name": "white",
+															"label": "white",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page853d0",
+															"label": "page853d0",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "photo Credit",
+													"components": [],
+													"open": false
+												},
+												{
+													"tagName": "widget-link",
+													"type": "widget-link",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "link",
+															"label": "link",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page853d0",
+															"label": "page853d0",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":options": "{type:'external',href:'https://www.youtube.com/georgevlad',target:'_blank'}",
+														"text": "Youtube",
+														":visible": "true",
+														"id": "i7p9"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "WidgetLink",
+													"custom-name": "Album Link",
+													"components": [],
+													"open": false
+												}
+											],
+											"open": 0
+										}
+									],
+									"open": 0
+								}
+							],
+							"open": 0
+						}
+					],
+					"open": 1
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_T62",
+					"label": "grid_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr 0.2fr",
+				"width": "100%",
+				"height": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T62_Header",
+					"label": "item1_T62_Header",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"display": "flex",
+				"padding": "6vh 6vh 6vh 6vh",
+				"background-color": "rgba(57, 58, 57, 0.9)",
+				"align-items": "center",
+				"justify-content": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T62_grid_Footer",
+					"label": "item2_T62_grid_Footer",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "3",
+				"grid-row-end": "4",
+				"padding": "3vh 5vh 3vh 5vh",
+				"background-color": "rgba(57, 58, 57, 0.9)",
+				"justify-self": "stretch",
+				"align-self": "stretch",
+				"justify-content": "center",
+				"align-items": "center",
+				"display": "grid",
+				"grid-template-columns": "0.1fr 1fr",
+				"grid-template-rows": "1fr 1fr",
+				"grid-column-gap": "5vh",
+				"grid-row-gap": "2vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_Footer_image_GAPeach",
+					"label": "item1_Footer_image_GAPeach",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"height": "4rem",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "3",
+				"width": "auto",
+				"margin": "0vh",
+				"align-self": "center",
+				"justify-self": "end"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_Footer_text_Credits",
+					"label": "item1_Footer_text_Credits",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_Footer_div_Music",
+					"label": "item3_Footer_div_Music",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "2",
+				"text-align": "center",
+				"display": "flex",
+				"flex-direction": "column"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "bodyParent",
+					"label": "bodyParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"height": "100%",
+				"background-image": "url(../../assets/images/womanBeehive1_IMG.jpg)",
+				"background-attachment": "scroll",
+				"background-repeat": "no-repeat",
+				"background-position": "25% 0%",
+				"background-size": "135%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"align-items": "flex-start"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "white",
+					"label": "white",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_Completed",
+					"label": "text_Completed",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "colorWhite",
+					"label": "colorWhite",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textCenter",
+					"label": "textCenter",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page853d0",
+					"label": "page853d0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

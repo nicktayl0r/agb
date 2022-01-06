@@ -1,0 +1,209 @@
+.grid_T4.page195db {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: linear-gradient(#1B2937, #273D52);
+	grid-row-gap: 3vh;
+}
+
+.item1_T4.page195db {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid_Links.page195db {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	align-content: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width: auto;
+	height: auto;
+}
+
+.linkBox.page195db {
+	border: .4vh solid #45C1FF;
+	background-color: #45C1FF;
+	border-radius: 1.5vh;
+	height: 30vh;
+	width: 26vh;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 5vh 1fr;
+}
+
+.linkTxt.page195db {
+	padding: 1vh;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: start;
+}
+
+.link_Image.page195db {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.linkMain.page195db {
+	width: auto;
+}
+
+.link_1.page195db {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_2.page195db {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_3.page195db {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_4.page195db {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_5.page195db {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_6.page195db {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.link_7.page195db {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.link_8.page195db {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.image_Link.page195db {
+	width: 25vh;
+	height: 24vh;
+	border-radius: 0vh 0vh 1vh 1vh;
+}
+
+.SH_UnlockNext.page195db {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: start;
+	width: 0;
+	height: 0;
+}
+
+.beeBG.page195db {
+	background-image: url(../../assets/images/review_Bees_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.groupsBG.page195db {
+	background-image: url(../../assets/images/review_LivingInGroups_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.learningBG.page195db {
+	background-image: url(../../assets/images/review_LearningInGroups_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+}
+
+.commBG.page195db {
+	background-image: url(../../assets/images/review_GrpCommunication_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+}
+
+.eBeeBG.page195db {
+	background-image: url(../../assets/images/review_ElephantsBees_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+}
+
+.humansBG.page195db {
+	background-image: url(../../assets/images/review_AnimalGrpsHumans_IMG.jpg);
+	background-attachment: scroll;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.structureBG.page195db {
+	background-image: url(../../assets/images/review_StructureFunction_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	align-self: end;
+	background-size: contain;
+	background-position: center bottom;
+}
+
+.herdsBG.page195db {
+	background-image: url(../../assets/images/review_Herds_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+}

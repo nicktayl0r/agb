@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetCheckbox matches html snapshot 1`] = `
+<span
+  class="checkboxContainer"
+>
+  <input
+    id="testWidget"
+    type="checkbox"
+  />
+   
+  <label
+    class="checkbox noSelect"
+    for="testWidget"
+  >
+    <span
+      class="checkmark"
+    />
+     
+    <span
+      class="slot"
+    />
+     
+    <p>
+      button text
+    </p>
+  </label>
+</span>
+`;

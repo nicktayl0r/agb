@@ -1,0 +1,284 @@
+* {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.popperClickable * {
+	-webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+	user-select: auto;
+	pointer-events: auto;
+}
+
+.thinPopper .popperArrow {
+	margin-top: 5px !important;
+} 
+
+
+.buttonBlinkBlue.drop:enabled {
+	animation-name: blinkBlue;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	animation-direction: alternate;
+}
+
+.buttonBlinkBlue.drop:enabled:hover {
+	animation-name: none;
+}
+
+
+
+.startScreenBG  {
+  background-image:url(./images/backgrounds/startup_background_IMAGE.jpg);
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+}
+
+.fraction_InlinePB{
+  padding:0vh .5vh 0vh .5vh;
+  width:auto;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  display:inline-block;
+  font-size:2vh;
+  vertical-align:middle;
+  margin:-0.2vh 0 -0.2vh 0;
+}
+.text_NumeratorPB{
+  border-bottom:thin black solid;
+  width:auto;
+}
+.text_DenominatorPB{
+  width:auto;
+}
+
+.textBackground-FarmSim {
+	background-color: #d8ac66;
+	border-color: #c9973d;
+	color: var(--color-black);
+  border-width: .8vh !important;
+}
+
+.farmMapSimClose_PageContent{
+  display: grid;
+  grid-template-rows: 1fr 14vh 12vh;
+  padding: 0 15vh 0 15vh;
+}
+
+.div_farmGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+.div_belowGrid {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+.div_farmMapSimKey{
+  border-radius: 0;
+  border: 2vh solid #c9973d;
+  background-color: #d8ac66ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 3vh;
+  padding: 0 2vh 0 2vh;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: stretch;
+  align-self: stretch;
+}
+.div_farmMapSimKeyItem{
+  display:flex;
+  grid-column-gap:1vh;
+  align-items:center;
+  justify-content:space-evenly;
+}
+.image_farmMapSimKeyItem{
+  max-height:6vh;
+  max-width:5vh;
+}
+.text_farmMapSimKeyItem{
+  font-size:0.8rem;
+  text-align:center;
+}
+
+.farmMapSim_PageContent{
+  display:grid;
+  grid-template-rows:43vh 1fr;
+  padding:0 15vh 0 15vh;
+}
+.div_farmMapSim_pageBottom{
+  margin:0 0 6vh 0;
+  display:grid;
+  grid-template-rows:min-content min-content 1fr;
+  grid-row-gap:3vh;
+}
+.grid_farmMapSim_3ButtonColumns{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr;
+  grid-column-gap:3vh;
+  grid-row-gap:0vh;
+  justify-content:space-evenly;
+}
+.div_farmMapSim_buttonsGrp{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+.div_farmMapSim_questionText{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end:2;
+  align-items:start;
+}
+.div_farmMapSim_Submit{
+  justify-self:stretch;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4;
+  align-self:start;
+}
+.div_farmMapSim_CI{
+  justify-self:stretch;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4;
+  align-self:start;
+}
+
+.farmMapSimFar_PageContent{
+  display:grid;
+  grid-template-rows:.3fr .7fr;
+  padding:0 15vh 0 15vh;
+}
+
+.pagee1963.videoFill .seeThru-display {
+  width: 100%;
+}
+
+.buttonBasic_Image {
+display: block;
+}
+
+/* DragNDrop Appearance Classes */
+
+.drag.dragButtons_Appearance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  transition-property: transform;
+  background: white;
+  border: 0.6vh solid #58bfec;
+  border-radius: 1.3vh;
+  margin: -0.6vh;
+  padding: 0vh;
+  font-size: inherit;
+  line-height: 1.2em;
+  min-height: auto;
+}
+
+.drag.dragButtons_Appearance:enabled:hover {
+  box-shadow: 0 0 0 .2vh #58bfec;
+}
+
+.drag.dragButtons_Appearance:disabled {
+  border: 0.6vh solid var(--color-grey2);
+}
+
+.drag.dragButtons_Correct {
+  background: linear-gradient(var(--color-green4), var(--color-green3));
+  border: 0.6vh solid var(--color-green3);
+}
+
+.drag.dragButtons_Correct:disabled {
+  background: linear-gradient(var(--color-green4), var(--color-green3));
+  border: 0.6vh solid var(--color-green3);
+}
+
+.buttonRadio.firstRadioSelect .radioButton {
+  border-radius: 1.3vh 0vh 0 0;
+  background-color: white;
+}
+.buttonRadio.midRadioSelect .radioButton {
+  border-radius: 0 0 0 0;
+  background-color: white;
+}
+.buttonRadio.lastRadioSelect .radioButton {
+  border-radius: 0 1.3vh 0 0;
+  background-color: white;
+}
+/* .buttonBasic_BigBlink_Image - START */
+.buttonBasic_BigBlink_Image .button {
+  transition-duration: 0.4s;
+  transition-property: transform;
+  background: transparent;
+  margin: 0px;
+  font-size: inherit;
+}
+.buttonBasic_BigBlink_Image .button:disabled {
+  cursor: inherit;
+}
+.buttonBasic_BigBlink_Image .button:enabled {
+  animation-name: bgBlinkBlue_Big;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  --buttonBgImgBlinkBlueColor: rgba(126, 214, 255, 0.5);
+}
+
+@keyframes bgBlinkBlue_Big {
+  from {
+      filter: drop-shadow(0 0 var(--buttonBgImgBlinkBlueColor));
+      -webkit-filter: drop-shadow(0 0 var(--buttonBgImgBlinkBlueColor));
+  }
+  to {
+      filter: drop-shadow(0.5rem 0 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(-0.5rem 0 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 0.5rem 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 -0.5rem 0.5rem var(--buttonBgImgBlinkBlueColor));
+      -webkit-filter: drop-shadow(0.5rem 0 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(-0.5rem 0 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 0.5rem 0.5rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 -0.5rem 0.5rem var(--buttonBgImgBlinkBlueColor));
+  }
+  }
+/* .buttonBasic_BigBlink_Image - End */

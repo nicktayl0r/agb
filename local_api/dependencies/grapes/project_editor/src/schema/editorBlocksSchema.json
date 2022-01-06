@@ -1,0 +1,40 @@
+{
+	"type": "array",
+	"format": "table",
+	"title": "Project Blocks",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"items": {
+		"type": "object",
+		"id": "arr_item",
+		"required": ["id", "label", "category", "attributes", "content"],
+		"properties": {
+			"id": {
+				"type": "string",
+				"description": "Must be unique."
+			},
+			"label": {
+				"type": "string",
+				"description": "The text on the button"
+			},
+			"category": {
+				"type": "string",
+				"description": "The section of the blocks panel."
+			},
+			"attributes": {
+				"title": "icon css",
+				"type": "object",
+				"properties": {
+					"class": {
+						"type": "string"
+					}
+				},
+				"description": "Add the css classes separated by spaces"
+			},
+			"content": {
+				"type": "string",
+				"description": "Valid html.",
+				"format": "textarea"
+			}
+		}
+	}
+}

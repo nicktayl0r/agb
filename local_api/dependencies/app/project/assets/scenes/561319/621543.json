@@ -1,0 +1,385 @@
+{
+	"name": "doubleTest",
+	"created": "2018-06-27T13:27:54.587Z",
+	"settings": {
+		"physics": {
+			"gravity": [
+				0,
+				-9.8,
+				0
+			]
+		},
+		"render": {
+			"fog_end": 1000,
+			"tonemapping": 0,
+			"skybox": null,
+			"fog_density": 0.01,
+			"gamma_correction": 1,
+			"exposure": 1,
+			"fog_start": 1,
+			"global_ambient": [
+				0.2,
+				0.2,
+				0.2
+			],
+			"skyboxIntensity": 1,
+			"fog_color": [
+				0,
+				0,
+				0
+			],
+			"lightmapMode": 1,
+			"fog": "none",
+			"lightmapMaxResolution": 2048,
+			"skyboxMip": 0,
+			"lightmapSizeMultiplier": 16
+		}
+	},
+	"entities": {
+		"e5f3346d-7a0d-11e8-888b-026349a27a7c": {
+			"position": [
+				1.525589942932129,
+				1.2440017461776733,
+				1.525589942932129
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "MainCamera",
+			"parent": "e5f3346c-7a0d-11e8-888b-026349a27a7c",
+			"resource_id": "e5f3346d-7a0d-11e8-888b-026349a27a7c",
+			"components": {
+				"camera": {
+					"projection": 0,
+					"farClip": 1000,
+					"clearColorBuffer": true,
+					"priority": 0,
+					"fov": 45,
+					"clearDepthBuffer": true,
+					"frustumCulling": true,
+					"clearColor": [
+						0.118,
+						0.118,
+						0.118,
+						1
+					],
+					"enabled": true,
+					"orthoHeight": 4,
+					"nearClip": 0.1,
+					"rect": [
+						0,
+						0,
+						1,
+						1
+					],
+					"layers": [
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"SimStateManager"
+					],
+					"scripts": {
+						"SimStateManager": {
+							"enabled": true,
+							"attributes": {}
+						}
+					}
+				}
+			},
+			"rotation": [
+				-30,
+				45,
+				0
+			],
+			"tags": [],
+			"enabled": true,
+			"children": []
+		},
+		"e5f3346e-7a0d-11e8-888b-026349a27a7c": {
+			"position": [
+				2,
+				2,
+				-2
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "Light",
+			"parent": "e5f3346c-7a0d-11e8-888b-026349a27a7c",
+			"resource_id": "e5f3346e-7a0d-11e8-888b-026349a27a7c",
+			"components": {
+				"light": {
+					"vsmBlurSize": 11,
+					"normalOffsetBias": 0.05,
+					"color": [
+						1,
+						1,
+						1
+					],
+					"outerConeAngle": 45,
+					"castShadows": true,
+					"intensity": 1,
+					"bakeDir": true,
+					"cookieAngle": 0,
+					"cookieChannel": "rgb",
+					"innerConeAngle": 40,
+					"bake": false,
+					"falloffMode": 0,
+					"cookieIntensity": 1,
+					"vsmBias": 0.01,
+					"vsmBlurMode": 1,
+					"type": "directional",
+					"cookieFalloff": true,
+					"isStatic": false,
+					"shadowUpdateMode": 2,
+					"cookieScale": [
+						1,
+						1
+					],
+					"affectLightmapped": false,
+					"shadowBias": 0.2,
+					"affectDynamic": true,
+					"cookieAsset": null,
+					"cookieOffset": [
+						0,
+						0
+					],
+					"shadowResolution": 1024,
+					"enabled": true,
+					"range": 8,
+					"shadowDistance": 16,
+					"shadowType": 0,
+					"layers": [
+						0
+					]
+				}
+			},
+			"rotation": [
+				45,
+				135,
+				0
+			],
+			"tags": [],
+			"enabled": true,
+			"children": []
+		},
+		"e5f3346c-7a0d-11e8-888b-026349a27a7c": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "Root",
+			"parent": null,
+			"resource_id": "e5f3346c-7a0d-11e8-888b-026349a27a7c",
+			"components": {},
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"tags": [],
+			"enabled": true,
+			"children": [
+				"e5f3346d-7a0d-11e8-888b-026349a27a7c",
+				"e5f3346e-7a0d-11e8-888b-026349a27a7c",
+				"3fac9c94-0ee4-4de5-b2c2-165d0735a3d2",
+				"bc8ed4ac-2d02-40aa-83d2-9dd0d995e933"
+			]
+		},
+		"3fac9c94-0ee4-4de5-b2c2-165d0735a3d2": {
+			"name": "Box_Turntable",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "3fac9c94-0ee4-4de5-b2c2-165d0735a3d2",
+			"parent": "e5f3346c-7a0d-11e8-888b-026349a27a7c",
+			"children": [
+				"10d17a8d-1753-43b9-852a-f4f2b0bc159c"
+			],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"script": {
+					"enabled": true,
+					"order": [
+						"turntable"
+					],
+					"scripts": {
+						"turntable": {
+							"enabled": true,
+							"attributes": {
+								"cameraEntity": "e5f3346d-7a0d-11e8-888b-026349a27a7c",
+								"orbitSensitivity": 0.3,
+								"rotateX": true,
+								"rotateY": true
+							}
+						}
+					}
+				}
+			}
+		},
+		"bc8ed4ac-2d02-40aa-83d2-9dd0d995e933": {
+			"name": "Pepsin_Turntable",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "bc8ed4ac-2d02-40aa-83d2-9dd0d995e933",
+			"parent": "e5f3346c-7a0d-11e8-888b-026349a27a7c",
+			"children": [
+				"5d25bcb0-c7c2-4840-8432-d0cc7dfb4ffe"
+			],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"script": {
+					"enabled": true,
+					"order": [
+						"turntable"
+					],
+					"scripts": {
+						"turntable": {
+							"enabled": true,
+							"attributes": {
+								"cameraEntity": "e5f3346d-7a0d-11e8-888b-026349a27a7c",
+								"orbitSensitivity": 0.3,
+								"rotateX": true,
+								"rotateY": true
+							}
+						}
+					}
+				}
+			}
+		},
+		"5d25bcb0-c7c2-4840-8432-d0cc7dfb4ffe": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				2.3437118530273438,
+				2.3437118530273438,
+				2.3437118530273438
+			],
+			"name": "pepsin",
+			"parent": "bc8ed4ac-2d02-40aa-83d2-9dd0d995e933",
+			"resource_id": "5d25bcb0-c7c2-4840-8432-d0cc7dfb4ffe",
+			"components": {
+				"model": {
+					"isStatic": false,
+					"castShadows": true,
+					"castShadowsLightmap": true,
+					"lightmapped": false,
+					"materialAsset": null,
+					"receiveShadows": true,
+					"enabled": true,
+					"castShadowsLightMap": false,
+					"asset": 13007544,
+					"type": "asset",
+					"lightmapSizeMultiplier": 1,
+					"batchGroupId": null,
+					"layers": [
+						0
+					]
+				},
+				"script": {
+					"enabled": true,
+					"order": [],
+					"scripts": {}
+				}
+			},
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"tags": [],
+			"enabled": true,
+			"children": []
+		},
+		"10d17a8d-1753-43b9-852a-f4f2b0bc159c": {
+			"name": "enzymeDenatured",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "10d17a8d-1753-43b9-852a-f4f2b0bc159c",
+			"parent": "3fac9c94-0ee4-4de5-b2c2-165d0735a3d2",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				2.344,
+				2.344,
+				2.344
+			],
+			"components": {
+				"model": {
+					"enabled": true,
+					"isStatic": false,
+					"type": "asset",
+					"asset": 13124244,
+					"materialAsset": null,
+					"castShadows": true,
+					"castShadowsLightmap": true,
+					"receiveShadows": true,
+					"batchGroupId": null,
+					"layers": [
+						0
+					],
+					"lightmapped": false,
+					"lightmapSizeMultiplier": 1
+				}
+			}
+		}
+	},
+	"_o": "5b34e6006d70ad318c8833fa",
+	"id": 621543
+}

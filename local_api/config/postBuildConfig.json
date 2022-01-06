@@ -1,0 +1,24 @@
+{
+	"compression": {
+		"type": "gzip",
+		"allowed_ext": [
+			".txt",
+			".json",
+			".css",
+			".html",
+			".js",
+			".js.map",
+			".svg",
+			".dds",
+			".ktx",
+			".glb",
+			".basis"
+		],
+		"exclude_file": [
+			"player-version.txt",
+			"project-version.txt",
+			"RubricExport.json",
+			"RubricExport.txt"
+		]
+	}
+}

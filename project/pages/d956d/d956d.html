@@ -1,0 +1,51 @@
+<div class="simParent paged956d">
+  <widget-sim-view id="iufi" scenename="Sahara_Farm_Map" simstateid="6s124l" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview paged956d" />
+  <div class="simPageContent paged956d farmMapSim_PageContent">
+    <div class="paged956d div_pageTop">
+      <container-show-hide :visible="true" id="isur" class="paged956d anchor_GridPos anchor_TopLeft"></container-show-hide>
+      <container-show-hide :visible="true" id="iu1mn" class="paged956d anchor_GridPos anchor_BottomLeftArrow"></container-show-hide>
+      <container-show-hide :visible="true" id="it524" class="paged956d anchor_GridPos anchor_TopRightArrow"></container-show-hide>
+      <container-show-hide :visible="true" id="iqj2" class="paged956d SH_Text_50mw colorWhite">
+        <widget-arrow :visible="true" id="i0yb" :source-offset-x="99.5" :source-offset-y="0" :target-offset-x="100" :target-offset-y="100" source-id="iqj2" color="#ff5ba3" :width="3" :show-head="true" :duration="0" :delay="0" target-id="isur" class="paged956d" />
+        <p class="paged956d">50 meters wide</p>
+        <widget-arrow :visible="true" :source-offset-x="99.5" :source-offset-y="100" :target-offset-x="100" :target-offset-y="100" source-id="iqj2" color="#ff5ba3" :width="3" :show-head="true" :duration="0" :delay="0" id="ingof" target-id="iu1mn" class="paged956d" />
+      </container-show-hide>
+      <container-show-hide :visible="true" id="is56u" class="paged956d colorWhite SH_Text_100ml">
+        <widget-arrow :visible="true" :source-offset-x="0" :source-offset-y="99" :target-offset-x="100" :target-offset-y="100" source-id="is56u" color="#ff5ba3" :width="3" :show-head="true" :duration="0" :delay="0" id="ij31o" target-id="isur" class="paged956d" />
+        <p class="paged956d">100 meters long</p>
+        <widget-arrow :visible="true" :source-offset-x="100" :source-offset-y="99" :target-offset-x="100" :target-offset-y="100" source-id="is56u" color="#ff5ba3" :width="3" :show-head="true" :duration="0" :delay="0" id="io06n" target-id="it524" class="paged956d" />
+      </container-show-hide>
+    </div>
+    <div class="paged956d div_farmMapSim_pageBottom">
+      <div class="paged956d div_farmMapSim_questionText">
+        <p class="colorWhite paged956d">The field is 100 meters long and 50 meters wide.<br />What is the <widget-link :options="{type:'internal',module:'glossary',pageId:'g_area_E-Ex-M-Mx'}" text="area" :visible="true" id="iezy" class="paged956d"></widget-link> of the field? (Area = length x width)</p>
+      </div>
+      <container-enable-disable :visible="true" :enabled="true" id="iwmn" class="paged956d div_farmMapSim_buttonsGrp">
+        <div class="paged956d grid_farmMapSim_3ButtonColumns">
+          <widget-radio :visible="true" :enabled="true" id="iu5g" group="ixsj9" value="150 square meters" class="buttonRadio Variation radioFillHeight paged956d colorWhite">
+            <p class="text_ButtonTitle paged956d">150 square meters</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="idjf" group="ixsj9" value="500 square meters" class="buttonRadio Variation radioFillHeight paged956d colorWhite">
+            <p class="text_ButtonTitle paged956d">500 square meters</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="i13h" group="ixsj9" value="5,000 square meters" class="buttonRadio Variation radioFillHeight paged956d colorWhite">
+            <p class="text_ButtonTitle paged956d">5,000 square meters</p>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="paged956d div_farmMapSim_CI">
+        <container-show-hide :visible="false" id="ihox" class="paged956d">
+          <p class="dropShadow textBackgroundBasic textBackground-Correct paged956d"><strong>Correct!</strong> The field is a rectangle and the area of the rectangle is the length multiplied by the width (100 x 50 = 5,000).</p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="imd8" class="paged956d">
+          <p class="dropShadow textBackgroundBasic textBackground-Incorrect paged956d"><strong class="paged956d">Incorrect.</strong> The field is a rectangle and the area of the rectangle is the length multiplied by the width (100 x 50 = 5,000).</p>
+        </container-show-hide>
+      </div>
+      <div class="paged956d div_farmMapSim_Submit">
+        <widget-button :visible="false" :enabled="true" id="i1e2" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ixsj9',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i1e2',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iwmn',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i1e2',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i13h',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.M.FarmTotalArea',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'ixsj9'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ixsj9',selected:'radioIDEquals',radioID:'i13h'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihox',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'imd8',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue paged956d">
+          <p class="marginLeft2 marginRight2 paged956d">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

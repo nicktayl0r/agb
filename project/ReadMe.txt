@@ -1,0 +1,1 @@
+This folder contains all project files custom to this case study.

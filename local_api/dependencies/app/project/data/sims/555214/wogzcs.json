@@ -1,0 +1,136 @@
+{
+	"cameraView": "252f05de-4fb7-424e-8486-75f3d986054d",
+	"smoothCam": false,
+	"transformWithCam": false,
+	"name": "TestFarm_State",
+	"entities": {
+		"9f55b4d2-2354-408a-8774-9aefeddb6024": {
+			"enabled": true
+		},
+		"e3d9930b-4caf-11e8-888b-026349a27a7c": {
+			"enabled": true
+		},
+		"a916f56f-3801-45ae-a70e-667c7fc74174": {
+			"enabled": false
+		},
+		"00207c15-e552-4cd7-b150-e5450efd64ca": {
+			"enabled": false
+		},
+		"7f5b5bba-3b16-47a7-9b77-9ff70aaffdd9": {
+			"enabled": false
+		},
+		"252f05de-4fb7-424e-8486-75f3d986054d": {
+			"enabled": false
+		},
+		"e3d9930c-4caf-11e8-888b-026349a27a7c": {
+			"enabled": true
+		},
+		"8876646c-ffd9-44fd-8dfa-9e0b2ba919f0": {
+			"enabled": true,
+			"animation": {
+				"stateAnimation": 12454106,
+				"animStartFrame": 0,
+				"animEndFrame": 0,
+				"speed": 1,
+				"loop": false,
+				"playOnStart": false,
+				"loadFirstFrame": true
+			},
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 12454126
+					},
+					"1": {
+						"visible": true,
+						"material": 12454126
+					},
+					"2": {
+						"visible": true,
+						"material": 12454126
+					},
+					"3": {
+						"visible": true,
+						"material": 12454108
+					},
+					"4": {
+						"visible": true,
+						"material": 12454108
+					},
+					"5": {
+						"visible": true,
+						"material": 12454108
+					},
+					"6": {
+						"visible": true,
+						"material": 12454115
+					},
+					"7": {
+						"visible": true,
+						"material": 12454115
+					},
+					"8": {
+						"visible": true,
+						"material": 12454115
+					},
+					"9": {
+						"visible": true,
+						"material": 12454111
+					},
+					"10": {
+						"visible": true,
+						"material": 12454111
+					},
+					"11": {
+						"visible": true,
+						"material": 12454116
+					},
+					"12": {
+						"visible": true,
+						"material": 12454144
+					},
+					"13": {
+						"visible": true,
+						"material": 12454115
+					},
+					"14": {
+						"visible": true,
+						"material": 12454113
+					}
+				}
+			}
+		},
+		"c4d3f35a-04c9-489c-ba52-bbaa6e1879fb": {
+			"enabled": true,
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 12454123
+					}
+				}
+			}
+		},
+		"9b4cccad-4457-4978-919b-185115ffc82a": {
+			"enabled": true,
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 12454115
+					}
+				}
+			}
+		},
+		"d7c7c7f0-0a5a-4b38-9513-01cf08562136": {
+			"enabled": true
+		}
+	}
+}

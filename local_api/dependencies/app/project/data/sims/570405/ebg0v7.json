@@ -1,0 +1,112 @@
+{
+	"cameraView": "7fad924f-adf6-4bf6-b046-eb13732bdb11",
+	"smoothCam": false,
+	"transformWithCam": false,
+	"name": "Pepsin_Slider",
+	"entities": {
+		"e21e22ea-a652-4ebc-b4b5-2a89af67f211": {
+			"enabled": true
+		},
+		"d83f5789-9cab-11e8-888b-026349a27a7c": {
+			"enabled": true
+		},
+		"2faa32e6-48dd-4797-b4cd-1ea524138f3a": {
+			"enabled": true
+		},
+		"cccfbaac-66f5-490c-bd19-ca0fca8b62ec": {
+			"enabled": true,
+			"scripts": {
+				"turntable": {
+					"orbitSensitivity": 0.3,
+					"rotateX": false,
+					"rotateY": false
+				}
+			}
+		},
+		"f379e299-7be6-4ca8-bc2b-6fa10b050c9e": {
+			"enabled": true,
+			"animation": {
+				"stateAnimation": 13765698,
+				"animStartFrame": 2.1,
+				"animEndFrame": 3.18,
+				"speed": 1,
+				"loop": false,
+				"playOnStart": false,
+				"loadFirstFrame": true
+			},
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 13765697
+					}
+				}
+			}
+		},
+		"b1d5cabb-781f-47c0-be5f-b9bed338162c": {
+			"enabled": true,
+			"animation": {
+				"stateAnimation": 13765630,
+				"animStartFrame": 0,
+				"animEndFrame": 2.95,
+				"speed": 1,
+				"loop": false,
+				"playOnStart": false,
+				"loadFirstFrame": true
+			},
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 13765681
+					}
+				}
+			}
+		},
+		"f8968e10-4987-413e-8607-c518a90845cb": {
+			"enabled": true,
+			"animation": {
+				"stateAnimation": 13765680,
+				"animStartFrame": 0,
+				"animEndFrame": 2.95,
+				"speed": 1,
+				"loop": false,
+				"playOnStart": false,
+				"loadFirstFrame": true
+			},
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 13765681
+					},
+					"1": {
+						"visible": true,
+						"material": 13765681
+					}
+				}
+			}
+		},
+		"7fad924f-adf6-4bf6-b046-eb13732bdb11": {
+			"enabled": false
+		},
+		"778c43d8-0f15-4072-bbf7-0b9ff67dbc17": {
+			"enabled": false
+		},
+		"fd933be4-d665-41d6-995b-4e3751cde974": {
+			"enabled": true
+		},
+		"11aa6972-8798-4fc1-9426-aefb74aa0096": {
+			"enabled": true,
+			"scripts": {
+				"SimStateManager": {}
+			}
+		}
+	}
+}

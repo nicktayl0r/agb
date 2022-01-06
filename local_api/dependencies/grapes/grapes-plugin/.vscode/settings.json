@@ -1,0 +1,45 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"files.associations": {
+		"*.vue": "vue"
+	},
+	"editor.formatOnSave": true,
+	"tslint.typeCheck": true,
+	"tslint.autoFixOnSave": [
+		"curly",
+		"indent",
+		"no-trailing-whitespace",
+		"one-line",
+		"quotemark",
+		"space-within-parens",
+		"whitespace",
+		"jsdoc-format"
+	],
+	"tslint.packageManager": "yarn",
+	"tslint.configFile": "tslint.json",
+	"typescriptHero.imports.stringQuoteStyle": "\"",
+	"typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
+	"typescriptHero.imports.organizeOnSave": false,
+	"typescriptHero.imports.grouping": [
+		"Plains",
+		"Modules",
+		"/@.*/",
+		"Workspace"
+	],
+	"typescriptHero.imports.ignoredFromRemoval": [
+		"ste-events",
+		"vuex"
+	],
+	"tsimporter.doubleQuotes": true,
+	"jest.pathToJest": "yarn test",
+	"prettier.useTabs": true,
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.options.useTabs": true,
+	"vetur.format.defaultFormatterOptions": {
+		"js-beautify-html": {
+			"wrap_attributes": "aligned-multiple"
+		}
+	},
+	"typescript.format.enable": true,
+	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+}

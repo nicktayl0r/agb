@@ -1,0 +1,141 @@
+.grid_Visuals.page379d1 {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_Sky_Sunset_IMG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+}
+
+.grid_T4.page379d1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.item1_T4.page379d1 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	width: auto;
+	align-self: start;
+	justify-self: start;
+}
+
+.item2_T4.page379d1 {
+	z-index: 2;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	justify-self: end;
+	align-self: end;
+	width: auto;
+}
+
+.image_Bee1.page379d1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 30vh;
+	height: 32vh;
+	margin: -30vh -66vh 0 0;
+}
+
+.button_Bee2.page379d1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -30vh -66vh 0 0;
+}
+
+.image_Bee2.page379d1 {
+	width: 31vh;
+	height: 33vh;
+}
+
+.button_Flower.page379d1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: end;
+	margin: 0 0 -13vh 0;
+}
+
+.image_Flower.page379d1 {
+	width: 60vh;
+	height: 74.5vh;
+}
+
+.anchor_Arrow_Pos.page379d1 {
+	width: 0;
+	height: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.anchor_Arrow3.page379d1 {
+	margin: 0 0 -28vh -59vh;
+}
+
+.anchor_Arrow4.page379d1 {
+	margin: 0 0 -22vh -49vh;
+}
+
+.SH_Label.page379d1 {
+	z-index: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.SH_Label_Pollen.page379d1 {
+	margin: 0 0 -44vh -30vh;
+}
+
+.SH_Label_Nectar.page379d1 {
+	margin: 0 0 0 -73vh;
+}
+
+.text_Labels.page379d1 {
+	color: white;
+	font-size: 3vh;
+}
+
+
+
+
+
+
+

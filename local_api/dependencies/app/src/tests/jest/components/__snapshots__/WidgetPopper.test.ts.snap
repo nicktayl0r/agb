@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetPopper matches html snapshot 1`] = `
+<div
+  class="dropShadow textBackgroundBasic popper noSelect"
+  data-anchorid=""
+  id="testWidget"
+>
+   
+  <div
+    class="popperArrow"
+  />
+</div>
+`;

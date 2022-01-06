@@ -1,0 +1,78 @@
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="startMusic"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'playSound', type:'bgMusic', srcWebm: 'assets/audio/303.webm', srcMp3: 'assets/audio/303.mp3'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>start music</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="stopMusic"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'stopSound', srcWebm: 'assets/audio/303.webm', srcMp3: 'assets/audio/303.mp3'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>stop music</p>
+</widget-button>
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="startSfxContinuous"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'playSound', type:'sfxContinuous', srcWebm: 'assets/audio/Blue_Mist.webm', srcMp3: 'assets/audio/Blue_Mist.mp3'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>start sfxContinuous</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="stopSfxContinuous"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'stopSound', srcWebm: 'assets/audio/Blue_Mist.webm', srcMp3: 'assets/audio/Blue_Mist.mp3'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>stop sfxContinuous</p>
+</widget-button>
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="sfxOneshot"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'playSound', type:'sfxOneshot', srcWebm: 'assets/audio/PageSelected.webm', srcMp3: 'assets/audio/PageSelected.mp3'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>sfxOneshot</p>
+</widget-button>

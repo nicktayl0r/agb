@@ -1,0 +1,61 @@
+<br /><br />
+<widget-radio
+	id="radio1"
+	class="buttonRadio"
+	group="radioGroup"
+	value="radio1 Value"
+	><p>radio A</p></widget-radio
+>
+<widget-radio
+	id="radio2"
+	class="buttonRadio"
+	group="radioGroup"
+	value="radio2 Value"
+	><p>radio B</p></widget-radio
+>
+<widget-radio
+	id="radio3"
+	class="buttonRadio"
+	value="radio3 Value"
+	group="radioGroup"
+>
+	<p>radio C</p>
+</widget-radio>
+<widget-button
+	class="buttonBasic-Grey"
+	id="selectA"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'updateRadioGroupSelection', group:'radioGroup', radioID: 'radio1'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>Select Radio A</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="deselect"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'updateRadioGroupSelection', group:'radioGroup', radioID: ''}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>Deselect All</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="nextPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'unlockNextPage'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

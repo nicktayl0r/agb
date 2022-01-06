@@ -1,0 +1,65 @@
+ page 5
+<br/>
+<br/> type 5 or more characters in each of these texboxes:
+<br/>
+<br/>
+<container-enable-disable id="fieldset">
+    <widget-textarea id="p3textbox1" placeholder="type your answer here" />
+    <br/>
+    <widget-textarea id="p3textbox2" />
+    <br/>
+    <br/> and select one of these:
+    <br/>
+    <br/>
+    <widget-radio id="radio1" group="radioGroup" />
+    <widget-radio id="radio2" group="radioGroup" />
+    <widget-radio id="radio3" group="radioGroup" />
+    <br/>
+    <br/>
+    <widget-button id="submitButton" class="buttonBasic-Grey" :enabled=false :clickEffects="{conditionList:[
+        {   
+            comparisons:[
+                {comparisonData:{comparisonType:'radioSelection', group:'radioGroup', selected:'radioIDEquals', radioID:'radio2'}}
+            ],
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'fieldset', key:'enabled', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'submittedCorrect', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'submittedIncorrect', key:'visible', val:false}},
+                {effectData: {effectType: 'unlockNextPage'}},
+            ],
+            effectsFail:[
+                {effectData: {effectType: 'updateWidget', widgetID:'submittedIncorrect', key:'visible', val:true}},
+            ],
+            responsesPass:[
+                {rubricID: 'page3Question', val:'correct', fireOnceID:'p3CorrectAnswerResponseSent'}
+            ],
+            responsesFail:[
+                {rubricID:'page3Question', val:'incorrect'}
+            ]
+        }
+    ]}" :conditions="{conditionList:[
+            {   
+                comparisons:[
+                    {comparisonData:{comparisonType:'textLength', textID:'p3textbox1'}},
+                    {comparisonData:{comparisonType:'textLength', textID:'p3textbox2'}},
+                    {comparisonData:{comparisonType:'radioSelection', group:'radioGroup', selected:'any'}},
+                ],
+                effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'submitButton', key:'enabled', val:true}},],
+                effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'submitButton', key:'enabled', val:false}},],
+            },
+    ]}" text="submit" />
+    <br/>
+    <br/>
+</container-enable-disable>
+<container-show-hide id="submittedCorrect" :visible=false>
+    You selected the correct radio button!
+</container-show-hide>
+<container-show-hide id="submittedIncorrect" :visible=false>
+    Try again.
+</container-show-hide>
+<br/>
+<br/>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button>

@@ -1,0 +1,1284 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "page_SimParent_FullPage",
+			"components": [
+				{
+					"tagName": "widget-sim-view",
+					"type": "widget-sim-view",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "selected",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "simPreview",
+							"label": "simPreview",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "pagead5a0",
+							"label": "pagead5a0",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"id": "ixnh",
+						"scenename": "Sahara_Perspective",
+						"simstateid": "orumf7",
+						":visible": true,
+						":enabled": "true",
+						"play-state": "default",
+						":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ixnh',key:'simstateid',val:'p582z0'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iew04',key:'visible',val:true},fireOnceID:'nextButtonShowOnce_pagead5a0',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ixnh',key:'simstateid',val:'s16437'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+						":muted": false,
+						":scene-loaded-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'izbi',key:'visible',val:true},fireOnceID:'firstButtonShow_pagead5a0',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetSimView",
+					"custom-name": "widget_SimView",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": {},
+					"classes": [
+						{
+							"name": "grid_T62",
+							"label": "grid_T62",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "simPageContent",
+							"label": "simPageContent",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "pagead5a0",
+							"label": "pagead5a0",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T62_SimPageContent",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "item1_T62",
+									"label": "item1_T62",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "pagead5a0",
+									"label": "pagead5a0",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item1_T62_text_BkgDarkBlue",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "The dominant elephant stops other elephants in the group from fighting each other.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "pagead5a0",
+											"label": "pagead5a0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_1",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "div_Text2",
+											"label": "div_Text2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "pagead5a0",
+											"label": "pagead5a0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_Text2",
+									"components": [
+										{
+											"tagName": "widget-button",
+											"type": "widget-button",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": {},
+											"classes": [
+												{
+													"name": "buttonBasic-Grey",
+													"label": "buttonBasic-Grey",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonBlinkBlue",
+													"label": "buttonBlinkBlue",
+													"type": 1,
+													"active": false,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "pagead5a0",
+													"label": "pagead5a0",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "marginTop2",
+													"label": "marginTop2",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												":enabled": true,
+												"id": "iew04",
+												":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iew04',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i57r',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetButton",
+											"custom-name": "button_Next",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Next",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "pagead5a0",
+															"label": "pagead5a0",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text",
+													"components": [],
+													"open": false
+												}
+											],
+											"open": false
+										},
+										{
+											"tagName": "container-show-hide",
+											"type": "container-show-hide",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": {},
+											"classes": [
+												{
+													"name": "pagead5a0",
+													"label": "pagead5a0",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "marginTop1",
+													"label": "marginTop1",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												"id": "i57r"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerShowHide",
+											"custom-name": "SH_Text2",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "By living in a hierarchy, the elephant group has a better chance of surviving.",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "pagead5a0",
+															"label": "pagead5a0",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_2",
+													"components": [],
+													"open": false
+												}
+											],
+											"open": false
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "button_1",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "pagead5a0",
+									"label": "pagead5a0",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_1",
+									"label": "button_1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								":enabled": true,
+								"id": "izbi",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'izbi',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ixnh',key:'simstateid',val:'p582z0'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_1",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "buttonFill_1",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "pagead5a0",
+											"label": "pagead5a0",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_1",
+											"label": "buttonFill_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_Lion",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": 1
+						}
+					],
+					"open": 1
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_T62",
+					"label": "grid_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"padding": "6vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T62",
+					"label": "item1_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simPreview",
+					"label": "simPreview",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"z-index": "1",
+				"top": "0px",
+				"right": "0px",
+				"position": "absolute",
+				"background-color": "rgb(255, 255, 255)"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"position": "relative",
+				"top": "0px",
+				"margin-top": "0em",
+				"margin-right": "0px",
+				"margin-bottom": "0px",
+				"margin-left": "0px"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simPageContent",
+					"label": "simPageContent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "2",
+				"position": "relative"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Text2",
+					"label": "div_Text2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"height": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-11vh -35vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_1",
+					"label": "buttonFill_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "22vh",
+				"height": "22vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "noPadding",
+					"label": "noPadding",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "dropShadow",
+					"label": "dropShadow",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackgroundBasic",
+					"label": "textBackgroundBasic",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackground-DarkBlue",
+					"label": "textBackground-DarkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "item1_T62",
+					"label": "item1_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic-Grey",
+					"label": "buttonBasic-Grey",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "marginTop2",
+					"label": "marginTop2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "marginTop1",
+					"label": "marginTop1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T62",
+					"label": "grid_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "simPageContent",
+					"label": "simPageContent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "pagead5a0",
+					"label": "pagead5a0",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

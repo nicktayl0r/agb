@@ -1,0 +1,32 @@
+{
+  "title": "All Pages",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "required": ["case", "guide", "glossary"],
+  "properties": {
+    "case": {
+      "title": "Case",
+      "$ref": "./pagesSchema.json",
+      "id": "module",
+      "options": {
+        "collapsed": true
+      }
+    },
+    "guide": {
+      "title": "Handbook",
+      "$ref": "./pagesSchema.json",
+      "id": "module2",
+      "options": {
+        "collapsed": true
+      }
+    },
+    "glossary": {
+      "title": "Glossary",
+      "$ref": "./pagesSchema.json",
+      "id": "module3",
+      "options": {
+        "collapsed": true
+      }
+    }
+  }
+}

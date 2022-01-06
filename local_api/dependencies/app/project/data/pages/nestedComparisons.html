@@ -1,0 +1,29 @@
+<br /><br />
+<widget-checkbox id="checkboxA" text="A" />
+<widget-checkbox
+	id="checkboxB"
+	:conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'nestedComparisons',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkboxA',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkboxB',key:'checked',val:true}}],comparisonsLogic:'and'}},{comparisonData:{comparisonType:'nestedComparisons',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkbox1',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkbox2',key:'checked',val:true}}],comparisonsLogic:'and'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'andOrLogicYes',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'andOrLogicNo',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'andOrLogicYes',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'andOrLogicNo',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}"
+	text="B"
+/>
+<widget-checkbox id="checkbox1" text="1" />
+<widget-checkbox
+	:conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'nestedComparisons',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkboxA',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkboxB',key:'checked',val:true}}],comparisonsLogic:'or'}},{comparisonData:{comparisonType:'nestedComparisons',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkbox1',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'checkbox2',key:'checked',val:true}}],comparisonsLogic:'or'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'orAndLogicYes',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'orAndLogicNo',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'orAndLogicYes',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'orAndLogicNo',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}"
+	id="checkbox2"
+	text="2"
+/>
+<br /><br />
+(A and B) or (1 and 2)
+<container-show-hide :visible="false" id="andOrLogicYes">
+	Yes
+</container-show-hide>
+<container-show-hide id="andOrLogicNo">
+	No
+</container-show-hide>
+<br />
+(A or B) and (1 or 2)
+<container-show-hide :visible="false" id="orAndLogicYes">
+	Yes
+</container-show-hide>
+<container-show-hide id="orAndLogicNo">
+	No
+</container-show-hide>

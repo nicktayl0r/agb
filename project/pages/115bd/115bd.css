@@ -1,0 +1,200 @@
+.grid_Main.page115bd {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid_T4.page115bd {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	padding: 6vh;
+}
+
+.item1_T4.page115bd {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.item2_T4.page115bd {
+	z-index: 200;
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: end;
+	display: grid;
+	padding: 0 0 0 0;
+	grid-template-columns: min-content 1fr;
+	grid-template-rows: 1fr;
+	width: 93vh;
+	height: auto;
+}
+
+.grid_Clipping.page115bd {
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(center, white, black);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid_Visuals.page115bd {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	height: 102%;
+	width: 102%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.video_Styles.page115bd {
+	z-index: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: stretch;
+	justify-self: stretch;
+}
+
+.div_PlayReplay.page115bd {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh;
+	border-width: 0.2vh solid;
+	border-radius: 1.5vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: start;
+	align-self: end;
+}
+
+.text_PlayReplay.page115bd {
+	margin-left: 1.5vh;
+}
+
+.div_Text2.page115bd {
+	height: auto;
+}
+
+.SH_Honeycomb.page115bd {
+	border: .5vh solid rgb(27, 41, 55);
+	border-radius: 3vh 0 0 3vh;
+	width: 50vh;
+	height: 40vh;
+	background-image: url(../../assets/images/honeycomb_HoneyDrip_IMG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -2vh -33vh;
+}
+
+.SH_SmallZoomSquare.page115bd {
+	width: 5vh;
+	height: 5vh;
+	border: 0.5vh solid rgb(27, 41, 55);
+	z-index: 1;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: -10vh -75vh 0 0;
+	border-radius: 0 1.3vh 1.3vh 0;
+}
+
+.anchor_Arrow.page115bd {
+	width: 0;
+	height: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -11vh -81vh;
+}
+
+.text_4.page115bd {
+	padding: 3vh 3vh 3vh 3vh;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: center;
+	justify-self: stretch;
+}
+
+.div_Image_Sting.page115bd {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: center;
+	justify-self: center;
+	width: 25vh;
+	height: 17vh;
+	background-image: url(../../assets/images/bee_StingPiedCrow_IMG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: cover;
+	border-right: 0.2vh solid rgb(27, 41, 55);
+	background-position: center center;
+}
+
+.buttonFillSq.page115bd {
+	width: 14vh;
+	height: 14vh;
+}
+
+.button_Bee.page115bd {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -6vh -72vh;
+}

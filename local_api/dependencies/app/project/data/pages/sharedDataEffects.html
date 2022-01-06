@@ -1,0 +1,109 @@
+<br />
+<br />
+sharedData:
+<widget-shared-data-text
+	id="sharedText"
+	sharedDataReadKey="proj_TestNumber"
+></widget-shared-data-text>
+<br />
+appSharedData:
+<widget-shared-data-text
+	id="sharedAppText"
+	sharedDataReadKey="app_TestNumber"
+></widget-shared-data-text>
+<br />
+<widget-button
+	class="buttonBasic-Grey marginLeft2"
+	id="incSharedValue"
+	:clickEffects="{conditionList:[ { effectsPass:[
+        {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'proj_TestNumber', incrementValue: 1}},
+        {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'app_TestNumber', incrementValue: 1}}
+    ] } ]}"
+>
+	<p class="marginLeft2 marginRight2">Increment by 1</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey marginLeft2"
+	id="incSharedValue"
+	:clickEffects="{conditionList:[ { effectsPass:[
+        {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'proj_TestNumber', incrementValue: 3}},
+        {effectData:{effectType: 'incrementSharedData', sharedDataKey: 'app_TestNumber', incrementValue: 3}}
+    ] } ]}"
+>
+	<p class="marginLeft2 marginRight2">Increment by 3</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey marginLeft2"
+	id="incSharedValue"
+	:clickEffects="{conditionList:[ { effectsPass:[
+        {effectData:{effectType: 'setSharedDataNumber', sharedDataKey: 'proj_TestNumber', setValue: 10}},
+        {effectData:{effectType: 'setSharedDataNumber', sharedDataKey: 'app_TestNumber', setValue: 10}}
+        ] } ]}"
+>
+	<p class="marginLeft2 marginRight2">Set value to 10</p>
+</widget-button>
+<br /><br />
+<container-show-hide
+	id="equals"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        evaluateWhen: 'sharedDataChanges',
+        comparisons:[
+        {comparisonData:{comparisonType:'sharedDataVal', sharedDataKey:'proj_TestNumber', comparison:'equals', val:10}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'equals', key:'visible', val:true}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'equals', key:'visible', val:false}}],
+    },
+]}"
+>
+	<p>equals 10</p>
+</container-show-hide>
+<container-show-hide
+	id="notEquals"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        evaluateWhen: 'sharedDataChanges',
+        comparisons:[
+        {comparisonData:{comparisonType:'sharedDataVal', sharedDataKey:'proj_TestNumber', comparison:'notEquals', val:10}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'notEquals', key:'visible', val:true}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'notEquals', key:'visible', val:false}}],
+    },
+]}"
+>
+	<p>not equals 10</p>
+</container-show-hide>
+<container-show-hide
+	id="lessThan"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        evaluateWhen: 'sharedDataChanges',
+        comparisons:[
+        {comparisonData:{comparisonType:'sharedDataVal', sharedDataKey:'proj_TestNumber', comparison:'lessThan', val:10}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'lessThan', key:'visible', val:true}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'lessThan', key:'visible', val:false}}],
+    },
+]}"
+>
+	<p>less than 10</p>
+</container-show-hide>
+<container-show-hide
+	id="greaterThan"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        evaluateWhen: 'sharedDataChanges',
+        comparisons:[
+        {comparisonData:{comparisonType:'sharedDataVal', sharedDataKey:'proj_TestNumber', comparison:'greaterThan', val:10}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'greaterThan', key:'visible', val:true}}],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'greaterThan', key:'visible', val:false}}],
+    },
+]}"
+>
+	<p>greater than 10</p>
+</container-show-hide>

@@ -1,0 +1,36 @@
+<div class="grid_T62 page41636">
+  <div class="grid_T9 textBackgroundBasic page41636 item1_T62">
+    <p class="item1_T9 page41636">What do you predict will happen to the corn plants?</p>
+    <container-enable-disable :visible="true" :enabled="false" id="ilic" class="item2_T9 page41636">
+      <div class="grid_T9_ButtonsGroup page41636">
+        <div class="grid_T14 item1_T9_BGroup page41636">
+          <widget-radio :visible="true" :enabled="true" id="iw4k" group="isco" value="A. The corn plants will grow and be healthy." shared-data-read-key="GroupBehavior.EM.PredictCornPlants_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page41636">
+            <p class="page41636">A</p>
+          </widget-radio>
+          <p class="item2_T14_Answer page41636">The corn plants will grow and be healthy.</p>
+        </div>
+        <div class="grid_T14 item2_T9_BGroup page41636">
+          <widget-radio :visible="true" :enabled="true" id="ip8i" group="isco" value="B. The corn plants will be eaten and killed." :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ip8i',key:'correctStyle',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" shared-data-read-key="GroupBehavior.EM.PredictCornPlants_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page41636">
+            <p class="page41636">B</p>
+          </widget-radio>
+          <p class="item2_T14_Answer page41636">The corn plants will be eaten and killed.</p>
+        </div>
+        <div class="grid_T14 item3_T9_BGroup page41636">
+          <widget-radio :visible="true" :enabled="true" id="iiw3" group="isco" value="C. Less of the corn plants will be eaten or killed.  But, some of the corn will still be eaten or killed." shared-data-read-key="GroupBehavior.EM.PredictCornPlants_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page41636">
+            <p class="page41636">C</p>
+          </widget-radio>
+          <p class="item2_T14_Answer page41636">Less of the corn plants will be eaten or killed. <br />But, some of the corn will still be eaten or killed.</p>
+        </div>
+      </div>
+    </container-enable-disable>
+    <div class="item3_T9 page41636">
+      <container-show-hide :visible="false" id="iha7" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iw4k'}},{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iiw3'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i44yx',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iha7',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="dropShadow textBackgroundBasic textBackground-Correct SH_Correct-Incorrect page41636">
+        <p class="colorBlack page41636"><strong>Correct!</strong> The corn plants were still eaten and killed. There were not enough bees or hives to scare the elephants.</p>
+      </container-show-hide>
+      <container-show-hide :visible="false" id="i44yx" class="dropShadow textBackgroundBasic textBackground-Incorrect SH_Correct-Incorrect page41636">
+        <p class="colorBlack page41636"><strong class="page41636">Incorrect.</strong> The corn plants were still eaten and killed. There were not enough bees or hives to scare the elephants.</p>
+      </container-show-hide>
+    </div>
+  </div>
+  <container-enable-disable :visible="true" :enabled="true" id="ifwq7" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNext_page41636',delay:5}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="ED_UnlockNextPage_OnPageLoad page41636"></container-enable-disable>
+</div>

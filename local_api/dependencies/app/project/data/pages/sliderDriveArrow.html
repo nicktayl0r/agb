@@ -1,0 +1,80 @@
+<div id="arrowParent" style="height: 25vh; width: 25vh; background: grey; margin-left: 2vh; margin-top: 2vh; margin-bottom: 2vh"></div>
+<widget-arrow id="arrowPurple" source-id="arrowParent" target-id="arrowParent" :delay=0 :duration=0 color="purple" :width="3"
+	:source-offset-x="0" :source-offset-y="0" :target-offset-x="100" :target-offset-y="100" text="" 
+	:conditions="{conditionList:[
+		{evaluateWhen:'sharedDataChanges',comparisons:[
+			{comparisonData:{
+				comparisonType:'sharedDataVal',sharedDataKey:'sourceX_slider',comparison:'greaterThan',val:30}},
+			{comparisonData:{
+				comparisonType:'sharedDataVal',sharedDataKey:'targetY_slider',comparison:'lessThan',val:70}}],
+				comparisonsLogic:'and',
+				effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'arrowPurple',key:'color',val:'red'},fireOnceID:'',delay:0}],
+				effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'arrowPurple',key:'color',val:'purple'},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" />
+<div style="display: flex; flex-direction: row">
+<span>Arrow source X</span>
+<widget-slider
+	:visible="true"
+	:enabled="true"
+	:max="100"
+	:val="0"
+	id="sX"
+	:min="0"
+	shared-data-write-key="sourceX_slider"
+	:conditions="{conditionList:[{evaluateWhen:'sharedDataChanges',comparisons:[{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'sourceX_slider',comparison:'notEquals',val:0}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'arrowPurple',key:'sourceOffsetX',sharedDataKey:'sourceX_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+	class=""
+	data-gjs-custom-name="widget_Slider"
+	style="width: 20vh; margin-left: 2vh"
+>
+</widget-slider>
+</div>
+<div style="display: flex; flex-direction: row">
+<span>Arrow source Y</span>
+<widget-slider
+	:visible="true"
+	:enabled="true"
+	:max="100"
+	:val="0"
+	id="sY"
+	:min="0"
+	shared-data-write-key="sourceY_slider"
+	:conditions="{conditionList:[{evaluateWhen:'sharedDataChanges',comparisons:[{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'sourceY_slider',comparison:'notEquals',val:0}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'arrowPurple',key:'sourceOffsetY',sharedDataKey:'sourceY_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+	class=""
+	data-gjs-custom-name="widget_Slider"
+	style="width: 20vh; margin-left: 2vh"
+>
+</widget-slider>
+</div>
+<div style="display: flex; flex-direction: row">
+	<span>Arrow target X</span>
+	<widget-slider
+		:visible="true"
+		:enabled="true"
+		:max="100"
+		:val="100"
+		id="tX"
+		:min="0"
+		shared-data-write-key="targetX_slider"
+		:conditions="{conditionList:[{evaluateWhen:'sharedDataChanges',comparisons:[{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'targetX_slider',comparison:'notEquals',val:0}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'arrowPurple',key:'targetOffsetX',sharedDataKey:'targetX_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+		class=""
+		data-gjs-custom-name="widget_Slider"
+		style="width: 20vh; margin-left: 2vh"
+	>
+	</widget-slider>
+	</div>
+	<div style="display: flex; flex-direction: row">
+	<span>Arrow target Y</span>
+	<widget-slider
+		:visible="true"
+		:enabled="true"
+		:max="100"
+		:val="100"
+		id="tY"
+		:min="0"
+		shared-data-write-key="targetY_slider"
+		:conditions="{conditionList:[{evaluateWhen:'sharedDataChanges',comparisons:[{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'targetY_slider',comparison:'notEquals',val:0}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'arrowPurple',key:'targetOffsetY',sharedDataKey:'targetY_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+		class=""
+		data-gjs-custom-name="widget_Slider"
+		style="width: 20vh; margin-left: 2vh"
+	>
+	</widget-slider>
+	</div>

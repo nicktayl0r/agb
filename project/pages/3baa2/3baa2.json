@@ -1,0 +1,2745 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "page_SimParent_FullPage",
+			"components": [
+				{
+					"tagName": "widget-sim-view",
+					"type": "widget-sim-view",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "selected",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "simPreview",
+							"label": "simPreview",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page3baa2",
+							"label": "page3baa2",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"id": "iwer",
+						"scenename": "Sahara_Perspective",
+						"simstateid": "r6ww4d",
+						":visible": true,
+						":enabled": "true",
+						"play-state": "default",
+						":muted": false,
+						":scene-loaded-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i2hx',key:'visible',val:true},fireOnceID:'firstButtonShowOnce_page3baa2',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetSimView",
+					"custom-name": "widget_SimView",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_T62",
+							"label": "grid_T62",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "simPageContent",
+							"label": "simPageContent",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page3baa2",
+							"label": "page3baa2",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T62_SimPageContent",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "item1_T62",
+									"label": "item1_T62",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item1_T62_text",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "This is Marula Farm.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_1",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "item2_T62",
+									"label": "item2_T62",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "div_PlayReplay",
+									"label": "div_PlayReplay",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								"id": "iywj"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "item2_T62_div_PlayReplay",
+							"components": [
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "buttonReplay",
+											"label": "buttonReplay",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										":enabled": "true",
+										"id": "irlg",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iywj',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6hpx',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibm4h',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i2hx',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_Replay",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "Replay",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "text_PlayReplay",
+											"label": "text_PlayReplay",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_Label",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-popper",
+							"type": "widget-popper",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":click-to-dismiss": "false",
+								"id": "iudr",
+								":delay": "0",
+								":delay-once": "false",
+								"anchor-id": "ithg",
+								":options": "{placement:'top'}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetPopper",
+							"custom-name": "popper_1",
+							"components": [
+								{
+									"tagName": "span",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "These are the cotton crops.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-popper",
+							"type": "widget-popper",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":click-to-dismiss": "false",
+								":delay": "0",
+								":delay-once": "false",
+								"id": "i3znf",
+								"anchor-id": "ip0ls",
+								":options": "{placement:'top'}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetPopper",
+							"custom-name": "popper_2",
+							"components": [
+								{
+									"tagName": "span",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "These are the beehives.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-popper",
+							"type": "widget-popper",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":click-to-dismiss": "false",
+								":delay": "0",
+								":delay-once": "false",
+								"id": "iukhh",
+								"anchor-id": "i8te9",
+								":options": "{placement:'top'}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetPopper",
+							"custom-name": "popper_3",
+							"components": [
+								{
+									"tagName": "span",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "These are the healthy corn crops.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-popper",
+							"type": "widget-popper",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "popperClickable",
+									"label": "popperClickable",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":click-to-dismiss": "false",
+								":delay": "0",
+								":delay-once": "false",
+								"id": "ibm4h",
+								"anchor-id": "ip5o5",
+								":options": "{placement:'top'}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetPopper",
+							"custom-name": "popper_4",
+							"components": [
+								{
+									"tagName": "span",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text",
+									"components": [
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "These are the ",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										},
+										{
+											"tagName": "widget-link",
+											"type": "widget-link",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page3baa2",
+													"label": "page3baa2",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":options": "{type:'internal',module:'glossary',pageId:'g_trampled_E-Ex-M-Mx'}",
+												"text": "trampled",
+												":visible": "true",
+												"id": "i38c"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetLink",
+											"custom-name": "link_Trampled",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "br",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "Br",
+											"components": []
+										},
+										{
+											"tagName": "",
+											"type": "textnode",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "and dead corn crops.",
+											"icon": "",
+											"style": "",
+											"classes": [],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"components": []
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_GridPos",
+									"label": "anchor_GridPos",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_1",
+									"label": "anchor_1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "true",
+								"id": "ithg"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "anchor_1",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_GridPos",
+									"label": "anchor_GridPos",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_2",
+									"label": "anchor_2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "true",
+								"id": "ip0ls"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "anchor_2",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_GridPos",
+									"label": "anchor_GridPos",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_3",
+									"label": "anchor_3",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "true",
+								"id": "i8te9"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "anchor_3",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "container-show-hide",
+							"type": "container-show-hide",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_GridPos",
+									"label": "anchor_GridPos",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "anchor_4",
+									"label": "anchor_4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "true",
+								"id": "ip5o5"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "ContainerShowHide",
+							"custom-name": "anchor_4",
+							"components": [],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": {},
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_1",
+									"label": "button_1",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": false,
+								":enabled": true,
+								"id": "i2hx",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i2hx',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iudr',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i9qoz',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_1",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_1",
+											"label": "buttonFill_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_1",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_2",
+									"label": "button_2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":enabled": "true",
+								"id": "i9qoz",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i9qoz',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iudr',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i3znf',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'is24l',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_2",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_2",
+											"label": "buttonFill_2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_2",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_3",
+									"label": "button_3",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":enabled": "true",
+								"id": "is24l",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'is24l',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i3znf',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iukhh',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i92ct',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_3",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_3",
+											"label": "buttonFill_3",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_3",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_4",
+									"label": "button_4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":enabled": "true",
+								"id": "i92ct",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i92ct',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iukhh',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ibm4h',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6hpx',key:'visible',val:true},fireOnceID:'',delay:3},{effectData:{effectType:'updateWidget',widgetID:'iywj',key:'visible',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_4",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_4",
+											"label": "buttonFill_4",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_4",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "widget-button",
+							"type": "widget-button",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "buttonBasic_Invisible",
+									"label": "buttonBasic_Invisible",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "noPadding",
+									"label": "noPadding",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "buttonBlinkBlue",
+									"label": "buttonBlinkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page3baa2",
+									"label": "page3baa2",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "button_5",
+									"label": "button_5",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {
+								":visible": "false",
+								":enabled": "true",
+								"id": "i6hpx",
+								":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNextPageOnce_3baa2',delay:0},{effectData:{effectType:'nextPage'},fireOnceID:'',delay:0.01}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+							},
+							"propagate": "",
+							"dmode": "",
+							"vueComponentName": "WidgetButton",
+							"custom-name": "button_5",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page3baa2",
+											"label": "page3baa2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonFill_5",
+											"label": "buttonFill_5",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "buttonFill_5",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						}
+					],
+					"open": true
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_T62",
+					"label": "grid_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"padding": "6vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T62",
+					"label": "item1_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1",
+				"justify-self": "center",
+				"align-self": "start",
+				"padding": "2vh 2vh 2vh 2vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T62",
+					"label": "item2_T62",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"align-self": "end",
+				"justify-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_PlayReplay",
+					"label": "div_PlayReplay",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "flex",
+				"flex-direction": "row",
+				"align-items": "center",
+				"width": "auto",
+				"padding": "1.5vh 1.5vh 1.5vh 1.5vh",
+				"border-radius": "1.5vh 1.5vh 1.5vh 1.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_PlayReplay",
+					"label": "text_PlayReplay",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin-left": "1.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simPreview",
+					"label": "simPreview",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"z-index": "1",
+				"top": "0px",
+				"right": "0px",
+				"position": "absolute",
+				"background-color": "rgb(255, 255, 255)"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"position": "relative",
+				"top": "0px",
+				"margin-top": "0em",
+				"margin-right": "0px",
+				"margin-bottom": "0px",
+				"margin-left": "0px"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simPageContent",
+					"label": "simPageContent",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "2",
+				"position": "relative"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_GridPos",
+					"label": "anchor_GridPos",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "1vh",
+				"height": "1vh",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0vh 0vh -30vh -66vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_2",
+					"label": "button_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-5vh 0 0 -34vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_3",
+					"label": "button_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 -11vh -13vh 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_4",
+					"label": "button_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 -96vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_5",
+					"label": "button_5",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0vh -45vh 0vh 0vh",
+				"transform": "perspective(8vh) rotateX(7deg) rotateY(-5deg) rotateZ(19deg)"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_1",
+					"label": "buttonFill_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "16vh",
+				"height": "29vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_2",
+					"label": "buttonFill_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "20vh",
+				"height": "14vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_3",
+					"label": "buttonFill_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "20vh",
+				"height": "69vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_4",
+					"label": "buttonFill_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "15vh",
+				"height": "20vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_5",
+					"label": "buttonFill_5",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "45vh",
+				"height": "25vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_1",
+					"label": "anchor_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 -39vh -64vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_2",
+					"label": "anchor_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-21vh 0 0 -35vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_3",
+					"label": "anchor_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-41vh -11vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_4",
+					"label": "anchor_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-10vh -91vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "noPadding",
+					"label": "noPadding",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page3baa2",
+					"label": "page3baa2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

@@ -1,0 +1,86 @@
+.grid_T62.pagefdcc3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.pagefdcc3 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	width: 60vh;
+	justify-self: end;
+	align-self: start;
+}
+
+.item2_T62.pagefdcc3 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: start;
+	align-self: end;
+	width: 60vh;
+}
+
+.simPreview.pagefdcc3 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.pagefdcc3 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.pagefdcc3 {
+	z-index: 2;
+	position: relative;
+}
+
+.buttonBasic_Invisible.pagefdcc3 {
+	z-index: 5;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_1.pagefdcc3 {
+	margin: -16vh 0vh 0vh -83vh;
+}
+
+.button_2.pagefdcc3 {
+	margin: 0vh -92vh -21vh 0vh;
+}
+
+.buttonFill_1.pagefdcc3 {
+	width: 38vh;
+	height: 38vh;
+}
+
+.buttonFill_2.pagefdcc3 {
+	width: 30vh;
+	height: 25vh;
+}
+
+

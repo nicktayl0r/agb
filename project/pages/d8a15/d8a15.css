@@ -1,0 +1,280 @@
+.simPreview.paged8a15 {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: #000000;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.simParent.paged8a15 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	background-image: url(../../assets/images/backgrounds/background_Sahara_Farm_Map_simState_46_IMG.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+}
+
+.simPageContent.paged8a15 {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.div_belowGrid.paged8a15 {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.farmMapSimClose_PageContent.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.buttonFillSq.paged8a15 {
+	width: 80vh;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr min-content;
+	grid-row-gap: 0;
+}
+
+.button_1.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.text_Experiment1a.paged8a15 {
+	font-size: 4vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	padding: 3vh 3vh 3vh 3vh;
+}
+
+.text_Experiment1b.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding: 3vh 3vh 3vh 3vh;
+}
+
+.image_Cotton.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	width: 25.2vh;
+	height: 50vh;
+}
+
+.buttonImage.paged8a15 {
+	width: 10vh;
+	height: 10vh;
+}
+
+.drag_Appearance.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	padding: 0 0 0 0;
+	width: 10vh;
+	height: 10vh;
+	background-color: #ffffff00;
+	border: 0vh solid #ffffff80;
+}
+
+.startingDrop_Appearance.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 10vh;
+	height: 10vh;
+	padding: 0 0 0 0;
+	background-color: #ffffff00;
+	color: #ffffff80;
+	border: 0vh solid #ffffff80;
+	border-radius: 1.3vh;
+}
+
+.div_DragStart.paged8a15 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: center;
+}
+
+.div_DragFiller.paged8a15 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 10vh;
+	height: 10vh;
+	color: black;
+}
+
+.div_StartingDropText.paged8a15 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 15vh;
+	height: 10vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	color: #d9d9d9;
+}
+
+.text_DragNumbers.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	font-size: 5vh;
+	width: auto;
+	height: auto;
+}
+
+.button_Hive.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.drop_Appearance.paged8a15 {
+	border-radius: 1.3vh;
+	border: 0.5vh dashed #45c1ff;
+	background-color: #ffffff00;
+	padding: 0 0 0 0;
+}
+
+.text_DropHere.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	color: #999999;
+}
+
+.SH_DropHere.paged8a15 {
+	width: 16vh;
+	height: 8.75vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.div_farmGrid.paged8a15 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.drop_1.paged8a15 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 65vh;
+	height: 47vh;
+	margin: -1vh -25vh 0 0;
+}
+
+.SH_PlantingSeeds.paged8a15 {
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 79vh;
+	height: 59vh;
+	border-radius: 2vh 2vh 2vh 2vh;
+}
+
+.APNG_PlantSeeds.paged8a15 {
+	width: 79vh;
+	height: 59vh;
+}
+
+.SH_PlantingSeeds.dropShadow.paged8a15 {
+	border: 0.4vh solid #412B41;
+	background-color: #412B41;
+}
+
+.anchor_WhitePopper.paged8a15 {
+	width: 0;
+	height: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -56vh -26vh 0 0;
+}
+
+
+
+
+
+
+

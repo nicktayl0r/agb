@@ -1,0 +1,111 @@
+.grid_T62.pagec512c {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.pagec512c {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T62.pagec512c {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+	justify-self: start;
+	align-self: end;
+}
+
+.div_PlayReplay.pagec512c {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+	border: .2vh solid rgba(205,204,204,1);
+	border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.text_PlayReplay.pagec512c {
+	margin-left: 1.5vh;
+}
+
+.simPreview.pagec512c {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.pagec512c {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.pagec512c {
+	z-index: 2;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+}
+
+.item2.pagec512c {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width: 90vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	justify-self: start;
+	align-self: end;
+}
+
+.div_Text2.pagec512c {
+	height: auto;
+}
+
+.buttonBasic_Invisible.pagec512c {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_Bee.pagec512c {
+	margin: -13vh 0vh 0vh -3vh;
+}
+
+.button_Sound.pagec512c {
+	margin: 0vh 0vh -35vh -41vh;
+}
+
+.buttonFill_BeeButton.pagec512c {
+	width: 50vh;
+	height: 20vh;
+}
+
+.buttonFill_SoundButton.pagec512c {
+	width: 25vh;
+	height: 30vh;
+}
+

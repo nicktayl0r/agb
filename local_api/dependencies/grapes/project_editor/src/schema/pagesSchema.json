@@ -1,0 +1,22 @@
+{
+	"type": "array",
+	"format": "table",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"items": {
+		"type": "object",
+		"id": "arr_item",
+		"required": ["id", "name"],
+		"properties": {
+			"id": {
+				"type": "string",
+				"title": "Page ID",
+				"default": " "
+			},
+			"name": {
+				"type": "string",
+				"title": "Page Name",
+				"default": "new"
+			}
+		}
+	}
+}

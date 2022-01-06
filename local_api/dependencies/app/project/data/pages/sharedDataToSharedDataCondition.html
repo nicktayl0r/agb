@@ -1,0 +1,138 @@
+<br><br>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <div style="display: flex; flex-direction: row;">
+    <span>sharedDataToSharedData1_num</span>
+    <widget-textbox id="sd1" shared-data-write-key="sharedDataToSharedData1_num"
+      shared-data-read-key="sharedDataToSharedData1_num" filter="integer" filter-list="" />
+  </div>
+  <div style="display: flex; flex-direction: row;">
+    <span>sharedDataToSharedData2_num</span>
+    <widget-textbox id="sd2" shared-data-write-key="sharedDataToSharedData2_num"
+      shared-data-read-key="sharedDataToSharedData2_num" filter="integer" filter-list="" />
+  </div>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText" shared-data-read-key="sharedDataToSharedData1_num" text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "equals" </span>
+  <widget-shared-data-text id="sharedText2" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="equalToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'equals'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'equalToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'equalToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText3" shared-data-read-key="sharedDataToSharedData1_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "notEquals" </span>
+  <widget-shared-data-text id="sharedText4" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="notEqualToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'notEquals'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'notEqualToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'notEqualToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText5" shared-data-read-key="sharedDataToSharedData1_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "lessThan" </span>
+  <widget-shared-data-text id="sharedText6" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="lessThanToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'lessThan'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'lessThanToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'lessThanToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText7" shared-data-read-key="sharedDataToSharedData1_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "greaterThan" </span>
+  <widget-shared-data-text id="sharedText8" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="greaterThanToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'greaterThan'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'greaterThanToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'greaterThanToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText9" shared-data-read-key="sharedDataToSharedData1_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "equals_cs" </span>
+  <widget-shared-data-text id="sharedText10" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="equals_csToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'equals_cs'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'equals_csToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'equals_csToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+  <span>compare </span>
+  <widget-shared-data-text id="sharedText11" shared-data-read-key="sharedDataToSharedData1_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <span> "notEquals_cs" </span>
+  <widget-shared-data-text id="sharedText12" shared-data-read-key="sharedDataToSharedData2_num"
+    text="no shared text yet">
+  </widget-shared-data-text>
+  <widget-shared-data-text id="notEquals_csToAnswer" text="" :conditions="{conditionList:[
+    {evaluateWhen:'sharedDataChanges',
+      comparisons:[
+      {comparisonData:{comparisonType:'sharedDataToSharedData',sharedDataKey1:'sharedDataToSharedData1_num',sharedDataKey2:'sharedDataToSharedData2_num',comparison:'notEquals_cs'}}],
+      comparisonsLogic:'and',
+      effectsPass:[
+        {effectData:{effectType:'updateWidget',widgetID:'notEquals_csToAnswer',key:'text',val:'true'},fireOnceID:'',delay:0}],
+      effectsFail:[
+        {effectData:{effectType:'updateWidget',widgetID:'notEquals_csToAnswer',key:'text',val:'false'},fireOnceID:'',delay:0}
+      ],responsesPass:[],responsesFail:[]}]}">
+  </widget-shared-data-text>
+</div>

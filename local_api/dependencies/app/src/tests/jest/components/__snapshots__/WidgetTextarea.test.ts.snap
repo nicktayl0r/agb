@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetTextarea matches html snapshot 1`] = `
+<div>
+  <textarea
+    autocomplete="off"
+    class=""
+    id="testWidget"
+    maxlength="900"
+    placeholder="test placeholder"
+    style="resize: none;"
+  />
+</div>
+`;

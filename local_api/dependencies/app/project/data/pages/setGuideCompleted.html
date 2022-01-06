@@ -1,0 +1,61 @@
+Is the guide completed?
+<container-enable-disable id="yes" :conditions="{
+    conditionList:[ 
+    { 
+        comparisons:[
+            {comparisonData:{comparisonType:'guideCompleted'}}
+            ],
+        effectsPass:[
+		{effectData: {effectType: 'updateWidget', widgetID:'yes', key:'visible', val:true}}
+        ],
+        effectsFail:[
+		{effectData: {effectType: 'updateWidget', widgetID:'yes', key:'visible', val:false}}
+		],
+		evaluateWhen:'pageLoads'
+    }   
+    ] 
+}">
+	<p>Yes</p>
+</container-enable-disable>
+<container-enable-disable id="no" :conditions="{
+    conditionList:[ 
+    { 
+        comparisons:[
+            {comparisonData:{comparisonType:'guideCompleted'}}
+            ],
+        effectsPass:[
+		{effectData: {effectType: 'updateWidget', widgetID:'no', key:'visible', val:false}}
+        ],
+        effectsFail:[
+		{effectData: {effectType: 'updateWidget', widgetID:'no', key:'visible', val:true}}
+        ],
+		evaluateWhen:'pageLoads'
+    }   
+    ] 
+}">
+	<p>No</p>
+</container-enable-disable>
+<br>
+<widget-button id="setGuideComplete " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'setGuideCompleted' }}
+        ]
+	},
+	{ 
+        comparisons:[
+            {comparisonData:{comparisonType:'guideCompleted'}}
+            ],
+        effectsPass:[
+		{effectData: {effectType: 'updateWidget', widgetID:'no', key:'visible', val:false}},
+		{effectData: {effectType: 'updateWidget', widgetID:'yes', key:'visible', val:true}}
+        ],
+        effectsFail:[
+		{effectData: {effectType: 'updateWidget', widgetID:'no', key:'visible', val:true}},
+		{effectData: {effectType: 'updateWidget', widgetID:'yes', key:'visible', val:false}}
+        ],
+		evaluateWhen:'widgetsChange'
+    }   
+    ] 
+}" text="Set guide completed" class="buttonBasic-Grey" />

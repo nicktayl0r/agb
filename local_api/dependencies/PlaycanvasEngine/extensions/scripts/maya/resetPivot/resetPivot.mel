@@ -1,0 +1,159 @@
+/* This file downloaded from Highend3d.com
+''  
+''  Highend3d.com File Information:
+''  
+''    Script Name: resetPivot
+''    Author:  
+''    Last Updated: Dec 03, 2008
+''    Update/Change this file at:
+''    http://Highend3d.com/maya/downloads/mel_scripts/modeling/misc/2881.html
+''  
+''  Please do not alter any information above this line
+''  it is generated dynamically by Highend3d.com and will
+''  be changed automatically on any updates.
+*/
+// ///////////////////////////////////////////////////////////////
+// resetPivot.mel
+// version: 2.0.2
+//
+// Restores the "real" pivot position without the Local Pivot
+// offset wich occurs if you 1. freeze transform, 2. move the
+// pivot or 3. perform centerPivot on a transform.
+// Quite important when doing export to realtime 3D Engines.
+//
+// mar-04  eric    created
+// oct-04  eric    minor bugfix
+// jun-05  eric    fixed hierarchy stuff, added reordering
+// nov-07  eric    complete rewrite
+// apr-08  eric    minor bugfix & ezScriptInstaller-enabled
+// dec-08  eric    ezScriptInstaller-line removed, installs via droplet
+//
+// special thanks to:
+// Naughty Nathan (for the patience and your wicked test scene)
+// Anonymous Guy  (for creating the icon) (name to be replaced)
+//
+// ///////////////////////////////////////////////////////////////
+// goodsoul.de                            ewerybody@goodsoul.de //
+// //////////////////////////////////////////////////////////////
+
+// just to not create arrays if theres only 1 srtring
+proc string getArrayItem0(string $array[])
+{
+	return $array[0];
+}
+
+// to relocate potential animations from reseted obj and children
+proc relocateTransAnim(vector $currentPosition, string $object)
+{
+	vector $posInTime = `getAttr -t (currentTime("-q")) ($object + ".t")`;
+	if ($currentPosition != $posInTime)
+	{
+		vector $offset = ($currentPosition - $posInTime);
+		keyframe -e -iub true -r -o over -vc ($offset.x) ($object + ".translateX");
+		keyframe -e -iub true -r -o over -vc ($offset.y) ($object + ".translateY");
+		keyframe -e -iub true -r -o over -vc ($offset.z) ($object + ".translateZ");
+	}
+}
+
+// proc to get the position in the outlioner
+proc int reorderQ (string $object)
+{
+	string $shortName = match("[^|]*$", $object);
+	string $parent = getArrayItem0(`listRelatives -f -p $object`);
+	
+    string $siblings[]; // get all siblings
+    if ($parent != "") // if theres a parent
+		$siblings = `listRelatives -f -c -type transform -type shape $parent`;
+    else // or if theres none
+		$siblings = `ls -l -assemblies`;
+
+	int $position = 0; // browse siblings
+    for ($sibling in $siblings)
+	{
+        if (match("[^|]*$", $sibling) != $shortName) //search $origObj in $siblings
+            $position++; //increase for each obj that isn't $object
+        else
+			return $position; // stop if found $origObj
+	}
+}
+
+global proc resetPivot()
+{
+	string $sel[] = `ls -sl -l -transforms`;
+	int $count = 1;
+	for ($obj in $sel)
+	{
+		string $shortName = `match "[^|]*$" $obj`;
+		vector $localPivot = `xform -q -rp $obj`;
+		if ($localPivot != <<0.0, 0.0, 0.0>>)
+		{
+			print("resetPivot (" + $count + "): \"" + $shortName + "\" has an offset of (" + $localPivot.x + ") (" + $localPivot.y + ") (" + $localPivot.z + ")\n");
+			
+			//cut potential translation keys and take result for animation-check
+			int $animCheck = `cutKey -at "tx" -at "ty" -at "tz" $obj`;
+			
+			// check if the object has children
+			string $children[] = `listRelatives -f -c -type "transform" $obj`;
+			if (`size($children)`) // and parent them to the world
+				$children = `parent -w $children`;
+			
+			// parent to world if not already
+			string $parent = getArrayItem0(`listRelatives -p -f $obj`);
+			int $outlinerPosition;
+			if ($parent != "")
+			{
+				$outlinerPosition = reorderQ($obj);
+				$obj = getArrayItem0(`parent -w $obj`);
+			}
+
+			// get real world position
+			vector $worldPos = `xform -q -ws -rp $obj`;
+			move -rpr 0 0 0 $obj;
+			makeIdentity -apply true -t 1 -r 0 -s 0 $obj;
+			xform -t ($worldPos.x) ($worldPos.y) ($worldPos.z) $obj;
+			if ($parent != "") // reparent obj
+			{
+				$obj = getArrayItem0(`parent $obj $parent`);
+				$obj = `rename $obj $shortName`;
+				reorder -front $obj;
+				reorder -relative $outlinerPosition $obj;
+			}
+
+			// put the children back under the object
+			if (`size($children)`)
+			{
+				for ($child in $children)
+				{
+					// reparent this child
+ 					$child = getArrayItem0(`parent $child $obj`);
+					vector $curPos =    `getAttr ($child + ".t")`;
+
+					relocateTransAnim($curPos, $child);
+				}
+			}
+
+			if ($animCheck)
+			{
+				vector $curPos =    `getAttr ($obj + ".t")`;
+				// reinsert translation curve as it has been taken
+				pasteKey $obj;
+				
+				relocateTransAnim($curPos, $obj);
+			}
+			// sometimes there is a very tiny restvalue so:
+			// forcing local pivot to 0 0 0
+			xform -rp 0 0 0 $obj;
+			xform -sp 0 0 0 $obj;
+
+			// final test
+			$localPivot = `xform -q -rp $obj`;
+			if ($localPivot == <<0,0,0>>)
+				print ("resetPivot (" + $count++ + "): \"" + $shortName + "\" fixet! No offset anymore!\n");
+			else
+				warning ("\"" + $shortName + " has still an offset!!");
+		}
+		else
+			print ("resetPivot (" + $count++ + "): pivot of "+$shortName+" not dirty! Skipped!\n");
+	}
+	select -r $sel;
+}

@@ -1,0 +1,17 @@
+/* This file downloaded from Highend3d.com
+''  
+''  Highend3d.com File Information:
+''  
+''    Script Name: resetPivot
+''    Author:  
+''    Last Updated: Dec 03, 2008
+''    Update/Change this file at:
+''    http://Highend3d.com/maya/downloads/mel_scripts/modeling/misc/2881.html
+''  
+''  Please do not alter any information above this line
+''  it is generated dynamically by Highend3d.com and will
+''  be changed automatically on any updates.
+*/
+// make the script melDropable:
+if (`exists "melDrop"`) melDrop("resetPivot",{"shelfButton=1","iconOverlay=rPiv","createHotkey=1","annotation=resetPivot - recovers original translation values","v=2.1","mDv=0.6"});
+else warning "melDrop not available! - get it from the internets at goodsoul.de or highend3D.com";

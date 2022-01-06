@@ -1,0 +1,72 @@
+.grid_T62.pagead5a0 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.pagead5a0 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.simPreview.pagead5a0 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.pagead5a0 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.pagead5a0 {
+	z-index: 2;
+	position: relative;
+}
+
+.div_Text2.pagead5a0 {
+	height: auto;
+}
+
+.buttonBasic_Invisible.pagead5a0 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_1.pagead5a0 {
+	margin: -11vh -35vh 0 0;
+}
+
+.buttonFill_1.pagead5a0 {
+	width: 22vh;
+	height: 22vh;
+}
+
+
+
+
+
+
+

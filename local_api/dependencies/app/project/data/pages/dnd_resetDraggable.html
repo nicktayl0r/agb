@@ -1,0 +1,163 @@
+<br data-gjs-custom-name="Br" />
+<br data-gjs-custom-name="Br" />
+<h3 data-gjs-custom-name="Text">Reset Draggables Effect</h3>
+<ol>
+  <li>
+    Drag the dragWidgets into the corresponding drop widgets. Click reset-all.
+    All drag widgets should return to their starting points.
+  </li>
+  <li>
+    Drag the dragWidgets into the corresponding drop widgets. Click
+    disable-drag-A3. Click reset-all. dragA3 should remain in place, while
+    dragA1 and dragA2 return to their starting points.
+  </li>
+</ol>
+<container-enable-disable
+  id="fieldset"
+  :visible="true"
+  :enabled="true"
+  data-gjs-custom-name="Container-enable-disable"
+>
+  <widget-drop
+    id="drag1Start"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id="A"
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop"
+    data-gjs-custom-name="Widget-drop"
+  >
+    <widget-drag
+      id="dragA1"
+      drop-id="drag1Start"
+      group-id="foobar"
+      :visible="true"
+      :enabled="true"
+      :child-index="0"
+      class="buttonBasic-Grey"
+      data-gjs-custom-name="Widget-drag"
+      >dragA1 </widget-drag
+    >dropA1
+  </widget-drop>
+  <widget-drop
+    id="drag2Start"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id="A"
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop"
+    data-gjs-custom-name="Widget-drop"
+  >
+    <widget-drag
+      id="dragA2"
+      drop-id="drag2Start"
+      group-id="foobar"
+      :visible="true"
+      :enabled="true"
+      :child-index="0"
+      class="buttonBasic-Grey"
+      data-gjs-custom-name="Widget-drag"
+      >dragA2 </widget-drag
+    >dropA2
+  </widget-drop>
+  <widget-drop
+    id="drag3Start"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id="A"
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop"
+    data-gjs-custom-name="Widget-drop"
+  >
+    <widget-drag
+      id="dragA3"
+      drop-id="drag3Start"
+      group-id="foobar"
+      :visible="true"
+      :enabled="true"
+      :child-index="0"
+      class="buttonBasic-Grey"
+      data-gjs-custom-name="Widget-drag"
+      >dragA3 </widget-drag
+    >dropA3
+  </widget-drop>
+  <br data-gjs-custom-name="Br" />
+  <br data-gjs-custom-name="Br" />
+  <widget-drop
+    id="dropA1"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id=""
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop c9720"
+    data-gjs-custom-name="Widget-drop"
+    >dropA
+  </widget-drop>
+  <widget-drop
+    id="dropA2"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id=""
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop c9739"
+    data-gjs-custom-name="Widget-drop"
+    >dropA
+  </widget-drop>
+  <widget-drop
+    id="dropA3"
+    :max-children="1"
+    overflow-style="reset-child"
+    allowed-group-id=""
+    :visible="true"
+    :enabled="true"
+    class="buttonDrop c9758"
+    data-gjs-custom-name="Widget-drop"
+    >dropA
+  </widget-drop>
+</container-enable-disable>
+<br data-gjs-custom-name="Br" />
+<widget-button
+  id="disableA1"
+  text="disable drag-A3"
+  :visible="true"
+  :enabled="true"
+  :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'dragA3',key:'enabled',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+  class="buttonBasic-Grey"
+  data-gjs-custom-name="Widget-button"
+>
+</widget-button>
+<widget-button
+  id="disableAllContainer"
+  text="disable All container"
+  :visible="true"
+  :enabled="true"
+  :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'fieldset',key:'enabled',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+  class="buttonBasic-Grey"
+  data-gjs-custom-name="Widget-button"
+>
+</widget-button>
+<widget-button
+  id="resetAll"
+  text="reset All"
+  :visible="true"
+  :enabled="true"
+  :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'resetDraggables',groupID:'foobar'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+  class="buttonBasic-Grey"
+  data-gjs-custom-name="Widget-button"
+>
+</widget-button>
+<widget-button
+  :visible="true"
+  :enabled="true"
+  id="if6u"
+  :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'resetDraggable',dragID:'dragA3'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+  text="reset a3"
+  class="buttonBasic-Grey pagecab4d"
+  data-gjs-custom-name="button_Grey"
+>
+</widget-button>

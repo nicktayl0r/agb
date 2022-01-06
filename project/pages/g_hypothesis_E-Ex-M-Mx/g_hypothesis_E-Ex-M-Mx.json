@@ -1,0 +1,71 @@
+
+{
+  "gjs-components": [
+    {
+      "tagName": "div",
+      "type": "text",
+      "name": "",
+      "removable": true,
+      "draggable": true,
+      "droppable": false,
+      "badgable": true,
+      "stylable": true,
+      "stylable-require": "",
+      "style-signature": "",
+      "unstylable": "",
+      "highlightable": true,
+      "copyable": true,
+      "resizable": false,
+      "editable": true,
+      "layerable": true,
+      "selectable": true,
+      "hoverable": true,
+      "void": false,
+      "state": "",
+      "status": "selected",
+      "content": "<p><p><span >A hypothesis is what you think is a correct answer to a question.&nbsp;</span></p><br><p><span >It also has the reasons why you think you are correct.&nbsp;</span></p><br><p><span >A hypothesis can be tested to find out if it is correct.</span></p><br><p><br></p><br><p><span >For example, here is a question: “What would happen to plants if rabbits were added to a park?”</span></p><br><p><span >A hypothesis could be: “I think that if I added rabbits to a park then there would be less plants. This is because rabbits eat plants”</span></p><br><p><span >The hypothesis can be tested by adding rabbits to find out if it was correct.</span></p><br></p>",
+      "icon": "",
+      "style": "",
+      "classes": [
+        {
+          "name": "page-g_hypothesis_E-Ex-M-Mx",
+          "label": "page-g_hypothesis_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "script": "",
+      "attributes": {},
+      "propagate": "",
+      "dmode": "",
+      "tag Name": "div",
+      "custom-name": "definition",
+      "components": [],
+      "open": false
+    }
+  ],
+  "gjs-styles": [
+    {
+      "selectors": [
+        {
+          "name": "page-g_hypothesis_E-Ex-M-Mx",
+          "label": "page-g_hypothesis_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "selectorsAdd": "",
+      "style": {},
+      "mediaText": "",
+      "state": "",
+      "stylable": true,
+      "atRuleType": "",
+      "singleAtRule": 0,
+      "important": 0
+    }
+  ]
+}

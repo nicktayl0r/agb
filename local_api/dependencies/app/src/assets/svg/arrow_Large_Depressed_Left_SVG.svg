@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 123">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #55bcea;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-2333.5" y1="717.65" x2="-2220.66" y2="717.65" gradientTransform="translate(-472.73 -2215.43) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55bcea"/>
+      <stop offset="1" stop-color="#7ed6ff"/>
+    </linearGradient>
+  </defs>
+  <title>arrow_Large_Depressed_Left_PNG</title>
+  <g id="arrow_Large_Button_Down">
+    <path id="arrowLeft_Large_Button_Down_SVG" class="cls-1" d="M52.92,7.85c-7,7-40.4,41.35-44.54,45.67a12.51,12.51,0,0,0-3.31,8.2,12.16,12.16,0,0,0,3.31,8.06C12.52,74.1,46,108.49,52.92,115.45c5.25,5.25,13.72,2.2,13.72-5.45V87.45H474.06c6.2,0,10.71-5.64,10.71-11.47V47.32c0-5.83-4.51-11.46-10.71-11.46H66.64V13.3C66.64,5.65,58.17,2.6,52.92,7.85Z"/>
+  </g>
+</svg>

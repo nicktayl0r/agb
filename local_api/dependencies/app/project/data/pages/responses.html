@@ -1,0 +1,99 @@
+<p>Shared Data Response</p>
+<widget-button class="buttonBasic-Grey" id="sharedDataError" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.HA.CJPercentageOfResistance', responseData:{responseType: 'sharedData', sharedDataKey: 'none'}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send SharedDataResponse "none" key</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="sharedData" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.HA.CJPercentageOfResistance', responseData:{responseType: 'sharedData', sharedDataKey: 'proj_SliderKey1', descriptor: 'numAttempts', numCorrectTotal:0}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send SharedDataResponse "proj_SliderKey1" key</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="sharedDataTA" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.HA.CJPercentageOfResistance', responseData:{responseType: 'sharedData', sharedDataKey: 'proj_TextAreaKey1'}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send SharedDataResponse "proj_TextAreaKey1" key</p>
+</widget-button>
+<p style="margin-top: 2rem">Widget Response: Each button sends - header + boolean, header + string, + header + number,
+	boolean
+	(no header), header (no widget val) </p>
+<widget-textarea id="textarea" placeholder="for when you need multiple lines" shared-data-read-key="proj_TextAreaKey1"
+ shared-data-write-key="textAreaKey1" />
+<widget-slider id="slider" :min=0 :max=10 :val=150 shared-data-write-key="proj_SliderKey1"></widget-slider>
+<widget-button class="buttonBasic-Grey" id="widgetRespComma" :clickEffects="{conditionList:[ {
+	responsesPass:[
+		{rubricID: 'Evolution.LHA.ResistantBacteria', 
+			responseData:{
+				responseType: 'widget', format: 'comma', 
+				headerPairs: [
+					{header: 'My first header string.', widgetID: 'sharedDataError', key: 'enabled'},
+					{header: 'My second:', widgetID: 'textarea', key: 'text'},
+					{header: '3rd header?', widgetID: 'slider', key: 'val'},
+					{header: '', widgetID: 'textarea', key: 'visible'},
+					{header: '5th head', widgetID: 'nope', key: 'nope'}
+				]}
+		}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send Widget Response (comma)</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="widgetRespHtml" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.LHA.ResistantBacteria', responseData:{
+		responseType: 'widget', format: 'html', 
+	 	headerPairs: [
+	 		{header: 'My first header string.', widgetID: 'sharedDataError', key: 'enabled'},
+			 {header: 'My second:', widgetID: 'textarea', key: 'text'},
+			 {header: '3rd header?', widgetID: 'slider', key: 'val'},
+			 {header: '', widgetID: 'textarea', key: 'visible'},
+			 {header: '5th head', widgetID: 'nope', key: 'nope'}
+	 	]}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send Widget Response (html)</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="widgetRespHtml" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.LHA.ResistantBacteria', responseData:{
+		responseType: 'widget', format: 'none', 
+	 	headerPairs: [
+	 		{header: 'My first header string.', widgetID: 'sharedDataError', key: 'enabled'},
+			 {header: 'My second:', widgetID: 'textarea', key: 'text'},
+			 {header: '3rd header?', widgetID: 'slider', key: 'val'},
+			 {header: '', widgetID: 'textarea', key: 'visible'},
+			 {header: '5th head', widgetID: 'nope', key: 'nope'}
+	 	]}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Send Widget Response (none)</p>
+</widget-button>
+<p style="margin-top: 2rem">Widget Revision: </p>
+<widget-textarea id="reviseable1" placeholder="type your first hypothesis here, then submit" shared-data-read-key="proj_TextAreaKey1"
+ shared-data-write-key="textAreaKey1" />
+<widget-button class="buttonBasic-Grey" id="reviseSubmit1" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.LHA.SelectivePressure', responseData:{
+		responseType: 'revisableWidget',
+	 	headerPair: {header: 'Initial Hypothesis:', widgetID: 'reviseable1', key: 'text'}
+	 	}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Submit initial hypothesis</p>
+</widget-button>
+<widget-textarea id="reviseable2" placeholder="type your revision, then submit" shared-data-read-key="textAreaKey1" />
+<widget-button class="buttonBasic-Grey" id="reviseSubmit2" :clickEffects="{conditionList:[ {
+	responsesPass:[
+	 {rubricID: 'Evolution.LHA.SelectivePressure', responseData:{
+		responseType: 'revisableWidget',
+	 	headerPair: {header: '1st Revision:', widgetID: 'reviseable2', key: 'text'}
+	 	}}
+	] 
+} ]}">
+	<p class="marginLeft2 marginRight2">Submit Revision</p>
+</widget-button>

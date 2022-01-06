@@ -1,0 +1,65 @@
+page 3
+<br />
+<br />
+<widget-textbox id="p2textbox1" placeholder="placeholder text" />
+<widget-textbox id="p2textbox2" text="value text" />
+<store-override-prop id="p2storeOverride" text="this text is set in the Page3 radio.html file" read-from-i-d="p2textbox2" />
+<br />
+<br />
+
+<container-enable-disable id="fieldset">
+    <widget-checkbox id="checkbox1" class="buttonToggle" />
+    <widget-checkbox id="checkbox2" :checked=true class="buttonCheck" />
+    <widget-checkbox id="checkbox3" class="buttonToggle">checkbox with text</widget-checkbox>
+    <br />
+    <widget-radio id="radio1" class="buttonRadio" group="radioGroup" value="radio1 Value" :clickEffects="{conditionList:[
+            {
+                effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'textarea', key: 'text', val:'wrong'}}]
+            }
+        ]}" />
+    <widget-radio id="radio2" class="buttonRadio" group="radioGroup" value="radio2 Value" :clickEffects="{conditionList:[
+            {
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'textarea', key: 'text', val:'that\'s the one'}},
+                {effectData: {effectType: 'updateWidget', widgetID:'radio2', key: 'correctStyle', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'checkbox2', key: 'correctStyle', val:true}}
+                ]
+            }
+        ]}"
+        :conditions="{conditionList:[
+            {
+                comparisons:[
+                {comparisonData:{comparisonType:'radioSelection', group:'radioGroup', selected:'radioIDEquals', radioID:'radio2'}}
+                ],
+                effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'fieldset', key:'enabled', val:false, fireOnceID:'radioSelectCondition'}}
+                ],
+            },
+        ]}" />
+    <widget-radio id="radio3" class="buttonRadio" value="radio3 Value" group="radioGroup" :clickEffects="{conditionList:[
+            {
+                effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'textarea', key: 'text', val:'not right'}}]
+            }
+        ]}">
+        <p>radio with text</p>
+    </widget-radio>
+    <widget-popper id="popper1" anchor-id="radio3" class="textBackground-Popup-Blue" :delay="5" :visible="true">
+        <img src="https://cdn2.iconfinder.com/data/icons/hand-gestures/32/gesture-finger-directions-512.png" width="30" />
+        <br>radio test
+    </widget-popper>
+
+    <br />
+    <br />
+    <widget-textarea id="textarea" placeholder="for when you need multiple lines" />
+</container-enable-disable>
+<br />
+<br />
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockGuide'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock guide</p>
+</widget-button>

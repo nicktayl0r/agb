@@ -1,0 +1,39 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"format": "grid",
+	"properties": {
+		"caseHS": {
+			"title": "Case-HS",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"handbookHS": {
+			"title": "HandBook-HS",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"caseAP": {
+			"title": "Case-AP",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"handbookAP": {
+			"title": "HandBook-AP",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"caseES": {
+			"title": "Case-ES",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"handbookES": {
+			"title": "HandBook-ES",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"caseMS": {
+			"title": "Case-MS",
+			"$ref": "./resourceActivitySchema.json"
+		},
+		"handbookMS": {
+			"title": "HandBook-MS",
+			"$ref": "./resourceActivitySchema.json"
+		}
+	}
+}

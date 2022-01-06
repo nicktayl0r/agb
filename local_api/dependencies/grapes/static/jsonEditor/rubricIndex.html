@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Rubric Editor</title>
+
+	<!-- Bootstrap CSS framework (Foundation and jQueryUI also supported) -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<!-- Font Awesome icons (Bootstrap, Foundation, and jQueryUI also supported) -->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
+	<link rel='stylesheet' href='./css/rubricEditor.css'>
+
+	<!-- <link rel="stylesheet" href="../jsoneditor.css" /> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/themes/default.min.css" />
+	<!-- this is the dist from https://github.com/json-editor/json-editor -->
+	<!-- that github page has pretty good documentation for the editor options -->
+	<!-- <script src="./awesomplete.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+	<script src="./jsoneditor.min.js"></script>
+	<script src="./jquery.sceditor.min.js"></script>
+	<script src="./xhtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-8">
+				<div id="rubric_editor_holder"></div>
+				<button type="button" id="submit" class="btn btn-primary">
+					Save Rubrics
+				</button>
+				<button type="button" id="publishDev" class="btn btn-warning">
+					Publish to Dev
+				</button>
+				<button type="button" id="publishStage" class="btn btn-warning">
+					Publish to Stage
+				</button>
+				<button type="button" id="publishProd" class="btn btn-warning">
+					Publish to Production
+				</button>
+			</div>
+		</div>
+	</div>
+	<template id="styleTemplate">
+		<div class="popperContainer">
+			<div class="styleTitle">
+				<h4>Rubric Style Guide</h4>
+				<button id="popperClose"><i class="fa fa-2x fa-times-circle"></i></button>
+			</div>
+			<div id="exemplar-ShortAnswer" style="display: none;">
+				<p>Short Answer Exemplar Answer</p>
+				<image src="./css/images/shortAnswer_example.jpg"></image>
+				<p><i>A single paragraph of text. The text is provided by the content team and represents an excellent
+						answer to the question.</i>
+				</p>
+				<p><u>Example:</u><br>
+					When enzymes are added to a chemical reaction, it proceeds more quickly. More product is made in the
+					same amount of time. Of the two lines shown on the graph, Line A shows a reaction producing more
+					product in 3 seconds (Reaction A produces 200mg in 3 seconds, Reaction B only produces 20mg in 3
+					seconds). Reaction A makes more product in the same amount of time, so it must be the reaction with
+					an enzyme present.</p>
+			</div>
+			<div id="exemplar-LongAnswer" style="display: none;">
+				<p>Long Answer Exemplar Answer</p>
+				<image src="./css/images/longAnswer_example.jpg"></image>
+				<p><i>A numbered list of the questions asked on the page along with an excellent answer for each on the
+						next line. The answer text is provided by the content team.</i>
+				</p>
+				<p><u>Example:</u><br>
+				<ol>
+					<li>Describe Claire’s symptoms. Explain how they were related to metabolism and homeostasis.<br>
+						Superbugs are bacteria that are resistant to many antibiotics. They are dangerous because
+						superbug infections in people (or animals) are difficult for physicians (or veterinarians) to
+						treat because commonly used antibiotics are ineffective.</li>
+					<li>How did Claire’s digestions rates tell you that the problem was in her small intestine and not
+						in her stomach?<br>
+						We know that both Salmonella and E. coli on the farm were resistant to the FQ antibiotic. In
+						order for gene flow to be responsible for the resistance in the CJ bacteria, resistance would
+						have to be transferred to the CJ bacteria. Since this transfer did not occur, gene flow cannot
+						be the source of the resistance in the CJ bacteria.</li>
+				</ol>
+				</p>
+				<p><u>Notes:</u><br>
+					Do not include the section header e.g "Background".<br>
+					Do not use bold.<br>
+					Ordered list numbers MUST match the rubrique.
+				</p>
+			</div>
+			<div id="exemplar-MultipleChoice" style="display: none;">
+				<p>Multiple Choice Exemplar Answer</p>
+				<p>There are a few different types that have different exemplar answers based on how many correct
+					answers there are. Drag and Drop questions have a special exemplar answer.</p>
+				<h5>Single correct answer</h5>
+				<image src="./css/images/repeatAttempts_example.jpg"></image>
+				<p><i>The answer submitted by the Case App.</i><br>
+					<b>(a full empty line)</b><br>
+					<i>The Right/Wrong Explanation Text seen in the Case App.</i></p>
+				<p><u>Example:</u><br>
+					C. Neither Salmonella nor E. Coli can transfer genes to CJ bacteria.
+					<br><br>
+					Because none of the CJ bacteria were green, the DNA was sent.</p>
+				<h5>Multiple correct answers</h5>
+				<image src="./css/images/multipleChoice_mult_example.jpg"></image>
+				<p><i>A new line for each answer submitted by the Case App.</i><br>
+					<i>A new line for each answer submitted by the Case App.</i><br>
+					<b>(a full empty line)</b><br>
+					<i>The Right/Wrong Explanation Text seen in the Case App.</i></p>
+				<p><u>Example:</u><br>
+					A. Another superbug was created by using the same method of giving antibiotics to chickens as Monita
+					Farms. <br>
+					C. The data for the control farm shows that not administering antibiotics helps to prevent superbug
+					creation.
+				</p>
+				<h5>Drag and Drop</h5>
+				<p><i>Just the phrase: "See Screenshot for reference answer.".</i></p>
+				<p><u>Example:</u><br>
+					See Screenshot for reference answer.
+				</p>
+			</div>
+			<div id="exemplar-RepeatAttempts" style="display: none;">
+				<p>Repeat Attempts Exemplar Answer</p>
+				<image src="./css/images/repeatAttempts_example.jpg"></image>
+				<p><i>The answer selected by the user.</i><br>
+					<b>(a full empty line)</b><br>
+					<i>The Right/Wrong Explanation Text seen in the Case App</i></p>
+				<p><u>Example:</u><br>
+					C. Neither Salmonella nor E. Coli can transfer genes to CJ bacteria.
+					<br><br>
+					Because none of the CJ bacteria were green, the DNA was sent.</p>
+			</div>
+			<div id="rubric-ShortAnswer" style="display: none;">
+				<p>Short Answer Rubrique Format</p>
+				<image src="./css/images/shortAnswer_example.jpg"></image>
+				<p><i>If this is a hypothesis question that will be revised, provide an explanation and how many times
+						the question can be revised along with the bullets. Otherwise, just include the bullets
+						below.</i></p>
+				<ul>
+					<li>1 point for ...</li>
+					<li>1 point for ...</li>
+					<li>1 point for ...</li>
+				</ul>
+				<p><u>Hypothesis Example:</u><br>
+					The student explains their selection for the cause of the inhibition of the photosynthesis. Students
+					are able to revise their answer 3 times.<br>
+				<ul>
+					<li>1 point for relating the inhibition of PSII to cause a decrease in ATP concentration.</li>
+					<li>1 point for stating that diuron decreases NADPH concentration by preventing electron transfer to
+						PSI.</li>
+					<li>1 point for stating that the inhibition of the light-dependent reactions will decrease the
+						production of sugar.</li>
+				</ul>
+				</p>
+				<p><u>Notes:</u><br>
+					Point values are provided by the content team.<br>
+					All points should add up to the Points number in the Answer section above.
+				</p>
+			</div>
+			<div id="rubric-LongAnswer" style="display: none;">
+				<p>Long Answer Rubrique Format</p>
+				<image src="./css/images/longAnswer_example.jpg"></image>
+				<p><i>A numbered list of the questions asked on the page along with a bullet list of points values. The
+						point descriptions and point values are provided by the content team.</i>
+				</p>
+				<p><u>Example:</u><br>
+				<ol>
+					<li>What are superbugs? Why are they so dangerous?<br>
+						<ul>
+							<li>1 point for recognizing that superbugs are bacteria.</li>
+							<li>1 point for identifying that superbugs are resistant to the effects of many antibiotics.
+							</li>
+							<li>1 point for indicating that superbugs are dangerous because they are difficult to treat
+								in human or animal patients.</li>
+						</ul>
+					</li>
+					<li>Explain how this experiment showed that gene flow was not the cause of antibiotic
+						resistance.<br>
+						<ul>
+							<li>1 point for ...</li>
+						</ul>
+					</li>
+				</ol>
+				</p>
+				<p><u>Notes:</u><br>
+					Do not include the section header e.g "Background".<br>
+					Do not use bold.<br>
+					Ordered list numbers MUST match the exemplar answer.<br>
+					Always use “point” or “points”.
+				</p>
+			</div>
+			<div id="rubric-MultipleChoice" style="display: none;">
+				<p>Multiple Choice Rubrique Format</p>
+				<p>There are a two different types that have different rubriques based on how many correct
+					answers there are.</p>
+				<h5>Single correct answer</h5>
+				<image src="./css/images/repeatAttempts_example.jpg"></image>
+				<p><i># point(s) for the correct answer, only one try allowed.</i></p>
+				<p><u>Example:</u><br>
+					2 points for the correct answer, only one try allowed.</p>
+				<h5>Multiple correct answers</h5>
+				<image src="./css/images/multipleChoice_mult_example.jpg"></image>
+				<p><i># point(s) for each correct answer, only one try allowed.</i></p>
+				<p><u>Example:</u><br>
+					1 point for each correct answer, only one try allowed.
+				</p>
+			</div>
+			<div id="rubric-RepeatAttempts" style="display: none;">
+				<p>Repeat Attempts Rubrique Format</p>
+				<image src="./css/images/repeatAttempts_example.jpg"></image>
+				<p>Score depends on number of tries to get the correct answer.<br>
+				<ul>
+					<li>2 points for one try</li>
+					<li>1 point for two tries</li>
+					<li>0 points for three or more tries</li>
+				</ul>
+				</p>
+				<p><u>Notes:</u><br>
+					Refer to the answer section of the rubric above. Include bullets for each point value and 0 points
+					bullet that includes the try number.<br>
+					No punctuation on bullets.
+				</p>
+			</div>
+		</div>
+		<div id="arrow" data-popper-arrow></div>
+	</template>
+	<script src="./rubricEditor.min.js"></script>
+</body>
+
+</html>

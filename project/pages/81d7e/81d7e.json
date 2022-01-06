@@ -1,0 +1,4352 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "SimBackgroundWrapper",
+			"components": [
+				{
+					"tagName": "widget-sim-view",
+					"type": "widget-sim-view",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "selected",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "simPreview",
+							"label": "simPreview",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page81d7e",
+							"label": "page81d7e",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"id": "id41",
+						"scenename": "Sahara_Farm_Map",
+						"simstateid": "0qs1lx",
+						":visible": true,
+						":enabled": "true",
+						"play-state": "default",
+						":muted": false,
+						":scene-loaded-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'in1a',key:'visible',val:true},fireOnceID:'firstButtonShow_page81d7e',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetSimView",
+					"custom-name": "Widget-sim-view",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "simPageContent",
+							"label": "simPageContent",
+							"type": 1,
+							"active": false,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page81d7e",
+							"label": "page81d7e",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "farmMapSimClose_PageContent",
+							"label": "farmMapSimClose_PageContent",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "farmMapSimClose_PageContent",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page81d7e",
+									"label": "page81d7e",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "div_farmGrid",
+									"label": "div_farmGrid",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "div_farmGrid",
+							"components": [
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": {},
+									"classes": [
+										{
+											"name": "buttonBasic_Invisible",
+											"label": "buttonBasic_Invisible",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "noPadding",
+											"label": "noPadding",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonBlinkBlue",
+											"label": "buttonBlinkBlue",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "button_1",
+											"label": "button_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": false,
+										":enabled": true,
+										"id": "in1a",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'in1a',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6n2',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'tv6018'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia6vk',key:'visible',val:true},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_1",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonFill_1",
+													"label": "buttonFill_1",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "buttonFill_1",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "container-show-hide",
+									"type": "container-show-hide",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_GridPos",
+											"label": "anchor_GridPos",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_1",
+											"label": "anchor_1",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										"id": "ichy"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerShowHide",
+									"custom-name": "anchor_1",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "widget-popper",
+									"type": "widget-popper",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":click-to-dismiss": "false",
+										"id": "i6n2",
+										":delay": "0",
+										":delay-once": "false",
+										"anchor-id": "ichy",
+										":options": "{placement:'top'}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetPopper",
+									"custom-name": "popperW_1",
+									"components": [
+										{
+											"tagName": "span",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "This is where the farmer grows the corn plants.",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "buttonBasic_Invisible",
+											"label": "buttonBasic_Invisible",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "noPadding",
+											"label": "noPadding",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonBlinkBlue",
+											"label": "buttonBlinkBlue",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "button_2",
+											"label": "button_2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":enabled": "true",
+										"id": "ia6vk",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ia6vk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6n2',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iqmbk',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'397t1l'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iphdk',key:'visible',val:true},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_2",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonFill_2",
+													"label": "buttonFill_2",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "buttonFill_2",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "container-show-hide",
+									"type": "container-show-hide",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_GridPos",
+											"label": "anchor_GridPos",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_2",
+											"label": "anchor_2",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										"id": "i32m3"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerShowHide",
+									"custom-name": "anchor_2",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "widget-popper",
+									"type": "widget-popper",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":click-to-dismiss": "false",
+										":delay": "0",
+										":delay-once": "false",
+										"id": "iqmbk",
+										"anchor-id": "i32m3",
+										":options": "{placement:'top'}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetPopper",
+									"custom-name": "popperW_2",
+									"components": [
+										{
+											"tagName": "span",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "This is where the farmer grows the cotton plants.",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "buttonBasic_Invisible",
+											"label": "buttonBasic_Invisible",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "noPadding",
+											"label": "noPadding",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonBlinkBlue",
+											"label": "buttonBlinkBlue",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "button_3",
+											"label": "button_3",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":enabled": "true",
+										"id": "iphdk",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iphdk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iqmbk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'irjet',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'4scy6k'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'6dh6aa'},fireOnceID:'',delay:4},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:4},{effectData:{effectType:'updateWidget',widgetID:'ibdrk',key:'visible',val:true},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_3",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonFill_3",
+													"label": "buttonFill_3",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "buttonFill_3",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "container-show-hide",
+									"type": "container-show-hide",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_GridPos",
+											"label": "anchor_GridPos",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "anchor_3",
+											"label": "anchor_3",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										"id": "icasd"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerShowHide",
+									"custom-name": "anchor_3",
+									"components": [],
+									"open": false
+								},
+								{
+									"tagName": "widget-popper",
+									"type": "widget-popper",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":click-to-dismiss": "false",
+										":delay": "0",
+										":delay-once": "false",
+										"id": "irjet",
+										"anchor-id": "icasd",
+										":options": "{placement:'bottom'}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetPopper",
+									"custom-name": "popperW_3",
+									"components": [
+										{
+											"tagName": "span",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text",
+											"components": [
+												{
+													"tagName": "",
+													"type": "textnode",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "These are the beehives.",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"components": []
+												},
+												{
+													"tagName": "br",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": true,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Br",
+													"components": []
+												},
+												{
+													"tagName": "",
+													"type": "textnode",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "The bees help pollinate the cotton plants.",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"components": []
+												}
+											],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "buttonBasic_Invisible",
+											"label": "buttonBasic_Invisible",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "noPadding",
+											"label": "noPadding",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonBlinkBlue",
+											"label": "buttonBlinkBlue",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "button_4",
+											"label": "button_4",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":enabled": "true",
+										"id": "ibdrk",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ibdrk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'irjet',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iko7',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'edov9y'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i31hc',key:'visible',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_4",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonFill_4",
+													"label": "buttonFill_4",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "buttonFill_4",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "container-show-hide",
+									"type": "container-show-hide",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "popper_MultiArrow_White",
+											"label": "popper_MultiArrow_White",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										"id": "iko7"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerShowHide",
+									"custom-name": "popper_4",
+									"components": [
+										{
+											"tagName": "container-show-hide",
+											"type": "container-show-hide",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "popperArrow_Left_White",
+													"label": "popperArrow_Left_White",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "div_arrow_Left",
+													"label": "div_arrow_Left",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": "true",
+												"id": "ikv4"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerShowHide",
+											"custom-name": "div_arrow_Left",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "dropShadow",
+													"label": "dropShadow",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "textBackgroundBasic",
+													"label": "textBackgroundBasic",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "div_Popper",
+													"label": "div_Popper",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"id": "ic2i"
+											},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "div_popper",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "page81d7e",
+															"label": "page81d7e",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "text_Popper_4a",
+															"label": "text_Popper_4a",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_Popper_4a",
+													"components": [
+														{
+															"tagName": "",
+															"type": "textnode",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "This is your drone. ",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"components": []
+														},
+														{
+															"tagName": "br",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": true,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "Br",
+															"components": []
+														},
+														{
+															"tagName": "",
+															"type": "textnode",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "It has a camera to help you collect data on crop health.",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"components": []
+														},
+														{
+															"tagName": "br",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": true,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "Br",
+															"components": []
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "widget-button",
+													"type": "widget-button",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "buttonBasic-Grey",
+															"label": "buttonBasic-Grey",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "buttonBlinkBlue",
+															"label": "buttonBlinkBlue",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page81d7e",
+															"label": "page81d7e",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "button_Next_5",
+															"label": "button_Next_5",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":visible": "false",
+														":enabled": "true",
+														"id": "i31hc",
+														":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i31hc',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ivbx',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikxgl',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ijevu',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "WidgetButton",
+													"custom-name": "button_Next_5",
+													"components": [
+														{
+															"tagName": "p",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Next",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page81d7e",
+																	"label": "page81d7e",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "text",
+															"components": [],
+															"open": false
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "container-show-hide",
+													"type": "container-show-hide",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "dropShadow",
+															"label": "dropShadow",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackgroundBasic",
+															"label": "textBackgroundBasic",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page81d7e",
+															"label": "page81d7e",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackground-Popup-Blue",
+															"label": "textBackground-Popup-Blue",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "SH_PopperText_4b",
+															"label": "SH_PopperText_4b",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":visible": "false",
+														"id": "ivbx"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "ContainerShowHide",
+													"custom-name": "SH_PopperText_4b",
+													"components": [
+														{
+															"tagName": "p",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Click to collect data on the field size with the drone.",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page81d7e",
+																	"label": "page81d7e",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "text_Popper_4b",
+															"components": [],
+															"open": false
+														}
+													],
+													"open": false
+												}
+											],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "widget-button",
+									"type": "widget-button",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "buttonBasic_Invisible",
+											"label": "buttonBasic_Invisible",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "noPadding",
+											"label": "noPadding",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "buttonBlinkBlue",
+											"label": "buttonBlinkBlue",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "button_4",
+											"label": "button_4",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										":enabled": "true",
+										"id": "ijevu",
+										":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0},{effectData:{effectType:'nextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "WidgetButton",
+									"custom-name": "button_NextPage",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonFill_4",
+													"label": "buttonFill_4",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "buttonFill_4",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								}
+							],
+							"open": true
+						},
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page81d7e",
+									"label": "page81d7e",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "div_belowGrid",
+									"label": "div_belowGrid",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "div_belowGrid",
+							"components": [
+								{
+									"tagName": "container-show-hide",
+									"type": "container-show-hide",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "div_PlayReplay",
+											"label": "div_PlayReplay",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "textBackground-FarmSim",
+											"label": "textBackground-FarmSim",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "false",
+										"id": "ikxgl"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerShowHide",
+									"custom-name": "SH_PlayReplay",
+									"components": [
+										{
+											"tagName": "widget-button",
+											"type": "widget-button",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "buttonReplay",
+													"label": "buttonReplay",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": "true",
+												":enabled": "true",
+												"id": "i7mk",
+												":click-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ijevu',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikxgl',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'simstateid',val:'0qs1lx'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0.05},{effectData:{effectType:'updateWidget',widgetID:'iko7',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ivbx',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'in1a',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetButton",
+											"custom-name": "button_Replay",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Replay",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "text_PlayReplay",
+													"label": "text_PlayReplay",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "page81d7e",
+									"label": "page81d7e",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "div_farmMapSimKey",
+									"label": "div_farmMapSimKey",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "div_farmMapSimKey",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "div_farmMapSimKeyItem",
+											"label": "div_farmMapSimKeyItem",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_farmMapSimKeyItem_Cotton",
+									"components": [
+										{
+											"tagName": "widget-image",
+											"type": "widget-image",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "image_farmMapSimKeyItem",
+													"label": "image_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"src": "../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png",
+												":visible": "true",
+												"id": "i6dk"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetImage",
+											"custom-name": "image_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Cotton",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "text_farmMapSimKeyItem",
+													"label": "text_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "div_farmMapSimKeyItem",
+											"label": "div_farmMapSimKeyItem",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_farmMapSimKeyItem_Corn",
+									"components": [
+										{
+											"tagName": "widget-image",
+											"type": "widget-image",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "image_farmMapSimKeyItem",
+													"label": "image_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"src": "../../assets/images/icons/corn_PlantSilking_Icon_IMG.png",
+												":visible": "true",
+												"id": "irrrc"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetImage",
+											"custom-name": "image_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Corn",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "text_farmMapSimKeyItem",
+													"label": "text_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "div_farmMapSimKeyItem",
+											"label": "div_farmMapSimKeyItem",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_farmMapSimKeyItem_TCorn",
+									"components": [
+										{
+											"tagName": "widget-image",
+											"type": "widget-image",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "image_farmMapSimKeyItem",
+													"label": "image_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"src": "../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png",
+												":visible": "true",
+												"id": "i6xdp"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetImage",
+											"custom-name": "image_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Trampled Corn",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "text_farmMapSimKeyItem",
+													"label": "text_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "div_farmMapSimKeyItem",
+											"label": "div_farmMapSimKeyItem",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_farmMapSimKeyItem_TCotton",
+									"components": [
+										{
+											"tagName": "widget-image",
+											"type": "widget-image",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "image_farmMapSimKeyItem",
+													"label": "image_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"src": "../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png",
+												":visible": "true",
+												"id": "i2w65"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetImage",
+											"custom-name": "image_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Trampled Cotton",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "text_farmMapSimKeyItem",
+													"label": "text_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page81d7e",
+											"label": "page81d7e",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "div_farmMapSimKeyItem",
+											"label": "div_farmMapSimKeyItem",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "div_farmMapSimKeyItem_Beehive",
+									"components": [
+										{
+											"tagName": "widget-image",
+											"type": "widget-image",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": true,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "image_farmMapSimKeyItem",
+													"label": "image_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												"src": "../../assets/images/icons/beehive_Manmade2_Icon_IMG.png",
+												":visible": "true",
+												"id": "i4geh"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetImage",
+											"custom-name": "image_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										},
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "Beehive",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page81d7e",
+													"label": "page81d7e",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "text_farmMapSimKeyItem",
+													"label": "text_farmMapSimKeyItem",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_farmMapSimKeyItem",
+											"components": [],
+											"open": false
+										}
+									],
+									"open": false
+								}
+							],
+							"open": false
+						}
+					],
+					"open": 1
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "simPreview",
+					"label": "simPreview",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"z-index": "0",
+				"top": "0px",
+				"right": "0px",
+				"position": "absolute",
+				"background-color": "#000000"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simParent",
+					"label": "simParent",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "100%",
+				"height": "100%",
+				"position": "relative",
+				"top": "0px",
+				"margin": "0em 0px 0px 0px"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "simPageContent",
+					"label": "simPageContent",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"z-index": "1",
+				"position": "relative",
+				"width": "100%",
+				"height": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_PlayReplay",
+					"label": "div_PlayReplay",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "flex",
+				"flex-direction": "row",
+				"align-items": "center",
+				"width": "auto",
+				"padding": "1.5vh",
+				"border-width": "0.2vh",
+				"border-style": "solid",
+				"border-image-source": "initial",
+				"border-image-slice": "initial",
+				"border-image-width": "initial",
+				"border-image-outset": "initial",
+				"border-image-repeat": "initial",
+				"border-radius": "1.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_PlayReplay",
+					"label": "text_PlayReplay",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin-left": "1.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_belowGrid",
+					"label": "div_belowGrid",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"align-items": "center",
+				"justify-items": "end"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_farmGrid",
+					"label": "div_farmGrid",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic_Invisible",
+					"label": "buttonBasic_Invisible",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-1vh -16vh 0vh 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_1",
+					"label": "buttonFill_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "74vh",
+				"height": "47vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_2",
+					"label": "button_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-1vh 0 0vh -76vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_2",
+					"label": "buttonFill_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "19vh",
+				"height": "47vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_3",
+					"label": "button_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-1vh 0 0vh -57.5vh",
+				"min-width": "0vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_3",
+					"label": "buttonFill_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "5vh",
+				"height": "47vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_4",
+					"label": "button_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-65vh 0 0 -111vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonFill_4",
+					"label": "buttonFill_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "10vh",
+				"height": "10vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "popper_MultiArrow_White",
+					"label": "popper_MultiArrow_White",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "min-content 1fr min-content",
+				"grid-template-rows": "min-content 1fr min-content",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"width": "auto",
+				"margin": "-65vh 0 0 -17vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Popper",
+					"label": "div_Popper",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"padding": "0 0 0 0",
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"width": "75vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_popper",
+					"label": "grid_popper",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-rows": "min-content 1fr 1fr",
+				"grid-template-columns": "1fr",
+				"width": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "popperArrow_Up_White",
+					"label": "popperArrow_Up_White",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"border-bottom-color": "rgb(217, 217, 217)",
+				"border-left-color": "transparent",
+				"border-right-color": "transparent",
+				"border-top-color": "transparent",
+				"border-style": "solid",
+				"border-width": "0vh 2vh 2vh 2vh",
+				"width": "0",
+				"height": "0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "popperArrow_Right_White",
+					"label": "popperArrow_Right_White",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"border-bottom-color": "transparent",
+				"border-left-color": "rgb(217, 217, 217)",
+				"border-right-color": "transparent",
+				"border-top-color": "transparent",
+				"border-style": "solid",
+				"border-width": "2vh 0vh 2vh 2vh",
+				"width": "0",
+				"height": "0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "popperArrow_Left_White",
+					"label": "popperArrow_Left_White",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"border-bottom-color": "transparent",
+				"border-left-color": "transparent",
+				"border-right-color": "rgb(217, 217, 217)",
+				"border-top-color": "transparent",
+				"border-style": "solid",
+				"border-width": "2vh 2vh 2vh 0vh",
+				"width": "0",
+				"height": "0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "popperArrow_Down_White",
+					"label": "popperArrow_Down_White",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"border-bottom-color": "transparent",
+				"border-left-color": "transparent",
+				"border-right-color": "transparent",
+				"border-top-color": "rgb(217, 217, 217)",
+				"border-style": "solid",
+				"border-width": "2vh 2vh 0vh 2vh",
+				"width": "0",
+				"height": "0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_arrow_Top",
+					"label": "div_arrow_Top",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_arrow_Right",
+					"label": "div_arrow_Right",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "3",
+				"grid-column-end": "4",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"align-self": "center",
+				"justify-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_arrow_Left",
+					"label": "div_arrow_Left",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"align-self": "center",
+				"justify-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_arrow_Bottom",
+					"label": "div_arrow_Bottom",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "3",
+				"grid-row-end": "4",
+				"justify-self": "center",
+				"align-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_Popper_4a",
+					"label": "text_Popper_4a",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"padding": "3vh 3vh 2vh 3vh",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "stretch"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "SH_PopperText_4b",
+					"label": "SH_PopperText_4b",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"border-radius": "0vh 0vh 1.3vh 1.3vh",
+				"margin": "0 -0.2vh -0.2vh -0.2vh",
+				"padding": "2vh 3vh 3vh 3vh",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "stretch",
+				"align-self": "stretch",
+				"width": "75vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "button_Next_5",
+					"label": "button_Next_5",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "start",
+				"align-self": "center",
+				"padding": "0 0 3vh 3vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_GridPos",
+					"label": "anchor_GridPos",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "0",
+				"height": "0",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_1",
+					"label": "anchor_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-47vh -16vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_2",
+					"label": "anchor_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "-47vh 0 0 -76vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "anchor_3",
+					"label": "anchor_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 -46vh -57.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "noPadding",
+					"label": "noPadding",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page81d7e",
+					"label": "page81d7e",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "button_1",
+					"label": "button_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

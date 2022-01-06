@@ -1,0 +1,89 @@
+page 7
+<br />
+<br />
+<widget-button id="showSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'hideSim', key:'visible', val:true}}
+        ]
+    }   
+    ] 
+} " text="show sim " />
+<widget-button id="hideSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'hideSim', key:'visible', val:false}}
+        ]
+    }   
+    ] 
+} " text="hide sim " />
+<widget-button id="changeSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'simstateid', val:'16787r'}}
+        ]
+    }   
+    ] 
+} " text="change sim " />
+<widget-button id="playSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+} " text="play sim " />
+<widget-button id="pauseSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'playState', val:'pause'}}
+        ]
+    }   
+    ] 
+} " text="pause sim " />
+<widget-button id="stopSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'playState', val:'stop'}}
+        ]
+    }   
+    ] 
+} " text="stop sim " />
+<!-- <widget-sim-view id="simTest2" sceneName="Test2" simState="test" width="300" height="300"></widget-sim-view> -->
+<container-show-hide id="hideSim" :visible=false style="width: 50%; height: 50%">
+    No Sim on this page.
+</container-show-hide>
+<container-show-hide id="playEffects" :visible=false>
+    <span>Play_Effects</span>
+</container-show-hide>
+<container-show-hide id="pauseEffects" :visible=false>
+    <span>Pause_Effects</span>
+</container-show-hide>
+<container-show-hide id="stopEffects" :visible=false>
+    <span>Stop_Effects</span>
+</container-show-hide>
+<container-show-hide id="endEffects" :visible=false>
+    <span>End_Effects</span>
+</container-show-hide>
+<container-show-hide id="loopEffects" :visible=false>
+    <span>Loop_Effects</span>
+    <!-- <widget-textbox id=" loopCount" placeholder="type here" /> -->
+</container-show-hide>
+<br/>
+<br/>
+<br/>
+<br/>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

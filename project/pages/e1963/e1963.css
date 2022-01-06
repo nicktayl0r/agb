@@ -1,0 +1,137 @@
+.page_background.pagee1963 {
+	background-image: url(../../assets/images/backgrounds/background_honeycomb_IMG.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: local;
+	background-size: cover;
+}
+
+.grid_T4.pagee1963 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 23vh 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding-top: 6vh;
+	padding-right: 6vh;
+	padding-bottom: 6vh;
+	padding-left: 6vh;
+}
+
+.item1_T4.pagee1963 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	height: min-content;
+}
+
+.div_pageContent.pagee1963 {
+	display: grid;
+	grid-template-columns: 10vh 70vh 10vh;
+	grid-template-rows: 1fr 1fr 1fr;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	align-items: center;
+	justify-items: center;
+	padding: 0 7vh 0 7vh;
+	justify-content: center;
+	align-content: center;
+}
+
+.video_waggleDance.pagee1963 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	width: 57vh;
+	height: 50vh;
+	justify-self: center;
+	align-self: center;
+}
+
+.workerBee1.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(-116deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.workerBee2.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(-76deg) scaleX(1) scaleY(1) scaleZ(1);
+	grid-column-start: 3;
+}
+
+.workerBee3.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(127deg) scaleX(1) scaleY(1) scaleZ(1);
+	grid-row-start: 2;
+}
+
+.workerBee4.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(28deg) scaleX(1) scaleY(1) scaleZ(1);
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+
+.workerBee5.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(-63deg) scaleX(1) scaleY(1) scaleZ(1);
+	grid-row-start: 3;
+}
+
+.workerBee6.pagee1963 {
+	transform: rotateX(0) rotateY(0) rotateZ(-100deg) scaleX(1) scaleY(1) scaleZ(1);
+	grid-column-start: 3;
+	grid-row-start: 3;
+}
+
+.div_PlayReplay.pagee1963 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh;
+	border-width: 0.2vh;
+	border-style: solid;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: 1.5vh;
+}
+
+.text_PlayReplay.pagee1963 {
+	margin-left: 1.5vh;
+}
+
+.playReplaySH.pagee1963 {
+	grid-column-start: 2;
+	grid-row-start: 3;
+	justify-self: center;
+	align-self: end;
+	width: 30vh;
+}
+
+.workerBee7.pagee1963 {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	transform: rotateX(0) rotateY(0) rotateZ(-90deg) scaleX(1) scaleY(1) scaleZ(1);
+	width: 10vh;
+	justify-self: center;
+	margin: 0 0 0 39vh;
+}
+
+.videoFill.video_waggleDance.pagee1963 {
+	grid-column-start: 2;
+	grid-row-start: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

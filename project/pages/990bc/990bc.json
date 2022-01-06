@@ -1,0 +1,3201 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "grid_T4",
+					"label": "grid_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "grid_T4_TextTop",
+			"components": [
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": {},
+					"classes": [
+						{
+							"name": "item1_T4",
+							"label": "item1_T4",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "dropShadow",
+							"label": "dropShadow",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "textBackgroundBasic",
+							"label": "textBackgroundBasic",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page990bc",
+							"label": "page990bc",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "item1_T4",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "grid_T9",
+									"label": "grid_T9",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page990bc",
+									"label": "page990bc",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "grid_T9",
+							"components": [
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item1_T9",
+											"label": "item1_T9",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page990bc",
+											"label": "page990bc",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "item1_T9",
+									"components": [
+										{
+											"tagName": "p",
+											"type": "text",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": false,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": true,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "page990bc",
+													"label": "page990bc",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_Top",
+											"components": [
+												{
+													"tagName": "",
+													"type": "textnode",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Use what you have learned to decide what you think would best help the farm.",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"components": []
+												},
+												{
+													"tagName": "br",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": true,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Br",
+													"components": []
+												},
+												{
+													"tagName": "",
+													"type": "textnode",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Here are some facts to help:",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"components": []
+												},
+												{
+													"tagName": "br",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": true,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Br",
+													"components": []
+												},
+												{
+													"tagName": "br",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": true,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Br",
+													"components": []
+												}
+											],
+											"open": false
+										},
+										{
+											"tagName": "ul",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "text_List",
+													"label": "text_List",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page990bc",
+													"label": "page990bc",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "text_List",
+											"components": [
+												{
+													"tagName": "li",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Lucy has trees on her farm that she can use to build hives. ",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Text",
+													"components": [],
+													"open": false
+												},
+												{
+													"tagName": "li",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Lucy will have to remove some corn crops to add cotton crops. ",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Text",
+													"components": [],
+													"open": false
+												},
+												{
+													"tagName": "li",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Lucy has $127 that she can spend. To add a fence she needs 210 meters of wire. The wire costs $1 per meter.",
+													"icon": "",
+													"style": "",
+													"classes": [],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "Text",
+													"components": [],
+													"open": false
+												}
+											],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "container-enable-disable",
+									"type": "container-enable-disable",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item2_T9",
+											"label": "item2_T9",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page990bc",
+											"label": "page990bc",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										":enabled": "true",
+										"id": "i3aj6"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerEnableDisable",
+									"custom-name": "item2_T9",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "grid_T16",
+													"label": "grid_T16",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page990bc",
+													"label": "page990bc",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "grid_T16_ButtonsGrp",
+											"components": [
+												{
+													"tagName": "widget-radio",
+													"type": "widget-radio",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": {},
+													"classes": [
+														{
+															"name": "buttonRadio",
+															"label": "buttonRadio",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioMultiLine",
+															"label": "radioMultiLine",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioFillHeight",
+															"label": "radioFillHeight",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "item1_T16",
+															"label": "item1_T16",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T1",
+															"label": "grid_T1",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page990bc",
+															"label": "page990bc",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":visible": true,
+														":enabled": true,
+														"id": "imz2",
+														"group": "irmk",
+														"value": "Hypothesis 1",
+														":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateRadioGroupSelection',group:'irmk',radioID:'imz2'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "WidgetRadio",
+													"custom-name": "item1_T16_grid_T1_Button1",
+													"components": [
+														{
+															"tagName": "div",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": {},
+															"classes": [
+																{
+																	"name": "item1_T1",
+																	"label": "item1_T1",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "grid_T2",
+																	"label": "grid_T2",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item1_T1_grid_T2_TextGrp",
+															"components": [
+																{
+																	"tagName": "p",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "item1_T2",
+																			"label": "item1_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item1_T2_text_ButtonLabel_1",
+																	"components": [
+																		{
+																			"tagName": "strong",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "Hypothesis 1",
+																			"icon": "",
+																			"style": "",
+																			"classes": [],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "Text",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																},
+																{
+																	"tagName": "p",
+																	"type": "text",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": true,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "Add beehives around the corn crops. The elephants will see the beehives and be scared away.",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "item2_T2",
+																			"label": "item2_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item2_T2_text_ButtonLabel_1",
+																	"components": [],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": 0
+												},
+												{
+													"tagName": "widget-radio",
+													"type": "widget-radio",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "buttonRadio",
+															"label": "buttonRadio",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioMultiLine",
+															"label": "radioMultiLine",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioFillHeight",
+															"label": "radioFillHeight",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "item2_T16",
+															"label": "item2_T16",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T1",
+															"label": "grid_T1",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page990bc",
+															"label": "page990bc",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":visible": "true",
+														":enabled": "false",
+														"id": "i6hi",
+														"group": "irmk",
+														"value": "Hypothesis 2"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "WidgetRadio",
+													"custom-name": "item2_T16_grid_T1_Button2",
+													"components": [
+														{
+															"tagName": "div",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "item1_T1",
+																	"label": "item1_T1",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "grid_T2",
+																	"label": "grid_T2",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item1_T1_grid_T2_TextGrp",
+															"components": [
+																{
+																	"tagName": "p",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "item1_T2",
+																			"label": "item1_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item1_T2_text_ButtonLabel_2",
+																	"components": [
+																		{
+																			"tagName": "strong",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "Hypothesis 2",
+																			"icon": "",
+																			"style": "",
+																			"classes": [],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "Text",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																},
+																{
+																	"tagName": "p",
+																	"type": "text",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": true,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "Plant cotton crops around the corn crops to attract bees. The bees will scare away the elephants.",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "item2_T2",
+																			"label": "item2_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item2_T2_text_ButtonLabel_2",
+																	"components": [],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "widget-radio",
+													"type": "widget-radio",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "buttonRadio",
+															"label": "buttonRadio",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioMultiLine",
+															"label": "radioMultiLine",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "radioFillHeight",
+															"label": "radioFillHeight",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "item3_T16",
+															"label": "item3_T16",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T1",
+															"label": "grid_T1",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page990bc",
+															"label": "page990bc",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {
+														":visible": "true",
+														":enabled": "false",
+														"id": "is1q",
+														"group": "irmk",
+														"value": "Hypothesis 3"
+													},
+													"propagate": "",
+													"dmode": "",
+													"vueComponentName": "WidgetRadio",
+													"custom-name": "item3_T16_grid_T1_Button3",
+													"components": [
+														{
+															"tagName": "div",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "item1_T1",
+																	"label": "item1_T1",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "grid_T2",
+																	"label": "grid_T2",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item1_T1_grid_T2_TextGrp",
+															"components": [
+																{
+																	"tagName": "p",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "item1_T2",
+																			"label": "item1_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item1_T2_text_ButtonLabel_3",
+																	"components": [
+																		{
+																			"tagName": "strong",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "Hypothesis 3",
+																			"icon": "",
+																			"style": "",
+																			"classes": [],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "Text",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																},
+																{
+																	"tagName": "p",
+																	"type": "text",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": true,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "Build a barbed wire fence.\n                The barbs will hurt the elephants and stop them from entering the farm.",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "item2_T2",
+																			"label": "item2_T2",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "item2_T2_text_ButtonLabel_3",
+																	"components": [],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												}
+											],
+											"open": 0
+										}
+									],
+									"open": 0
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item3_T9",
+											"label": "item3_T9",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page990bc",
+											"label": "page990bc",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "item3_T9: Written Response Grp",
+									"components": [
+										{
+											"tagName": "container-enable-disable",
+											"type": "container-enable-disable",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": {},
+											"classes": [
+												{
+													"name": "ED_EnableDisable",
+													"label": "ED_EnableDisable",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page990bc",
+													"label": "page990bc",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": true,
+												":enabled": true,
+												"id": "igyh",
+												":conditions": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'irmk',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'igyh',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerEnableDisable",
+											"custom-name": "ED_WR_Grp",
+											"components": [
+												{
+													"tagName": "div",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "grid_T27",
+															"label": "grid_T27",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page990bc",
+															"label": "page990bc",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "grid_T27_WR_Grp",
+													"components": [
+														{
+															"tagName": "p",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "item1_T27",
+																	"label": "item1_T27",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item1_T27_text_Question",
+															"components": [
+																{
+																	"tagName": "",
+																	"type": "textnode",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": true,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "The experiment showed that hypothesis 2 is not correct. You can change your hypothesis. ",
+																	"icon": "",
+																	"style": "",
+																	"classes": [],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"components": []
+																},
+																{
+																	"tagName": "strong",
+																	"type": "text",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": true,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "Explain how the cotton experiment supports your hypothesis.",
+																	"icon": "",
+																	"style": "",
+																	"classes": [],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"components": [],
+																	"open": false
+																}
+															],
+															"open": false
+														},
+														{
+															"tagName": "div",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "item2_T27",
+																	"label": "item2_T27",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item2_T27_WRBox",
+															"components": [
+																{
+																	"tagName": "widget-textarea",
+																	"type": "widget-textarea",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": false,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": true,
+																	"state": "",
+																	"status": "selected",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "WR_WritingField",
+																			"label": "WR_WritingField",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {
+																		":visible": true,
+																		":enabled": true,
+																		"id": "ioo4",
+																		"placeholder": "Type your answer here",
+																		"styles": "resize: none;"
+																	},
+																	"propagate": "",
+																	"dmode": "",
+																	"vueComponentName": "WidgetTextarea",
+																	"custom-name": "text_WritingField",
+																	"components": [],
+																	"open": false
+																}
+															],
+															"open": 1
+														},
+														{
+															"tagName": "div",
+															"type": "",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "item3_T27",
+																	"label": "item3_T27",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page990bc",
+																	"label": "page990bc",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "item3_T27_Submit",
+															"components": [
+																{
+																	"tagName": "widget-button",
+																	"type": "widget-button",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": {},
+																	"classes": [
+																		{
+																			"name": "buttonBasic-Grey",
+																			"label": "buttonBasic-Grey",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "page990bc",
+																			"label": "page990bc",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {
+																		":visible": false,
+																		":enabled": true,
+																		"id": "i16y",
+																		":conditions": "{conditionList:[{comparisons:[{comparisonData:{comparisonType:'textLength',textID:'ioo4'}},{comparisonData:{comparisonType:'radioSelection',group:'irmk',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'addClasses',widgetID:'i16y',classes:'buttonBlinkBlue '},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}",
+																		":click-effects": "{conditionList:[{comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'igyh',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i3aj6',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.M.HypothesisExplanation2',responseData:{responseType:'widget',format:'html',headerPairs:[{header:'',widgetID:'ioo4',key:'text'}]},fireOnceID:''}],responsesFail:[]}]}"
+																	},
+																	"propagate": "",
+																	"dmode": "",
+																	"vueComponentName": "WidgetButton",
+																	"custom-name": "button_Submit",
+																	"components": [
+																		{
+																			"tagName": "span",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "Submit",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "marginRight2",
+																					"label": "marginRight2",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "marginLeft2",
+																					"label": "marginLeft2",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page990bc",
+																					"label": "page990bc",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "text_Submit",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																}
+															],
+															"open": true
+														}
+													],
+													"open": 1
+												}
+											],
+											"open": 1
+										}
+									],
+									"open": 1
+								}
+							],
+							"open": 1
+						}
+					],
+					"open": 1
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_T1",
+					"label": "grid_T1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"align-items": "center",
+				"justify-items": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T1",
+					"label": "item1_T1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"padding": "1.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T2",
+					"label": "grid_T2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"align-items": "center",
+				"height": "100%",
+				"width": "100%",
+				"grid-row-gap": "1vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T2",
+					"label": "item1_T2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"align-self": "center",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T9",
+					"label": "grid_T9",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content min-content 1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "3vh",
+				"width": "100%",
+				"height": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T9",
+					"label": "item1_T9",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T9",
+					"label": "item2_T9",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "2",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_T9",
+					"label": "item3_T9",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "3",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T16",
+					"label": "grid_T16",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr 1fr 1fr",
+				"grid-template-rows": "1fr",
+				"grid-column-gap": "3vh",
+				"grid-row-gap": "0vh",
+				"width": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T16",
+					"label": "item1_T16",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T16",
+					"label": "item2_T16",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_T16",
+					"label": "item3_T16",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "3",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T23",
+					"label": "grid_T23",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "3fr 1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "1.5vh",
+				"width": "100%",
+				"height": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T23",
+					"label": "item1_T23",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T23",
+					"label": "item2_T23",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "2",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T27",
+					"label": "grid_T27",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr 0.5fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "1.5vh",
+				"width": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T27",
+					"label": "item1_T27",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T27",
+					"label": "item2_T27",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "2",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_T27",
+					"label": "item3_T27",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "3",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Submit",
+					"label": "div_Submit",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"height": "4.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "WR_WritingField",
+					"label": "WR_WritingField",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"height": "100%"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T4",
+					"label": "grid_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"padding": "6vh",
+				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_simState_055_IMG.jpg)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "cover"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1",
+				"justify-self": "stretch",
+				"align-self": "stretch",
+				"padding": "3vh 3vh 2vh 3vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "textBackground-Incorrect",
+					"label": "textBackground-Incorrect",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "4",
+				"justify-self": "stretch",
+				"align-self": "stretch",
+				"height": "auto",
+				"width": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_List",
+					"label": "text_List",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"margin": "0 0 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T2",
+					"label": "item2_T2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"font-size": "2.5vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "dropShadow",
+					"label": "dropShadow",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "textBackgroundBasic",
+					"label": "textBackgroundBasic",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "ED_EnableDisable",
+					"label": "ED_EnableDisable",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic-Grey",
+					"label": "buttonBasic-Grey",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T1",
+					"label": "item1_T1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "grid_T2",
+					"label": "grid_T2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonRadio",
+					"label": "buttonRadio",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "radioMultiLine",
+					"label": "radioMultiLine",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "radioFillHeight",
+					"label": "radioFillHeight",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "item1_T16",
+					"label": "item1_T16",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "grid_T1",
+					"label": "grid_T1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page990bc",
+					"label": "page990bc",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

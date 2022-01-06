@@ -1,0 +1,23 @@
+{
+	"b364383e-27aa-11e8-888b-026349a27a7c": {
+		"enabled": true,
+		"pos": { "data": { "0": 1, "1": -1, "2": -1 } },
+		"rot": { "x": -0.17364818333380033, "y": 0, "z": 0, "w": 0.984807752012986 }
+	},
+	"4e785ff7-8114-42ea-93bc-b440103e5f92": {
+		"enabled": true,
+		"components": {
+			"model": {
+				"show": false
+			}
+		}
+	},
+	"b364383d-27aa-11e8-888b-026349a27a7c": {
+		"enabled": true,
+		"components": {
+			"model": {
+				"materialAsset": 10320631
+			}
+		}
+	}
+}

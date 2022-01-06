@@ -1,0 +1,38 @@
+<br />
+<br />
+<div style="height: 50vh; width: 50vh;">
+    <widget-codon-wheel id="codon" codonCode="" shared-data-write-key="codonWrite" shared-data-read-key="codonRead"
+    :conditions="{conditionList:[
+        {
+            evaluateWhen:'sharedDataChanges',
+            comparisons:[
+                {comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'codonEnabled',comparison:'notEquals',val:'value'}}
+            ],
+            effectsPass:[
+                {effectData:{effectType:'updateWidgetWithSharedData',widgetID:'codon',key:'enabled',sharedDataKey:'codonEnabled'},fireOnceID:'',delay:0}
+            ],effectsFail:[],responsesPass:[],responsesFail:[]
+        },
+        {
+            evaluateWhen:'sharedDataChanges',
+            comparisons:[
+                {comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'codonUnlocked',comparison:'notEquals',val:'value'}}
+            ],
+            effectsPass:[
+                {effectData:{effectType:'updateWidgetWithSharedData',widgetID:'codon',key:'codonCode_unlocked',sharedDataKey:'codonUnlocked'},fireOnceID:'',delay:0}
+            ],effectsFail:[],responsesPass:[],responsesFail:[]
+        }
+    ]}"/>
+</div>
+<div style="display: flex; flex-direction: row;" class="marginTop2">
+        <span class="marginRight2">codonCode_unlocked</span><widget-textbox id="codonValUnlocked" shared-data-write-key="codonUnlocked"/>
+    </div>
+<widget-checkbox id="enableWheel" :checked=true class="buttonCheck" shared-data-write-key="codonEnabled"/> enabled
+<br/>
+<widget-button id="prevPageButton " :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+        'previousPage'}}] } ]} " class="buttonBasic-Grey ">
+    <p class="marginLeft2 marginRight2 ">previous page</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue " id="nextPageButton " :clickEffects="{conditionList:[
+        { effectsPass:[{effectData: {effectType: 'unlockNextPage'}}] } ]} ">
+    <p class="marginLeft2 marginRight2 ">unlock next page</p>
+</widget-button>

@@ -1,0 +1,273 @@
+{
+  "title": "Project",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "required": [
+    "name",
+    "description",
+    "appkey",
+    "version",
+    "sharedData",
+    "case",
+    "guide",
+    "glossary",
+    "trackGroups",
+    "sims",
+    "compatibility"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Project Name",
+      "propertyOrder": 1
+    },
+    "description": {
+      "type": "string",
+      "title": "Project Description",
+      "propertyOrder": 2
+    },
+    "appkey": {
+      "type": "string",
+      "title": "App Key",
+      "description": "Used with authenticating to SABLE",
+      "propertyOrder": 3
+    },
+    "version": {
+      "type": "string",
+      "title": "Project Version",
+      "propertyOrder": 4
+    },
+    "sharedData": {
+      "title": "Shared Data",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sharedDataID": {
+            "type": "string",
+            "title": "ID",
+            "description": "Must be a unique ID. ex: proj_choice1"
+          },
+          "value": {
+            "type": ["string", "number", "boolean"],
+            "description": "The default value you want to share."
+          }
+        }
+      },
+      "description": "IDs used to share user data across pages. Useful for things like user input choices and text. The data will be preserved in the user's progress save data.",
+      "propertyOrder": 5,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "appSharedData": {
+      "title": "App Shared Data",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sharedDataID": {
+            "type": "string",
+            "title": "ID",
+            "description": "Must be a unique ID. ex: sim_anchor1"
+          },
+          "value": {
+            "type": ["string", "number", "boolean"],
+            "description": "The default value you want to share."
+          }
+        }
+      },
+      "description": "IDs used to share app data across software components. Useful for things like sharing anchor positions across PlayCanvas and the Vue app. Use for data that can't be changed by the user, it wont be stored in the user's progress save data.",
+      "propertyOrder": 6,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "case": {
+      "title": "Case",
+      "$ref": "./moduleSchema.json",
+      "propertyOrder": 7,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "guide": {
+      "title": "Handbook",
+      "$ref": "./moduleSchema.json",
+      "propertyOrder": 8,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "glossary": {
+      "title": "Glossary",
+      "$ref": "./glossarySchema.json",
+      "propertyOrder": 9,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "trackGroups": {
+      "title": "Track Groups",
+      "type": "array",
+      "format": "table",
+      "description": "AKA Resource Activities",
+      "items": {
+        "type": "object",
+        "required": [
+          "trackGroupID",
+          "name",
+          "productionRubricVersion",
+          "stagingRubricVersion",
+          "caseID",
+          "guideID",
+          "glossaryID"
+        ],
+        "properties": {
+          "trackGroupID": {
+            "type": "string",
+            "title": "Track Group ID",
+            "description": "Must be a unique ID. Will also be the route url for the group."
+          },
+          "name": {
+            "type": "string",
+            "title": "Track Group Name"
+          },
+          "productionRubricVersion": {
+            "type": "number",
+            "title": "Production Rubric Version"
+          },
+          "stagingRubricVersion": {
+            "type": "number",
+            "title": "Staging Rubric Version"
+          },
+          "caseID": {
+            "type": "string",
+            "title": "Case Track ID"
+          },
+          "guideID": {
+            "type": "string",
+            "title": "Handbook Track ID"
+          },
+          "glossaryID": {
+            "type": "string",
+            "title": "Glossary Track ID"
+          }
+        }
+      },
+      "propertyOrder": 10,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "sims": {
+      "title": "Sims",
+      "type": "array",
+      "format": "tabs",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "loadMode", "unloadMode", "scenes"],
+        "headerTemplate": "{{ i1 }} - {{ self.name }}",
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Sim ID"
+          },
+          "name": {
+            "type": "string",
+            "title": "Sim Name"
+          },
+          "loadMode": {
+            "type": "string",
+            "enum": ["LoadOnStart", "LoadOnDemand"],
+            "default": "LoadOnDemand"
+          },
+          "unloadMode": {
+            "type": "string",
+            "enum": ["UnloadNever", "UnloadOnDemand"],
+            "default": "UnloadOnDemand"
+          },
+          "antialias": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Enable Antialiasing",
+            "description": "Run with antialiasing",
+            "default": true
+          },
+          "alpha": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Enable Alpha Background",
+            "description": "Set TRUE when Sim Canvas is placed in front of other visible elements.",
+            "default": false
+          },
+          "preserveDrawingBuffer": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Preserve DrawingBuffer",
+            "description": "When TRUE the buffers will not be cleared and will preserve their values until cleared or overwritten.",
+            "default": false
+          },
+          "preferWebGl2": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Prefer WebGL 2",
+            "description": "If device supports WebGL 2, then use it",
+            "default": true
+          },
+          "scenes": {
+            "title": "Scenes",
+            "type": "array",
+            "format": "table",
+            "items": {
+              "type": "object",
+              "required": ["name", "fileName"],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "title": "Custom Scene Name",
+                  "default": "new scene",
+                  "description": "A unique name for the scene. Use this name in your widget."
+                },
+                "fileName": {
+                  "type": "string",
+                  "title": "Scene File Name",
+                  "default": "12345.json",
+                  "description": "Enter in the file name of the scene. Should be in Project/Sims/_SimName_/"
+                }
+              }
+            }
+          }
+        }
+      },
+      "propertyOrder": 11,
+      "options": {
+        "collapsed": true
+      }
+    },
+    "compatibility": {
+      "type": "array",
+      "format": "table",
+      "items": {
+        "type": "object",
+        "required": ["versionStart", "versionEnd"],
+        "properties": {
+          "versionStart": {
+            "type": "string",
+            "title": "Version Start"
+          },
+          "versionEnd": {
+            "type": "string",
+            "title": "Version End"
+          }
+        }
+      },
+      "propertyOrder": 12,
+      "options": {
+        "collapsed": true
+      }
+    }
+  }
+}

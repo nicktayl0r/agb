@@ -1,0 +1,17 @@
+[
+	{
+		"id": "emptyDiv",
+		"label": "<p>&lt;div&gt;</p>Empty Div",
+		"category": "Basic",
+		"content": "<div data-gjs-custom-name=\"div\"></div>"
+	},
+	{
+		"id": "emptyDivBox",
+		"label": "<img src='./img/blocks/blockIcon_BasicDiv.jpg'></img><br>Box: Basic div",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Basic",
+		"content": "<div data-gjs-custom-name=\"Box: Basic - div\" class=\"dropShadow textBackgroundBasic\"></div>"
+	}
+]

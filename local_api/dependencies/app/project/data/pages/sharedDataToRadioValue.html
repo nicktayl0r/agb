@@ -1,0 +1,30 @@
+<br>
+<br>
+<widget-radio id="radio1" class="buttonRadio" group="radioGroup" value="radio1 Value" :clickEffects="{conditionList:[
+	{
+		effectsPass:[
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValue'}},
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValueApp'}}
+		]
+	}
+]}" />
+<widget-radio id="radio2" class="buttonRadio" group="radioGroup" value="radio2 Value" :clickEffects="{conditionList:[
+	{
+		effectsPass:[
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValue'}},
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValueApp'}}
+		]
+	}
+]}"/>
+<widget-radio id="radio3" class="buttonRadio" value="radio3 Value" group="radioGroup" :clickEffects="{conditionList:[
+	{
+		effectsPass:[
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValue'}},
+			{effectData: {effectType: 'setSharedDataToRadioGroupValue', radioGroupId:'radioGroup', sharedDataKey: 'radioGroupValueApp'}}
+		]
+	}
+]}">
+</widget-radio>
+<br>
+sharedData: <widget-shared-data-text id="sharedText" sharedDataReadKey="radioGroupValue"></widget-shared-data-text><br>
+appSharedData: <widget-shared-data-text id="appSharedText" sharedDataReadKey="radioGroupValueApp"></widget-shared-data-text>

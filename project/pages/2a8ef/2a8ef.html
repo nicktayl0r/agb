@@ -1,0 +1,40 @@
+<div class="simParent page2a8ef">
+  <widget-sim-view id="ipft" scenename="Sahara_Farm_Map" simstateid="joc92n" :visible="true" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ik6l',key:'visible',val:true},fireOnceID:'button_Next_visible_page2a8ef',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page2a8ef" />
+  <div class="simPageContent farmMapSim_PageContent page2a8ef">
+    <div class="div_pageTop page2a8ef"></div>
+    <div class="div_farmMapSim_pageBottom page2a8ef">
+      <div class="div_farmMapSim_questionText page2a8ef"><span class="colorWhite page2a8ef">The farmer uses 20% of the field to grow cotton.<br/>She uses the rest of the field to grow corn.</span>
+        <div class="page2a8ef">
+          <widget-button :visible="false" :enabled="true" id="ik6l" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ik6l',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i09l',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ijmj',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue page2a8ef marginTop2">
+            <p class="page2a8ef">Next</p>
+          </widget-button>
+          <container-show-hide :visible="false" id="i09l" class="page2a8ef marginTop1">
+            <p class="colorWhite page2a8ef">What percent of the field is used to grow corn?</p>
+          </container-show-hide>
+        </div>
+      </div>
+      <container-enable-disable :visible="false" :enabled="true" id="ijmj" class="div_farmMapSim_buttonsGrp page2a8ef">
+        <div class="grid_farmMapSim_3ButtonColumns page2a8ef">
+          <widget-radio :visible="true" :enabled="true" id="ice3" group="ij8ig" value="20%" class="buttonRadio Variation radioFillHeight colorWhite page2a8ef">
+            <p class="page2a8ef">20%</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="iiji" group="ij8ig" value="50%" class="buttonRadio Variation radioFillHeight colorWhite page2a8ef">
+            <p class="page2a8ef">50%</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="i13x" group="ij8ig" value="80%" class="buttonRadio Variation radioFillHeight colorWhite page2a8ef">
+            <p class="page2a8ef">80%</p>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="div_farmMapSim_CI page2a8ef">
+        <container-show-hide :visible="false" id="i2gd" class="page2a8ef dropShadow textBackgroundBasic textBackground-Correct"><span class="page2a8ef"><strong class="page2a8ef">Correct!</strong> The farmer uses 20% ( <div class="fraction_Inline page2a8ef"><p class="textCenter page2a8ef text_Numerator_Black">10</p><p class="text_Denominator textCenter page2a8ef">50</p></div> ) of the field for corn.<br/>This leaves 80% ( <div class="fraction_Inline page2a8ef"><p class="textCenter page2a8ef text_Numerator_Black">40</p><p class="text_Denominator textCenter page2a8ef">50</p></div> ) of the field left to grow corn.</span></container-show-hide>
+        <container-show-hide :visible="false" id="iaie" class="page2a8ef dropShadow textBackgroundBasic textBackground-Incorrect"><span class="page2a8ef"><strong class="page2a8ef">Incorrect.</strong> The farmer uses 20% ( <div class="fraction_Inline page2a8ef"><p class="textCenter page2a8ef text_Numerator_Black">10</p><p class="text_Denominator textCenter page2a8ef">50</p></div> ) of the field for corn.<br/>This leaves 80% ( <div class="fraction_Inline page2a8ef"><p class="textCenter page2a8ef text_Numerator_Black">40</p><p class="text_Denominator textCenter page2a8ef">50</p></div> ) of the field left to grow corn.</span></container-show-hide>
+      </div>
+      <div class="div_farmMapSim_Submit page2a8ef">
+        <widget-button :visible="false" :enabled="true" id="ifnz6" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ijmj',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i13x',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:5}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.M.FarmPercentCorn',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'ij8ig'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'radioIDEquals',radioID:'i13x'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i2gd',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iaie',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue page2a8ef">
+          <p class="marginLeft2 marginRight2 page2a8ef">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

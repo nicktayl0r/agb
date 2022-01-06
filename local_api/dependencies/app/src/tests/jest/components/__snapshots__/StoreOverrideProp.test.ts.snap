@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreOverrideProp text from prop matches html snapshot 1`] = `
+<div>
+  text from prop
+</div>
+`;
+
+exports[`StoreOverrideProp text from store matches html snapshot 1`] = `
+<div>
+  this text is from the store text from store
+</div>
+`;
+
+exports[`StoreOverrideProp text from store matches userDataStore.pages snapshot 1`] = `
+Object {
+  "testPage": Object {
+    "testWidget": Object {
+      "text": "text from store",
+    },
+  },
+}
+`;

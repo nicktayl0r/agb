@@ -1,0 +1,71 @@
+
+{
+  "gjs-components": [
+    {
+      "tagName": "div",
+      "type": "text",
+      "name": "",
+      "removable": true,
+      "draggable": true,
+      "droppable": false,
+      "badgable": true,
+      "stylable": true,
+      "stylable-require": "",
+      "style-signature": "",
+      "unstylable": "",
+      "highlightable": true,
+      "copyable": true,
+      "resizable": false,
+      "editable": true,
+      "layerable": true,
+      "selectable": true,
+      "hoverable": true,
+      "void": false,
+      "state": "",
+      "status": "selected",
+      "content": "<p><p><span >In plants, fertilization happens when pollen is moved to other flowers.</span></p><br><p><span >When pollen is moved from one flower to another flower, it gets fertilized.</span></p><br><p><span >That makes the flower grow into a fruit.</span></p><br><p><span >Flowers will not grow into fruit if they are not fertilized.</span></p><br></p>",
+      "icon": "",
+      "style": "",
+      "classes": [
+        {
+          "name": "page-g_fertilization_E-Ex-M-Mx",
+          "label": "page-g_fertilization_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "script": "",
+      "attributes": {},
+      "propagate": "",
+      "dmode": "",
+      "tag Name": "div",
+      "custom-name": "definition",
+      "components": [],
+      "open": false
+    }
+  ],
+  "gjs-styles": [
+    {
+      "selectors": [
+        {
+          "name": "page-g_fertilization_E-Ex-M-Mx",
+          "label": "page-g_fertilization_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "selectorsAdd": "",
+      "style": {},
+      "mediaText": "",
+      "state": "",
+      "stylable": true,
+      "atRuleType": "",
+      "singleAtRule": 0,
+      "important": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<div style="height: 150px; width: 150px; display: flex;flex-direction: column;">
+	<widget-svg id="widgetSvgTest" data="../assets/svg/bush_Red.svg" :clickEffects="{conditionList:[ 
+		{ 
+			effectsPass:[ 
+				{effectData: {effectType: 'addClasses', widgetID: 'widgetSvgTest2', classes: 'imageOutline'}}
+			] 
+		} ]}"></widget-svg>
+</div>
+<div style="height: 150px; width: 150px; display: flex;flex-direction: column;">
+	<widget-svg id="widgetSvgTest2" data="../assets/svg/bush_Red.svg" :clickEffects="{conditionList:[ 
+		{ 
+			effectsPass:[
+				{effectData: {effectType: 'updateWidget', widgetID: 'widgetSvgTest3', key: 'data', val:'../assets/dnaSpinner.svg'}}
+			] 
+		} ]}"></widget-svg>
+</div>
+<div style="height: 150px; width: 150px; display: flex;flex-direction: column;">
+	<widget-svg id="widgetSvgTest3" data="../assets/svg/bush_Red.svg"></widget-svg>
+</div>

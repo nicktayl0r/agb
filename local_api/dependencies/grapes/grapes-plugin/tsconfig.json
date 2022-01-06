@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    //"strict": true,
+    "noImplicitAny": false, // we currently need this because we don't have a type definition for the grapes editor type
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "pretty": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "es6"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "true-myth/*": ["node_modules/true-myth/dist/types/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}

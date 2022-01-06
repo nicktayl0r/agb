@@ -1,0 +1,39 @@
+.grid_T4.pagede784 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 19vh 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: linear-gradient(#1B2937, #273D52);
+}
+
+.item1_T4.pagede784 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	padding: 3vh 3vh 0 3vh;
+}
+
+.div_Text2.pagede784 {
+	height: auto;
+}
+
+.div_pageContent.pagede784 {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.image_herd1.pagede784 {
+	height: 65vh;
+}
+
+.image_herd2.pagede784 {
+	height: 52vh;
+}
+
+

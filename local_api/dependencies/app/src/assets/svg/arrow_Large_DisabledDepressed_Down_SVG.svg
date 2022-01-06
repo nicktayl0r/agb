@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 490">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9d9d9;
+        stroke: #d9d9d9;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <title>arrowDown_Large_Disabled_Down_PNG</title>
+  <g id="arrow_Large_Button_Disabled">
+    <path id="arrowDown_Large_Disabled_Down_SVG" class="cls-1" d="M7.62,437.15c7,7,41.35,40.4,45.67,44.54a12.51,12.51,0,0,0,8.2,3.31,12.16,12.16,0,0,0,8.06-3.31c4.32-4.14,38.71-37.59,45.67-44.54,5.25-5.25,2.2-13.72-5.45-13.72H87.21V16c0-6.2-5.63-10.71-11.46-10.71H47.09C41.26,5.3,35.63,9.81,35.63,16V423.43H13.07C5.42,423.43,2.37,431.9,7.62,437.15Z"/>
+  </g>
+</svg>

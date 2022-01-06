@@ -1,0 +1,245 @@
+[
+	{
+		"id": "body-text",
+		"label": "text_Left_Black",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph black left" },
+		"content": "<p data-gjs-custom-name='text_Left_Black'>Body text</p>"
+	},
+	{
+		"id": "body-text-white",
+		"label": "text_Left_White",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph left" },
+		"content": "<p class=\"colorWhite\" data-gjs-custom-name='text_Left_White'>Body text</p>"
+	},
+	{
+		"id": "body-text-center",
+		"label": "text_Center_Black",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph black" },
+		"content": "<p class=\"textCenter\" data-gjs-custom-name='text_Center_Black'>Body text</p>"
+	},
+	{
+		"id": "body-text-white-center",
+		"label": "text_Center_White",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph" },
+		"content": "<p class=\"colorWhite textCenter\" data-gjs-custom-name='text_Center_White'>Body text</p>"
+	},
+	{
+		"id": "body-text-right",
+		"label": "text_Right_Black",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph black right" },
+		"content": "<p class=\"textRight\" data-gjs-custom-name='text_Right_Black'>Body text</p>"
+	},
+	{
+		"id": "body-text-white-right",
+		"label": "text_Right_White",
+		"category": "Text",
+		"attributes": { "class": "fa fa-paragraph right" },
+		"content": "<p class=\"colorWhite textRight\" data-gjs-custom-name='text_Right_White'>Body text</p>"
+	},
+	{
+		"id": "text14",
+		"label": "textLabel14",
+		"category": "Text",
+		"attributes": { "class": "fa fa-header font14 black" },
+		"content": "<p class='font14 textCenter' data-gjs-custom-name='textLabel14'>Body text</p>"
+	},
+	{
+		"id": "text18",
+		"label": "textLabel18",
+		"category": "Text",
+		"attributes": { "class": "fa fa-header font18 black" },
+		"content": "<p class='font18 textCenter' data-gjs-custom-name='textLabel18'>Body text</p>"
+	},
+	{
+		"id": "text20",
+		"label": "textLabel20",
+		"category": "Text",
+		"attributes": { "class": "fa fa-header font20 black" },
+		"content": "<p class='font20 textCenter' data-gjs-custom-name='textLabel20'>Body text</p>"
+	},
+	{
+		"id": "text22",
+		"label": "textLabel22",
+		"category": "Text",
+		"attributes": { "class": "fa fa-header font22 black" },
+		"content": "<p class='font22 textCenter' data-gjs-custom-name='textLabel22'>Body text</p>"
+	},
+	{
+		"id": "text30",
+		"label": "textLabel30",
+		"category": "Text",
+		"attributes": { "class": "fa fa-header font30 black" },
+		"content": "<p class='font30 textCenter' data-gjs-custom-name='textLabel30'>Body text</p>"
+	},
+	{
+		"id": "WidgetSharedDataText",
+		"label": "SharedData text",
+		"category": "Text",
+		"attributes": { "class": "fa fa-exchange" },
+		"content": "<widget-shared-data-text data-gjs-custom-name='SharedData text'></widget-shared-data-text>"
+	},
+	{
+		"id": "inlinefractionBlack",
+		"label": "<div class=\"fraction_Inline_gjs\"><p class=\"text_NumeratorB_gjs\">100</p><p class=\"text_DenominatorB_gjs\">100</p></div><br>Inline Fraction Black",
+		"category": "Text",
+		"attributes": { "class": "imgIcon" },
+		"content": "<div class=\"fraction_Inline\" data-gjs-custom-name=\"fraction_Inline\"><p class=\"text_Numerator textCenter\" data-gjs-custom-name=\"text_Numerator\">100</p><p class=\"text_Denominator textCenter\" data-gjs-custom-name=\"text_Denominator\">100</p></div><style>.fraction_Inline.$pageID${padding:0vh .5vh 0vh .5vh;width:auto;flex-direction:column;justify-content:center;align-items:center;display:inline-block;font-size:2vh;vertical-align:middle;margin:-0.2vh 0 -0.2vh 0;}.text_Numerator.$pageID${border-bottom:thin black solid;width:auto;}.text_Denominator.$pageID${width:auto;}</style>"
+	},
+	{
+		"id": "inlinefractionWhite",
+		"label": "<div class=\"fraction_Inline_gjs\"><p class=\"text_NumeratorW_gjs\">100</p><p class=\"text_DenominatorW_gjs\">100</p></div><br>Inline Fraction White",
+		"category": "Text",
+		"attributes": { "class": "imgIcon" },
+		"content": "<div class=\" fraction_Inline colorWhite\" data-gjs-custom-name=\"fraction_Inline\"><p class=\" text_Numerator textCenter\" data-gjs-custom-name=\"text_Numerator\">100</p><p class=\" text_Denominator textCenter\" data-gjs-custom-name=\"text_Denominator\">100</p></div><style>.fraction_Inline.$pageID${padding:0vh .5vh 0vh .5vh;width:auto;flex-direction:column;justify-content:center;align-items:center;display:inline-block;font-size:2vh;vertical-align:middle;margin:-0.2vh 0 -0.2vh 0;}.text_Numerator.$pageID${border-bottom:thin white solid;width:auto;}.text_Denominator.$pageID${width:auto;}</style>"
+	},
+	{
+		"id": "box-basic",
+		"label": "<img src='./img/blocks/blockIcon_textBkgWhite.jpg'></img><br>text_BkgWhite",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic' data-gjs-custom-name='text_BkgWhite'><p>Text Box Basic</p></div>"
+	},
+	{
+		"id": "box-blue",
+		"label": "<img src='./img/blocks/blockIcon_BkgDarkBlue.jpg'></img><br>text_BkgDarkBlue",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic textBackground-DarkBlue' data-gjs-custom-name='text_BkgDarkBlue'><p>Text Box Dark Blue</p></div>"
+	},
+	{
+		"id": "box-dark",
+		"label": "<img src='./img/blocks/blockIcon_textBkgDark.jpg'></img><br>text_BkgDark",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='textBackgroundBasic textBackground-DarkMode' data-gjs-custom-name='text_BkgDark'><p>Text Box Dark</p></div>"
+	},
+	{
+		"id": "box-trans",
+		"label": "<img src='./img/blocks/blockIcon_textBkgTransBlack.jpg'></img><br>text_BkgTrans",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='textBackgroundBasic textBackground-Transparent' data-gjs-custom-name='text_BkgTrans'><p>Text Box Transparent</p></div>"
+	},
+	{
+		"id": "box-correct",
+		"label": "<img src='./img/blocks/blockIcon_textCorrect.jpg'></img><br>text_BkgCorrect",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic textBackground-Correct' data-gjs-custom-name='text_BkgCorrect'><p><strong>Correct!</strong> Explanation...</p></div>"
+	},
+	{
+		"id": "box-incorrect",
+		"label": "<img src='./img/blocks/blockIcon_textIncorrect.jpg'></img><br>text_BkgIncorrect",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic textBackground-Incorrect' data-gjs-custom-name='text_BkgIncorrect'><p><strong>Incorrect.</strong> Explanation...</p></div>"
+	},
+	{
+		"id": "box-key",
+		"label": "<img src='./img/blocks/blockIcon_textKeyConcept.jpg'></img><br>text_BkgKeyConcept",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic textBackground-KeyConcept' data-gjs-custom-name='text_BkgKeyConcept'><p><strong>Key Concept:</strong> Concept...</p><p><strong>Important Fact:</strong> Fact...</p></div>"
+	},
+	{
+		"id": "box-note",
+		"label": "<img src='./img/blocks/blockIcon_textNote.jpg'></img><br>text_BkgNote",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<div class='dropShadow textBackgroundBasic textBackground-Note' data-gjs-custom-name='text_BkgNote'><p><strong>Note:</strong> ...</p></div>"
+	},
+
+	{
+		"id": "box-basic-sh",
+		"label": "<img src='./img/blocks/blockIcon_textBkgWhite.jpg'></img><br>text_BkgWhite_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic' data-gjs-custom-name='text_BkgWhite_SH'><p>Text Box Basic</p></container-show-hide>"
+	},
+	{
+		"id": "box-blue-sh",
+		"label": "<img src='./img/blocks/blockIcon_BkgDarkBlue.jpg'></img><br>text_BkgDarkBlue_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-DarkBlue' data-gjs-custom-name='text_BkgDarkBlue_SH'><p>Text Box Dark Blue</p></container-show-hide>"
+	},
+	{
+		"id": "box-dark-sh",
+		"label": "<img src='./img/blocks/blockIcon_textBkgDark.jpg'></img><br>text_BkgDark_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-DarkMode' data-gjs-custom-name='text_BkgDark_SH'><p>Text Box Dark</p></container-show-hide>"
+	},
+	{
+		"id": "box-trans-sh",
+		"label": "<img src='./img/blocks/blockIcon_textBkgTransBlack.jpg'></img><br>text_BkgTrans_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='textBackgroundBasic textBackground-Transparent' data-gjs-custom-name='text_BkgTrans_SH'><p>Text Box Transparent</p></container-show-hide>"
+	},
+	{
+		"id": "box-correct-sh",
+		"label": "<img src='./img/blocks/blockIcon_textCorrect.jpg'></img><br>text_BkgCorrect_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-Correct' data-gjs-custom-name='text_BkgCorrect_SH'><p><strong>Correct!</strong> Explanation...</p></container-show-hide>"
+	},
+	{
+		"id": "box-incorrect-sh",
+		"label": "<img src='./img/blocks/blockIcon_textIncorrect.jpg'></img><br>text_BkgIncorrect_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-Incorrect' data-gjs-custom-name='text_BkgIncorrect_SH'><p><strong>Incorrect.</strong> Explanation...</p></container-show-hide>"
+	},
+	{
+		"id": "box-key-sh",
+		"label": "<img src='./img/blocks/blockIcon_textKeyConcept.jpg'></img><br>text_BkgKeyConcept_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-KeyConcept' data-gjs-custom-name='text_BkgKeyConcept_SH'><p><strong>Key Concept:</strong> Concept...</p><p><strong>Important Fact:</strong> Fact...</p></container-show-hide>"
+	},
+	{
+		"id": "box-note-sh",
+		"label": "<img src='./img/blocks/blockIcon_textNote.jpg'></img><br>text_BkgNote_SH",
+		"attributes": {
+			"class": "imgIcon"
+		},
+		"category": "Text Box",
+		"content": "<container-show-hide class='dropShadow textBackgroundBasic textBackground-Note' data-gjs-custom-name='text_BkgNote_SH'><p><strong>Note:</strong> ...</p></container-show-hide>"
+	}
+]

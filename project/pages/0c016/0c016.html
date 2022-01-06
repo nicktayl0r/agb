@@ -1,0 +1,45 @@
+<div class="simParent page0c016">
+  <widget-sim-view id="ikfa" scenename="Sahara_Farm_Map" simstateid="swn4o4" :visible="true" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqwj',key:'visible',val:true},fireOnceID:'showNext_page0c016',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page0c016" />
+  <div class="simPageContent farmMapSim_PageContent page0c016">
+    <div class="div_pageTop page0c016"></div>
+    <div class="div_farmMapSim_pageBottom page0c016">
+      <div class="div_farmMapSim_questionText page0c016">
+        <p class="colorWhite page0c016">The bees need the cotton plants for food. The cotton plants are the resources the bees need to survive. 1 square of cotton has enough resources for 1 bee hive.<br /></p>
+        <div class="page0c016">
+          <widget-button :visible="false" :enabled="true" id="iqwj" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqwj',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihlu',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'icej',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikfa',key:'simstateid',val:'1fisou'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue marginTop1 page0c016">
+            <p class="page0c016">Next</p>
+          </widget-button>
+          <container-show-hide :visible="false" id="ihlu" class="page0c016">
+            <p class="colorWhite page0c016">What is the total number of hives that the cotton plants can support?<br /></p>
+          </container-show-hide>
+        </div>
+      </div>
+      <container-enable-disable :visible="false" :enabled="true" id="icej" class="div_farmMapSim_buttonsGrp page0c016">
+        <div class="grid_farmMapSim_3ButtonColumns page0c016">
+          <widget-radio :visible="true" :enabled="true" id="isfl" group="idlcg" value="5" class="buttonRadio Variation radioFillHeight colorWhite page0c016">
+            <p class="text_ButtonTitle page0c016">5</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="iyx8" group="idlcg" value="10" class="buttonRadio Variation radioFillHeight colorWhite page0c016">
+            <p class="text_ButtonTitle page0c016">10</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="idjw" group="idlcg" value="20" class="buttonRadio Variation radioFillHeight colorWhite page0c016">
+            <p class="text_ButtonTitle page0c016">20</p>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="div_farmMapSim_CI page0c016">
+        <container-show-hide :visible="false" id="izqh" class="page0c016">
+          <p class="dropShadow textBackgroundBasic textBackground-Correct page0c016"><strong>Correct!</strong> There are 10 squares of cotton plants, which is enough resources for 10 beehives. Lucy already has 5 beehives, so she can add 5 more.<br /></p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="imdh" class="page0c016">
+          <p class="dropShadow textBackgroundBasic textBackground-Incorrect page0c016"><strong>Incorrect.</strong> There are 10 squares of cotton plants, which is enough resources for 10 beehives. Lucy already has 5 beehives, so she can add 5 more.<br /></p>
+        </container-show-hide>
+      </div>
+      <div class="div_farmMapSim_Submit page0c016">
+        <widget-button :visible="false" :enabled="true" id="idbkp" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'idlcg',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'idbkp',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'icej',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'idbkp',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.M.HivesCottonSupports',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'idlcg'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'idlcg',selected:'radioIDEquals',radioID:'iyx8'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'izqh',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iyx8',key:'correctStyle',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'imdh',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iyx8',key:'correctStyle',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue page0c016">
+          <p class="marginLeft2 marginRight2 page0c016">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

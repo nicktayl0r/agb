@@ -1,0 +1,354 @@
+[
+	{
+		"id": "colorBox1",
+		"label": "White",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_white" },
+		"content":
+			"<div class=\"line colorBox colorBkgndWhite\" data-gjs-custom-name=\"colorBox_White\"></div>"
+	},
+	{
+		"id": "colorBox2",
+		"label": "Black",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_black" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlack\" data-gjs-custom-name=\"colorBox_Black\"></div>"
+	},
+	{
+		"id": "colorBox3",
+		"label": "Grey1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey1\" data-gjs-custom-name=\"colorBox_Grey1\"></div>"
+	},
+	{
+		"id": "colorBox4",
+		"label": "Grey2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey2\" data-gjs-custom-name=\"colorBox_Grey2\"></div>"
+	},
+	{
+		"id": "colorBox5",
+		"label": "Grey3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey3\" data-gjs-custom-name=\"colorBox_Grey3\"></div>"
+	},
+	{
+		"id": "colorBox6",
+		"label": "Grey4",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey4" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey4\" data-gjs-custom-name=\"colorBox_Grey4\"></div>"
+	},
+	{
+		"id": "colorBox7",
+		"label": "Grey5",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey5" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey5\" data-gjs-custom-name=\"colorBox_Grey5\"></div>"
+	},
+	{
+		"id": "colorBox8",
+		"label": "Grey6",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey6" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey6\" data-gjs-custom-name=\"colorBox_Grey6\"></div>"
+	},
+	{
+		"id": "colorBox9",
+		"label": "Grey7",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_grey7" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGrey7\" data-gjs-custom-name=\"colorBox_Grey7\"></div>"
+	},
+	{
+		"id": "colorBox10",
+		"label": "Red1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_red1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndRed1\" data-gjs-custom-name=\"colorBox_Red1\"></div>"
+	},
+	{
+		"id": "colorBox11",
+		"label": "Red2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_red2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndRed2\" data-gjs-custom-name=\"colorBox_Red2\"></div>"
+	},
+	{
+		"id": "colorBox12",
+		"label": "Red3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_red3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndRed3\" data-gjs-custom-name=\"colorBox_Red3\"></div>"
+	},
+	{
+		"id": "colorBox13",
+		"label": "Orange1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ora1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndOrange1\" data-gjs-custom-name=\"colorBox_Orange1\"></div>"
+	},
+	{
+		"id": "colorBox14",
+		"label": "Orange2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ora2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndOrange2\" data-gjs-custom-name=\"colorBox_Orange2\"></div>"
+	},
+	{
+		"id": "colorBox15",
+		"label": "Orange3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ora3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndOrange3\" data-gjs-custom-name=\"colorBox_Orange3\"></div>"
+	},
+	{
+		"id": "colorBox16",
+		"label": "Orange4",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ora4" },
+		"content":
+			"<div class=\"line colorBox colorBkgndOrange4\" data-gjs-custom-name=\"colorBox_Orange4\"></div>"
+	},
+	{
+		"id": "colorBox17",
+		"label": "Orange5",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ora5" },
+		"content":
+			"<div class=\"line colorBox colorBkgndOrange5\" data-gjs-custom-name=\"colorBox_Orange5\"></div>"
+	},
+	{
+		"id": "colorBox18",
+		"label": "Yellow1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_yel1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndYellow1\" data-gjs-custom-name=\"colorBox_Yellow1\"></div>"
+	},
+	{
+		"id": "colorBox19",
+		"label": "Yellow2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_yel2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndYellow2\" data-gjs-custom-name=\"colorBox_Yellow2\"></div>"
+	},
+	{
+		"id": "colorBox20",
+		"label": "Yellow3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_yel3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndYellow3\" data-gjs-custom-name=\"colorBox_Yellow3\"></div>"
+	},
+	{
+		"id": "colorBox21",
+		"label": "Green1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_gre1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGreen1\" data-gjs-custom-name=\"colorBox_Green1\"></div>"
+	},
+	{
+		"id": "colorBox22",
+		"label": "Green2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_gre2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGreen2\" data-gjs-custom-name=\"colorBox_Green2\"></div>"
+	},
+	{
+		"id": "colorBox23",
+		"label": "Green3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_gre3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGreen3\" data-gjs-custom-name=\"colorBox_Green3\"></div>"
+	},
+	{
+		"id": "colorBox24",
+		"label": "Green4",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_gre4" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGreen4\" data-gjs-custom-name=\"colorBox_Green4\"></div>"
+	},
+	{
+		"id": "colorBox25",
+		"label": "Green5",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_gre5" },
+		"content":
+			"<div class=\"line colorBox colorBkgndGreen5\" data-gjs-custom-name=\"colorBox_Green5\"></div>"
+	},
+	{
+		"id": "colorBoxTeal1",
+		"label": "Teal1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_tea1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndTeal1\" data-gjs-custom-name=\"colorBox_Teal1\"></div>"
+	},
+	{
+		"id": "colorBoxTeal2",
+		"label": "Teal2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_tea2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndTeal2\" data-gjs-custom-name=\"colorBox_Teal2\"></div>"
+	},
+	{
+		"id": "colorBoxTeal3",
+		"label": "Teal3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_tea3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndTeal3\" data-gjs-custom-name=\"colorBox_Teal3\"></div>"
+	},
+	{
+		"id": "colorBox26",
+		"label": "Blue1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue1\" data-gjs-custom-name=\"colorBox_Blue1\"></div>"
+	},
+	{
+		"id": "colorBox27",
+		"label": "Blue2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue2\" data-gjs-custom-name=\"colorBox_Blue2\"></div>"
+	},
+	{
+		"id": "colorBox28",
+		"label": "Blue3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue3\" data-gjs-custom-name=\"colorBox_Blue3\"></div>"
+	},
+	{
+		"id": "colorBox29",
+		"label": "Blue4",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu4" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue4\" data-gjs-custom-name=\"colorBox_Blue4\"></div>"
+	},
+	{
+		"id": "colorBox30",
+		"label": "Blue5",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu5" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue5\" data-gjs-custom-name=\"colorBox_Blue5\"></div>"
+	},
+	{
+		"id": "colorBox31",
+		"label": "Blue6",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu6" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue6\" data-gjs-custom-name=\"colorBox_Blue6\"></div>"
+	},
+	{
+		"id": "colorBox32",
+		"label": "Blue7",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_blu7" },
+		"content":
+			"<div class=\"line colorBox colorBkgndBlue7\" data-gjs-custom-name=\"colorBox_Blue7\"></div>"
+	},
+	{
+		"id": "colorBox33",
+		"label": "Indigo1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ind1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndIndigo1\" data-gjs-custom-name=\"colorBox_Indigo1\"></div>"
+	},
+	{
+		"id": "colorBox34",
+		"label": "Indigo2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_ind2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndIndigo2\" data-gjs-custom-name=\"colorBox_Indigo2\"></div>"
+	},
+	{
+		"id": "colorBox35",
+		"label": "Purple1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pur1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPurple1\" data-gjs-custom-name=\"colorBox_Purple1\"></div>"
+	},
+	{
+		"id": "colorBox36",
+		"label": "Purple2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pur2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPurple2\" data-gjs-custom-name=\"colorBox_Purple2\"></div>"
+	},
+	{
+		"id": "colorBox37",
+		"label": "Purple3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pur3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPurple3\" data-gjs-custom-name=\"colorBox_Purple3\"></div>"
+	},
+	{
+		"id": "colorBox38",
+		"label": "Purple4",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pur4" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPurple4\" data-gjs-custom-name=\"colorBox_Purple4\"></div>"
+	},
+	{
+		"id": "colorBox39",
+		"label": "Pink1",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pin1" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPink1\" data-gjs-custom-name=\"colorBox_Pink1\"></div>"
+	},
+	{
+		"id": "colorBox40",
+		"label": "Pink2",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pin2" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPink2\" data-gjs-custom-name=\"colorBox_Pink2\"></div>"
+	},
+	{
+		"id": "colorBox41",
+		"label": "Pink3",
+		"category": "Color Box",
+		"attributes": { "class": "fa colorBlock cb_pin3" },
+		"content":
+			"<div class=\"line colorBox colorBkgndPink3\" data-gjs-custom-name=\"colorBox_Pink3\"></div>"
+	}
+]

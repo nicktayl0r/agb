@@ -1,0 +1,118 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"required": ["popperMessage", "tracks"],
+	"properties": {
+		"popperMessage": {
+			"type": "string",
+			"title": "Popper Message",
+			"propertyOrder": 1,
+			"description": "When this module is unlocked, the message to display in a popper on the progress bar button."
+		},
+		"tracks": {
+			"title": "Tracks",
+			"type": "array",
+			"format": "tabs",
+			"items": {
+				"type": "object",
+				"required": ["trackID", "name", "popperMessage", "sections"],
+				"headerTemplate": "{{ i1 }} - {{ self.name }}",
+				"properties": {
+					"trackID": {
+						"type": "string",
+						"title": "Track ID",
+						"propertyOrder": 1
+					},
+					"name": {
+						"type": "string",
+						"title": "Track Name",
+						"propertyOrder": 2
+					},
+					"popperMessage": {
+						"type": "string",
+						"title": "Popper Message",
+						"propertyOrder": 2,
+						"description": "When this module is unlocked, the message to display in a popper on the progress bar button. If set on a track, this will override the message set on the module."
+					},
+					"sections": {
+						"title": "Sections",
+						"type": "array",
+						"format": "tabs",
+						"options": {
+							"collapsed": true
+						},
+						"items": {
+							"type": "object",
+							"required": ["name", "visible", "tocColor", "pages"],
+							"headerTemplate": "{{ i1 }} - {{ self.name }}",
+							"properties": {
+								"name": {
+									"type": "string",
+									"title": "Section Name",
+									"propertyOrder": 1
+								},
+								"parentSectionName": {
+									"type": "string",
+									"title": "Parent Section Name",
+									"description": "Used for Subsections. Leave blank if Section has no parent.",
+									"propertyOrder": 2
+								},
+								"visible": {
+									"type": "boolean",
+									"title": "Visible",
+									"description": "Is this section shown by default in the Progress Bar?",
+									"default": "true",
+									"propertyOrder": 3
+								},
+								"tocColor": {
+									"type": "string",
+									"format": "color",
+									"title": "Table Of Contents Color",
+									"description": "The color of the section button in the Progress Bar.",
+									"default": "#f95858",
+									"propertyOrder": 4
+								},
+								"pages": {
+									"title": "Pages",
+									"type": "array",
+									"format": "table",
+									"propertyOrder": 5,
+									"options": {
+										"collapsed": true
+									},
+									"items": {
+										"type": "object",
+										"required": ["name", "pageID", "visible"],
+										"properties": {
+											"name": {
+												"type": "string",
+												"title": "Page Name",
+												"propertyOrder": 1
+											},
+											"pageID": {
+												"type": "string",
+												"title": "Page ID",
+												"propertyOrder": 2
+											},
+											"visible": {
+												"type": "boolean",
+												"title": "Visible",
+												"default": "true",
+												"propertyOrder": 3
+											},
+											"popperMessage": {
+												"type": "string",
+												"title": "Popper Message",
+												"propertyOrder": 4
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

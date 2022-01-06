@@ -1,0 +1,273 @@
+.grid_BG_Images.page55ad6 {
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_simState_047_IMG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.grid_T4.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.item1_T4.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T4.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+}
+
+.grid_MultiSelect.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr min-content;
+	grid-column-gap: 2vh;
+	grid-row-gap: 3vh;
+}
+
+.item1_MS.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.item2_MS.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.item3_MS.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	height: 10vh;
+}
+
+.grid_T10.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	grid-row-gap: 0;
+}
+
+.item1_T10.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -28vh 0 0 0;
+}
+
+.item2_T10.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 0 -73vh;
+}
+
+.item3_T10.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -28vh 0;
+}
+
+.item4_T10.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 -73vh 0 0;
+}
+
+.grid_T14.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.item1_T14.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.item2_T14_Answer.page55ad6 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-items: center;
+	display: block;
+}
+
+.SH_Correct_Incorrect.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.Grid_SubmitExplanations.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.buttonSubmit.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: end;
+	justify-self: start;
+}
+
+.div_Checkbox_1.page55ad6 {
+	width: 30vh;
+	height: 15vh;
+	background-image: url(../../assets/svg/elephant2_Silhouette_IMG.svg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: contain;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.div_Checkbox_2.page55ad6 {
+	width: 30vh;
+	height: 15vh;
+	background-image: url(../../assets/images/elephants/elephantEye_Sting_IMG.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: contain;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.div_Checkbox_3.page55ad6 {
+	width: 30vh;
+	height: 15vh;
+	background-image: url(../../assets/images/bee_SoundWaves_IMG.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: contain;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.div_Checkbox_4.page55ad6 {
+	width: 30vh;
+	height: 15vh;
+	background-image: url(../../assets/images/beehive_Manmade2_Hive_IMG.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: contain;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.image_Elephant.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 80vh;
+	margin: 0 0 -33.3vh -89.2vh;
+}
+
+.image_BeeHive.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 45vh;
+	margin: 0 -77vh -23.8vh 0;
+}
+
+.text_Buttons.page55ad6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	text-shadow: 2px 2px 4px black;
+}
+
+.div_Buttons.page55ad6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-row-gap: 1vh;
+	width: 31vh;
+	height: auto;
+}
+

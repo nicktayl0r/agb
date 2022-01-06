@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar matches html snapshot 1`] = `
+<div
+  class="progressBar case"
+  data-project-loaded="true"
+>
+  <div
+    class="moduleSelection"
+  >
+    <span
+      class="moduleButton case"
+    >
+      <input
+        id="caseRadio"
+        name="module"
+        style="display: none;"
+        type="radio"
+      />
+       
+      <label
+        class="noSelect"
+        for="caseRadio"
+      >
+        Case
+      </label>
+    </span>
+     
+    <span
+      class="moduleButton guide"
+    >
+      <input
+        disabled="disabled"
+        id="guideRadio"
+        name="module"
+        style="display: none;"
+        type="radio"
+      />
+       
+      <label
+        class="noSelect"
+        for="guideRadio"
+      >
+        Handbook
+      </label>
+    </span>
+  </div>
+   
+  <div
+    class="sections"
+  >
+    <div
+      class="section"
+      style="color: rgb(127, 108, 108); border-left-color: #7f6c6c;"
+    >
+      <span
+        class="sectionName locked"
+      >
+        section one
+      </span>
+    </div>
+    <div
+      class="section"
+      style="color: rgb(133, 121, 106); border-left-color: #85796a;"
+    >
+      <span
+        class="sectionName locked"
+      >
+        section two
+        <wbr />
+         with a pretty long name
+      </span>
+    </div>
+    <div
+      class="section"
+      style="color: rgb(168, 167, 138); border-left-color: #a8a78a;"
+    >
+      <span
+        class="sectionName locked"
+      >
+        section three
+      </span>
+    </div>
+    <div
+      class="section"
+      style="color: rgb(144, 162, 129); border-left-color: #90a281;"
+    >
+      <span
+        class="sectionName locked"
+      >
+        section four
+      </span>
+    </div>
+    <div
+      class="section"
+      style="color: rgb(125, 159, 148); border-left-color: #7d9f94;"
+    >
+      <span
+        class="sectionName locked"
+      >
+        section five
+      </span>
+    </div>
+  </div>
+   
+  <div
+    class="bottomButtons"
+  >
+    <span
+      class="noSelect"
+      id="glossaryButton"
+    >
+      Glossary
+    </span>
+     
+    <span
+      class="noSelect"
+      id="muteButton"
+    >
+      Mute
+    </span>
+  </div>
+</div>
+`;

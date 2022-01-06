@@ -1,0 +1,33 @@
+<div class="simParent page12033">
+  <widget-sim-view id="i2qe" scenename="Sahara_Perspective" simstateid="r6ww4d" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview page12033" />
+  <div class="grid_T62 simPageContent page12033">
+    <div class="grid_T9 textBackgroundBasic page12033 item1_T62">
+      <p class="item1_T9 page12033">Why do you think the elephants did not eat or trample the corn near the cotton?</p>
+      <container-enable-disable :visible="true" :enabled="true" id="ihkr" class="item2_T9 page12033">
+        <div class="grid_T9_ButtonsGroup page12033">
+          <div class="grid_T14 item1_T9_BGroup page12033">
+            <widget-radio :visible="true" :enabled="true" id="iwui" group="iawx" value="The elephants ate what they needed and did not need to eat the corn near the cotton." class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page12033">
+              <p class="page12033 buttonText">The elephants ate what they needed and did not need to eat the corn near the cotton.</p>
+            </widget-radio>
+          </div>
+          <div class="grid_T14 item2_T9_BGroup page12033">
+            <widget-radio :visible="true" :enabled="true" id="iq1g" group="iawx" value="The elephants are scared of bees. When they saw the beehives, they got scared and moved away." class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page12033">
+              <p class="page12033 buttonText">The elephants are scared of bees. When they saw the beehives, they got scared and moved away.</p>
+            </widget-radio>
+          </div>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 page12033">
+        <widget-button :visible="false" :enabled="true" id="iqnx" :conditions="{conditionList:[{comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'iawx',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqnx',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iqnx',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihkr',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iqnx',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iq1g',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:4}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EM.ElephantsNotEatOrTrample',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'iawx'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'iawx',selected:'radioIDEquals',radioID:'iq1g'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqwf',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i27g',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue button_Submit page12033">
+          <p class="marginLeft2 marginRight2 buttonBlinkBlue page12033">Submit</p>
+        </widget-button>
+        <container-show-hide :visible="false" id="iqwf" class="dropShadow textBackgroundBasic textBackground-Correct SH_Correct-Incorrect page12033">
+          <p class="colorBlack page12033"><strong class="page12033">Correct!</strong> The beehives stopped the elephants from eating the corn near the cotton because elephants are scared of bees.</p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="i27g" class="dropShadow textBackgroundBasic textBackground-Incorrect SH_Correct-Incorrect page12033">
+          <p class="colorBlack page12033"><strong class="page12033">Incorrect.</strong> The beehives stopped the elephants from eating the corn near the cotton because elephants are scared of bees.</p>
+        </container-show-hide>
+      </div>
+    </div>
+  </div>
+</div>

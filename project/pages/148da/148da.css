@@ -1,0 +1,52 @@
+.grid_Questions.page148da {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 4.5vh;
+}
+
+.item1_Q1.page148da {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_Q2.page148da {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+}
+
+.item3_Q3.page148da {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+}
+
+.buttonBasic-Grey.page148da {
+	align-self: center;
+}
+
+.dropShadow.page148da {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 4;
+	border-radius: 1.5vh;
+}
+
+.SH_SubmitNote.page148da {
+	display: flex;
+	align-items: center;
+}
+
+.grid_CaseBase_Summary.grid_CaseBase.grid_CaseBase_MQ.page148da {
+	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_simState_059_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}

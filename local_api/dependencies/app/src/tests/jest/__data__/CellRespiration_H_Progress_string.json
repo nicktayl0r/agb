@@ -1,0 +1,2955 @@
+{
+    "sharedData": {
+        "m98_CellularRespiration.LHA.InputsOutputs_Response": 1,
+        "anchor_investedATP_1": "{\"x\":118,\"y\":265}",
+        "anchor_investedATP_2": "{\"x\":214,\"y\":282}",
+        "anchor_payOffNADH_Top": "{\"x\":410,\"y\":282}",
+        "anchor_payOffATP_Top_1": "{\"x\":477,\"y\":273}",
+        "anchor_payOffATP_Top_2": "{\"x\":651,\"y\":276}",
+        "anchor_payOffNADH_Bottom": "{\"x\":410,\"y\":377}",
+        "anchor_payOffATP_Bottom_1": "{\"x\":473,\"y\":383}",
+        "anchor_payOffATP_Bottom_2": "{\"x\":649,\"y\":386}",
+        "anchor_Krebs_Enzyme1": "{\"x\":266,\"y\":560}",
+        "anchor_Krebs_Enzyme2": "{\"x\":227,\"y\":469}",
+        "anchor_Krebs_Enzyme4": "{\"x\":340,\"y\":392}",
+        "anchor_Krebs_Enzyme5": "{\"x\":457,\"y\":468}",
+        "anchor_Krebs_Enzyme6b": "{\"x\":555,\"y\":568}",
+        "anchor_OEC_H2O_Label": "{\"x\":643,\"y\":337}",
+        "anchor_ATPSynthase_Center": "{\"x\":503,\"y\":220}",
+        "anchor_ADP": "{\"x\":227,\"y\":396}",
+        "anchor_Phosphate": "{\"x\":216,\"y\":369}",
+        "anchor_ATPSynthase": "{\"x\":514,\"y\":200}",
+        "anchor_ETC_H+": "{\"x\":320,\"y\":173}",
+        "anchor_Glycolysis_Pyruvate": "{\"x\":560,\"y\":99}",
+        "m71d_A_CellularRespiration.A.OrderSteps_Response": 1,
+        "anchor_Step1": "{\"x\":0,\"y\":0}",
+        "anchor_UsesPyruvate": "{\"x\":0,\"y\":0}",
+        "anchor_Step2": "{\"x\":0,\"y\":0}",
+        "anchor_Step3": "{\"x\":0,\"y\":0}",
+        "anchor_Step4": "{\"x\":0,\"y\":0}",
+        "anchor_Cyanide": "{\"x\":145,\"y\":139}",
+        "anchor_2-deoxyglucose": "{\"x\":169,\"y\":87}",
+        "anchor_Arsenic": "{\"x\":112,\"y\":546}",
+        "anchor_Oligomycin": "{\"x\":585,\"y\":196}",
+        "anchor_EnzymeGlycolysis": "{\"x\":232,\"y\":97}",
+        "anchor_Krebs_Enzyme6a": "{\"x\":544,\"y\":526}",
+        "anchor_Krebs_Enzyme3": "{\"x\":288,\"y\":410}",
+        "anchor_EnzymeETC": "{\"x\":731,\"y\":143}",
+        "anchor_ATP": "{\"x\":484,\"y\":266}",
+        "anchor_MuscleTissue1": "{\"x\":360,\"y\":397}",
+        "first_Hypo_Choice": "ivypw",
+        "first_Hypo_Text": "cyanide osx fox",
+        "second_Hypo_Choice": "ivypw",
+        "second_Hypo_Text": "cyanide osx fox\nrev1",
+        "third_Hypo_Choice": "ivypw",
+        "third_Hypo_Text": "cyanide osx fox\nrev1\nrev2",
+        "fourth_Hypo_Choice": "ivypw",
+        "fourth_Hypo_Text": "cyanide osx fox\nrev1\nrev2\nrev3",
+        "fifth_Hypo_Choice": "ivypw",
+        "fifth_Hypo_Text": "cyanide osx fox\nrev1\nrev2\nrev3\nREV FIN",
+        "sixth_Hypo_Choice": "ivypw"
+    },
+    "pages": {
+        "15417": {
+            "iwyo": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "in5i": {
+                "visible": true
+            },
+            "idnf": {
+                "LJSE85z8": true
+            }
+        },
+        "16108": {
+            "iqck": {
+                "GsMn8buS": true
+            },
+            "idsk": {
+                "visible": true
+            }
+        },
+        "17083": {
+            "ispg6": {
+                "selected": "i6edu"
+            },
+            "ik9rb": {
+                "visible": true
+            },
+            "i0kny": {
+                "selected": "iyuu2"
+            },
+            "i77i2": {
+                "visible": true
+            },
+            "ibvzm": {
+                "selected": "i3pot"
+            },
+            "in1h3": {
+                "visible": true
+            },
+            "iaf8q": {
+                "visible": false
+            },
+            "i8wpv": {
+                "visible": false
+            },
+            "iiol": {
+                "simstateid": "o1uitd",
+                "graph1_17803": true,
+                "graph2_17803": true,
+                "graph3_17803": true
+            },
+            "ibqmp": {
+                "enabled": false
+            },
+            "iogpb": {
+                "enabled": false
+            },
+            "i6edu": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "iyuu2": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "ifksp": {
+                "enabled": false
+            },
+            "ignwn": {
+                "enabled": false
+            },
+            "i80t4": {
+                "enabled": false
+            },
+            "i3pot": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "ikowl": {
+                "enabled": false
+            },
+            "i2uad": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "ig0c9": {
+                "visible": true
+            },
+            "ifihh": {
+                "visible": true
+            },
+            "iyqs3": {
+                "visible": true
+            },
+            "ifdc1": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "iofep": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "i6n4": {
+                "visible": true
+            },
+            "i1c8": {
+                "visible": true
+            },
+            "i7bdc": {
+                "visible": true
+            },
+            "ih6n": {
+                "text": "Correct!"
+            },
+            "i2vt": {
+                "visible": true
+            },
+            "ilppd": {
+                "visible": true
+            },
+            "i9b6q": {
+                "text": "Correct!"
+            },
+            "ihvk2": {
+                "visible": true
+            },
+            "iln7d": {
+                "visible": true
+            },
+            "ixk62": {
+                "text": "Correct!"
+            }
+        },
+        "25425": {
+            "iees": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ia4f": {
+                "visible": true
+            },
+            "iivp": {
+                "cdeSupxH": true
+            },
+            "iij2": {
+                "visible": true
+            }
+        },
+        "28344": {
+            "ij3im": {
+                "selected": "i0nz"
+            },
+            "ipwi": {
+                "enabled": false
+            },
+            "i8pc": {
+                "visible": true
+            },
+            "i3zab": {
+                "visible": true
+            },
+            "i0nz": {
+                "correctStyle": true
+            },
+            "izjd": {
+                "visible": true
+            },
+            "i724": {
+                "unlockNext_": true
+            }
+        },
+        "58459": {
+            "iq0i": {
+                "ALh4WvYS": true
+            },
+            "i2hh": {
+                "visible": true
+            },
+            "i3jpj": {
+                "visible": true
+            },
+            "ip3yl": {
+                "visible": true
+            },
+            "i86e": {
+                "visible": true
+            }
+        },
+        "83899": {
+            "i9nv": {
+                "unlockNext_83899": true
+            }
+        },
+        "90736": {
+            "iq0i": {
+                "EBfY3cJ9": true
+            },
+            "i2hh": {
+                "visible": true
+            },
+            "i1hq": {
+                "simstateid": "ldfjaq"
+            },
+            "": {
+                "selected": "irgo"
+            }
+        },
+        "92258": {
+            "iezf": {
+                "playState": "pause",
+                "playMovieOnce_": true,
+                "videoAudio_92258": true,
+                "fireOnce": true,
+                "bgMusic_92258": true
+            },
+            "iiwj": {
+                "visible": true
+            }
+        },
+        "c5dea": {
+            "inel": {
+                "turnOnOnce_": true,
+                "turnOffOnce_": true
+            },
+            "ihmf": {
+                "visible": true
+            },
+            "i36v": {
+                "fireOnce": true
+            }
+        },
+        "d58ff": {
+            "izal": {
+                "playState": "play"
+            },
+            "imfy": {
+                "firstNext_d58ff": true
+            },
+            "i2ju": {
+                "visible": true
+            },
+            "ifb5": {
+                "visible": false
+            },
+            "ij0g": {
+                "visible": true
+            },
+            "irjo": {
+                "visible": true
+            },
+            "int3": {
+                "visible": true
+            },
+            "i2cr": {
+                "visible": true
+            },
+            "i7lls": {
+                "fireOnce": true
+            },
+            "igcc": {
+                "unlockNext_d58ff": true
+            }
+        },
+        "ff0a3": {
+            "ilbm": {
+                "visible": true,
+                "Y2ejQhPd": true
+            },
+            "i0un": {
+                "cFn2y9pL": true
+            }
+        },
+        "7f237": {
+            "iurqt": {
+                "N8LBQBL7": true,
+                "AfVE99WC": true
+            },
+            "i5gcx": {
+                "visible": true
+            },
+            "i237c": {
+                "visible": true
+            }
+        },
+        "3a2c9": {
+            "ig96": {
+                "pVCPJBgz": true,
+                "peLuvKsJ": true
+            },
+            "i2fr": {
+                "visible": true
+            },
+            "ilbx": {
+                "visible": true
+            },
+            "is7f": {
+                "visible": true
+            },
+            "iobox": {
+                "visible": true
+            }
+        },
+        "58ac7": {
+            "ipaf": {
+                "2tTTSbdX": true
+            }
+        },
+        "85c84": {
+            "iesi": {
+                "ED_UnlockNextPage_OnPageLoad_85c84": true,
+                "popper_Blue_NextPage_Show_85c84": true
+            },
+            "idcx": {
+                "visible": true
+            }
+        },
+        "199ce": {
+            "id0t": {
+                "visible": true
+            },
+            "ity4": {
+                "unlockNext_199ce": true
+            }
+        },
+        "09104": {
+            "igvg": {
+                "playState": "pause",
+                "4gKZQwCu": true,
+                "j8UQJYkY": true
+            },
+            "iwx9": {
+                "visible": true
+            },
+            "io13o": {
+                "visible": true
+            }
+        },
+        "67aea": {
+            "ioofv": {
+                "visible": true
+            },
+            "309asdf": {
+                "visible": false
+            },
+            "i66t": {
+                "unlockNext_67aea": true
+            }
+        },
+        "ebe6d": {
+            "i9xy": {
+                "VdWd6t4y": true
+            },
+            "is9uc": {
+                "visible": true
+            },
+            "if70b2": {
+                "visible": true
+            },
+            "i5nuy": {
+                "visible": true
+            },
+            "iv4j": {
+                "visible": true
+            },
+            "ii6ih": {
+                "visible": true
+            },
+            "ib9xg": {
+                "visible": true
+            },
+            "ix1fcd": {
+                "visible": true
+            },
+            "isw6i": {
+                "visible": true
+            },
+            "i4h7q": {
+                "visible": true
+            },
+            "iu1f": {
+                "visible": true
+            },
+            "ip1ou": {
+                "visible": true
+            },
+            "itsr": {
+                "visible": true
+            },
+            "imsgg": {
+                "visible": true
+            },
+            "ic85": {
+                "visible": true
+            },
+            "idv4q": {
+                "visible": true
+            },
+            "izyk6": {
+                "visible": true
+            },
+            "igor": {
+                "visible": true
+            },
+            "im2ph": {
+                "visible": true
+            },
+            "izboz": {
+                "visible": true
+            },
+            "it3u": {
+                "visible": true
+            },
+            "ixo67": {
+                "visible": true
+            },
+            "i526c": {
+                "visible": true
+            },
+            "ilwp": {
+                "visible": true
+            },
+            "ivsdq": {
+                "visible": true
+            },
+            "iujw": {
+                "visible": true
+            }
+        },
+        "2c03b": {
+            "ieqxb": {
+                "8684077663": true
+            },
+            "i3bh": {
+                "visible": true
+            },
+            "ixsi": {
+                "visible": true
+            },
+            "ifw9": {
+                "visible": true
+            },
+            "ifsw": {
+                "visible": true
+            },
+            "itkq": {
+                "visible": true
+            },
+            "ir5p": {
+                "visible": true
+            },
+            "i7yj": {
+                "visible": true
+            },
+            "ix6x": {
+                "visible": true
+            },
+            "i7tjqg": {
+                "visible": true
+            },
+            "iipcme": {
+                "visible": true
+            },
+            "i4uc": {
+                "visible": true
+            },
+            "imehxh": {
+                "visible": true
+            },
+            "iogb5b": {
+                "visible": true
+            },
+            "itsr8": {
+                "0535751112": true,
+                "0070556350": true
+            },
+            "iq44": {
+                "visible": true
+            }
+        },
+        "51ce4": {
+            "ib0kj": {
+                "3353304153": true
+            },
+            "izvud": {
+                "visible": true
+            },
+            "i1t2": {
+                "visible": true
+            },
+            "i87ia": {
+                "visible": true
+            },
+            "itfsr": {
+                "visible": true
+            },
+            "iy72": {
+                "visible": false
+            },
+            "ida3": {
+                "visible": true
+            },
+            "ioz7h": {
+                "visible": true,
+                "0484017620": true
+            }
+        },
+        "387dc": {
+            "izamk": {
+                "CPgb24rk": true
+            },
+            "i87ia": {
+                "visible": true
+            },
+            "itfsr": {
+                "visible": true
+            },
+            "iy72": {
+                "visible": false
+            },
+            "ida3": {
+                "visible": true
+            },
+            "ioz7h": {
+                "visible": true,
+                "0484017620": true
+            }
+        },
+        "ebe20": {
+            "i8lqr": {
+                "0651346542": true
+            },
+            "ijn85": {
+                "visible": true
+            },
+            "i12vz": {
+                "visible": true
+            },
+            "i33u": {
+                "3487672461": true
+            },
+            "ii4tl": {
+                "visible": false
+            },
+            "ilc7h": {
+                "visible": true
+            }
+        },
+        "b02af": {
+            "i0sh": {
+                "dragId": "",
+                "enabled": false
+            },
+            "ik6b": {
+                "dragId": "",
+                "enabled": false
+            },
+            "in76": {
+                "dragId": "",
+                "enabled": false
+            },
+            "iv8b": {
+                "dragId": "",
+                "enabled": false
+            },
+            "iaso": {
+                "dragId": "",
+                "enabled": false
+            },
+            "il1dr": {
+                "dropId": "iuq8x",
+                "enabled": false
+            },
+            "ion6f": {
+                "visible": false
+            },
+            "iuq8x": {
+                "dragId": "il1dr",
+                "enabled": false
+            },
+            "i4rd2": {
+                "dropId": "ip8rr",
+                "enabled": false
+            },
+            "ip8rr": {
+                "dragId": "i4rd2",
+                "enabled": false
+            },
+            "ipm5s": {
+                "dropId": "is9e2",
+                "enabled": false
+            },
+            "is9e2": {
+                "dragId": "ipm5s",
+                "enabled": false
+            },
+            "ipa4p": {
+                "dropId": "i8j3j",
+                "enabled": false
+            },
+            "i8j3j": {
+                "dragId": "ipa4p",
+                "enabled": false
+            },
+            "iag77": {
+                "dropId": "ie8f3",
+                "enabled": false
+            },
+            "ie8f3": {
+                "dragId": "iag77",
+                "enabled": false
+            },
+            "ieuog": {
+                "visible": false
+            },
+            "ibprx": {
+                "visible": true,
+                "repsonse_b02af": true,
+                "7748264543": true
+            },
+            "izg2a": {
+                "visible": true
+            }
+        },
+        "4ad0f": {
+            "iv3i": {
+                "b2cRB5ET": true
+            },
+            "imid": {
+                "visible": true
+            },
+            "i1hq": {
+                "simstateid": "pp4u8t"
+            },
+            "": {
+                "selected": "irgo"
+            }
+        },
+        "55f72": {
+            "i8jd": {
+                "unlockNext_55f72": true
+            }
+        },
+        "d20d7": {
+            "ia5n": {
+                "KskJ3jZK": true,
+                "simstateid": "2vml4h"
+            },
+            "": {
+                "selected": "irgo"
+            }
+        },
+        "e8fff": {
+            "i8eo": {
+                "unlockNext_e8fff": true
+            }
+        },
+        "fdfb8": {
+            "i72d": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ij8n": {
+                "visible": true
+            },
+            "ibh2": {
+                "MqRYW7Ns": true
+            }
+        },
+        "bddea": {
+            "ib9s": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "i6ig": {
+                "visible": true
+            },
+            "ilv5": {
+                "ENpjgS8t": true
+            }
+        },
+        "b2a08": {
+            "ihyi": {
+                "5W5DauLa": true
+            },
+            "imif": {
+                "visible": true
+            },
+            "iggk": {
+                "simstateid": "sn858s"
+            },
+            "ifbwj": {
+                "visible": true
+            },
+            "ivfl": {
+                "visible": true
+            },
+            "ih93e": {
+                "visible": true
+            },
+            "ihlpq": {
+                "visible": true
+            }
+        },
+        "4a849": {
+            "iq0i": {
+                "n9ZcqXaX": true
+            },
+            "i1lw": {
+                "text": "Glycolysis is not the main source of ATP for cells. Most ATP is made inside the mitochondria. Step 2 is called the Krebs Cycle."
+            },
+            "i1hq": {
+                "simstateid": "zefkt0"
+            },
+            "": {
+                "selected": "irgo"
+            }
+        },
+        "51a4d": {
+            "iqp6": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ib7z": {
+                "visible": true
+            },
+            "iic4": {
+                "Wzb6Drms": true
+            }
+        },
+        "dda88": {
+            "iexe": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ihb9": {
+                "visible": true
+            },
+            "i0nf": {
+                "kehU2EmX": true
+            }
+        },
+        "dc220": {
+            "iw8n": {
+                "unlockNext_dc220": true
+            }
+        },
+        "287c6": {
+            "ijbl": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "iut3": {
+                "visible": true
+            },
+            "ibdc": {
+                "wRNYtm29": true
+            }
+        },
+        "5383d": {
+            "iq0i": {
+                "wjLuTX4d": true
+            },
+            "i2hh": {
+                "visible": true
+            },
+            "i1hq": {
+                "simstateid": "uee40p"
+            },
+            "": {
+                "selected": "irgo"
+            }
+        },
+        "127a2": {
+            "inyr": {
+                "unlockNext_127a2": true
+            }
+        },
+        "65d38": {
+            "inyr": {
+                "unlockNext_65d38": true
+            }
+        },
+        "0a67d": {
+            "iwyo": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "in5i": {
+                "visible": true
+            },
+            "idnf": {
+                "gNfqGXaK": true
+            }
+        },
+        "70b55": {
+            "i2k2": {
+                "visible": true
+            },
+            "ih4y": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "i4fr": {
+                "visible": true
+            },
+            "i1bg": {
+                "xaa7cgEz": true
+            }
+        },
+        "f9fac": {
+            "i1kr": {
+                "unlockNext_f9fac": true
+            }
+        },
+        "2f1dd": {
+            "irs1": {
+                "text": "from foxox",
+                "enabled": false
+            },
+            "irp5": {
+                "simstateid": "qjl6kb"
+            },
+            "i0f9": {
+                "visible": true
+            },
+            "iyuq": {
+                "visible": true
+            },
+            "imzr": {
+                "visible": true
+            },
+            "iu6zj": {
+                "visible": true
+            }
+        },
+        "74ab9": {
+            "buttonArrow": {
+                "selected": "ipbw"
+            },
+            "iy3p": {
+                "enabled": false
+            },
+            "ipbw": {
+                "correctStyle": true
+            },
+            "ip7j": {
+                "visible": true
+            },
+            "i6pe": {
+                "BcztqaYb": true
+            }
+        },
+        "c56ac": {
+            "iy2g": {
+                "unlockNext_c56ac": true
+            }
+        },
+        "efaa6": {
+            "iy2g": {
+                "unlockNext_efaa6": true
+            }
+        },
+        "b65ab": {
+            "iv82": {
+                "showButton1Once_": true,
+                "hideButton1Once_": true
+            },
+            "i5kh": {
+                "visible": true
+            },
+            "icb9": {
+                "simstateid": "hgn2i0",
+                "unlockNext_": true
+            },
+            "ip0cj": {
+                "hideButton2Once_": true
+            },
+            "i4im9": {
+                "visible": true
+            },
+            "ivq1t": {
+                "visible": true
+            },
+            "ixas": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ithv": {
+                "visible": true
+            }
+        },
+        "0f1e9": {
+            "ital": {
+                "visible": true
+            },
+            "ic7j9": {
+                "visible": true
+            },
+            "ilkk": {
+                "visible": true
+            },
+            "isrx": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ikgk": {
+                "visible": true
+            },
+            "i3fq": {
+                "visible": true
+            },
+            "i2me": {
+                "kehU2EmX": true
+            }
+        },
+        "281da": {
+            "ilc76": {
+                "selected": "iluy"
+            },
+            "ieet": {
+                "enabled": false
+            },
+            "i8xig": {
+                "visible": true
+            },
+            "iluy": {
+                "correctStyle": true
+            },
+            "i5cp": {
+                "visible": true
+            },
+            "iegp": {
+                "unlockNext_": true
+            }
+        },
+        "7e557": {
+            "ic8fk": {
+                "visible": false
+            },
+            "igp6z": {
+                "visible": true
+            },
+            "i2tb": {
+                "kehU2EmX": true
+            }
+        },
+        "27b0d": {
+            "i8wf": {
+                "showCellRespOnce_": true
+            },
+            "isg7": {
+                "visible": true
+            },
+            "i4bib": {
+                "visible": true
+            },
+            "iaar": {
+                "visible": true
+            },
+            "iza66": {
+                "visible": true
+            },
+            "ihst4": {
+                "visible": true
+            },
+            "ihqk": {
+                "visible": true
+            },
+            "iv7r": {
+                "visible": true
+            },
+            "igy2j": {
+                "visible": true
+            },
+            "i12cl": {
+                "visible": true
+            },
+            "i7ac5": {
+                "visible": true
+            },
+            "ixlk": {
+                "visible": true
+            },
+            "ifkk": {
+                "visible": true
+            },
+            "in4g": {
+                "visible": true
+            },
+            "iuf3": {
+                "visible": true
+            },
+            "iwag": {
+                "visible": true
+            },
+            "i57c": {
+                "unlockNext_": true
+            }
+        },
+        "5b2e7": {
+            "icci": {
+                "visible": true
+            },
+            "ip6j": {
+                "visible": true
+            },
+            "i0h2": {
+                "visible": true
+            },
+            "i1jwl": {
+                "visible": true
+            },
+            "ik0vl": {
+                "visible": true
+            },
+            "i6fed": {
+                "visible": true
+            },
+            "i47zf": {
+                "visible": true
+            },
+            "ifyny": {
+                "visible": true
+            },
+            "iczgv": {
+                "visible": true
+            },
+            "id19": {
+                "visible": true
+            },
+            "ihlv": {
+                "visible": true
+            },
+            "i1gjg": {
+                "visible": true
+            },
+            "iusg": {
+                "visible": true
+            },
+            "ii1om": {
+                "visible": true
+            },
+            "ip7p9": {
+                "visible": true
+            },
+            "iz4u": {
+                "unlockNext_": true
+            }
+        },
+        "223b4": {
+            "isks": {
+                "showCellRespOnce_": true
+            },
+            "i6u29": {
+                "visible": true
+            },
+            "i374": {
+                "visible": true
+            },
+            "i3rh": {
+                "visible": true
+            },
+            "ity66": {
+                "visible": true
+            },
+            "is4g": {
+                "visible": true
+            },
+            "ifg4p": {
+                "visible": true
+            },
+            "i1kc": {
+                "visible": true
+            },
+            "i9ei": {
+                "visible": false
+            },
+            "irqz": {
+                "visible": true
+            },
+            "izjzi": {
+                "visible": true
+            },
+            "iqodc": {
+                "visible": true
+            },
+            "iohi": {
+                "unlockNext_": true
+            }
+        },
+        "51ded": {
+            "ip3x": {
+                "dragId": "",
+                "enabled": false
+            },
+            "immtb": {
+                "dragId": "",
+                "enabled": false
+            },
+            "i62g1": {
+                "dragId": "",
+                "enabled": false
+            },
+            "ix7ej": {
+                "dragId": "",
+                "enabled": false
+            },
+            "i2tcm": {
+                "dragId": "",
+                "enabled": false
+            },
+            "iw95t": {
+                "dragId": "iwncq",
+                "enabled": false
+            },
+            "iwncq": {
+                "dropId": "iw95t",
+                "enabled": false
+            },
+            "ibouv": {
+                "visible": false
+            },
+            "ig72s": {
+                "dropId": "ip7ma",
+                "enabled": false
+            },
+            "ip7ma": {
+                "dragId": "ig72s",
+                "enabled": false
+            },
+            "ic1tc": {
+                "visible": false
+            },
+            "i338j": {
+                "dropId": "i0y89",
+                "enabled": false
+            },
+            "i0y89": {
+                "dragId": "i338j",
+                "enabled": false
+            },
+            "irufn": {
+                "visible": false
+            },
+            "i8v3r": {
+                "dropId": "iqvnl",
+                "enabled": false
+            },
+            "iqvnl": {
+                "dragId": "i8v3r",
+                "enabled": false
+            },
+            "i58d5": {
+                "visible": false
+            },
+            "iuhtl": {
+                "dropId": "ie4px",
+                "enabled": false
+            },
+            "ie4px": {
+                "dragId": "iuhtl",
+                "enabled": false
+            },
+            "iuhqu": {
+                "visible": false
+            },
+            "igppt": {
+                "visible": true
+            },
+            "iyyfy": {
+                "visible": true
+            },
+            "ilmo": {
+                "visible": true,
+                "cL2yvXAC": true
+            },
+            "i7wwp": {
+                "mxPRUwJT": true
+            }
+        },
+        "cbb4f": {
+            "igcg": {
+                "vhSMPqkt": true
+            },
+            "ivdi": {
+                "visible": true
+            },
+            "ilym": {
+                "simstateid": "zz16oe"
+            },
+            "in6a": {
+                "visible": true
+            },
+            "imgo": {
+                "visible": true
+            },
+            "iejib": {
+                "visible": true
+            },
+            "isp7": {
+                "visible": true
+            },
+            "ibb1g": {
+                "visible": true
+            },
+            "iuja": {
+                "visible": true
+            },
+            "i4dk": {
+                "visible": true
+            },
+            "izjvb": {
+                "visible": true
+            },
+            "i6xzj": {
+                "unlockNext_": true
+            }
+        },
+        "11d5e": {
+            "ipjur": {
+                "selected": "id8ew"
+            },
+            "iu9i": {
+                "enabled": false
+            },
+            "id8ew": {
+                "correctStyle": true
+            },
+            "ixnpq": {
+                "visible": true
+            },
+            "iwuk9": {
+                "unlockNext_": true
+            }
+        },
+        "b0ed4": {
+            "i1nz": {
+                "setGuideComplete_b0ed4": true,
+                "guideComplete_FireOnce_": true
+            }
+        },
+        "2e563": {
+            "i7fj": {
+                "visible": false
+            },
+            "i0yj": {
+                "visible": true
+            },
+            "imkp": {
+                "visible": false
+            }
+        },
+        "67d0d": {
+            "ij5x": {
+                "visible": true
+            },
+            "i15k": {
+                "visible": false
+            },
+            "div_Sim": {
+                "AddRemoveClasses": {
+                    "boxGrow-bigger": true
+                }
+            },
+            "iu26": {
+                "AddRemoveClasses": {
+                    "boxGrow-border-width": true
+                }
+            },
+            "i9zm": {
+                "visible": true
+            },
+            "in9r": {
+                "visible": true
+            },
+            "it3sx": {
+                "visible": true
+            },
+            "ijscn": {
+                "visible": true
+            },
+            "igutl": {
+                "visible": true
+            },
+            "ign1": {
+                "visible": false
+            },
+            "iu70u": {
+                "unlockNext_": true
+            }
+        },
+        "1e313": {
+            "iy09x": {
+                "visible": true
+            },
+            "ishwl": {
+                "visible": true
+            },
+            "ixun": {
+                "visible": true
+            },
+            "i8dk": {
+                "visible": true
+            },
+            "ikbn": {
+                "visible": false
+            },
+            "iqw1": {
+                "zoomVisible_1e313": true
+            },
+            "iyqk": {
+                "visible": true
+            },
+            "iycsf": {
+                "visible": true
+            },
+            "ihh9g": {
+                "visible": true
+            },
+            "ikl5j": {
+                "visible": true
+            },
+            "itcoh": {
+                "visible": true
+            },
+            "i303q": {
+                "playState": "pause",
+                "CrZaSVeq": true
+            },
+            "i34rc": {
+                "AddRemoveClasses": {
+                    "buttonBgImgBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "iq1xi": {
+                "visible": true
+            },
+            "iipb1": {
+                "visible": true
+            },
+            "iprhg": {
+                "visible": true
+            },
+            "idwjj": {
+                "visible": true
+            },
+            "ih7eh": {
+                "unlockNext_": true
+            }
+        },
+        "42af8": {
+            "idjs": {
+                "visible": false
+            },
+            "ip9k": {
+                "zoomVisibleOnce_": true
+            },
+            "ih01": {
+                "visible": true
+            },
+            "igv7l": {
+                "visible": true
+            },
+            "ilujn": {
+                "visible": true
+            },
+            "il5kk": {
+                "playState": "pause"
+            },
+            "iwj5g": {
+                "AddRemoveClasses": {
+                    "buttonBgImgBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "ig0vl": {
+                "visible": true
+            },
+            "iyi3j": {
+                "visible": true
+            },
+            "iy0b2": {
+                "visible": true
+            },
+            "ilbbi": {
+                "visible": true
+            },
+            "isn5o": {
+                "visible": true
+            },
+            "ijmyw": {
+                "visible": true
+            },
+            "izc8d": {
+                "visible": true
+            },
+            "i6qqo": {
+                "visible": true
+            },
+            "i3fgp": {
+                "visible": true
+            },
+            "iokxl": {
+                "unlocknNext_": true
+            }
+        },
+        "fa435": {
+            "imau": {
+                "visible": true
+            },
+            "ikkk": {
+                "visible": false
+            },
+            "ita1": {
+                "zoomButton_fa435": true
+            },
+            "iksx": {
+                "visible": true
+            },
+            "iswy4": {
+                "visible": true
+            },
+            "ircaf": {
+                "visible": true
+            },
+            "iqxzq": {
+                "playState": "pause"
+            },
+            "id73h": {
+                "AddRemoveClasses": {
+                    "buttonBgImgBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_": true,
+                "visible": false
+            },
+            "if8tp": {
+                "visible": true
+            },
+            "iyc36": {
+                "visible": true
+            },
+            "icep3": {
+                "visible": true
+            },
+            "ickhi": {
+                "visible": true
+            }
+        },
+        "bd603": {
+            "1230498da": {
+                "visible": false
+            },
+            "1230498db": {
+                "visible": true
+            },
+            "ichik": {
+                "visible": false
+            },
+            "ifd3f": {
+                "visible": false,
+                "zoomButton_bd603": true
+            },
+            "ia4e": {
+                "visible": true
+            },
+            "iuvb": {
+                "visible": true
+            },
+            "iyr1": {
+                "visible": true
+            },
+            "i6wn": {
+                "playState": "pause",
+                "endTime": 20
+            },
+            "i55e": {
+                "AddRemoveClasses": {
+                    "buttonBgImgBlinkBlue": false
+                },
+                "RemoveButtonBlinkBlueFromPlayOnClick_pagebd603": true,
+                "visible": false
+            },
+            "iqyi": {
+                "visible": true
+            },
+            "i2gvv": {
+                "visible": true
+            },
+            "i8swr": {
+                "visible": true
+            },
+            "iyjyt": {
+                "visible": true
+            }
+        },
+        "4f27b": {
+            "i90m": {
+                "unlockNext_": true
+            }
+        },
+        "0a3f2": {
+            "igil": {
+                "visible": true
+            },
+            "irr23": {
+                "visible": true
+            },
+            "i1lwj": {
+                "firstNext_0a3f2": true
+            },
+            "i5kr": {
+                "visible": true
+            },
+            "i2ul": {
+                "visible": true
+            },
+            "i33w": {
+                "visible": true
+            },
+            "ijkdv": {
+                "visible": true
+            },
+            "iv6z": {
+                "visible": true
+            }
+        },
+        "2e242": {
+            "iyt1": {
+                "simstateid": "4ri30h",
+                "EAn8AH4a": true
+            },
+            "it13f": {
+                "visible": false
+            },
+            "iigq9": {
+                "visible": true,
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "i3ia3": {
+                "visible": true,
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "it0ay": {
+                "visible": true,
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "ie05o": {
+                "visible": false
+            }
+        },
+        "ac0e7": {
+            "buttonGroup_Pyruvate": {
+                "selected": "i6d7g"
+            },
+            "buttonGroup_NADH": {
+                "selected": "ikdl"
+            },
+            "buttonGroup_Intermembrane": {
+                "selected": "is5vk"
+            },
+            "i9e5k": {
+                "enabled": true,
+                "visible": false,
+                "fireOnce": true
+            },
+            "i6d7g": {
+                "correctStyle": true,
+                "enabled": false
+            },
+            "ikdl": {
+                "correctStyle": true,
+                "enabled": false
+            },
+            "is5vk": {
+                "correctStyle": true,
+                "enabled": false
+            },
+            "ia14v": {
+                "enabled": false
+            },
+            "ic8li": {
+                "enabled": false
+            },
+            "i0fm": {
+                "enabled": false
+            },
+            "ixsg": {
+                "enabled": false
+            },
+            "ivydq": {
+                "enabled": false
+            },
+            "i83hu": {
+                "enabled": false
+            },
+            "i35vj": {
+                "visible": true
+            },
+            "ifie": {
+                "visible": true
+            },
+            "i2fef": {
+                "visible": true
+            }
+        },
+        "c860b": {
+            "i0il": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "addOnce_2deoxy": true,
+                "addOnce_Arsenic": true,
+                "addOnce_Cyanide": true,
+                "addOnce_Oligomycin": true,
+                "enabled": false
+            },
+            "ibaj": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "enabled": false
+            },
+            "ivypw": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "enabled": false
+            },
+            "i2vd9": {
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": false
+                },
+                "enabled": false
+            },
+            "iexbk": {
+                "showOnce": true
+            },
+            "i6c2x": {
+                "visible": true
+            },
+            "idvul": {
+                "visible": true
+            },
+            "iwhov": {
+                "visible": true
+            },
+            "ia7f6": {
+                "visible": true
+            },
+            "ir1np": {
+                "visible": true
+            },
+            "i0ozq": {
+                "visible": true
+            },
+            "irep1": {
+                "visible": true
+            },
+            "ip6p4": {
+                "visible": true
+            },
+            "imojl": {
+                "visible": true
+            },
+            "isinb": {
+                "visible": true
+            },
+            "i8p91": {
+                "visible": true
+            },
+            "i038s": {
+                "visible": true
+            },
+            "i2h8p": {
+                "visible": true
+            },
+            "ivnba": {
+                "visible": true
+            },
+            "iq5ao": {
+                "visible": true
+            },
+            "ix1lk": {
+                "visible": true
+            },
+            "ie6sp": {
+                "visible": true
+            },
+            "iw87t": {
+                "visible": true
+            },
+            "iusax": {
+                "visible": true
+            },
+            "il8jo": {
+                "visible": true
+            },
+            "i23zo": {
+                "visible": true
+            },
+            "iayn6": {
+                "visible": true
+            },
+            "i2rs": {
+                "visible": true
+            },
+            "inihu": {
+                "selected": "ivypw"
+            },
+            "il738": {
+                "visible": true,
+                "enabled": false
+            },
+            "i2lpa": {
+                "text": "cyanide osx fox"
+            },
+            "ipdkw": {
+                "enabled": true,
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": true
+                },
+                "visible": false
+            },
+            "null": {
+                "visible": false
+            }
+        },
+        "5b0e1": {
+            "ifibg": {
+                "selected": "ic3kg"
+            },
+            "i1i1p": {
+                "visible": true
+            },
+            "iqagj": {
+                "selected": "ijfm1"
+            },
+            "i2tw4": {
+                "visible": true
+            },
+            "it5hz": {
+                "selected": "ibx17"
+            },
+            "inurf": {
+                "visible": true
+            },
+            "i0jf5": {
+                "visible": false
+            },
+            "i53uv": {
+                "visible": false
+            },
+            "ii8h": {
+                "simstateid": "7tqyv2",
+                "graph1_5b0e1": true,
+                "graph2_5b0e1": true,
+                "graph3_5b0e1": true
+            },
+            "iulpj": {
+                "enabled": false
+            },
+            "ic3kg": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "iu1wj": {
+                "enabled": false
+            },
+            "ibeyv": {
+                "enabled": false
+            },
+            "ijfm1": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "ipjlv": {
+                "enabled": false
+            },
+            "i2h7a": {
+                "enabled": false
+            },
+            "ibx17": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "ii4ji": {
+                "enabled": false
+            },
+            "ii8st": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "iac9l": {
+                "visible": true
+            },
+            "i8bfh": {
+                "visible": true
+            },
+            "ire3i": {
+                "visible": true
+            },
+            "iq4f8": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "i1s08": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "ivfk": {
+                "visible": true
+            },
+            "ijnb": {
+                "visible": true
+            },
+            "i4kjg": {
+                "visible": true
+            },
+            "ioqo": {
+                "text": "Correct!"
+            },
+            "ih2l": {
+                "visible": true
+            },
+            "iajuf": {
+                "visible": true
+            },
+            "ikcjk": {
+                "text": "Correct!"
+            },
+            "imubl": {
+                "visible": true
+            },
+            "isvuo": {
+                "visible": true
+            },
+            "iwmbh": {
+                "text": "Correct!"
+            }
+        },
+        "352aa": {
+            "i2vd9": {
+                "selected": "ivypw",
+                "enabled": false
+            },
+            "i7bnh": {
+                "text": "cyanide osx fox\nrev1"
+            },
+            "i5xkm": {
+                "enabled": true,
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": true
+                },
+                "visible": false
+            },
+            "izqj9": {
+                "visible": true
+            },
+            "ide31": {
+                "enabled": false
+            },
+            "i0il": {
+                "enabled": false
+            },
+            "ibaj": {
+                "enabled": false
+            },
+            "ivypw": {
+                "enabled": false
+            },
+            "ive2i": {
+                "visible": false
+            },
+            "icc8r": {
+                "visible": false
+            }
+        },
+        "cbcbb": {
+            "iso59": {
+                "selected": "i0hkj"
+            },
+            "ih6nz": {
+                "visible": true
+            },
+            "inrc3": {
+                "selected": "inoux"
+            },
+            "isixb": {
+                "visible": true
+            },
+            "irwsk": {
+                "selected": "id2yh"
+            },
+            "i2kj3": {
+                "visible": true
+            },
+            "i3t1g": {
+                "visible": false
+            },
+            "imqx8": {
+                "visible": false
+            },
+            "iq0b": {
+                "simstateid": "8h5i31",
+                "graph1_cbcbb": true,
+                "graph2_cbcbb": true,
+                "graph3_cbcbb": true
+            },
+            "i0hkj": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "ijdzk": {
+                "enabled": false
+            },
+            "i8tfp": {
+                "enabled": false
+            },
+            "i6d8i": {
+                "enabled": false
+            },
+            "id2yh": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "i50kv": {
+                "enabled": false
+            },
+            "ix5p8": {
+                "enabled": false
+            },
+            "inoux": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "i3g4g": {
+                "enabled": false
+            },
+            "iftxt": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "i080g": {
+                "visible": true
+            },
+            "it2hq": {
+                "visible": true
+            },
+            "ilxex": {
+                "visible": true
+            },
+            "ifaiw": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "ifc98": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "ik46": {
+                "visible": true
+            },
+            "ivms": {
+                "visible": true
+            },
+            "i67k9": {
+                "visible": true
+            },
+            "icu9": {
+                "text": "Correct!"
+            },
+            "inv7": {
+                "visible": true
+            },
+            "im1ih": {
+                "visible": true
+            },
+            "izjq5": {
+                "text": "Correct!"
+            },
+            "ipe65": {
+                "visible": true
+            },
+            "iq9hm": {
+                "visible": true
+            },
+            "i9vtl": {
+                "text": "Correct!"
+            }
+        },
+        "4529c": {
+            "i49vv": {
+                "selected": "ivypw"
+            },
+            "it3df": {
+                "text": "cyanide osx fox\nrev1\nrev2"
+            },
+            "i473w": {
+                "enabled": true,
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": true
+                },
+                "visible": false
+            },
+            "imhx4": {
+                "visible": true
+            },
+            "igdlf": {
+                "enabled": false
+            },
+            "i0il": {
+                "enabled": false
+            },
+            "ibaj": {
+                "enabled": false
+            },
+            "ivypw": {
+                "enabled": false
+            },
+            "i2vd9": {
+                "enabled": false
+            },
+            "izb6k": {
+                "visible": false
+            },
+            "itz1r": {
+                "visible": false
+            }
+        },
+        "bfbf7": {
+            "is342": {
+                "selected": "ivypw"
+            },
+            "iyxvp": {
+                "text": "cyanide osx fox\nrev1\nrev2\nrev3"
+            },
+            "i0evi": {
+                "enabled": true,
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": true
+                },
+                "visible": false
+            },
+            "i6okz": {
+                "visible": true
+            },
+            "ixv6i": {
+                "enabled": false
+            },
+            "i0il": {
+                "enabled": false
+            },
+            "ibaj": {
+                "enabled": false
+            },
+            "ivypw": {
+                "enabled": false
+            },
+            "i2vd9": {
+                "enabled": false
+            },
+            "ifc51": {
+                "visible": false
+            },
+            "it6c5": {
+                "visible": false
+            }
+        },
+        "35b68": {
+            "buttonGroup_ATP": {
+                "selected": "i6f3l"
+            },
+            "i0pdr": {
+                "visible": true
+            },
+            "buttonGroup_NADH": {
+                "selected": "idhx6"
+            },
+            "iafl9": {
+                "visible": true
+            },
+            "buttonGroup_Sugar": {
+                "selected": "i5w1c"
+            },
+            "igtms": {
+                "visible": true
+            },
+            "iu5v": {
+                "visible": false
+            },
+            "iiva": {
+                "visible": false
+            },
+            "itbe": {
+                "simstateid": "blwho3",
+                "graph1_35b68": true,
+                "graph2_35b68": true,
+                "graph3_35b68": true
+            },
+            "ij5co": {
+                "enabled": false
+            },
+            "ifdof": {
+                "enabled": false
+            },
+            "i6f3l": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "i9xm6": {
+                "enabled": false
+            },
+            "ietk9": {
+                "enabled": false
+            },
+            "idhx6": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "i5w1c": {
+                "enabled": false,
+                "correctStyle": true
+            },
+            "iy307": {
+                "enabled": false
+            },
+            "ioso6": {
+                "enabled": false
+            },
+            "iljo7": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "iuwdxl": {
+                "visible": true
+            },
+            "iba8": {
+                "visible": true
+            },
+            "itylag": {
+                "visible": true
+            },
+            "i54fl": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "idvv2": {
+                "autoplay": true,
+                "startFrame": 72
+            },
+            "iyqm": {
+                "visible": true
+            },
+            "i5wi": {
+                "visible": true
+            },
+            "ij9qi": {
+                "visible": true
+            },
+            "il3sa": {
+                "text": "Correct!"
+            },
+            "icn4": {
+                "visible": true
+            },
+            "it46g": {
+                "visible": true
+            },
+            "i0moxx": {
+                "text": "Correct!"
+            },
+            "ix84": {
+                "visible": true
+            },
+            "i22zu": {
+                "visible": true
+            },
+            "iwmlmu": {
+                "text": "Correct!"
+            }
+        },
+        "7e96b": {
+            "buttonHypothesisGrp": {
+                "selected": "ivypw"
+            },
+            "idji": {
+                "text": "cyanide osx fox\nrev1\nrev2\nrev3\nREV FIN"
+            },
+            "ikve": {
+                "enabled": true,
+                "AddRemoveClasses": {
+                    "buttonBlinkBlue": true
+                },
+                "visible": false
+            },
+            "imlwh": {
+                "visible": true
+            },
+            "i7yn": {
+                "enabled": false
+            },
+            "i0il": {
+                "enabled": false
+            },
+            "ibaj": {
+                "enabled": false
+            },
+            "ivypw": {
+                "enabled": false
+            },
+            "i2vd9": {
+                "enabled": false
+            },
+            "iua8r": {
+                "visible": false
+            },
+            "i8469": {
+                "visible": false
+            }
+        },
+        "793d6": {
+            "buttonHypothesisGrp": {
+                "selected": "ivypw"
+            },
+            "i5y3": {
+                "text": "Cyanide"
+            },
+            "ivypw": {
+                "visible": true
+            },
+            "icil": {
+                "visible": true
+            },
+            "igxs": {
+                "visible": true,
+                "unlockNext_": true
+            },
+            "i66x": {
+                "showPopperOnce_": true,
+                "simstateid": "dqk4bv"
+            },
+            "ii9s": {
+                "visible": false
+            },
+            "igw5g": {
+                "visible": true
+            },
+            "i5k4": {
+                "visible": false
+            },
+            "i4hr": {
+                "visible": true
+            }
+        },
+        "03477": {
+            "if68": {
+                "buttonShowOnce_": true,
+                "simstateid": "aj9p6q",
+                "playState": "play"
+            },
+            "iayxx": {
+                "visible": true
+            },
+            "ijqi": {
+                "visible": false
+            },
+            "iu1h": {
+                "visible": true
+            },
+            "ibzef": {
+                "unlockNext_": true
+            }
+        },
+        "ac2c2": {
+            "i95d": {
+                "showButtonOnce_": true
+            },
+            "isrq": {
+                "visible": true,
+                "enabled": false
+            },
+            "ilkz": {
+                "text": "back fox"
+            },
+            "iesr": {
+                "text": "data fox"
+            },
+            "i32i": {
+                "text": "poison fox\n"
+            },
+            "ir0h8": {
+                "text": "conc fox"
+            },
+            "i0dl": {
+                "enabled": true,
+                "visible": false,
+                "c6_A_NextPageUnlock": true
+            },
+            "inbn": {
+                "visible": false
+            }
+        }
+    },
+    "modules": {
+        "currentTrackGroupID": "cellrespiration_case_ap-v.1.0.0",
+        "caseState": {
+            "currentTrackID": "case-ap",
+            "currentPageID": "42af8",
+            "sections": {},
+            "pages": {
+                "17083": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "92258": {
+                    "visited": true,
+                    "unlocked": true
+                },
+                "c5dea": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "d58ff": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "2e563": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "67d0d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "1e313": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "42af8": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "fa435": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "bd603": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "4f27b": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "0a3f2": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "2e242": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "ac0e7": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "c860b": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "5b0e1": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "352aa": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "cbcbb": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "4529c": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "bfbf7": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "35b68": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "7e96b": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "793d6": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "03477": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "ac2c2": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "5ca2f": {
+                    "unlocked": true,
+                    "visited": true
+                }
+            },
+            "locked": false
+        },
+        "guideState": {
+            "currentTrackID": "manual-A",
+            "currentPageID": "09104",
+            "sections": {},
+            "pages": {
+                "15417": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "16108": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "25425": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "28344": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "58459": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "82335": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "83899": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "90736": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "ff0a3": {
+                    "visited": true,
+                    "unlocked": true
+                },
+                "7f237": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "3a2c9": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "58ac7": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "85c84": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "199ce": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "09104": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "67aea": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "ebe6d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "2c03b": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "51ce4": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "387dc": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "ebe20": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "b02af": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "4ad0f": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "55f72": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "d20d7": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "e8fff": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "fdfb8": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "bddea": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "b2a08": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "4a849": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "51a4d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "dda88": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "dc220": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "287c6": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "5383d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "127a2": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "65d38": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "0a67d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "70b55": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "f9fac": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "2f1dd": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "74ab9": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "c56ac": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "efaa6": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "b65ab": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "0f1e9": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "3c1f3": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "281da": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "7e557": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "27b0d": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "5b2e7": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "223b4": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "51ded": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "cbb4f": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "11d5e": {
+                    "unlocked": true,
+                    "visited": true
+                },
+                "b0ed4": {
+                    "unlocked": true,
+                    "visited": true
+                }
+            },
+            "locked": false
+        },
+        "currentGlossaryTrackID": "glossary-A",
+        "currentGlossaryPageID": "22fa0",
+        "glossaryOpen": false,
+        "moduleOpen": "guide",
+        "guideCompleted": true
+    },
+    "rubrics": {
+        "CellularRespiration.LHA.InputsOutputs": {
+            "revisions": [],
+            "status": "received",
+            "response": "correct in 1 try",
+            "responseData": "[{\"response\":\"correct in 1 try\"}]",
+            "userActivityResponseID": 265881
+        },
+        "CellularRespiration.LHA.H+Concentration": {
+            "revisions": [],
+            "status": "received",
+            "response": "<div class='response'>from foxox</div>",
+            "responseData": "[{\"response\":\"from foxox\"}]",
+            "userActivityResponseID": 268134
+        },
+        "CellularRespiration.LHA.H+DiffusionDirection": {
+            "revisions": [],
+            "status": "received",
+            "response": "Down, Into the Matrix",
+            "responseData": "[{\"response\":\"Down, Into the Matrix\"}]",
+            "userActivityResponseID": 268151
+        },
+        "CellularRespiration.LHA.H+Source": {
+            "revisions": [],
+            "status": "received",
+            "response": "A. Electron Transport Chain",
+            "responseData": "[{\"response\":\"A. Electron Transport Chain\"}]",
+            "userActivityResponseID": 268169
+        },
+        "CellularRespiration.A.WhichProducesMoreATP": {
+            "revisions": [],
+            "status": "received",
+            "response": "A. Transport from complex I produces more ATP",
+            "responseData": "[{\"response\":\"A. Transport from complex I produces more ATP\"}]",
+            "userActivityResponseID": 268175
+        },
+        "CellularRespiration.A.OrderSteps": {
+            "revisions": [],
+            "status": "received",
+            "response": "correct in 1 try",
+            "responseData": "[{\"response\":\"correct in 1 try\"}]",
+            "userActivityResponseID": 268200
+        },
+        "CellularRespiration.A.TrueAboutRespiration": {
+            "revisions": [],
+            "status": "received",
+            "response": "C. Electrons leave the electron transport chain in a molecule of water (H₂O).",
+            "responseData": "[{\"response\":\"C. Electrons leave the electron transport chain in a molecule of water (H₂O).\"}]",
+            "userActivityResponseID": 268214
+        },
+        "CellularRespiration.HA.PyruvateAnalyzeData": {
+            "revisions": [],
+            "status": "received",
+            "response": "No Change",
+            "responseData": "[{\"response\":\"No Change\"}]",
+            "userActivityResponseID": 270839
+        },
+        "CellularRespiration.HA.NADHAnalyzeData": {
+            "revisions": [],
+            "status": "received",
+            "response": "Increase",
+            "responseData": "[{\"response\":\"Increase\"}]",
+            "userActivityResponseID": 270840
+        },
+        "CellularRespiration.HA.InterMemAnalyzeData": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 270841
+        },
+        "CellularRespiration.HA.HypothesisChoice": {
+            "revisions": [],
+            "status": "received",
+            "response": "Cyanide",
+            "responseData": "[{\"response\":\"Cyanide\"}]",
+            "userActivityResponseID": 270877
+        },
+        "CellularRespiration.HA.Hypothesis": {
+            "revisions": [
+                {
+                    "Initial Hypothesis": "cyanide osx fox"
+                },
+                {
+                    "1st Revision": "cyanide osx fox\nrev1"
+                },
+                {
+                    "2nd Revision": "cyanide osx fox\nrev1\nrev2"
+                },
+                {
+                    "3rd Revision": "cyanide osx fox\nrev1\nrev2\nrev3"
+                },
+                {
+                    "Final Revision": "cyanide osx fox\nrev1\nrev2\nrev3\nREV FIN"
+                }
+            ],
+            "status": "received",
+            "response": "<div class='header'>Initial Hypothesis</div><div class='response'>cyanide osx fox</div><div class='header'>1st Revision</div><div class='response'>cyanide osx fox\nrev1</div><div class='header'>2nd Revision</div><div class='response'>cyanide osx fox\nrev1\nrev2</div><div class='header'>3rd Revision</div><div class='response'>cyanide osx fox\nrev1\nrev2\nrev3</div><div class='header'>Final Revision</div><div class='response'>cyanide osx fox\nrev1\nrev2\nrev3\nREV FIN</div>",
+            "responseData": "[{\"header\":\"Initial Hypothesis\",\"response\":\"cyanide osx fox\"},{\"header\":\"1st Revision\",\"response\":\"cyanide osx fox\\nrev1\"},{\"header\":\"2nd Revision\",\"response\":\"cyanide osx fox\\nrev1\\nrev2\"},{\"header\":\"3rd Revision\",\"response\":\"cyanide osx fox\\nrev1\\nrev2\\nrev3\"},{\"header\":\"Final Revision\",\"response\":\"cyanide osx fox\\nrev1\\nrev2\\nrev3\\nREV FIN\"}]",
+            "userActivityResponseID": 270878
+        },
+        "CellularRespiration.HA.2deoxPredictPyruvate": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 270962
+        },
+        "CellularRespiration.HA.2deoxPredictNADH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 270963
+        },
+        "CellularRespiration.HA.2deoxPredictH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 270964
+        },
+        "CellularRespiration.HA.ArsenicPredictPyruvate": {
+            "revisions": [],
+            "status": "received",
+            "response": "Increase",
+            "responseData": "[{\"response\":\"Increase\"}]",
+            "userActivityResponseID": 271063
+        },
+        "CellularRespiration.HA.ArsenicPredictNADH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 271064
+        },
+        "CellularRespiration.HA.ArsenicPredictH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 271065
+        },
+        "CellularRespiration.HA.CyanidePredictPyruvate": {
+            "revisions": [],
+            "status": "received",
+            "response": "No Change",
+            "responseData": "[{\"response\":\"No Change\"}]",
+            "userActivityResponseID": 271196
+        },
+        "CellularRespiration.HA.CyanidePredictNADH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Increase",
+            "responseData": "[{\"response\":\"Increase\"}]",
+            "userActivityResponseID": 271197
+        },
+        "CellularRespiration.HA.CyanidePredictH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Decrease",
+            "responseData": "[{\"response\":\"Decrease\"}]",
+            "userActivityResponseID": 271198
+        },
+        "CellularRespiration.HA.OligoPredictPyruvate": {
+            "revisions": [],
+            "status": "received",
+            "response": "No Change",
+            "responseData": "[{\"response\":\"No Change\"}]",
+            "userActivityResponseID": 271316
+        },
+        "CellularRespiration.HA.OligoPredictNADH": {
+            "revisions": [],
+            "status": "received",
+            "response": "No Change",
+            "responseData": "[{\"response\":\"No Change\"}]",
+            "userActivityResponseID": 271317
+        },
+        "CellularRespiration.HA.OligoPredictH": {
+            "revisions": [],
+            "status": "received",
+            "response": "Increase",
+            "responseData": "[{\"response\":\"Increase\"}]",
+            "userActivityResponseID": 271318
+        },
+        "rubricIDHere": {
+            "revisions": [],
+            "status": "submitted",
+            "response": "<div class='header'>Explain how cyanide caused Jared’s symptoms (e.g., muscle weakness). </div><div class='response'>back fox</div><div class='header'>Explain how the data from your experiments showed that cyanide was used to poison Jared, and that 2-deoxyglucose, arsenic and oligomycin were not used.</div><div class='response'>data fox</div><div class='header'>For each molecule of glucose, glycolysis only makes 2 ATP, the Krebs cycle only makes 2 ATP and the ETC makes 34 ATP. If the suspects had given Jared the 2-deoxyglucose poison, would the decrease in ATP concentration be smaller, the same or larger as when they used cyanide?  Explain your answer.</div><div class='response'>poison fox\n</div><div class='header'>Describe how the antidote helped Jared's cells make ATP (include the ETC and H+ gradient in your answer).</div><div class='response'>conc fox</div>",
+            "responseData": "[{\"header\":\"Explain how cyanide caused Jared’s symptoms (e.g., muscle weakness). \",\"response\":\"back fox\"},{\"header\":\"Explain how the data from your experiments showed that cyanide was used to poison Jared, and that 2-deoxyglucose, arsenic and oligomycin were not used.\",\"response\":\"data fox\"},{\"header\":\"For each molecule of glucose, glycolysis only makes 2 ATP, the Krebs cycle only makes 2 ATP and the ETC makes 34 ATP. If the suspects had given Jared the 2-deoxyglucose poison, would the decrease in ATP concentration be smaller, the same or larger as when they used cyanide?  Explain your answer.\",\"response\":\"poison fox\\n\"},{\"header\":\"Describe how the antidote helped Jared's cells make ATP (include the ETC and H+ gradient in your answer).\",\"response\":\"conc fox\"}]"
+        },
+        "CellularRespiration.A.CaseReport": {
+            "revisions": [],
+            "status": "received",
+            "response": "<div class='header'>Explain how cyanide caused Jared’s symptoms (e.g., muscle weakness). </div><div class='response'>back fox</div><div class='header'>Explain how the data from your experiments showed that cyanide was used to poison Jared, and that 2-deoxyglucose, arsenic and oligomycin were not used.</div><div class='response'>data fox</div><div class='header'>For each molecule of glucose, glycolysis only makes 2 ATP, the Krebs cycle only makes 2 ATP and the ETC makes 34 ATP. If the suspects had given Jared the 2-deoxyglucose poison, would the decrease in ATP concentration be smaller, the same or larger as when they used cyanide?  Explain your answer.</div><div class='response'>poison fox\n</div><div class='header'>Describe how the antidote helped Jared's cells make ATP (include the ETC and H⁺ gradient in your answer).</div><div class='response'>conc fox</div>",
+            "responseData": "[{\"header\":\"Explain how cyanide caused Jared’s symptoms (e.g., muscle weakness). \",\"response\":\"back fox\"},{\"header\":\"Explain how the data from your experiments showed that cyanide was used to poison Jared, and that 2-deoxyglucose, arsenic and oligomycin were not used.\",\"response\":\"data fox\"},{\"header\":\"For each molecule of glucose, glycolysis only makes 2 ATP, the Krebs cycle only makes 2 ATP and the ETC makes 34 ATP. If the suspects had given Jared the 2-deoxyglucose poison, would the decrease in ATP concentration be smaller, the same or larger as when they used cyanide?  Explain your answer.\",\"response\":\"poison fox\\n\"},{\"header\":\"Describe how the antidote helped Jared's cells make ATP (include the ETC and H⁺ gradient in your answer).\",\"response\":\"conc fox\"}]",
+            "userActivityResponseID": 271553
+        }
+    },
+    "audio": {
+        "muted": true,
+        "bgMusic": [
+            "./assets/movies/f523de1007e921aa7c645d2a77669aad.webm",
+            "./assets/audio/661df3325a5b9343ebb3403ad9247345.mp3"
+        ]
+    },
+    "delayedEffects": [],
+    "timestamp": 1571924539021
+}

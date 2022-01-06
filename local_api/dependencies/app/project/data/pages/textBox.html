@@ -1,0 +1,91 @@
+<br>
+Normal text
+<widget-textbox id="textbox" placeholder="type here" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'textbox'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'textShow', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'textShow', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}" />
+<br>
+Integers only
+<widget-textbox id="numbox" placeholder="" filter="integer" :conditions="{
+	conditionList:[{ 
+		comparisons:[
+			{comparisonData:{comparisonType:'textLength', textID:'numbox'}}], 
+	 effectsPass:[
+		{effectData: {effectType: 'updateWidget', widgetID: 'intShow', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+	effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+	'intShow', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}" />
+<br>
+Floats allowed
+<widget-textbox id="numboxFloat" placeholder="" filter="float" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'numboxFloat'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'floatShow', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'floatShow', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}" />
+<br>
+Number Limited Length(3)
+<widget-textbox id="num_limitLength" placeholder="" :maxlength="3" filter="float" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'num_limitLength'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'numLimitShow', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'numLimitShow', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}" />
+<br>
+Normal text Limited Length(3)
+<widget-textbox id="text_limitLength" placeholder="" filter="text" :maxlength="3" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'text_limitLength'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'normLimitShow', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'normLimitShow', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}"/>
+<br>
+Only "YES" characters allowed - no limit, case-sensitive
+<widget-textbox id="yes_allowed" placeholder="" filter="allow-list" filter-list="YES" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'yes_allowed'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'YES_Show', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'YES_Show', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}"/>
+<br>
+Only "YESyes" characters allowed - no limit, css all CAPS
+<widget-textbox id="yes_allowedCSS" placeholder="" filter="allow-list" filter-list="YESyes" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'yes_allowedCSS'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'YESyes_Show', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'YESyes_Show', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}"/>
+<br>
+all characters filtered - no limit
+<widget-textbox id="any_allowed" placeholder="" filter="allow-list" filter-list="" :conditions="{conditionList:[
+	{ comparisons:[{comparisonData:{comparisonType:'textLength', textID:'any_allowed'}}], 
+effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+'any_Show', key: 'visible', val:true}, fireOnceID: '', delay:0}],
+effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:
+'any_Show', key: 'visible', val:false}, fireOnceID: '', delay:0}], }, ]}"/>
+<br>
+<container-show-hide id="textShow" :visible=false>
+	Text textLength effect.
+</container-show-hide>
+<container-show-hide id="intShow" :visible=false>
+	Integer textLength effect.
+</container-show-hide>
+<container-show-hide id="floatShow" :visible=false>
+	Float textLength effect.
+</container-show-hide>
+<container-show-hide id="numLimitShow" :visible=false>
+	Number Limited Length(3) textLength effect.
+</container-show-hide>
+<container-show-hide id="normLimitShow" :visible=false>
+	Normal text Limited Length(3) textLength effect.
+</container-show-hide>
+<container-show-hide id="YES_Show" :visible=false>
+	Only "YES" characters allowed textLength effect.
+</container-show-hide>
+<container-show-hide id="YESyes_Show" :visible=false>
+	Only "YESyes" characters allowed textLength effect.
+</container-show-hide>
+<container-show-hide id="any_Show" :visible=false>
+	all characters filtered textLength effect.
+</container-show-hide>

@@ -1,0 +1,1937 @@
+{
+  "application_properties": {
+    "layerOrder": [
+      {
+        "layer": 0,
+        "enabled": true,
+        "transparent": false
+      },
+      {
+        "layer": 1,
+        "enabled": true,
+        "transparent": false
+      },
+      {
+        "layer": 2,
+        "enabled": true,
+        "transparent": false
+      },
+      {
+        "layer": 0,
+        "enabled": true,
+        "transparent": true
+      },
+      {
+        "layer": 3,
+        "enabled": true,
+        "transparent": false
+      },
+      {
+        "layer": 3,
+        "enabled": true,
+        "transparent": true
+      },
+      {
+        "layer": 4,
+        "enabled": true,
+        "transparent": true
+      }
+    ],
+    "resolutionMode": "AUTO",
+    "vr": false,
+    "useModelV2": false,
+    "layers": {
+      "0": {
+        "transparentSortMode": 3,
+        "opaqueSortMode": 2,
+        "name": "World"
+      },
+      "1": {
+        "transparentSortMode": 3,
+        "opaqueSortMode": 2,
+        "name": "Depth"
+      },
+      "2": {
+        "transparentSortMode": 3,
+        "opaqueSortMode": 0,
+        "name": "Skybox"
+      },
+      "3": {
+        "transparentSortMode": 3,
+        "opaqueSortMode": 0,
+        "name": "Immediate"
+      },
+      "4": {
+        "transparentSortMode": 1,
+        "opaqueSortMode": 1,
+        "name": "UI"
+      }
+    },
+    "use3dPhysics": false,
+    "width": 1280,
+    "useDevicePixelRatio": false,
+    "batchGroups": [],
+    "preserveDrawingBuffer": false,
+    "useLegacyScripts": false,
+    "fillMode": "FILL_WINDOW",
+    "scripts": [13767932],
+    "height": 720,
+    "transparentCanvas": false,
+    "antiAlias": true,
+    "loadingScreenScript": null,
+    "preferWebGl2": true,
+    "libraries": []
+  },
+  "scenes": [
+    {
+      "name": "sim_Farm_dynamicLighting_withTrees",
+      "url": "633094.json"
+    }
+  ],
+  "assets": {
+    "13767918": {
+      "tags": [],
+      "name": "sim_Farm.json",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "name": "Take 001",
+        "duration": 18.9
+      },
+      "data": null,
+      "type": "animation",
+      "file": {
+        "hash": "364dd5b9edc048f22f7c1db8459e16b4",
+        "filename": "sim_Farm.json",
+        "size": 13710,
+        "url": "files/assets/13767918/1/sim_Farm.json"
+      },
+      "id": "13767918"
+    },
+    "13767919": {
+      "tags": [],
+      "name": "sim_Farm_Trees.json",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "meshes": 1,
+        "meshInstances": 1,
+        "nodes": 2,
+        "skins": 0,
+        "vertices": 2393,
+        "triangles": 1317,
+        "attributes": {
+          "position": 1,
+          "normal": 1,
+          "texCoord0": 1,
+          "texCoord1": 1
+        }
+      },
+      "data": {
+        "mapping": [
+          {
+            "material": 13767923
+          }
+        ],
+        "area": {
+          "x": 4.34974540846189,
+          "y": 0.30955380217607104,
+          "z": 4.742043622697503,
+          "uv": 0.6400000000000006
+        }
+      },
+      "type": "model",
+      "file": {
+        "filename": "sim_Farm_Trees.json",
+        "size": 263668,
+        "hash": "ed1c8c886401359adb8cd0e8a6acfcd8",
+        "url": "files/assets/13767919/1/sim_Farm_Trees.json"
+      },
+      "id": "13767919"
+    },
+    "13767920": {
+      "tags": [],
+      "name": "sim_farms_playcanvas_assembly_V0016_Truck_GRP.json",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "meshes": 15,
+        "meshInstances": 15,
+        "nodes": 20,
+        "skins": 0,
+        "vertices": 9701,
+        "triangles": 11857,
+        "attributes": {
+          "position": 15,
+          "normal": 15,
+          "texCoord0": 15,
+          "texCoord1": 15
+        }
+      },
+      "data": {
+        "mapping": [
+          {
+            "material": 13767933
+          },
+          {
+            "material": 13767933
+          },
+          {
+            "material": 13767933
+          },
+          {
+            "material": 13767924
+          },
+          {
+            "material": 13767924
+          },
+          {
+            "material": 13767924
+          },
+          {
+            "material": 13767930
+          },
+          {
+            "material": 13767930
+          },
+          {
+            "material": 13767930
+          },
+          {
+            "material": 13767922
+          },
+          {
+            "material": 13767922
+          },
+          {
+            "material": 13767944
+          },
+          {
+            "material": 13767937
+          },
+          {
+            "material": 13767930
+          },
+          {
+            "material": 13767921
+          }
+        ],
+        "area": {
+          "x": 41.414365403628565,
+          "y": 60.08024574485631,
+          "z": 49.84651896388493,
+          "uv": 0.6399999999999996
+        }
+      },
+      "type": "model",
+      "file": {
+        "filename": "sim_farms_playcanvas_assembly_V0016_Truck_GRP.json",
+        "size": 1226971,
+        "hash": "6f562cae6b22eea3566ce34c6400daed",
+        "url": "files/assets/13767920/1/sim_farms_playcanvas_assembly_V0016_Truck_GRP.json"
+      },
+      "id": "13767920"
+    },
+    "13767921": {
+      "tags": [],
+      "name": "sky_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 6
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767946,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "opacityMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767921"
+    },
+    "13767922": {
+      "tags": [],
+      "name": "truck_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 3
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767947,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 0,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "opacityMap": 13767947,
+        "opacityMapOffset": [0, 0],
+        "opacityMapTiling": [1, 1],
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true,
+        "alphaToCoverage": false
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767922"
+    },
+    "13767923": {
+      "tags": [],
+      "name": "cartoonTree_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 0
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [1, 1, 1],
+        "diffuseMap": 13767945,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "opacityMap": 13767928,
+        "opacityMapOffset": [0, 0],
+        "opacityMapTiling": [1, 1],
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": true,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0.461,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 2,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767923"
+    },
+    "13767924": {
+      "tags": [],
+      "name": "coop2_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 1
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767938,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "opacityMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767924"
+    },
+    "13767926": {
+      "tags": [],
+      "name": "vents_GEO.json",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "meshes": 1,
+        "meshInstances": 1,
+        "nodes": 2,
+        "skins": 0,
+        "vertices": 2112,
+        "triangles": 1632,
+        "attributes": {
+          "position": 1,
+          "normal": 1,
+          "texCoord0": 1,
+          "texCoord1": 1
+        }
+      },
+      "data": {
+        "mapping": [
+          {
+            "material": 13767930
+          }
+        ],
+        "area": {
+          "x": 0.00620899271434075,
+          "y": 0.0030453562725016176,
+          "z": 0.0021128120196933775,
+          "uv": 0.7777034711366584
+        }
+      },
+      "type": "model",
+      "file": {
+        "filename": "vents_GEO.json",
+        "size": 260385,
+        "hash": "b3bbbf54dfe695847d6d8bfbde1faca2",
+        "url": "files/assets/13767926/1/vents_GEO.json"
+      },
+      "id": "13767926"
+    },
+    "13767927": {
+      "tags": [],
+      "name": "dirt_road_TRANSPARENCY.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColor",
+        "width": 2048,
+        "height": 2048,
+        "alpha": false,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "dirt_road_TRANSPARENCY.png",
+        "hash": "1dc04b6843ab42c67d9e6d1db0e3afd4",
+        "size": 95496,
+        "variants": {
+          "dxt": {
+            "filename": "dirt_road_TRANSPARENCY-dxt.dds",
+            "hash": "27345179e241ae12cad6e9710d26596e",
+            "size": 2796344,
+            "sizeGzip": 85571,
+            "opt": 0,
+            "url": "files/assets/13767927/1/dirt_road_TRANSPARENCY-dxt.dds"
+          },
+          "etc1": {
+            "filename": "dirt_road_TRANSPARENCY-etc1.dds",
+            "hash": "f44d0f7866c6e3d1fddb9f823bead945",
+            "size": 2796344,
+            "sizeGzip": 96688,
+            "opt": 0,
+            "url": "files/assets/13767927/1/dirt_road_TRANSPARENCY-etc1.dds"
+          },
+          "pvr": {
+            "filename": "dirt_road_TRANSPARENCY-pvr.dds",
+            "hash": "92b8c36fa7d719c2d006ff22b05c757a",
+            "size": 2796416,
+            "sizeGzip": 138127,
+            "opt": 128,
+            "url": "files/assets/13767927/1/dirt_road_TRANSPARENCY-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767927/1/dirt_road_TRANSPARENCY.png"
+      },
+      "id": "13767927"
+    },
+    "13767928": {
+      "tags": [],
+      "name": "tree_TRANSPARENCY.png",
+      "revision": 1,
+      "preload": true,
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": false,
+          "pvr": false,
+          "pvrBpp": 4,
+          "etc1": false
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 1024,
+        "height": 4096,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "tree_TRANSPARENCY.png",
+        "hash": "4292390fa22d9aca233986ae787f4b18",
+        "size": 100425,
+        "variants": {},
+        "url": "files/assets/13767928/1/tree_TRANSPARENCY.png"
+      },
+      "region": "eu-west-1",
+      "id": "13767928"
+    },
+    "13767929": {
+      "tags": [],
+      "name": "coop3_TEXTURE.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 1024,
+        "height": 1024,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "coop3_TEXTURE.png",
+        "hash": "c949ec511e61a72e1afe17ffa48deb9f",
+        "size": 502139,
+        "variants": {
+          "dxt": {
+            "filename": "coop3_TEXTURE-dxt.dds",
+            "hash": "5fef5d66057d1770c38bfb8cbc8fe5c4",
+            "size": 699192,
+            "sizeGzip": 184707,
+            "opt": 0,
+            "url": "files/assets/13767929/1/coop3_TEXTURE-dxt.dds"
+          },
+          "etc1": {
+            "filename": "coop3_TEXTURE-etc1.dds",
+            "hash": "8fc8cfdb85c88b93744a16b906bb2c08",
+            "size": 699192,
+            "sizeGzip": 162236,
+            "opt": 0,
+            "url": "files/assets/13767929/1/coop3_TEXTURE-etc1.dds"
+          },
+          "pvr": {
+            "filename": "coop3_TEXTURE-pvr.dds",
+            "hash": "18de7e698260038832d510e0415dda06",
+            "size": 699264,
+            "sizeGzip": 319310,
+            "opt": 128,
+            "url": "files/assets/13767929/1/coop3_TEXTURE-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767929/1/coop3_TEXTURE.png"
+      },
+      "id": "13767929"
+    },
+    "13767930": {
+      "tags": [],
+      "name": "coop3_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 2
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767929,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "opacityMap": 13767929,
+        "opacityMapOffset": [0, 0],
+        "opacityMapTiling": [1, 1],
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767930"
+    },
+    "13767931": {
+      "tags": [],
+      "name": "Sim_Farms_Terrain_Cartoon_COLOR.png",
+      "revision": 1,
+      "preload": true,
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 2048,
+        "height": 2048,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "Sim_Farms_Terrain_Cartoon_COLOR.png",
+        "hash": "61eef3db9bfe0e49ab26cfabf9bdcc99",
+        "size": 4260354,
+        "variants": {
+          "etc1": {
+            "filename": "Sim_Farms_Terrain_Cartoon_COLOR-etc1.dds",
+            "hash": "06810164c11d695e35e83960f67dd809",
+            "size": 2796344,
+            "sizeGzip": 1238672,
+            "opt": 0,
+            "url": "files/assets/13767931/1/Sim_Farms_Terrain_Cartoon_COLOR-etc1.dds"
+          },
+          "dxt": {
+            "filename": "Sim_Farms_Terrain_Cartoon_COLOR-dxt.dds",
+            "hash": "b265047bddf26b4918aab19244ca8734",
+            "size": 2796344,
+            "sizeGzip": 1633122,
+            "opt": 0,
+            "url": "files/assets/13767931/1/Sim_Farms_Terrain_Cartoon_COLOR-dxt.dds"
+          },
+          "pvr": {
+            "filename": "Sim_Farms_Terrain_Cartoon_COLOR-pvr.dds",
+            "hash": "5b41075b3ab3b2e24ca0bf525279542c",
+            "size": 2796416,
+            "sizeGzip": 1868795,
+            "opt": 128,
+            "url": "files/assets/13767931/1/Sim_Farms_Terrain_Cartoon_COLOR-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767931/1/Sim_Farms_Terrain_Cartoon_COLOR.png"
+      },
+      "region": "eu-west-1",
+      "id": "13767931"
+    },
+    "13767932": {
+      "tags": [],
+      "name": "playcanvas-scripts.dev.build.js",
+      "revision": 1,
+      "preload": true,
+      "meta": null,
+      "data": {
+        "order": 100,
+        "scripts": {
+          "SimStateManager": {
+            "attributesOrder": [],
+            "attributes": {}
+          },
+          "ApiReporter": {
+            "attributesOrder": [],
+            "attributes": {}
+          },
+          "unlitMaterial": {
+            "attributesOrder": [],
+            "attributes": {}
+          },
+          "unlitRimMaterial": {
+            "attributesOrder": ["rimColor", "rimWidth"],
+            "attributes": {
+              "rimColor": {
+                "type": "rgb",
+                "default": [1, 0.494, 0.494]
+              },
+              "rimWidth": {
+                "type": "number",
+                "default": 0.3
+              }
+            }
+          },
+          "turntable": {
+            "attributesOrder": [
+              "cameraEntity",
+              "orbitSensitivity",
+              "rotateX",
+              "rotateY"
+            ],
+            "attributes": {
+              "cameraEntity": {
+                "type": "entity",
+                "title": "Camera Entity"
+              },
+              "orbitSensitivity": {
+                "type": "number",
+                "default": 0.3,
+                "title": "Orbit Sensitivity",
+                "description": "How fast the camera moves around the orbit. Higher is faster"
+              },
+              "rotateX": {
+                "type": "boolean",
+                "default": true,
+                "title": "Turntable X Axis",
+                "description": "Turntable around the X axis"
+              },
+              "rotateY": {
+                "type": "boolean",
+                "default": true,
+                "title": "Turntable Y Axis",
+                "description": "Turntable around the Y axis"
+              }
+            }
+          },
+          "screenPos": {
+            "attributesOrder": ["cameraEntity", "sharedDataKey", "followNode"],
+            "attributes": {
+              "cameraEntity": {
+                "type": "entity"
+              },
+              "sharedDataKey": {
+                "type": "string"
+              },
+              "followNode": {
+                "type": "string"
+              }
+            }
+          },
+          "sharedDataListener": {
+            "attributesOrder": [],
+            "attributes": {}
+          }
+        },
+        "loading": false
+      },
+      "type": "script",
+      "file": {
+        "filename": "__game-scripts.js",
+        "size": 160990,
+        "hash": "16449b26c98cbfa11a436bb14d26c378",
+        "url": "/../PlaycanvasEngine/dist/playcanvas-scripts.min.js"
+      },
+      "region": "eu-west-1",
+      "id": "13767932"
+    },
+    "13767933": {
+      "tags": [],
+      "name": "coop1_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 0
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767942,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "opacityMap": 13767942,
+        "opacityMapOffset": [0, 0],
+        "opacityMapTiling": [1, 1],
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767933"
+    },
+    "13767937": {
+      "tags": [],
+      "name": "dirtroad_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 5
+      },
+      "data": {
+        "shader": "blinn",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767941,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 0,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "opacityMap": 13767927,
+        "opacityMapOffset": [0, 0],
+        "opacityMapTiling": [1, 1],
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true,
+        "alphaToCoverage": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767937"
+    },
+    "13767938": {
+      "tags": [],
+      "name": "coop2_TEXTURE.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 1024,
+        "height": 1024,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "coop2_TEXTURE.png",
+        "hash": "c3d5978f828c48ebe115942852ce3cb9",
+        "size": 879637,
+        "variants": {
+          "dxt": {
+            "filename": "coop2_TEXTURE-dxt.dds",
+            "hash": "dab1d6c51b2c9ca58e313ed527a0e3a8",
+            "size": 699192,
+            "sizeGzip": 287037,
+            "opt": 0,
+            "url": "files/assets/13767938/1/coop2_TEXTURE-dxt.dds"
+          },
+          "etc1": {
+            "filename": "coop2_TEXTURE-etc1.dds",
+            "hash": "740a300305e0255b921fbdfb1322e132",
+            "size": 699192,
+            "sizeGzip": 260455,
+            "opt": 0,
+            "url": "files/assets/13767938/1/coop2_TEXTURE-etc1.dds"
+          },
+          "pvr": {
+            "filename": "coop2_TEXTURE-pvr.dds",
+            "hash": "3d24c496b6152bb3dd95c547ffef9709",
+            "size": 699264,
+            "sizeGzip": 388724,
+            "opt": 128,
+            "url": "files/assets/13767938/1/coop2_TEXTURE-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767938/1/coop2_TEXTURE.png"
+      },
+      "id": "13767938"
+    },
+    "13767941": {
+      "tags": [],
+      "name": "dirt_road_COLOR.png",
+      "revision": 1,
+      "preload": true,
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 2048,
+        "height": 2048,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "dirt_road_COLOR.png",
+        "hash": "684232c86dbd508a70d1f6050fb8ff95",
+        "size": 10630169,
+        "variants": {
+          "dxt": {
+            "filename": "dirt_road_COLOR-dxt.dds",
+            "hash": "de6091bafd51bc571f558608f46980a0",
+            "size": 2796344,
+            "sizeGzip": 2182099,
+            "opt": 0,
+            "url": "files/assets/13767941/1/dirt_road_COLOR-dxt.dds"
+          },
+          "etc1": {
+            "filename": "dirt_road_COLOR-etc1.dds",
+            "hash": "cc142537ccc05344ae5ca253cd7cbb5f",
+            "size": 2796344,
+            "sizeGzip": 2365934,
+            "opt": 0,
+            "url": "files/assets/13767941/1/dirt_road_COLOR-etc1.dds"
+          },
+          "pvr": {
+            "filename": "dirt_road_COLOR-pvr.dds",
+            "hash": "0443ce2698fafdbadf27afa29cbc7cad",
+            "size": 2796416,
+            "sizeGzip": 2243189,
+            "opt": 128,
+            "url": "files/assets/13767941/1/dirt_road_COLOR-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767941/1/dirt_road_COLOR.png"
+      },
+      "region": "eu-west-1",
+      "id": "13767941"
+    },
+    "13767942": {
+      "tags": [],
+      "name": "coop1_TEXTURE.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 1024,
+        "height": 1024,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "coop1_TEXTURE.png",
+        "hash": "d1800e05877699d174c36460d5f946c1",
+        "size": 765682,
+        "variants": {
+          "dxt": {
+            "filename": "coop1_TEXTURE-dxt.dds",
+            "hash": "621fea577bdd496784589e697dbf9d05",
+            "size": 699192,
+            "sizeGzip": 203041,
+            "opt": 0,
+            "url": "files/assets/13767942/1/coop1_TEXTURE-dxt.dds"
+          },
+          "etc1": {
+            "filename": "coop1_TEXTURE-etc1.dds",
+            "hash": "497ec1c264b865ca9b23f4ddd2a1d83e",
+            "size": 699192,
+            "sizeGzip": 192654,
+            "opt": 0,
+            "url": "files/assets/13767942/1/coop1_TEXTURE-etc1.dds"
+          },
+          "pvr": {
+            "filename": "coop1_TEXTURE-pvr.dds",
+            "hash": "d150700d2de8ae682795c9370bd570dc",
+            "size": 699264,
+            "sizeGzip": 309660,
+            "opt": 128,
+            "url": "files/assets/13767942/1/coop1_TEXTURE-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767942/1/coop1_TEXTURE.png"
+      },
+      "id": "13767942"
+    },
+    "13767944": {
+      "tags": [],
+      "name": "Terrain_MAT",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "index": 4
+      },
+      "data": {
+        "shader": "phong",
+        "ambient": [0, 0, 0],
+        "diffuse": [0.8, 0.8, 0.8],
+        "diffuseMap": 13767931,
+        "diffuseMapOffset": [0, 0],
+        "diffuseMapTiling": [1, 1],
+        "specular": [0, 0, 0],
+        "shininess": 100,
+        "emissive": [0, 0, 0],
+        "opacity": 1,
+        "aoMap": null,
+        "specularMap": null,
+        "metalnessMap": null,
+        "glossMap": null,
+        "emissiveMap": null,
+        "normalMap": null,
+        "heightMap": null,
+        "opacityMap": null,
+        "sphereMap": null,
+        "cubeMap": null,
+        "lightMap": null,
+        "ambientTint": false,
+        "aoMapVertexColor": false,
+        "aoMapChannel": "r",
+        "aoMapUv": 0,
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "occludeSpecular": 1,
+        "diffuseMapVertexColor": false,
+        "diffuseMapChannel": "rgb",
+        "diffuseMapUv": 0,
+        "diffuseMapTint": false,
+        "specularMapVertexColor": false,
+        "specularMapChannel": "rgb",
+        "specularMapUv": 0,
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
+        "specularMapTint": false,
+        "specularAntialias": true,
+        "useMetalness": false,
+        "metalnessMapVertexColor": false,
+        "metalnessMapChannel": "r",
+        "metalnessMapUv": 0,
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
+        "metalnessMapTint": false,
+        "metalness": 1,
+        "conserveEnergy": true,
+        "glossMapVertexColor": false,
+        "glossMapChannel": "r",
+        "glossMapUv": 0,
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
+        "fresnelModel": 0,
+        "fresnelFactor": 0,
+        "emissiveMapVertexColor": false,
+        "emissiveMapChannel": "rgb",
+        "emissiveMapUv": 0,
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
+        "emissiveMapTint": false,
+        "emissiveIntensity": 1,
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
+        "normalMapUv": 0,
+        "bumpMapFactor": 1,
+        "heightMapChannel": "r",
+        "heightMapUv": 0,
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
+        "heightMapFactor": 1,
+        "alphaTest": 0,
+        "opacityMapVertexColor": false,
+        "opacityMapChannel": "r",
+        "opacityMapUv": 0,
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
+        "reflectivity": 1,
+        "refraction": 0,
+        "refractionIndex": 0.6666666666666666,
+        "cubeMapProjection": 0,
+        "cubeMapProjectionBox": {
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
+        },
+        "lightMapVertexColor": false,
+        "lightMapChannel": "rgb",
+        "lightMapUv": 1,
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
+        "depthTest": true,
+        "depthWrite": true,
+        "cull": 1,
+        "blendType": 3,
+        "shadowSampleType": 1,
+        "useFog": true,
+        "useLighting": true,
+        "useSkybox": true,
+        "useGammaTonemap": true
+      },
+      "type": "material",
+      "file": null,
+      "id": "13767944"
+    },
+    "13767945": {
+      "tags": [],
+      "name": "tree.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 1024,
+        "height": 4096,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "tree.png",
+        "hash": "676eb6c2ffd001d36190e48df2432dd6",
+        "size": 999799,
+        "variants": {
+          "dxt": {
+            "filename": "tree-dxt.dds",
+            "hash": "f6e1f3bd473c7e19f49eff9c32838700",
+            "size": 2796360,
+            "sizeGzip": 319151,
+            "opt": 0,
+            "url": "files/assets/13767945/1/tree-dxt.dds"
+          },
+          "pvr": {
+            "filename": "tree-pvr.dds",
+            "hash": "92e623e5e581839fc693b56829cfb128",
+            "size": 11185024,
+            "sizeGzip": 1821447,
+            "opt": 128,
+            "url": "files/assets/13767945/1/tree-pvr.dds"
+          },
+          "etc1": {
+            "filename": "tree-etc1.dds",
+            "hash": "1f2d776dc4ab5c4ea43fed18f913f5fa",
+            "size": 2796360,
+            "sizeGzip": 283019,
+            "opt": 0,
+            "url": "files/assets/13767945/1/tree-etc1.dds"
+          }
+        },
+        "url": "files/assets/13767945/1/tree.png"
+      },
+      "id": "13767945"
+    },
+    "13767946": {
+      "tags": [],
+      "name": "backdrop_COLOR.png",
+      "revision": 1,
+      "preload": true,
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColor",
+        "width": 4096,
+        "height": 1024,
+        "alpha": false,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "backdrop_COLOR.png",
+        "hash": "49be9385e7c47e54596d48e528038df0",
+        "size": 2057771,
+        "variants": {
+          "dxt": {
+            "filename": "backdrop_COLOR-dxt.dds",
+            "hash": "3b571b95e92356b18c1b07c702da4b3b",
+            "size": 2796360,
+            "sizeGzip": 786646,
+            "opt": 0,
+            "url": "files/assets/13767946/1/backdrop_COLOR-dxt.dds"
+          },
+          "etc1": {
+            "filename": "backdrop_COLOR-etc1.dds",
+            "hash": "99e326c862aa5d9f01d9bdca3d7f9988",
+            "size": 2796360,
+            "sizeGzip": 473755,
+            "opt": 0,
+            "url": "files/assets/13767946/1/backdrop_COLOR-etc1.dds"
+          },
+          "pvr": {
+            "filename": "backdrop_COLOR-pvr.dds",
+            "hash": "4758ffcda644ccedb7a05512617ae151",
+            "size": 11185024,
+            "sizeGzip": 6247551,
+            "opt": 128,
+            "url": "files/assets/13767946/1/backdrop_COLOR-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767946/1/backdrop_COLOR.png"
+      },
+      "region": "eu-west-1",
+      "id": "13767946"
+    },
+    "13767947": {
+      "tags": [],
+      "name": "truck_TEXTURE.png",
+      "revision": 1,
+      "preload": true,
+      "region": "eu-west-1",
+      "meta": {
+        "compress": {
+          "alpha": false,
+          "dxt": true,
+          "pvr": true,
+          "pvrBpp": 4,
+          "etc1": true
+        },
+        "format": "png",
+        "type": "TrueColorAlpha",
+        "width": 512,
+        "height": 512,
+        "alpha": true,
+        "depth": 8,
+        "srgb": true,
+        "interlaced": false
+      },
+      "data": {
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "minfilter": "linear_mip_linear",
+        "magfilter": "linear",
+        "anisotropy": 1,
+        "rgbm": false,
+        "mipmaps": true
+      },
+      "type": "texture",
+      "file": {
+        "filename": "truck_TEXTURE.png",
+        "hash": "10f80f006f3350ffb46de65ec2d7b9a5",
+        "size": 172493,
+        "variants": {
+          "dxt": {
+            "filename": "truck_TEXTURE-dxt.dds",
+            "hash": "5bc098abe4c99565c0f51ad1814dfa46",
+            "size": 174904,
+            "sizeGzip": 56618,
+            "opt": 0,
+            "url": "files/assets/13767947/1/truck_TEXTURE-dxt.dds"
+          },
+          "etc1": {
+            "filename": "truck_TEXTURE-etc1.dds",
+            "hash": "d4abb45b72d4508e6e5e7ae162d3d71a",
+            "size": 174904,
+            "sizeGzip": 54521,
+            "opt": 0,
+            "url": "files/assets/13767947/1/truck_TEXTURE-etc1.dds"
+          },
+          "pvr": {
+            "filename": "truck_TEXTURE-pvr.dds",
+            "hash": "15c386d7f8c23699b015cde5f664f1ab",
+            "size": 174976,
+            "sizeGzip": 93238,
+            "opt": 128,
+            "url": "files/assets/13767947/1/truck_TEXTURE-pvr.dds"
+          }
+        },
+        "url": "files/assets/13767947/1/truck_TEXTURE.png"
+      },
+      "id": "13767947"
+    }
+  }
+}

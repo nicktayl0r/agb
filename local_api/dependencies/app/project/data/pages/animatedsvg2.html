@@ -1,0 +1,228 @@
+page 8
+<br>
+<br>
+<widget-button id="playFrames" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+} " text="play Svg " />
+<widget-button id="chngFrames" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'startFrame', val:0}},
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'endFrame', val:5}}
+        ]
+    }   
+    ] 
+} " text="change frames (0-5)" />
+<widget-button id="chngFrames" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'startFrame', val:5}},
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'endFrame', val:10}}
+        ]
+    }   
+    ] 
+} " text="change frames (5-10)" />
+<widget-button id="stopSvgFrames" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'playState', val:'stop'}}
+        ]
+    }   
+    ] 
+} " text="stop Svg " />
+<widget-button id="pauseSvgFrames" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'testFrames', key:'playState', val:'pause'}}
+        ]
+    }   
+    ] 
+} " text="pause Svg " />
+<widget-animated-svg id="testFrames" :loop=true :speed=1 :start-frame=11 :end-frame=11 src="assets/svg/m18_test_noDropShadow.json"
+    style="width:100%; " />
+<widget-button id="playSvg " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'test', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+} " text="play Svg " />
+<widget-button id="pauseSvg " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'test', key:'playState', val:'pause'}}
+        ]
+    }   
+    ] 
+} " text="pause Svg " />
+<widget-button id="stopSvg " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'test', key:'playState', val:'stop'}}
+        ]
+    }   
+    ] 
+} " text="stop Svg " />
+
+<widget-button id="changeSrc " :clickEffects="{
+    conditionList:[ 
+    { 
+        comparisons:[
+
+            {comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'test',key:'src',val:'assets/svg/horse.json'}
+        }],
+        comparisonsLogic:'and',
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'test', key:'src', val:'assets/svg/deer.json'}},
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'test', key:'src', val:'assets/svg/horse.json'}}
+        ]
+    }]
+} " text="Change Src" />
+
+<widget-animated-svg id="test" :loop=true :speed=1 src="assets/svg/m22_test_reexport.json" play-state="play" style="width:100%;"
+    :playEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :pauseEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :stopEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :endEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :loopEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" />
+<widget-animated-svg id="test2" :loop=true :speed=1 src="assets/svg/horse.json" style="width:50%; height: 50%;"
+    :playEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :pauseEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :stopEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:false}},
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :endEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" :loopEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:true}},
+                {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+            ]
+        }   
+    ] 
+}" />
+
+<container-show-hide id="playEffects" :visible=false>
+    <span>Play_Effects</span>
+</container-show-hide>
+<container-show-hide id="pauseEffects" :visible=false>
+    <span>Pause_Effects</span>
+</container-show-hide>
+<container-show-hide id="stopEffects" :visible=false>
+    <span>Stop_Effects</span>
+</container-show-hide>
+<container-show-hide id="endEffects" :visible=false>
+    <span>End_Effects</span>
+</container-show-hide>
+<container-show-hide id="loopEffects" :visible=false>
+    <span>Loop_Effects</span>
+    <!-- <widget-textbox id=" loopCount" placeholder="type here" /> -->
+</container-show-hide>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

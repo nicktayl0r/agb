@@ -1,0 +1,50 @@
+<h2>shared page 2</h2>
+<widget-textbox id="p2textbox1" placeholder="placeholder text" shared-data-read-key="textBoxKey1" />
+<widget-drop id="drag1Start" class="buttonDrop" />
+<widget-drop id="drop1" class="buttonDrop" />
+<widget-drop id="drop2" class="buttonDrop" />
+<widget-drag class="buttonDrag" id="drag1" drop-id="drag1Start" shared-data-read-key="dropKey1">drag1</widget-drag>
+<widget-slider id="slider" :min=100 :max=200 :val=150 shared-data-read-key="sliderKey1"></widget-slider>
+<container-enable-disable id="fieldset">
+    <p>These are check boxes</p>
+    <widget-checkbox id="checkbox1" class="buttonCheck" shared-data-read-key="checkKey1" />
+    <widget-checkbox id="checkbox2" class="buttonCheck" shared-data-read-key="checkKey2" />
+    <widget-checkbox id="checkbox3" class="buttonCheck" shared-data-read-key="checkKey3" />
+    <br />
+    <br />
+    <p>These are radios in a radio group. They are checking which one should be selected at first.</p>
+    <widget-radio id="radio1" class="buttonRadio" group="radioGroup" shared-data-read-key="radioKey1">1</widget-radio>
+    <widget-radio id="radio2" class="buttonRadio" group="radioGroup" shared-data-read-key="radioKey1">2</widget-radio>
+    <widget-radio id="radio3" class="buttonRadio" group="radioGroup" shared-data-read-key="radioKey1">3</widget-radio>
+    <br />
+    <widget-textarea id="textarea" placeholder="for when you need multiple lines" shared-data-read-key="textAreaKey1" />
+</container-enable-disable>
+<container-enable-disable id="correct" :visible=false :conditions="{
+    conditionList:[ 
+    { 
+        comparisons:[
+            {comparisonData:{comparisonType:'radioSelection', group:'radioGroup', selected:'radioIDEquals', radioID:'radio2'}}
+            ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'correct', key:'visible', val:true}}
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'correct', key:'visible', val:false}}
+        ]
+    }   
+    ] 
+} ">
+    <p class="dropShadow textBackgroundBasic textBackground-Correct">2 is correct!</p>
+</container-enable-disable>
+<widget-shared-data-text id="sharedText" shared-data-read-key="textBoxKey1" text="no shared text yet"></widget-shared-data-text>
+<br />
+<br />
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

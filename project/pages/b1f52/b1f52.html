@@ -1,0 +1,41 @@
+<div class="simParent pageb1f52">
+  <widget-sim-view id="iy47" scenename="Sahara_Farm_Map" simstateid="fduoyb" :visible="true" :enabled="true" play-state="default" :muted="false" :end-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'aqrc1f'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihzvy',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'abw7jb'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iyh7f',key:'visible',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'0db265'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'lmiuyk'},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyw2',key:'visible',val:true},fireOnceID:'firstButtonShow_pageb1f52',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iuvi',key:'visible',val:true},fireOnceID:'firstPopperShow_pageb1f52',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview pageb1f52" />
+  <div class="simPageContent farmMapSimClose_PageContent pageb1f52">
+    <widget-popper :visible="false" :click-to-dismiss="false" id="ihzvy" :delay="0" :delay-once="false" anchor-id="alarmAnchor" class="pageb1f52"><span class="pageb1f52">The guard bees see the elephants<br/>and release alarm pheromones.</span></widget-popper>
+    <widget-popper :visible="false" :click-to-dismiss="false" :delay="0" :delay-once="false" anchor-id="defendAnchor" id="itwqa" class="pageb1f52"><span class="pageb1f52">The elephants see the other<br/>hives and run away.</span></widget-popper>
+    <div id="alarmAnchor" class="pageb1f52 alarmButton buttonFillSq"></div>
+    <div id="defendAnchor" class="pageb1f52 buttonFillSq defendButton"></div>
+    <widget-button :visible="false" :enabled="true" id="iyw2" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyw2',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iuvi',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'aqrc1f'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue pageb1f52 elephantButton">
+      <div class="buttonFillSq pageb1f52"></div>
+    </widget-button>
+    <widget-button :visible="false" :enabled="true" id="iyh7f" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyh7f',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'0db265'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihzvy',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itwqa',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue pageb1f52 defendButton">
+      <div class="buttonFillSq pageb1f52"></div>
+    </widget-button>
+    <div class="pageb1f52"></div>
+    <div class="div_belowGrid pageb1f52">
+      <widget-popper :visible="false" :click-to-dismiss="false" id="iuvi" :delay="0" :delay-once="false" anchor-id="iyw2" :options="{placement:'left'}" class="textBackground-Popup-Blue pageb1f52"><span class="pageb1f52">See what happens when elephants come.</span></widget-popper>
+    </div>
+    <div class="div_farmMapSimKey pageb1f52">
+      <div class="div_farmMapSimKeyItem pageb1f52">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="idyq" class="image_farmMapSimKeyItem pageb1f52" />
+        <p class="text_farmMapSimKeyItem pageb1f52">Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb1f52">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="i1dl" class="image_farmMapSimKeyItem pageb1f52" />
+        <p class="text_farmMapSimKeyItem pageb1f52">Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb1f52">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="ivqq" class="image_farmMapSimKeyItem pageb1f52" />
+        <p class="text_farmMapSimKeyItem pageb1f52">Trampled Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb1f52">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="iv5x" class="image_farmMapSimKeyItem pageb1f52" />
+        <p class="text_farmMapSimKeyItem pageb1f52">Trampled Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb1f52">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="iv0o" class="image_farmMapSimKeyItem pageb1f52" />
+        <p class="text_farmMapSimKeyItem pageb1f52">Beehive</p>
+      </div>
+    </div>
+  </div>
+</div>

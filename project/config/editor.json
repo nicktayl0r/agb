@@ -1,0 +1,701 @@
+{
+	"case": [
+		{
+			"id": "79144",
+			"name": "c01_EM - Background"
+		},
+		{
+			"id": "b353c",
+			"name": "c02_EM - Learn More"
+		},
+		{
+			"id": "3baa2",
+			"name": "c03_EM - Marula Farm"
+		},
+		{
+			"id": "7538a",
+			"name": "c04_EM - Elephants at Marula"
+		},
+		{
+			"id": "81d7e",
+			"name": "c05_EM - Farm Map"
+		},
+		{
+			"id": "d76d9",
+			"name": "c06_EM - Collect Data"
+		},
+		{
+			"id": "39907",
+			"name": "c07_E - Analyze the Farm"
+		},
+		{
+			"id": "d956d",
+			"name": "c07_M - Farm Area"
+		},
+		{
+			"id": "916f6",
+			"name": "c08_EM - Cotton Crop"
+		},
+		{
+			"id": "1bb93",
+			"name": "c09_E - Cotton Fraction"
+		},
+		{
+			"id": "744a5",
+			"name": "c10_EM - Corn Crop"
+		},
+		{
+			"id": "d9ef7",
+			"name": "c11_M - Cotton Percent"
+		},
+		{
+			"id": "2a8ef",
+			"name": "c12_M - Corn Percent"
+		},
+		{
+			"id": "bdba3",
+			"name": "c13_M - Trampled Percent"
+		},
+		{
+			"id": "cdd90",
+			"name": "c14_EM - Trampled Field"
+		},
+		{
+			"id": "12033",
+			"name": "c15_EM - Interpret"
+		},
+		{
+			"id": "4d974",
+			"name": "c16_E - Solutions"
+		},
+		{
+			"id": "29f8d",
+			"name": "c16_M - Solutions"
+		},
+		{
+			"id": "0a578",
+			"name": "c17_E - Hypothesis"
+		},
+		{
+			"id": "de68f",
+			"name": "c17_M - Hypothesis"
+		},
+		{
+			"id": "c89c9",
+			"name": "c18_EM - Experiment 1"
+		},
+		{
+			"id": "b0f3d",
+			"name": "c19_EM - Replant"
+		},
+		{
+			"id": "8d21f",
+			"name": "c20_EM - Prediction 1"
+		},
+		{
+			"id": "a574f",
+			"name": "c21_EM - Elephants Come"
+		},
+		{
+			"id": "015c4",
+			"name": "c22_EM - Explanation"
+		},
+		{
+			"id": "41636",
+			"name": "c23_EM - Prediction Answer"
+		},
+		{
+			"id": "d88f2",
+			"name": "c24_E - Revise Hypothesis"
+		},
+		{
+			"id": "990bc",
+			"name": "c24_M - Revise Hypothesis"
+		},
+		{
+			"id": "0c016",
+			"name": "c25_M - Beehives"
+		},
+		{
+			"id": "d8a15",
+			"name": "c26_E - Experiment 2"
+		},
+		{
+			"id": "cd813",
+			"name": "c26_M - Experiment 2"
+		},
+		{
+			"id": "4f43f",
+			"name": "c27_E - Prediction 2"
+		},
+		{
+			"id": "1f3ba",
+			"name": "c27_M - Prediction 2"
+		},
+		{
+			"id": "d89b7",
+			"name": "c28_E - Elephants Come 2"
+		},
+		{
+			"id": "c433f",
+			"name": "c28_M - Elephants Come 2"
+		},
+		{
+			"id": "420f0",
+			"name": "c29_M - Recollect Data"
+		},
+		{
+			"id": "07531",
+			"name": "c30_M - Analyze"
+		},
+		{
+			"id": "21df9",
+			"name": "c31_E - Prediction Answer"
+		},
+		{
+			"id": "9148e",
+			"name": "c31_M - Prediction Answer"
+		},
+		{
+			"id": "c512c",
+			"name": "c32_M - Info"
+		},
+		{
+			"id": "fdcc3",
+			"name": "c33_M - More Info"
+		},
+		{
+			"id": "4823c",
+			"name": "c34_M - Experiment 3"
+		},
+		{
+			"id": "b1f52",
+			"name": "c35_M - Elephants Come 3"
+		},
+		{
+			"id": "398e2",
+			"name": "c36_EM - Farm Saved"
+		},
+		{
+			"id": "a5af6",
+			"name": "c37_EM - Message"
+		},
+		{
+			"id": "148da",
+			"name": "c38_EM - Summary"
+		},
+		{
+			"id": "fcc04",
+			"name": "c39_EM - Real Story"
+		},
+		{
+			"id": "a0cac",
+			"name": "c40_EM - Links"
+		},
+		{
+			"id": "853d0",
+			"name": "c41_EM - Case Completed"
+		}
+	],
+	"guide": [
+		{
+			"id": "2abe5",
+			"name": "m100_E"
+		},
+		{
+			"id": "2487d",
+			"name": "m200_M"
+		},
+		{
+			"id": "722fd",
+			"name": "m100_Ex"
+		},
+		{
+			"id": "dc5b8",
+			"name": "m200_Mx"
+		},
+		{
+			"id": "4f908",
+			"name": "m101_EExMMx"
+		},
+		{
+			"id": "6d57f",
+			"name": "m102_EExMMx"
+		},
+		{
+			"id": "fc84a",
+			"name": "m103_EExMMx"
+		},
+		{
+			"id": "f2df1",
+			"name": "m104_EExMMx"
+		},
+		{
+			"id": "5a87b",
+			"name": "m105_EExMMx"
+		},
+		{
+			"id": "ba40b",
+			"name": "m206_MMx"
+		},
+		{
+			"id": "2e98f",
+			"name": "m207_MMx"
+		},
+		{
+			"id": "ad5a0",
+			"name": "m208_MMx"
+		},
+		{
+			"id": "15c44",
+			"name": "m109_EExMMx"
+		},
+		{
+			"id": "0233c",
+			"name": "m110_EExMMx"
+		},
+		{
+			"id": "f0d86",
+			"name": "m111_EExMMx"
+		},
+		{
+			"id": "4bb09",
+			"name": "m112_EExMMx"
+		},
+		{
+			"id": "f34b6",
+			"name": "m113_EExMMx"
+		},
+		{
+			"id": "ddd67",
+			"name": "m114_EExMMx"
+		},
+		{
+			"id": "de784",
+			"name": "m115_EExMMx"
+		},
+		{
+			"id": "69367",
+			"name": "m116_EEx"
+		},
+		{
+			"id": "3c9aa",
+			"name": "m216_MMx"
+		},
+		{
+			"id": "15b75",
+			"name": "m117_EExMMx"
+		},
+		{
+			"id": "aae7f",
+			"name": "m118_Ex"
+		},
+		{
+			"id": "c1818",
+			"name": "m119_Ex"
+		},
+		{
+			"id": "e28ac",
+			"name": "m120_Ex"
+		},
+		{
+			"id": "b561f",
+			"name": "m121_Ex"
+		},
+		{
+			"id": "77b3c",
+			"name": "m122_Ex"
+		},
+		{
+			"id": "9224b",
+			"name": "m123_Ex"
+		},
+		{
+			"id": "0f009",
+			"name": "m124_Ex"
+		},
+		{
+			"id": "1e566",
+			"name": "m125_Ex"
+		},
+		{
+			"id": "ce95f",
+			"name": "m126_Ex"
+		},
+		{
+			"id": "10eff",
+			"name": "m127_ExMx"
+		},
+		{
+			"id": "3a1e0",
+			"name": "m128_ExMx"
+		},
+		{
+			"id": "75363",
+			"name": "m129_ExMx"
+		},
+		{
+			"id": "581f2",
+			"name": "m130_ExMx"
+		},
+		{
+			"id": "3fd9d",
+			"name": "m131_EExMMx"
+		},
+		{
+			"id": "d9a77",
+			"name": "m132_EExMMx"
+		},
+		{
+			"id": "d8899",
+			"name": "m133_EExMMx"
+		},
+		{
+			"id": "d0186",
+			"name": "m134_EExMMx"
+		},
+		{
+			"id": "379d1",
+			"name": "m235_MMx"
+		},
+		{
+			"id": "44daf",
+			"name": "m136_ExMx"
+		},
+		{
+			"id": "e1963",
+			"name": "m137_EExMMx"
+		},
+		{
+			"id": "2fd0b",
+			"name": "m138_EExMMx"
+		},
+		{
+			"id": "3c87a",
+			"name": "m139_EExMMx"
+		},
+		{
+			"id": "7d823",
+			"name": "m140_EExMMx"
+		},
+		{
+			"id": "a36bf",
+			"name": "m141_EExMMx"
+		},
+		{
+			"id": "115bd",
+			"name": "m142_EExMMx"
+		},
+		{
+			"id": "f5b16",
+			"name": "m143_EExMMx"
+		},
+		{
+			"id": "72eb8",
+			"name": "m144_EExMMx"
+		},
+		{
+			"id": "6f4a2",
+			"name": "m145_EExMMx"
+		},
+		{
+			"id": "71543",
+			"name": "m146_EExMMx"
+		},
+		{
+			"id": "977f6",
+			"name": "m147_EExMMx"
+		},
+		{
+			"id": "3d3d1",
+			"name": "m148_EExMMx"
+		},
+		{
+			"id": "703ef",
+			"name": "m149_EExMMx"
+		},
+		{
+			"id": "6b6d3",
+			"name": "m150_EExMMx"
+		},
+		{
+			"id": "c876d",
+			"name": "m151_EExMMx"
+		},
+		{
+			"id": "2582a",
+			"name": "m252_Mx"
+		},
+		{
+			"id": "0c385",
+			"name": "m153_EExMMx"
+		},
+		{
+			"id": "24fd8",
+			"name": "m154_EExMMx"
+		},
+		{
+			"id": "89216",
+			"name": "m155_EExMMx"
+		},
+		{
+			"id": "55ad6",
+			"name": "m156_EExMMx"
+		},
+		{
+			"id": "e2ea5",
+			"name": "m157_E"
+		},
+		{
+			"id": "e0de0",
+			"name": "m157_Ex"
+		},
+		{
+			"id": "8ef28",
+			"name": "m257_M"
+		},
+		{
+			"id": "195db",
+			"name": "m257_Mx"
+		},
+		{
+			"id": "7ca6d",
+			"name": "m158_Ex"
+		},
+		{
+			"id": "6e53f",
+			"name": "m258_Mx"
+		}
+	],
+	"glossary": [
+		{
+			"id": "g_alarm_pheromone_E-Ex-M-Mx",
+			"name": "g_alarm_pheromone_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_area_E-Ex-M-Mx",
+			"name": "g_area_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_barbed_wire_E-Ex-M-Mx",
+			"name": "g_barbed_wire_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_blood_vessel_E-Ex-M-Mx",
+			"name": "g_blood_vessel_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_colony_E-Ex-M-Mx",
+			"name": "g_colony_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_deforestation_E-Ex-M-Mx",
+			"name": "g_deforestation_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_dominant_E-Ex-M-Mx",
+			"name": "g_dominant_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_endangered_E-Ex-M-Mx",
+			"name": "g_endangered_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_evolved_E-Ex-M-Mx",
+			"name": "g_evolved_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_external_E-Ex-M-Mx",
+			"name": "g_external_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_extinction_E-Ex-M-Mx",
+			"name": "g_extinction_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_fertilization_E-Ex-M-Mx",
+			"name": "g_fertilization_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_function_E-Ex-M-Mx",
+			"name": "g_function_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_group_conflict_E-Ex-M-Mx",
+			"name": "g_group_conflict_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_herds_E-Ex-M-Mx",
+			"name": "g_herds_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_hierarchy_E-Ex-M-Mx",
+			"name": "g_hierarchy_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_hive_E-Ex-M-Mx",
+			"name": "g_hive_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_hypothesis_E-Ex-M-Mx",
+			"name": "g_hypothesis_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_internal_E-Ex-M-Mx",
+			"name": "g_internal_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_keystone_species_E-Ex-M-Mx",
+			"name": "g_keystone_species_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_learned_behavior_E-Ex-M-Mx",
+			"name": "g_learned_behavior_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_memory_E-Ex-M-Mx",
+			"name": "g_memory_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_mutually_beneficial_E-Ex-M-Mx",
+			"name": "g_mutually_beneficial_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_nectar_E-Ex-M-Mx",
+			"name": "g_nectar_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_oxygen_E-Ex-M-Mx",
+			"name": "g_oxygen_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_pheromones_E-Ex-M-Mx",
+			"name": "g_pheromones_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_poachers_E-Ex-M-Mx",
+			"name": "g_poachers_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_pollination_E-Ex-M-Mx",
+			"name": "g_pollination_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_predators_E-Ex-M-Mx",
+			"name": "g_predators_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_predict_E-Ex-M-Mx",
+			"name": "g_predict_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_resources_E-Ex-M-Mx",
+			"name": "g_resources_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_senses_E-Ex-M-Mx",
+			"name": "g_senses_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_signal_E-Ex-M-Mx",
+			"name": "g_signal_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_social_interaction_E-Ex-M-Mx",
+			"name": "g_social_interaction_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_species_E-Ex-M-Mx",
+			"name": "g_species_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_structure_E-Ex-M-Mx",
+			"name": "g_structure_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_trampled_E-Ex-M-Mx",
+			"name": "g_trampled_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_trunks_E-Ex-M-Mx",
+			"name": "g_trunks_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_tusks_E-Ex-M-Mx",
+			"name": "g_tusks_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_waggle_dance_E-Ex-M-Mx",
+			"name": "g_waggle_dance_E-Ex-M-Mx"
+		},
+		{
+			"id": "g_wildlife_biologist_E-Ex-M-Mx",
+			"name": "g_wildlife_biologist_E-Ex-M-Mx"
+		}
+	],
+	"blocks": [
+		{
+			"id": "farmMapSimClose-pB",
+			"label": "farmMapSimClose",
+			"category": "AGB",
+			"attributes": {
+				"class": "customBlock fa fa-map-o"
+			},
+			"content": "<div class=\"simParent \" data-gjs-custom-name=\"SimBackgroundWrapper\"><widget-sim-view id=\"id41\" scenename=\"Sahara_Farm_Map\" simstateid=\"0qs1lx\" :visible=\"true\" :enabled=\"true\" play-state=\"default\" :muted=\"false\" class=\"simPreview \" data-gjs-custom-name=\"Widget-sim-view\"></widget-sim-view><div class=\"simPageContent  farmMapSimClose_PageContent\" data-gjs-custom-name=\"farmMapSimClose_PageContent\"><div class=\"\" data-gjs-custom-name=\"div_farmGrid\"></div><div class=\" div_belowGrid\" data-gjs-custom-name=\"div_belowGrid\"></div><div class=\" div_farmMapSimKey\" data-gjs-custom-name=\"div_farmMapSimKey\"><div class=\" div_farmMapSimKeyItem\" data-gjs-custom-name=\"div_farmMapSimKeyItem_Cotton\"><widget-image src=\"../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png\" :visible=\"true\" id=\"i6dk\" class=\" image_farmMapSimKeyItem\" data-gjs-custom-name=\"image_farmMapSimKeyItem\"></widget-image><p class=\" text_farmMapSimKeyItem\" data-gjs-custom-name=\"text_farmMapSimKeyItem\">Cotton</p></div><div class=\" div_farmMapSimKeyItem\" data-gjs-custom-name=\"div_farmMapSimKeyItem_Corn\"><widget-image src=\"../../assets/images/icons/corn_PlantSilking_Icon_IMG.png\" :visible=\"true\" id=\"irrrc\" class=\" image_farmMapSimKeyItem\" data-gjs-custom-name=\"image_farmMapSimKeyItem\"></widget-image><p class=\" text_farmMapSimKeyItem\" data-gjs-custom-name=\"text_farmMapSimKeyItem\">Corn</p></div><div class=\" div_farmMapSimKeyItem\" data-gjs-custom-name=\"div_farmMapSimKeyItem_TCorn\"><widget-image src=\"../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png\" :visible=\"true\" id=\"i6xdp\" class=\" image_farmMapSimKeyItem\" data-gjs-custom-name=\"image_farmMapSimKeyItem\"></widget-image><p class=\" text_farmMapSimKeyItem\" data-gjs-custom-name=\"text_farmMapSimKeyItem\">Trampled Corn</p></div><div class=\" div_farmMapSimKeyItem\" data-gjs-custom-name=\"div_farmMapSimKeyItem_TCotton\"><widget-image src=\"../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png\" :visible=\"true\" id=\"i2w65\" class=\" image_farmMapSimKeyItem\" data-gjs-custom-name=\"image_farmMapSimKeyItem\"></widget-image><p class=\" text_farmMapSimKeyItem\" data-gjs-custom-name=\"text_farmMapSimKeyItem\">Trampled Cotton</p></div><div class=\" div_farmMapSimKeyItem\" data-gjs-custom-name=\"div_farmMapSimKeyItem_Beehive\"><widget-image src=\"../../assets/images/icons/beehive_Manmade2_Icon_IMG.png\" :visible=\"true\" id=\"i4geh\" class=\" image_farmMapSimKeyItem\" data-gjs-custom-name=\"image_farmMapSimKeyItem\"></widget-image><p class=\" text_farmMapSimKeyItem\" data-gjs-custom-name=\"text_farmMapSimKeyItem\">Beehive</p></div></div></div></div><style>.simPreview.$pageID${width:100%;height:100%;z-index:0;top:0px;right:0px;position:absolute;background-color:#000000;}.simParent.$pageID${width:100%;height:100%;position:relative;top:0px;margin:0em 0px 0px 0px;}.simPageContent.$pageID${z-index:1;position:relative;width:100%;height:100%;}.div_PlayReplay.$pageID${display:flex;flex-direction:row;align-items:center;width:auto;padding:1.5vh;border-width:0.2vh;border-style:solid;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;border-radius:1.5vh;}.text_PlayReplay.$pageID${margin-left:1.5vh;}.div_belowGrid.$pageID${display:grid;align-items:center;}</style>"
+		},
+		{
+			"id": "farmMapSim_MultipleChoice-pB",
+			"label": "farmMapSim_MultipleChoice",
+			"category": "AGB",
+			"attributes": {
+				"class": "customBlock fa fa-map"
+			},
+			"content": "<div class=\"simParent \" data-gjs-custom-name=\"SimBackgroundWrapper\"><widget-sim-view id=\"iufi\" scenename=\"Sahara_Farm_Map\" simstateid=\"6s124l\" :visible=\"true\" :enabled=\"true\" play-state=\"default\" :muted=\"false\" class=\"simPreview \" data-gjs-custom-name=\"Widget-sim-view\"></widget-sim-view><div class=\"simPageContent  farmMapSim_PageContent\" data-gjs-custom-name=\"farmMapSim_PageContent\"><div class=\" div_pageTop\" data-gjs-custom-name=\"div_pageTop\"></div><div class=\" div_farmMapSim_pageBottom\" data-gjs-custom-name=\"div_farmMapSim_pageBottom\"><div class=\" div_farmMapSim_questionText\" data-gjs-custom-name=\"div_farmMapSim_questionText\"><p class=\"colorWhite \" data-gjs-custom-name=\"questionText\">The field is 100 meters long and 50 meters wide.<br data-gjs-custom-name=\"Br\">What is the  of the field? (Area = length x width)</p><div class=\"\" data-gjs-custom-name=\"div_questionText2\"><widget-button :visible=\"false\" :enabled=\"true\" id=\"ii5q\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ii5q',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iwav',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonBasic-Grey buttonBlinkBlue marginTop1 \" data-gjs-custom-name=\"button_Next\"><p class=\"\" data-gjs-custom-name=\"text\">Next</p></widget-button><container-show-hide :visible=\"false\" id=\"iwav\" class=\"\" data-gjs-custom-name=\"SH_Text2\"><p class=\" colorWhite\" data-gjs-custom-name=\"text_2\">Body text</p></container-show-hide></div></div><container-enable-disable :visible=\"true\" :enabled=\"true\" id=\"iwmn\" class=\" div_farmMapSim_buttonsGrp\" data-gjs-custom-name=\"div_farmMapSim_buttonsGrp\"><div class=\" grid_farmMapSim_3ButtonColumns\" data-gjs-custom-name=\"grid_farmMapSim_3ButtonColumns\"><widget-radio :visible=\"true\" :enabled=\"true\" id=\"iu5g\" group=\"ixsj9\" class=\"buttonRadio Variation radioFillHeight  colorWhite\" data-gjs-custom-name=\"farmMapSim_Radio1\"><p class=\"text_ButtonTitle \" data-gjs-custom-name=\"text_ButtonTitle1\">Title 1</p></widget-radio><widget-radio :visible=\"true\" :enabled=\"true\" id=\"idjf\" group=\"ixsj9\" class=\"buttonRadio Variation radioFillHeight  colorWhite\" data-gjs-custom-name=\"farmMapSim_Radio2\"><p class=\"text_ButtonTitle \" data-gjs-custom-name=\"text_ButtonTitle2\">Title 2</p></widget-radio><widget-radio :visible=\"true\" :enabled=\"true\" id=\"i13h\" group=\"ixsj9\" class=\"buttonRadio Variation radioFillHeight  colorWhite\" data-gjs-custom-name=\"farmMapSim_Radio3\"><p class=\"text_ButtonTitle \" data-gjs-custom-name=\"text_ButtonTitle3\">Title 3</p></widget-radio></div></container-enable-disable><div class=\" div_farmMapSim_CI\" data-gjs-custom-name=\"div_farmMapSim_CI\"><container-show-hide :visible=\"false\" id=\"ihox\" class=\"\" data-gjs-custom-name=\"SH_Correct\"><p class=\"dropShadow textBackgroundBasic textBackground-Correct \" data-gjs-custom-name=\"text_Correct\"><strong data-gjs-custom-name=\"Text\">Correct!</strong> The field is a rectangle and the area of the rectangle is the length multiplied by the width (100 x 50 = 5,000).</p></container-show-hide><container-show-hide :visible=\"false\" id=\"imd8\" class=\"\" data-gjs-custom-name=\"SH_Incorrect\"><p class=\"dropShadow textBackgroundBasic textBackground-Incorrect \" data-gjs-custom-name=\"text_Incorrect\"><strong class=\"\" data-gjs-custom-name=\"text_Bold\">Incorrect.</strong> Explanation here</p></container-show-hide></div><div class=\" div_farmMapSim_Submit\" data-gjs-custom-name=\"div_farmMapSim_Submit\"><widget-button :visible=\"false\" :enabled=\"true\" id=\"i1e2\" :conditions=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ixsj9',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i1e2',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iwmn',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i1e2',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ixsj9',selected:'radioIDEquals',radioID:'i13h'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihox',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i13h',key:'correctStyle',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'imd8',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}\" class=\"buttonBasic-Grey marginTop1 buttonBlinkBlue \" data-gjs-custom-name=\"button_Submit\"><p class=\"marginLeft2 marginRight2 \" data-gjs-custom-name=\"text_Submit\">Submit</p></widget-button></div></div></div></div><style>.simPreview.$pageID${width:100%;height:100%;z-index:0;top:0px;right:0px;position:absolute;background-color:#000000;}.simParent.$pageID${width:100%;height:100%;position:relative;top:0px;}.simPageContent.$pageID${z-index:1;position:relative;width:100%;height:100%;}</style>"
+		},
+		{
+			"id": "Handbook Start-pB",
+			"label": "Handbook Start",
+			"category": "AGB",
+			"attributes": {
+				"class": "customBlock "
+			},
+			"content": "<div class=\"grid_T51 \" data-gjs-custom-name=\"grid_T51_page_m00\"><div class=\"grid_Clipping \" data-gjs-custom-name=\"grid_Clipping\"><div class=\"grid_Visuals \" data-gjs-custom-name=\"grid_Visuals\"><widget-video-player id=\"iyyzi\" :visible=\"true\" play-state=\"default\" :muted=\"true\" :speed=\"1\" :loop=\"true\" :controls=\"false\" :auto-play=\"true\" :enable-scrub=\"false\" :start-time=\"0\" :end-time=\"0\" poster=\"../../assets/movies/water_ElephantsDrink_1_compressed.mp4\" src-mp4=\"../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.mp4\" src-webm=\"../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.webm\" class=\"videoFill video_Styles \" data-gjs-custom-name=\"video_1\"></widget-video-player></div></div><div class=\"item1_T51 dropShadow colorWhite \" data-gjs-custom-name=\"item1_T51_Title\"><h3 class=\"\" data-gjs-custom-name=\"text_Title_Top\">Welcome to the</h3><h2 class=\"\" data-gjs-custom-name=\"text_Title_Bottom\">Animal Group Behavior<br data-gjs-custom-name=\"Br\">​​​​​​​Handbook</h2></div><container-enable-disable :visible=\"true\" :enabled=\"true\" id=\"i6k3\" :conditions=\"{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:1}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"ED_UnlockNextPage_OnPageLoad \" data-gjs-custom-name=\"ED_UnlockNextPage_OnPageLoad\"></container-enable-disable></div><style>.grid_T51.$pageID${display:grid;grid-template-rows:min-content 1fr;padding:0 0 0 0;background-image:none;background-repeat:no-repeat;background-attachment:local;background-position:center center;background-size:cover;width:100%;height:100%;}.item1_T51.$pageID${grid-column-start:1;grid-column-end:4;grid-row-start:1;grid-row-end:span 1;padding:6vh 6vh 6vh 6vh;justify-self:stretch;width:100%;border-color:#3e3e3e;background-color:rgba(0, 0, 0, 0.76);z-index:2;}.ED_UnlockNextPage_OnPageLoad.$pageID${min-height:0px;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;justify-self:start;align-self:start;width:0;height:0;}.grid_Main.$pageID${display:grid;width:100%;height:100%;grid-template-columns:1fr;grid-template-rows:1fr;}.grid_T4.$pageID${z-index:3;width:100%;height:100%;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;display:grid;grid-template-columns:1fr;grid-template-rows:min-content 1fr;padding:6vh;}.item1_T4.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:1;grid-row-end:span 1;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;}.grid_Clipping.$pageID${overflow:hidden;-webkit-mask-image:-webkit-radial-gradient(center, white, black);width:100%;height:100%;display:grid;grid-template-columns:1fr;grid-template-rows:1fr;grid-column-start:1;grid-column-end:4;grid-row-start:1;grid-row-end:3;}.grid_Visuals.$pageID${display:grid;grid-template-columns:1fr;grid-template-rows:1fr;height:102%;width:102%;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;justify-self:center;align-self:center;}.video_Styles.$pageID${z-index:0;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;align-self:stretch;justify-self:stretch;}.div_PlayReplay.$pageID${display:flex;flex-direction:row;align-items:center;width:auto;padding:1.5vh;border-width:0.2vh solid;border-radius:1.5vh;grid-column-start:1;grid-column-end:2;grid-row-start:2;grid-row-end:3;justify-self:start;align-self:end;}.text_PlayReplay.$pageID${margin-left:1.5vh;}</style>"
+		},
+		{
+			"id": "Fullscreen Video Layout-pB",
+			"label": "Fullscreen Video Layout",
+			"category": "Layout: General",
+			"content": "<div class=\"grid_Main \" data-gjs-custom-name=\"grid_Main\"><div class=\"grid_T4 \" data-gjs-custom-name=\"grid_T4_HandbookTextTop\"><div class=\"item1_T4 dropShadow textBackgroundBasic textBackground-DarkBlue \" data-gjs-custom-name=\"item1_T4\"><p class=\"text_1 \" data-gjs-custom-name=\"text_1\">Body text</p></div><div class=\"textBackground-DarkBlue div_PlayReplay \" data-gjs-custom-name=\"div_PlayReplay\"><widget-button :visible=\"true\" :enabled=\"true\" id=\"ixug\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ife4',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'removeClasses',widgetID:'ixug',classes:'buttonBgImgBlinkBlue '},fireOnceID:' RemoveButtonBlinkBlueFromPlayOnClick_',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonPlay buttonBgImgBlinkBlue \" data-gjs-custom-name=\"button_Play\"></widget-button><widget-button :visible=\"false\" :enabled=\"true\" id=\"ifg6\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ife4',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ife4',key:'playState',val:'play'},fireOnceID:'',delay:0.05}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonReplay \" data-gjs-custom-name=\"button_Replay\"></widget-button><p class=\"text_PlayReplay \" data-gjs-custom-name=\"text\">text</p></div></div><div class=\"grid_Clipping \" data-gjs-custom-name=\"grid_Clipping\"><div class=\"grid_Visuals \" data-gjs-custom-name=\"grid_Visuals\"><widget-video-player id=\"ife4\" :visible=\"true\" play-state=\"default\" :muted=\"true\" :speed=\"1\" :loop=\"false\" :controls=\"false\" :auto-play=\"false\" :enable-scrub=\"false\" :start-time=\"0\" :end-time=\"0\" :end-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ixug',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ifg6',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" :conditions=\"{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ife4',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ife4',key:'playState',val:'play'},fireOnceID:'',delay:0.05}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"videoFill video_Styles \" data-gjs-custom-name=\"video_1\"></widget-video-player></div></div></div><style>.grid_Main.$pageID${display:grid;width:100%;height:100%;grid-template-columns:1fr;grid-template-rows:1fr;}.grid_T4.$pageID${z-index:3;width:100%;height:100%;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;display:grid;grid-template-columns:1fr;grid-template-rows:min-content 1fr;padding:6vh;}.item1_T4.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:1;grid-row-end:span 1;}.grid_Clipping.$pageID${overflow:hidden;-webkit-mask-image:-webkit-radial-gradient(center, white, black);width:100%;height:100%;display:grid;grid-template-columns:1fr;grid-template-rows:1fr;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;}.grid_Visuals.$pageID${display:grid;grid-template-columns:1fr;grid-template-rows:1fr;height:102%;width:102%;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;justify-self:center;align-self:center;min-width:100%;min-height:100%;}.video_Styles.$pageID${z-index:0;grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;align-self:stretch;justify-self:stretch;}.div_PlayReplay.$pageID${display:flex;flex-direction:row;align-items:center;width:auto;padding:1.5vh;border-width:0.2vh solid;border-radius:1.5vh;grid-column-start:1;grid-column-end:2;grid-row-start:2;grid-row-end:3;justify-self:start;align-self:end;}.text_PlayReplay.$pageID${margin-left:1.5vh;}</style>",
+			"attributes": {
+				"class": "customBlock "
+			}
+		},
+		{
+			"id": "Sim - Full Page + Text Box Dark Blue-pB",
+			"label": "Sim - Full Page + Text Box Dark Blue",
+			"category": "Layout: General",
+			"content": "<div class=\"simParent \" data-gjs-custom-name=\"page_SimParent_FullPage\"><widget-sim-view id=\"itwr\" scenename=\"\" simstateid=\"\" :visible=\"true\" :enabled=\"true\" play-state=\"default\" :end-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i9bp',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iddg',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" :muted=\"false\" class=\"simPreview \" data-gjs-custom-name=\"widget_SimView\"></widget-sim-view><div class=\"grid_T62 simPageContent \" data-gjs-custom-name=\"grid_T62_SimPageContent\"><div class=\"dropShadow textBackgroundBasic textBackground-DarkBlue item1_T62 \" data-gjs-custom-name=\"item1_T62_text_BkgDarkBlue\"><p class=\"\" data-gjs-custom-name=\"text_1\">Text Box Blue</p></div><div class=\"item2_T62 div_PlayReplay colorBkgndGrey2 marginLeft2 \" data-gjs-custom-name=\"item2_T62_div_PlayReplay\"><widget-button :visible=\"true\" :enabled=\"true\" id=\"i9bp\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'itwr',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'removeClasses',widgetID:'i9bp',classes:'buttonBlinkBlue '},fireOnceID:'RemoveButtonBlinkBlueFromPlayOnClick_',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonPlay  buttonBgImgBlinkBlue\" data-gjs-custom-name=\"button_Play\"></widget-button><widget-button :visible=\"false\" :enabled=\"true\" id=\"iddg\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'itwr',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itwr',key:'playState',val:'play'},fireOnceID:'',delay:0.05}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonReplay \" data-gjs-custom-name=\"button_Replay\"></widget-button><p class=\"text_PlayReplay \" data-gjs-custom-name=\"text_Label\">Label</p></div></div></div><style>.grid_T62.$pageID${display:grid;grid-template-columns:1fr;grid-template-rows:min-content 1fr;grid-column-gap:0vh;grid-row-gap:0vh;width:100%;height:100%;padding:6vh;}.item1_T62.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:1;grid-row-end:span 1;}.item2_T62.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:2;grid-row-end:span 1;justify-self:start;align-self:end;}.div_PlayReplay.$pageID${display:flex;flex-direction:row;align-items:center;width:auto;padding:1.5vh 1.5vh 1.5vh 1.5vh;border:.2vh solid rgba(205,204,204,1);border-radius:1.5vh 1.5vh 1.5vh 1.5vh;}.text_PlayReplay.$pageID${margin-left:1.5vh;}.simPreview.$pageID${width:100%;height:100%;z-index:1;top:0px;right:0px;position:absolute;background-color:rgb(255, 255, 255);}.simParent.$pageID${width:100%;height:100%;position:relative;top:0px;margin-top:0em;margin-right:0px;margin-bottom:0px;margin-left:0px;}.simPageContent.$pageID${z-index:2;position:relative;}</style>",
+			"attributes": {
+				"class": "customBlock "
+			}
+		},
+		{
+			"id": "Sim - Full Page + Text Box White-pB",
+			"label": "Sim - Full Page + Text Box White",
+			"category": "Layout: General",
+			"content": "<div class=\"simParent \" data-gjs-custom-name=\"page_SimParent_FullPage\"><widget-sim-view id=\"ihzh\" scenename=\"\" simstateid=\"\" :visible=\"true\" :enabled=\"true\" play-state=\"default\" :end-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iv6j',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ih7b',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" :muted=\"false\" class=\"simPreview \" data-gjs-custom-name=\"widget_SimView\"></widget-sim-view><div class=\"grid_T62 simPageContent \" data-gjs-custom-name=\"grid_T62_SimPageContent\"><div class=\"dropShadow textBackgroundBasic item1_T62 \" data-gjs-custom-name=\"item1_T62_text\"><p class=\"\" data-gjs-custom-name=\"text_1\">Text Box Blue</p></div><div class=\"item2_T62 div_PlayReplay colorBkgndGrey2 marginLeft2 \" data-gjs-custom-name=\"item2_T62_div_PlayReplay\"><widget-button :visible=\"true\" :enabled=\"true\" id=\"iv6j\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihzh',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'removeClasses',widgetID:'iv6j',classes:'buttonBlinkBlue '},fireOnceID:'RemoveButtonBlinkBlueFromPlayOnClick_',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonPlay buttonBgImgBlinkBlue \" data-gjs-custom-name=\"button_Play\"></widget-button><widget-button :visible=\"false\" :enabled=\"true\" id=\"ih7b\" :click-effects=\"{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihzh',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihzh',key:'playState',val:'play'},fireOnceID:'',delay:0.05}],effectsFail:[],responsesPass:[],responsesFail:[]}]}\" class=\"buttonReplay \" data-gjs-custom-name=\"button_Replay\"></widget-button><p class=\"text_PlayReplay \" data-gjs-custom-name=\"text_Label\">Label</p></div></div></div><style>.grid_T62.$pageID${display:grid;grid-template-columns:1fr;grid-template-rows:min-content 1fr;grid-column-gap:0vh;grid-row-gap:0vh;width:100%;height:100%;padding:6vh;}.item1_T62.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:1;grid-row-end:span 1;}.item2_T62.$pageID${grid-column-start:1;grid-column-end:span 1;grid-row-start:2;grid-row-end:span 1;justify-self:start;align-self:end;}.div_PlayReplay.$pageID${display:flex;flex-direction:row;align-items:center;width:auto;padding:1.5vh 1.5vh 1.5vh 1.5vh;border:.2vh solid rgba(205,204,204,1);border-radius:1.5vh 1.5vh 1.5vh 1.5vh;}.text_PlayReplay.$pageID${margin-left:1.5vh;}.simPreview.$pageID${width:100%;height:100%;z-index:1;top:0px;right:0px;position:absolute;background-color:rgb(255, 255, 255);}.simParent.$pageID${width:100%;height:100%;position:relative;top:0px;margin-top:0em;margin-right:0px;margin-bottom:0px;margin-left:0px;}.simPageContent.$pageID${z-index:2;position:relative;}</style>",
+			"attributes": {
+				"class": "customBlock "
+			}
+		},
+		{
+			"id": "Submit Div-pB",
+			"label": "Submit Div",
+			"category": "Cluster: Assessments",
+			"content": "<div class=\" div_Submit\" data-gjs-custom-name=\"div_Submit\"><widget-button :visible=\"true\" :enabled=\"true\" id=\"i6zv\" class=\"buttonBasic-Grey buttonBlinkBlue  button_Submit\" data-gjs-custom-name=\"button_Submit\"><p class=\"\" data-gjs-custom-name=\"text\">Submit</p></widget-button><widget-button :visible=\"true\" :enabled=\"true\" id=\"iixf\" class=\"buttonBasic-Grey  button_Reset\" data-gjs-custom-name=\"button_Reset\"><p class=\"\" data-gjs-custom-name=\"text\">Reset</p></widget-button><container-show-hide :visible=\"true\" id=\"icft\" class=\"dropShadow textBackgroundBasic textBackground-Incorrect  SH_CorrectIncorrect\" data-gjs-custom-name=\"text_BkgIncorrect_SH\"><p class=\"\" data-gjs-custom-name=\"Text\"><strong class=\"\" data-gjs-custom-name=\"Text\">Incorrect.</strong> Explanation...</p></container-show-hide><container-show-hide :visible=\"true\" id=\"ir99\" class=\"dropShadow textBackgroundBasic textBackground-Correct  SH_CorrectIncorrect\" data-gjs-custom-name=\"text_BkgCorrect_SH\"><p class=\"\" data-gjs-custom-name=\"Text\"><strong class=\"\" data-gjs-custom-name=\"Text\">Correct!</strong> Explanation...</p></container-show-hide></div><style>.div_Submit.$pageID${display:grid;grid-template-columns:1fr;grid-template-rows:min-content 1fr;grid-row-gap:2vh;}.$pageID$.button_Reset{grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;justify-self:end;align-self:start;}.$pageID$.button_Submit{grid-column-start:1;grid-column-end:2;grid-row-start:1;grid-row-end:2;justify-self:start;align-self:start;}.$pageID$.SH_CorrectIncorrect{grid-column-start:1;grid-column-end:2;grid-row-start:2;grid-row-end:3;}</style>",
+			"attributes": {
+				"class": "customBlock "
+			}
+		}
+	]
+}

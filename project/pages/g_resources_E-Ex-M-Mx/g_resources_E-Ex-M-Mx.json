@@ -1,0 +1,71 @@
+
+{
+  "gjs-components": [
+    {
+      "tagName": "div",
+      "type": "text",
+      "name": "",
+      "removable": true,
+      "draggable": true,
+      "droppable": false,
+      "badgable": true,
+      "stylable": true,
+      "stylable-require": "",
+      "style-signature": "",
+      "unstylable": "",
+      "highlightable": true,
+      "copyable": true,
+      "resizable": false,
+      "editable": true,
+      "layerable": true,
+      "selectable": true,
+      "hoverable": true,
+      "void": false,
+      "state": "",
+      "status": "selected",
+      "content": "<p><p><span >Resources are things needed for survival and reproduction.</span></p><br><p><span >These can include food, water, shelter, and territory.</span></p><br><p><span >If there are not enough resources to go around, animal groups may become smaller.</span></p><br></p>",
+      "icon": "",
+      "style": "",
+      "classes": [
+        {
+          "name": "page-g_resources_E-Ex-M-Mx",
+          "label": "page-g_resources_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "script": "",
+      "attributes": {},
+      "propagate": "",
+      "dmode": "",
+      "tag Name": "div",
+      "custom-name": "definition",
+      "components": [],
+      "open": false
+    }
+  ],
+  "gjs-styles": [
+    {
+      "selectors": [
+        {
+          "name": "page-g_resources_E-Ex-M-Mx",
+          "label": "page-g_resources_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "selectorsAdd": "",
+      "style": {},
+      "mediaText": "",
+      "state": "",
+      "stylable": true,
+      "atRuleType": "",
+      "singleAtRule": 0,
+      "important": 0
+    }
+  ]
+}

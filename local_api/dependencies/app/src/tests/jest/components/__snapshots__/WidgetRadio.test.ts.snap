@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetRadio matches html snapshot 1`] = `
+<span
+  class="radioParent"
+>
+  <input
+    id="testWidget"
+    name=""
+    type="radio"
+    value="testWidget"
+  />
+   
+  <label
+    class="radioButton noSelect"
+    for="testWidget"
+  >
+    <span
+      class="checkmark"
+    />
+     
+    <span
+      class="slot"
+    />
+     
+    <!---->
+  </label>
+</span>
+`;

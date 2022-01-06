@@ -1,0 +1,471 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"fillMode": "FILL_WINDOW",
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"use3dPhysics": false,
+		"preferWebGl2": true,
+		"preserveDrawingBuffer": false,
+		"scripts": [13081536],
+		"transparentCanvas": false,
+		"useDevicePixelRatio": true,
+		"useLegacyScripts": false,
+		"vr": false,
+		"loadingScreenScript": null,
+		"batchGroups": [],
+		"layers": {
+			"0": {
+				"name": "World",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "Depth",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Skybox",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "Immediate",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "UI",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			}
+		},
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"_o": "5b312a35c0cba911eb0b9e7c",
+		"libraries": []
+	},
+	"scenes": [
+		{
+			"name": "doubleTest",
+			"url": "621543.json"
+		}
+	],
+	"assets": {
+		"13007544": {
+			"tags": [],
+			"name": "enzymePepsin.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 1439,
+				"triangles": 2742,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"color": 1,
+					"texCoord0": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 13007545
+					}
+				],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": "84fd1a10bc3b1c8d4fee19c8a24fdddc",
+				"filename": "enzymePepsin.json",
+				"size": 153197,
+				"url": "files/assets/13007544/1/enzymePepsin.json"
+			},
+			"_o": "5b2aae53c7fa7536c917b628",
+			"id": "13007544"
+		},
+		"13007545": {
+			"tags": [],
+			"name": "pepsin_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [0, 0, 0],
+				"diffuse": [
+					0.30196078431372547,
+					0.592156862745098,
+					0.09803921568627451
+				],
+				"specular": [0.5, 0.5, 0.5],
+				"shininess": 45.34,
+				"emissive": [0, 0, 0],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [1, 1],
+				"aoMapOffset": [0, 0],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [1, 1],
+				"diffuseMapOffset": [0, 0],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [1, 1],
+				"specularMapOffset": [0, 0],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [1, 1],
+				"metalnessMapOffset": [0, 0],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [1, 1],
+				"glossMapOffset": [0, 0],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [1, 1],
+				"emissiveMapOffset": [0, 0],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [1, 1],
+				"normalMapOffset": [0, 0],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [1, 1],
+				"heightMapOffset": [0, 0],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [1, 1],
+				"opacityMapOffset": [0, 0],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [0, 0, 0],
+					"halfExtents": [0.5, 0.5, 0.5]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [1, 1],
+				"lightMapOffset": [0, 0],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5b2aaf396d70ad318c4cc1a9",
+			"id": "13007545"
+		},
+		"13081536": {
+			"tags": [],
+			"name": "playcanvas-scripts.dev.build.js",
+			"revision": 1,
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"SimStateManager": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"ApiReporter": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"unlitMaterial": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"unlitRimMaterial": {
+						"attributesOrder": ["rimColor", "rimWidth"],
+						"attributes": {
+							"rimColor": {
+								"type": "rgb",
+								"default": [1, 0.494, 0.494]
+							},
+							"rimWidth": {
+								"type": "number",
+								"default": 0.3
+							}
+						}
+					},
+					"turntable": {
+						"attributesOrder": [
+							"cameraEntity",
+							"orbitSensitivity",
+							"rotateX",
+							"rotateY"
+						],
+						"attributes": {
+							"cameraEntity": {
+								"type": "entity",
+								"title": "Camera Entity"
+							},
+							"orbitSensitivity": {
+								"type": "number",
+								"default": 0.3,
+								"title": "Orbit Sensitivity",
+								"description":
+									"How fast the camera moves around the orbit. Higher is faster"
+							},
+							"rotateX": {
+								"type": "boolean",
+								"default": true,
+								"title": "Turntable X Axis",
+								"description": "Turntable around the X axis"
+							},
+							"rotateY": {
+								"type": "boolean",
+								"default": true,
+								"title": "Turntable Y Axis",
+								"description": "Turntable around the Y axis"
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "__game-scripts.js",
+				"size": 64621,
+				"hash": "646b4318da34734387897586665ceb3f",
+				"url": "../../../lib/playcanvas-scripts.min.js"
+			},
+			"region": "eu-west-1",
+			"_o": "5b31403f2c951c120298978f",
+			"id": "13081536"
+		},
+		"13124244": {
+			"tags": [],
+			"name": "enzymeDenatured.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": null,
+			"data": {
+				"mapping": [
+					{
+						"material": 13124245
+					}
+				],
+				"area": 0
+			},
+			"type": "model",
+			"file": {
+				"hash": "3ef2bf46c522227670eee4b26f4c8b60",
+				"filename": "enzymeDenatured.json",
+				"size": 208412,
+				"url": "files/assets/13124244/1/enzymeDenatured.json"
+			},
+			"_o": "5b33c7d2e403ca4080fbc93a",
+			"id": "13124244"
+		},
+		"13124245": {
+			"tags": [],
+			"name": "lambert1",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [0, 0, 0],
+				"diffuse": [0.403921568627451, 0, 0.6941176470588235],
+				"specular": [0, 0, 0],
+				"shininess": 0,
+				"emissive": [0, 0, 0],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [1, 1],
+				"aoMapOffset": [0, 0],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [1, 1],
+				"diffuseMapOffset": [0, 0],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [1, 1],
+				"specularMapOffset": [0, 0],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [1, 1],
+				"metalnessMapOffset": [0, 0],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [1, 1],
+				"glossMapOffset": [0, 0],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [1, 1],
+				"emissiveMapOffset": [0, 0],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [1, 1],
+				"normalMapOffset": [0, 0],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [1, 1],
+				"heightMapOffset": [0, 0],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [1, 1],
+				"opacityMapOffset": [0, 0],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [0, 0, 0],
+					"halfExtents": [0.5, 0.5, 0.5]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [1, 1],
+				"lightMapOffset": [0, 0],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5b33c80a6d70ad318c80f442",
+			"id": "13124245"
+		}
+	}
+}

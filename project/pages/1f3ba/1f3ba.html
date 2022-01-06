@@ -1,0 +1,29 @@
+<div class="simParent page1f3ba">
+  <widget-sim-view id="iywa" scenename="Sahara_Perspective" simstateid="8unplg" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview page1f3ba" />
+  <div class="grid_T62 simPageContent page1f3ba">
+    <div class="grid_T9 textBackgroundBasic page1f3ba item1_T62 dropShadow">
+      <p class="item1_T9 page1f3ba">What do you predict will happen to the percentage of corn that will be eaten or trampled?</p>
+      <container-enable-disable :visible="true" :enabled="true" id="ihil" class="item2_T9 page1f3ba">
+        <div class="grid_T9_ButtonsGroup page1f3ba">
+          <div class="grid_T14 item1_T9_BGroup page1f3ba">
+            <widget-radio :visible="true" :enabled="true" id="iw4k" group="isco" value="A. The percentage of corn plants eaten and trampled will increase." shared-data-write-key="GroupBehavior.M.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page1f3ba">
+              <p class="page1f3ba">A</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page1f3ba">The percentage of corn plants eaten and trampled will increase.</p>
+          </div>
+          <div class="grid_T14 item2_T9_BGroup page1f3ba">
+            <widget-radio :visible="true" :enabled="true" id="ip8i" group="isco" value="B. The percentage of corn plants eaten and trampled will decrease." shared-data-write-key="GroupBehavior.M.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page1f3ba">
+              <p class="page1f3ba">B</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page1f3ba">The percentage of corn plants eaten and trampled will decrease.</p>
+          </div>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 page1f3ba">
+        <widget-button :visible="false" :enabled="true" id="i60n" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iw4k'}},{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'ip8i'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:true},fireOnceID:'',delay:0.05}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:false},fireOnceID:'',delay:0.05}],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihil',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.M.PredictCornPlants2',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'isco'}]},fireOnceID:''}],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue page1f3ba button_Submit">
+          <p class="marginLeft2 marginRight2 buttonBlinkBlue page1f3ba">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

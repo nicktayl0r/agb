@@ -1,0 +1,1017 @@
+{
+	"rubrics": [
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": true,
+			"trackM": true,
+			"trackMX": true,
+			"key": "GroupBehavior.EExMMx.GroupSpeciesSurvival",
+			"brief": "Select all the ways living in a group helps species survive.",
+			"question": "Select all the ways living in a group helps species survive.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "3 out of 3 correct options identified",
+					"points": 3
+				},
+				{
+					"answer": "2 out of 3 correct options identified",
+					"points": 2
+				},
+				{
+					"answer": "1 out of 3 correct options identified",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "Protection against predators, help finding food and water, teaching young animals.<br />Living in a group helps species protect themselves, find food and water, and teach younger animals.",
+			"rubrique": "1 point for each correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EExMMx.GroupSpeciesSurvival_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": true,
+			"trackM": true,
+			"trackMX": true,
+			"key": "GroupBehavior.EExMMx.IdentifySenses",
+			"brief": "Drag each sense to the correct spot.",
+			"question": "Drag each sense to the correct spot.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Repeat Attempts",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "correct in 1 try",
+					"points": 5
+				},
+				{
+					"answer": "correct in 2 tries",
+					"points": 3
+				},
+				{
+					"answer": "correct in 3 tries",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "See Screenshot for reference answer.",
+			"rubrique": "Score depends on number of tries to get the correct answer.<ul> <li>5 points for one try</li><li>3 points for two tries</li><li>1 point for three tries, only three tries allowed</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EExMMx.IdentifySenses_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": true,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.Ex.StructuresToFunctions",
+			"brief": "Match the structures with their functions.",
+			"question": "Match the structures with their functions.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Repeat Attempts",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "correct in 1 try",
+					"points": 2
+				},
+				{
+					"answer": "correct in 2 tries",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "See Screenshot for reference answer.",
+			"rubrique": "Score depends on number of tries to get the correct answer.<ul> <li>2 points for one try</li><li>1 point for two tries, only two tries allowed</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.Ex.StructuresToFunctions_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": true,
+			"trackM": false,
+			"trackMX": true,
+			"key": "GroupBehavior.ExMx.DeforestedGroupSize",
+			"brief": "Do you think animal groups living in a deforested environment will be smaller or larger?",
+			"question": "Do you think animal groups living in a deforested environment will be smaller or larger?",
+			"resource_activity_rubric_skills": [
+				"Core Concepts",
+				"Predictions"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Smaller",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "Smaller<br /><br />Animal groups living in a deforested environment will be smaller. <br />Because there are less resources after deforestation, groups will have to get smaller to survive.<br />They will have to move to find more resources.<br />",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.ExMx.DeforestedGroupSize_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": true,
+			"trackM": false,
+			"trackMX": true,
+			"key": "GroupBehavior.ExMx.DeforestedGroupSizeExplanation",
+			"brief": "Do you think animal groups living in a deforested environment will be smaller or larger? Explain your answer. \n",
+			"question": "Explain your answer. ",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Short Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 2
+				}
+			],
+			"exemplar_answer": "Animal groups living in a deforested environment will be smaller. This is because there are less resources after deforestation. Groups will have to get smaller to survive. They will have to move to find more resources.",
+			"rubrique": "<li>1 point for clear and concise writing</li><li>1 point for explaining that less resources in an environment makes groups smaller</li>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.ExMx.DeforestedGroupSizeExplanation_Submitted.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": true,
+			"trackM": true,
+			"trackMX": true,
+			"key": "GroupBehavior.EExMMx.OrderElephantEvents",
+			"brief": "Click the events to put them in order from 1 to 4.",
+			"question": "Click the events to put them in order from 1 to 4.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Repeat Attempts",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "correct in 1 try",
+					"points": 3
+				},
+				{
+					"answer": "correct in 2 tries",
+					"points": 2
+				},
+				{
+					"answer": "correct in 3 tries",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "See Screenshot for reference answer.",
+			"rubrique": "Score depends on number of tries to get the correct answer.<ul> <li>3 points for one try</li><li>2 point for two tries</li><li>1 points for three tries, only three tries allowed</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EExMMx.OrderElephantEvents_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": true,
+			"trackM": true,
+			"trackMX": true,
+			"key": "GroupBehavior.EExMMx.ThingsElephantsLearn",
+			"brief": "Select all the things below that elephants learn to stay away from bees.",
+			"question": "Select all the things below that elephants learn to stay away from bees.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "4 out of 4 correct options identified",
+					"points": 2
+				},
+				{
+					"answer": "3 out of 4 correct options identified",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>Seeing other elephants run away, the pain of a bee sting, the buzzing sound of bees, the look of beehives.</p><p>All of these are things that elephants have learned to run away from bees. <br><b></b><br></p>",
+			"rubrique": "<p></p><ul><li>2 points for four out of four correct</li><li>1 point for three out of four correct, only two tries allowed</li></ul><p></p>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EExMMx.ThingsElephantsLearn_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.FarmTotalSquares",
+			"brief": "Each square is 10 meters long and 10 meters wide. \nThis means that the field is 10 squares long and 5 squares wide.\nWhat is the total number of squares in the field?",
+			"question": "What is the total number of squares in the field?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "50 squares",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>50 squares</p><p><br>The total number of squares is 50, because it is 10 squares long and 5 squares wide (10 x 5 = 50).<br><br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.FarmTotalSquares_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.FarmTotalArea",
+			"brief": "The field is 100 meters long and 50 meters wide. \nWhat is the area of the field? (Area = length x width)",
+			"question": "What is the area of the field? (Area = length x width)",
+			"resource_activity_rubric_skills": [
+				"Data Analysis"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "5,000 square meters",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>5,000 square meters.<br><br>The field is a rectangle and the area of the rectangle is the length multiplied by the width (100 x 50 = 5,000).<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.FarmTotalArea_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.FarmFractionCotton",
+			"brief": "The farmer uses 10 squares to grow cotton. \nWhat fraction of the field is used to grow cotton?",
+			"question": "What fraction of the field is used to grow cotton?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "10/50",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>10/50<br><br>Correct! 10 out of 50 total squares are used to grow cotton.<br>Fractions are written with the total on the bottom, so it is 10/50.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.FarmFractionCotton_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.SimplifiedFraction",
+			"brief": "What is another name for this simplified fraction?",
+			"question": "What is another name for this simplified fraction?",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "A Fifth",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>A Fifth.<br><br></p><p>1/5 is called a fifth. 1/3 is called a third and 1/4 is called a quarter.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.SimplifiedFraction_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.FarmFractionCorn",
+			"brief": "The farmer uses 1/5 of the field to grow cotton. \nShe uses the rest of the field to grow corn. \nWhat fraction of the field is used to grow corn?",
+			"question": "What fraction of the field is used to grow corn?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis",
+				"Data Interpretation"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "4/5",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>4/5<br><br><meta charset=\"utf-8\"><meta charset=\"utf-8\"><b style=\"font-weight:normal;\" id=\"docs-internal-guid-d379cbb2-7fff-9d23-ac9b-b7eab259282d\"></b></p><p dir=\"ltr\" style=\"font-weight: normal; line-height: 1.296; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"></span></p><p>The farmer uses 1/5 (or 10/50 squares) of the field for cotton. <br>This leaves 4/5 (or 40/50 squares) left to grow corn.<br></p><p dir=\"ltr\" style=\"font-weight: normal; line-height: 1.296; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"></span></p><p><b style=\"font-weight:normal;\" id=\"docs-internal-guid-d379cbb2-7fff-9d23-ac9b-b7eab259282d\"></b><br class=\"Apple-interchange-newline\"></p><p></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.FarmFractionCorn_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.FarmPercentCotton",
+			"brief": "What percent of the field is used to grow cotton?",
+			"question": "What percent of the field is used to grow cotton?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "20%",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>20%<br><br>10 out of 50 (10/50) squares are used to grow cotton, so the percentage used to grow cotton is 20% (0.2 x 100 = 20%).<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.FarmPercentCotton_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.FarmPercentCorn",
+			"brief": "The farmer uses 20% of the field to grow cotton. \nHe uses the rest of the field to grow corn. \nWhat percent of the field is used to grow corn?",
+			"question": "What percent of the field is used to grow corn?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis",
+				"Data Interpretation"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "80%",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>80%<br><br>The farmer uses 20% (10/50) of the field for corn. <br>This leaves 80% (40/50) of the field left to grow corn.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.FarmPercentCorn_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.TrampledPercentStep1",
+			"brief": "What percent of the corn was eaten or trampled by elephants?",
+			"question": "Drag and drop the first step for calculating percent.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Repeat Attempts",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "correct in 1 try",
+					"points": 2
+				},
+				{
+					"answer": "correct in 2 tries",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "See Screenshot for reference answer.",
+			"rubrique": "<p>Score depends on number of tries to get the correct answer.</p><ul> <li>2 points for one try</li><li>1 point for two tries, only two tries allowed</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.TrampledPercentStep1_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.TrampledPercentStep2",
+			"brief": "What percent of the corn was eaten or trampled by elephants?\nDrag and drop the second step for calculating percent.",
+			"question": "Drag and drop the second step for calculating percent.",
+			"resource_activity_rubric_skills": [
+				"Core Concepts"
+			],
+			"resource_activity_rubric_type": "Repeat Attempts",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "correct in 1 try",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "See Screenshot for reference answer.",
+			"rubrique": "<p>Score depends on number of tries to get the correct answer.</p><ul> <li>1 point for one try, only one try allowed</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.TrampledPercentStep2_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.ElephantsNotEatOrTrample",
+			"brief": "Why do you think the elephants did not eat or trample the corn near the cotton?",
+			"question": "Why do you think the elephants did not eat or trample the corn near the cotton?",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "The elephants are scared of bees. When they saw the beehives, they got scared and moved away.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><b style=\"font-weight:normal;\" id=\"docs-internal-guid-546c0061-7fff-f71c-8376-9d7001be5569\"></b></p><p dir=\"ltr\" style=\"font-weight: normal; line-height: 1.296; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"></span></p>The elephants are scared of bees. When they saw the beehives, they got scared and moved away.<br><br>The beehives stopped the elephants from eating the corn near the cotton because elephants are scared of bees.<br><p></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.ElephantsNotEatOrTrample_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.Hypothesis",
+			"brief": "Use what you have learned to decide what you think would best help the farm.",
+			"question": "Use what you have learned to decide what you think would best help the farm.\n",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Add beehives around the corn crops. The elephants will see the beehives and be scared away.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>Add beehives around the corn crops. The elephants will see the beehives and be scared away.<br><br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.Hypothesis_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.HypothesisExplanation",
+			"brief": "Then explain your choice in the box below. This is called a hypothesis.",
+			"question": "Then explain your choice in the box below. ",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Short Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 4
+				}
+			],
+			"exemplar_answer": "<p></p><p>Then explain your choice in the box below.&nbsp;</p><p>Adding bee hives to around the crops will scare the elephants away. Elephants are scared of bees because they sting them. Elephants remember that bee buzzing and the look of hives are dangerous. Bees will also defend against the elephants more if their hives are there.&nbsp;</p><p></p>",
+			"rubrique": "<br /><ul><li>1 point for stating that elephants are scared of bees and will stay away from them</li><li>1 point for stating that bees defend the crops more if their hives are there<br /></li><li>1 point for mentioning that elephants remember buzzing and look of hives</li><li>1 point for clear and concise writing</li></ul>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.HypothesisExplanation_Submitted.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.Hypothesis",
+			"brief": "Use what you have learned to decide what you think would best help the farm.",
+			"question": "Use what you have learned to decide what you think would best help the farm.\n",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Add beehives around the corn crops. The elephants will see the beehives and be scared away.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>Add beehives around the corn crops. The elephants will see the beehives and be scared away.<br><br><br></p>",
+			"rubrique": "<p>1 point for the correct answer, only one try allowed.</p>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.Hypothesis_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.HypothesisExplanation",
+			"brief": "Then explain your choice in the box below. This is called a hypothesis.",
+			"question": "Then explain your choice in the box below. ",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Short Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 4
+				}
+			],
+			"exemplar_answer": "<p>Then explain your choice in the box below. <br><br>Adding bee hives to around the crops will scare the elephants away. Elephants are scared of bees because they sting them. Elephants remember that bee buzzing and the look of hives are dangerous. Bees will also defend against the elephants more if their hives are there. </p>",
+			"rubrique": "<ul><li>1 point for stating that elephants are scared of bees and will stay away from them</li><li>1 point for stating that bees defend the crops more if their hives are there</li><li>1 point for mentioning that elephants remember buzzing and look of hives</li><li>1 point for clear and concise writing</li></ul><br />",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.HypothesisExplanation_Submitted.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.FarmFractionCornNow",
+			"brief": "The farm had 4/5 (40/50 squares) of corn before adding more cotton.\nWhat fraction of corn does the farmer have now?",
+			"question": "What fraction of corn does the farmer have now?\n",
+			"resource_activity_rubric_skills": [
+				"Data Analysis"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "23/50",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>23/50<br><br>The farmer has 23 out of 50 squares of corn now or 23/50. 23/50 is less than 40/50 so there is less corn for the farmer to eat and sell.</p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.FarmFractionCornNow_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.PredictCornPlants",
+			"brief": "What do you predict will happen to the corn plants?",
+			"question": "What do you predict will happen to the corn plants?",
+			"resource_activity_rubric_skills": [
+				"Predictions"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "B. The corn plants will be eaten and killed.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><b style=\"font-weight:normal;\" id=\"docs-internal-guid-363ab5ef-7fff-0017-c038-6f537719dfc5\"></b></p><p dir=\"ltr\" style=\"font-weight: normal; line-height: 1.296; margin-left: 36pt; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"></span></p><p>B. The corn plants will be eaten and killed.<br><br>The corn plants were still eaten and killed. There were not enough bees or hives to scare the elephants.</p><p></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.PredictCornPlants_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.HypothesisExplanation2",
+			"brief": "Explain how the cotton experiment supports your hypothesis.\n",
+			"question": "Explain how the cotton experiment supports your hypothesis.\n",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Short Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 3
+				}
+			],
+			"exemplar_answer": "<p>Explain how the cotton experiment supports your hypothesis.<br></p><p>In the cotton experiment the bees only defended their hives from the elephants. So the elephants ate and trampled the crops far away from the hives. The crops near the hives were safe. So adding hives all around the farm will protect all the crops from the elephants.</p>",
+			"rubrique": "<br><li>1 point for stating that bees defend the crops more if their hives are there</li><li>1 point for stating that the cotton experiment showed the elephants could go to crops away from the hives</li><li>1 point for clear and concise writing</li><br>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.HypothesisExplanation2_Submitted.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.HypothesisExplanation2",
+			"brief": "The experiment showed that hypothesis 2 is not correct. You can change your hypothesis. Explain how the cotton experiment supports your hypothesis.\n",
+			"question": "Explain how the cotton experiment supports your hypothesis.\n",
+			"resource_activity_rubric_skills": [
+				"Hypothesis & Reasoning"
+			],
+			"resource_activity_rubric_type": "Short Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 3
+				}
+			],
+			"exemplar_answer": "<p>Explain how the cotton experiment supports your hypothesis.<br><br>In the cotton experiment the bees only defended their hives from the elephants. So the elephants ate and trampled the crops far away from the hives. The crops near the hives were safe. So adding hives all around the farm will protect all the crops from the elephants.</p>",
+			"rubrique": "<li>1 point for stating that bees defend the crops more if their hives are there</li><li>1 point for stating that the cotton experiment showed the elephants could go to crops away from the hives</li><li>1 point for clear and concise writing</li><br>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.HypothesisExplanation2_Submitted.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.HivesCottonSupports",
+			"brief": "What is the total number of hives that the cotton plants can support?",
+			"question": "What is the total number of hives that the cotton plants can support?",
+			"resource_activity_rubric_skills": [
+				"Data Analysis",
+				"Data Interpretation"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "10",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>10</p><p><br>There are 10 squares of cotton plants, which is enough resources for 10 beehives. Lucy already has 5 beehives, so she can add 5 more.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.HivesCottonSupports_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": false,
+			"trackMX": false,
+			"key": "GroupBehavior.E.PredictCornPlants2",
+			"brief": "What do you predict will happen to the corn plants?",
+			"question": "What do you predict will happen to the corn plants?",
+			"resource_activity_rubric_skills": [
+				"Predictions"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "A. The corn plants will grow and be healthy.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>A. The corn plants will grow and be healthy.<br><br>The beehives stopped the elephants from eating and trampling the corn.<br>The corn was able to grow and be healthy.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.E.PredictCornPlants2_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.PredictCornPlants2",
+			"brief": "What do you predict will happen to the percentage of corn that will be eaten or trampled?",
+			"question": "What do you predict will happen to the percentage of corn that will be eaten or trampled?",
+			"resource_activity_rubric_skills": [
+				"Predictions"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "B. The percentage of corn plants eaten and trampled will decrease.",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>B. The percentage of corn plants eaten and trampled will decrease.<br><br>The percentage of corn plants eaten and trampled did decrease because the elephants were scared of the bees. Some of the corn was still eaten and trampled.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.PredictCornPlants2_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": false,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.M.PercentCornEatenOrTrampled",
+			"brief": "What percentage of corn was eaten or trampled out of all the corn?",
+			"question": "9 out of 40 squares of corn were eaten or trampled. \nWhat percentage of corn was eaten or trampled out of all the corn?",
+			"resource_activity_rubric_skills": [
+				"Data Interpretation"
+			],
+			"resource_activity_rubric_type": "Multiple Choice",
+			"autograde": true,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "9/40 x 100 = 22.5%",
+					"points": 1
+				}
+			],
+			"exemplar_answer": "<p>9/40 x 100 = 22.5%<br><br>9 out of 40 is 22.5% (9/40 x 100 = 22.5). This is the percent of corn eaten out of all the corn. You would use 9 out of 50 to find the percent of corn eaten out of all the crops. 31 out of 40 would find the percent of corn not eaten out of all the corn.<br></p>",
+			"rubrique": "1 point for the correct answer, only one try allowed.",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.M.PercentCornEatenOrTrampled_Correct.jpg"
+			]
+		},
+		{
+			"trackL": false,
+			"trackH": false,
+			"trackAP": false,
+			"trackA": false,
+			"trackE": true,
+			"trackEX": false,
+			"trackM": true,
+			"trackMX": false,
+			"key": "GroupBehavior.EM.CaseSummary",
+			"brief": "Case Summary Report",
+			"question": "Case Summary Report",
+			"resource_activity_rubric_skills": [
+				"Communicating Findings"
+			],
+			"resource_activity_rubric_type": "Long Answer",
+			"autograde": false,
+			"resource_activity_rubric_answers": [
+				{
+					"answer": "Teacher Graded",
+					"points": 10
+				}
+			],
+			"exemplar_answer": "<ol><li>Explain the relationship between bees and cotton and the relationship between bees and elephants.<br />The bees pollinate the cotton which help the cotton grow. The cotton provides food in nectar and pollen to the bees. Elephants are scared of bees. Bees can sting the elephants which hurts them so elephants run away from bees.</li><li>What was the problem at Marula farm?<br />Elephants were trampling the cotton and eating the corn on Marula farm. This was causing the farmer to lose money and food.</li><li>How did adding beehives around the corn crops stop the elephants from eating and trampling the corn?<br />Elephants are scared of bees because they can sting them. Elephants have learned to stay away from bees because of the pain of stings. So when the elephants saw and heard the bees and saw their hives around the crops, they stayed away. This protected the crops from the elephants while keeping the elephants safe. </li></ol>",
+			"rubrique": "<ol><li>Explain the relationship between bees and cotton and the relationship between bees and elephants.<br /><ul><li>1 point for explaining that bees pollinate cotton and eat the nectar and pollen.</li><li>1 point for explaining that elephants are scared of bees.</li><li>1 point for clear and concise writing</li></ul></li><li>What was the problem at Marula farm?<br /><ul><li>1 point for mentioning the elephants were eating corn</li><li>1 point for mentioning the elephants were trampling cotton</li><li>1 point for clear and concise writing</li></ul></li><li>How did adding beehives around the corn crops stop the elephants from eating and trampling the corn?<br /><ul><li>1 point for mentioning that elephants are scared of bees</li><li>1 point for mentioning that the bees helped the cotton crops grow</li><li>1 point for explaining that the elephants learned to stay away from bees so they also stayed away from the crops</li><li>1 point for clear and concise writing</li></ul></li></ol>",
+			"resource_activity_rubric_screenshots": [
+				"GroupBehavior.EM.CaseSummary_Submitted.jpg",
+				"GroupBehavior.EM.CaseSummary_Submitted2.jpg"
+			]
+		}
+	],
+	"devEnv": {
+		"caseHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseES": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookES": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseMS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookMS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		}
+	},
+	"stageEnv": {
+		"caseHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseES": {
+			"resource_id": 3180,
+			"resource_activity_id": 77
+		},
+		"handbookES": {
+			"resource_id": 3181,
+			"resource_activity_id": 78
+		},
+		"caseMS": {
+			"resource_id": 3182,
+			"resource_activity_id": 79
+		},
+		"handbookMS": {
+			"resource_id": 3183,
+			"resource_activity_id": 80
+		}
+	},
+	"productionEnv": {
+		"caseHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookHS": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"handbookAP": {
+			"resource_id": 0,
+			"resource_activity_id": 0
+		},
+		"caseES": {
+			"resource_id": 3180,
+			"resource_activity_id": 78
+		},
+		"handbookES": {
+			"resource_id": 3181,
+			"resource_activity_id": 79
+		},
+		"caseMS": {
+			"resource_id": 3182,
+			"resource_activity_id": 80
+		},
+		"handbookMS": {
+			"resource_id": 3183,
+			"resource_activity_id": 81
+		}
+	}
+}

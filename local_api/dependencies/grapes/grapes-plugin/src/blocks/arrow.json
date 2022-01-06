@@ -1,0 +1,110 @@
+[
+	{
+		"id": "arrow-white",
+		"label": "Arrow Widget White",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-down"
+		},
+		"content": "<widget-arrow :visible=\"true\" id=\"iuhe\" :source-offset-x=\"100\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"i9aa\" color=\"white\" :width=\"3\" :show-head=\"true\" :duration=\"0\" :delay=\"0\" class=\"\" data-gjs-custom-name=\"Widget-Arrow\"></widget-arrow>"
+	},
+	{
+		"id": "arrow-black",
+		"label": "Arrow Widget Black",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-down black"
+		},
+		"content": "<widget-arrow :visible=\"true\" id=\"iuhe\" :source-offset-x=\"100\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"i9aa\" color=\"black\" :width=\"3\" :show-head=\"true\" :duration=\"0\" :delay=\"0\" class=\"\" data-gjs-custom-name=\"Widget-Arrow\"></widget-arrow>"
+	},
+	{
+		"id": "arrowRight-widgetWhite",
+		"label": "white arrow widget with source label",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-right"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Right White\"><span id=\"a1234\" class=\"colorWhite arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"100\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"a1234\" color=\"white\" :width=\"3\"></widget-arrow></div><style>.arrowWidgetLabel.$$pageID$${padding-right: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowRight-widgetBlack",
+		"label": "black arrow widget with source label",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-right black"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Right Black\"><span id=\"a1234\" class=\"arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"100\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"a1234\" color=\"black\" :width=\"3\"></widget-arrow></div><style>.arrowWidgetLabel.$$pageID$${padding-right: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowLeft-widgetWhite",
+		"label": "white arrow widget with source label",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-left"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Left White\"><span id=\"a1234\" class=\"colorWhite arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"0\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"a1234\" color=\"white\" :width=\"3\"></widget-arrow></div><style>.arrowWidgetLabel.$$pageID$${padding-left: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowLeft-widgetBlack",
+		"label": "black arrow widget with source label",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-left black"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Left Black\"><span id=\"a1234\" class=\"arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"0\" :source-offset-y=\"50\" :target-offset-x=\"100\" :target-offset-y=\"100\" source-id=\"a1234\" color=\"black\" :width=\"3\"></widget-arrow></div><style>.arrowWidgetLabel.$$pageID$${padding-left: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowLeft-widgetAnchor",
+		"label": "white arrow widget with source label and anchor target",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-left"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Left White\"><span id=\"s1234\" class=\"colorWhite arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"0\" :source-offset-y=\"50\" :target-offset-x=\"50\" :target-offset-y=\"50\" source-id=\"s1234\" target-id=\"t1234\" color=\"white\" :width=\"3\"></widget-arrow><widget-anchor :visible=\"true\" id=\"t1234\"></widget-anchor></div><style>.arrowWidgetLabel.$$pageID$${padding-left: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowRight-widgetAnchor",
+		"label": "white arrow widget with source label and anchor target",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa fa-long-arrow-right"
+		},
+		"content": "<div data-gjs-custom-name=\"Arrow: Right White\"><span id=\"s1234\" class=\"colorWhite arrowWidgetLabel\">Source Label</span><widget-arrow :visible=\"true\" id=\"arrow\" :source-offset-x=\"100\" :source-offset-y=\"50\" :target-offset-x=\"50\" :target-offset-y=\"50\" source-id=\"s1234\" target-id=\"t1234\" color=\"white\" :width=\"3\"></widget-arrow><widget-anchor :visible=\"true\" id=\"t1234\"></widget-anchor></div><style>.arrowWidgetLabel.$$pageID$${padding-left: 0.5rem}</style>"
+	},
+	{
+		"id": "arrowLeft",
+		"label": "Arrow Left",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa ar_L"
+		},
+		"content": "<div class=\"horizontalArrow\" data-gjs-custom-name=\"Arrow: Left\"><div class=\"arrowLeft\" data-gjs-custom-name=\"Arrow Head\"></div><div class=\"line colorBkgndWhite\" data-gjs-custom-name=\"Arrow Tail\"></div></div>"
+	},
+	{
+		"id": "arrowRight",
+		"label": "Arrow Right",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa ar_R"
+		},
+		"content": "<div class=\"horizontalArrow\" data-gjs-custom-name=\"Arrow: Right\"><div class=\"line colorBkgndWhite\" data-gjs-custom-name=\"Arrow Tail\"></div><div class=\"arrowRight\" data-gjs-custom-name=\"Arrow Head\"></div></div>"
+	},
+	{
+		"id": "arrowUp",
+		"label": "Arrow Up",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa ar_U"
+		},
+		"content": "<div class=\"verticalArrow\" data-gjs-custom-name=\"Arrow: Up\"><div class=\"arrowUp\" data-gjs-custom-name=\"Arrow Head\"></div><div class=\"vLine colorBkgndWhite\" data-gjs-custom-name=\"Arrow Tail\"></div></div>"
+	},
+	{
+		"id": "arrowDown",
+		"label": "Arrow Down",
+		"category": "Arrows",
+		"attributes": {
+			"class": "fa ar_D"
+		},
+		"content": "<div class=\"verticalArrow\" data-gjs-custom-name=\"Arrow: Down\"><div class=\"vLine colorBkgndWhite\" data-gjs-custom-name=\"Arrow Tail\"></div><div class=\"arrowDown\" data-gjs-custom-name=\"Arrow Head\"></div></div>"
+	}
+]

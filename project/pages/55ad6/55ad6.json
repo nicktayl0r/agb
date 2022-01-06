@@ -1,0 +1,3480 @@
+{
+	"gjs-components": [
+		{
+			"tagName": "div",
+			"type": "",
+			"name": "",
+			"removable": true,
+			"draggable": true,
+			"droppable": true,
+			"badgable": true,
+			"stylable": true,
+			"stylable-require": "",
+			"style-signature": "",
+			"unstylable": "",
+			"highlightable": true,
+			"copyable": true,
+			"resizable": false,
+			"editable": false,
+			"layerable": true,
+			"selectable": true,
+			"hoverable": true,
+			"void": false,
+			"state": "",
+			"status": "",
+			"content": "",
+			"icon": "",
+			"style": "",
+			"classes": [
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "grid_BG_Images",
+					"label": "grid_BG_Images",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"script": "",
+			"attributes": {},
+			"propagate": "",
+			"dmode": "",
+			"custom-name": "grid_BG_Images",
+			"components": [
+				{
+					"tagName": "widget-image",
+					"type": "widget-image",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page55ad6",
+							"label": "page55ad6",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "image_Elephant",
+							"label": "image_Elephant",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"src": "../../assets/images/elephants/elephant_Sting_IMG.png",
+						":visible": true,
+						"id": "i24o"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetImage",
+					"custom-name": "image_Elephant",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "widget-image",
+					"type": "widget-image",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": false,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": true,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "page55ad6",
+							"label": "page55ad6",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "image_BeeHive",
+							"label": "image_BeeHive",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {
+						"src": "../../assets/images/beehive_Manmade2_IMG.png",
+						":visible": "true",
+						"id": "i0h3i"
+					},
+					"propagate": "",
+					"dmode": "",
+					"vueComponentName": "WidgetImage",
+					"custom-name": "image_BeeHive",
+					"components": [],
+					"open": false
+				},
+				{
+					"tagName": "div",
+					"type": "",
+					"name": "",
+					"removable": true,
+					"draggable": true,
+					"droppable": true,
+					"badgable": true,
+					"stylable": true,
+					"stylable-require": "",
+					"style-signature": "",
+					"unstylable": "",
+					"highlightable": true,
+					"copyable": true,
+					"resizable": false,
+					"editable": false,
+					"layerable": true,
+					"selectable": true,
+					"hoverable": true,
+					"void": false,
+					"state": "",
+					"status": "",
+					"content": "",
+					"icon": "",
+					"style": "",
+					"classes": [
+						{
+							"name": "grid_T4",
+							"label": "grid_T4",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						},
+						{
+							"name": "page55ad6",
+							"label": "page55ad6",
+							"type": 1,
+							"active": true,
+							"private": false,
+							"protected": false
+						}
+					],
+					"script": "",
+					"attributes": {},
+					"propagate": "",
+					"dmode": "",
+					"custom-name": "grid_T4_TextTop",
+					"components": [
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "item1_T4",
+									"label": "item1_T4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "dropShadow",
+									"label": "dropShadow",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackgroundBasic",
+									"label": "textBackgroundBasic",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "textBackground-DarkBlue",
+									"label": "textBackground-DarkBlue",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page55ad6",
+									"label": "page55ad6",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "item1_T4",
+							"components": [
+								{
+									"tagName": "p",
+									"type": "text",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": false,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": true,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "Select all the things below that elephants learn to stay away from bees.",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "page55ad6",
+											"label": "page55ad6",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "text_basic_BackgroundDarkBlue",
+									"components": [],
+									"open": false
+								}
+							],
+							"open": false
+						},
+						{
+							"tagName": "div",
+							"type": "",
+							"name": "",
+							"removable": true,
+							"draggable": true,
+							"droppable": true,
+							"badgable": true,
+							"stylable": true,
+							"stylable-require": "",
+							"style-signature": "",
+							"unstylable": "",
+							"highlightable": true,
+							"copyable": true,
+							"resizable": false,
+							"editable": false,
+							"layerable": true,
+							"selectable": true,
+							"hoverable": true,
+							"void": false,
+							"state": "",
+							"status": "",
+							"content": "",
+							"icon": "",
+							"style": "",
+							"classes": [
+								{
+									"name": "grid_MultiSelect",
+									"label": "grid_MultiSelect",
+									"type": 1,
+									"active": false,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "page55ad6",
+									"label": "page55ad6",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								},
+								{
+									"name": "item2_T4",
+									"label": "item2_T4",
+									"type": 1,
+									"active": true,
+									"private": false,
+									"protected": false
+								}
+							],
+							"script": "",
+							"attributes": {},
+							"propagate": "",
+							"dmode": "",
+							"custom-name": "grid_MultiSelect",
+							"components": [
+								{
+									"tagName": "container-enable-disable",
+									"type": "container-enable-disable",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "item2_MS",
+											"label": "item2_MS",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page55ad6",
+											"label": "page55ad6",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {
+										":visible": "true",
+										":enabled": "true",
+										"id": "i6lc"
+									},
+									"propagate": "",
+									"dmode": "",
+									"vueComponentName": "ContainerEnableDisable",
+									"custom-name": "item2_MS_ED_ButtonsGrp",
+									"components": [
+										{
+											"tagName": "div",
+											"type": "",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "grid_T10",
+													"label": "grid_T10",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page55ad6",
+													"label": "page55ad6",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {},
+											"propagate": "",
+											"dmode": "",
+											"custom-name": "grid_T10_4ButtonRows",
+											"components": [
+												{
+													"tagName": "div",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "item1_T10",
+															"label": "item1_T10",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T14",
+															"label": "grid_T14",
+															"type": 1,
+															"active": false,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "item1_T10_grid_T14_RowA",
+													"components": [
+														{
+															"tagName": "widget-checkbox",
+															"type": "widget-checkbox",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "checkboxEmpty",
+																	"label": "checkboxEmpty",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {
+																":visible": "true",
+																":enabled": "true",
+																"id": "immh",
+																":checked": "false"
+															},
+															"propagate": "",
+															"dmode": "",
+															"vueComponentName": "WidgetCheckbox",
+															"custom-name": "button_RadioCheck_A",
+															"components": [
+																{
+																	"tagName": "div",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page55ad6",
+																			"label": "page55ad6",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "div_Buttons",
+																			"label": "div_Buttons",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "div_Buttons",
+																	"components": [
+																		{
+																			"tagName": "p",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "Seeing other elephants run away.",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "colorWhite",
+																					"label": "colorWhite",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "textCenter",
+																					"label": "textCenter",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "text_Buttons",
+																					"label": "text_Buttons",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "text",
+																			"components": [],
+																			"open": false
+																		},
+																		{
+																			"tagName": "div",
+																			"type": "",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": true,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": false,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "div_Checkbox_1",
+																					"label": "div_Checkbox_1",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "div_CheckboxFiller_Image",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "div",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "item2_T10",
+															"label": "item2_T10",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T14",
+															"label": "grid_T14",
+															"type": 1,
+															"active": false,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "item2_T10_grid_T14_RowB",
+													"components": [
+														{
+															"tagName": "widget-checkbox",
+															"type": "widget-checkbox",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "checkboxEmpty",
+																	"label": "checkboxEmpty",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {
+																":visible": "true",
+																":enabled": "true",
+																":checked": "false",
+																"id": "ic3pu"
+															},
+															"propagate": "",
+															"dmode": "",
+															"vueComponentName": "WidgetCheckbox",
+															"custom-name": "button_RadioCheck_B",
+															"components": [
+																{
+																	"tagName": "div",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page55ad6",
+																			"label": "page55ad6",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "div_Buttons",
+																			"label": "div_Buttons",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "div_Buttons",
+																	"components": [
+																		{
+																			"tagName": "p",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "The pain of a bee sting.",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "colorWhite",
+																					"label": "colorWhite",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "textCenter",
+																					"label": "textCenter",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "text_Buttons",
+																					"label": "text_Buttons",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "text",
+																			"components": [],
+																			"open": false
+																		},
+																		{
+																			"tagName": "div",
+																			"type": "",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": true,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": false,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "div_Checkbox_2",
+																					"label": "div_Checkbox_2",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "div_CheckboxFiller_Image",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "div",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "item3_T10",
+															"label": "item3_T10",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "item3_T10_grid_T14_RowC",
+													"components": [
+														{
+															"tagName": "widget-checkbox",
+															"type": "widget-checkbox",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "checkboxEmpty",
+																	"label": "checkboxEmpty",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {
+																":visible": "true",
+																":enabled": "true",
+																":checked": "false",
+																"id": "ilers"
+															},
+															"propagate": "",
+															"dmode": "",
+															"vueComponentName": "WidgetCheckbox",
+															"custom-name": "button_RadioCheck_C",
+															"components": [
+																{
+																	"tagName": "div",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page55ad6",
+																			"label": "page55ad6",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "div_Buttons",
+																			"label": "div_Buttons",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "div_Buttons",
+																	"components": [
+																		{
+																			"tagName": "p",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "The buzzing sound of bees.",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "colorWhite",
+																					"label": "colorWhite",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "textCenter",
+																					"label": "textCenter",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "text_Buttons",
+																					"label": "text_Buttons",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "text",
+																			"components": [],
+																			"open": false
+																		},
+																		{
+																			"tagName": "div",
+																			"type": "",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": true,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": false,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "div_Checkbox_3",
+																					"label": "div_Checkbox_3",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "div_CheckboxFiller_Image",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												},
+												{
+													"tagName": "div",
+													"type": "",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": true,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": false,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "item4_T10",
+															"label": "item4_T10",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "grid_T14",
+															"label": "grid_T14",
+															"type": 1,
+															"active": false,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "item4_T10_grid_T14_RowD",
+													"components": [
+														{
+															"tagName": "widget-checkbox",
+															"type": "widget-checkbox",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": true,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": false,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "checkboxEmpty",
+																	"label": "checkboxEmpty",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																},
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {
+																":visible": "true",
+																":enabled": "true",
+																":checked": "false",
+																"id": "i1w42"
+															},
+															"propagate": "",
+															"dmode": "",
+															"vueComponentName": "WidgetCheckbox",
+															"custom-name": "button_RadioCheck_D",
+															"components": [
+																{
+																	"tagName": "div",
+																	"type": "",
+																	"name": "",
+																	"removable": true,
+																	"draggable": true,
+																	"droppable": true,
+																	"badgable": true,
+																	"stylable": true,
+																	"stylable-require": "",
+																	"style-signature": "",
+																	"unstylable": "",
+																	"highlightable": true,
+																	"copyable": true,
+																	"resizable": false,
+																	"editable": false,
+																	"layerable": true,
+																	"selectable": true,
+																	"hoverable": true,
+																	"void": false,
+																	"state": "",
+																	"status": "",
+																	"content": "",
+																	"icon": "",
+																	"style": "",
+																	"classes": [
+																		{
+																			"name": "page55ad6",
+																			"label": "page55ad6",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		},
+																		{
+																			"name": "div_Buttons",
+																			"label": "div_Buttons",
+																			"type": 1,
+																			"active": true,
+																			"private": false,
+																			"protected": false
+																		}
+																	],
+																	"script": "",
+																	"attributes": {},
+																	"propagate": "",
+																	"dmode": "",
+																	"custom-name": "div_Buttons",
+																	"components": [
+																		{
+																			"tagName": "p",
+																			"type": "text",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": false,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": true,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "The look of beehives.",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "colorWhite",
+																					"label": "colorWhite",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "textCenter",
+																					"label": "textCenter",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "text_Buttons",
+																					"label": "text_Buttons",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "text",
+																			"components": [],
+																			"open": false
+																		},
+																		{
+																			"tagName": "div",
+																			"type": "",
+																			"name": "",
+																			"removable": true,
+																			"draggable": true,
+																			"droppable": true,
+																			"badgable": true,
+																			"stylable": true,
+																			"stylable-require": "",
+																			"style-signature": "",
+																			"unstylable": "",
+																			"highlightable": true,
+																			"copyable": true,
+																			"resizable": false,
+																			"editable": false,
+																			"layerable": true,
+																			"selectable": true,
+																			"hoverable": true,
+																			"void": false,
+																			"state": "",
+																			"status": "",
+																			"content": "",
+																			"icon": "",
+																			"style": "",
+																			"classes": [
+																				{
+																					"name": "page55ad6",
+																					"label": "page55ad6",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				},
+																				{
+																					"name": "div_Checkbox_4",
+																					"label": "div_Checkbox_4",
+																					"type": 1,
+																					"active": true,
+																					"private": false,
+																					"protected": false
+																				}
+																			],
+																			"script": "",
+																			"attributes": {},
+																			"propagate": "",
+																			"dmode": "",
+																			"custom-name": "div_CheckboxFiller_Image",
+																			"components": [],
+																			"open": false
+																		}
+																	],
+																	"open": false
+																}
+															],
+															"open": false
+														}
+													],
+													"open": false
+												}
+											],
+											"open": false
+										}
+									],
+									"open": false
+								},
+								{
+									"tagName": "div",
+									"type": "",
+									"name": "",
+									"removable": true,
+									"draggable": true,
+									"droppable": true,
+									"badgable": true,
+									"stylable": true,
+									"stylable-require": "",
+									"style-signature": "",
+									"unstylable": "",
+									"highlightable": true,
+									"copyable": true,
+									"resizable": false,
+									"editable": false,
+									"layerable": true,
+									"selectable": true,
+									"hoverable": true,
+									"void": false,
+									"state": "",
+									"status": "",
+									"content": "",
+									"icon": "",
+									"style": "",
+									"classes": [
+										{
+											"name": "Grid_SubmitExplanations",
+											"label": "Grid_SubmitExplanations",
+											"type": 1,
+											"active": false,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "item3_MS",
+											"label": "item3_MS",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										},
+										{
+											"name": "page55ad6",
+											"label": "page55ad6",
+											"type": 1,
+											"active": true,
+											"private": false,
+											"protected": false
+										}
+									],
+									"script": "",
+									"attributes": {},
+									"propagate": "",
+									"dmode": "",
+									"custom-name": "Grid_SubmitExplanations",
+									"components": [
+										{
+											"tagName": "widget-button",
+											"type": "widget-button",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "selected",
+											"content": "",
+											"icon": "",
+											"style": {},
+											"classes": [
+												{
+													"name": "buttonBasic-Grey",
+													"label": "buttonBasic-Grey",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonBlinkBlue",
+													"label": "buttonBlinkBlue",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "buttonSubmit",
+													"label": "buttonSubmit",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page55ad6",
+													"label": "page55ad6",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												":enabled": true,
+												"id": "icdt",
+												":conditions": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'immh',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ic3pu',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ilers',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i1w42',key:'checked',val:true}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'icdt',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'icdt',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]},{comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'icdt',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iw0t',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
+												":click-effects": "{conditionList:[{comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'icdt',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'incrementSharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_attempts',incrementValue:1},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EExMMx.ThingsElephantsLearn',responseData:{responseType:'sharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_response',descriptor:'numCorrect',numCorrectTotal:4},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'immh',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ic3pu',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ilers',key:'checked',val:true}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i1w42',key:'checked',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iiui',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6lc',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:2}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iw0t',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'nestedComparisons',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'immh',key:'checked',val:false}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ic3pu',key:'checked',val:false}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ilers',key:'checked',val:false}},{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i1w42',key:'checked',val:false}}],comparisonsLogic:'or'}},{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_attempts',comparison:'equals',val:2}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iv4h',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i6lc',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:2},{effectData:{effectType:'updateWidget',widgetID:'iw0t',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'immh',key:'checked',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'immh',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'immh',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'incrementSharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_response',incrementValue:1},fireOnceID:'radioAClickedResponse_page55ad6',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ic3pu',key:'checked',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ic3pu',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ic3pu',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'incrementSharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_response',incrementValue:1},fireOnceID:'radioBClickedResponse_page55ad6',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ilers',key:'checked',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ilers',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ilers',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'incrementSharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_response',incrementValue:1},fireOnceID:'radioCClickedResponse_page55ad6',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'i1w42',key:'checked',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i1w42',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i1w42',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'incrementSharedData',sharedDataKey:'GroupBehavior.EExMMx.ThingsElephantsLearn_response',incrementValue:1},fireOnceID:'radioDClickedResponse_page55ad6',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "WidgetButton",
+											"custom-name": "button_Submit",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "Submit",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "marginLeft2",
+															"label": "marginLeft2",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "marginRight2",
+															"label": "marginRight2",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "buttonBlinkBlue",
+															"label": "buttonBlinkBlue",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "buttonSubmit",
+															"label": "buttonSubmit",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_Submit",
+													"components": [],
+													"open": false
+												}
+											],
+											"open": false
+										},
+										{
+											"tagName": "container-show-hide",
+											"type": "container-show-hide",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "SH_Correct_Incorrect",
+													"label": "SH_Correct_Incorrect",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page55ad6",
+													"label": "page55ad6",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												"id": "iv4h"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerShowHide",
+											"custom-name": "incorrect-show-hide1",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "dropShadow",
+															"label": "dropShadow",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackgroundBasic",
+															"label": "textBackgroundBasic",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackground-Incorrect",
+															"label": "textBackground-Incorrect",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_Incorrect",
+													"components": [
+														{
+															"tagName": "strong",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Incorrect. ",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "Text",
+															"components": [],
+															"open": false
+														},
+														{
+															"tagName": "",
+															"type": "textnode",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "All of these are things that elephants have learned to run away from bees.",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"components": []
+														}
+													],
+													"open": false
+												}
+											],
+											"open": false
+										},
+										{
+											"tagName": "container-show-hide",
+											"type": "container-show-hide",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "SH_Correct_Incorrect",
+													"label": "SH_Correct_Incorrect",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page55ad6",
+													"label": "page55ad6",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												"id": "iw0t"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerShowHide",
+											"custom-name": "incorrect-show-hide2",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "dropShadow",
+															"label": "dropShadow",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackgroundBasic",
+															"label": "textBackgroundBasic",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackground-Incorrect",
+															"label": "textBackground-Incorrect",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_Incorrect",
+													"components": [
+														{
+															"tagName": "strong",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Incorrect.",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "Text",
+															"components": [],
+															"open": false
+														},
+														{
+															"tagName": "",
+															"type": "textnode",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Try again.",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"components": []
+														}
+													],
+													"open": false
+												}
+											],
+											"open": false
+										},
+										{
+											"tagName": "container-show-hide",
+											"type": "container-show-hide",
+											"name": "",
+											"removable": true,
+											"draggable": true,
+											"droppable": true,
+											"badgable": true,
+											"stylable": true,
+											"stylable-require": "",
+											"style-signature": "",
+											"unstylable": "",
+											"highlightable": true,
+											"copyable": true,
+											"resizable": false,
+											"editable": false,
+											"layerable": true,
+											"selectable": true,
+											"hoverable": true,
+											"void": false,
+											"state": "",
+											"status": "",
+											"content": "",
+											"icon": "",
+											"style": "",
+											"classes": [
+												{
+													"name": "SH_Correct_Incorrect",
+													"label": "SH_Correct_Incorrect",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												},
+												{
+													"name": "page55ad6",
+													"label": "page55ad6",
+													"type": 1,
+													"active": true,
+													"private": false,
+													"protected": false
+												}
+											],
+											"script": "",
+											"attributes": {
+												":visible": false,
+												"id": "iiui"
+											},
+											"propagate": "",
+											"dmode": "",
+											"vueComponentName": "ContainerShowHide",
+											"custom-name": "correct-show-hide",
+											"components": [
+												{
+													"tagName": "p",
+													"type": "text",
+													"name": "",
+													"removable": true,
+													"draggable": true,
+													"droppable": false,
+													"badgable": true,
+													"stylable": true,
+													"stylable-require": "",
+													"style-signature": "",
+													"unstylable": "",
+													"highlightable": true,
+													"copyable": true,
+													"resizable": false,
+													"editable": true,
+													"layerable": true,
+													"selectable": true,
+													"hoverable": true,
+													"void": false,
+													"state": "",
+													"status": "",
+													"content": "",
+													"icon": "",
+													"style": "",
+													"classes": [
+														{
+															"name": "dropShadow",
+															"label": "dropShadow",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackgroundBasic",
+															"label": "textBackgroundBasic",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "textBackground-Correct",
+															"label": "textBackground-Correct",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														},
+														{
+															"name": "page55ad6",
+															"label": "page55ad6",
+															"type": 1,
+															"active": true,
+															"private": false,
+															"protected": false
+														}
+													],
+													"script": "",
+													"attributes": {},
+													"propagate": "",
+													"dmode": "",
+													"custom-name": "text_Correct",
+													"components": [
+														{
+															"tagName": "strong",
+															"type": "text",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "Correct! ",
+															"icon": "",
+															"style": "",
+															"classes": [
+																{
+																	"name": "page55ad6",
+																	"label": "page55ad6",
+																	"type": 1,
+																	"active": true,
+																	"private": false,
+																	"protected": false
+																}
+															],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"custom-name": "Text",
+															"components": [],
+															"open": false
+														},
+														{
+															"tagName": "",
+															"type": "textnode",
+															"name": "",
+															"removable": true,
+															"draggable": true,
+															"droppable": false,
+															"badgable": true,
+															"stylable": true,
+															"stylable-require": "",
+															"style-signature": "",
+															"unstylable": "",
+															"highlightable": true,
+															"copyable": true,
+															"resizable": false,
+															"editable": true,
+															"layerable": true,
+															"selectable": true,
+															"hoverable": true,
+															"void": false,
+															"state": "",
+															"status": "",
+															"content": "All of these are things that elephants have learned to run away from bees.",
+															"icon": "",
+															"style": "",
+															"classes": [],
+															"script": "",
+															"attributes": {},
+															"propagate": "",
+															"dmode": "",
+															"components": []
+														}
+													],
+													"open": false
+												}
+											],
+											"open": false
+										}
+									],
+									"open": true
+								}
+							],
+							"open": 1
+						}
+					],
+					"open": 1
+				}
+			],
+			"open": 1
+		}
+	],
+	"gjs-styles": [
+		{
+			"selectors": [
+				{
+					"name": "grid_BG_Images",
+					"label": "grid_BG_Images",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"overflow": "hidden",
+				"-webkit-mask-image": "-webkit-radial-gradient(white, black)",
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"width": "100%",
+				"height": "100%",
+				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_simState_047_IMG.jpg)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-size": "cover",
+				"background-position": "center bottom"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T4",
+					"label": "grid_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"grid-column-gap": "0vh",
+				"grid-row-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"padding": "6vh",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T4",
+					"label": "item1_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "1",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T4",
+					"label": "item2_T4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "span 1",
+				"grid-row-start": "2",
+				"grid-row-end": "span 1"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_MultiSelect",
+					"label": "grid_MultiSelect",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr min-content",
+				"grid-column-gap": "2vh",
+				"grid-row-gap": "3vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_MS",
+					"label": "item1_MS",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "3",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_MS",
+					"label": "item2_MS",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_MS",
+					"label": "item3_MS",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"height": "10vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T10",
+					"label": "grid_T10",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr",
+				"grid-column-gap": "0vh",
+				"width": "100%",
+				"height": "100%",
+				"grid-row-gap": "0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T10",
+					"label": "item1_T10",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "-28vh 0 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T10",
+					"label": "item2_T10",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "0 0 0 -73vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item3_T10",
+					"label": "item3_T10",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "0 0 -28vh 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item4_T10",
+					"label": "item4_T10",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"margin": "0 -73vh 0 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "grid_T14",
+					"label": "grid_T14",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item1_T14",
+					"label": "item1_T14",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "item2_T14_Answer",
+					"label": "item2_T14_Answer",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "2",
+				"grid-column-end": "3",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"align-items": "center",
+				"display": "block"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "SH_Correct_Incorrect",
+					"label": "SH_Correct_Incorrect",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "Grid_SubmitExplanations",
+					"label": "Grid_SubmitExplanations",
+					"type": 1,
+					"active": false,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "1fr"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonSubmit",
+					"label": "buttonSubmit",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"align-self": "end",
+				"justify-self": "start"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Checkbox_1",
+					"label": "div_Checkbox_1",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "30vh",
+				"height": "15vh",
+				"background-image": "url(../../assets/svg/elephant2_Silhouette_IMG.svg)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "contain",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Checkbox_2",
+					"label": "div_Checkbox_2",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "30vh",
+				"height": "15vh",
+				"background-image": "url(../../assets/images/elephants/elephantEye_Sting_IMG.png)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "contain",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Checkbox_3",
+					"label": "div_Checkbox_3",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "30vh",
+				"height": "15vh",
+				"background-image": "url(../../assets/images/bee_SoundWaves_IMG.png)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "contain",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Checkbox_4",
+					"label": "div_Checkbox_4",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"width": "30vh",
+				"height": "15vh",
+				"background-image": "url(../../assets/images/beehive_Manmade2_Hive_IMG.png)",
+				"background-repeat": "no-repeat",
+				"background-attachment": "local",
+				"background-position": "center center",
+				"background-size": "contain",
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "2",
+				"grid-row-end": "3",
+				"justify-self": "center",
+				"align-self": "center"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "image_Elephant",
+					"label": "image_Elephant",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"width": "80vh",
+				"margin": "0 0 -33.3vh -89.2vh"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "image_BeeHive",
+					"label": "image_BeeHive",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"width": "45vh",
+				"margin": "0 -77vh -23.8vh 0"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "text_Buttons",
+					"label": "text_Buttons",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"grid-column-start": "1",
+				"grid-column-end": "2",
+				"grid-row-start": "1",
+				"grid-row-end": "2",
+				"justify-self": "center",
+				"align-self": "center",
+				"text-shadow": "2px 2px 4px black"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "div_Buttons",
+					"label": "div_Buttons",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {
+				"display": "grid",
+				"grid-template-columns": "1fr",
+				"grid-template-rows": "min-content 1fr",
+				"grid-row-gap": "1vh",
+				"width": "31vh",
+				"height": "auto"
+			},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		},
+		{
+			"selectors": [
+				{
+					"name": "buttonBasic-Grey",
+					"label": "buttonBasic-Grey",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonBlinkBlue",
+					"label": "buttonBlinkBlue",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "buttonSubmit",
+					"label": "buttonSubmit",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				},
+				{
+					"name": "page55ad6",
+					"label": "page55ad6",
+					"type": 1,
+					"active": true,
+					"private": false,
+					"protected": false
+				}
+			],
+			"selectorsAdd": "",
+			"style": {},
+			"mediaText": "",
+			"state": "",
+			"stylable": true,
+			"atRuleType": "",
+			"singleAtRule": 0,
+			"important": 0
+		}
+	]
+}

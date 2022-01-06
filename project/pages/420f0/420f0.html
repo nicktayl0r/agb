@@ -1,0 +1,38 @@
+<div class="simParent page420f0">
+  <widget-sim-view id="id41" scenename="Sahara_Farm_Map" simstateid="lkam7a" :visible="true" :enabled="true" play-state="default" :muted="false" :end-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'id3u8',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNextPage_page420f0',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'id3u8',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'in1a',key:'visible',val:true},fireOnceID:'firstButtonShow_page420f0',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikoj',key:'visible',val:true},fireOnceID:'firstPopperShow_page420f0',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page420f0" />
+  <div class="simPageContent page420f0 farmMapSimClose_PageContent">
+    <div class="page420f0 div_farmGrid">
+      <widget-popper :visible="false" :click-to-dismiss="false" id="ikoj" :delay="0" :delay-once="false" anchor-id="in1a" :options="{placement:'right'}" class="textBackground-Popup-Blue page420f0"><span class="page420f0">Let's recollect the data.</span></widget-popper>
+      <widget-button :visible="false" :enabled="true" id="in1a" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'in1a',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikoj',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'id41',key:'playState',val:'play'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue page420f0 button_1">
+        <div class="page420f0 buttonFill_1"></div>
+      </widget-button>
+    </div>
+    <div class="page420f0 div_belowGrid">
+      <container-show-hide :visible="false" id="id3u8" class="dropShadow textBackgroundBasic page420f0 SH_GreenText">
+        <p class="page420f0">9 out of 40 squares of corn were eaten or trampled.</p>
+      </container-show-hide>
+    </div>
+    <div class="page420f0 div_farmMapSimKey">
+      <div class="page420f0 div_farmMapSimKeyItem">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i6dk" class="page420f0 image_farmMapSimKeyItem" />
+        <p class="page420f0 text_farmMapSimKeyItem">Cotton</p>
+      </div>
+      <div class="page420f0 div_farmMapSimKeyItem">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="irrrc" class="page420f0 image_farmMapSimKeyItem" />
+        <p class="page420f0 text_farmMapSimKeyItem">Corn</p>
+      </div>
+      <div class="page420f0 div_farmMapSimKeyItem">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="i6xdp" class="page420f0 image_farmMapSimKeyItem" />
+        <p class="page420f0 text_farmMapSimKeyItem">Trampled Corn</p>
+      </div>
+      <div class="page420f0 div_farmMapSimKeyItem">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="i2w65" class="page420f0 image_farmMapSimKeyItem" />
+        <p class="page420f0 text_farmMapSimKeyItem">Trampled Cotton</p>
+      </div>
+      <div class="page420f0 div_farmMapSimKeyItem">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="i4geh" class="page420f0 image_farmMapSimKeyItem" />
+        <p class="page420f0 text_farmMapSimKeyItem">Beehive</p>
+      </div>
+    </div>
+  </div>
+</div>

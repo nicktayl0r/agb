@@ -1,0 +1,152 @@
+page 2 <br />
+<br />
+<br />
+<br />
+<br />
+<container-enable-disable id="fieldset">
+	<widget-drop id="drag1Start" class="buttonDrop" overflowStyle="swap">
+		<widget-drag
+			class="buttonBasic-Grey"
+			id="drag1"
+			drop-id="drag1Start"
+			:child-index="1"
+			:conditions="{conditionList:[
+        {
+            comparisons:[{comparisonData:{comparisonType:'widgetVal', key:'dropId', val:'drop3'}}],
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'popper3', key:'visible', val:true}},
+            ],
+        },
+		]}"
+		style="margin: 0"
+			>drag1</widget-drag
+		>
+	</widget-drop>
+
+	<widget-drop id="drag2Start" class="buttonDrop" overflowStyle="swap">
+		<widget-drag class="buttonDrag" id="drag2" drop-id="drag2Start" :child-index="2" style="margin: 0"
+			>drag2</widget-drag
+		>
+	</widget-drop>
+
+	<widget-drop id="drag3Start" class="buttonDrop" overflowStyle="swap">
+		<widget-drag
+			class="buttonDrag"
+			id="drag3"
+			drop-id="drag3Start"
+			:child-index="3"
+			:conditions="{conditionList:[
+        {
+            comparisons:[{comparisonData:{comparisonType:'widgetVal', key:'dropId', val:'drop1'}}],
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'popper3', key:'visible', val:false}},
+            {effectData: {effectType: 'updateWidget', widgetID:'popper2', key:'visible', val:true}}
+            ],
+        },
+		]}"
+		style="margin: 0"
+			>drag3</widget-drag
+		>
+	</widget-drop>
+	<widget-drop id="drag4Start" class="buttonDrop" overflowStyle="swap">
+		<widget-drag class="buttonDrag" id="drag4" drop-id="drag4Start" :child-index="4" style="margin: 0"
+			>drag4</widget-drag
+		>
+	</widget-drop>
+	<br />
+	<br />
+	<br />
+	<widget-drop id="drop1" class="buttonDrop" :max-children="1" overflowStyle="swap">drop1</widget-drop>
+	<widget-drop id="drop2" class="buttonDrop" :max-children="1" overflowStyle="swap">drop2</widget-drop>
+	<widget-drop id="drop3" class="buttonDrop" style="width:400px" :max-children="3" overflowStyle="swap"
+		> drop3 (vertical flex)</widget-drop
+	>
+	<widget-drop id="drop4" class="buttonDrop dropFlexHorizontal" style="width:400px" :max-children="3" overflowStyle="swap"
+		> drop4 (horizontal flex)</widget-drop
+	>
+</container-enable-disable>
+<widget-button
+	id="reset"
+	text="reset"
+	:clickEffects="{conditionList:[
+    {
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'drag1', key:'dropId', val:'drag1Start'}},
+        {effectData: {effectType: 'updateWidget', widgetID:'drag2', key:'dropId', val:'drag2Start'}},
+		{effectData: {effectType: 'updateWidget', widgetID:'drag3', key:'dropId', val:'drag3Start'}},
+		{effectData: {effectType: 'updateWidget', widgetID:'drag4', key:'dropId', val:'drag4Start'}},
+		{effectData: {effectType: 'updateWidget', widgetID:'drop3', key:'maxChildren', val:3}}
+        ],
+    },
+    ]}"
+></widget-button>
+<widget-button
+	id="changeMax"
+	text="Change drop3 maxChildren to 1"
+	:clickEffects="{conditionList:[
+    {
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'drop3', key:'maxChildren', val:1}}
+        ],
+    },
+    ]}"
+></widget-button>
+<br />
+<br />
+<container-show-hide
+	id="allDropsHaveDrags"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        comparisons:[
+        {comparisonData:{comparisonType:'dropsHaveDrags', dropIDs:['drop1','drop2','drop3']}},
+        ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'allDropsHaveDrags', key:'visible', val:true}},
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'allDropsHaveDrags', key:'visible', val:false}},
+        ],
+    },
+]}"
+	>All drops have a drag in them.
+</container-show-hide>
+<container-show-hide
+	id="correct"
+	:visible="false"
+	:conditions="{conditionList:[
+    {
+        comparisons:[
+        {comparisonData:{comparisonType:'widgetVal', widgetID:'drag1', key:'dropId', val:'drop3'}},
+        {comparisonData:{comparisonType:'widgetVal', widgetID:'drag2', key:'dropId', val:'drop2'}},
+        {comparisonData:{comparisonType:'widgetVal', widgetID:'drag3', key:'dropId', val:'drop1'}}
+        ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'correct', key:'visible', val:true}},
+        {effectData: {effectType: 'updateWidget', widgetID:'fieldset', key:'enabled', val:false}},
+        {effectData: {effectType: 'updateWidget', widgetID:'nextPageButton', key:'visible', val:true}},
+        ],
+    },
+]}"
+	>you did it!
+</container-show-hide>
+<br />
+<br />
+<widget-button
+	id="prevPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+	class="buttonBasic-Grey"
+>
+	<p class="marginLeft2 marginRight2">previous page</p>
+</widget-button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button
+	:visible="false"
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="nextPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

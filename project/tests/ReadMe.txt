@@ -1,0 +1,1 @@
+This folder contains all files needed to run tests on the case and find problems.

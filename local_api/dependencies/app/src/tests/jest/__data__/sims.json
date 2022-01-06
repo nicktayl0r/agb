@@ -1,0 +1,28 @@
+{
+	"553729": {
+		"simStates": {
+			"jwtsfo": "default",
+			"krpgei": "background",
+			"aeoifas": "background clone"
+		}
+	},
+	"playCanvas": {},
+	"sim1": {
+		"simStates": {
+			"FirstState": "abcdEdit",
+			"SecondState": "the second one"
+		}
+	},
+	"561319": {
+		"simStates": {
+			"urinm0": "default",
+			"vtve61": "Turntable_Green",
+			"pu7ult": "Turntable_Purple"
+		}
+	},
+	"570405": {
+		"simStates": {
+			"ebg0v7": "Pepsin_Slider"
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+  "emptyCondition_Or_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "or",
+    "effectsPass": [],
+    "effectsFail": [],
+    "responsesPass": [],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "emptyCondition_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsPass": [],
+    "effectsFail": [],
+    "responsesPass": [],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "condition_1Effect_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsPass": [
+      {
+        "effectData": {
+          "effectType": "nextPage"
+        },
+        "fireOnceID": "",
+        "delay": 0
+      }
+    ],
+    "effectsFail": [],
+    "responsesPass": [],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "condition_1PassEffect_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsPass": [
+      {
+        "effectData": {
+          "effectType": "nextPage"
+        },
+        "fireOnceID": "",
+        "delay": 0
+      }
+    ],
+    "effectsFail": [],
+    "responsesPass": [],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "condition_1FailEffect_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsFail": [
+      {
+        "effectData": {
+          "effectType": "nextPage"
+        },
+        "fireOnceID": "",
+        "delay": 0
+      }
+    ],
+    "effectsPass": [],
+    "responsesPass": [],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "condition_1ResponsePass_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsPass": [],
+    "effectsFail": [],
+    "responsesPass": [
+      {
+        "rubricID": "rubricID",
+        "responseData": {
+          "responseType": "sharedData",
+          "sharedDataKey": "sharedDataKey",
+          "descriptor": "none"
+        },
+        "fireOnceID": ""
+      }
+    ],
+    "responsesFail": [],
+    "parentWidgetID": "parentWidgetID"
+  },
+  "condition_1ResponseFail_And_PageLoad": {
+    "evaluateWhen": "pageLoad",
+    "comparisons": [],
+    "comparisonsLogic": "and",
+    "effectsPass": [],
+    "effectsFail": [],
+    "responsesPass": [],
+    "responsesFail": [
+      {
+        "rubricID": "rubricID",
+        "responseData": {
+          "responseType": "sharedData",
+          "sharedDataKey": "sharedDataKey",
+          "descriptor": "none"
+        },
+        "fireOnceID": ""
+      }
+    ],
+    "parentWidgetID": "parentWidgetID"
+  }
+}

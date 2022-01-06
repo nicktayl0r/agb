@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetAnimatedSvg matches html snapshot 1`] = `
+<div
+  autoplay="autoplay"
+  class=""
+  id="testWidget"
+  loop="loop"
+  play-state="default"
+  speed="1"
+  src="././dist/assets/svg/thermometer_AnimatedSVG.json"
+  start-frame="0"
+/>
+`;

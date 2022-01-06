@@ -1,0 +1,35 @@
+track condition page
+<br/>
+<br/>
+<widget-textarea id="p3textbox1" placeholder="type your answer here" :conditions="{conditionList:[
+    {   
+        comparisons:[
+            {comparisonData:{comparisonType:'trackVal', trackID:'caseApBio'}}
+        ],
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'p3textbox1', key:'text', val:'track detected caseApBio'}},],
+        effectsFail:[{effectData: {effectType: 'updateWidget', widgetID:'p3textbox1', key:'text', val:'track detected not caseApBio'}},],
+        evaluateWhen:'pageLoads'
+    },
+]}" />
+
+<widget-button id="goToPageButton" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'goToPage', pageID: 'conditions'}}]
+    }
+]}" text="click to go to conditions page" />
+<widget-button id="goToNowhereButton" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'goToPage', pageID: 'nowhere'}}]
+    }
+]}" text="click to go nowhere" />
+<br>
+<br>
+<br>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 118">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #55bcea;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <title>arrowRight_Carousel_Normal</title>
+  <g id="arrow_Carousel_Norm">
+    <path id="arrowRight_Large_Button_Norm_SVG" class="cls-2" d="M78.42,113c7-7,40.4-41.35,44.54-45.67a12.51,12.51,0,0,0,3.31-8.2A12.16,12.16,0,0,0,123,51C118.82,46.7,85.37,12.31,78.42,5.35,73.17.1,64.7,3.15,64.7,10.8V33.36H13.28C7.08,33.36,2.57,39,2.57,44.82V73.48C2.57,79.31,7.08,85,13.28,85H64.7V107.5C64.7,115.15,73.17,118.2,78.42,113Z"/>
+  </g>
+</svg>

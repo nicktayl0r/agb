@@ -1,0 +1,37 @@
+/**
+  this file is for style overrides for the json editor
+  used in both the project editor
+  and the the json editor in grapes
+*/
+
+/**
+  override format:tabs style
+  so that tabs are narrower,
+  and the column to their right is wider
+*/
+.list-group-item {
+	padding: 0.5em;
+	text-align: center;
+	word-wrap: break-word;
+}
+.tabs.list-group.col-md-2 {
+	width: 10em;
+	padding-right: 0;
+}
+
+.tabs.list-group.col-md-2 + .col-md-10 {
+	width: calc(100% - 10em);
+}
+
+/**
+  override format:table style
+  so that the table takes up the full width
+  and columns are wider
+*/
+.table.table-bordered {
+	width: 100% !important;
+}
+
+.awesomplete {
+	width: 100%;
+}

@@ -1,0 +1,91 @@
+<div class="grid_T22 page967f1 item2" data-gjs-custom-name="grid_T22">
+	<div class="item1_T22 page967f1" data-gjs-custom-name="item1_T22">
+		<div class="page967f1 item1_left" data-gjs-custom-name="item1_left">
+			<widget-button
+				class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+				id="nextPageButton"
+				:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+                    {effectType: 'unlockNextPage'}}] } ]}"
+			>
+				<p class="marginLeft2 marginRight2">unlock next page</p>
+			</widget-button>
+			<widget-textbox
+				:visible="true"
+				:enabled="true"
+				id="i8i7"
+				shared-data-read-key="m10_slider"
+				class="page967f1"
+				data-gjs-custom-name="widget_TextInput_SingleLine"
+			>
+			</widget-textbox>
+		</div>
+		<div class="page967f1 item1_right" data-gjs-custom-name="item1_right">
+			<p
+				class="dropShadow textBackgroundBasic textBackground-DarkBlue page967f1"
+				data-gjs-custom-name="text_BkgDarkBlue"
+			>
+				<strong data-gjs-custom-name="Strong"
+					>The difference in oxygen concentration in the alveolus and the blood
+					entering the lung (in the capillary) is an example of a
+					<widget-link
+						:options="{type:'internal',module:'glossary',pageId:'db462'}"
+						text="concentration difference"
+						:visible="true"
+						id="i7by"
+						class="page967f1"
+						data-gjs-custom-name="link"
+					>
+					</widget-link
+					>.</strong
+				>
+			</p>
+		</div>
+	</div>
+	<div class="item2_T22 page967f1" data-gjs-custom-name="item2_T22">
+		<div class="page967f1 item2_left" data-gjs-custom-name="item2_left">
+			<widget-animated-svg
+				src="assets/svg/M10Edits_NoLabel_1.json"
+				:visible="true"
+				play-state="default"
+				:loop="false"
+				:speed="1"
+				id="ihkn"
+				:start-frame="0"
+				:end-frame="0"
+				class="page967f1 graph_svg"
+				data-gjs-custom-name="Widget-animated-svg"
+			>
+			</widget-animated-svg>
+		</div>
+		<div class="page967f1" data-gjs-custom-name="div"></div>
+		<div class="page967f1 item2_right" data-gjs-custom-name="item2_right">
+			<widget-animated-svg
+				src="assets/svg/M10Edits_NoLabel_1.json"
+				:visible="true"
+				play-state="default"
+				:conditions="{conditionList:[{evaluateWhen:'sharedDataChanges',comparisons:[{comparisonData:{comparisonType:'sharedDataVal',sharedDataKey:'m10_slider',comparison:'notEquals',val:0}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'ihkn_alt',key:'startFrame',sharedDataKey:'m10_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+				:loop="false"
+				:speed="1"
+				id="ihkn_alt"
+				:start-frame="0"
+				:end-frame="0"
+				class="page967f1 graph_svg"
+				data-gjs-custom-name="Widget-animated-svg"
+			>
+			</widget-animated-svg>
+		</div>
+	</div>
+</div>
+<widget-slider
+	:visible="true"
+	:enabled="true"
+	:max="1000"
+	:val="0"
+	id="iqvl"
+	:min="0"
+	shared-data-write-key="m10_slider"
+	:change-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidgetWithSharedData',widgetID:'ihkn',key:'startFrame',sharedDataKey:'m10_slider'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+	class="page967f1 slider"
+	data-gjs-custom-name="widget_Slider"
+>
+</widget-slider>

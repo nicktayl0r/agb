@@ -1,0 +1,99 @@
+<br>
+<br>
+<widget-button class="buttonBasic-Grey marginLeft2" id="sourceMe" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'sourceId', val:'sourceMe'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">source me</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="targetMe" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'targetId', val:'targetMe'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">target me</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="setColor" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'color', val:'#000000'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">set color</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="setSourceX" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'sourceOffsetX', val:'1'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">set source x to 1</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="setSourceY" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'sourceOffsetY', val:'100'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">set source y to 100</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="setTargetX" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'targetOffsetX', val:'0'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">set target x to 0</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2" id="setTargetY" :clickEffects="{conditionList:[
+    {
+        effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'arrow2', key: 'targetOffsetY', val:'0'}}]
+    }
+]}">
+<p class="marginLeft2 marginRight2">set target y to 0</p>
+</widget-button>
+<container-show-hide id="upperLeftContainer" :visible=true>
+    <span id="upperRight">span in container</span>
+</container-show-hide>
+<img id="checker" style="margin: 4rem; opacity: 0.5;" src="../../assets/jpg/checkerTest.jpeg">
+<widget-arrow id="arrow" source-id="prevPageButton" target-id="checker" :delay=0 :duration=0 color="#ffaa00" :width="10"
+    :show-head="true" control-points="0,0 1,1 2,2" />
+<widget-arrow id="arrow2" source-id="upperRight" target-id="checker" :delay=0 :duration=0 color="#b7d805" :width=2
+    :source-offset-x="100" :source-offset-y="50" :target-offset-x="100" :target-offset-y="100" :show-head="true"
+    control-points="1,0 0,1" />
+<widget-arrow id="arrow3" source-id="prevPageButton" target-id="checker" :delay=0 :duration=0 color="#2f56e4" :width=6
+    :source-offset-x="50" :source-offset-y="0" :target-offset-x="0" :target-offset-y="100" :show-head="true"
+    control-points="-1,0.5" />
+<widget-arrow id="arrow4" source-id="upperRight" target-id="checker" :delay=0 :duration=0 color="#6ab7fd" :width=4
+    :source-offset-x="50" :source-offset-y="100" :target-offset-x="0" :target-offset-y="0" />
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>
+<widget-arrow id="arrowSpan" source-id="nextPageButton" target-id="checker" :delay=0 :duration=0 color="black" :width="1"
+    :source-offset-x="0" :source-offset-y="50" :target-offset-x="100" :target-offset-y="100" />
+<widget-arrow id="arrowPurple" source-id="checker" target-id="checker" :delay=0 :duration=0 color="purple" :width="3"
+    :source-offset-x="0" :source-offset-y="50" :target-offset-x="10" :target-offset-y="10" text="0,50 to 10,10" />
+<widget-radio style="margin-left: 30rem;" id="radio3" class="buttonRadio" value="radio3 Value" group="radioGroup" :clickEffects="{conditionList:[
+        {
+            effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:'textarea', key: 'text', val:'not right'}}]
+        }
+    ]}">
+    <p>radio with text</p>
+</widget-radio>
+<widget-arrow id="arrowRadio" source-id="nextPageButton" target-id="radio3" :delay=0 :duration=0 color="yellow" :width="3"
+    :source-offset-x="100" :source-offset-y="50" :target-offset-x="0" :target-offset-y="50"/>
+<widget-popper id="popper1" anchor-id="radio3" class="textBackground-Popup-Blue">
+    <img src="https://cdn2.iconfinder.com/data/icons/hand-gestures/32/gesture-finger-directions-512.png" width="30" />
+    <br>popperTest
+</widget-popper>
+<widget-arrow id="arrowPopper" source-id="popper1" target-id="checker" :delay=0 :duration=0 color="blue" :width="3"
+    :source-offset-x="50" :source-offset-y="50" :target-offset-x="80" :target-offset-y="80"/>
+<!-- <widget-arrow id="failTest" source-id="00000" target-id="11111" :delay=0 :duration=0 color="blue" :width="3"
+    :source-offset-x="0" :source-offset-y="50" :target-offset-x="100" :target-offset-y="50"/> -->
+<widget-arrow id="pointToPopper" source-id="checker" target-id="popper1" :delay=0 :duration=0 color="red" :width="3"
+    :source-offset-x="80" :source-offset-y="50" :target-offset-x="100" :target-offset-y="0"/>
+<widget-arrow id="pointFromRadio" source-id="radio3" target-id="checker" :delay=0 :duration=0 color="red" :width="3"
+    :source-offset-x="50" :source-offset-y="50" :target-offset-x="50" :target-offset-y="100"/>

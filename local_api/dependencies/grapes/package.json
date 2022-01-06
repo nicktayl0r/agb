@@ -1,0 +1,26 @@
+{
+  "name": "interactivecase-projecteditor",
+  "version": "1.2.9",
+  "author": "Explore Learning Athens",
+  "homepage": "https://www.explorelearning.com/index.cfm?method=cCorp.dspAboutCases",
+  "description": "GrapesJS based Project Editor Interactive Cases",
+  "keywords": [
+    "science"
+  ],
+  "license": "Privately Owned Not for licensing",
+  "scripts": {
+    "install": "yarn install:grapes-plugin && yarn install:project-editor",
+    "install:grapes-plugin": "cd grapes-plugin && yarn preinstall && yarn install",
+    "install:project-editor": "cd project_editor && yarn install",
+    "build:all": "yarn build:project-editor && yarn build:grapes-plugin",
+    "build:grapes-plugin": "cd grapes-plugin && yarn preinstall && yarn install && yarn build",
+    "build:project-editor": "cd project_editor && yarn install && yarn build",
+    "test:all": "yarn build:ext && yarn test:project-editor",
+    "test:grapes-plugin": "cd grapes-plugin && yarn test",
+    "test:project-editor": "cd project_editor && yarn test"
+  },
+  "engines": {
+    "node": ">= 0.6.12"
+  },
+  "dependencies": {}
+}

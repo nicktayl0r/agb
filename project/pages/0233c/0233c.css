@@ -1,0 +1,82 @@
+.grid_Main.page0233c {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid_T4.page0233c {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	padding: 6vh;
+}
+
+.item1_T4.page0233c {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.grid_Clipping.page0233c {
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(center, white, black);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid_Visuals.page0233c {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	height: 102%;
+	width: 102%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.video_Styles.page0233c {
+	z-index: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: stretch;
+	justify-self: stretch;
+}
+
+.buttonFillSq.page0233c {
+	width: 10vh;
+	height: 10vh;
+}
+
+.button_Next3.page0233c {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 -62vh -25vh 0;
+}
+

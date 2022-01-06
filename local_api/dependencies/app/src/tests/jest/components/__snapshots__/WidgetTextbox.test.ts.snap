@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetTextBox matches html snapshot 1`] = `
+<div>
+  <input
+    autocomplete="off"
+    class=""
+    filter="text"
+    id="testWidget"
+    maxlength="900"
+    placeholder="test placeholder"
+    type="text"
+  />
+</div>
+`;

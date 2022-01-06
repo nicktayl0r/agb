@@ -1,0 +1,149 @@
+page 7
+<br />
+<br />
+<div>
+    <widget-button id="showAnchor" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'anchorTest', key:'visible', val:true}}
+        ]
+    }   
+    ] 
+} " text="show truck anchor " class="buttonBasic-Grey " />
+    <widget-button id="hideAnchor" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'anchorTest', key:'visible', val:false}}
+        ]
+    }   
+    ] 
+} " text="hide truck anchor " class="buttonBasic-Grey " />
+    <widget-button id="showAnchorContent" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'mountZoom', key:'visible', val:true}}
+        ]
+    }   
+    ] 
+} " text="show mount anchor content" class="buttonBasic-Grey " />
+    <widget-button id="hideAnchorContent" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'mountZoom', key:'visible', val:false}}
+        ]
+    }   
+    ] 
+} " text="hide mount anchor content" class="buttonBasic-Grey " />
+</div>
+<widget-anchor :visible="false" id="anchorTest" shared-data-read-key="proj_AnchorKey1" sim-widget-id="simTest">
+    <widget-button id="button" class='buttonZoom' data-gjs-custom-name='button zoom'></widget-button>
+</widget-anchor>
+<widget-anchor :visible="true" id="anchorTest2" shared-data-read-key="proj_AnchorKey2" sim-widget-id="simTest">
+    <widget-button :visible="false" id="mountZoom" class='buttonZoom' data-gjs-custom-name='button zoom'></widget-button>
+    <widget-button :visible="false" id="hiddenZoom" class='buttonZoom' data-gjs-custom-name='button zoom'></widget-button>
+</widget-anchor>
+<div style="width: 50%; height: 50%; display: inline-block; margin-left: 2rem;">
+    <widget-sim-view :visible="true" id="simTest" scenename="sim_Farm_dynamicLighting_withTrees" simstateid="ozhg8r" style="width: 100%; height: 100%"
+        :playEffects="{
+            conditionList:[ 
+                { 
+                    effectsPass:[
+                        {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:true}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}}
+                    ]
+                }   
+            ] 
+        }" :pauseEffects="{
+            conditionList:[ 
+                { 
+                    effectsPass:[
+                        {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:true}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+                    ]
+                }   
+            ] 
+        }" :stopEffects="{
+            conditionList:[ 
+                { 
+                    effectsPass:[
+                        {effectData: {effectType: 'updateWidget', widgetID:'stopEffects', key:'visible', val:true}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'pauseEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:false}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:false}}
+                    ]
+                }   
+            ] 
+        }" :endEffects="{
+            conditionList:[ 
+                { 
+                    effectsPass:[
+                        {effectData: {effectType: 'updateWidget', widgetID:'endEffects', key:'visible', val:true}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+                    ]
+                }   
+            ] 
+        }" :loopEffects="{
+            conditionList:[ 
+                { 
+                    effectsPass:[
+                        {effectData: {effectType: 'updateWidget', widgetID:'loopEffects', key:'visible', val:true}},
+                        {effectData: {effectType: 'updateWidget', widgetID:'playEffects', key:'visible', val:false}}
+                    ]
+                }   
+            ] 
+        }"></widget-sim-view>
+</div>
+<div style="width: 30%; height: 50%; float: right; margin-left: 2rem">
+    <widget-arrow id="mountArrow" source-id="mountSpan" target-id="anchorTest2" :delay=0 :duration=0 color="#b7d805" :width=2
+        :source-offset-x="0" :source-offset-y="50" :target-offset-x="0" :target-offset-y="50" />
+    <span style="padding-left: 0.5em" id="mountSpan">Mountain Top</span>
+    <widget-arrow id="truckArrow" source-id="truckSpan" target-id="anchorTest" :delay=0 :duration=0 color="#b7d805" :width=2
+        :source-offset-x="0" :source-offset-y="50" :target-offset-x="50" :target-offset-y="50" />
+    <span style="padding-left: 0.5em" id="truckSpan">Farm Truck</span>
+</div>
+<widget-button id="playSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+} " text="play sim " class="buttonBasic-Grey " />
+<widget-button id="pauseSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'simTest', key:'playState', val:'pause'}}
+        ]
+    }   
+    ] 
+} " text="pause sim " class="buttonBasic-Grey " />
+<widget-textbox id="textbox" placeholder="100" shared-data-read-key="proj_AnchorKey1" shared-data-write-key="proj_AnchorKey1"
+    width="200px" />
+proj_AnchorKey1:
+<widget-shared-data-text id="sdt1" shared-data-read-key="proj_AnchorKey1" />
+<br>
+proj_AnchorKey2:
+<widget-shared-data-text id="sdt1" shared-data-read-key="proj_AnchorKey2" />
+<br/>
+<br/>
+<br/>
+<br/>
+<widget-button id="prevPageButton " :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+        'previousPage'}}] } ]} " class="buttonBasic-Grey ">
+    <p class="marginLeft2 marginRight2 ">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue " id="nextPageButton " :clickEffects="{conditionList:[
+        { effectsPass:[{effectData: {effectType: 'unlockNextPage'}}] } ]} ">
+    <p class="marginLeft2 marginRight2 ">unlock next page</p>
+</widget-button>
+<div style="height: 50%; width: 200%"></div>

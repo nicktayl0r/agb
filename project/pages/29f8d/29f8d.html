@@ -1,0 +1,30 @@
+<div class="simParent page29f8d">
+  <widget-sim-view id="il52" :visible="true" :enabled="true" play-state="default" :muted="false" scenename="Sahara_Perspective" simstateid="r6ww4d" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqc1',key:'enabled',val:true},fireOnceID:'firstEnable_page29f8d',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page29f8d" />
+  <div class="grid_T62 simPageContent page29f8d">
+    <p class="dropShadow textBackgroundBasic item1_T62 page29f8d">You need to help Farmer Lucy stop the elephants from entering the farm. <br />There are 3 ways you can do this:</p>
+    <div class="page29f8d divChoices dropShadow">
+      <div class="page29f8d radioButtonRow">
+        <widget-radio :visible="true" :enabled="false" id="iqc1" group="choices" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'removeClasses',widgetID:'iqc1',classes:'buttonBlinkBlue'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'il52',key:'simstateid',val:'npqm7k'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'idjm8',key:'enabled',val:true},fireOnceID:'enableRadio2_page29f8d',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonRadio page29f8d firstRadioSelect buttonBlinkBlue">
+          <p class="textInline marginLeft2 marginRight2 page29f8d">1</p>
+        </widget-radio>
+        <widget-radio :visible="true" :enabled="false" group="choices" id="idjm8" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'removeClasses',widgetID:'idjm8',classes:'buttonBlinkBlue'},fireOnceID:'bbb2ndRadio_page29f8d',delay:0},{effectData:{effectType:'updateWidget',widgetID:'il52',key:'simstateid',val:'59bzn4'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iqb5k',key:'enabled',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonRadio page29f8d buttonBlinkBlue midRadioSelect">
+          <p class="textInline marginLeft2 marginRight2 page29f8d">2</p>
+        </widget-radio>
+        <widget-radio :visible="true" :enabled="false" group="choices" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'removeClasses',widgetID:'iqb5k',classes:'buttonBlinkBlue'},fireOnceID:'bbb2ndRadio_page29f8d',delay:0},{effectData:{effectType:'updateWidget',widgetID:'il52',key:'simstateid',val:'8u6n73'},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockOnce_page29f8d',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" id="iqb5k" class="buttonRadio page29f8d lastRadioSelect buttonBlinkBlue">
+          <p class="textInline marginLeft2 marginRight2 page29f8d">3</p>
+        </widget-radio>
+      </div>
+      <div class="textBackgroundBasic page29f8d choiceTextBox">
+        <container-show-hide :visible="false" id="i7wi" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'choices',selected:'radioIDEquals',radioID:'iqc1'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i7wi',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i7wi',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="page29f8d">
+          <p class="page29f8d">Add beehives around the corn crops.<br />The elephants will see the beehives and be scared away.<br /></p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="i7e4y" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'choices',selected:'radioIDEquals',radioID:'idjm8'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i7e4y',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i7e4y',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="page29f8d">
+          <p class="page29f8d">Plant cotton crops around the corn crops to attract bees.<br />​​​​​​​The bees will scare away the elephants.<br /></p>
+        </container-show-hide>
+        <container-show-hide :visible="false" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'choices',selected:'radioIDEquals',radioID:'iqb5k'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iijnf',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iijnf',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" id="iijnf" class="page29f8d">
+          <p class="page29f8d">Build a <widget-link :options="{type:'internal',module:'glossary',pageId:'g_barbed_wire_E-Ex-M-Mx'}" text="barbed wire" :visible="true" id="i5sr" class="page29f8d"></widget-link> fence. The barbs will hurt the elephants and stop them from entering the farm.<br /></p>
+        </container-show-hide>
+      </div>
+    </div>
+  </div>
+</div>

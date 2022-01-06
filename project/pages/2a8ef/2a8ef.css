@@ -1,0 +1,72 @@
+.simPreview.page2a8ef {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: #000000;
+}
+
+.simParent.page2a8ef {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+}
+
+.simPageContent.page2a8ef {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.fraction_Inline.page2a8ef {
+	padding: 0vh .5vh 0vh .5vh;
+	width: 6vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -0.2vh 0 -0.2vh 0;
+	font-size: 2vh;
+}
+
+.fraction_Inline_Big.page2a8ef {
+	padding: 0vh .5vh 0vh .5vh;
+	width: 6vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -0.2vh 0 -0.2vh 0;
+}
+
+.text_Numerator_White.page2a8ef {
+	border-bottom: thin white solid;
+	width: auto;
+}
+
+.text_Numerator_Black.page2a8ef {
+	border-bottom: thin black solid;
+	width: auto;
+}
+
+.text_Denominator.page2a8ef {
+	width: auto;
+}
+
+.grid_farmMapSim_3ButtonColumns.page2a8ef {
+	grid-template-columns: 20vh 20vh 20vh;
+}
+
+
+
+
+
+
+
+

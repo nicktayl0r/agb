@@ -1,0 +1,20 @@
+page 4
+<br>
+<br>
+<widget-slider id="slider" :min=0 :max=100 :val=0 shared-data-write-key="proj_AnimSlider"></widget-slider>
+<br>
+<br>
+<widget-sim-view :visible="true" id="simTest" scenename="pepsin" simstateid="ebg0v7" style="width: 100%; height: 100%" data-gjs-custom-name="Widget-sim-view">
+</widget-sim-view>
+<br/>
+<br/>
+<br/>
+<br/>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

@@ -1,0 +1,85 @@
+<br>
+<widget-stopwatch id="stopwatch" :auto-play=false :startMS=5000 :endMS=600000 />
+
+<widget-stopwatch id="stopwatch2" play-state="play" :auto-play=true :startMS=5000 :endMS=600000 />
+<widget-stopwatch id="stopwatch3" play-state="play" :auto-play=true :startMS=600000 :endMS=5000 />
+<!-- <widget-stopwatch id="stopwatch" :auto-play=false :endMS=10000000 format="hrs/mins" :speed=100 /> -->
+<br><br>
+<widget-button class="buttonBasic-Grey" id="playstopwatch" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+}" text="play" />
+<widget-button class="buttonBasic-Grey" id="pausestopwatch" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'playState', val:'pause'}}
+        ]
+    }   
+    ] 
+}" text="pause" />
+<widget-button class="buttonBasic-Grey" id="stopstopwatch" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'playState', val:'stop'}}
+        ]
+    }   
+    ] 
+}" text="stop" />
+<br><br>
+<widget-button class="buttonBasic-Grey" id="speed1" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'speed', val:1}}
+        ]
+    }   
+    ] 
+}" text="1x" />
+<widget-button class="buttonBasic-Grey" id="speed2" :clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'speed', val:2}}
+        ]
+    }   
+    ] 
+}" text="2x" />
+<widget-button class="buttonBasic-Grey" id="speed100" :clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatch', key:'speed', val:100}}
+        ]
+    }   
+    ] 
+}" text="100x" />
+<br><br><br>
+accelerating on endEffects:
+<widget-stopwatch id="stopwatchAccelerate" :auto-play=false :endMS=2400000 format="hrs/mins" :speed=300 :endEffects="{
+    conditionList:[ 
+        { 
+            effectsPass:[
+                {effectData: {effectType: 'updateWidget', widgetID:'stopwatchAccelerate', key:'endMS', val:21600000}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopwatchAccelerate', key:'speed', val:1000}},
+                {effectData: {effectType: 'updateWidget', widgetID:'stopwatchAccelerate', key:'playState', val:'play'}}
+            ]
+        }
+    ] 
+}" />
+<br><br>
+<widget-button class="buttonBasic-Grey" id="playstopwatchAccelerate" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'stopwatchAccelerate', key:'playState', val:'play'}}
+        ]
+    }   
+    ] 
+}" text="play" />

@@ -1,0 +1,153 @@
+.grid_T62.page71543 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.page71543 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	width: auto;
+	justify-self: stretch;
+	align-self: start;
+}
+
+.item3_T62.page71543 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: center;
+	align-self: end;
+	z-index: 5;
+}
+
+.div_PlayReplay.page71543 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+	border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.text_PlayReplay.page71543 {
+	margin-left: 1.5vh;
+}
+
+.simPreview.page71543 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.page71543 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.page71543 {
+	z-index: 2;
+	position: relative;
+}
+
+.anchor_GridPos.page71543 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 0;
+	height: 0;
+}
+
+.anchor_Popper1.page71543 {
+	margin: -34vh -36vh 0 0;
+}
+
+.anchor_Popper2.page71543 {
+	margin: -4vh 0 0 -29vh;
+}
+
+.anchor_Popper3.page71543 {
+	margin: 0 -33vh -19vh 0;
+}
+
+.anchor_Popper4.page71543 {
+	margin: 0 -5vh -40vh 0;
+}
+
+.anchor_Popper5.page71543 {
+	margin: 0 0 -30vh -70vh;
+}
+
+.buttonBasic_Invisible.page71543 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_Empty_1.page71543 {
+	margin: -25vh -36vh 0 0;
+}
+
+.button_Empty_2.page71543 {
+	margin: 0vh 0vh -20vh -4vh;
+}
+
+.button_Empty_3.page71543 {
+	margin: 0 -10vh -67vh 0;
+}
+
+.button_Empty_4.page71543 {
+	margin: 0 -10vh -68vh 0;
+}
+
+.buttonFill_1.page71543 {
+	width: 14vh;
+	height: 16vh;
+}
+
+.buttonFill_2.page71543 {
+	width: 64vh;
+	height: 24vh;
+}
+
+.buttonFill_3.page71543 {
+	width: 45vh;
+	height: 25vh;
+}
+
+.buttonFill_4.page71543 {
+	width: 45vh;
+	height: 25vh;
+}
+
+.popper_3.page71543 {
+	width: 35vh;
+}
+
+
+
+

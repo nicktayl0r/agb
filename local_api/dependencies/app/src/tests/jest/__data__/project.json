@@ -1,0 +1,411 @@
+{
+  "name": "example project",
+  "description": "some data to test the project.json file",
+  "appkey": "",
+  "version": "0.0.0",
+  "compatibility": [
+    {
+      "versionStart": "",
+      "versionEnd": ""
+    }
+  ],
+  "sharedData": [
+    {
+      "sharedDataID": "proj_TextBoxKey1",
+      "value": "--from project.json--"
+    },
+    {
+      "sharedDataID": "proj_DragKey1",
+      "value": "drop2"
+    },
+    {
+      "sharedDataID": "proj_SliderKey1",
+      "value": 110
+    },
+    {
+      "sharedDataID": "proj_CheckKey1",
+      "value": true
+    },
+    {
+      "sharedDataID": "proj_RadioKey1",
+      "value": "radio3"
+    },
+    {
+      "sharedDataID": "proj_TextAreaKey1",
+      "value": "--area text from project.json--"
+    },
+    {
+      "sharedDataID": "proj_AnchorKey1",
+      "value": "{\"x\": 100, \"y\": 100}"
+    },
+    {
+      "sharedDataID": "proj_TestNumber",
+      "value": 1
+    },
+    {
+      "sharedDataID": "proj_AnimSlider",
+      "value": 0
+    },
+    {
+      "sharedDataID": "userSharedData_updateWidgetWithSharedData",
+      "value": 40982345
+    },
+    {
+      "sharedDataID": "radioGroupValue",
+      "value": ""
+    },
+    {
+      "sharedDataID": "response_SharedData1",
+      "value": "1"
+    },
+    {
+      "sharedDataID": "response_SharedData10",
+      "value": "10"
+    }
+  ],
+  "appSharedData": [
+    {
+      "sharedDataID": "proj_AnchorKey2",
+      "value": "1234"
+    },
+    {
+      "sharedDataID": "appSharedData_updateWidgetWithSharedData",
+      "value": 5438904
+    }
+  ],
+  "case": {
+    "tracks": [
+      {
+        "trackID": "caseApBio",
+        "name": "Case AP Biology",
+        "popperMessage": "Return to the test Case Study.",
+        "sections": [
+          {
+            "name": "section one",
+            "tocColor": "#f95858",
+            "pages": [
+              {
+                "name": "conditions",
+                "pageID": "conditions"
+              },
+              {
+                "popperMessage": "click <b>this</b> page<br><br>...please",
+                "name": "dragdrop",
+                "pageID": "dragdrop"
+              },
+              {
+                "name": "radio",
+                "pageID": "radio",
+                "popperMessage": "now this one"
+              },
+              {
+                "name": "slider",
+                "pageID": "slider"
+              },
+              {
+                "name": "submit",
+                "pageID": "submit"
+              },
+              {
+                "name": "video",
+                "pageID": "video"
+              },
+              {
+                "name": "transvideo",
+                "pageID": "transvideo"
+              },
+              {
+                "name": "animatedsvg",
+                "pageID": "animatedsvg"
+              },
+              {
+                "name": "arrows",
+                "pageID": "arrows"
+              },
+              {
+                "name": "anchor",
+                "pageID": "anchor"
+              },
+              {
+                "name": "animationslider",
+                "pageID": "animationslider"
+              },
+              {
+                "name": "lockPage",
+                "pageID": "lockPage",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "name": "section two<wbr> with a pretty long name",
+            "tocColor": "#fcb259",
+            "pages": [
+              {
+                "name": "track condition",
+                "pageID": "TrackCond"
+              }
+            ]
+          },
+          {
+            "name": "section three",
+            "tocColor": "#fffa99",
+            "pages": [
+              {
+                "name": "turntable",
+                "pageID": "turntable"
+              }
+            ]
+          },
+          {
+            "name": "section four",
+            "tocColor": "#c1ff8a",
+            "pages": [
+              {
+                "name": "add/remove classes",
+                "pageID": "addRemoveClasses"
+              }
+            ]
+          },
+          {
+            "name": "section five",
+            "tocColor": "#83ffd6",
+            "pages": [
+              {
+                "name": "sim grow",
+                "pageID": "simGrowTest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "trackID": "caseBio",
+        "name": "Case Biology",
+        "sections": [
+          {
+            "name": "section",
+            "tocColor": "#be2a3d",
+            "pages": [
+              {
+                "name": "conditions",
+                "pageID": "conditions"
+              },
+              {
+                "name": "responses",
+                "pageID": "responses"
+              },
+              {
+                "name": "anchor",
+                "pageID": "anchor"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "guide": {
+    "tracks": [
+      {
+        "trackID": "guideApBio",
+        "name": "Guide AP Biology",
+        "popperMessage": "Open the AP Bio guide.",
+        "sections": [
+          {
+            "name": "sims",
+            "tocColor": "#fcb259",
+            "pages": [
+              {
+                "name": "simIntro",
+                "pageID": "simIntro"
+              },
+              {
+                "name": "sim1",
+                "pageID": "sim1"
+              },
+              {
+                "name": "sim2",
+                "pageID": "sim2"
+              }
+            ]
+          },
+          {
+            "name": "subsection1",
+            "parentSectionName": "sims",
+            "tocColor": "#f95858",
+            "pages": [
+              {
+                "name": "subSectionPage",
+                "pageID": "subSectionPage"
+              }
+            ]
+          },
+          {
+            "name": "subsection2",
+            "parentSectionName": "sims",
+            "tocColor": "#f95858",
+            "pages": [
+              {
+                "name": "subSectionPage2",
+                "pageID": "subSectionPage2"
+              }
+            ]
+          },
+          {
+            "name": "subsection3",
+            "parentSectionName": "sims",
+            "tocColor": "#f95858",
+            "pages": [
+              {
+                "name": "subSectionPage3",
+                "pageID": "subSectionPage3"
+              }
+            ]
+          },
+          {
+            "name": "Review",
+            "tocColor": "#fffa99",
+            "pages": [
+              {
+                "name": "lockPageGuide",
+                "pageID": "lockPageGuide",
+                "visible": true
+              },
+              {
+                "name": "guide completed",
+                "pageID": "setGuideCompleted"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "tracks": [
+      {
+        "trackID": "testGlossary",
+        "name": "test glossary",
+        "pages": [
+          {
+            "pageID": "glossaryPage1",
+            "name": "glossary test page"
+          },
+          {
+            "pageID": "glossaryPage2",
+            "name": "glossary test page<sup>2</sup>",
+            "relatedTerms": [
+              {
+                "pageID": "glossaryPage1",
+                "name": "glossary test page"
+              },
+              {
+                "pageID": "glossaryPage3",
+                "name": "glossary test page 3"
+              }
+            ]
+          },
+          {
+            "pageID": "glossaryPage3",
+            "name": "glossary test page<sub>3</sub>"
+          }
+        ]
+      },
+      {
+        "trackID": "testGlossary-2",
+        "name": "test glossary 2",
+        "pages": [
+          {
+            "pageID": "glossaryPage1",
+            "name": "glossary test page"
+          },
+          {
+            "pageID": "glossaryPage2",
+            "name": "glossary test page<sup>2</sup>",
+            "relatedTerms": [
+              {
+                "pageID": "glossaryPage1",
+                "name": "glossary test page"
+              },
+              {
+                "pageID": "glossaryPage3",
+                "name": "glossary test page 3"
+              }
+            ]
+          },
+          {
+            "pageID": "glossaryPage3",
+            "name": "glossary test page<sub>3</sub>"
+          }
+        ]
+      }
+    ]
+  },
+  "trackGroups": [
+    {
+      "trackGroupID": "evolution_case_ap-v.1.0.0",
+      "name": "AP Biology",
+      "caseID": "caseApBio",
+      "guideID": "guideApBio",
+      "glossaryID": "testGlossary"
+    },
+    {
+      "trackGroupID": "evolution_case_highschool-v.1.0.0",
+      "name": "Biology",
+      "caseID": "caseBio",
+      "guideID": "guideApBio",
+      "glossaryID": "testGlossary-2"
+    }
+  ],
+  "sims": [
+    {
+      "name": "Sim_Evolution_Lab_Fixes",
+      "id": "553729",
+      "loadMode": "LoadOnDemand",
+      "unloadMode": "UnloadOnDemand",
+      "scenes": [
+        {
+          "name": "background",
+          "fileName": "610117.json"
+        }
+      ]
+    },
+    {
+      "name": "Sim_Farms_CASEv1",
+      "id": "555214",
+      "loadMode": "LoadOnDemand",
+      "unloadMode": "UnloadOnDemand",
+      "scenes": [
+        {
+          "name": "sim_Farm_dynamicLighting_withTrees",
+          "fileName": "633094.json"
+        }
+      ]
+    },
+    {
+      "name": "Sim_Turntable",
+      "id": "561319",
+      "loadMode": "LoadOnDemand",
+      "unloadMode": "UnloadOnDemand",
+      "scenes": [
+        {
+          "name": "turntable",
+          "fileName": "621543.json"
+        }
+      ]
+    },
+    {
+      "name": "Sim_Pepsin",
+      "id": "570405",
+      "loadMode": "LoadOnDemand",
+      "unloadMode": "UnloadOnDemand",
+      "scenes": [
+        {
+          "name": "pepsin",
+          "fileName": "633049.json"
+        }
+      ]
+    }
+  ]
+}

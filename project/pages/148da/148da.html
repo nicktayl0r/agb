@@ -1,0 +1,44 @@
+<div class="grid_CaseBase_Summary grid_CaseBase grid_CaseBase_MQ page148da">
+  <div class="dropShadow page148da"></div>
+  <div class="item1_CaseBase_Header div_Header div_Header_MQ page148da">
+    <container-show-hide :visible="false" id="ithg" class="dot dotViolet page148da"></container-show-hide>
+    <h1 class="text_Header page148da">Case Summary</h1>
+  </div>
+  <p class="item2_CaseBase_Summary_Instruction div_Summary_Instruction page148da">1. Answer the questions below to help you write your case summary.<br class="page148da" />2. Use the scroll bar on the right to move down the page.</p>
+  <div class="item3_CaseBase_Summary_Questions div_Summary_Questions page148da">
+    <container-enable-disable :visible="false" :enabled="true" id="iqqk" class="ED_Questions page148da">
+      <div class="grid_Questions page148da">
+        <div class="item1_Q1 page148da">
+          <p class="text_Summary_Question_Title page148da">Background</p>
+          <p class="text_Summary_Question page148da">Explain the relationship between bees and cotton and the relationship between bees and elephants.</p>
+          <widget-textarea :visible="true" :enabled="true" id="i6qn" placeholder="Type your answer here" styles="resize: none;" text="" shared-data-read-key="GroupBehavior.EM.CaseSummary_Q1_Response" shared-data-write-key="GroupBehavior.EM.CaseSummary_Q1_Response" class="TextArea page148da" />
+        </div>
+        <div class="item2_Q2 pagec7ef page148da">
+          <p class="text_Summary_Question_Title page148da">Problem</p>
+          <p class="text_Summary_Question page148da">What was the problem at Marula farm?</p>
+          <widget-textarea :visible="true" :enabled="true" id="ia6g" placeholder="Type your answer here" styles="resize: none;" shared-data-read-key="GroupBehavior.EM.CaseSummary_Q2_Response" shared-data-write-key="GroupBehavior.EM.CaseSummary_Q2_Response" class="page148da" />
+        </div>
+        <div class="item3_Q3 page148da">
+          <p class="text_Summary_Question_Title page148da">Solution</p>
+          <p class="text_Summary_Question page148da">How did adding beehives around the corn crops stop the elephants from eating and trampling the corn?</p>
+          <widget-textarea :visible="true" :enabled="true" id="iw5e" placeholder="Type your answer here" styles="resize: none;" shared-data-read-key="GroupBehavior.EM.CaseSummary_Q3_Response" shared-data-write-key="GroupBehavior.EM.CaseSummary_Q3_Response" class="page148da" />
+        </div>
+      </div>
+    </container-enable-disable>
+  </div>
+  <div class="item4_CaseBase_Summary_Submit div_Summary_Submit div_Submit_MQ page148da">
+    <widget-button text="" :visible="true" :enabled="false" id="ihdf" :conditions="{conditionList:[{comparisons:[{comparisonData:{comparisonType:'textLength',textID:'i6qn'}},{comparisonData:{comparisonType:'textLength',textID:'ia6g'}},{comparisonData:{comparisonType:'textLength',textID:'iw5e'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihdf',key:'enabled',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'ihdf',key:'enabled',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]},{comparisons:[{comparisonData:{comparisonType:'textLength',textID:'i6qn'}},{comparisonData:{comparisonType:'textLength',textID:'ia6g'}},{comparisonData:{comparisonType:'textLength',textID:'iw5e'}}],comparisonsLogic:'or',effectsPass:[],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EM.CaseSummary',responseData:{responseType:'widget',format:'html',headerPairs:[{header:'Explain the relationship between bees and cotton and the relationship between bees and elephants.',widgetID:'i6qn',key:'text'},{header:'What was the problem at Marula farm?',widgetID:'ia6g',key:'text'},{header:'How did adding beehives around the corn crops stop the elephants from eating and trampling the corn?',widgetID:'iw5e',key:'text'}]}}],responsesFail:[]}]}" :click-effects="{conditionList:[{comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqqk',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihdf',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'c6_A_NextPageUnlock_page148da',delay:1},{effectData:{effectType:'updateWidget',widgetID:'il9lj',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iewp2',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i53u',key:'visible',val:false},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EM.CaseSummary',responseData:{responseType:'widget',format:'html',headerPairs:[{header:'Explain the relationship between bees and cotton and the relationship between bees and elephants.',widgetID:'i6qn',key:'text'},{header:'What was the problem at Marula farm?',widgetID:'ia6g',key:'text'},{header:'How did adding beehives around the corn crops stop the elephants from eating and trampling the corn?',widgetID:'iw5e',key:'text'}]},fireOnceID:''}],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue marginRight3 page148da">
+      <p class="textSubmit marginLeft2 marginRight2 page148da">Submit</p>
+    </widget-button>
+    <container-show-hide :visible="true" id="i53u" class="SH_SubmitNote page148da">
+      <p class="page148da">You can submit your case summary once you have answered&nbsp;<strong>all</strong> of the questions.</p>
+    </container-show-hide>
+  </div>
+  <widget-button :visible="false" :enabled="true" id="ipb5" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ipb5',key:'visible',val:true},fireOnceID:'beginSummaryButtonShow_page148da',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ipb5',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iqqk',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'il9lj',key:'visible',val:true},fireOnceID:'',delay:1},{effectData:{effectType:'updateWidget',widgetID:'iewp2',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey item5_CaseBase_Summary_button_Begin buttonBlinkBlue page148da">
+    <p class="marginLeft2 marginRight2 page148da">Begin Case Summary</p>
+  </widget-button>
+  <container-show-hide :visible="true" id="itno" class="item6_CaseBase_Summary_AnchorPopperScroll page148da"></container-show-hide>
+  <container-show-hide :visible="true" :enabled="true" id="ithy" class="item7_CaseBase_Summary_AnchorPopperReview page148da"></container-show-hide>
+  <widget-popper :visible="false" :click-to-dismiss="true" id="il9lj" :delay="0" :delay-once="false" :options="{placement:'right'}" anchor-id="ithy" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="textBackground-Popup-Blue page148da"><span class="page148da">You can review any topic using the progress bar.</span></widget-popper>
+  <widget-popper :visible="false" :click-to-dismiss="true" :delay="0" :delay-once="false" :options="{placement:'left'}" anchor-id="itno" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[],effectsFail:[],responsesPass:[],responsesFail:[]}]}" id="iewp2" class="textBackground-Popup-Blue page148da"><span class="page148da">Drag to scroll.</span></widget-popper>
+</div>

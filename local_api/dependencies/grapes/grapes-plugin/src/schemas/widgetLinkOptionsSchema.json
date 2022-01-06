@@ -1,0 +1,139 @@
+{
+	"title": "Link options",
+	"$ref": "#/definitions/Options",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"Options": {
+			"additionalProperties": false,
+			"title": "Link Type",
+			"oneOf": [
+				{
+					"title": "Glossary Term",
+					"description": "",
+					"additionalProperties": false,
+					"properties": {
+						"type": {
+							"enum": ["internal"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"module": {
+							"enum": ["glossary"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"pageId": {
+							"title": "Glossary Page ID",
+							"description":
+								"The Page ID of the Glossary Page that you want to link to.",
+							"$ref": "#/definitions/GlossaryPageIDs"
+						}
+					},
+					"required": ["type","module","pageId"],
+					"type": "object"
+				},
+				{
+					"title": "External",
+					"description": "",
+					"additionalProperties": false,
+					"properties": {
+						"type": {
+							"enum": ["external"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"href": {
+							"title": "href URL",
+							"description": "The URL of the Page that you want to link to.",
+							"type": "string",
+							"default": "http://example.com"
+						},
+						"target": {
+							"title": "Target",
+							"$ref": "#/definitions/Targets",
+							"description":
+								"_blank opens in a new window. The rest should open in the same because we aren't using frames."
+						}
+					},
+					"required": ["type","href"],
+					"type": "object"
+				},
+				{
+					"title": "Case Page",
+					"description": "",
+					"additionalProperties": false,
+					"properties": {
+						"type": {
+							"enum": ["internal"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"module": {
+							"enum": ["case"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"pageId": {
+							"title": "Case Page ID",
+							"description":
+								"The Page ID of the Case Page that you want to link to.",
+							"$ref": "#/definitions/CasePageIDs"
+						}
+					},
+					"required": ["type","module","pageId"],
+					"type": "object"
+				},
+				{
+					"title": "Guide Page",
+					"description": "",
+					"additionalProperties": false,
+					"properties": {
+						"type": {
+							"enum": ["internal"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"module": {
+							"enum": ["guide"],
+							"type": "string",
+							"options": { "hidden": true }
+						},
+						"pageId": {
+							"title": "Guide Page ID",
+							"description":
+								"The Page ID of the Guide Page that you want to link to.",
+							"$ref": "#/definitions/GuidePageIDs"
+						}
+					},
+					"required": ["type","module","pageId"],
+					"type": "object"
+				}
+			]
+		},
+		"Targets": {
+			"enum": ["_blank", "_self", "_parent", "_top"],
+			"type": "string"
+		},
+		"CasePageIDs": {
+			"enum": ["populate at runtime"],
+			"options": {
+				"enum_titles": ["populate at runtime"]
+			},
+			"type": "string"
+		},
+		"GuidePageIDs": {
+			"enum": ["populate at runtime"],
+			"options": {
+				"enum_titles": ["populate at runtime"]
+			},
+			"type": "string"
+		},
+		"GlossaryPageIDs": {
+			"enum": ["populate at runtime"],
+			"options": {
+				"enum_titles": ["populate at runtime"]
+			},
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="unlockPageButton"
+	:clickEffects="{
+		conditionList:[ 
+		{ effectsPass:[ {effectData:
+	{effectType: 'unlockNextPage'}}] } ]
+	}"
+>
+	<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="lockPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'lockPage', pageID: 'setGuideCompleted'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">lock next page</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="lockPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'goToPage', pageID: 'simIntro'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">go to other guide section</p>
+</widget-button>

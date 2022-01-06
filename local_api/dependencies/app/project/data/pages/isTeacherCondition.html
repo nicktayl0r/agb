@@ -1,0 +1,41 @@
+<br /><br />
+<container-show-hide
+	id="notTeacher"
+	:visible="false"
+	:conditions="{conditionList:[
+        {
+            comparisons:[{comparisonData:{comparisonType:'isTeacher'}}],
+            effectsFail:[
+            {effectData: {effectType: 'updateWidget', widgetID:'notTeacher', key:'visible', val:true}},
+            ],
+            evaluateWhen:'pageLoads'
+        },
+        ]}"
+>
+	Not in teacher view.
+</container-show-hide>
+<container-show-hide
+	id="isTeacher"
+	:visible="false"
+	:conditions="{conditionList:[
+        {
+            comparisons:[{comparisonData:{comparisonType:'isTeacher'}}],
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'isTeacher', key:'visible', val:true}},
+            ],
+            evaluateWhen:'pageLoads'
+        },
+        ]}"
+>
+	In teacher view.
+</container-show-hide>
+<br />
+<br />
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="nextPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'unlockNextPage'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

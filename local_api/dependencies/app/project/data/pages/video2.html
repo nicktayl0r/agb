@@ -1,0 +1,71 @@
+<widget-video-player id="videoTest2" src-mp4="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" :loop=false
+    :endEffects="{conditionList:[ 
+    {
+        effectsPass:[ 
+        {effectData: {effectType: 'updateWidget', widgetID:'onVidEnd', key:'visible', val:true}},
+        {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:false}}
+        ], 
+    }, 
+]}"
+    :playEffects="{conditionList:[
+    {
+        effectsPass:[ 
+        {effectData: {effectType: 'updateWidget', widgetID:'onVidEnd', key:'visible', val:false}},
+        {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:true}}
+        ], 
+    }, 
+]}"
+    :loopEffects="{conditionList:[
+    {
+        effectsPass:[ 
+        {effectData: {effectType: 'updateWidget', widgetID:'onVidReplay', key:'visible', val:true}} 
+        ], 
+    }, 
+]}"
+    :visible=true :controls=true :enableScrub=true></widget-video-player>
+<widget-button id="mute" :clickEffects="{
+        conditionList:[ 
+        { 
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'videoTest2', key:'muted', val:true}}
+            ]
+        }   
+        ] 
+    } "
+    text="mute" />
+<widget-button id="unmute" :clickEffects="{
+        conditionList:[ 
+        { 
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'videoTest2', key:'muted', val:false}}
+            ]
+        }   
+        ] 
+    } "
+    text="unmute" />
+
+<container-show-hide id="onVidPlay" :visible=false>
+    <p>Video Playing</p>
+</container-show-hide>
+<container-show-hide id="onVidPause" :visible=false>
+    <p>Video Paused</p>
+</container-show-hide>
+<container-show-hide id="onVidEnd" :visible=false>
+    <p>Video End</p>
+</container-show-hide>
+<container-show-hide id="onVidLoop" :visible=false>
+    <p>Video Loop</p>
+</container-show-hide>
+<container-show-hide id="onVidStop" :visible=false>
+    <p>Video Stop</p>
+</container-show-hide>
+<br><br>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+    class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

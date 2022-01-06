@@ -1,0 +1,34 @@
+production:
+  bucket: "apps.elclouddev.net"
+  prefix: "stem_cases/19/"
+  id: 19
+stage:
+  bucket: "apps.elcloudstage.net"
+  prefix: "stem_cases/19/"
+  id: 19
+dev:
+  bucket: "apps.elclouddev.net"
+  prefix: "stem_cases/19/"
+  id: 19
+legacy-stage:
+  bucket: "el-gizmos-stage"
+  prefix: "resources/cases/19/"
+  id: 19
+legacy-prod:
+  bucket: "el-gizmos"
+  prefix: "resources/cases/19/"
+  id: 19
+glossary:
+  db: 'Glossary-Manager'
+  host: 'sql.elclouddev.net'
+  name: null
+playcanvas:
+  - project_id: 789175
+    name: "Sahara_Perspective"
+  - project_id: 789586
+    name: "Sahara_Farm_Map"
+storyboards:
+  case:
+    slideshow_id: "1NOG0qllQjnitxlJLlFJWIBa2MBk8r4fqn-4RCl4x8c4"
+  handbook:
+    slideshow_id: "1sJ_rNuXn8aAG5CwyZQifzn6KuM79n1KHftKjedR4iSs"

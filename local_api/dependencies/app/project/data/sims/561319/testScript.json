@@ -1,0 +1,64 @@
+{
+	"cameraView": "MainCamera",
+	"smoothCam": true,
+	"transformWithCam": false,
+	"name": "TestScript",
+	"entities": {
+		"e5f3346d-7a0d-11e8-888b-026349a27a7c": {
+			"enabled": true,
+			"scripts": {
+				"SimStateManager": {}
+			}
+		},
+		"e5f3346e-7a0d-11e8-888b-026349a27a7c": {
+			"enabled": true
+		},
+		"3fac9c94-0ee4-4de5-b2c2-165d0735a3d2": {
+			"enabled": false,
+			"scripts": {
+				"turntable": {
+					"orbitSensitivity": 0.3,
+					"rotateX": true,
+					"rotateY": true
+				}
+			}
+		},
+		"10d17a8d-1753-43b9-852a-f4f2b0bc159c": {
+			"enabled": false,
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": false,
+						"material": 13124245
+					}
+				}
+			}
+		},
+		"bc8ed4ac-2d02-40aa-83d2-9dd0d995e933": {
+			"enabled": true,
+			"scripts": {
+				"turntable": {
+					"orbitSensitivity": 0.3,
+					"rotateX": false,
+					"rotateY": false
+				}
+			}
+		},
+		"5d25bcb0-c7c2-4840-8432-d0cc7dfb4ffe": {
+			"enabled": true,
+			"scripts": {},
+			"model": {
+				"show": true,
+				"materialAsset": 0,
+				"meshInstances": {
+					"0": {
+						"visible": true,
+						"material": 13007545
+					}
+				}
+			}
+		}
+	}
+}

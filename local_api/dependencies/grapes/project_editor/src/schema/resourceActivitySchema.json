@@ -1,0 +1,17 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"format": "grid",
+	"properties": {
+		"resource_id": {
+			"type": "number",
+			"format": "number",
+			"title": "resource_id"
+		},
+		"resource_activity_id": {
+			"type": "number",
+			"format": "number",
+			"title": "resource_activity_id"
+		}
+	}
+}

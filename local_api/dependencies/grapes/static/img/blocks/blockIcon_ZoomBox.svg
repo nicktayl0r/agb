@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{display:inline;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="Backets" class="st0">
+	<g id="blockIcon_x5F_Bracket_x5F_Up">
+		<line class="st1" x1="50" y1="100" x2="50" y2="50"/>
+		<line class="st1" x1="100" y1="50" x2="0" y2="50"/>
+		<line class="st1" x1="1" y1="0" x2="1" y2="50"/>
+		<line class="st1" x1="99" y1="50" x2="99" y2="0"/>
+	</g>
+	<g id="blockIcon_x5F_Bracket_x5F_Right">
+		<line class="st1" x1="0" y1="50" x2="50" y2="50"/>
+		<line class="st1" x1="50" y1="100" x2="50" y2="0"/>
+		<line class="st1" x1="100" y1="1" x2="50" y2="1"/>
+		<line class="st1" x1="50" y1="99" x2="100" y2="99"/>
+	</g>
+	<g id="blockIcon_x5F_Bracket_x5F_Left">
+		<line class="st1" x1="100" y1="50" x2="50" y2="50"/>
+		<line class="st1" x1="50" y1="0" x2="50" y2="100"/>
+		<line class="st1" x1="0" y1="99" x2="50" y2="99"/>
+		<line class="st1" x1="50" y1="1" x2="0" y2="1"/>
+	</g>
+	<g id="blockIcon_x5F_Bracket_x5F_Down" class="st2">
+		<line class="st3" x1="50" y1="0" x2="50" y2="50"/>
+		<line class="st3" x1="0" y1="50" x2="100" y2="50"/>
+		<line class="st3" x1="99" y1="100" x2="99" y2="50"/>
+		<line class="st3" x1="1" y1="50" x2="1" y2="100"/>
+	</g>
+</g>
+<g id="blockIcon_x5F_ZoomBox">
+	<path class="st3" d="M60.8,98.8H39.2c-2.3,0-4.2-1.9-4.2-4.2V68.9H65v25.8C65,97,63.1,98.8,60.8,98.8z"/>
+	<line class="st3" x1="1.1" y1="0.6" x2="35" y2="68.9"/>
+	<line class="st3" x1="99" y1="0.7" x2="65" y2="68.9"/>
+</g>
+<g id="blockIcon_x5F_ZoomBox2" class="st0">
+	<path class="st1" d="M61.6,98.8H38.4c-1.8,0-3.3-1.5-3.3-3.3V72.2c0-1.8,1.5-3.3,3.3-3.3h23.3c1.8,0,3.3,1.5,3.3,3.3v23.3
+		C65,97.3,63.5,98.8,61.6,98.8z"/>
+	<line class="st1" x1="50" y1="68.9" x2="50" y2="0"/>
+</g>
+</svg>

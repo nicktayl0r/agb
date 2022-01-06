@@ -1,0 +1,38 @@
+<div class="simParent page21df9">
+  <widget-sim-view id="iywa" scenename="Sahara_Perspective" simstateid="rpmexm" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview page21df9" />
+  <div class="grid_T62 simPageContent page21df9">
+    <div class="grid_T9 textBackgroundBasic page21df9 item1_T62 dropShadow">
+      <p class="item1_T9 page21df9">What do you predict will happen to the corn plants?</p>
+      <container-enable-disable :visible="true" :enabled="false" id="ihil" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iw4k',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNextPage_page21df9',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'ip8i'}},{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iiw3'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i6ve',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'izgy',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="item2_T9 page21df9">
+        <div class="grid_T9_ButtonsGroup page21df9">
+          <div class="grid_T14 item1_T9_BGroup page21df9">
+            <widget-radio :visible="true" :enabled="false" id="iw4k" group="isco" value="A. The corn plants will grow and be healthy." shared-data-read-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page21df9">
+              <p class="page21df9">A</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page21df9">The corn plants will grow and be healthy.</p>
+          </div>
+          <div class="grid_T14 item2_T9_BGroup page21df9">
+            <widget-radio :visible="true" :enabled="false" id="ip8i" group="isco" value="B. The corn plants will be eaten and killed." shared-data-read-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page21df9">
+              <p class="page21df9">B</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page21df9">The corn plants will be eaten and killed.</p>
+          </div>
+          <div class="grid_T14 item3_T9_BGroup page21df9">
+            <widget-radio :visible="true" :enabled="false" id="iiw3" group="isco" value="C. Less of the corn plants will be eaten or killed.  But, some of the corn will still be eaten or killed." shared-data-read-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page21df9">
+              <p class="page21df9">C</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page21df9">Less of the corn plants will be eaten or killed. <br />But, some of the corn will still be eaten or killed.<br /></p>
+          </div>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 page21df9">
+        <container-show-hide :visible="false" id="izgy" class="dropShadow textBackgroundBasic textBackground-Correct SH_Correct-Incorrect page21df9">
+          <p class="colorBlack page21df9"><strong>Correct!</strong> The beehives stopped the elephants from eating and trampling the corn.<br />​​​​​​​The corn was able to grow and be healthy.</p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="i6ve" class="dropShadow textBackgroundBasic textBackground-Incorrect SH_Correct-Incorrect page21df9">
+          <p class="colorBlack page21df9"><strong>Incorrect.</strong> The beehives stopped the elephants from eating and trampling the corn.<br />​​​​​​​The corn was able to grow and be healthy.</p>
+        </container-show-hide>
+      </div>
+    </div>
+  </div>
+</div>

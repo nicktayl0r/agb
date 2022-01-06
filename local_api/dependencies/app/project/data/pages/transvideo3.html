@@ -1,0 +1,88 @@
+<div style="background-color: blue">
+    <br><br>
+    <widget-button id="playvideo" :clickEffects="{
+        conditionList:[ 
+        { 
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'transVideoTest3', key:'playState', val:'play'}}
+            ]
+        }   
+        ] 
+    } "
+        text="play video " />
+    <widget-button id="pausevideo" :clickEffects="{
+        conditionList:[ 
+        { 
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'transVideoTest3', key:'playState', val:'pause'}}
+            ]
+        }   
+        ] 
+    } "
+        text="pause video " />
+    <widget-button id="stopvideo" :clickEffects="{
+        conditionList:[ 
+        { 
+            effectsPass:[
+            {effectData: {effectType: 'updateWidget', widgetID:'transVideoTest3', key:'playState', val:'stop'}}
+            ]
+        }   
+        ] 
+    } "
+        text="stop video " />
+	<widget-transparent-video
+		id="transVideoTest3"
+		src-mp4="./assets/videos/robbe.mp4"
+		src-webm="./assets/videos/robbe.webm"
+		src-mp4ios="./assets/videos/robbe_iOS.mp4"
+		staticMask="./assets/videos/robbe-mask.png"
+		:loop="true"
+		:alphaMask="false"
+		:auto-play="true"
+		:controls="false"
+		:muted="true"
+		:playEffects="{conditionList:[
+        {
+            effectsPass:[ 
+            {effectData: {effectType: 'updateWidget', widgetID:'onVidPlay', key:'visible', val:true}}, 
+            {effectData: {effectType: 'updateWidget', widgetID:'onVidPause', key:'visible', val:false}},
+            {effectData: {effectType: 'updateWidget', widgetID:'onVidStop', key:'visible', val:false}}  
+            ], 
+        }, 
+    ]}"
+		class="videoFill"
+	></widget-transparent-video>
+	<container-show-hide id="onVidPlay" :visible="false">
+		<p>Video Playing</p>
+	</container-show-hide>
+	<container-show-hide id="onVidPause" :visible="false">
+		<p>Video Paused</p>
+	</container-show-hide>
+	<container-show-hide id="onVidEnd" :visible="false">
+		<p>Video End</p>
+	</container-show-hide>
+	<container-show-hide id="onVidLoop" :visible="false">
+		<p>Video Loop</p>
+	</container-show-hide>
+	<container-show-hide id="onVidStop" :visible="false">
+		<p>Video Stop</p>
+	</container-show-hide>
+	<br /><br />
+	<widget-button
+		id="prevPageButton"
+		:clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+        'previousPage'}}] } ]}"
+		class="buttonBasic-Grey"
+	>
+		<p class="marginLeft2 marginRight2">previous page</p>
+	</widget-button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<widget-button
+		class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+		id="nextPageButton"
+		:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+            {effectType: 'unlockNextPage'}}] } ]}"
+	>
+		<p class="marginLeft2 marginRight2">unlock next page</p>
+	</widget-button>
+</div>

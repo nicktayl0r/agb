@@ -1,0 +1,31 @@
+<br>
+<br>
+<widget-button class="buttonBasic-Grey" id="blinkPrevButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'addClasses', widgetID: 'prevPageButton', classes: 'marginLeft2 buttonBlinkBlue'}}] } ]}">
+    <p>blink prev button</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="dontBlinkPrevButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'removeClasses', widgetID: 'prevPageButton', classes: 'buttonBlinkBlue marginLeft2'}}] } ]}">
+    <p>don't blink prev button</p>
+</widget-button>
+<br>
+<br>
+<widget-button class="buttonBasic-Grey" id="blinkNextButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+{effectType: 'addClasses', widgetID: 'nextPageButton', classes: 'buttonBlinkBlue marginLeft2'}}] } ]}">
+    <p>blink next button</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="dontBlinkNextButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+{effectType: 'removeClasses', widgetID: 'nextPageButton', classes: 'marginLeft2 buttonBlinkBlue'}}] } ]}">
+    <p>don't blink next button</p>
+</widget-button>
+<br>
+<br>
+<br>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

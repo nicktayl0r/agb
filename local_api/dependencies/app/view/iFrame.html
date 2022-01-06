@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		-->
+    <script src="../../PlaycanvasEngine/dist/playcanvas-engine.min.js"></script>
+    <style>
+      .header {
+        min-height: 25%;
+      }
+
+      .navbar-gizmos {
+        height: 55px;
+        border-radius: 0;
+        margin-bottom: 0;
+        background: rgba(36, 44, 50, 0.9);
+        background-color: rgba(10, 26, 39, 0.9);
+        color: white;
+      }
+
+      .gizmo-bar {
+        height: 57px;
+        background: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid #c8d8e2;
+        width: 100%;
+      }
+
+      .gizmo-view {
+        padding-bottom: 0;
+        border-top: none;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #f9f9fb;
+      }
+
+      #gizmoHolder {
+        margin: 20px;
+      }
+
+      .below-gizmo {
+        margin: 30px 0;
+      }
+
+      .bg-panel-white {
+        border-top: 1px solid #c4c6c8;
+        background-color: #fff;
+      }
+
+      .bg-panel {
+        position: relative;
+        padding: 40px 0;
+      }
+
+      .gizmo-container {
+        position: relative;
+        padding: 5px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #e8e8e8;
+        margin: 0 auto;
+        min-width: 640px;
+        min-height: 480px;
+        max-width: 171vh;
+      }
+
+      /* @media (min-width: 768px) {
+            .container {
+                max-width: 768px;
+            }
+        }
+        @media (min-width: 768px) and (orientation: landscape) {
+            .container {
+                max-width: 768px;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1140px;
+            }
+        }
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1400px;
+            }
+        }
+        @media (min-width: 1600px) {
+            .container {
+                max-width: 1515px;
+            }
+        } */
+    </style>
+
+    <script>
+      function loadFromStore() {
+        const origin = localStorage.getItem("select_origin");
+        const sessionID = localStorage.getItem("text_sessionID");
+        const attemptID = parseInt(localStorage.getItem("text_attemptID"));
+
+        //document.getElementById("select_origin").value = origin;
+        document.getElementById("text_sessionID").value = sessionID;
+        document.getElementById("text_attemptID").value = attemptID;
+      }
+      window.onload = loadFromStore;
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <input type="hidden" id="resource_activity_key" value="test-v.1.0.0" />
+      <select id="select_origin" name="origin">
+        <!--option value="localhost:8080">DEV</option-->
+        <option value="https://test-www.explorelearning.com">STAGE</option>
+        <option value="https://test-gizmos.explorelearning.com">STAGE 2</option>
+        <!--option value="https://www.explorelearning.com">PROD</option-->
+      </select>
+      <input
+        type="text"
+        placeholder="Session ID"
+        id="text_sessionID"
+        style="width: 6rem"
+      />
+      <input
+        type="text"
+        placeholder="Attempt ID"
+        id="text_attemptID"
+        style="width: 6rem"
+      />
+      <button
+        type="button"
+        class="buttonParent buttonBasic-Grey"
+        onclick="startAttempt()"
+      >
+        Start Attempt
+      </button>
+      <button
+        type="button"
+        class="buttonParent buttonBasic-Grey"
+        onclick="overwriteAttempt()"
+      >
+        Clear Attempt
+      </button>
+      <button
+        type="button"
+        class="buttonParent buttonBasic-Grey"
+        onclick="createAttempt()"
+      >
+        Create Attempt
+      </button>
+    </div>
+    <div class="navbar-gizmos">
+      <div class="container">GIZMOS LOGO</div>
+    </div>
+    <div class="gizmo-bar">
+      <div class="container">GIZMO BAR</div>
+    </div>
+    <div class="gizmo-view">
+      <div class="case-container">
+        <div id="gizmoHolder">
+          <div id="g" class="gizmo-container html5 scale" data-ratio="1.7777">
+            <iframe
+              id="caseIframe"
+              src="./index.html"
+              style="
+                display: block;
+                width: 100vw;
+                height: 100vh;
+                max-width: 100%;
+                margin: 0;
+                padding: 0;
+                border: 0 none;
+                box-sizing: border-box;
+              "
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="below-gizmo">
+      <div class="container">BELOW GIZMO BUTTONS</div>
+    </div>
+    <div class="bg-panel bg-panel-white">QUESTIONS</div>
+    <script>
+      console.log(window.location.href);
+      const url = window.location.href;
+      const split = url.split("#");
+      const iFrame = document.getElementById("iframe");
+      if (split[1] != undefined)
+        iFrame.setAttribute("src", "./iFrame.html#" + split[1]);
+      window.onhashchange = function () {
+        console.log("change: ", window.location.href);
+      };
+    </script>
+  </body>
+
+  <script src="./build.js"></script>
+  <!-- <script src="./gizmo-display.js"></script> -->
+
+  <script>
+    function startAttempt() {
+      const origin = document.getElementById("select_origin").value;
+      const sessionID = document.getElementById("text_sessionID").value;
+      const attemptID = parseInt(
+        document.getElementById("text_attemptID").value
+      );
+      document.getElementById("caseIframe").contentWindow.postMessage(
+        {
+          messageName: "startAttempt",
+          contents: {
+            sessionID: sessionID,
+            attemptID: attemptID,
+            origin: origin,
+          },
+        },
+        "http://localhost:8080"
+      );
+      store();
+    }
+    //Overwrite Attempt
+    function overwriteAttempt() {
+      const origin = document.getElementById("select_origin").value;
+      const sessionID =
+        document.getElementById("text_sessionID").value !== ""
+          ? document.getElementById("text_sessionID").value
+          : "SESSION_ID";
+      const attemptID = parseInt(
+        document.getElementById("text_attemptID").value
+      );
+
+      const url = "https://stage-vault.explorelearning.com/graphiql";
+      const authorization = `Bearer ${sessionID}`;
+      const payload = [
+        {
+          operationName: "updateUserActivityAttempt",
+          query:
+            "mutation updateUserActivityAttempt($attemptId: Int!, $progress: String, $state: String)  {  userActivityAttemptId  }",
+          variables: { attemptId: attemptID, progress: "", state: "" },
+        },
+      ];
+
+      var xhr = new XMLHttpRequest();
+      xhr.responseType = "json";
+      xhr.open("POST", url);
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.setRequestHeader("authorization", authorization);
+      xhr.onload = function () {
+        console.log("data returned:", xhr.response);
+      };
+      xhr.send(JSON.stringify(payload));
+      store();
+    }
+    //Create Attempt
+    const dialog = document.createElement("dialog");
+    dialog.addEventListener("click", () => {
+      createAttempt();
+    });
+    document.body.append(dialog);
+    function createAttempt() {
+      const origin = document.getElementById("select_origin").value;
+      const sessionID =
+        document.getElementById("text_sessionID").value !== ""
+          ? document.getElementById("text_sessionID").value
+          : "SESSION_ID";
+      const attemptID = parseInt(
+        document.getElementById("text_attemptID").value
+      );
+
+      //upload state in place of attemptID
+      if (dialog.open) dialog.close();
+      else {
+        dialog.innerHTML =
+          "First Your UserID and ClassID" +
+          "<blockquote>select top 1 tblLoginRecord.UserID, tblUserActivityAttempt.ELClassID <br>from tblLoginRecord, tblUserActivityAttempt<br>" +
+          " where SessionID like '" +
+          sessionID +
+          "' and tblLoginRecord.UserID = tblUserActivityAttempt.UserID" +
+          "</blockquote>" +
+          "<br><br>" +
+          "Then create a new attempt" +
+          "<blockquote>insert into tblUserActivityAttempt <br>(UserID, ELClassId, ResourceID, ResourceActivityID)<br>" +
+          " values ( USER_ID, EL_CLASS_ID, 2999, 91);</blockquote>" +
+          "<br><br>" +
+          "Finally lookup the new Attempt" +
+          " <blockquote> select top 1 UserActivityAttemptID from tblUserActivityAttempt where UserID=USER_ID and ResourceActivityID=91 order by UserActivityAttemptID DESC ;</blockquote>";
+
+        dialog.showModal();
+      }
+    }
+
+    function store() {
+      const origin = document.getElementById("select_origin").value;
+      const sessionID =
+        document.getElementById("text_sessionID").value !== ""
+          ? document.getElementById("text_sessionID").value
+          : "SESSION_ID";
+      const attemptID = parseInt(
+        document.getElementById("text_attemptID").value
+      );
+
+      localStorage.setItem("select_origin", origin);
+      localStorage.setItem("text_sessionID", sessionID);
+      localStorage.setItem("text_attemptID", attemptID);
+    }
+  </script>
+</html>

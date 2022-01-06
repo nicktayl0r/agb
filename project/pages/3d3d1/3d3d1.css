@@ -1,0 +1,115 @@
+.grid_T4.page3d3d1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 2vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+}
+
+.page3d3d1.page_background {
+	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_Sky_Night_IMG.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: local;
+	background-size: cover;
+}
+
+.item1_T4.page3d3d1 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.div_pageContent.page3d3d1 {
+	display: grid;
+	grid-template-rows: 8vh 8vh 8vh 8vh 2fr;
+	justify-items: stretch;
+	align-items: center;
+	grid-row-gap: 2.5vh;
+}
+
+.eventLabel.page3d3d1 {
+	grid-column-gap: 2vh;
+	display: block;
+	border-radius: 0 1vh 1vh 0;
+	text-align: left;
+	padding: 2vh;
+}
+
+.grid_eventLabel.page3d3d1 {
+	grid-template-columns: 8vh 1fr;
+	display: grid;
+	border-radius: 1.3vh 1.3vh 1.3vh 1.3vh;
+}
+
+.eventLabel_SD.page3d3d1 {
+	border-radius: 1vh 0 0 1vh;
+	padding: 2vh;
+}
+
+.correct.eventLabel_SD.page3d3d1 {
+	background: linear-gradient(var(--color-green4), var(--color-green3));
+	border: 0.2vh solid var(--color-green3);
+}
+
+.button_Reset.page3d3d1 {
+	justify-self: end;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.div_SubmitCorrectIncorrect.page3d3d1 {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	align-self: start;
+	justify-self: stretch;
+}
+
+.button_Submit.page3d3d1 {
+	justify-self: start;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.textBackground-Incorrect.page3d3d1 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	width: 75vh;
+}
+
+.threeTries.page3d3d1 {
+	width: auto;
+}
+
+.textBackground-Correct.page3d3d1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.orderedList.page3d3d1 {
+	margin: 0.2vh 0 0.2vh 0;
+}
+
+
+
+
+

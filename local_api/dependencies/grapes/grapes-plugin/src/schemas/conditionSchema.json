@@ -1,0 +1,1601 @@
+{
+	"title": "Widget conditions",
+	"$ref": "#/definitions/ConditionsData",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"Comparison": {
+			"properties": {
+				"comparisonData": {
+					"title": "Comparison Type",
+					"oneOf": [
+						{
+							"title": "Widget Value Comparison",
+							"description": "Check if a widget has a specific value.",
+							"additionalProperties": false,
+							"allOf": [
+								{
+									"$ref": "#/definitions/WidgetIDKeyVal"
+								}
+							],
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"widgetVal"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"comparison": {
+									"$ref": "#/definitions/equalityOperator",
+									"default": "equals",
+									"propertyOrder": 2001
+								}
+							},
+							"required": [
+								"comparisonType",
+								"comparison"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Shared Data Value Comparison",
+							"description": "Check if a shared data has a specific value.",
+							"additionalProperties": false,
+							"id": "thisSharedDataValueComparison",
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"sharedDataVal"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey": {
+									"$ref": "#/definitions/sharedDataKeys"
+								},
+								"comparison": {
+									"$ref": "#/definitions/equalityOperator",
+									"default": "equals",
+									"propertyOrder": 2001
+								},
+								"val": {
+									"type": [
+										"string",
+										"number",
+										"boolean"
+									],
+									"propertyOrder": 3000,
+									"description": "The value to compare to the shared data value.",
+									"watch": {
+										"thisSharedDataKey": "thisSharedDataValueComparison.sharedDataKey"
+									}
+								}
+							},
+							"required": [
+								"comparisonType",
+								"comparison"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Shared Data to Shared Data Comparison",
+							"description": "Compare two shared data values.",
+							"additionalProperties": false,
+							"id": "thisSharedDatatoSharedDataComparison",
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"sharedDataToSharedData"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey1": {
+									"$ref": "#/definitions/sharedDataKeys"
+								},
+								"comparison": {
+									"$ref": "#/definitions/equalityOperator",
+									"default": "equals",
+									"propertyOrder": 2001
+								},
+								"sharedDataKey2": {
+									"$ref": "#/definitions/sharedDataKeys",
+									"propertyOrder": 3000
+								}
+							},
+							"required": [
+								"comparisonType",
+								"comparison",
+								"sharedDataKey1",
+								"sharedDataKey2"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Radio Group Selection Comparison",
+							"description": "Check a radio group's selection.",
+							"additionalProperties": false,
+							"id": "thisRadioSelectionCondition",
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"radioSelection"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"group": {
+									"$ref": "#/definitions/radioGroups"
+								},
+								"selected": {
+									"$ref": "#/definitions/radioSelectedOperator",
+									"default": "radioIDEquals"
+								},
+								"radioID": {
+									"options": {
+										"enum_titles": [
+											""
+										]
+									},
+									"type": "string",
+									"watch": {
+										"thisGroup": "thisRadioSelectionCondition.group",
+										"thisSelected": "thisRadioSelectionCondition.selected"
+									}
+								}
+							},
+							"required": [
+								"comparisonType",
+								"group",
+								"selected"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Text Entry Length Comparison",
+							"description": "Check if the text a user entered in a text widget is long enough.",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"textLength"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"textID": {
+									"$ref": "#/definitions/textIDs"
+								}
+							},
+							"required": [
+								"comparisonType",
+								"textID"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Track Comparison",
+							"description": "Check if the current track is a value.",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"trackVal"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"comparison": {
+									"$ref": "#/definitions/equalityOperatorString",
+									"default": "equals"
+								},
+								"trackID": {
+									"$ref": "#/definitions/trackIDs",
+									"propertyOrder": 2001
+								}
+							},
+							"required": [
+								"comparisonType",
+								"comparison",
+								"trackID"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Guide Completed Comparison",
+							"description": "Check if the guide is completed.",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"guideCompleted"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"required": [
+								"comparisonType"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Evaluate Draggables",
+							"description": "Check if the drags are in the correct drops",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"evalDraggables"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"groupID": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"comparisonType"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Drops Have Drags Comparison",
+							"description": "Checks if drops all have a drag inside them.",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"dropsHaveDrags"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"dropIDs": {
+									"items": {
+										"$ref": "#/definitions/dropIDs"
+									},
+									"type": "array"
+								}
+							},
+							"required": [
+								"comparisonType"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Nested Comparisons",
+							"description": "a nested list of comparisons that can be evaluated with their own 'and' or 'or' logic.",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"nestedComparisons"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"comparisons": {
+									"items": {
+										"$ref": "#/definitions/Comparison",
+										"headerTemplate": "{{ i1 }} - {{ self.comparisonData.comparisonType }}"
+									},
+									"type": "array",
+									"format": "tabs",
+									"description": "A list of comparisons to evaluate."
+								},
+								"comparisonsLogic": {
+									"description": "Logic applied to result of all comparisons to deterimine if this list of nested comparisions will return true or false. And = all must be true, Or = only one must be true.",
+									"$ref": "#/definitions/logicalOperator",
+									"default": "and"
+								}
+							},
+							"required": [
+								"comparisons",
+								"comparisonsLogic"
+							],
+							"type": "object"
+						},
+						{
+							"title": "Is Teacher Comparison",
+							"description": "Is the user in teacher view?",
+							"additionalProperties": false,
+							"properties": {
+								"comparisonType": {
+									"enum": [
+										"isTeacher"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"required": [
+								"comparisonType"
+							],
+							"type": "object"
+						}
+					]
+				}
+			},
+			"required": [
+				"comparisonData"
+			],
+			"type": "object",
+			"default": {
+				"comparisonData": {
+					"comparisionType": "widgetVal"
+				}
+			}
+		},
+		"Condition": {
+			"additionalProperties": false,
+			"properties": {
+				"evaluateWhen": {
+					"enum": [
+						"widgetsChange",
+						"pageLoads",
+						"sharedDataChanges"
+					],
+					"type": "string",
+					"default": "widgetsChange",
+					"options": {
+						"hidden": false
+					},
+					"description": "widgetsChange: Conditions are evaluated whenever a widget is changed. Comparisons are required.<br>pageLoads: Conditions are evaluated when the page loads. Comparisons are optional. If there are no comparisons effectsPass and responsesPass will be applied."
+				},
+				"comparisons": {
+					"items": {
+						"$ref": "#/definitions/Comparison",
+						"headerTemplate": "{{ i1 }} - {{ self.comparisonData.comparisonType }}"
+					},
+					"type": "array",
+					"format": "tabs",
+					"description": "A list of comparisons to evaluate."
+				},
+				"comparisonsLogic": {
+					"description": "Logic applied to result of all comparisons to deterimine if effects/responses should apply. And = all must be true, Or = only one must be true.",
+					"$ref": "#/definitions/logicalOperator",
+					"default": "and"
+				},
+				"effectsPass": {
+					"description": "effects to run if the conditions pass",
+					"items": {
+						"$ref": "#/definitions/Effect",
+						"headerTemplate": "{{ i1 }} - {{ self.effectData.effectType }}"
+					},
+					"type": "array",
+					"format": "tabs"
+				},
+				"effectsFail": {
+					"description": "effects to run if the conditions fail",
+					"items": {
+						"$ref": "#/definitions/Effect",
+						"headerTemplate": "{{ i1 }} - {{ self.effectData.effectType }}"
+					},
+					"type": "array",
+					"format": "tabs"
+				},
+				"responsesPass": {
+					"description": "responses to send if the conditions pass",
+					"items": {
+						"$ref": "#/definitions/Response",
+						"headerTemplate": "{{ i1 }} - {{ self.rubricID }}"
+					},
+					"type": "array",
+					"format": "tabs"
+				},
+				"responsesFail": {
+					"description": "responses to send if the conditions fail",
+					"items": {
+						"$ref": "#/definitions/Response",
+						"headerTemplate": "{{ i1 }} - {{ self.rubricID }}"
+					},
+					"type": "array",
+					"format": "tabs"
+				}
+			},
+			"required": [
+				"comparisons",
+				"comparisonsLogic"
+			],
+			"type": "object"
+		},
+		"ConditionsData": {
+			"description": "See the <a  target='_blank' href='https://sites.google.com/cambiumlearning.com/athensdeveloperswiki/art-tools-and-assets/grapesjs/conditions?authuser=0'>documentation</a> for more information about conditions, comparisons, effects, and responses.",
+			"additionalProperties": false,
+			"properties": {
+				"conditionList": {
+					"items": {
+						"$ref": "#/definitions/Condition",
+						"headerTemplate": "{{ i1 }} - {{ self.evaluateWhen }}"
+					},
+					"type": "array",
+					"format": "tabs"
+				}
+			},
+			"required": [
+				"conditionList"
+			],
+			"type": "object"
+		},
+		"Effect": {
+			"properties": {
+				"effectData": {
+					"title": "Effect Type",
+					"options": {
+						"keep_oneof_values": "false"
+					},
+					"oneOf": [
+						{
+							"title": "Update Widget",
+							"description": "Change a widget value.",
+							"additionalProperties": false,
+							"allOf": [
+								{
+									"$ref": "#/definitions/WidgetIDKeyVal"
+								}
+							],
+							"properties": {
+								"effectType": {
+									"enum": [
+										"updateWidget"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Update Widget using SharedData",
+							"description": "Change a widget value using a SharedData value",
+							"additionalProperties": false,
+							"allOf": [
+								{
+									"$ref": "#/definitions/WidgetIDKeySharedData"
+								}
+							],
+							"properties": {
+								"effectType": {
+									"enum": [
+										"updateWidgetWithSharedData"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Previous Page",
+							"description": "Send the user to the previous page.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"previousPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Next Page",
+							"description": "Send the user to the next page.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"nextPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Go To Page",
+							"description": "Send the user to a page.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"goToPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"pageID": {
+									"$ref": "#/definitions/pageIDs",
+									"propertyOrder": 2001
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Go To Glossary",
+							"description": "Send the user to a glossary definition.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"goToGlossary"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"pageID": {
+									"$ref": "#/definitions/GlossaryPageIDs",
+									"propertyOrder": 2001
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Break",
+							"description": "Don't evaluate the conditions after this one.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"break"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Add Classes",
+							"description": "Add CSS classes to a widget.",
+							"additionalProperties": false,
+							"allOf": [
+								{
+									"$ref": "#/definitions/WidgetIDClasses"
+								}
+							],
+							"properties": {
+								"effectType": {
+									"enum": [
+										"addClasses"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Remove Classes",
+							"description": "Remove CSS classes from a widget.",
+							"additionalProperties": false,
+							"allOf": [
+								{
+									"$ref": "#/definitions/WidgetIDClasses"
+								}
+							],
+							"properties": {
+								"effectType": {
+									"enum": [
+										"removeClasses"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Reset Draggables",
+							"description": "Move DragWidgets to their original DropWidget",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"resetDraggables"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"groupID": {
+									"type": "string",
+									"default": "group id...",
+									"options": {
+										"hidden": false
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType",
+								"groupID"
+							]
+						},
+						{
+							"title": "Reset One Draggable",
+							"description": "Move a single DragWidget to its original DropWidget",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"resetDraggable"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"dragID": {
+									"type": "string",
+									"default": "drag id...",
+									"options": {
+										"hidden": false
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType",
+								"dragID"
+							]
+						},
+						{
+							"title": "Evaluate Drag Group",
+							"description": "Do magic based on the correctness of drag and drop answers",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"evalDragGroup"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"groupID": {
+									"type": "string",
+									"default": "group id...",
+									"options": {
+										"hidden": false
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType",
+								"groupID"
+							]
+						},
+						{
+							"title": "Unlock Next Page",
+							"description": "Unlock the page after the current page.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"unlockNextPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Unlock Page",
+							"description": "Unlock a specific page by its pageID.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"unlockPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"pageID": {
+									"$ref": "#/definitions/pageIDs"
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Unlock Guide",
+							"description": "Unlock the guide button in the progress bar.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"unlockGuide"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Unlock Case",
+							"description": "Unlock the case button in the progress bar. Generally this will happen on the last page of the guide.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"unlockCase"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Lock Page",
+							"description": "Lock a specific page by its pageID.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"lockPage"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"pageID": {
+									"$ref": "#/definitions/pageIDs"
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Set Guide Complete",
+							"description": "Set the guide as completed. Important for the 'Guide Completed Comparison'.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"setGuideCompleted"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Increment Shared Data Value",
+							"description": "Increase a shared data value by a specified number. Note: The shared data value in the project must be a number and not string or boolean.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"incrementSharedData"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey": {
+									"$ref": "#/definitions/allSharedDataKeys"
+								},
+								"incrementValue": {
+									"type": "number",
+									"default": 1
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Set Shared Data Number Value",
+							"description": "Sets a shared data value to the setValue. Note: The shared data value in the project must be a number and not string or boolean.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"setSharedDataNumber"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey": {
+									"$ref": "#/definitions/allSharedDataKeys"
+								},
+								"setValue": {
+									"type": "number",
+									"default": 1
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Set Shared Data To Selected Radio Value",
+							"description": "Sets a shared data value to the value of the selected radio in a radio group.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"setSharedDataToRadioGroupValue"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey": {
+									"$ref": "#/definitions/allSharedDataKeys"
+								},
+								"radioGroupId": {
+									"$ref": "#/definitions/radioGroups"
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType"
+							]
+						},
+						{
+							"title": "Play Sound",
+							"description": "Plays a sound. Both srcWebm and srcMp3 are required.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"playSound"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"type": {
+									"enum": [
+										"sfxOneShot",
+										"sfxContinuous",
+										"bgMusic"
+									],
+									"type": "string"
+								},
+								"srcWebm": {
+									"type": "string"
+								},
+								"srcMp3": {
+									"type": "string"
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType",
+								"type",
+								"srcWebm",
+								"srcMp3"
+							]
+						},
+						{
+							"title": "Stop Sound",
+							"description": "Stops a sound from playing. It is required to hook up the same src files as PlaySound for this to work.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"stopSound"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"srcWebm": {
+									"type": "string"
+								},
+								"srcMp3": {
+									"type": "string"
+								}
+							},
+							"type": "object",
+							"required": [
+								"effectType",
+								"srcWebm",
+								"srcMp3"
+							]
+						},
+						{
+							"id": "thisSetSectionVisibility",
+							"title": "Set Section Visibility",
+							"description": "Set whether the section will show in the Progress Bar.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"setSectionVisibility"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"moduleName": {
+									"enum": [
+										"case",
+										"guide"
+									],
+									"type": "string"
+								},
+								"sectionName": {
+									"type": "string",
+									"watch": {
+										"thisModuleName": "thisSetSectionVisibility.moduleName"
+									}
+								},
+								"visible": {
+									"type": "boolean",
+									"default": "true"
+								}
+							},
+							"type": "object",
+							"required": [
+								"moduleName",
+								"sectionName",
+								"visible"
+							]
+						},
+						{
+							"title": "Set Page Visibility",
+							"description": "Set whether the page will show in the Progress Bar.",
+							"additionalProperties": false,
+							"properties": {
+								"effectType": {
+									"enum": [
+										"setPageVisibility"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"pageID": {
+									"$ref": "#/definitions/pageIDs"
+								},
+								"visible": {
+									"type": "boolean",
+									"default": "true"
+								}
+							},
+							"type": "object",
+							"required": [
+								"pageID",
+								"visible"
+							]
+						},
+						{
+							"title": "Update Radio Group Selection",
+							"description": "Change the selected radioButtonID in a radio group.",
+							"additionalProperties": false,
+							"id": "thisUpdateRadioGroupSelection",
+							"properties": {
+								"effectType": {
+									"enum": [
+										"updateRadioGroupSelection"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"group": {
+									"$ref": "#/definitions/radioGroups"
+								},
+								"radioID": {
+									"options": {
+										"enum_titles": [
+											""
+										]
+									},
+									"type": "string",
+									"watch": {
+										"thisGroup": "thisUpdateRadioGroupSelection.group"
+									}
+								}
+							},
+							"type": "object",
+							"required": [
+								"group",
+								"radioID"
+							]
+						}
+					]
+				},
+				"fireOnceID": {
+					"type": "string",
+					"default": "",
+					"description": "If you want this to only take effect the first time, give it an ID here. Otherwise leave empty.",
+					"propertyOrder": 10000
+				},
+				"delay": {
+					"type": "number",
+					"default": 0,
+					"description": "Time in seconds to delay before applying the effect.",
+					"propertyOrder": 10001
+				}
+			},
+			"type": "object"
+		},
+		"Response": {
+			"additionalProperties": false,
+			"properties": {
+				"rubricID": {
+					"$ref": "#/definitions/rubricIDs"
+				},
+				"responseData": {
+					"title": "Response Type",
+					"options": {
+						"keep_oneof_values": "false"
+					},
+					"oneOf": [
+						{
+							"title": "Widget Response",
+							"description": "A response that pulls it's data from one or more widget keys on the page.",
+							"additionalProperties": false,
+							"properties": {
+								"responseType": {
+									"enum": [
+										"widget"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"format": {
+									"$ref": "#/definitions/responseFormat"
+								},
+								"headerPairs": {
+									"items": {
+										"$ref": "#/definitions/WidgetHeaderPair",
+										"headerTemplate": "{{ i1 }} - {{ self.widgetID }}"
+									},
+									"type": "array",
+									"format": "tabs"
+								}
+							},
+							"type": "object",
+							"required": [
+								"responseType",
+								"format",
+								"headerPairs"
+							]
+						},
+						{
+							"title": "Radio Group Response",
+							"description": "A response that pulls it's data from one or more radio groups on the page.",
+							"additionalProperties": false,
+							"properties": {
+								"responseType": {
+									"enum": [
+										"radioGroup"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"format": {
+									"$ref": "#/definitions/responseFormat"
+								},
+								"headerPairs": {
+									"items": {
+										"$ref": "#/definitions/RadioGroupHeaderPair",
+										"headerTemplate": "{{ i1 }} - {{ self.group }}"
+									},
+									"type": "array",
+									"format": "tabs"
+								}
+							},
+							"type": "object",
+							"required": [
+								"responseType",
+								"format",
+								"headerPairs"
+							]
+						},
+						{
+							"title": "Shared Data Response",
+							"description": "A response that pulls it's data from a shared data key.",
+							"additionalProperties": false,
+							"properties": {
+								"responseType": {
+									"enum": [
+										"sharedData"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"sharedDataKey": {
+									"$ref": "#/definitions/sharedDataKeys"
+								},
+								"descriptor": {
+									"enum": [
+										"none",
+										"numCorrect",
+										"numAttempts",
+										"incorrectAfterNumAttempts"
+									],
+									"type": "string"
+								},
+								"numCorrectTotal": {
+									"type": "number",
+									"description": "If the numCorrect descriptor is chosen, the response will be 'X/Y correct'. This will be the Y value, the total number of possible correct answers."
+								}
+							},
+							"type": "object",
+							"required": [
+								"responseType",
+								"sharedDataKey",
+								"descriptor"
+							]
+						},
+						{
+							"title": "Revisable Widget Response",
+							"description": "A response that can be revised across pages, usually a hypothesis.",
+							"additionalProperties": false,
+							"properties": {
+								"responseType": {
+									"enum": [
+										"revisableWidget"
+									],
+									"type": "string",
+									"options": {
+										"hidden": true
+									}
+								},
+								"headerPair": {
+									"$ref": "#/definitions/WidgetHeaderPair"
+								}
+							},
+							"type": "object",
+							"required": [
+								"responseType",
+								"headerPair"
+							]
+						}
+					]
+				},
+				"fireOnceID": {
+					"type": "string",
+					"default": "",
+					"description": "If you want this to only send the first time, give it an ID here. Otherwise leave empty."
+				}
+			},
+			"required": [
+				"rubricID",
+				"responseData"
+			],
+			"type": "object"
+		},
+		"equalityOperatorString": {
+			"enum": [
+				"equals",
+				"notEquals"
+			],
+			"type": "string"
+		},
+		"equalityOperator": {
+			"enum": [
+				"equals",
+				"notEquals",
+				"lessThan",
+				"greaterThan",
+				"equals_cs",
+				"notEquals_cs"
+			],
+			"type": "string"
+		},
+		"radioSelectedOperator": {
+			"enum": [
+				"any",
+				"none",
+				"radioIDEquals",
+				"radioIDNotEquals"
+			],
+			"type": "string"
+		},
+		"logicalOperator": {
+			"enum": [
+				"and",
+				"or"
+			],
+			"type": "string"
+		},
+		"widgetValPrimitive": {
+			"type": [
+				"string",
+				"boolean",
+				"number"
+			]
+		},
+		"widgetIDs": {
+			"enum": [
+				""
+			],
+			"options": {
+				"enum_titles": [
+					""
+				]
+			},
+			"type": "string",
+			"description": "The widget you want to target."
+		},
+		"WidgetIDKeyVal": {
+			"id": "thisWidgetIDKeyVal",
+			"properties": {
+				"widgetID": {
+					"$ref": "#/definitions/widgetIDs"
+				},
+				"key": {
+					"type": "string",
+					"propertyOrder": 2000,
+					"watch": {
+						"thisWidgetID": "thisWidgetIDKeyVal.widgetID"
+					},
+					"description": "The property on the widget you selected."
+				},
+				"val": {
+					"type": [
+						"string",
+						"number",
+						"boolean"
+					],
+					"propertyOrder": 3000,
+					"watch": {
+						"thisWidgetKey": "thisWidgetIDKeyVal.key"
+					},
+					"description": "The value of the key you selected above."
+				}
+			},
+			"required": [
+				"widgetID",
+				"key",
+				"val"
+			],
+			"type": "object"
+		},
+		"WidgetIDKeySharedData": {
+			"id": "thisWidgetIDKeySharedData",
+			"properties": {
+				"widgetID": {
+					"$ref": "#/definitions/widgetIDs"
+				},
+				"key": {
+					"type": "string",
+					"propertyOrder": 2000,
+					"watch": {
+						"thisWidgetID": "thisWidgetIDKeyVal.widgetID"
+					},
+					"description": "The property on the widget you selected."
+				},
+				"sharedDataKey": {
+					"$ref": "#/definitions/allSharedDataKeys",
+					"propertyOrder": 3000,
+					"description": "The sharedDataKey that you want to assign to the property."
+				}
+			},
+			"required": [
+				"widgetID",
+				"key"
+			],
+			"type": "object"
+		},
+		"radioGroups": {
+			"enum": [
+				"populate at runtime"
+			],
+			"type": "string"
+		},
+		"textIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"dropIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"playStates": {
+			"enum": [
+				"default",
+				"play",
+				"pause",
+				"stop"
+			],
+			"type": "string"
+		},
+		"trackIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"pageIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"caseSectionNames": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"guideSectionNames": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"WidgetIDClasses": {
+			"properties": {
+				"widgetID": {
+					"$ref": "#/definitions/widgetIDs"
+				},
+				"classes": {
+					"type": "string",
+					"description": "One or more classes, separated by a space."
+				}
+			},
+			"required": [
+				"widgetID",
+				"classes"
+			],
+			"type": "object"
+		},
+		"WidgetHeaderPair": {
+			"id": "thisWidgetHeaderPair",
+			"properties": {
+				"header": {
+					"type": "string",
+					"description": "The header that will be displayed in the grading app. Can be left empty if a header is not required."
+				},
+				"widgetID": {
+					"$ref": "#/definitions/widgetIDs"
+				},
+				"key": {
+					"type": "string",
+					"propertyOrder": 2000,
+					"watch": {
+						"thisWidgetID": "thisWidgetHeaderPair.widgetID"
+					},
+					"description": "The property on the widget you selected."
+				}
+			},
+			"required": [
+				"header",
+				"widgetID",
+				"key"
+			],
+			"type": "object"
+		},
+		"RadioGroupHeaderPair": {
+			"id": "thisRadioGroupHeaderPair",
+			"properties": {
+				"header": {
+					"type": "string",
+					"description": "The header that will be displayed in the grading app. Can be left empty if a header is not required."
+				},
+				"group": {
+					"$ref": "#/definitions/radioGroups"
+				}
+			},
+			"required": [
+				"header",
+				"group"
+			],
+			"type": "object"
+		},
+		"sharedDataKeys": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"allSharedDataKeys": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"groupId": {
+		  "type": "string"
+		},
+		"responseFormat": {
+			"description": "How the data will be formatted when sent to the server. Html formats the headers and responses with special css classes, which is generally what we want. Comma inserts commas between the entries which could be useful for multiple radios like \"high, low, high\".",
+			"enum": [
+				"none",
+				"comma",
+				"html"
+			],
+			"type": "string",
+			"default": "html"
+		},
+		"rubricIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		},
+		"GlossaryPageIDs": {
+			"enum": [
+				"populate at runtime"
+			],
+			"options": {
+				"enum_titles": [
+					"populate at runtime"
+				]
+			},
+			"type": "string"
+		}
+	}
+}

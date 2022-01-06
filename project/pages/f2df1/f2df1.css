@@ -1,0 +1,132 @@
+.grid_T62.pagef2df1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.pagef2df1 {
+	z-index: 5;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T62.pagef2df1 {
+	z-index: 5;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	align-self: end;
+	justify-self: center;
+}
+
+.div_PlayReplay.pagef2df1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+	border: .2vh solid var(--color-blue7);
+	border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.text_PlayReplay.pagef2df1 {
+	margin-left: 1.5vh;
+}
+
+.simPreview.pagef2df1 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.pagef2df1 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.pagef2df1 {
+	z-index: 2;
+	position: relative;
+}
+
+.buttonBasic_Invisible.pagef2df1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_1.pagef2df1 {
+	margin: -15vh -80vh 0 0;
+}
+
+.button_2.pagef2df1 {
+	margin: 0 -80vh -10vh 0;
+}
+
+.button_3.pagef2df1 {
+	margin: 0 0 -57vh -8vh;
+}
+
+.buttonFill_1.pagef2df1 {
+	width: 35vh;
+	height: 75vh;
+}
+
+.buttonFill_2.pagef2df1 {
+	width: 35vh;
+	height: 50vh;
+}
+
+.buttonFill_3.pagef2df1 {
+	width: 26vh;
+	height: 24vh;
+}
+
+.anchor_GridPos.pagef2df1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	width: 0;
+	height: 0;
+}
+
+.anchor_1.pagef2df1 {
+	margin: 0 -60vh -20vh 0;
+}
+
+.anchor_2.pagef2df1 {
+	margin: -8vh -12vh 0 0;
+}
+
+.anchor_3.pagef2df1 {
+	margin: 0 0 -52vh -29vh;
+}
+
+
+
+
+

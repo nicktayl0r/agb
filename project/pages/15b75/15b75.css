@@ -1,0 +1,75 @@
+.grid_T62.page15b75 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.page15b75 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T62.page15b75 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+	justify-self: start;
+	align-self: end;
+}
+
+.div_PlayReplay.page15b75 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+	border: .2vh solid rgba(205,204,204,1);
+	border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.text_PlayReplay.page15b75 {
+	margin-left: 1.5vh;
+}
+
+.simPreview.page15b75 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.page15b75 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.page15b75 {
+	z-index: 2;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+}
+
+.div_Text2.page15b75 {
+	height: auto;
+}
+
+

@@ -1,0 +1,10 @@
+{
+	"type": "array",
+	"format": "table",
+	"title": "Correct Drop IDs",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"items": {
+		"type": "string",
+		"title": "Drop ID"
+	}
+}

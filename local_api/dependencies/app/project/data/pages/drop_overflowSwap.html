@@ -1,0 +1,79 @@
+page 2 <br />
+<br />
+<br />
+<br />
+<br />
+<container-enable-disable id="fieldset">
+  <widget-drop id="drag1Start" class="buttonDrop" overflowStyle="swap">
+    <widget-drag
+      class="buttonBasic-Grey"
+      id="drag1"
+      drop-id="drag1Start"
+      style="margin: 0"
+      >drag1</widget-drag
+    >
+  </widget-drop>
+
+  <widget-drop id="drag2Start" class="buttonDrop" overflowStyle="swap">
+    <widget-drag
+      class="buttonDrag"
+      id="drag2"
+      drop-id="drag2Start"
+      :child-index="2"
+      style="margin: 0"
+      >drag2</widget-drag
+    >
+  </widget-drop>
+
+  <widget-drop id="drag3Start" class="buttonDrop" overflowStyle="swap">
+    <widget-drag
+      class="buttonDrag"
+      id="drag3"
+      drop-id="drag3Start"
+      :child-index="3"
+      style="margin: 0"
+      >drag3</widget-drag
+    >
+  </widget-drop>
+  <widget-drop id="drag4Start" class="buttonDrop" overflowStyle="swap">
+    <widget-drag
+      class="buttonDrag"
+      id="drag4"
+      drop-id="drag4Start"
+      :child-index="4"
+      style="margin: 0"
+      >drag4</widget-drag
+    >
+  </widget-drop>
+  <br />
+  <br />
+  <br />
+  <widget-drop
+    id="drop1"
+    class="buttonDrop"
+    :max-children="1"
+    overflowStyle="swap"
+    >drop1</widget-drop
+  >
+  <widget-drop
+    id="drop2"
+    class="buttonDrop"
+    :max-children="1"
+    overflowStyle="swap"
+    >drop2</widget-drop
+  >
+  <widget-drop
+    id="drop3"
+    class="buttonDrop"
+    :max-children="1"
+    overflowStyle="swap"
+    >drop3</widget-drop
+  >
+  <widget-drop
+    id="drop4"
+    class="buttonDrop"
+    :max-children="1"
+    overflowStyle="swap"
+    >drop4</widget-drop
+  >
+</container-enable-disable>

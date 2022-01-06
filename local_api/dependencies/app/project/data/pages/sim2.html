@@ -1,0 +1,209 @@
+<div
+	class="gridTemplate10 page48ef backgroundMain"
+	data-gjs-custom-name="Template 10"
+>
+	<div
+		class="span_Box1_T10 marginBottom2 page48ef"
+		data-gjs-custom-name="Box 1: Text Top"
+	>
+		<p class="colorWhite page48ef" data-gjs-custom-name="text_Base1_Top">
+			Let's graph the distribution of berry color.
+			<br data-gjs-custom-name="Br" />​​​​​​​We have 100 bushes and have taken 1
+			berry from each bush.
+		</p>
+	</div>
+	<div
+		class="span_Box2_T10 marginBottom2 marginTop2 page48ef"
+		data-gjs-custom-name="Box 2: 3 Buttons"
+	>
+		<div class="gridTemplate16 page48ef" data-gjs-custom-name="T16">
+			<div
+				class="span_Box1_T16 marginRight2 page48ef flexCenter"
+				data-gjs-custom-name="Box 1: Directional"
+			>
+				<widget-button
+					:visible="true"
+					:enabled="true"
+					id="in5m"
+					class="buttonBasic-Grey page48ef"
+					data-gjs-custom-name="button_DirectionalSelection"
+				>
+					<p
+						class="page48ef"
+						data-gjs-custom-name="button_text_DirectionalSelection"
+					>
+						Directional Selection
+					</p>
+				</widget-button>
+			</div>
+			<div
+				class="span_Box2_T16 marginRight2 marginLeft2 page48ef flexCenter"
+				data-gjs-custom-name="Box 2: Stabilizing"
+			>
+				<widget-button
+					:visible="true"
+					:enabled="true"
+					id="iw4p"
+					class="buttonBasic-Grey page48ef"
+					data-gjs-custom-name="button_StabilizingSelection"
+				>
+					<p
+						class="page48ef"
+						data-gjs-custom-name="button_text_StabilizingSelection"
+					>
+						Stabilizing Selection
+					</p>
+				</widget-button>
+			</div>
+			<div
+				class="span_Box3_T16 marginLeft2 page48ef flexCenter"
+				data-gjs-custom-name="Box 3: Disruptive"
+			>
+				<widget-button
+					:visible="true"
+					:enabled="true"
+					id="i7l7"
+					class="buttonBasic-Grey page48ef"
+					data-gjs-custom-name="button_DisruptiveSelection"
+				>
+					<p
+						class="page48ef"
+						data-gjs-custom-name="button_text_DisruptiveSelection"
+					>
+						Disruptive Selection
+					</p>
+				</widget-button>
+			</div>
+		</div>
+	</div>
+	<div
+		class="span_Box3_T10 marginBottom2 marginTop2 page48ef"
+		data-gjs-custom-name="Box 3: Graph"
+	>
+		<div class="page48ef gridTemplate16B" data-gjs-custom-name="T16B">
+			<div
+				class="span_Box1_T16 marginRight2 page48ef flex"
+				data-gjs-custom-name="Box 1: Bush"
+			>
+				<img
+					class="c4740 page48ef"
+					src="../../assets/svg/bush_Red.svg"
+					style="width: 15rem;height: 15rem;"
+					data-gjs-custom-name="Red Bush"
+				/>
+				<p class="colorWhite textCenter page48ef" data-gjs-custom-name="Text">
+					100
+				</p>
+			</div>
+			<div
+				class="span_Box2_T16 marginRight2 marginLeft2 page48ef"
+				data-gjs-custom-name="Box 2: Graph"
+			>
+				<widget-sim-view
+					:visible="true"
+					id="simTest"
+					scenename="sim_Farm_dynamicLighting_withTrees"
+					simstateid="ozhg8r"
+					class="simPreview page48ef"
+					style="width: 15rem;height: 15rem;"
+					:sceneLoadedEffects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',
+                    effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'simLoadedPopup',key:'visible',val:true},fireOnceID:'',delay:0},
+                    {effectData:{effectType:'updateWidget',widgetID:'simLoadingPopup',key:'visible',val:false},fireOnceID:'',delay:0}],
+                    effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+				>
+				</widget-sim-view>
+			</div>
+			<div
+				class="span_Box3_T16 marginLeft2 page48ef flexStack"
+				data-gjs-custom-name="Box 3: Buttons"
+			>
+				<widget-button
+					:visible="true"
+					:enabled="true"
+					id="ir4u"
+					class="buttonBasic-Grey page48ef"
+					data-gjs-custom-name="button_AddBerries"
+				>
+					<p
+						class="page48ef textCenter"
+						data-gjs-custom-name="button_text_AddBerries"
+					>
+						Add Berries To Graph
+					</p>
+				</widget-button>
+				<widget-button
+					:visible="true"
+					:enabled="true"
+					id="iak9"
+					class="buttonBasic-Grey page48ef"
+					data-gjs-custom-name="button_SortBerriesByColor"
+				>
+					<p
+						class="page48ef textCenter"
+						data-gjs-custom-name="button_text_SortBerriesByColor"
+					>
+						Sort Berries by Color
+					</p>
+				</widget-button>
+			</div>
+		</div>
+	</div>
+	<div
+		class="span_Box4_T10 marginTop2 page48ef"
+		data-gjs-custom-name="Box 4: Text Bottom"
+	>
+		<p class="colorWhite page48ef" data-gjs-custom-name="text_Base2_Bottom">
+			Natural selection can change the distribution of a trait in one of three
+			ways: <br data-gjs-custom-name="Br" />​​​​​​​directional selection,
+			stabilizing selection, and disruptive selection.
+		</p>
+	</div>
+	<widget-popper
+		:visible="true"
+		:click-to-dismiss="true"
+		id="simLoadingPopup"
+		:delay="0"
+		:options="{placement:'right'}"
+		:delay-once="false"
+		anchor-id="simTest"
+		class="textBackground-Popup-Blue page111e"
+		data-gjs-custom-name="popper-blue"
+	>
+		<span class="page111e" data-gjs-custom-name="Text">Sim is loading...</span>
+	</widget-popper>
+	<widget-popper
+		:visible="false"
+		:click-to-dismiss="true"
+		id="simLoadedPopup"
+		:delay="0"
+		:delay-once="false"
+		anchor-id="simTest"
+		class="textBackground-Popup-Blue page111e"
+		data-gjs-custom-name="popper-blue"
+	>
+		<span class="page111e" data-gjs-custom-name="Text">Sim has loaded</span>
+	</widget-popper>
+</div>
+<br />
+<br />
+<widget-button
+	id="prevPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}"
+	class="buttonBasic-Grey"
+>
+	<p class="marginLeft2 marginRight2">previous page</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+	{effectType: 'unlockNextPage'}}] } ]}">
+<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button
+	class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+	id="nextPageButton"
+	:clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockCase'}}] } ]}"
+>
+	<p class="marginLeft2 marginRight2">unlock case</p>
+</widget-button>

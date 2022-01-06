@@ -1,0 +1,178 @@
+.grid_T4.pagee2ea5 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: linear-gradient(#1B2937, #273D52);
+	grid-row-gap: 3vh;
+}
+
+.item1_T4.pagee2ea5 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid_Links.pagee2ea5 {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	align-content: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width: auto;
+	height: auto;
+}
+
+.linkBox.pagee2ea5 {
+	border: .4vh solid #45C1FF;
+	background-color: #45C1FF;
+	border-radius: 1.5vh;
+	height: 30vh;
+	width: 26vh;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 5vh 1fr;
+}
+
+.linkTxt.pagee2ea5 {
+	padding: 1vh;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: start;
+}
+
+.link_Image.pagee2ea5 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+
+.linkMain.pagee2ea5 {
+	width: auto;
+}
+
+.link_1.pagee2ea5 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_2.pagee2ea5 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_3.pagee2ea5 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.link_4.pagee2ea5 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.link_5.pagee2ea5 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.link_6.pagee2ea5 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.image_Link.pagee2ea5 {
+	width: 25vh;
+	height: 24vh;
+	border-radius: 0vh 0vh 1vh 1vh;
+}
+
+.SH_UnlockNext.pagee2ea5 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: start;
+	width: 0;
+	height: 0;
+}
+
+.beeBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_Bees_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.groupsBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_LivingInGroups_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.learningBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_LearningInGroups_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.commBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_GrpCommunication_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+}
+
+.eBeeBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_ElephantsBees_IMG.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+}
+
+.humansBG.pagee2ea5 {
+	background-image: url(../../assets/images/review_AnimalGrpsHumans_IMG.jpg);
+	background-attachment: scroll;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}

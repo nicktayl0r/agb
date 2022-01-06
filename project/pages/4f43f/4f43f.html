@@ -1,0 +1,35 @@
+<div class="simParent page4f43f">
+  <widget-sim-view id="iywa" scenename="Sahara_Perspective" simstateid="o72d3h" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview page4f43f" />
+  <div class="grid_T62 simPageContent page4f43f">
+    <div class="grid_T9 textBackgroundBasic page4f43f item1_T62 dropShadow">
+      <p class="item1_T9 page4f43f">What do you predict will happen to the corn plants?</p>
+      <container-enable-disable :visible="true" :enabled="true" id="ihil" class="item2_T9 page4f43f">
+        <div class="grid_T9_ButtonsGroup page4f43f">
+          <div class="grid_T14 item1_T9_BGroup page4f43f">
+            <widget-radio :visible="true" :enabled="true" id="iw4k" group="isco" value="A. The corn plants will grow and be healthy." shared-data-write-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page4f43f">
+              <p class="page4f43f">A</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page4f43f">The corn plants will grow and be healthy.</p>
+          </div>
+          <div class="grid_T14 item2_T9_BGroup page4f43f">
+            <widget-radio :visible="true" :enabled="true" id="ip8i" group="isco" value="B. The corn plants will be eaten and killed." shared-data-write-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page4f43f">
+              <p class="page4f43f">B</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page4f43f">The corn plants will be eaten and killed.</p>
+          </div>
+          <div class="grid_T14 item3_T9_BGroup page4f43f">
+            <widget-radio :visible="true" :enabled="true" id="iiw3" group="isco" value="C. Less of the corn plants will be eaten or killed.  But, some of the corn will still be eaten or killed." shared-data-write-key="GroupBehavior.E.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page4f43f">
+              <p class="page4f43f">C</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page4f43f">Less of the corn plants will be eaten or killed. <br />But, some of the corn will still be eaten or killed.<br /></p>
+          </div>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 page4f43f">
+        <widget-button :visible="false" :enabled="true" id="i60n" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iw4k'}},{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'ip8i'}},{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iiw3'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i60n',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihil',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.E.PredictCornPlants2',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'isco'}]},fireOnceID:''}],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue page4f43f button_Submit">
+          <p class="marginLeft2 marginRight2 buttonBlinkBlue page4f43f">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

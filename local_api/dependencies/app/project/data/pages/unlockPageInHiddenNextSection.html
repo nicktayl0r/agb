@@ -1,0 +1,49 @@
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="showHiddenSection"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setSectionVisibility', moduleName:'case', sectionName: 'hidden section', visible: true}},
+		{effectData: {effectType:'unlockPage',pageID:'hiddenSectionPage'}},
+		{effectData: {effectType: 'unlockNextPage'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>show hidden section and go to page</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="hideHiddenSection"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setSectionVisibility',  moduleName:'case', sectionName: 'hidden section', visible: false}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>hide hidden section</p>
+</widget-button>
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="nextPageButton"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'unlockNextPage'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>unlock next page</p>
+</widget-button>

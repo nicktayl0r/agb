@@ -1,0 +1,704 @@
+<div style="background-color: green">
+	<div class="pageBaseWrapper">
+		<div class="pageBase" data-gjs-custom-name="Case Page Base" style="height:100vh">
+			<div class="pageHeader span_Box1_CBP" data-gjs-custom-name="Header">
+				<div class="dot dotRed" data-gjs-custom-name="Dot"> </div>
+				<h1 class="pageHeaderText span_Box1_CBP" data-gjs-custom-name="Page Title">Page Title </h1>
+			</div>
+			<div class="textBackgroundPage span_Box2_CBP" data-gjs-custom-name="Page Content">
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				<h4>Heading 4</h4>
+				<p class="dropShadow textBackgroundBasic page">Text Box Basic</p>
+				<p class="textBackgroundBasic textBackground-Transparent page">Text Box Transparent</p>
+				<p>Body text
+				</p>
+				<p class="dropShadow textBackgroundBasic textBackground-DarkBlue page69f2">Text Box Blue
+				</p>
+				<p class="dropShadow textBackgroundBasic textBackground-Correct page69f2">Text Box Correct
+				</p>
+				<p class="dropShadow textBackgroundBasic textBackground-Incorrect page69f2">Text Box Correct
+				</p>
+				<p class="dropShadow textBackgroundBasic textBackground-KeyConcept page69f2">Text Box Key Concept
+				</p>
+				<p class="dropShadow textBackgroundBasic textBackground-Note page69f2">Text Box Note
+				</p>
+				<br>
+				<widget-link id="link_internal" tooltip='Sims1!' :options="{type:'internal', pageId:'sim1'}">Internal link</widget-link>
+				<br>
+				<widget-link id="link_external" :options="{type:'external', href:'http://yahoo.com'}">External link</widget-link>
+				<br>
+				<br>
+				<widget-button id="submitButtonEnabled" class="buttonBasic-Grey buttonSlotFillWidth" text="button enabled">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+				</widget-button>
+				<widget-button id="submitButtonDisabled" class="buttonBasic-Grey" :enabled="false">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p class="marginLeft2 marginRight2">button disabled</p>
+				</widget-button>
+				<widget-button class="buttonBasic_Invisible"><p>text in invisible button</p></widget-button>
+				<br>
+				<br>
+				<widget-button id="play" class="buttonPlay"></widget-button>
+				<widget-button id="pause" class="buttonPause"></widget-button>
+				<widget-button id="replay" class="buttonReplay"></widget-button>
+				<br>
+				<br>
+				<widget-button id="playDiasbled" class="buttonPlay" :enabled="false"></widget-button>
+				<widget-button id="pauseDisabled" class="buttonPause" :enabled="false"></widget-button>
+				<widget-button id="replayDisabled" class="buttonReplay" :enabled="false"></widget-button>
+				<br>
+				<br>
+				<widget-button id="zoomEnabled" class="buttonZoom" :enabled=true>zoom enabled</widget-button>
+				<widget-button id="zoomDisabled" class="buttonZoom" :enabled=false>zoom disabled</widget-button>
+				<widget-button id="zoomEnabledW" class="buttonZoom_White" :enabled=true>white zoom enabled</widget-button>
+				<widget-button id="zoomDisabledW" class="buttonZoom_White" :enabled=false>white zoom disabled</widget-button>
+				<br>
+				<br>
+				<widget-button id="XEnabled" class="buttonX" :enabled=true>X enabled</widget-button>
+				<widget-button id="XDisabled" class="buttonX" :enabled=false>X disabled</widget-button>
+				<br>
+				<br>
+				<widget-button id="prevTest" class="buttonBack">button back</widget-button>
+				<widget-button id="prevTestDisabled" class="buttonBack" :enabled=false>button back disabled</widget-button>
+				<br>
+				<widget-button id="nextTest" class="buttonForward">button forward</widget-button>
+				<widget-button id="nextTestDisabled" class="buttonForward" :enabled=false>button forward disabled</widget-button>
+				<br>
+				<br>
+				<widget-radio id="buttonRadio0" class="buttonRadio" group="normalRadios" :enabled="false"></widget-radio>
+				<widget-radio id="buttonRadio01" class="buttonRadio" group="normalRadios"></widget-radio>
+				<widget-radio id="buttonRadio02" class="buttonRadio" group="normalRadios" :enabled="false" :correctStyle="true"></widget-radio>
+				<widget-radio id="buttonRadio03" class="buttonRadio incorrect" :enabled="false" group="normalRadios"></widget-radio>
+				<br>
+				<widget-radio id="buttonRadio1" class="buttonRadio" group="radio">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio 1</p>
+				</widget-radio>
+				<widget-radio id="buttonRadio2" class="buttonRadio" group="radio">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio 2</p>
+				</widget-radio>
+				<widget-radio id="buttonRadio3" class="buttonRadio" group="radio">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio 3</p>
+				</widget-radio>
+				<widget-radio id="buttonRadioDisabled" class="buttonRadio" :enabled=false>
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio disabled</p>
+				</widget-radio>
+				<widget-radio id="buttonRadioCorrect" class="buttonRadio" :enabled=false :correctStyle=true>
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio correct</p>
+				</widget-radio>
+				<br>
+				<br>
+				<widget-radio id="buttonRadioHorizontal" class="buttonRadio slotHorizontal">
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					<p>radio horizontal</p>
+				</widget-radio>
+				<br>
+				<br>
+				<widget-radio id="variation" group="moreRadios" class="buttonRadio Variation">
+					<p class="marginLeft2 marginRight2">variation</p>
+				</widget-radio>
+				<widget-radio id="up" group="moreRadios" class="buttonRadio Up"></widget-radio>
+				<widget-radio id="noChange" group="moreRadios" class="buttonRadio NoChange"></widget-radio>
+				<widget-radio id="down" group="moreRadios" class="buttonRadio Down"></widget-radio>
+				<br>
+				<widget-radio id="variationDisabled" class="buttonRadio Variation" :enabled=false text="variation">
+				</widget-radio>
+				<widget-radio id="upDisabled" class="buttonRadio Up" :enabled=false></widget-radio>
+				<widget-radio id="noChangeDisabled" class="buttonRadio NoChange" :enabled=false></widget-radio>
+				<widget-radio id="downDisabled" class="buttonRadio Down" :enabled=false></widget-radio>
+				<br>
+				<widget-radio id="variationDisabledDown" class="buttonRadio Variation" group="varG1" :enabled=false text="variation" shared-data-read-key="disabledRadio1"></widget-radio>
+				<widget-radio id="upDisabledDown" class="buttonRadio Up" group="varG2" :enabled=false shared-data-read-key="disabledRadio2"></widget-radio>
+				<widget-radio id="noChangeDisabledDown" class="buttonRadio NoChange" group="varG3" :enabled=false shared-data-read-key="disabledRadio3"></widget-radio>
+				<widget-radio id="downDisabledDown" class="buttonRadio Down" group="varG4" :enabled=false shared-data-read-key="disabledRadio4"></widget-radio>
+				<br>
+				<widget-radio id="variationCorrect" class="buttonRadio Variation" :enabled=false :correctStyle=true text="variation"></widget-radio>
+				<widget-radio id="upCorrect" class="buttonRadio Up" :enabled=false :correctStyle=true></widget-radio>
+				<widget-radio id="noChangeCorrect" class="buttonRadio NoChange" :enabled=false :correctStyle=true></widget-radio>
+				<widget-radio id="downCorrect" class="buttonRadio Down" :enabled=false :correctStyle=true></widget-radio>
+				<br>
+				<widget-radio id="variationIncorrect" class="buttonRadio Variation incorrect" :enabled=false text="variation">
+				</widget-radio>
+				<widget-radio id="upIncorrect" class="buttonRadio Up incorrect" :enabled=false></widget-radio>
+				<widget-radio id="noChangeIncorrect" class="buttonRadio NoChange incorrect" :enabled=false></widget-radio>
+				<widget-radio id="downIncorrect" class="buttonRadio Down incorrect" :enabled=false></widget-radio>
+				<br>
+				<br>
+				<widget-radio id="incomplete" class="buttonRadio_Complete1_Incomplete buttonBlinkBlue buttonSlotFillWidth buttonSlotFillHeight" :enabled=true>
+					<div class="radioInComplete_Text" data-gjs-custom-name="box_Text"> 
+						<p class="colorWhite textCenter radioInComplete_buttonText marginLeft2 marginRight2" data-gjs-custom-name="Text">Incomplete WORKING
+						</p>
+					</div>
+					<span class="radioInComplete_box_Check" data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check" data-gjs-custom-name="image_Check">
+						</img>
+						<img src="../../assets/iconCheck_Normal_Grey.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_grey_check" data-gjs-custom-name="image_Check">
+						</img>
+					</span>
+				</widget-radio>
+				<widget-radio id="incompleteDisabled" class="buttonRadio_Complete1_Incomplete buttonBlinkBlue" :enabled=false>
+					<div class="radioInComplete_Text" data-gjs-custom-name="box_Text"> 
+						<p class="colorWhite textCenter radioInComplete_buttonText marginLeft2 marginRight2" data-gjs-custom-name="Text">Incomplete WORKING
+						</p>
+					</div>
+					<span class="radioInComplete_box_Check" data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check" data-gjs-custom-name="image_Check">
+						</img>
+						<img src="../../assets/iconCheck_Normal_Grey.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_grey_check" data-gjs-custom-name="image_Check">
+						</img>
+					</span>
+				</widget-radio>
+				<br>
+				<widget-radio id="complete" class="buttonRadio_Complete1_Completed" :enabled=true>
+					<div class="radioInComplete_Text" data-gjs-custom-name="box_Text"> 
+						<p class="colorWhite textCenter radioInComplete_buttonText marginLeft2 marginRight2" data-gjs-custom-name="Text">Complete WORKING
+						</p>
+					</div>
+					<span class="radioInComplete_box_Check" data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_Normal.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check" data-gjs-custom-name="image_Check">
+						</img>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete_image_Check radioInComplete_grey_check" data-gjs-custom-name="image_Check">
+						</img>
+					</span>
+				</widget-radio>
+				<widget-radio id="completeDisabled" class="buttonRadio_Complete1_Completed buttonBlinkBlue" :enabled=false>
+					<div class="radioInComplete_Text" data-gjs-custom-name="box_Text"> 
+						<p class="colorWhite textCenter radioInComplete_buttonText marginLeft2 marginRight2" data-gjs-custom-name="Text">Complete WORKING
+						</p>
+					</div>
+					<span class="radioInComplete_box_Check" data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_Normal.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check" data-gjs-custom-name="image_Check">
+						</img>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete_image_Check radioInComplete_grey_check" data-gjs-custom-name="image_Check">
+						</img>
+					</span>
+				</widget-radio>
+				<br>
+				<widget-radio :visible="true" :enabled="true" id="i5fd7" class="buttonRadio_CompleteBlue_Incomplete pagea931" data-gjs-custom-name="radio_IncompleteBlue">
+					<div class="radioInComplete_Text " data-gjs-custom-name="box_Text"> 
+					  <p class="textCenter radioInComplete_buttonText marginLeft2 marginRight2 " data-gjs-custom-name="Text">Incomplete
+					  </p>
+					</div>
+					<span class="radioInComplete_box_Check " data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check " data-gjs-custom-name="image_Check_Black">
+						<img src="../../assets/iconCheck_Normal.svg" :visible="true" class="radioInComplete_image_Check  radioInComplete_blue_check" data-gjs-custom-name="image_Check_Blue">
+					</span>
+				  </widget-radio>
+				  <widget-radio :visible="true" :enabled="false" id="i5fd7d" class="buttonRadio_CompleteBlue_Incomplete pagea931" data-gjs-custom-name="radio_IncompleteBlue">
+					<div class="radioInComplete_Text " data-gjs-custom-name="box_Text"> 
+					  <p class="textCenter radioInComplete_buttonText marginLeft2 marginRight2 " data-gjs-custom-name="Text">Incomplete
+					  </p>
+					</div>
+					<span class="radioInComplete_box_Check " data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check " data-gjs-custom-name="image_Check_Black">
+						<img src="../../assets/iconCheck_Normal.svg" :visible="true" class="radioInComplete_image_Check  radioInComplete_blue_check" data-gjs-custom-name="image_Check_Blue"></span>
+				  </widget-radio>
+				  <widget-radio :visible="true" :enabled="true" id="iyien" class="buttonRadio_CompleteBlue_Completed pagea931" data-gjs-custom-name="radio_CompletedBlue">
+					<div class="radioInComplete_Text " data-gjs-custom-name="box_Text"> 
+					  <p class="textCenter radioInComplete_buttonText marginLeft2 marginRight2 " data-gjs-custom-name="Text">Complete
+					  </p>
+					</div>
+					<span class="radioInComplete_box_Check " data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check " data-gjs-custom-name="image_Check_Black">
+						<img src="../../assets/iconCheck_Normal_Grey.svg" :visible="true" class="radioInComplete_image_Check  radioInComplete_blue_check" data-gjs-custom-name="image_Check_Blue"></span>
+				  </widget-radio>
+				  <widget-radio :visible="true" :enabled="false" id="iyiend" class="buttonRadio_CompleteBlue_Completed pagea931" data-gjs-custom-name="radio_CompletedBlue">
+					<div class="radioInComplete_Text " data-gjs-custom-name="box_Text"> 
+					  <p class="textCenter radioInComplete_buttonText marginLeft2 marginRight2 " data-gjs-custom-name="Text">Complete
+					  </p>
+					</div>
+					<span class="radioInComplete_box_Check " data-gjs-custom-name="box_Check">
+						<img src="../../assets/iconCheck_HoverDepressed.svg" :visible="true" class="radioInComplete_image_Check radioInComplete_black_check " data-gjs-custom-name="image_Check_Black">
+						<img src="../../assets/iconCheck_Normal_Grey.svg" :visible="true" class="radioInComplete_image_Check  radioInComplete_blue_check" data-gjs-custom-name="image_Check_Blue"></span>
+				  </widget-radio>
+				<br>
+				<widget-radio id="radio3_0" :visible="true" :enabled="false" class="buttonRadio-Complete3" data-gjs-custom-name="buttonRadio-Complete3">
+					<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+					<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+					</p>
+					</div>
+					<div class="checkParent" data-gjs-custom-name="Box">
+					<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="1">1</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					</span>
+					<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="2">2</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					
+					</span>
+					<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="3">3</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					
+					</span>
+					 </div>
+					</widget-radio>
+				<widget-radio id="radio3_A" :visible="true" :enabled="true" class="buttonRadio-Complete3" data-gjs-custom-name="buttonRadio-Complete3">
+					<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+					<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+					</p>
+					</div>
+					<div class="checkParent" data-gjs-custom-name="Box">
+					<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="1">1</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					
+					</span>
+					<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="2">2</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					
+					</span>
+					<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+					<span class="stepNumber" data-gjs-custom-name="3">3</span>
+					<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+					
+					</span>
+					 </div>
+					</widget-radio>
+					<widget-radio id="radio3_B" :visible="true" :enabled="true" class="buttonRadio-Complete3 select1" data-gjs-custom-name="buttonRadio-Complete3">
+						<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+						<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+						</p>
+						</div>
+						<div class="checkParent" data-gjs-custom-name="Box">
+						<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="1">1</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="2">2</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="3">3</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						 </div>
+						</widget-radio>
+					<widget-radio id="radio3_C" :visible="true" :enabled="true" class="buttonRadio-Complete3 complete1" data-gjs-custom-name="buttonRadio-Complete3">
+						<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+						<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+						</p>
+						</div>
+						<div class="checkParent" data-gjs-custom-name="Box">
+						<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="1">1</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="2">2</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="3">3</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						</span>
+						 </div>
+						</widget-radio>
+				<br>
+					<widget-radio id="radio3_D" :visible="true" :enabled="true" class="buttonRadio-Complete3 select2" data-gjs-custom-name="buttonRadio-Complete3">
+						<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+						<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+						</p>
+						</div>
+						<div class="checkParent" data-gjs-custom-name="Box">
+						<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="1">1</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="2">2</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="3">3</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						</div>
+					</widget-radio>
+					<widget-radio id="radio3_E" :visible="true" :enabled="true" class="buttonRadio-Complete3 complete2" data-gjs-custom-name="buttonRadio-Complete3">
+						<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+						<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+						</p>
+						</div>
+						<div class="checkParent" data-gjs-custom-name="Box">
+						<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="1">1</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="2">2</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+						<span class="stepNumber" data-gjs-custom-name="3">3</span>
+						<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+						
+						</span>
+						</div>
+					</widget-radio>
+					<widget-radio id="radio3_F" :visible="true" :enabled="true" class="buttonRadio-Complete3 select3" data-gjs-custom-name="buttonRadio-Complete3">
+							<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+							<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+							</p>
+							</div>
+							<div class="checkParent" data-gjs-custom-name="Box">
+							<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="1">1</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							
+							</span>
+							<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="2">2</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							
+							</span>
+							<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="3">3</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							
+							</span>
+							</div>
+					</widget-radio>
+					<widget-radio id="radio3_G" :visible="true" :enabled="true" class="buttonRadio-Complete3 complete3" data-gjs-custom-name="buttonRadio-Complete3">
+							<div class="radioInComplete3_Text" data-gjs-custom-name="div_Text"> 
+							<p class="textCenter radioInComplete3_buttonText" data-gjs-custom-name="Text">60 : 10
+							</p>
+							</div>
+							<div class="checkParent" data-gjs-custom-name="Box">
+							<span class="radioInComplete3_box_Check inclBox_1" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="1">1</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							
+							</span>
+							<span class="radioInComplete3_box_Check inclBox_2" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="2">2</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							
+							</span>
+							<span class="radioInComplete3_box_Check inclBox_3" data-gjs-custom-name="div_Check">
+							<span class="stepNumber" data-gjs-custom-name="3">3</span>
+							<img src="../../assets/iconCheck_HoverDepressed_White.svg" :visible="true" class="radioInComplete3_image_Check radioInComplete3_check" data-gjs-custom-name="image_CheckHoverDepressed">
+							</span>
+							</div>
+					</widget-radio>
+				<br>
+				<div style="background-color: black;">
+					<widget-radio :visible="true" :enabled="true" id="ikm4w" class="arrowRadio up large white" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="4mki" class="arrowRadio up large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="disRadioLargeArrowUp" class="arrowRadio up large" data-gjs-custom-name="buttonRadio_Arrow" group="rA1" shared-data-read-key="arrowSel"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="ikm4" class="arrowRadio up large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="k4mi" class="arrowRadio up large" data-gjs-custom-name="buttonRadio_Arrow" :correctStyle=true></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="m4ki" class="arrowRadio  up large incorrect" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="rkCup" class="arrowRadio  up large keyConcept" data-gjs-custom-name="buttonRadio_Arrow" group="kCU" shared-data-read-key="arrowSelKC"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="raDown2w" class="arrowRadio down large white" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raDown1" class="arrowRadio down large" data-gjs-custom-name="buttonRadio_Arrow" ></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="disRadioLargeArrowDown" class="arrowRadio down large" data-gjs-custom-name="buttonRadio_Arrow" group="rA2" shared-data-read-key="arrowSel2"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="raDown2" class="arrowRadio down large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raDown3" class="arrowRadio down large" data-gjs-custom-name="buttonRadio_Arrow" :correctStyle=true></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="raDown4" class="arrowRadio  down large incorrect" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="rkCup" class="arrowRadio  down large keyConcept" data-gjs-custom-name="buttonRadio_Arrow"  group="kCD" shared-data-read-key="arrowSelKC"></widget-radio>
+					<br>
+					<widget-radio :visible="true" :enabled="true" id="raLeft2w" class="arrowRadio left large white" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raLeft1" class="arrowRadio left large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="disRadioLargeArrowLeft" class="arrowRadio left large" data-gjs-custom-name="buttonRadio_Arrow" group="rA3" shared-data-read-key="arrowSel3"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="raLeft2" class="arrowRadio left large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raLeft3" class="arrowRadio left large" data-gjs-custom-name="buttonRadio_Arrow" :correctStyle=true></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="raLeft4" class="arrowRadio  left large incorrect" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="rkCup" class="arrowRadio  left large keyConcept" data-gjs-custom-name="buttonRadio_Arrow" group="kCL" shared-data-read-key="arrowSelKC"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="raRight2w" class="arrowRadio right large white" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raRight1" class="arrowRadio right large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="disRadioLargeArrowRight" class="arrowRadio right large" data-gjs-custom-name="buttonRadio_Arrow" group="rA4" shared-data-read-key="arrowSel4"></widget-radio>
+					<widget-radio :visible="true" :enabled="true" id="raRight2" class="arrowRadio right large" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio> 
+					<widget-radio :visible="true" :enabled="false" id="raRight3" class="arrowRadio right large" data-gjs-custom-name="buttonRadio_Arrow" :correctStyle=true></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="raRight4" class="arrowRadio  right large incorrect" data-gjs-custom-name="buttonRadio_Arrow"></widget-radio>
+					<widget-radio :visible="true" :enabled="false" id="rkCup" class="arrowRadio  right large keyConcept" data-gjs-custom-name="buttonRadio_Arrow" group="kCR" shared-data-read-key="arrowSelKC"></widget-radio>
+				</div>
+				<br>
+				<widget-button :visible="true" :enabled="true" id="ilxm" class="buttonBasic_Arrow up" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="false" id="xlim" class="buttonBasic_Arrow up" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="true" id="ilxmd" class="buttonBasic_Arrow down" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="false" id="xlimdd" class="buttonBasic_Arrow down" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="true" id="ilxml" class="buttonBasic_Arrow left" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="false" id="xlimld" class="buttonBasic_Arrow left" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="true" id="ilxmr" class="buttonBasic_Arrow right" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<widget-button :visible="true" :enabled="false" id="xlimrd" class="buttonBasic_Arrow right" data-gjs-custom-name="" style="width: 10vh; height: 10vh;"></widget-button>
+				<br>
+				<widget-checkbox class="buttonToggle" id="toggleUnchecked">
+					<br>toggle
+					<br>enabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonToggle" id="toggleDisabledUnchecked" :enabled=false>
+					<br>toggle
+					<br>disabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonToggle" :checked=true id="toggleChecked">
+					<br>toggle
+					<br>enabled
+					<br>checked</widget-checkbox>
+				<widget-checkbox class="buttonToggle" id="toggleDisabledChecked" :enabled=false :checked=true>
+					<br>toggle
+					<br>disabled
+					<br>checked</widget-checkbox>
+				<br>
+				<widget-checkbox class="buttonToggle_White" id="toggleWUnchecked">
+					<br>white toggle
+					<br>enabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonToggle_White" id="toggleWDisabledUnchecked" :enabled=false>
+					<br>white toggle
+					<br>disabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonToggle_White" :checked=true id="toggleCheckedW">
+					<br>white toggle
+					<br>enabled
+					<br>checked</widget-checkbox>
+				<widget-checkbox class="buttonToggle_White" id="toggleDisabledCheckedW" :enabled=false :checked=true>
+					<br>white toggle
+					<br>disabled
+					<br>checked</widget-checkbox>
+				<br>
+				<widget-checkbox class="buttonToggle_Point" id="togglePUnchecked">
+					<p>1</p></widget-checkbox>
+				<widget-checkbox class="buttonToggle_Point" id="togglePDisabledUnchecked" :enabled=false>
+					<p>1</p></widget-checkbox>
+				<widget-checkbox class="buttonToggle_Point" :checked=true id="toggleCheckedP">
+					<p>1</p></widget-checkbox>
+				<widget-checkbox class="buttonToggle_Point" id="toggleDisabledCheckedP" :enabled=false :checked=true>
+					<p>1</p></widget-checkbox>
+				<br>
+				<br>
+				<widget-checkbox class="buttonCheck" id="checkUnchecked">
+					<br>check
+					<br>enabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonCheck" id="checkDisabledUnchecked" :enabled=false>
+					<br>check
+					<br>disabled
+					<br>unchecked</widget-checkbox>
+				<widget-checkbox class="buttonCheck" id="checkChecked" :checked=true>
+					<br>check
+					<br>enabled
+					<br>checked</widget-checkbox>
+				<widget-checkbox class="buttonCheck" id="checkDisabledChecked" :enabled=false :checked=true>
+					<br>check
+					<br>disabled
+					<br>checked</widget-checkbox>
+				<widget-checkbox class="buttonCheck" id="checkCorrect" :enabled=false :correctStyle=true>
+					<br>check
+					<br>correct</widget-checkbox>
+				<widget-checkbox class="buttonCheck incorrect" id="checkInorrect" :enabled=false>
+					<br>check
+					<br>incorrect</widget-checkbox>
+				<br>
+				<br>
+				<widget-drag class="buttonDrag" id="drag1">
+					drag enabled</widget-drag>
+				<widget-drag class="buttonDrag" id="drag2" :enabled=false>
+					drag disabled</widget-drag>
+				<widget-drag class="buttonDrag_White" id="dragW1">
+					white drag enabled</widget-drag>
+				<widget-drag class="buttonDrag_White" id="dragW2" :enabled=false>
+					white drag disabled</widget-drag>
+
+				<widget-drag id="testButtonLook" class="buttonBasic-Grey">
+					<p class="marginLeft2 marginRight2">button style drag</p>
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+				</widget-drag>
+				<widget-drop id="testDrop">
+					<p class="marginLeft2 marginRight2">drop</p>
+					<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+				</widget-drop>
+				<widget-drag id="testButtonLook" class="buttonBasic-Grey" :enabled=false>
+						<p class="marginLeft2 marginRight2">button style drag</p>
+						<img src="https://liuji-jim.gallerycdn.vsassets.io/extensions/liuji-jim/vue/0.1.5/1478501659069/Microsoft.VisualStudio.Services.Icons.Default">
+					</widget-drag>
+				<widget-drop id="testDrop2" class="dropDiamond"></widget-drop>
+				<br>
+				<br>
+				<br>
+				<table data-gjs-custom-name="Table 10x4">
+					<tbody data-gjs-custom-name="Tbody">
+						<tr data-gjs-custom-name="Title Row">
+							<th class="th1 page69f2">
+								<span>Column 1</span>
+							</th>
+							<th class="th2 page69f2">
+								<span>Column 2</span>
+							</th>
+							<th class="th3 page69f2">
+								<span>Column 3</span>
+							</th>
+							<th class="th4 page69f2">
+								<span>Column 4</span>
+							</th>
+							<th class="th5 page69f2">
+								<span>Column 5</span>
+							</th>
+							<th class="th6 page69f2">
+								<span>Column 6</span>
+							</th>
+							<th class="th7 page69f2">
+								<span>Column 7</span>
+							</th>
+							<th class="th8 page69f2">
+								<span>Column 8</span>
+							</th>
+							<th class="th9 page69f2">
+								<span>Column 9</span>
+							</th>
+							<th class="th10 page69f2">
+								<span>Column 10</span>
+							</th>
+						</tr>
+						<tr data-gjs-custom-name="Row 1">
+							<td class="td1 page69f2" data-gjs-custom-name="Cell 1">
+								<span>Cell 1</span>
+							</td>
+							<td class="td2 page69f2" data-gjs-custom-name="Cell 2">
+								<span>Cell 2</span>
+							</td>
+							<td class="td3 page69f2" data-gjs-custom-name="Cell 3">
+								<span>Cell 3</span>
+							</td>
+							<td class="td4 page69f2" data-gjs-custom-name="Cell 4">
+								<span>Cell 4</span>
+							</td>
+							<td class="td5 page69f2" data-gjs-custom-name="Cell 5">
+								<span>Cell 5</span>
+							</td>
+							<td class="td6 page69f2" data-gjs-custom-name="Cell 6">
+								<span>Cell 6</span>
+							</td>
+							<td class="td7 page69f2" data-gjs-custom-name="Cell 7">
+								<span>Cell 7</span>
+							</td>
+							<td class="td8 page69f2" data-gjs-custom-name="Cell 8">
+								<span>Cell 8</span>
+							</td>
+							<td class="td9 page69f2" data-gjs-custom-name="Cell 9">
+								<span>Cell 9</span>
+							</td>
+							<td class="td10 page69f2" data-gjs-custom-name="Cell 10">
+								<span>Cell 10</span>
+							</td>
+						</tr>
+						<tr data-gjs-custom-name="Row 2">
+							<td class="td1 page69f2" data-gjs-custom-name="Cell 11">
+								<span>Cell 11</span>
+							</td>
+							<td class="td2 page69f2" data-gjs-custom-name="Cell 12">
+								<span>Cell 12</span>
+							</td>
+							<td class="td3 page69f2" data-gjs-custom-name="Cell 13">
+								<span>Cell 13</span>
+							</td>
+							<td class="td4 page69f2" data-gjs-custom-name="Cell 14">
+								<span>Cell 14</span>
+							</td>
+							<td class="td5 page69f2" data-gjs-custom-name="Cell 15">
+								<span>Cell 15</span>
+							</td>
+							<td class="td6 page69f2" data-gjs-custom-name="Cell 16">
+								<span>Cell 16</span>
+							</td>
+							<td class="td7 page69f2" data-gjs-custom-name="Cell 17">
+								<span>Cell 17</span>
+							</td>
+							<td class="td8 page69f2" data-gjs-custom-name="Cell 18">
+								<span>Cell 18</span>
+							</td>
+							<td class="td9 page69f2" data-gjs-custom-name="Cell 19">
+								<span>Cell 19</span>
+							</td>
+							<td class="td10 page69f2" data-gjs-custom-name="Cell 20">
+								<span>Cell 20</span>
+							</td>
+						</tr>
+						<tr data-gjs-custom-name="Row 3">
+							<td class="td1 page69f2" data-gjs-custom-name="Cell 21">
+								<span>Cell 21</span>
+							</td>
+							<td class="td2 page69f2" data-gjs-custom-name="Cell 22">
+								<span>Cell 22</span>
+							</td>
+							<td class="td3 page69f2" data-gjs-custom-name="Cell 23">
+								<span>Cell 23</span>
+							</td>
+							<td class="td4 page69f2" data-gjs-custom-name="Cell 24">
+								<span>Cell 24</span>
+							</td>
+							<td class="td5 page69f2" data-gjs-custom-name="Cell 25">
+								<span>Cell 25</span>
+							</td>
+							<td class="td6 page69f2" data-gjs-custom-name="Cell 26">
+								<span>Cell 26</span>
+							</td>
+							<td class="td7 page69f2" data-gjs-custom-name="Cell 27">
+								<span>Cell 27</span>
+							</td>
+							<td class="td8 page69f2" data-gjs-custom-name="Cell 28">
+								<span>Cell 28</span>
+							</td>
+							<td class="td9 page69f2" data-gjs-custom-name="Cell 29">
+								<span>Cell 29</span>
+							</td>
+							<td class="td10 page69f2" data-gjs-custom-name="Cell 30">
+								<span>Cell 30</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<br>
+				<div class="colorBkgndBlack horizontalArrow" style="padding: 10px;">
+					<div class="line colorBkgndWhite"></div>
+					<div class="arrowRight"></div>
+				</div>
+				<div class="colorBkgndBlack horizontalArrow" style="padding: 10px;">
+					<div class="arrowLeft"></div>
+					<div class="line colorBkgndWhite"></div>
+				</div>
+				<div class="colorBkgndBlack verticalArrow" style="padding: 10px; height: 50px;">
+					<div class="arrowUp"></div>
+					<div class="vLine colorBkgndWhite"></div>
+				</div>
+				<div class="colorBkgndBlack verticalArrow" style="padding: 10px; height: 50px;">
+					<div class="vLine colorBkgndWhite"></div>
+					<div class="arrowDown"></div>
+				</div>
+			</div>
+		</div>
+		<p class="dropShadow textBackgroundBasic page">Text Box Basic</p>
+		<p class="textBackgroundBasic textBackground-Transparent page">Text Box Transparent</p>
+		<div class="loadingBarParent">
+			<div class="loadingBar">
+			  <div class="loadingBarSpinner"></div>
+			</div>
+		  </div>
+	</div>
+</div>
+<widget-slider></widget-slider>
+<widget-slider :enabled=false></widget-slider>
+<br/>
+<br/>
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'unlockNextPage'}}] } ]}">
+	<p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

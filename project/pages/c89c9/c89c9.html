@@ -1,0 +1,99 @@
+<div class="simParent pagec89c9">
+  <widget-sim-view id="ipft" scenename="Sahara_Farm_Map" simstateid="h3xms5" :visible="false" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iusk',key:'enabled',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview pagec89c9" />
+  <widget-button :visible="true" :enabled="false" id="iusk" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iusk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue pagec89c9 button_1">
+    <div class="buttonFillSq pagec89c9">
+      <p class="colorWhite textCenter pagec89c9 text_Experiment1a">Experiment 1</p>
+      <widget-image src="../../assets/images/cotton_PlantFlowering_IMG.png" :visible="true" id="ia8n" class="pagec89c9 image_Cotton" />
+      <p class="colorWhite textCenter pagec89c9 text_Experiment1b">Plant cotton crops around the corn crops to attract bees.<br />The bees will scare away the elephants.<br /></p>
+    </div>
+  </widget-button>
+  <container-show-hide :visible="false" id="ipf1y" class="pagec89c9 SH_PlantingSeeds dropShadow">
+    <widget-image src="../../assets/movies/plantSeeds_CornCotton_APNG.png" :visible="true" id="i1eo1" class="pagec89c9 APNG_PlantSeeds" />
+  </container-show-hide>
+  <container-show-hide :visible="true" id="iitq4" class="pagec89c9 anchor_WhitePopper"></container-show-hide>
+  <widget-popper :visible="false" :click-to-dismiss="false" id="imifw" :delay="0" :delay-once="false" anchor-id="iitq4" :options="{placement:'top'}" class="pagec89c9"><span class="pagec89c9">The trampled corn is now replaced with new corn.<br/>Cotton now surrounds the farm to attract bees.</span></widget-popper>
+  <widget-button :visible="false" :enabled="true" id="ih2b" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ih2b',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'imifw',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iivg',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'simstateid',val:'rmpnu5'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'playState',val:'play'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="arrowButton buttonCarousel_Arrow right buttonBgImgBlinkBlue pagec89c9"></widget-button>
+  <container-show-hide :visible="false" id="ia9d" class="simPageContent farmMapSimClose_PageContent pagec89c9">
+    <div class="pagec89c9 div_farmGrid">
+      <widget-drop :visible="true" :enabled="true" :max-children="1" overflow-style="reset-child" id="ioqt" class="drop_Appearance drop_1 pagec89c9 noSelect"></widget-drop>
+    </div>
+    <div class="div_belowGrid pagec89c9">
+      <div class="div_DragStart pagec89c9">
+        <widget-drop :visible="true" :enabled="true" :max-children="1" overflow-style="reset-child" id="ivj9" class="startingDrop_Appearance pagec89c9"></widget-drop>
+        <widget-drag :visible="true" :enabled="true" id="iegd" :child-index="0" drop-id="ivj9" group-id="seedsPlantID" correct-drop-ids="['ioqt']" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'dropsHaveDrags',dropIDs:['ioqt']}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ioqt',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iegd',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:false},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'simstateid',val:'wxt43p'},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'playState',val:'play'},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'imifw',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ih2b',key:'visible',val:true},fireOnceID:'',delay:9}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="drag_Appearance dragButtons_Appearance pagec89c9">
+          <div class="div_DragFiller pagec89c9">
+            <widget-button :visible="true" :enabled="true" id="i3c7" class="buttonBasic_Image pagec89c9 button_Seeds noSelect">
+              <widget-image :visible="true" id="ii2q" src="../../assets/images/seeds_CornCotton_IMG.png" class="buttonImage pagec89c9" />
+            </widget-button>
+          </div>
+        </widget-drag>
+      </div>
+      <widget-popper :visible="false" :click-to-dismiss="false" id="ikl1" :delay="0" :delay-once="false" anchor-id="i3c7" :options="{placement:'right'}" class="textBackground-Popup-Blue pagec89c9"><span class="pagec89c9">Help Farmer Lucy plant new corn and cotton<br/>by dragging the seeds onto the farm.</span></widget-popper>
+    </div>
+    <div class="div_farmMapSimKey pagec89c9">
+      <div class="div_farmMapSimKeyItem pagec89c9">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i621" class="image_farmMapSimKeyItem pagec89c9" />
+        <p class="text_farmMapSimKeyItem pagec89c9">Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pagec89c9">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="iujm" class="image_farmMapSimKeyItem pagec89c9" />
+        <p class="text_farmMapSimKeyItem pagec89c9">Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pagec89c9">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="iwng" class="image_farmMapSimKeyItem pagec89c9" />
+        <p class="text_farmMapSimKeyItem pagec89c9">Trampled Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pagec89c9">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="ibqm" class="image_farmMapSimKeyItem pagec89c9" />
+        <p class="text_farmMapSimKeyItem pagec89c9">Trampled Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pagec89c9">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="ixus" class="image_farmMapSimKeyItem pagec89c9" />
+        <p class="text_farmMapSimKeyItem pagec89c9">Beehive</p>
+      </div>
+    </div>
+  </container-show-hide>
+  <container-show-hide :visible="false" id="iivg" class="simPageContent farmMapSim_PageContent pagec89c9">
+    <div class="div_pageTop pagec89c9"></div>
+    <div class="div_farmMapSim_pageBottom pagec89c9">
+      <div class="div_farmMapSim_questionText pagec89c9"><span class="colorWhite pagec89c9">The farm had <div class="fraction_Inline colorWhite pagec89c9"><p class="text_Numerator_White textCenter pagec89c9">4</p><p class="text_Denominator textCenter pagec89c9">5</p></div> ( <div class="fraction_Inline colorWhite pagec89c9"><p class="text_Numerator_White textCenter pagec89c9">40</p><p class="text_Denominator textCenter pagec89c9">50</p></div> squares) of corn before adding more cotton.<br/>What fraction of corn does the farmer have now?</span></div>
+      <container-enable-disable :visible="true" :enabled="true" id="ijmj" class="div_farmMapSim_buttonsGrp pagec89c9">
+        <div class="grid_farmMapSim_3ButtonColumns pagec89c9">
+          <widget-radio :visible="true" :enabled="true" id="ice3" group="ij8ig" value="17/50" class="buttonRadio Variation radioFillHeight colorWhite pagec89c9">
+            <div class="pagec89c9 fraction_Inline_Big">
+              <container-show-hide :visible="true" id="is6x" class="pagec89c9 text_Numerator_White">
+                <p class="textCenter pagec89c9">17</p>
+              </container-show-hide>
+              <p class="text_Denominator textCenter pagec89c9">50</p>
+            </div>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="iiji" group="ij8ig" value="23/50" class="buttonRadio Variation radioFillHeight colorWhite pagec89c9">
+            <div class="pagec89c9 fraction_Inline_Big">
+              <container-show-hide :visible="true" id="ic1t6t" class="pagec89c9 text_Numerator_White">
+                <p class="textCenter pagec89c9">23</p>
+              </container-show-hide>
+              <p class="text_Denominator textCenter pagec89c9">50</p>
+            </div>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="i13x" group="ij8ig" value="27/50" class="buttonRadio Variation radioFillHeight colorWhite pagec89c9">
+            <div class="pagec89c9 fraction_Inline_Big">
+              <container-show-hide :visible="true" id="ifkhpy" class="pagec89c9 text_Numerator_White">
+                <p class="textCenter pagec89c9">27</p>
+              </container-show-hide>
+              <p class="text_Denominator textCenter pagec89c9">50</p>
+            </div>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="div_farmMapSim_CI pagec89c9">
+        <container-show-hide :visible="false" id="i2gd" class="pagec89c9 dropShadow textBackgroundBasic textBackground-Correct"><span class="pagec89c9"><strong class="pagec89c9">Correct!</strong> The farmer has 23 out of 50 squares of corn now or <div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">23</p><p class="text_Denominator textCenter pagec89c9">50</p></div>.<br/><div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">23</p><p class="text_Denominator textCenter pagec89c9">50</p></div> is less than <div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">40</p><p class="text_Denominator textCenter pagec89c9">50</p></div> so there is less corn for the farmer to eat and sell.</span></container-show-hide>
+        <container-show-hide :visible="false" id="iaie" class="pagec89c9 dropShadow textBackgroundBasic textBackground-Incorrect"><span class="pagec89c9"><strong class="pagec89c9">Incorrect.</strong> The farmer has 23 out of 50 squares of corn now or <div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">23</p><p class="text_Denominator textCenter pagec89c9">50</p></div>.<br/><div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">23</p><p class="text_Denominator textCenter pagec89c9">50</p></div> is less than <div class="fraction_Inline pagec89c9"><p class="textCenter pagec89c9 text_Numerator_Black">40</p><p class="text_Denominator textCenter pagec89c9">50</p></div> so there is less corn for the farmer to eat and sell.</span></container-show-hide>
+      </div>
+      <div class="div_farmMapSim_Submit pagec89c9">
+        <widget-button :visible="false" :enabled="true" id="ifnz6" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ijmj',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iiji',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:5},{effectData:{effectType:'addClasses',widgetID:'is6x',classes:'text_Numerator_BlackButtons'},fireOnceID:'',delay:0},{effectData:{effectType:'addClasses',widgetID:'ic1t6t',classes:'text_Numerator_BlackButtons'},fireOnceID:'',delay:0},{effectData:{effectType:'addClasses',widgetID:'ifkhpy',classes:'text_Numerator_BlackButtons'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EM.FarmFractionCornNow',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'ij8ig'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'radioIDEquals',radioID:'iiji'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i2gd',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iaie',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue pagec89c9">
+          <p class="marginLeft2 marginRight2 pagec89c9">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </container-show-hide>
+</div>

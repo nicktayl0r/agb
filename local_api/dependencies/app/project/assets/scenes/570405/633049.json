@@ -1,0 +1,687 @@
+{
+	"name": "Pepsin_Degrade",
+	"created": "2018-08-10T14:44:11.616Z",
+	"settings": {
+		"physics": {
+			"gravity": [
+				0,
+				-9.8,
+				0
+			]
+		},
+		"render": {
+			"fog_end": 1000,
+			"tonemapping": 0,
+			"skybox": null,
+			"fog_density": 0.01,
+			"gamma_correction": 1,
+			"exposure": 1,
+			"fog_start": 1,
+			"global_ambient": [
+				0.2,
+				0.2,
+				0.2
+			],
+			"skyboxIntensity": 1,
+			"fog_color": [
+				0,
+				0,
+				0
+			],
+			"lightmapMode": 1,
+			"fog": "none",
+			"lightmapMaxResolution": 2048,
+			"skyboxMip": 0,
+			"lightmapSizeMultiplier": 16
+		}
+	},
+	"entities": {
+		"d83f5787-9cab-11e8-888b-026349a27a7c": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "Root",
+			"parent": null,
+			"resource_id": "d83f5787-9cab-11e8-888b-026349a27a7c",
+			"components": {},
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"tags": [],
+			"enabled": true,
+			"children": [
+				"e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+				"11aa6972-8798-4fc1-9426-aefb74aa0096"
+			]
+		},
+		"d83f5789-9cab-11e8-888b-026349a27a7c": {
+			"position": [
+				1.6128112077713013,
+				2,
+				-0.24016094207763672
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "Light",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"resource_id": "d83f5789-9cab-11e8-888b-026349a27a7c",
+			"components": {
+				"light": {
+					"vsmBlurSize": 11,
+					"normalOffsetBias": 0.05,
+					"color": [
+						1,
+						1,
+						1
+					],
+					"outerConeAngle": 45,
+					"castShadows": false,
+					"intensity": 8,
+					"bakeDir": false,
+					"cookieAngle": 0,
+					"cookieChannel": "rgb",
+					"innerConeAngle": 40,
+					"bake": false,
+					"falloffMode": 0,
+					"cookieIntensity": 1,
+					"vsmBias": 0.01,
+					"vsmBlurMode": 1,
+					"type": "directional",
+					"cookieFalloff": true,
+					"isStatic": false,
+					"shadowUpdateMode": 2,
+					"cookieScale": [
+						1,
+						1
+					],
+					"affectLightmapped": false,
+					"shadowBias": 0.2,
+					"affectDynamic": true,
+					"cookieAsset": null,
+					"cookieOffset": [
+						0,
+						0
+					],
+					"shadowResolution": 1024,
+					"enabled": true,
+					"range": 8,
+					"shadowDistance": 16,
+					"shadowType": 0,
+					"layers": [
+						0
+					]
+				}
+			},
+			"rotation": [
+				-141.88502502441406,
+				51.324256896972656,
+				168.26779174804688
+			],
+			"tags": [],
+			"enabled": true,
+			"children": []
+		},
+		"b1d5cabb-781f-47c0-be5f-b9bed338162c": {
+			"name": "Reactant1",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "b1d5cabb-781f-47c0-be5f-b9bed338162c",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"model": {
+					"enabled": true,
+					"isStatic": false,
+					"type": "asset",
+					"asset": 13765631,
+					"materialAsset": null,
+					"castShadows": true,
+					"castShadowsLightmap": true,
+					"receiveShadows": true,
+					"batchGroupId": null,
+					"layers": [
+						0
+					],
+					"lightmapped": false,
+					"lightmapSizeMultiplier": 1,
+					"mapping": {}
+				},
+				"animation": {
+					"enabled": true,
+					"assets": [
+						13765630
+					],
+					"speed": 1,
+					"loop": false,
+					"activate": true
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"animateReactant"
+					],
+					"scripts": {
+						"animateReactant": {
+							"enabled": true,
+							"attributes": {
+								"animationName": "Pepsin",
+								"rangeStart": 0,
+								"rangeEnd": 50
+							}
+						}
+					}
+				}
+			}
+		},
+		"f8968e10-4987-413e-8607-c518a90845cb": {
+			"name": "Reactant2",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "f8968e10-4987-413e-8607-c518a90845cb",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"model": {
+					"enabled": true,
+					"isStatic": false,
+					"type": "asset",
+					"asset": 13765682,
+					"materialAsset": null,
+					"castShadows": true,
+					"castShadowsLightmap": true,
+					"receiveShadows": true,
+					"batchGroupId": null,
+					"layers": [
+						0
+					],
+					"lightmapped": false,
+					"lightmapSizeMultiplier": 1
+				},
+				"animation": {
+					"enabled": true,
+					"assets": [
+						13765680
+					],
+					"speed": 1,
+					"loop": false,
+					"activate": true
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"animateReactant"
+					],
+					"scripts": {
+						"animateReactant": {
+							"enabled": true,
+							"attributes": {
+								"animationName": "Pepsin",
+								"rangeStart": 50,
+								"rangeEnd": 101
+							}
+						}
+					}
+				}
+			}
+		},
+		"f379e299-7be6-4ca8-bc2b-6fa10b050c9e": {
+			"name": "Pepsin",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "f379e299-7be6-4ca8-bc2b-6fa10b050c9e",
+			"parent": "cccfbaac-66f5-490c-bd19-ca0fca8b62ec",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"model": {
+					"enabled": true,
+					"isStatic": false,
+					"type": "asset",
+					"asset": 13768266,
+					"materialAsset": null,
+					"castShadows": true,
+					"castShadowsLightmap": true,
+					"receiveShadows": true,
+					"batchGroupId": null,
+					"layers": [
+						0
+					],
+					"lightmapped": false,
+					"lightmapSizeMultiplier": 1
+				},
+				"animation": {
+					"enabled": true,
+					"assets": [
+						13765698
+					],
+					"speed": 1,
+					"loop": false,
+					"activate": true
+				},
+				"script": {
+					"enabled": true,
+					"order": [
+						"animationDataListener"
+					],
+					"scripts": {
+						"animationDataListener": {
+							"enabled": true,
+							"attributes": {
+								"sharedDataKey": "proj_AnimSlider"
+							}
+						}
+					}
+				}
+			}
+		},
+		"2faa32e6-48dd-4797-b4cd-1ea524138f3a": {
+			"position": [
+				1.6128112077713013,
+				1.1277194023132324,
+				-0.24016094207763672
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "Light",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"resource_id": "2faa32e6-48dd-4797-b4cd-1ea524138f3a",
+			"components": {
+				"light": {
+					"vsmBlurSize": 11,
+					"normalOffsetBias": 0.05,
+					"color": [
+						1,
+						1,
+						1
+					],
+					"outerConeAngle": 45,
+					"castShadows": false,
+					"intensity": 4,
+					"bakeDir": false,
+					"cookieAngle": 0,
+					"cookieChannel": "rgb",
+					"innerConeAngle": 40,
+					"bake": false,
+					"falloffMode": 0,
+					"cookieIntensity": 1,
+					"vsmBias": 0.01,
+					"vsmBlurMode": 1,
+					"type": "directional",
+					"cookieFalloff": true,
+					"isStatic": false,
+					"shadowUpdateMode": 2,
+					"cookieScale": [
+						1,
+						1
+					],
+					"affectLightmapped": false,
+					"shadowBias": 0.2,
+					"affectDynamic": true,
+					"cookieAsset": null,
+					"cookieOffset": [
+						0,
+						0
+					],
+					"shadowResolution": 1024,
+					"enabled": true,
+					"range": 8,
+					"shadowDistance": 16,
+					"shadowType": 0,
+					"layers": [
+						0
+					]
+				}
+			},
+			"rotation": [
+				-60.22178649902344,
+				-20.337039947509766,
+				-122.62533569335938
+			],
+			"tags": [],
+			"enabled": true,
+			"children": []
+		},
+		"7fad924f-adf6-4bf6-b046-eb13732bdb11": {
+			"name": "Camera_Pepsin_Degrade",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "7fad924f-adf6-4bf6-b046-eb13732bdb11",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [],
+			"position": [
+				0.041963934898376465,
+				-0.37380820512771606,
+				-1.1449440717697144
+			],
+			"rotation": [
+				-154.3774871826172,
+				4.2021423097898455e-15,
+				-180
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"camera": {
+					"enabled": true,
+					"clearColorBuffer": true,
+					"clearColor": [
+						0,
+						0,
+						0,
+						0
+					],
+					"clearDepthBuffer": true,
+					"projection": 0,
+					"fov": 45,
+					"frustumCulling": true,
+					"orthoHeight": 4,
+					"nearClip": 0.1,
+					"farClip": 1000,
+					"priority": 0,
+					"rect": [
+						0,
+						0,
+						1,
+						1
+					],
+					"layers": [
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			}
+		},
+		"e21e22ea-a652-4ebc-b4b5-2a89af67f211": {
+			"name": "Pepsin_Degrade",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"parent": "d83f5787-9cab-11e8-888b-026349a27a7c",
+			"children": [
+				"d83f5789-9cab-11e8-888b-026349a27a7c",
+				"2faa32e6-48dd-4797-b4cd-1ea524138f3a",
+				"cccfbaac-66f5-490c-bd19-ca0fca8b62ec",
+				"b1d5cabb-781f-47c0-be5f-b9bed338162c",
+				"f8968e10-4987-413e-8607-c518a90845cb",
+				"7fad924f-adf6-4bf6-b046-eb13732bdb11",
+				"778c43d8-0f15-4072-bbf7-0b9ff67dbc17",
+				"fd933be4-d665-41d6-995b-4e3751cde974"
+			],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {}
+		},
+		"778c43d8-0f15-4072-bbf7-0b9ff67dbc17": {
+			"name": "Camera_Pepsin_Turntable",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "778c43d8-0f15-4072-bbf7-0b9ff67dbc17",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [],
+			"position": [
+				0.015360713005065918,
+				-0.22978007793426514,
+				-1
+			],
+			"rotation": [
+				180,
+				13.997919082641602,
+				90
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"camera": {
+					"enabled": true,
+					"clearColorBuffer": true,
+					"clearColor": [
+						0,
+						0,
+						0,
+						0
+					],
+					"clearDepthBuffer": true,
+					"projection": 0,
+					"fov": 45,
+					"frustumCulling": true,
+					"orthoHeight": 4,
+					"nearClip": 0.1,
+					"farClip": 1000,
+					"priority": 0,
+					"rect": [
+						0,
+						0,
+						1,
+						1
+					],
+					"layers": [
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			}
+		},
+		"cccfbaac-66f5-490c-bd19-ca0fca8b62ec": {
+			"name": "Pepsin_Turntable",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "cccfbaac-66f5-490c-bd19-ca0fca8b62ec",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [
+				"f379e299-7be6-4ca8-bc2b-6fa10b050c9e"
+			],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"script": {
+					"enabled": true,
+					"order": [
+						"turntable"
+					],
+					"scripts": {
+						"turntable": {
+							"enabled": true,
+							"attributes": {
+								"cameraEntity": "778c43d8-0f15-4072-bbf7-0b9ff67dbc17",
+								"orbitSensitivity": 0.3,
+								"rotateX": true,
+								"rotateY": true
+							}
+						}
+					}
+				}
+			}
+		},
+		"11aa6972-8798-4fc1-9426-aefb74aa0096": {
+			"name": "Sim_Editor",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "11aa6972-8798-4fc1-9426-aefb74aa0096",
+			"parent": "d83f5787-9cab-11e8-888b-026349a27a7c",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"script": {
+					"enabled": true,
+					"order": [
+						"SimStateManager"
+					],
+					"scripts": {
+						"SimStateManager": {
+							"enabled": true,
+							"attributes": {}
+						}
+					}
+				}
+			}
+		},
+		"fd933be4-d665-41d6-995b-4e3751cde974": {
+			"name": "MainCamera",
+			"tags": [],
+			"enabled": true,
+			"resource_id": "fd933be4-d665-41d6-995b-4e3751cde974",
+			"parent": "e21e22ea-a652-4ebc-b4b5-2a89af67f211",
+			"children": [],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"components": {
+				"camera": {
+					"enabled": true,
+					"clearColorBuffer": true,
+					"clearColor": [
+						0,
+						0,
+						0,
+						0
+					],
+					"clearDepthBuffer": true,
+					"projection": 0,
+					"fov": 45,
+					"frustumCulling": true,
+					"orthoHeight": 4,
+					"nearClip": 0.1,
+					"farClip": 1000,
+					"priority": 0,
+					"rect": [
+						0,
+						0,
+						1,
+						1
+					],
+					"layers": [
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			}
+		}
+	},
+	"id": 633049
+}

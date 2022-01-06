@@ -1,0 +1,371 @@
+[
+  {
+    "id": "button-basic",
+    "label": "<img src='./img/blocks/blockIcon_buttonNext.jpg'></img><br>button_Grey",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Basic",
+    "content": "<widget-button class='buttonBasic-Grey' data-gjs-custom-name='button_Grey'><p class='' data-gjs-custom-name='text'>Next</p></widget-button>"
+  },
+  {
+    "id": "button-basic-blink",
+    "label": "<img src='./img/blocks/blockIcon_buttonBlink.jpg'></img><br>button_Grey_Blink",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Basic",
+    "content": "<widget-button class='buttonBasic-Grey buttonBlinkBlue' data-gjs-custom-name='button_Grey_Blink'><p class='' data-gjs-custom-name='text'>Next</p></widget-button>"
+  },
+  {
+    "id": "button-basic-inv",
+    "label": "<img src='./img/blocks/blockIcon_Button_Basic_Invisible.png'></img><br>button_Basic_Invisible",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Basic",
+    "content": "<widget-button class='buttonBasic_Invisible buttonBlinkBlue' data-gjs-custom-name='button_Invisible'><p class='' data-gjs-custom-name='text'>Text</p></widget-button>"
+  },
+  {
+    "id": "button-basic-inv-w",
+    "label": "<img src='./img/blocks/blockIcon_Button_Basic_InvisibleW.png'></img><br>button_Basic_InvisibleW",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Basic",
+    "content": "<widget-button class='buttonBasic_InvisibleW buttonBlinkWhite' data-gjs-custom-name='button_InvisibleW'><p class='' data-gjs-custom-name='text'>Text</p></widget-button>"
+  },
+  {
+    "id": "button-basic-inv-w2",
+    "label": "<img src='./img/blocks/blockIcon_Button_Basic_InvisibleW2.png'></img><br>button_Basic_InvisibleW2",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Basic",
+    "content": "<widget-button class='buttonBasic_InvisibleW buttonBlinkWhite colorWhite' data-gjs-custom-name='button_InvisibleW'><p class='' data-gjs-custom-name='text'>Text</p></widget-button>"
+  },
+  {
+    "id": "radio-basic",
+    "label": "<img src='./img/blocks/blockIcon_buttonRadio.jpg'></img><br>button_Radio",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio class='buttonRadio' data-gjs-custom-name='button_Radio'></widget-radio>"
+  },
+  {
+    "id": "radio-basic-char",
+    "label": "<img src='./img/blocks/blockIcon_buttonRadioChar.jpg'></img><br>button_RadioCharacter",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio class='buttonRadio' data-gjs-custom-name='button_RadioCharacter'><p class='textInline marginLeft2 marginRight2' data-gjs-custom-name='text'>A</p></widget-radio>"
+  },
+  {
+    "id": "radio-up",
+    "label": "<img src='./img/blocks/blockIcon_radioUp.jpg'></img><br>button_RadioUp",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio class='buttonRadio Up' data-gjs-custom-name='button_RadioUp' value='High'></widget-radio>"
+  },
+  {
+    "id": "radio-down",
+    "label": "<img src='./img/blocks/blockIcon_radioDown.jpg'></img><br>button_RadioDown",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio class='buttonRadio Down' data-gjs-custom-name='button_RadioDown' value='Low'></widget-radio>"
+  },
+  {
+    "id": "radio-nochange",
+    "label": "<img src='./img/blocks/blockIcon_radioNoChange.jpg'></img><br>button_RadioNoChange",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio class='buttonRadio NoChange' data-gjs-custom-name='button_RadioNoChange' value='Normal'></widget-radio>"
+  },
+  {
+    "id": "radio-incomplete",
+    "label": "<img src='./img/blocks/blockIcon_radioIncomplete.jpg'></img><br>button_RadioIncomplete",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio id='completeDisabled' class='buttonRadio_Complete1_Incomplete' data-gjs-custom-name='button_RadioIncomplete'><div class='radioInComplete_Text' data-gjs-custom-name='div_Text'> <p class='colorWhite textCenter radioInComplete_buttonText' data-gjs-custom-name='Text'>Incomplete</p></div><span class='radioInComplete_box_Check' data-gjs-custom-name='div_Check'><img src='../../../dependencies/app/dist/assets/iconCheck_HoverDepressed.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_black_check' data-gjs-custom-name='image_CheckHoverDepressed'></img><img src='../../../dependencies/app/dist/assets/svg/iconCheck_Normal_Grey.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_grey_check' data-gjs-custom-name='image_CheckNormal'></img></span></widget-radio>"
+  },
+  {
+    "id": "radio-complete",
+    "label": "<img src='./img/blocks/blockIcon_radioComplete.jpg'></img><br>button_RadioComplete",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio id='complete' class='buttonRadio_Complete1_Completed' data-gjs-custom-name='button_RadioComplete'><div class='radioInComplete_Text' data-gjs-custom-name='div_Text'> <p class='colorWhite textCenter radioInComplete_buttonText' data-gjs-custom-name='Text'>Complete</p></div><span class='radioInComplete_box_Check' data-gjs-custom-name='div_Check'><img src='../../../dependencies/app/dist/assets/iconCheck_Normal.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_black_check' data-gjs-custom-name='image_CheckHoverDepressed'></img><img src='../../../dependencies/app/dist/assets/svg/iconCheck_Normal_Grey.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_grey_check' data-gjs-custom-name='image_CheckNormal'></img></span></widget-radio>"
+  },
+  {
+    "id": "radio-incomplete-blue",
+    "label": "<img src='./img/blocks/blockIcon_radioIncomplete.jpg'></img><br>button_RadioIncomplete-Blue",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio :visible='true' :enabled='true' id='i5fd7' class='buttonRadio_CompleteBlue_Incomplete ' data-gjs-custom-name='radio_IncompleteBlue'><div class='radioInComplete_Text ' data-gjs-custom-name='box_Text'><p class='textCenter radioInComplete_buttonText marginLeft2 marginRight2 ' data-gjs-custom-name='Text'>Incomplete</p></div><span class='radioInComplete_box_Check ' data-gjs-custom-name='box_Check'><img src='../../../dependencies/app/dist/assets/iconCheck_HoverDepressed.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_black_check ' data-gjs-custom-name='image_Check_Black'><img src='../../../dependencies/app/dist/assets/iconCheck_Normal.svg' :visible='true' class='radioInComplete_image_Check  radioInComplete_blue_check' data-gjs-custom-name='image_Check_Blue'></span></widget-radio>"
+  },
+  {
+    "id": "radio-complete-blue",
+    "label": "<img src='./img/blocks/blockIcon_radioIncomplete.jpg'></img><br>button_RadioComplete-Blue",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Radio",
+    "content": "<widget-radio :visible='true' :enabled='true' id='i5fd7' class='buttonRadio_CompleteBlue_Completed ' data-gjs-custom-name='radio_CompleteBlue'><div class='radioInComplete_Text ' data-gjs-custom-name='box_Text'><p class='textCenter radioInComplete_buttonText marginLeft2 marginRight2 ' data-gjs-custom-name='Text'>Complete</p></div><span class='radioInComplete_box_Check ' data-gjs-custom-name='box_Check'><img src='../../../dependencies/app/dist/assets/iconCheck_HoverDepressed.svg' :visible='true' class='radioInComplete_image_Check radioInComplete_black_check ' data-gjs-custom-name='image_Check_Black'><img src='../../../dependencies/app/dist/assets/iconCheck_Normal.svg' :visible='true' class='radioInComplete_image_Check  radioInComplete_blue_check' data-gjs-custom-name='image_Check_Blue'></span></widget-radio>"
+  },
+  {
+    "id": "checkbox-check",
+    "label": "<img src='./img/blocks/blockIcon_radioCheck.jpg'></img><br>button_RadioCheck",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Checkbox",
+    "content": "<widget-checkbox class='buttonCheck' data-gjs-custom-name='button_RadioCheck'></widget-checkbox>"
+  },
+  {
+    "id": "checkbox-toggle",
+    "attributes": {
+      "class": "fa template toggle"
+    },
+    "label": "button_Toggle",
+    "category": "Buttons: Checkbox",
+    "content": "<widget-checkbox class='buttonToggle' data-gjs-custom-name='button_Toggle'></widget-checkbox>"
+  },
+  {
+    "id": "checkbox-toggle-Point",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "label": "<img src='./img/blocks/blockIcon_togglePoint.png'></img><br>button_Toggle_Point",
+    "category": "Buttons: Checkbox",
+    "content": "<widget-checkbox class='buttonToggle_Point' data-gjs-custom-name='button_Toggle_Point'></widget-checkbox>"
+  },
+  {
+    "id": "button-play",
+    "label": "<img src='./img/blocks/blockIcon_radioPlay.jpg'></img><br>button_Play",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonPlay' data-gjs-custom-name='button_Play'></widget-button>"
+  },
+  {
+    "id": "button-pause",
+    "label": "<img src='./img/blocks/blockIcon_radioPause.jpg'></img><br>button_Pause",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonPause' data-gjs-custom-name='button_Pause'></widget-button>"
+  },
+  {
+    "id": "button-replay",
+    "label": "<img src='./img/blocks/blockIcon_radioReplay.jpg'></img><br>button_Replay",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonReplay' data-gjs-custom-name='button_Replay'></widget-button>"
+  },
+  {
+    "id": "button-drag",
+    "attributes": {
+      "class": "fa template drag"
+    },
+    "label": "drag_Diamond",
+    "category": "Buttons: Misc",
+    "content": "<widget-drag class='buttonDrag' data-gjs-custom-name='drag_Diamond'/>"
+  },
+  {
+    "id": "button-forward",
+    "attributes": {
+      "class": "fa template next"
+    },
+    "label": "button_Forward",
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonForward' data-gjs-custom-name='button_Forward'></widget-button>"
+  },
+  {
+    "id": "button-backward",
+    "attributes": {
+      "class": "fa template previous"
+    },
+    "label": "button_Back",
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonBack' data-gjs-custom-name='button_Back'></widget-button>"
+  },
+  {
+    "id": "button-X",
+    "attributes": {
+      "class": "fa fa-times"
+    },
+    "label": "button_X",
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonX' data-gjs-custom-name='button_X'></widget-button>"
+  },
+  {
+    "id": "button-zoom",
+    "attributes": {
+      "class": "fa template zoom"
+    },
+    "label": "button_Zoom",
+    "category": "Buttons: Misc",
+    "content": "<widget-button class='buttonZoom' data-gjs-custom-name='button_Zoom'></widget-button>"
+  },
+  {
+    "id": "radio-arrow-up",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioUp.jpg'></img><br>buttonRadio_Arrow-Up",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio up large' data-gjs-custom-name='buttonRadio_Arrow-Up'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-down",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioDown.jpg'></img><br>buttonRadio_Arrow-Down",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio down large' data-gjs-custom-name='buttonRadio_Arrow-Down'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-up-white",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioUp-white.jpg'></img><br>buttonRadio_Arrow-Up White",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio up large white' data-gjs-custom-name='buttonRadio_Arrow-Up White'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-down-white",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioDown-white.jpg'></img><br>buttonRadio_Arrow-Down White",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio down large white' data-gjs-custom-name='buttonRadio_Arrow-Down White'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-up-key",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioUp-key.jpg'></img><br>buttonRadio_Arrow-Up KeyConcept",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio up large keyConcept' data-gjs-custom-name='buttonRadio_Arrow-Up KeyConcept'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-down-key",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioDown-key.jpg'></img><br>buttonRadio_Arrow-Down KeyConcept",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio down large keyConcept' data-gjs-custom-name='buttonRadio_Arrow-Down KeyConcept'></widget-radio>"
+  },
+  {
+    "id": "button-arrow-up",
+    "label": "<img src='./img/blocks/blockIcon_basicArrowUp.jpg'></img><br>buttonBasic_Arrow-Up",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-button :visible='true' :enabled='true' id='ilxm' class='buttonBasic_Arrow up' data-gjs-custom-name='buttonBasic_Arrow-Up'></widget-button>"
+  },
+  {
+    "id": "button-arrow-down",
+    "label": "<img src='./img/blocks/blockIcon_basicArrowDown.jpg'></img><br>buttonBasic_Arrow-Down",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-button :visible='true' :enabled='true' id='ilxm' class='buttonBasic_Arrow down' data-gjs-custom-name='buttonBasic_Arrow-down'></widget-button>"
+  },
+  {
+    "id": "radio-arrow-left",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioLeft.jpg'></img><br>buttonRadio_Arrow-Left",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio left large' data-gjs-custom-name='buttonRadio_Arrow-Left'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-right",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioRight.jpg'></img><br>buttonRadio_Arrow-Right",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio right large' data-gjs-custom-name='buttonRadio_Arrow-Left'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-left-white",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioLeft-white.jpg'></img><br>buttonRadio_Arrow-Left White",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio left large white' data-gjs-custom-name='buttonRadio_Arrow-Left White'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-right-white",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioRight-white.jpg'></img><br>buttonRadio_Arrow-Right White",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio right large white' data-gjs-custom-name='buttonRadio_Arrow-Right White'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-left-key",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioLeft-key.jpg'></img><br>buttonRadio_Arrow-Left KeyConcept",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio left large keyConcept' data-gjs-custom-name='buttonRadio_Arrow-Left KeyConcept'></widget-radio>"
+  },
+  {
+    "id": "radio-arrow-right-key",
+    "label": "<img src='./img/blocks/blockIcon_arrowRadioRight-key.jpg'></img><br>buttonRadio_Arrow-Right KeyConcept",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-radio :visible='true' :enabled='true' id='ikm4' class='arrowRadio right large keyConcept' data-gjs-custom-name='buttonRadio_Arrow-Right KeyConcept'></widget-radio>"
+  },
+  {
+    "id": "button-arrow-left",
+    "label": "<img src='./img/blocks/blockIcon_basicArrowLeft.jpg'></img><br>buttonBasic_Arrow-Left",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-button :visible='true' :enabled='true' id='ilxm' class='buttonBasic_Arrow left' data-gjs-custom-name='buttonBasic_Arrow-Left'></widget-button>"
+  },
+  {
+    "id": "button-arrow-right",
+    "label": "<img src='./img/blocks/blockIcon_basicArrowRight.jpg'></img><br>buttonBasic_Arrow-Right",
+    "attributes": {
+      "class": "imgIcon"
+    },
+    "category": "Buttons: Arrows",
+    "content": "<widget-button :visible='true' :enabled='true' id='ilxm' class='buttonBasic_Arrow right' data-gjs-custom-name='buttonBasic_Arrow-Right'></widget-button>"
+  }
+]

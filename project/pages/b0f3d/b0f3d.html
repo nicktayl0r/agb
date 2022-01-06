@@ -1,0 +1,37 @@
+<div class="simParent pageb0f3d">
+  <widget-sim-view id="ijdj" scenename="Sahara_Farm_Map" simstateid="wxt43p" :visible="true" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqvh',key:'visible',val:true},fireOnceID:'beeButton_pageb0f3d',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview pageb0f3d" />
+  <div class="simPageContent farmMapSimClose_PageContent pageb0f3d">
+    <div class="pageb0f3d farmButtonGrid">
+      <widget-popper :visible="true" :click-to-dismiss="false" id="i21m" :delay="0" :delay-once="false" anchor-id="farmAnchor" :options="{placement:'top-end'}" class="pageb0f3d farmPopper"><span class="pageb0f3d">The farmer has planted cotton crops all around the corn crops.</span></widget-popper>
+      <widget-popper :visible="false" :click-to-dismiss="false" id="ijme" :delay="0" :delay-once="false" anchor-id="beeAnchor" :options="{placement:'left'}" class="pageb0f3d beePopper"><span class="pageb0f3d">A few bees are eating the nectar and pollen from the cotton plants.</span></widget-popper>
+      <widget-button :visible="false" :enabled="true" id="iqvh" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iqvh',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ijme',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue pageb0f3d farmAnchor beeButton">
+        <div class="buttonFillSq pageb0f3d"></div>
+      </widget-button>
+      <div id="farmAnchor" class="pageb0f3d farmAnchor"></div>
+      <div id="beeAnchor" class="pageb0f3d farmAnchor beeButton"></div>
+    </div>
+    <div class="div_belowGrid pageb0f3d"></div>
+    <div class="div_farmMapSimKey pageb0f3d">
+      <div class="div_farmMapSimKeyItem pageb0f3d">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i4re" class="image_farmMapSimKeyItem pageb0f3d" />
+        <p class="text_farmMapSimKeyItem pageb0f3d">Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb0f3d">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="i1wg" class="image_farmMapSimKeyItem pageb0f3d" />
+        <p class="text_farmMapSimKeyItem pageb0f3d">Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb0f3d">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="is3u" class="image_farmMapSimKeyItem pageb0f3d" />
+        <p class="text_farmMapSimKeyItem pageb0f3d">Trampled Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb0f3d">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="i2iu" class="image_farmMapSimKeyItem pageb0f3d" />
+        <p class="text_farmMapSimKeyItem pageb0f3d">Trampled Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem pageb0f3d">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="itvg" class="image_farmMapSimKeyItem pageb0f3d" />
+        <p class="text_farmMapSimKeyItem pageb0f3d">Beehive</p>
+      </div>
+    </div>
+  </div>
+</div>

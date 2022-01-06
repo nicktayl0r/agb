@@ -1,0 +1,49 @@
+<div class="simParent paged89b7">
+  <widget-sim-view id="iy47" scenename="Sahara_Farm_Map" simstateid="3d3n4j" :visible="true" :enabled="true" play-state="default" :muted="false" :end-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'2cftam'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'i0z8kc'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i1r5',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'2mew0m'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'8081rp'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i8431',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'zhtby0'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'zmkpoi'},fireOnceID:'',delay:0},{effectData:{effectType:'break'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'iy47',key:'simstateid',val:'zmkpoi'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'rccmvh'},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockOnce_d89b7',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyw2',key:'visible',val:true},fireOnceID:'firstButtonShow_paged89b7',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iuvi',key:'visible',val:true},fireOnceID:'firstPopperShow_paged89b7',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview paged89b7" />
+  <div class="simPageContent farmMapSimClose_PageContent paged89b7">
+    <widget-popper :visible="false" :click-to-dismiss="false" id="ihzvy" :delay="0" :delay-once="false" anchor-id="alarmAnchor" class="paged89b7"><span class="paged89b7">The guard bees see the elephants and release alarm pheromones.</span></widget-popper>
+    <widget-popper :visible="false" :click-to-dismiss="false" :delay="0" :delay-once="false" anchor-id="defendAnchor" id="itwqa" class="paged89b7"><span class="paged89b7">The bees fly out to defend their hives.</span></widget-popper>
+    <widget-popper :visible="false" :click-to-dismiss="false" :delay="0" :delay-once="false" anchor-id="scaredAnchor" id="i7gmg" class="paged89b7 scaredPopper"><span class="paged89b7">The elephants see the hives and bees and hear the buzzing. They get scared and run away.</span></widget-popper>
+    <div id="alarmAnchor" class="paged89b7 alarmButton buttonFillSq"></div>
+    <div id="defendAnchor" class="paged89b7 buttonFillSq defendButton"></div>
+    <div id="scaredAnchor" class="paged89b7 buttonFillSq scaredButton"></div>
+    <widget-button :visible="false" :enabled="true" id="iyw2" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyw2',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iuvi',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'2cftam'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue paged89b7 elephantButton">
+      <div class="buttonFillSq paged89b7"></div>
+    </widget-button>
+    <widget-button :visible="false" :enabled="true" id="i1r5" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ihzvy',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i1r5',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iyh7f',key:'visible',val:true},fireOnceID:'',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue paged89b7 alarmButton">
+      <div class="buttonFillSq paged89b7"></div>
+    </widget-button>
+    <widget-button :visible="false" :enabled="true" id="iyh7f" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iyh7f',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'2mew0m'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ihzvy',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itwqa',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue paged89b7 defendButton">
+      <div class="buttonFillSq paged89b7"></div>
+    </widget-button>
+    <widget-button :visible="false" :enabled="true" id="i8431" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i8431',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'itwqa',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i7gmg',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iy47',key:'simstateid',val:'zhtby0'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue paged89b7 scaredButton">
+      <div class="buttonFillSq paged89b7"></div>
+    </widget-button>
+    <div class="paged89b7"></div>
+    <div class="div_belowGrid paged89b7">
+      <widget-popper :visible="false" :click-to-dismiss="false" id="iuvi" :delay="0" :delay-once="false" anchor-id="iyw2" :options="{placement:'left'}" class="textBackground-Popup-Blue paged89b7"><span class="paged89b7">See what happens when elephants come.</span></widget-popper>
+    </div>
+    <div class="div_farmMapSimKey paged89b7">
+      <div class="div_farmMapSimKeyItem paged89b7">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="idyq" class="image_farmMapSimKeyItem paged89b7" />
+        <p class="text_farmMapSimKeyItem paged89b7">Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem paged89b7">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="i1dl" class="image_farmMapSimKeyItem paged89b7" />
+        <p class="text_farmMapSimKeyItem paged89b7">Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem paged89b7">
+        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="ivqq" class="image_farmMapSimKeyItem paged89b7" />
+        <p class="text_farmMapSimKeyItem paged89b7">Trampled Corn</p>
+      </div>
+      <div class="div_farmMapSimKeyItem paged89b7">
+        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="iv5x" class="image_farmMapSimKeyItem paged89b7" />
+        <p class="text_farmMapSimKeyItem paged89b7">Trampled Cotton</p>
+      </div>
+      <div class="div_farmMapSimKeyItem paged89b7">
+        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="iv0o" class="image_farmMapSimKeyItem paged89b7" />
+        <p class="text_farmMapSimKeyItem paged89b7">Beehive</p>
+      </div>
+    </div>
+  </div>
+</div>

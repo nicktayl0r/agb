@@ -1,0 +1,32 @@
+<div class="grid_T4 page581f2">
+  <div class="item1_T4 dropShadow textBackgroundBasic textBackground-DarkBlue page581f2">
+    <div class="grid_T9 page581f2">
+      <p class="item1_T9 page581f2">Do you think animal groups living in a deforested environment will be smaller or larger?</p>
+      <container-enable-disable :visible="true" :enabled="true" id="ix7k" class="item2_T9 page581f2">
+        <div class="page581f2 grid_T16">
+          <widget-radio :visible="true" :enabled="true" id="iwdd" group="ijp2" value="Smaller" class="buttonRadio Variation item1_T16 radioFillHeight page581f2">
+            <p class="text_ButtonTitle page581f2">Smaller</p>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="ii2c" group="ijp2" value="Larger" class="buttonRadio Variation item2_T16 radioFillHeight page581f2">
+            <p class="text_ButtonTitle page581f2">Larger</p>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <container-show-hide :visible="false" id="i47ja" class="page581f2 item3_T9">
+        <p class="page581f2">Explain your answer.</p>
+      </container-show-hide>
+      <widget-textarea :visible="false" :enabled="true" id="iab3" placeholder="Type your answer here" styles="resize: none;" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ijp2',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i47ja',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iab3',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="page581f2 item4_T9" />
+      <div class="page581f2 item5_T9">
+        <widget-button :visible="false" :enabled="true" id="iz6o" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ijp2',selected:'any'}},{comparisonData:{comparisonType:'textLength',textID:'iab3'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iz6o',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iz6o',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ix7k',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iab3',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iwdd',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iz6o',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:5}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.ExMx.DeforestedGroupSize',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'ijp2'}]},fireOnceID:''},{rubricID:'GroupBehavior.ExMx.DeforestedGroupSizeExplanation',responseData:{responseType:'widget',format:'html',headerPairs:[{header:'',widgetID:'iab3',key:'text'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ijp2',selected:'radioIDEquals',radioID:'iwdd'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'itsj',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'ibr5',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue page581f2">
+          <p class="marginLeft2 marginRight2 page581f2">Submit</p>
+        </widget-button>
+        <container-show-hide :visible="false" id="itsj" class="page581f2 colorBlack">
+          <p class="dropShadow textBackgroundBasic textBackground-Correct page581f2"><strong class="page581f2">Correct!</strong> Animal groups living in a deforested environment will be smaller.<br />Because there are less resources after deforestation, groups will have to get smaller to survive.<br />They will have to move to find more resources.</p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="ibr5" class="page581f2 colorBlack">
+          <p class="dropShadow textBackgroundBasic textBackground-Incorrect page581f2"><strong class="page581f2">Incorrect.</strong> Animal groups living in a deforested environment will be smaller.<br />Because there are less resources after deforestation, groups will have to get smaller to survive.<br />They will have to move to find more resources.</p>
+        </container-show-hide>
+      </div>
+    </div>
+  </div>
+</div>

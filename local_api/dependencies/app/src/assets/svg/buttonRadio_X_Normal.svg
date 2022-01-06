@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 288 288" style="enable-background:new 0 0 288 288;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#2B2B2B;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;}
+	.st1{display:none;}
+	
+		.st2{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#icon_x5F_Check_7_);stroke-width:30;stroke-linecap:round;stroke-miterlimit:10;}
+	
+		.st3{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#icon_x5F_Check_8_);stroke-width:30;stroke-linecap:round;stroke-miterlimit:10;}
+	
+		.st4{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#B3B3B3;stroke-width:30;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="normal">
+	
+	<line id="icon_x5F_Check_1_" class="st0" x1="72" y1="215.8" x2="216.3" y2="72.8"/>
+	<line id="icon_x5F_Check_2_" class="st0" x1="216.3" y1="215.8" x2="72.2" y2="72.5"/>
+</g>
+<g id="HoverDepressed_1_" class="st1">
+	<linearGradient id="icon_x5F_Check_7_" gradientUnits="userSpaceOnUse" x1="144.125" y1="230.75" x2="144.125" y2="57.75">
+		<stop  offset="5.128205e-03" style="stop-color:#55BDEA"/>
+		<stop  offset="1" style="stop-color:#7FD7FE"/>
+	</linearGradient>
+	<line id="icon_x5F_Check_6_" class="st2" x1="72" y1="215.8" x2="216.3" y2="72.8"/>
+	<linearGradient id="icon_x5F_Check_8_" gradientUnits="userSpaceOnUse" x1="144.247" y1="230.75" x2="144.247" y2="57.4943">
+		<stop  offset="5.128205e-03" style="stop-color:#55BDEA"/>
+		<stop  offset="1" style="stop-color:#7FD7FE"/>
+	</linearGradient>
+	<line id="icon_x5F_Check_5_" class="st3" x1="216.3" y1="215.8" x2="72.2" y2="72.5"/>
+</g>
+<g id="Disabled" class="st1">
+	<line id="icon_x5F_Check_4_" class="st4" x1="72" y1="215.8" x2="216.3" y2="72.8"/>
+	<line id="icon_x5F_Check_3_" class="st4" x1="216.3" y1="215.8" x2="72.2" y2="72.5"/>
+</g>
+</svg>

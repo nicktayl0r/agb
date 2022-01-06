@@ -1,0 +1,302 @@
+.grid_T4.paged9ef7 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content min-content min-content min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 3vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: url(../../assets/images/backgrounds/background_Sahara_Farm_Map_simState_45_IMG.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+}
+
+.item1_T4.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	text-shadow: 0.1vh 0.1vh 0.5vh black;
+}
+
+.item2_T4.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	width: 60vh;
+	justify-self: center;
+	align-self: center;
+}
+
+.item3_T4.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+	margin: 2vh 0 0 0;
+}
+
+.item4_T4.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 4;
+	grid-row-end: span 1;
+	width: 80vh;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 0 0;
+}
+
+.item5_T4.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 5;
+	grid-row-end: span 1;
+	margin: 2vh 0 0 0;
+}
+
+.grid_T9.paged9ef7 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content min-content 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 3vh;
+}
+
+.item1_T9.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T9.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+}
+
+.item3_T9.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+}
+
+.grid_T16.paged9ef7 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 3vh;
+	grid-row-gap: 0vh;
+}
+
+.item1_T16.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: stretch;
+	align-self: stretch;
+}
+
+.item2_T16.paged9ef7 {
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: stretch;
+	align-self: stretch;
+}
+
+.item3_T16.paged9ef7 {
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: stretch;
+	align-self: stretch;
+}
+
+.grid_Equation1.paged9ef7 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.fraction_Inline.paged9ef7 {
+	padding: 0vh .5vh 0vh .5vh;
+	width: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	font-size: 2vh;
+	vertical-align: middle;
+	margin: -0.2vh 0 -0.2vh 0;
+}
+
+.text_Numerator.paged9ef7 {
+	border-bottom: thin black solid;
+	width: 3vh;
+}
+
+.text_Denominator.paged9ef7 {
+	width: auto;
+}
+
+.fraction_Inline_Big.paged9ef7 {
+	padding: 0 5vh 0 0;
+	width: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vh;
+	vertical-align: middle;
+	margin: -1vh 0 -1vh 0;
+	display: inline-flex;
+}
+
+.text_Numerator_Big.paged9ef7 {
+	border-bottom: 0.8vh white solid;
+	width: 22vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.text_Denominator_Big.paged9ef7 {
+	width: auto;
+}
+
+.fraction_10_50.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.button_Equals.paged9ef7 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.text_Equals.paged9ef7 {
+	font-size: 19vh;
+	margin: -8vh 0 -7vh 0;
+}
+
+.button_02.paged9ef7 {
+	font-size: 8vh;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.grid_Equation2.paged9ef7 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-row-gap: 0;
+}
+
+.text_Equation.paged9ef7 {
+	font-size: 8vh;
+}
+
+.SH_02.paged9ef7 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.SH_X.paged9ef7 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.text_X.paged9ef7 {
+	font-size: 14vh;
+	margin: -5vh 0 -4vh 0;
+}
+
+.SH_100.paged9ef7 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.SH_Equals.paged9ef7 {
+	font-size: 15vh;
+	margin: 0 0 0 0;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.button_Percent.paged9ef7 {
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.text_Percent.paged9ef7 {
+	font-size: 12vh;
+	margin: -2vh 0 -2vh 0;
+}
+
+.opacity_Low_BorderIncluded.paged9ef7 {
+	color: rgba(255,255,255,0.4);
+	border-bottom: 0.8vh rgba(255,255,255,0.4) solid;
+}
+
+.opacity_Low_NoBorder.paged9ef7 {
+	color: rgba(255,255,255,0.4);
+}
+
+.opacity_Off.paged9ef7 {
+	color: rgba(255,255,255,0);
+}
+
+
+
+
+
+
+
+

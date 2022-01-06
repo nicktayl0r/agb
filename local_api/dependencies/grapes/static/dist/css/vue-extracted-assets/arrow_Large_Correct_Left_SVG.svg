@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490 123">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #92de1c;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+        fill: url(#New_Gradient_Swatch_2);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="-3373.5" y1="1757.65" x2="-3260.66" y2="1757.65" gradientTransform="translate(-1512.73 -3255.43) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#91de1b"/>
+      <stop offset="1" stop-color="#bef862"/>
+    </linearGradient>
+  </defs>
+  <title>arrow_Large_Correct_Left_SVG</title>
+  <g id="arrow_Large_Button_Correct">
+    <path id="arrowLeft_Large_Button_Correct_SVG" class="cls-1" d="M52.92,7.85c-7,7-40.4,41.35-44.54,45.67a12.51,12.51,0,0,0-3.31,8.2,12.16,12.16,0,0,0,3.31,8.06C12.52,74.1,46,108.49,52.92,115.45c5.25,5.25,13.72,2.2,13.72-5.45V87.45H474.06c6.2,0,10.71-5.64,10.71-11.47V47.32c0-5.83-4.51-11.46-10.71-11.46H66.64V13.3C66.64,5.65,58.17,2.6,52.92,7.85Z"/>
+  </g>
+</svg>

@@ -1,0 +1,100 @@
+page 1
+<br>
+<br>
+<widget-textbox id="textbox" placeholder="type here" />
+<store-override-prop id="storeOverride" text="this text is set in the Page1.vue file" read-from-i-d="textbox" />
+<p><strong>bold</strong> <b>text</b></p>
+<br />
+<container-show-hide id="container" :visible=false :conditions="{conditionList:[ { comparisons:[{comparisonData:{comparisonType:
+    'widgetVal', key: 'visible', val:false}}], effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+    'conditionActionContainer', key: 'visible', val:true}, fireOnceID: 'containerShowCondition', delay:5}], }, ]}">
+    <widget-button class="buttonBasic-Grey" id="textboxVisibleButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'visible', val:true}}] } ]}">
+        <p>textbox visible</p>
+    </widget-button>
+    <widget-button class="buttonBasic-Grey" id="textboxInvisibleButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'visible', val:false}}] } ]}">
+        <p>textbox invisible</p>
+    </widget-button>
+    <widget-button class="buttonBasic-Grey" id="textboxToggleVisibleButton" :clickEffects="{conditionList:[ { comparisons:[
+    {comparisonData:{comparisonType: 'widgetVal', widgetID: 'textbox', key: 'visible', val:true}} ], effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'visible', val:false}}], effectsFail:[{effectData: {effectType:
+    'updateWidget', widgetID: 'textbox', key: 'visible', val:true}}] } ]}">
+        <p>textbox toggle visible</p>
+    </widget-button>
+    <br />
+    <widget-button class="buttonBasic-Grey" id="textboxEnabledButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'enabled', val:true}}] } ]}">
+        <p>textbox enabled</p>
+    </widget-button>
+    <widget-button class="buttonBasic-Grey" id="textboxDisabledButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'enabled', val:false}}] } ]}">
+        <p>textbox disabled</p>
+    </widget-button>
+    <widget-button class="buttonBasic-Grey" id="textboxToggleEnabledButton" :clickEffects="{conditionList:[ { comparisons:[
+    {comparisonData:{comparisonType: 'widgetVal', widgetID: 'textbox', key: 'enabled', val:true}} ], effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'textbox', key: 'enabled', val:false}}], effectsFail:[{effectData: {effectType:
+    'updateWidget', widgetID: 'textbox', key: 'enabled', val:true}}] } ]}">
+        <p>textbox toggle enabled</p>
+    </widget-button>
+</container-show-hide>
+<br />
+<widget-button class="buttonBasic-Grey" id="showOthersButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'container', key: 'visible', val:true}}] } ]}">
+    <p>show other buttons</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="hideOthersButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'updateWidget', widgetID: 'container', key: 'visible', val:false}}] } ]}">
+    <p>hide other buttons</p>
+</widget-button>
+<widget-button class="buttonBasic-Grey" id="disabledButton" :enabled=false>
+    <p>disabled button</p>
+</widget-button>
+<br />
+<br />
+<container-show-hide id="conditionActionContainer" :visible=false :conditions="{conditionList:[ { comparisons:[ {comparisonData:{comparisonType:
+    'widgetVal', widgetID: 'textbox', key: 'enabled', val:false}}, {comparisonData:{comparisonType: 'widgetVal', widgetID: 'textbox', key:
+    'visible', val:false}} ], comparisonsLogic: 'or', effectsPass:[{effectData: {effectType: 'updateWidget', widgetID:
+    'conditionActionContainer2', key: 'visible', val:true}}], }, ]}">
+    this is shown based on a condition from the other container when it is hidden
+</container-show-hide>
+<br />
+<br />
+<container-show-hide id="conditionActionContainer2" :visible=false>
+    this is shown based on a condition from the second container when the textbox is disabled
+</container-show-hide>
+<br />
+<br />
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'unlockNextPage'},delay:4}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>
+<br>
+<br>
+<widget-button class="buttonBasic-Grey marginLeft2" id="openGlossaryButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'goToGlossary', pageID: 'glossaryPage2'}}] } ]}">
+    <p class="marginLeft2 marginRight2">open glossary</p>
+</widget-button>
+"<widget-link id="link_internal" tooltip="guide link" :options="{type:'internal', pageId:'pageStyles'}"
+    text="open the guide"></widget-link>"
+<br>
+"<widget-link id="link_internal slot" tooltip="guide link" :options="{type:'internal', pageId:'pageStyles'}">open the
+    guide</widget-link>"
+<br>
+<widget-link id="link_glossary" tooltip="glossary link"
+    :options="{type:'internal', module:'glossary', pageId:'glossaryPage2'}" text="open the glossary"></widget-link>
+<widget-link id="link_slot" tooltip="slot" :options="{type:'internal', module:'glossary', pageId:'glossaryPage2'}"
+    text="">--glossary plain text test in slot--</widget-link>
+<widget-link id="link_slot2" tooltip="slot2" :options="{type:'internal', module:'glossary', pageId:'glossaryPage2'}"
+    text="">
+    <p>glossary <sup>slot</sup> <sub>test</sub></p>
+</widget-link>
+<widget-link id="link_textHTML" tooltip="glossary link"
+    :options="{type:'internal', module:'glossary', pageId:'glossaryPage2'}"
+    text="<p>glossary <sup>text prop</sup> with HTML <sub>test</sub></p>"></widget-link>
+<br>
+<widget-link id="link_combined" tooltip="glossary link"
+    :options="{type:'internal', module:'glossary', pageId:'glossaryPage2'}"
+    text="<p><sup>text prop</sup> with HTML <sub>combined</sub></p>">
+    <p>both <sup>slot</sup> with HTML <sub>and</sub></p>
+</widget-link>

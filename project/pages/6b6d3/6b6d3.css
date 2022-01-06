@@ -1,0 +1,231 @@
+.grid_T4.page6b6d3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vh 1fr 7vh;
+	grid-column-gap: 0vh;
+	grid-row-gap: 5vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: linear-gradient(#1B2937, #273D52);
+}
+
+.item1_T4.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T4.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.item3_T4.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+}
+
+.image_aPNG_Pollination.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	width: 52vh;
+	align-self: center;
+	margin: 0 0 -30vh 0;
+}
+
+.images_Position.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.image_Corn1.page6b6d3 {
+	width: 14vh;
+	margin: -2vh 0 0 0;
+	justify-self: start;
+	align-self: center;
+}
+
+.image_Corn2.page6b6d3 {
+	width: 9vh;
+	margin: 0 0 0 -37vh;
+	justify-self: center;
+	align-self: start;
+}
+
+.image_Corn3.page6b6d3 {
+	width: 7vh;
+	margin: 0 -37vh 0 0;
+	justify-self: center;
+	align-self: start;
+}
+
+.image_Corn4.page6b6d3 {
+	width: 9vh;
+	margin: -2vh 2vh 0 0;
+	justify-self: end;
+	align-self: center;
+}
+
+.image_Arrow_1.page6b6d3 {
+	width: 20vh;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -36vh -66vh;
+	transform: rotateX(0) rotateY(0) rotateZ(200deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.image_Arrow_2.page6b6d3 {
+	width: 20vh;
+	justify-self: center;
+	align-self: center;
+	margin: -34vh 0 0 -71vh;
+	transform: rotateX(0) rotateY(0) rotateZ(-31deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.image_Arrow_3.page6b6d3 {
+	width: 20vh;
+	justify-self: center;
+	align-self: center;
+	margin: -52vh 0 0 0;
+	transform: rotateX(0) rotateY(0) rotateZ(0) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.image_Arrow_4.page6b6d3 {
+	width: 20vh;
+	justify-self: center;
+	align-self: center;
+	margin: -33vh -71vh 0 0;
+	transform: rotateX(0) rotateY(0) rotateZ(31deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.image_Arrow_5.page6b6d3 {
+	width: 20vh;
+	justify-self: center;
+	align-self: center;
+	margin: 0 -66vh -36vh 0;
+	transform: rotateX(0) rotateY(0) rotateZ(154deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.label_Position.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+}
+
+.SH_Label_Fruit_wSeeds.page6b6d3 {
+	margin: -32vh 0 0 -38vh;
+}
+
+.SH_Label_Seeds.page6b6d3 {
+	margin: -32vh -38vh 0 0;
+}
+
+.SH_Label_NewPlant.page6b6d3 {
+	margin: -2vh -72vh 0 0;
+}
+
+.SH_Label_Pollination.page6b6d3 {
+	margin: 0 0 -57vh 0;
+}
+
+.SH_Label_PollenMoved.page6b6d3 {
+	margin: -9vh 0 0 0;
+}
+
+.button_1.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: auto;
+	height: auto;
+	margin: -34vh 0 0 -71vh;
+}
+
+.button_2_Arrow.page6b6d3 {
+	width: 20vh;
+	transform: rotateX(0) rotateY(0) rotateZ(-31deg) scaleX(1) scaleY(1) scaleZ(1);
+	height: 11vh;
+}
+
+.button_3.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -33vh -71vh 0 0;
+}
+
+.button_4_Arrow.page6b6d3 {
+	width: 20vh;
+	height: 12vh;
+	transform: rotateX(0) rotateY(0) rotateZ(31deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.button_2.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -52vh 0 0 0;
+}
+
+.button_3_Arrow.page6b6d3 {
+	width: 20vh;
+	height: 5vh;
+}
+
+.button_4.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -31vh 0;
+}
+
+.ED_UnlockNextPage_OnPageLoad.page6b6d3 {
+	min-height: 0px;
+}
+
+.anchor_Popper.page6b6d3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	justify-self: end;
+	align-self: end;
+	width: 0;
+	height: 0;
+}
+
+.page6b6d3.image_aPNG_Pollination_Button {
+	width: 52vh;
+	height: 30vh;
+}
+

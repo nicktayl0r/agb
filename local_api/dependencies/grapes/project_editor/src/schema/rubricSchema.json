@@ -1,0 +1,204 @@
+{
+	"title": "Case Rubrics",
+	"type": "object",
+	"format": "grid",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"required": ["devEnv", "stageEnv", "productionEnv", "rubrics"],
+	"properties": {
+		"rubrics": {
+			"title": "Rubrics",
+			"type": "array",
+			"format": "tabs",
+			"items": {
+				"type": "object",
+				"headerTemplate": "{{ self.key }}",
+				"properties": {
+					"trackL": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Case Track L",
+						"description": "Is this rubric used in the HS version of the case?"
+					},
+					"trackH": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Handbook Track H",
+						"description": "Is this rubric used in the H version of the handbook?"
+					},
+					"trackAP": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Case Track AP",
+						"description": "Is this rubric used in the AP version of the case?"
+					},
+					"trackA": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Handbook Track AP",
+						"description": "Is this rubric used in the AP version of the handbook?"
+					},
+					"trackE": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Case Track ES",
+						"description": "Is this rubric used in the ES version of the case?"
+					},
+					"trackEX": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Handbook Track ES",
+						"description": "Is this rubric used in the ES version of the handbook?"
+					},
+					"trackM": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Case Track MS",
+						"description": "Is this rubric used in the MS version of the case?"
+					},
+					"trackMX": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Handbook Track MS",
+						"description": "Is this rubric used in the MS version of the handbook?"
+					},
+					"key": {
+						"type": "string",
+						"title": "RubricID"
+					},
+					"brief": {
+						"type": "string",
+						"format": "textarea",
+						"title": "Brief",
+						"description": "A short summary of the question. Use the question text if the question text is short. (⁺ ,⁻ ,² ,₂ , ₃)"
+					},
+					"question": {
+						"type": "string",
+						"format": "textarea",
+						"title": "Question",
+						"description": "The full text of the question. (⁺ ,⁻ ,² ,₂ , ₃)"
+					},
+					"resource_activity_rubric_skills": {
+						"title": "Skills",
+						"type": "array",
+						"format": "table",
+						"items": {
+							"type": "string",
+							"enum": [
+								"Core Concepts",
+								"Data Analysis",
+								"Data Interpretation",
+								"Hypothesis & Reasoning",
+								"Predictions",
+								"Communicating Findings"
+							]
+						}
+					},
+					"resource_activity_rubric_type": {
+						"type": "string",
+						"enum": [
+							"Short Answer",
+							"Short Answer",
+							"Long Answer",
+							"Multiple Choice",
+							"Repeat Attempts",
+							"Repeat Attempts",
+							"Integer",
+							"Fraction",
+							"Image"
+						],
+						"options": {
+							"enum_titles": [
+								"Short Answer",
+								"Short Answer [revisable]",
+								"Long Answer",
+								"Multiple Choice",
+								"Repeat Attempts",
+								"Repeat Attempts [drag and drop]",
+								"Integer",
+								"Fraction",
+								"Image"
+							]
+						}
+					},
+					"autograde": {
+						"type": "boolean",
+						"format": "checkbox",
+						"title": "Autograded",
+						"description": "False for short and long answer."
+					},
+					"resource_activity_rubric_answers": {
+						"title": "Answers",
+						"type": "array",
+						"format": "table",
+						"items": {
+							"type": "object",
+							"properties": {
+								"answer": {
+									"type": "string",
+									"title": "Answer",
+									"description": "The answer to the question. Ex: \"C. Evolution\". "
+								},
+								"points": {
+									"type": "number",
+									"format": "number",
+									"title": "Points",
+									"description": "How many points the correct answer is worth."
+								}
+							}
+						}
+					},
+					"exemplar_answer": {
+						"type": "string",
+						"format": "html",
+						"options": {
+							"wysiwyg": true
+						},
+						"title": "Exemplar Answer"
+					},
+					"rubrique": {
+						"type": "string",
+						"format": "html",
+						"options": {
+							"wysiwyg": true
+						},
+						"title": "Rubrique"
+					},
+					"resource_activity_rubric_screenshots": {
+						"title": "Screenshots",
+						"type": "array",
+						"items": {
+							"type": "string",
+							"title": "File",
+							"description": "The name of the screenshot file. Format: RubricID_correct (for autograded) or RubricID_submitted (for non-autograded) Ex: \"CellularRespiration.LHA.InputsOutputs_Correct.jpg\". "
+						}
+					}
+				}
+			},
+			"description": "IDs used to send sata to the sable website.",
+			"options": {
+				"collapsed": false
+			}
+		},
+		"devEnv": {
+			"title": "dev IDs",
+			"$ref": "./serverEnvSchema.json",
+			"options": {
+				"collapsed": true
+			}
+		},
+		"stageEnv": {
+			"title": "Stage IDs",
+			"$ref": "./serverEnvSchema.json",
+			"options": {
+				"collapsed": true
+			}
+		},
+		"productionEnv": {
+			"title": "Production IDs",
+			"$ref": "./serverEnvSchema.json",
+			"options": {
+				"collapsed": true
+			}
+		}
+	}
+}

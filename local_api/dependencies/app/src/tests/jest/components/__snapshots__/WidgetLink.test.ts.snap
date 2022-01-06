@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetLink external link matches snapshot html 1`] = `
+<a
+  class=""
+  href="http://cogenteducation.com"
+  id="testWidget"
+  target="_blank"
+>
+  <span>
+    link
+  </span>
+</a>
+`;
+
+exports[`WidgetLink internal link matches snapshot html 1`] = `
+<router-link-stub
+  ariacurrentvalue="page"
+  class="internalLink"
+  event="click"
+  id="testWidget"
+  tag="a"
+  to="/pages/page"
+>
+  <span>
+    link
+  </span>
+</router-link-stub>
+`;

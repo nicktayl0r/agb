@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar teacherView=true matches html snapshot 1`] = `
+<div
+  class="progressBar case"
+  data-project-loaded="true"
+>
+  <div
+    class="moduleSelection"
+  >
+    <span
+      class="moduleButton case"
+    >
+      <input
+        id="caseRadio"
+        name="module"
+        style="display: none;"
+        type="radio"
+      />
+       
+      <label
+        class="noSelect"
+        for="caseRadio"
+      >
+        Case
+      </label>
+    </span>
+     
+    <span
+      class="moduleButton guide"
+    >
+      <input
+        id="guideRadio"
+        name="module"
+        style="display: none;"
+        type="radio"
+      />
+       
+      <label
+        class="noSelect"
+        for="guideRadio"
+      >
+        Handbook
+      </label>
+    </span>
+  </div>
+   
+  <div
+    class="sections"
+  >
+    <div
+      class="section unlocked"
+      style="color: rgb(249, 88, 88); border-left-color: #f95858;"
+    >
+      <span>
+        <span
+          class="sectionName unlocked"
+        >
+          <span>
+            section one
+          </span>
+        </span>
+         
+        <span
+          class="pages"
+          style="display: none;"
+        >
+          <div
+            class="page"
+            id="conditions"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/conditions"
+            >
+              <span>
+                conditions
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="dragdrop"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/dragdrop"
+            >
+              <span>
+                dragdrop
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="radio"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/radio"
+            >
+              <span>
+                radio
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="slider"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/slider"
+            >
+              <span>
+                slider
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="submit"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/submit"
+            >
+              <span>
+                submit
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="video"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/video"
+            >
+              <span>
+                video
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="transvideo"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/transvideo"
+            >
+              <span>
+                transvideo
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="animatedsvg"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/animatedsvg"
+            >
+              <span>
+                animatedsvg
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="arrows"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/arrows"
+            >
+              <span>
+                arrows
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="anchor"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/anchor"
+            >
+              <span>
+                anchor
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="animationslider"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/animationslider"
+            >
+              <span>
+                animationslider
+              </span>
+            </router-link-stub>
+          </div>
+          <div
+            class="page"
+            id="lockPage"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/lockPage"
+            >
+              <span>
+                lockPage
+              </span>
+            </router-link-stub>
+          </div>
+        </span>
+         
+        <span
+          class="subsections"
+          style="display: none;"
+        />
+      </span>
+    </div>
+    <div
+      class="section unlocked"
+      style="color: rgb(252, 178, 89); border-left-color: #fcb259;"
+    >
+      <span>
+        <span
+          class="sectionName unlocked"
+        >
+          <span>
+            section two
+            <wbr />
+             with a pretty long name
+          </span>
+        </span>
+         
+        <span
+          class="pages"
+          style="display: none;"
+        >
+          <div
+            class="page"
+            id="TrackCond"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/TrackCond"
+            >
+              <span>
+                track condition
+              </span>
+            </router-link-stub>
+          </div>
+        </span>
+         
+        <span
+          class="subsections"
+          style="display: none;"
+        />
+      </span>
+    </div>
+    <div
+      class="section unlocked"
+      style="color: rgb(255, 250, 153); border-left-color: #fffa99;"
+    >
+      <span>
+        <span
+          class="sectionName unlocked"
+        >
+          <span>
+            section three
+          </span>
+        </span>
+         
+        <span
+          class="pages"
+          style="display: none;"
+        >
+          <div
+            class="page"
+            id="turntable"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/turntable"
+            >
+              <span>
+                turntable
+              </span>
+            </router-link-stub>
+          </div>
+        </span>
+         
+        <span
+          class="subsections"
+          style="display: none;"
+        />
+      </span>
+    </div>
+    <div
+      class="section unlocked"
+      style="color: rgb(193, 255, 138); border-left-color: #c1ff8a;"
+    >
+      <span>
+        <span
+          class="sectionName unlocked"
+        >
+          <span>
+            section four
+          </span>
+        </span>
+         
+        <span
+          class="pages"
+          style="display: none;"
+        >
+          <div
+            class="page"
+            id="addRemoveClasses"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/addRemoveClasses"
+            >
+              <span>
+                add/remove classes
+              </span>
+            </router-link-stub>
+          </div>
+        </span>
+         
+        <span
+          class="subsections"
+          style="display: none;"
+        />
+      </span>
+    </div>
+    <div
+      class="section unlocked"
+      style="color: rgb(131, 255, 214); border-left-color: #83ffd6;"
+    >
+      <span>
+        <span
+          class="sectionName unlocked"
+        >
+          <span>
+            section five
+          </span>
+        </span>
+         
+        <span
+          class="pages"
+          style="display: none;"
+        >
+          <div
+            class="page"
+            id="simGrowTest"
+          >
+            <router-link-stub
+              ariacurrentvalue="page"
+              class=""
+              event="click"
+              tag="a"
+              to="/evolution_case_ap-v.1.0.0/pages/simGrowTest"
+            >
+              <span>
+                sim grow
+              </span>
+            </router-link-stub>
+          </div>
+        </span>
+         
+        <span
+          class="subsections"
+          style="display: none;"
+        />
+      </span>
+    </div>
+  </div>
+   
+  <div
+    class="bottomButtons"
+  >
+    <span
+      class="noSelect"
+      id="glossaryButton"
+    >
+      Glossary
+    </span>
+     
+    <span
+      class="noSelect"
+      id="muteButton"
+    >
+      Mute
+    </span>
+  </div>
+</div>
+`;

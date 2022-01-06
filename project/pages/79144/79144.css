@@ -1,0 +1,141 @@
+.grid_PageContent.page79144 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 100%;
+	padding: 6vh 6vh 6vh 6vh;
+	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_simState_001_IMG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center center;
+	background-size: cover;
+}
+
+.SH_Text_1.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: start;
+	width: auto;
+}
+
+.SH_Text_3.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: end;
+	align-self: center;
+	width: auto;
+	margin: -28vh 0 0 0;
+}
+
+.SH_Text_4.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: end;
+	width: auto;
+}
+
+.popper_wNextButton.page79144 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content min-content min-content;
+	grid-row-gap: 0;
+}
+
+.popperText1.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.SH_PopperText_2.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.button_PopperNext_Reveal.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	justify-self: start;
+	margin: 2vh 0 0 0;
+}
+
+.button_PopperNext_Dismiss.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	justify-self: end;
+	margin: 2vh 0 0 0;
+}
+
+.popper_ArrowWidget_White.page79144 {
+	width: auto;
+}
+
+.div_Text2.page79144 {
+	height: auto;
+}
+
+.anchors_GridPos.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	width: 0;
+	height: 0;
+}
+
+.anchor_Popper_1.page79144 {
+	margin: 0 0 0 -36vh;
+}
+
+.anchor_Popper_2.page79144 {
+	margin: 0 -43vh -12vh 0;
+}
+
+.buttonFill_Elephant.page79144 {
+	width: 44vh;
+	height: 42vh;
+}
+
+.button_Elephant.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 -61vh -44vh 0;
+}
+
+.button_Rhino_1.page79144 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -5vh -54vh;
+}
+
+.buttonFill_Rhino.page79144 {
+	width: 36vh;
+	height: 22vh;
+}
+

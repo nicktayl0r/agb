@@ -1,0 +1,25 @@
+{
+  "name": "@is3d/app",
+  "license": "UNLICENSED",
+  "version": "1.4.21-exp",
+  "description": "Cogent Interactive Case Study Vue app distribution",
+  "main": "build.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "git-version": "git rev-parse --short HEAD > player-version.txt"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cd .. && yarn test",
+      "post-commit": "yarn git-version",
+      "post-merge": "yarn git-version",
+      "post-rewrite": "yarn git-version"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

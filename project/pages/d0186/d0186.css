@@ -1,0 +1,124 @@
+.grid_Main.paged0186 {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid_T4.paged0186 {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+	padding: 6vh;
+}
+
+.item1_T4.paged0186 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.grid_Clipping.paged0186 {
+	overflow: hidden;
+	-webkit-mask-image: -webkit-radial-gradient(center, white, black);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid_Visuals.paged0186 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	height: 102%;
+	width: 102%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+}
+
+.video_Styles.paged0186 {
+	z-index: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	align-self: stretch;
+	justify-self: stretch;
+}
+
+.buttonFill_1.paged0186 {
+	width: 8vh;
+	height: 8vh;
+}
+
+.buttonFill_2.paged0186 {
+	width: 10vh;
+	height: 10vh;
+}
+
+.button_Bee_1.paged0186 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: -5vh -55vh 0 0;
+}
+
+.button_Bee_2.paged0186 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -62vh -45vh;
+}
+
+.anchor_Popper.paged0186 {
+	width: 0;
+	height: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+	margin: 0 0 -49vh -52vh;
+}
+
+.paged0186.SH_LoopCheckpoint {
+	width: 0;
+	height: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: start;
+	align-self: start;
+}
+

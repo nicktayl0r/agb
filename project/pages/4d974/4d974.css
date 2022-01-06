@@ -1,0 +1,85 @@
+.grid_T62.page4d974 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+}
+
+.item1_T62.page4d974 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T62.page4d974 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+	justify-self: start;
+	align-self: end;
+}
+
+.simPreview.page4d974 {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+
+.simParent.page4d974 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	margin-top: 0em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.simPageContent.page4d974 {
+	z-index: 2;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: min-content 1fr;
+}
+
+.divChoices.page4d974 {
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: end;
+	border-radius: 1.3vh 1.3vh 1.3vh 1.3vh;
+}
+
+.choiceTextBox.page4d974 {
+	border-radius: 0 0 1.3vh 1.3vh;
+	width: 77vh;
+	height: 15vh;
+}
+
+.buttonRadio.page4d974 {
+	align-self: flex-start;
+	flex: 0 0 50%;
+}
+
+.radioButtonRow.page4d974 {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+
+

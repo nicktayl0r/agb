@@ -1,0 +1,112 @@
+<p>
+	The below video has audio, is muted= false, and is playstate=play. Should fail
+	play-promise on start. It's also a normal size and the retry message should
+	have a button and text.
+</p>
+<widget-video-player
+	id="videoTest"
+	poster="//vjs.zencdn.net/v/oceans.png"
+	src-mp4="//vjs.zencdn.net/v/oceans.mp4"
+	playState="play"
+	:loop="true"
+	:startTime="0"
+	:endTime="15"
+	:controls="false"
+	:muted="false"
+	:enableScrub="true"
+	:playEffects="{conditionList:[ 
+    ]}"
+	:pauseEffects="{conditionList:[
+    ]}"
+	:loopEffects="{conditionList:[
+    ]}"
+	:stopEffects="{conditionList:[
+    ]}"
+></widget-video-player>
+<p>
+	The below video does not have audio, is muted= false, and is playstate=play.
+	Should fail play-promise on start. It's also very small and the retry message
+	should only show the button.
+</p>
+<widget-video-player
+	id="videoTest2"
+	poster="./assets/videos/RBC_Normal_MOVIE.jpg"
+	src-mp4="./assets/videos/RBC_Normal_MOVIE.mp4"
+	playState="play"
+	:loop="true"
+	:controls="false"
+	:muted="false"
+	:playEffects="{conditionList:[ 
+    ]}"
+	:pauseEffects="{conditionList:[
+    ]}"
+	:loopEffects="{conditionList:[
+    ]}"
+	:stopEffects="{conditionList:[
+	]}"
+	class="smallVideo videoFill"
+></widget-video-player>
+<p>
+	The below video does not have audio, is muted= false, is loop=false and is playstate=play.
+	Should fail play-promise always. It's also very small and the retry message
+	should only show the button. The widget has endEffects and they should execute
+	after 2nd click on the retry button.
+</p>
+<div style="display: flex; align-items: center;">
+	<widget-video-player
+		id="fail-playPromise"
+		poster="./assets/videos/RBC_Normal_MOVIE.jpg"
+		src-mp4="./assets/videos/RBC_Normal_MOVIE.mp4"
+		playState="play"
+		:loop="false"
+		:controls="false"
+		:muted="false"
+		:playEffects="{conditionList:[ 
+		]}"
+		:pauseEffects="{conditionList:[
+		]}"
+		:loopEffects="{conditionList:[
+		]}"
+		:endEffects="{conditionList:[
+			{
+			effectsPass:[ 
+				{effectData: {effectType: 'updateWidget', widgetID:'sdt1', key:'visible', val:true}}
+				], 
+			}
+		]}"
+		class="smallVideo videoFill"
+	></widget-video-player>
+	<widget-shared-data-text id="sdt1" shared-data-read-key="" text="endEffects" :visible=false />
+</div>
+<p>
+	The below video does not have audio, is muted= false, is loop=true and is playstate=play.
+	Should fail play-promise always. It's also very small and the retry message
+	should only show the button. The widget has loopEffects and they should execute
+	after 2nd click on the retry button.
+</p>
+<div style="display: flex; align-items: center;">
+	<widget-video-player
+		id="fail-playPromise2"
+		poster="./assets/videos/RBC_Normal_MOVIE.jpg"
+		src-mp4="./assets/videos/RBC_Normal_MOVIE.mp4"
+		playState="play"
+		:loop="true"
+		:controls="false"
+		:muted="false"
+		:playEffects="{conditionList:[ 
+		]}"
+		:pauseEffects="{conditionList:[
+		]}"
+		:loopEffects="{conditionList:[
+			{
+			effectsPass:[ 
+				{effectData: {effectType: 'updateWidget', widgetID:'sdt2', key:'visible', val:true}}
+				]
+			}
+		]}"
+		:endEffects="{conditionList:[
+		]}"
+		class="smallVideo videoFill"
+	></widget-video-player>
+	<widget-shared-data-text id="sdt2" shared-data-read-key="" text="loopEffects" :visible=false />
+</div>

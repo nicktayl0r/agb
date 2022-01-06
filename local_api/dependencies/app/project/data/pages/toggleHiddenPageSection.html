@@ -1,0 +1,78 @@
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="showHiddenPage"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setPageVisibility', pageID: 'hiddenPage', visible: true}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>show hidden page</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="hideHiddenPage"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setPageVisibility', pageID: 'hiddenPage', visible: false}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>hide hidden page</p>
+</widget-button>
+<br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="showHiddenSection"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setSectionVisibility', moduleName:'case', sectionName: 'hidden section', visible: true}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>show hidden section</p>
+</widget-button>
+<widget-button
+	class="buttonBasic-Grey"
+	id="hideHiddenSection"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'setSectionVisibility',  moduleName:'case', sectionName: 'hidden section', visible: false}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>hide hidden section</p>
+</widget-button>
+<br /><br />
+<widget-button
+	class="buttonBasic-Grey"
+	id="nextPageButton"
+	:clickEffects="{
+    conditionList:[ 
+    { 
+        effectsPass:[
+		{effectData: {effectType: 'nextPage'}}
+        ]
+    }   
+    ] 
+}"
+>
+	<p>next page</p>
+</widget-button>

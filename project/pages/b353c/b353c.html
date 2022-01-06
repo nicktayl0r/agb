@@ -1,0 +1,21 @@
+<div class="grid_T4 pageb353c">
+  <div class="item1_T4 pageb353c">
+    <widget-popper :visible="false" :click-to-dismiss="false" id="ir5d" :delay="0" :delay-once="false" anchor-id="ieym" :options="{placement:'right'}" class="textBackground-Popup-Blue pageb353c"><span class="pageb353c">You have received an email from a<br/>local farmer at Marula Farm.<br/>Click to open.</span></widget-popper>
+    <widget-image src="../../assets/images/cellphone_HomeScreen_IMG.png" :visible="true" id="idy7" class="pageb353c image_Phone" />
+    <widget-button :visible="false" :enabled="true" id="ieym" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ieym',key:'visible',val:true},fireOnceID:'emailButtonShowOnce_pageb353c',delay:2},{effectData:{effectType:'updateWidget',widgetID:'ir5d',key:'visible',val:true},fireOnceID:'popperShowOnce_pageb353c',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ieym',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ir5d',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iokw',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockGuide'},fireOnceID:'',delay:6}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Image pageb353c button_Email">
+      <widget-image :visible="true" id="iayx" src="../../assets/svg/icon_Email_SVG.svg" class="buttonImage pageb353c" />
+    </widget-button>
+    <container-show-hide :visible="false" id="iokw" class="pageb353c SH_Email">
+      <div class="pageb353c div_Woman_Image">
+        <widget-image src="../../assets/images/womanBeehive1_Crop_IMG.jpg" :visible="true" id="ire14" class="pageb353c image_Woman" />
+      </div>
+      <div class="pageb353c div_EmailText">
+        <p class="pageb353c">I grow corn to help feed my village. I also grow cotton that I sell. I am having trouble with elephants coming onto my farm and eating my crops.<br />​​​​​​​<br />I do not want to kill the elephants, because they are <widget-link :options="{type:'internal',module:'glossary',pageId:'g_endangered_E-Ex-M-Mx'}" text="endangered" :visible="true" id="ieuk" class="pageb353c"></widget-link>. But, I need to protect my crops. Can you help me please?<br /><br />Thank you! <br />Farmer Lucy</p>
+      </div>
+      <div class="pageb353c div_Notification">
+        <p class="colorWhite textCenter pageb353c">!</p>
+      </div>
+    </container-show-hide>
+  </div>
+  <container-enable-disable :visible="true" :enabled="true" id="ihor" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'guideCompleted'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNext_pageb353c',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="ED_UnlockNextPage_OnPageLoad pageb353c"></container-enable-disable>
+</div>

@@ -1,0 +1,13 @@
+{
+    "bearer": "uzkgEZaIbN9WUWfrJ35mWvzqlmLyRbrZ", //ExploreLearningAthens
+    "assetId": "11548556",
+    "projects": [
+        "555802", //Sim_Evolution_Lab_CASEv1
+        "555214", //Sim_Farms_CASEv1
+        "555194", //Sim_Treetops_CASEv1
+        "554241", //Sim_BottleGenes_CASEv1
+        "553692", //Sim_Bacteria_CASEv1
+        "553376" //Sim_BerryGraphs_CASEv1
+    ],
+    "browsers": "> 1%"
+}

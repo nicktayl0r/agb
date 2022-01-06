@@ -1,0 +1,102 @@
+.grid_T4.page6f4a2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0vh;
+	grid-row-gap: 0vh;
+	width: 100%;
+	height: 100%;
+	padding: 6vh;
+	background-image: linear-gradient(#1B2937, #273D52);
+}
+
+.item1_T4.page6f4a2 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.item2_T4.page6f4a2 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: end;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+.item3_T4.page6f4a2 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	justify-self: start;
+	align-self: end;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+.image_Bee.page6f4a2 {
+	width: 40vh;
+	height: 21vh;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -49vh 0 0 -56vh;
+}
+
+.image_Brain.page6f4a2 {
+	transform: rotateX(0) rotateY(0) rotateZ(0) scaleX(-1) scaleY(1) scaleZ(1);
+	width: 25vh;
+	height: 18.5vh;
+	margin: 2vh 0 0 0;
+}
+
+.image_Elephant.page6f4a2 {
+	width: 30vh;
+	height: 30vh;
+	margin: 2vh 0 0 0;
+}
+
+.buttonImage.page6f4a2 {
+	width: 20vh;
+	height: 20vh;
+}
+
+.button_Arrow1.page6f4a2 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: -48vh -23vh 0 0;
+	transform: rotateX(0) rotateY(0) rotateZ(-15deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+.button_Arrow2.page6f4a2 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	justify-self: center;
+	align-self: center;
+	margin: 0 -23vh -51vh 0;
+	transform: rotateX(0) rotateY(0) rotateZ(115deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+
+
+
+

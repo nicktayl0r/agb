@@ -1,0 +1,49 @@
+<div class="simParent page916f6">
+  <widget-sim-view id="ipft" scenename="Sahara_Farm_Map" simstateid="ln93aq" :visible="true" :enabled="true" play-state="default" :muted="false" :scene-loaded-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ik6l',key:'visible',val:true},fireOnceID:'button_Next_visible_page916f6',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="simPreview page916f6" />
+  <div class="simPageContent farmMapSim_PageContent page916f6">
+    <div class="div_pageTop page916f6"></div>
+    <div class="div_farmMapSim_pageBottom page916f6">
+      <div class="div_farmMapSim_questionText page916f6"><span class="colorWhite page916f6">The farmer uses 10 squares to grow cotton.</span>
+        <div class="page916f6">
+          <widget-button :visible="false" :enabled="true" id="ik6l" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ik6l',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i09l',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ijmj',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey buttonBlinkBlue page916f6 marginTop2">
+            <p class="page916f6">Next</p>
+          </widget-button>
+          <container-show-hide :visible="false" id="i09l" class="page916f6 marginTop1">
+            <p class="colorWhite page916f6">What fraction of the field is used to grow cotton?</p>
+          </container-show-hide>
+        </div>
+      </div>
+      <container-enable-disable :visible="false" :enabled="true" id="ijmj" class="div_farmMapSim_buttonsGrp page916f6">
+        <div class="grid_farmMapSim_3ButtonColumns page916f6">
+          <widget-radio :visible="true" :enabled="true" id="ice3" group="ij8ig" value="10/50" class="buttonRadio Variation radioFillHeight colorWhite page916f6">
+            <div class="page916f6 fraction_Inline_Big">
+              <container-show-hide :visible="true" id="icq2" class="page916f6 text_Numerator_WhiteButtons">
+                <p class="textCenter page916f6">10</p>
+              </container-show-hide>
+              <p class="text_Denominator textCenter page916f6">50</p>
+            </div>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="true" id="iiji" group="ij8ig" value="50/10" class="buttonRadio Variation radioFillHeight colorWhite page916f6">
+            <div class="page916f6 fraction_Inline_Big">
+              <container-show-hide :visible="true" id="ihj2" class="page916f6 text_Numerator_WhiteButtons">
+                <p class="textCenter page916f6">50</p>
+              </container-show-hide>
+              <p class="text_Denominator textCenter page916f6">10</p>
+            </div>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="div_farmMapSim_CI page916f6">
+        <container-show-hide :visible="false" id="i2gd" class="page916f6 dropShadow textBackgroundBasic textBackground-Correct"><span class="page916f6"><strong class="page916f6">Correct!</strong> 10 out of 50 total squares are used to grow cotton.
+            Fractions are written with the total on the bottom, so it is <div class="fraction_Inline page916f6"><p class="textCenter page916f6 text_Numerator_Black">10</p><p class="text_Denominator textCenter page916f6">50</p></div>.</span></container-show-hide>
+        <container-show-hide :visible="false" id="iaie" class="page916f6 dropShadow textBackgroundBasic textBackground-Incorrect"><span class="page916f6"><strong class="page916f6">Incorrect.</strong> 10 out of 50 total squares are used to grow cotton.
+            Fractions are written with the total on the bottom, so it is <div class="fraction_Inline page916f6"><p class="textCenter page916f6 text_Numerator_Black">10</p><p class="text_Denominator textCenter page916f6">50</p></div>.</span></container-show-hide>
+      </div>
+      <div class="div_farmMapSim_Submit page916f6">
+        <widget-button :visible="false" :enabled="true" id="ifnz6" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ijmj',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ifnz6',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ice3',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:5},{effectData:{effectType:'addClasses',widgetID:'icq2',classes:'text_Numerator_BlackButtons'},fireOnceID:'',delay:0},{effectData:{effectType:'addClasses',widgetID:'ihj2',classes:'text_Numerator_BlackButtons'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.EM.FarmFractionCotton',responseData:{responseType:'radioGroup',format:'none',headerPairs:[{header:'',group:'ij8ig'}]},fireOnceID:''}],responsesFail:[]},{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'ij8ig',selected:'radioIDEquals',radioID:'ice3'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i2gd',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'iaie',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="buttonBasic-Grey marginTop1 buttonBlinkBlue page916f6">
+          <p class="marginLeft2 marginRight2 page916f6">Submit</p>
+        </widget-button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,71 @@
+
+{
+  "gjs-components": [
+    {
+      "tagName": "div",
+      "type": "text",
+      "name": "",
+      "removable": true,
+      "draggable": true,
+      "droppable": false,
+      "badgable": true,
+      "stylable": true,
+      "stylable-require": "",
+      "style-signature": "",
+      "unstylable": "",
+      "highlightable": true,
+      "copyable": true,
+      "resizable": false,
+      "editable": true,
+      "layerable": true,
+      "selectable": true,
+      "hoverable": true,
+      "void": false,
+      "state": "",
+      "status": "selected",
+      "content": "<p><p>A wildlife biologist is a scientist who studies animals and how they live with other animals.</p><br><p>They do experiments to study the populations of animals.</p><br><p>They also help save endangered species and protect animal habitats.</p><br></p>",
+      "icon": "",
+      "style": "",
+      "classes": [
+        {
+          "name": "page-g_wildlife_biologist_E-Ex-M-Mx",
+          "label": "page-g_wildlife_biologist_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "script": "",
+      "attributes": {},
+      "propagate": "",
+      "dmode": "",
+      "tag Name": "div",
+      "custom-name": "definition",
+      "components": [],
+      "open": false
+    }
+  ],
+  "gjs-styles": [
+    {
+      "selectors": [
+        {
+          "name": "page-g_wildlife_biologist_E-Ex-M-Mx",
+          "label": "page-g_wildlife_biologist_E-Ex-M-Mx",
+          "type": 1,
+          "active": true,
+          "private": false,
+          "protected": false
+        }
+      ],
+      "selectorsAdd": "",
+      "style": {},
+      "mediaText": "",
+      "state": "",
+      "stylable": true,
+      "atRuleType": "",
+      "singleAtRule": 0,
+      "important": 0
+    }
+  ]
+}

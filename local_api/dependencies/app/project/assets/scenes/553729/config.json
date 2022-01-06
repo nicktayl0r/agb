@@ -1,0 +1,7576 @@
+{
+	"application_properties": {
+		"antiAlias": true,
+		"use3dPhysics": false,
+		"preserveDrawingBuffer": false,
+		"transparentCanvas": false,
+		"useDevicePixelRatio": false,
+		"fillMode": "FILL_WINDOW",
+		"preferWebGl2": true,
+		"useLegacyScripts": false,
+		"resolutionMode": "AUTO",
+		"height": 720,
+		"width": 1280,
+		"vr": false,
+		"scripts": [
+			12345536
+		],
+		"useModelV2": false,
+		"loadingScreenScript": null,
+		"batchGroups": [],
+		"layers": {
+			"0": {
+				"name": "World",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"1": {
+				"name": "Depth",
+				"opaqueSortMode": 2,
+				"transparentSortMode": 3
+			},
+			"2": {
+				"name": "Skybox",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"3": {
+				"name": "Immediate",
+				"opaqueSortMode": 0,
+				"transparentSortMode": 3
+			},
+			"4": {
+				"name": "UI",
+				"opaqueSortMode": 1,
+				"transparentSortMode": 1
+			}
+		},
+		"layerOrder": [
+			{
+				"layer": 0,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 1,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 2,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 0,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": false,
+				"enabled": true
+			},
+			{
+				"layer": 3,
+				"transparent": true,
+				"enabled": true
+			},
+			{
+				"layer": 4,
+				"transparent": true,
+				"enabled": true
+			}
+		],
+		"_o": "5af347dcaca9e75c0c07d833",
+		"libraries": []
+	},
+	"assets": {
+		"12345536": {
+			"tags": [],
+			"name": "main.build.js",
+			"revision": 1,
+			"preload": true,
+			"meta": null,
+			"data": {
+				"order": 100,
+				"scripts": {
+					"SimStateManager": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"ApiReporter": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"unlitMaterial": {
+						"attributesOrder": [],
+						"attributes": {}
+					},
+					"unlitRimMaterial": {
+						"attributesOrder": [
+							"rimColor",
+							"rimWidth"
+						],
+						"attributes": {
+							"rimColor": {
+								"type": "rgb",
+								"default": [
+									1,
+									0.494,
+									0.494
+								]
+							},
+							"rimWidth": {
+								"type": "number",
+								"default": 0.3
+							}
+						}
+					}
+				},
+				"loading": false
+			},
+			"type": "script",
+			"file": {
+				"filename": "__game-scripts.js",
+				"size": 1301630,
+				"hash": "b69b3696c43f8ca8b2e3d9ed6acbf8e6",
+				"url": "__game-scripts.js"
+			},
+			"region": "eu-west-1",
+			"_o": "5af34bddcef8e65c28058f56",
+			"id": "12345536"
+		},
+		"12345537": {
+			"tags": [],
+			"name": "rackWire_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 3
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					1,
+					1,
+					1
+				],
+				"diffuseMap": 12345579,
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"specular": [
+					0.5607843137254902,
+					0.5607843137254902,
+					0.5607843137254902
+				],
+				"shininess": 51.5,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"opacityMap": 12429187,
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"aoMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": true,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0.198,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 5,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true,
+				"alphaToCoverage": false
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5afaf775c3f28b32aab03351",
+			"id": "12345537"
+		},
+		"12345538": {
+			"tags": [],
+			"name": "petriDish_AgarNoHighlight_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 512,
+				"height": 512,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "petriDish_AgarNoHighlight_TEXTURE.png",
+				"hash": "6ab9528d97fbb05c6edb161b93b8a0fa",
+				"size": 148525,
+				"variants": {
+					"dxt": {
+						"filename": "petriDish_AgarNoHighlight_TEXTURE-dxt.dds",
+						"hash": "1448a8135f0d4d3b6bb104c736240707",
+						"size": 174904,
+						"sizeGzip": 29408,
+						"opt": 0,
+						"url": "files/assets/12345538/1/petriDish_AgarNoHighlight_TEXTURE-dxt.dds"
+					},
+					"pvr": {
+						"filename": "petriDish_AgarNoHighlight_TEXTURE-pvr.dds",
+						"hash": "d8fdd9a7a0b93277ecce220472e90ccf",
+						"size": 174976,
+						"sizeGzip": 82711,
+						"opt": 128,
+						"url": "files/assets/12345538/1/petriDish_AgarNoHighlight_TEXTURE-pvr.dds"
+					},
+					"etc1": {
+						"filename": "petriDish_AgarNoHighlight_TEXTURE-etc1.dds",
+						"hash": "dc3cf84450692fe5efc24b9f541ed541",
+						"size": 174904,
+						"sizeGzip": 23732,
+						"opt": 0,
+						"url": "files/assets/12345538/1/petriDish_AgarNoHighlight_TEXTURE-etc1.dds"
+					}
+				},
+				"url": "files/assets/12345538/1/petriDish_AgarNoHighlight_TEXTURE.png"
+			},
+			"region": "eu-west-1",
+			"_o": "5ad507ec77a51b78997f04be",
+			"id": "12345538"
+		},
+		"12345540": {
+			"tags": [],
+			"name": "PetriDish_1_Trans_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 9
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345538,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": 12345538,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true,
+				"alphaToCoverage": false
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af2161ac3f28b32aa75be0a",
+			"id": "12345540"
+		},
+		"12345541": {
+			"tags": [],
+			"name": "pipette_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 1024,
+				"height": 1024,
+				"alpha": false,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "pipette_TEXTURE.png",
+				"hash": "63c10c080c26d5aff3b8da3d2f227368",
+				"size": 320750,
+				"variants": {
+					"dxt": {
+						"filename": "pipette_TEXTURE-dxt.dds",
+						"hash": "3cc2e08fc2855be36ed11353ca9ab58d",
+						"size": 699192,
+						"sizeGzip": 156075,
+						"opt": 0,
+						"url": "files/assets/12345541/1/pipette_TEXTURE-dxt.dds"
+					},
+					"etc1": {
+						"filename": "pipette_TEXTURE-etc1.dds",
+						"hash": "4f3ea126a1121b84620f02bee7a44cc0",
+						"size": 699192,
+						"sizeGzip": 140794,
+						"opt": 0,
+						"url": "files/assets/12345541/1/pipette_TEXTURE-etc1.dds"
+					},
+					"pvr": {
+						"filename": "pipette_TEXTURE-pvr.dds",
+						"hash": "611525dbbe25d8d3bdb54eab07dd5646",
+						"size": 699264,
+						"sizeGzip": 237506,
+						"opt": 128,
+						"url": "files/assets/12345541/1/pipette_TEXTURE-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345541/1/pipette_TEXTURE.png"
+			},
+			"_o": "5af34ddc47539856bac2ada8",
+			"id": "12345541"
+		},
+		"12345542": {
+			"tags": [],
+			"name": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 222,
+				"meshInstances": 222,
+				"nodes": 321,
+				"skins": 0,
+				"vertices": 47483,
+				"triangles": 51232,
+				"attributes": {
+					"position": 222,
+					"normal": 222,
+					"texCoord0": 222,
+					"texCoord1": 222
+				},
+				"userMapping": {
+					"75": true,
+					"82": true
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345566
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345566
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345569
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345569
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345571
+					},
+					{
+						"material": 12345550
+					},
+					{
+						"material": 12345571
+					},
+					{
+						"material": 12345565
+					},
+					{
+						"material": 12345557
+					},
+					{
+						"material": 12345557
+					},
+					{
+						"material": 12345548
+					},
+					{
+						"material": 12345571
+					},
+					{
+						"material": 12345550
+					},
+					{
+						"material": 12345571
+					},
+					{
+						"material": 12345565
+					},
+					{
+						"material": 12345557
+					},
+					{
+						"material": 12345557
+					},
+					{
+						"material": 12345548
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345574
+					},
+					{
+						"material": 12345550
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345572
+					},
+					{
+						"material": 12345572
+					},
+					{
+						"material": 12345550
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345572
+					},
+					{
+						"material": 12345572
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345566
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345558
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345549
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345564
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345551
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345554
+					},
+					{
+						"material": 12345568
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345570
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345573
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345547
+					},
+					{
+						"material": 12345552
+					},
+					{
+						"material": 12345569
+					}
+				],
+				"area": {
+					"x": 0.05193758972404704,
+					"y": 0.04835707163249274,
+					"z": 0.05269948269153554,
+					"uv": 0.45314347105350655
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json",
+				"size": 7300771,
+				"hash": "c0fd82737280f888e3b55527d416a6aa",
+				"url": "files/assets/12345542/1/MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json"
+			},
+			"_o": "5af34fabc3f28b32aa7e4957",
+			"id": "12345542"
+		},
+		"12345543": {
+			"tags": [],
+			"name": "TestTubes_Atlas.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 2048,
+				"height": 2048,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "TestTubes_Atlas.png",
+				"hash": "71e1228e2bd225f847d4db485a40c2c2",
+				"size": 837789,
+				"variants": {
+					"etc1": {
+						"filename": "TestTubes_Atlas-etc1.dds",
+						"hash": "339d7cde675f22829070cc765742024a",
+						"size": 2796344,
+						"sizeGzip": 323247,
+						"opt": 0,
+						"url": "files/assets/12345543/1/TestTubes_Atlas-etc1.dds"
+					},
+					"dxt": {
+						"filename": "TestTubes_Atlas-dxt.dds",
+						"hash": "acf35cd94eb8dfd547f8f2500f6022f7",
+						"size": 2796344,
+						"sizeGzip": 266217,
+						"opt": 0,
+						"url": "files/assets/12345543/1/TestTubes_Atlas-dxt.dds"
+					},
+					"pvr": {
+						"filename": "TestTubes_Atlas-pvr.dds",
+						"hash": "9cec7e8aba0dc35752904fd1b3197d9c",
+						"size": 2796416,
+						"sizeGzip": 444487,
+						"opt": 128,
+						"url": "files/assets/12345543/1/TestTubes_Atlas-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345543/1/TestTubes_Atlas.png"
+			},
+			"_o": "5ad4f32e58cbc764c10b46b5",
+			"id": "12345543"
+		},
+		"12345545": {
+			"tags": [],
+			"name": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution_animation.json",
+			"revision": 1,
+			"preload": true,
+			"meta": {},
+			"data": null,
+			"type": "animation",
+			"file": {
+				"filename": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution_animation.json",
+				"size": 63656,
+				"hash": "03e4a46d0a1bd6d7d237679de299502e",
+				"url": "files/assets/12345545/1/MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution_animation.json"
+			},
+			"region": "eu-west-1",
+			"_o": "5afc20ccc3f28b32aaba38bd",
+			"id": "12345545"
+		},
+		"12345547": {
+			"tags": [],
+			"name": "TestTubes_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 4
+			},
+			"data": {
+				"shader": "phong",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345543,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4fd99c89d3430aa8ff4b8",
+			"id": "12345547"
+		},
+		"12345548": {
+			"tags": [],
+			"name": "PetriDish_Stoke2_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 12
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345671,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af34de5c3f28b32aa7e3b9d",
+			"id": "12345548"
+		},
+		"12345549": {
+			"tags": [],
+			"name": "Pipette_Antibiotic3_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 16
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					1,
+					0.8862745098039215,
+					0.45098039215686275
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345562,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ed4bc89d3430aa8f6da0",
+			"id": "12345549"
+		},
+		"12345550": {
+			"tags": [],
+			"name": "PetriDish_1_Label_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 13
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345538,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": 12345674,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true,
+				"alphaToCoverage": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af34e11c3f28b32aa7e3d50",
+			"id": "12345550"
+		},
+		"12345551": {
+			"tags": [],
+			"name": "Pipette_Antibiotic5_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 18
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					1,
+					0.5294117647058824,
+					0.8823529411764706
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345562,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ed76c89d3430aa8f6f1c",
+			"id": "12345551"
+		},
+		"12345552": {
+			"tags": [],
+			"name": "liquid_Yellow_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 6
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.631484,
+					0.632,
+					0.32548
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0.716,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af9e031c3f28b32aaa61c25",
+			"id": "12345552"
+		},
+		"12345553": {
+			"tags": [],
+			"name": "petriDish_Plain_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 2048,
+				"height": 2048,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "petriDish_Plain_TEXTURE.png",
+				"hash": "6ba192d06e6144ee5a1aae42e0d5f127",
+				"size": 2476841,
+				"variants": {
+					"dxt": {
+						"filename": "petriDish_Plain_TEXTURE-dxt.dds",
+						"hash": "ed954b93de84a98c2e39e132736ad72d",
+						"size": 2796344,
+						"sizeGzip": 295662,
+						"opt": 0,
+						"url": "files/assets/12345553/1/petriDish_Plain_TEXTURE-dxt.dds"
+					},
+					"etc1": {
+						"filename": "petriDish_Plain_TEXTURE-etc1.dds",
+						"hash": "0f4a032c62ee95494315d71a194bd299",
+						"size": 2796344,
+						"sizeGzip": 161005,
+						"opt": 0,
+						"url": "files/assets/12345553/1/petriDish_Plain_TEXTURE-etc1.dds"
+					},
+					"pvr": {
+						"filename": "petriDish_Plain_TEXTURE-pvr.dds",
+						"hash": "4e7bb688aac87d18b699654292c3025d",
+						"size": 2796416,
+						"sizeGzip": 1082738,
+						"opt": 128,
+						"url": "files/assets/12345553/1/petriDish_Plain_TEXTURE-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345553/1/petriDish_Plain_TEXTURE.png"
+			},
+			"_o": "5ad4f32e58cbc764c10b46b9",
+			"id": "12345553"
+		},
+		"12345554": {
+			"tags": [],
+			"name": "Pipette_Control_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345541,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ecc4c89d3430aa8f68ec",
+			"id": "12345554"
+		},
+		"12345555": {
+			"tags": [],
+			"name": "MicroEvoLab_Combined_V3_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "phong",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"diffuseMap": 12345563,
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": 12345584,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": true,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 0,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 2,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4f29ec89d3430aa8fa867",
+			"id": "12345555"
+		},
+		"12345557": {
+			"tags": [],
+			"name": "PetriDish_Stoke1_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 11
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0,
+				"aoMap": null,
+				"diffuseMap": 12345559,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eef4c89d3430aa8f808b",
+			"id": "12345557"
+		},
+		"12345558": {
+			"tags": [],
+			"name": "Pipette_Antibiotic2_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 15
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.7215686274509804,
+					1,
+					0.44313725490196076
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345562,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ed3bc89d3430aa8f6d3e",
+			"id": "12345558"
+		},
+		"12345560": {
+			"tags": [],
+			"name": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"name": "Take 001",
+				"duration": 126.25
+			},
+			"data": null,
+			"type": "animation",
+			"file": {
+				"hash": "a91689b0759d754705b744fb41316b7c",
+				"filename": "MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json",
+				"size": 3400571,
+				"url": "files/assets/12345560/1/MicroEvoLab_SmallObjectsPrep_V011_pipette_GRP_ControlSolution.json"
+			},
+			"_o": "5ad4eb9f504c8332bd6d205d",
+			"id": "12345560"
+		},
+		"12345562": {
+			"tags": [],
+			"name": "pipette_White_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColor",
+				"width": 1024,
+				"height": 1024,
+				"alpha": false,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "pipette_White_TEXTURE.png",
+				"hash": "71b7f6688788e1cfb9da2dd03e815aba",
+				"size": 336111,
+				"variants": {
+					"dxt": {
+						"filename": "pipette_White_TEXTURE-dxt.dds",
+						"hash": "2aad65f455745a00862965d3e8428aae",
+						"size": 699192,
+						"sizeGzip": 167915,
+						"opt": 0,
+						"url": "files/assets/12345562/1/pipette_White_TEXTURE-dxt.dds"
+					},
+					"etc1": {
+						"filename": "pipette_White_TEXTURE-etc1.dds",
+						"hash": "72a9e95f97f87e69813b8e26d7b9c537",
+						"size": 699192,
+						"sizeGzip": 155096,
+						"opt": 0,
+						"url": "files/assets/12345562/1/pipette_White_TEXTURE-etc1.dds"
+					},
+					"pvr": {
+						"filename": "pipette_White_TEXTURE-pvr.dds",
+						"hash": "d296001ba94e247d65d4db6e8b168390",
+						"size": 699264,
+						"sizeGzip": 222675,
+						"opt": 128,
+						"url": "files/assets/12345562/1/pipette_White_TEXTURE-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345562/1/pipette_White_TEXTURE.png"
+			},
+			"_o": "5ad4f32e58cbc764c10b46b6",
+			"id": "12345562"
+		},
+		"12345563": {
+			"tags": [],
+			"name": "Room_LargeObjects_Atlas_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 4096,
+				"height": 4096,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "Room_LargeObjects_Atlas_TEXTURE.png",
+				"hash": "4d3a471a6f55066fe87724bd53085a88",
+				"size": 1047452,
+				"variants": {},
+				"url": "files/assets/12345563/1/Room_LargeObjects_Atlas_TEXTURE.png"
+			},
+			"region": "eu-west-1",
+			"_o": "5ad4f29173763e7eb86b53c4",
+			"id": "12345563"
+		},
+		"12345564": {
+			"tags": [],
+			"name": "Pipette_Antibiotic4_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 17
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.803921568627451,
+					0.5764705882352941,
+					1
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345562,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ed5dc89d3430aa8f6e03",
+			"id": "12345564"
+		},
+		"12345565": {
+			"tags": [],
+			"name": "PetriDish_Plain_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 10
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345553,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eed2c89d3430aa8f7fb2",
+			"id": "12345565"
+		},
+		"12345566": {
+			"tags": [],
+			"name": "Pipette_Antibiotic1_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 2
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.4666666666666667,
+					0.8235294117647058,
+					0.9725490196078431
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": 12345562,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": true,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4ed30c89d3430aa8f6ced",
+			"id": "12345566"
+		},
+		"12345568": {
+			"tags": [],
+			"name": "lambert4",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 1
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.4,
+					0.4,
+					0.4
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af9e060c3f28b32aaa61d09",
+			"id": "12345568"
+		},
+		"12345569": {
+			"tags": [],
+			"name": "testtuberack_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 3
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eb9e99b5f97522e50257",
+			"id": "12345569"
+		},
+		"12345570": {
+			"tags": [],
+			"name": "TT_18Caps_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 19
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eb9e99b5f97522e50256",
+			"id": "12345570"
+		},
+		"12345571": {
+			"tags": [],
+			"name": "phong1",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 8
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.4,
+					0.4,
+					0.4
+				],
+				"specular": [
+					0.5,
+					0.5,
+					0.5
+				],
+				"shininess": 39.2903,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0.621,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af9e074c3f28b32aaa61d7b",
+			"id": "12345571"
+		},
+		"12345572": {
+			"tags": [],
+			"name": "lambert17",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 14
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.1424,
+					0,
+					0
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eb9d99b5f97522e50253",
+			"id": "12345572"
+		},
+		"12345573": {
+			"tags": [],
+			"name": "TRANS",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 5
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.4,
+					0.4,
+					0.4
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0.264,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": true,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5af9e765c3f28b32aaa63565",
+			"id": "12345573"
+		},
+		"12345574": {
+			"tags": [],
+			"name": "BacterialLoops_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 7
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.508859,
+					0.3144
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ad4eb9d99b5f97522e50250",
+			"id": "12345574"
+		},
+		"12345577": {
+			"tags": [],
+			"name": "MicroEvoLab_Combined_V3_Color.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 4096,
+				"height": 4096,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "MicroEvoLab_Combined_V3_Color.png",
+				"hash": "b46eb0ccc7350390c9479e3f902bf35a",
+				"size": 1047484,
+				"variants": {
+					"dxt": {
+						"filename": "MicroEvoLab_Combined_V3_Color-dxt.dds",
+						"hash": "abede18e943343e6e5a06f7871c09b91",
+						"size": 11184952,
+						"sizeGzip": 553600,
+						"opt": 0,
+						"url": "files/assets/12345577/1/MicroEvoLab_Combined_V3_Color-dxt.dds"
+					},
+					"etc1": {
+						"filename": "MicroEvoLab_Combined_V3_Color-etc1.dds",
+						"hash": "21bb66d5afac9dbc2d7a8a4ec730c574",
+						"size": 11184952,
+						"sizeGzip": 497713,
+						"opt": 0,
+						"url": "files/assets/12345577/1/MicroEvoLab_Combined_V3_Color-etc1.dds"
+					},
+					"pvr": {
+						"filename": "MicroEvoLab_Combined_V3_Color-pvr.dds",
+						"hash": "c47988bde3d923aaa23a6ae6a6ce583e",
+						"size": 11185024,
+						"sizeGzip": 2425293,
+						"opt": 128,
+						"url": "files/assets/12345577/1/MicroEvoLab_Combined_V3_Color-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345577/1/MicroEvoLab_Combined_V3_Color.png"
+			},
+			"_o": "5ac3c3f977a51b78997eedaf",
+			"id": "12345577"
+		},
+		"12345578": {
+			"tags": [],
+			"name": "incubator1_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 2048,
+				"height": 2048,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "incubator1_TEXTURE.png",
+				"hash": "212b79587c9a72148be7062afc73201b",
+				"size": 239276,
+				"variants": {
+					"dxt": {
+						"filename": "incubator1_TEXTURE-dxt.dds",
+						"hash": "a62513733c8c4fccdca0d8088cf5ab68",
+						"size": 2796344,
+						"sizeGzip": 100449,
+						"opt": 0,
+						"url": "files/assets/12345578/1/incubator1_TEXTURE-dxt.dds"
+					},
+					"etc1": {
+						"filename": "incubator1_TEXTURE-etc1.dds",
+						"hash": "df3de259087af80f2a7acc0fe80f9b11",
+						"size": 2796344,
+						"sizeGzip": 99276,
+						"opt": 0,
+						"url": "files/assets/12345578/1/incubator1_TEXTURE-etc1.dds"
+					},
+					"pvr": {
+						"filename": "incubator1_TEXTURE-pvr.dds",
+						"hash": "8af08d1d471315c6ead02c688d320b5f",
+						"size": 2796416,
+						"sizeGzip": 166294,
+						"opt": 128,
+						"url": "files/assets/12345578/1/incubator1_TEXTURE-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345578/1/incubator1_TEXTURE.png"
+			},
+			"_o": "5ac3c3e477a51b78997eedad",
+			"id": "12345578"
+		},
+		"12345579": {
+			"tags": [],
+			"name": "rackWire_Render_Cropped.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 512,
+				"height": 512,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "rackWire_Render_Cropped.png",
+				"hash": "3f0d16d1ad6355b06f21ae7f936e6ffa",
+				"size": 137745,
+				"variants": {
+					"dxt": {
+						"filename": "rackWire_Render_Cropped-dxt.dds",
+						"hash": "cdf0ab025e0c81b5bc91871b01f9c7ac",
+						"size": 174904,
+						"sizeGzip": 21173,
+						"opt": 0,
+						"url": "files/assets/12345579/1/rackWire_Render_Cropped-dxt.dds"
+					},
+					"etc1": {
+						"filename": "rackWire_Render_Cropped-etc1.dds",
+						"hash": "2dcf5b988a78c69c5c63a13752094b9a",
+						"size": 174904,
+						"sizeGzip": 21885,
+						"opt": 0,
+						"url": "files/assets/12345579/1/rackWire_Render_Cropped-etc1.dds"
+					},
+					"pvr": {
+						"filename": "rackWire_Render_Cropped-pvr.dds",
+						"hash": "b72f5aaeb8512437d2957d014db71122",
+						"size": 174976,
+						"sizeGzip": 47270,
+						"opt": 128,
+						"url": "files/assets/12345579/1/rackWire_Render_Cropped-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345579/1/rackWire_Render_Cropped.png"
+			},
+			"_o": "5ac3c3de47539856bac27807",
+			"id": "12345579"
+		},
+		"12345580": {
+			"tags": [],
+			"name": "incubator2_TEXTURE.png",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "Grayscale",
+				"width": 1024,
+				"height": 1024,
+				"alpha": false,
+				"depth": 8,
+				"srgb": false,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "incubator2_TEXTURE.png",
+				"hash": "e8460023746f6e7b0496c906904c698b",
+				"size": 202177,
+				"variants": {
+					"dxt": {
+						"filename": "incubator2_TEXTURE-dxt.dds",
+						"hash": "d4677b693353afe70331df490a58ecac",
+						"size": 699192,
+						"sizeGzip": 114583,
+						"opt": 0,
+						"url": "files/assets/12345580/1/incubator2_TEXTURE-dxt.dds"
+					},
+					"etc1": {
+						"filename": "incubator2_TEXTURE-etc1.dds",
+						"hash": "c1e4af8813b4e9367ad4f3c9a8d50888",
+						"size": 699192,
+						"sizeGzip": 127989,
+						"opt": 0,
+						"url": "files/assets/12345580/1/incubator2_TEXTURE-etc1.dds"
+					},
+					"pvr": {
+						"filename": "incubator2_TEXTURE-pvr.dds",
+						"hash": "7a23197f01b7c102b7aab8cd7f83f07b",
+						"size": 699264,
+						"sizeGzip": 171516,
+						"opt": 128,
+						"url": "files/assets/12345580/1/incubator2_TEXTURE-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345580/1/incubator2_TEXTURE.png"
+			},
+			"_o": "5ac3c3db47539856bac27806",
+			"id": "12345580"
+		},
+		"12345581": {
+			"tags": [],
+			"name": "MicroEvoLabProps_Incubator.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 24,
+				"meshInstances": 24,
+				"nodes": 30,
+				"skins": 0,
+				"vertices": 1881,
+				"triangles": 1502,
+				"attributes": {
+					"position": 24,
+					"normal": 24,
+					"texCoord0": 24,
+					"texCoord1": 24
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345589
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345586
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345587
+					},
+					{
+						"material": 12345537
+					},
+					{
+						"material": 12345537
+					}
+				],
+				"area": {
+					"x": 0.17295530829972727,
+					"y": 0.30385195030693896,
+					"z": 0.2329319402977971,
+					"uv": 0.6876244402142545
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_Incubator.json",
+				"size": 217259,
+				"hash": "9701336d1a1a900138beae14cc34e8da",
+				"url": "files/assets/12345581/1/MicroEvoLabProps_Incubator.json"
+			},
+			"_o": "5ac29a0a46863748a0e9af06",
+			"id": "12345581"
+		},
+		"12345582": {
+			"tags": [],
+			"name": "MicroEvoLabCombined_Room_V3.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 1289,
+				"triangles": 1372,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345583
+					}
+				],
+				"area": {
+					"x": 3.7217379449240475,
+					"y": 10.389077928023914,
+					"z": 4.914672361085237,
+					"uv": 0.6400000000000003
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabCombined_Room_V3.json",
+				"size": 156038,
+				"hash": "ec0673482efe002fe6d0e2fe1d1f5a9b",
+				"url": "files/assets/12345582/1/MicroEvoLabCombined_Room_V3.json"
+			},
+			"_o": "5ac299ba9ec3fb7a789e75df",
+			"id": "12345582"
+		},
+		"12345583": {
+			"tags": [],
+			"name": "MicroEvoLab_Combined_V3_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "phong",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"diffuseMap": 12345577,
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ac2978ac89d3430aa0a3b69",
+			"id": "12345583"
+		},
+		"12345584": {
+			"tags": [],
+			"name": "MicroEvoLab_Combined_V3_Alpha.png",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "GrayscaleAlpha",
+				"width": 4096,
+				"height": 4096,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "MicroEvoLab_Combined_V3_Alpha.png",
+				"hash": "8e167e41a88e31d8641fe894f3a03bd6",
+				"size": 146615,
+				"variants": {
+					"dxt": {
+						"filename": "MicroEvoLab_Combined_V3_Alpha-dxt.dds",
+						"hash": "f81d9d8dd9b4707d603ef3d31269355d",
+						"size": 11184952,
+						"sizeGzip": 221228,
+						"opt": 0,
+						"url": "files/assets/12345584/1/MicroEvoLab_Combined_V3_Alpha-dxt.dds"
+					},
+					"pvr": {
+						"filename": "MicroEvoLab_Combined_V3_Alpha-pvr.dds",
+						"hash": "a964065eb0b1e0d8e4e86e1cb3798a25",
+						"size": 11185024,
+						"sizeGzip": 314889,
+						"opt": 128,
+						"url": "files/assets/12345584/1/MicroEvoLab_Combined_V3_Alpha-pvr.dds"
+					},
+					"etc1": {
+						"filename": "MicroEvoLab_Combined_V3_Alpha-etc1.dds",
+						"hash": "5bba142dfbe0ce2ff067b4a57adfba13",
+						"size": 11184952,
+						"sizeGzip": 253085,
+						"opt": 0,
+						"url": "files/assets/12345584/1/MicroEvoLab_Combined_V3_Alpha-etc1.dds"
+					}
+				},
+				"url": "files/assets/12345584/1/MicroEvoLab_Combined_V3_Alpha.png"
+			},
+			"region": "eu-west-1",
+			"_o": "5ac29621c89d3430aa0a34d3",
+			"id": "12345584"
+		},
+		"12345586": {
+			"tags": [],
+			"name": "Incubator_2_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 2
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"diffuseMap": 12345580,
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ac29445b788c722ac6db055",
+			"id": "12345586"
+		},
+		"12345587": {
+			"tags": [],
+			"name": "Incubator_1_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 0
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"diffuseMap": 12345578,
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 1,
+				"aoMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"blendType": 3,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ac29445b788c722ac6db054",
+			"id": "12345587"
+		},
+		"12345588": {
+			"tags": [],
+			"name": "MicroEvoLabProps_Incubator.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"name": "Take 001",
+				"duration": 126.25
+			},
+			"data": null,
+			"type": "animation",
+			"file": {
+				"hash": "15a3c8da0db59a1da412560e45d11700",
+				"filename": "MicroEvoLabProps_Incubator.json",
+				"size": 49456,
+				"url": "files/assets/12345588/1/MicroEvoLabProps_Incubator.json"
+			},
+			"_o": "5ac29444f98a9f7535ff7902",
+			"id": "12345588"
+		},
+		"12345589": {
+			"tags": [],
+			"name": "PetriDish_Plain_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 1
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0.483871,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ac29444f06af8649d81c2a1",
+			"id": "12345589"
+		},
+		"12345590": {
+			"tags": [],
+			"name": "PetriDish_Plain_MAT",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"index": 1
+			},
+			"data": {
+				"shader": "blinn",
+				"ambient": [
+					0,
+					0,
+					0
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"specular": [
+					0,
+					0,
+					0
+				],
+				"shininess": 0,
+				"emissive": [
+					0,
+					0,
+					0
+				],
+				"opacity": 0.483871,
+				"aoMap": null,
+				"diffuseMap": null,
+				"specularMap": null,
+				"metalnessMap": null,
+				"glossMap": null,
+				"emissiveMap": null,
+				"normalMap": null,
+				"heightMap": null,
+				"opacityMap": null,
+				"sphereMap": null,
+				"cubeMap": null,
+				"lightMap": null,
+				"blendType": 2,
+				"ambientTint": false,
+				"aoMapVertexColor": false,
+				"aoMapChannel": "r",
+				"aoMapUv": 0,
+				"aoMapTiling": [
+					1,
+					1
+				],
+				"aoMapOffset": [
+					0,
+					0
+				],
+				"occludeSpecular": 1,
+				"diffuseMapVertexColor": false,
+				"diffuseMapChannel": "rgb",
+				"diffuseMapUv": 0,
+				"diffuseMapTiling": [
+					1,
+					1
+				],
+				"diffuseMapOffset": [
+					0,
+					0
+				],
+				"diffuseMapTint": false,
+				"specularMapVertexColor": false,
+				"specularMapChannel": "rgb",
+				"specularMapUv": 0,
+				"specularMapTiling": [
+					1,
+					1
+				],
+				"specularMapOffset": [
+					0,
+					0
+				],
+				"specularMapTint": false,
+				"specularAntialias": true,
+				"useMetalness": false,
+				"metalnessMapVertexColor": false,
+				"metalnessMapChannel": "r",
+				"metalnessMapUv": 0,
+				"metalnessMapTiling": [
+					1,
+					1
+				],
+				"metalnessMapOffset": [
+					0,
+					0
+				],
+				"metalnessMapTint": false,
+				"metalness": 1,
+				"conserveEnergy": true,
+				"glossMapVertexColor": false,
+				"glossMapChannel": "r",
+				"glossMapUv": 0,
+				"glossMapTiling": [
+					1,
+					1
+				],
+				"glossMapOffset": [
+					0,
+					0
+				],
+				"fresnelModel": 0,
+				"fresnelFactor": 0,
+				"emissiveMapVertexColor": false,
+				"emissiveMapChannel": "rgb",
+				"emissiveMapUv": 0,
+				"emissiveMapTiling": [
+					1,
+					1
+				],
+				"emissiveMapOffset": [
+					0,
+					0
+				],
+				"emissiveMapTint": false,
+				"emissiveIntensity": 1,
+				"normalMapTiling": [
+					1,
+					1
+				],
+				"normalMapOffset": [
+					0,
+					0
+				],
+				"normalMapUv": 0,
+				"bumpMapFactor": 1,
+				"heightMapChannel": "r",
+				"heightMapUv": 0,
+				"heightMapTiling": [
+					1,
+					1
+				],
+				"heightMapOffset": [
+					0,
+					0
+				],
+				"heightMapFactor": 1,
+				"alphaTest": 0,
+				"opacityMapVertexColor": false,
+				"opacityMapChannel": "r",
+				"opacityMapUv": 0,
+				"opacityMapTiling": [
+					1,
+					1
+				],
+				"opacityMapOffset": [
+					0,
+					0
+				],
+				"reflectivity": 1,
+				"refraction": 0,
+				"refractionIndex": 0.6666666666666666,
+				"cubeMapProjection": 0,
+				"cubeMapProjectionBox": {
+					"center": [
+						0,
+						0,
+						0
+					],
+					"halfExtents": [
+						0.5,
+						0.5,
+						0.5
+					]
+				},
+				"lightMapVertexColor": false,
+				"lightMapChannel": "rgb",
+				"lightMapUv": 1,
+				"lightMapTiling": [
+					1,
+					1
+				],
+				"lightMapOffset": [
+					0,
+					0
+				],
+				"depthTest": true,
+				"depthWrite": true,
+				"cull": 1,
+				"shadowSampleType": 1,
+				"useFog": true,
+				"useLighting": true,
+				"useSkybox": true,
+				"useGammaTonemap": true
+			},
+			"type": "material",
+			"file": null,
+			"_o": "5ac2937ff06af8649d81c29f",
+			"id": "12345590"
+		},
+		"12345593": {
+			"tags": [],
+			"name": "MicroEvoLabProps_Chair.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 1212,
+				"triangles": 1008,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345555
+					}
+				],
+				"area": {
+					"x": 0.0636887298134804,
+					"y": 0.07812537151339782,
+					"z": 0.07004497239052032,
+					"uv": 0.3148837344375188
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_Chair.json",
+				"size": 147127,
+				"hash": "beea62061f548709cf8d84da55cd0aeb",
+				"url": "files/assets/12345593/1/MicroEvoLabProps_Chair.json"
+			},
+			"id": "12345593"
+		},
+		"12345594": {
+			"tags": [],
+			"name": "MicroEvoLabProps_CabinetHandle.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 235,
+				"triangles": 252,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345555
+					}
+				],
+				"area": {
+					"x": 0.00042432175895568136,
+					"y": 0.00017869405735915223,
+					"z": 0.0003080362831562322,
+					"uv": 0.27507172030473614
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_CabinetHandle.json",
+				"size": 29195,
+				"hash": "b8c85b7993d1b4ee233a7ed23afec776",
+				"url": "files/assets/12345594/1/MicroEvoLabProps_CabinetHandle.json"
+			},
+			"id": "12345594"
+		},
+		"12345595": {
+			"tags": [],
+			"name": "MicroEvoLabProps_WasteBin.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 874,
+				"triangles": 688,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345555
+					}
+				],
+				"area": {
+					"x": 0.03193964444038766,
+					"y": 0.012639816993493369,
+					"z": 0.03186902762513055,
+					"uv": 0.43595831762141113
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_WasteBin.json",
+				"size": 105614,
+				"hash": "cb3bc846002138929ad8856987be5e1e",
+				"url": "files/assets/12345595/1/MicroEvoLabProps_WasteBin.json"
+			},
+			"id": "12345595"
+		},
+		"12345597": {
+			"tags": [],
+			"name": "MicroEvoLabProps_Table.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 164,
+				"triangles": 82,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345555
+					}
+				],
+				"area": {
+					"x": 0.10993642255729785,
+					"y": 0.36093658487074975,
+					"z": 0.12789515086335967,
+					"uv": 0.6400000000000007
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_Table.json",
+				"size": 17686,
+				"hash": "d7092904fe13a1807ebb97b8658a5a7e",
+				"url": "files/assets/12345597/1/MicroEvoLabProps_Table.json"
+			},
+			"id": "12345597"
+		},
+		"12345598": {
+			"tags": [],
+			"name": "MicroEvoLabProps_Microscope.json",
+			"revision": 1,
+			"preload": true,
+			"region": "eu-west-1",
+			"meta": {
+				"meshes": 1,
+				"meshInstances": 1,
+				"nodes": 2,
+				"skins": 0,
+				"vertices": 7986,
+				"triangles": 6608,
+				"attributes": {
+					"position": 1,
+					"normal": 1,
+					"texCoord0": 1,
+					"texCoord1": 1
+				}
+			},
+			"data": {
+				"mapping": [
+					{
+						"material": 12345555
+					}
+				],
+				"area": {
+					"x": 0.05158451277053244,
+					"y": 0.0595956220820284,
+					"z": 0.046225046302983186,
+					"uv": 0.45193420078786095
+				}
+			},
+			"type": "model",
+			"file": {
+				"filename": "MicroEvoLabProps_Microscope.json",
+				"size": 945639,
+				"hash": "46d2b5ac06ec2590ef43bdade292569b",
+				"url": "files/assets/12345598/1/MicroEvoLabProps_Microscope.json"
+			},
+			"id": "12345598"
+		},
+		"12345670": {
+			"tags": [],
+			"name": "petriDish_LineThickness2_A.jpg",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false
+				},
+				"format": "jpeg",
+				"type": "TrueColor",
+				"width": 2048,
+				"height": 2048,
+				"alpha": false,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "petriDish_LineThickness2_A.jpg",
+				"hash": "fe031ec25620a89ecd22e7a7e7b13c36",
+				"size": 222488,
+				"variants": {},
+				"url": "files/assets/12345670/1/petriDish_LineThickness2_A.jpg"
+			},
+			"region": "eu-west-1",
+			"_o": "5af34dc2c4e2974ab4eb0923",
+			"id": "12345670"
+		},
+		"12345671": {
+			"tags": [],
+			"name": "petriDish_LineThickness2_B.jpg",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false
+				},
+				"format": "jpeg",
+				"type": "TrueColor",
+				"width": 2048,
+				"height": 2048,
+				"alpha": false,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "petriDish_LineThickness2_B.jpg",
+				"hash": "5cecd2271e961a4c452279d7b8b91cad",
+				"size": 410438,
+				"variants": {},
+				"url": "files/assets/12345671/1/petriDish_LineThickness2_B.jpg"
+			},
+			"region": "eu-west-1",
+			"_o": "5af34dc35641db3c1d099a4a",
+			"id": "12345671"
+		},
+		"12345674": {
+			"tags": [],
+			"name": "petriDish_TRANSPARENCY.png",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": true,
+					"pvr": true,
+					"pvrBpp": 4,
+					"etc1": true
+				},
+				"format": "png",
+				"type": "TrueColorAlpha",
+				"width": 512,
+				"height": 512,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "petriDish_TRANSPARENCY.png",
+				"hash": "0d4255d2814c0cd7adb1bd2f86ed99cf",
+				"size": 26797,
+				"variants": {
+					"etc1": {
+						"filename": "petriDish_TRANSPARENCY-etc1.dds",
+						"hash": "872780ea75ae2c678a83e78eb9561146",
+						"size": 174904,
+						"sizeGzip": 16711,
+						"opt": 0,
+						"url": "files/assets/12345674/1/petriDish_TRANSPARENCY-etc1.dds"
+					},
+					"dxt": {
+						"filename": "petriDish_TRANSPARENCY-dxt.dds",
+						"hash": "8179c2ec7b5280efe0ee3891f767e124",
+						"size": 174904,
+						"sizeGzip": 13069,
+						"opt": 0,
+						"url": "files/assets/12345674/1/petriDish_TRANSPARENCY-dxt.dds"
+					},
+					"pvr": {
+						"filename": "petriDish_TRANSPARENCY-pvr.dds",
+						"hash": "2fe6ab7702c7b6f028b56b783d6641ad",
+						"size": 174976,
+						"sizeGzip": 17901,
+						"opt": 128,
+						"url": "files/assets/12345674/1/petriDish_TRANSPARENCY-pvr.dds"
+					}
+				},
+				"url": "files/assets/12345674/1/petriDish_TRANSPARENCY.png"
+			},
+			"region": "eu-west-1",
+			"_o": "5af34dfd77a51b78997f2220",
+			"id": "12345674"
+		},
+		"12429187": {
+			"tags": [],
+			"name": "rackWire_TRANSPARENCY.png",
+			"revision": 1,
+			"preload": true,
+			"meta": {
+				"compress": {
+					"alpha": false,
+					"dxt": false,
+					"pvr": false,
+					"pvrBpp": 4,
+					"etc1": false
+				},
+				"format": "png",
+				"type": "GrayscaleAlpha",
+				"width": 512,
+				"height": 512,
+				"alpha": true,
+				"depth": 8,
+				"srgb": true,
+				"interlaced": false
+			},
+			"data": {
+				"addressu": "repeat",
+				"addressv": "repeat",
+				"minfilter": "linear_mip_linear",
+				"magfilter": "linear",
+				"anisotropy": 1,
+				"rgbm": false,
+				"mipmaps": true
+			},
+			"type": "texture",
+			"file": {
+				"filename": "rackWire_TRANSPARENCY.png",
+				"hash": "1f38f55f9fab03dceb784855c32f0eee",
+				"size": 8763,
+				"variants": {},
+				"url": "files/assets/12429187/1/rackWire_TRANSPARENCY.png"
+			},
+			"region": "eu-west-1",
+			"_o": "5afaf75dc4e2974ab4eb174b",
+			"id": "12429187"
+		}
+	}
+}

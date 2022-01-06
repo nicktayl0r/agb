@@ -1,0 +1,6241 @@
+/*! project-api-plugin - 0.0.1 */
+.glossaryPage[data-v-0233692f] {
+  height: 100%;
+}
+
+.buttonParent {
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+  /* this is to prevent divs overlapping buttons being an issue */
+}
+.button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.button:enabled:active {
+  transform: scale(0.95);
+}
+.button:disabled {
+  cursor: not-allowed;
+}
+.button .bgImage {
+  vertical-align: middle;
+}
+.button .slot {
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.buttonFillHeight .button {
+  height: 100%;
+}
+.buttonSlotFillWidth .slot {
+  width: 100%;
+}
+.buttonSlotFillHeight .slot {
+  height: 100%;
+}
+.noSelect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+/** children **/
+.noSelect * {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  pointer-events: none;
+}
+.buttonBasic-Grey .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+  border: 0.25vh solid var(--color-grey6);
+  padding: 1.2vh;
+  color: var(--color-white);
+  margin: 0px;
+  font-size: inherit;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  line-height: 1.2em;
+  border-radius: 1.3vh;
+}
+.buttonBasic-Grey .button:enabled:active {
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+}
+.buttonBasic-Grey .button:enabled:hover {
+  box-shadow: 0 0 0 0.45vh var(--color-blue3);
+}
+.buttonBasic-Grey .button:disabled {
+  background: linear-gradient(var(--color-grey4), var(--color-grey5));
+  opacity: 0.5;
+  border-color: var(--color-grey5);
+}
+.buttonOutlineBlue .button {
+  box-shadow: 0 0 0 0.15rem var(--color-blue3);
+}
+.buttonOutlineWhite .button {
+  box-shadow: 0 0 0 0.15rem var(--color-white);
+}
+.buttonZoom .button .bgImage {
+  display: block;
+  background: url(vue-extracted-assets/buttonZoom_Normal.svg);
+  background-repeat: no-repeat;
+  width: 5.4vh;
+  height: 5.4vh;
+  margin: 0 auto;
+  border: none;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonZoom .button .slot {
+  display: block;
+}
+.buttonZoom .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/buttonZoom_HoverDepressed.svg);
+  background-repeat: no-repeat;
+}
+.buttonZoom .button:disabled .bgImage,
+.buttonZoom_White .button:disabled .bgImage {
+  background: url(vue-extracted-assets/buttonZoomDisabled.svg);
+  background-repeat: no-repeat;
+}
+
+/* .buttonZoom_White - START */
+.buttonZoom_White .button .bgImage {
+  display: block;
+  background: url(vue-extracted-assets/buttonZoom_White_Normal.svg);
+  background-repeat: no-repeat;
+  width: 5.4vh;
+  height: 5.4vh;
+  margin: 0 auto;
+  border: none;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonZoom_White .button .slot {
+  display: block;
+}
+.buttonZoom_White .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/buttonZoom_White_HoverDepressed.svg);
+  background-repeat: no-repeat;
+}
+
+/* .buttonZoom_White - END */
+.buttonForward .button .bgImage {
+  background: url(vue-extracted-assets/arrowNext_Normal.svg) no-repeat top right;
+  background-size: contain;
+  border: 0;
+  display: inline-block;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+.buttonForward .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/arrowNext_HoverDepressed.svg) no-repeat top right;
+}
+.buttonForward .button:disabled .bgImage {
+  background: url(vue-extracted-assets/arrowNext_Disabled.svg) no-repeat top right;
+}
+.buttonBack .button .bgImage {
+  background: url(vue-extracted-assets/arrowPrevious_Normal.svg) no-repeat top left;
+  background-size: contain;
+  border: 0;
+  display: inline-block;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+.buttonBack .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/arowPrevious_HoverDepressed.svg) no-repeat top left;
+}
+.buttonBack .button:disabled .bgImage {
+  background: url(vue-extracted-assets/arrowPrevious_Disabled.svg) no-repeat top left;
+}
+.buttonPlay,
+.buttonReplay,
+.buttonPause {
+  display: inline-block;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  width: 4.5vh;
+  height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+}
+.buttonPlay .bgImage,
+.buttonReplay .bgImage,
+.buttonPause .bgImage {
+  border: 0.45vh solid var(--color-blue4);
+  border-radius: 1.3vh;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+.buttonPlay .bgImage {
+  display: inline-block;
+  background: url(vue-extracted-assets/iconPlay_Normal.svg) no-repeat center;
+  background-size: 70%, 100%;
+}
+.buttonPlay .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/iconPlay_Hover.svg) no-repeat center, linear-gradient(var(--color-blue3-a), var(--color-blue4-a));
+  background-size: 70%, 100%;
+}
+.buttonPlay .button:disabled .bgImage {
+  border: 0.45vh solid var(--color-grey4);
+  color: var(--color-grey4);
+  background: url(vue-extracted-assets/iconPlay_Disabled.svg) no-repeat center;
+  background-size: 70%, 100%;
+  opacity: 0.5;
+  /* width: 4.5vh; */
+  /* height: 4.5vh; */
+  /* border-radius: 1.3vh; */
+}
+.buttonPlay .button:enabled:active .bgImage {
+  background: url(vue-extracted-assets/iconPlay_HoverDepressed.svg) no-repeat center, linear-gradient(var(--color-blue3), var(--color-blue4));
+  background-size: 70%, 100%;
+  /* border-radius: 1vh; */
+  opacity: 1;
+}
+.buttonPause .button .bgImage {
+  display: block;
+  /* border: 0 solid var(--color-blue4); */
+  /* border-radius: 0; */
+  background: url(vue-extracted-assets/iconPause_Normal.svg) no-repeat center;
+  background-size: 50%, 100%;
+  /* width: 3.7vh;
+	height: 3.7vh; */
+}
+.buttonPause .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/iconPause_Hover.svg) no-repeat center, linear-gradient(var(--color-blue3-a), var(--color-blue4-a));
+  background-size: 50%, 100%;
+  /* opacity: 0.5; */
+  /* border-radius: 1vh; */
+}
+.buttonPause .button:enabled:active .bgImage {
+  background: url(vue-extracted-assets/iconPause_HoverDepressed.svg) no-repeat center, linear-gradient(var(--color-blue3), var(--color-blue4));
+  background-size: 50%, 100%;
+  /* border-radius: 1vh; */
+  opacity: 1;
+}
+.buttonPause .button:disabled .bgImage {
+  border: 0.45vh solid var(--color-grey4);
+  color: var(--color-grey4);
+  background: url(vue-extracted-assets/iconPause_Disabled.svg) no-repeat center;
+  background-size: 50%, 100%;
+  opacity: 0.5;
+}
+.buttonReplay .button .bgImage {
+  display: block;
+  /* border: 0 solid var(--color-blue4); */
+  /* border-radius: 0; */
+  background: url(vue-extracted-assets/iconReplay_Normal.svg) no-repeat center;
+  background-size: 70%, 100%;
+  /* width: 3.7vh;
+	height: 3.7vh; */
+}
+.buttonReplay .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/iconReplay_Hover.svg) no-repeat center, linear-gradient(var(--color-blue3-a), var(--color-blue4-a));
+  background-size: 70%, 100%;
+  /* opacity: 0.5; */
+  /* border-radius: 1vh; */
+}
+.buttonReplay .button:enabled:active .bgImage {
+  background: url(vue-extracted-assets/iconReplay_HoverDepressed.svg) no-repeat center, linear-gradient(var(--color-blue3), var(--color-blue4));
+  background-size: 70%, 100%;
+}
+.buttonReplay .button:disabled .bgImage {
+  border: 0.45vh solid var(--color-grey4);
+  color: var(--color-grey4);
+  background: url(vue-extracted-assets/iconReplay_Disabled.svg) no-repeat center;
+  background-size: 70%, 100%;
+  opacity: 0.5;
+}
+.buttonX .button .bgImage {
+  display: inline-block;
+  background: url(vue-extracted-assets/buttonRadio_X_Normal.svg) no-repeat center;
+  width: 4.5vh;
+  height: 4.5vh;
+}
+.buttonX .button:enabled:hover .bgImage {
+  background: url(vue-extracted-assets/buttonRadio_X_HoverDepressed.svg) no-repeat center;
+}
+.buttonX .button:disabled .bgImage {
+  background: url(vue-extracted-assets/buttonRadio_X_Disabled.svg) no-repeat center;
+}
+.buttonX.white .button .bgImage {
+  filter: invert(100%);
+}
+.buttonX.white .button:enabled:hover .bgImage,
+.buttonX.white .button:disabled .bgImage {
+  filter: none;
+}
+.buttonBlinkBlue .button:enabled {
+  animation-name: blinkBlue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+.buttonBlinkBlue .button:enabled:hover {
+  animation-name: none;
+}
+@keyframes blinkBlue {
+from {
+    box-shadow: 0 0 0.175rem 0.175rem rgba(126, 214, 255, 0);
+    /* color-blue3 with 0 alpha */
+}
+to {
+    box-shadow: 0 0 0.5rem 0.5rem var(--color-blue3);
+}
+}
+.buttonBgImgBlinkBlue .button:enabled .bgImage {
+  animation-name: bgBlinkBlue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  --buttonBgImgBlinkBlueColor: rgba(126, 214, 255, 0.5);
+}
+@keyframes bgBlinkBlue {
+from {
+    filter: drop-shadow(0 0 var(--buttonBgImgBlinkBlueColor));
+    -webkit-filter: drop-shadow(0 0 var(--buttonBgImgBlinkBlueColor));
+}
+to {
+    filter: drop-shadow(0.2rem 0 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(-0.2rem 0 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 0.2rem 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 -0.2rem 0.2rem var(--buttonBgImgBlinkBlueColor));
+    -webkit-filter: drop-shadow(0.2rem 0 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(-0.2rem 0 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 0.2rem 0.2rem var(--buttonBgImgBlinkBlueColor)) drop-shadow(0 -0.2rem 0.2rem var(--buttonBgImgBlinkBlueColor));
+}
+}
+.buttonBlinkWhite .button:enabled {
+  animation-name: blinkWhite;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+.buttonBlinkWhite .button:enabled:hover {
+  animation-name: none;
+  box-shadow: 0 0 0.175rem 0.175rem white;
+}
+@keyframes blinkWhite {
+from {
+    box-shadow: 0 0 0.175rem 0.175rem rgba(255, 255, 255, 0);
+    /* white with 0 alpha */
+}
+to {
+    box-shadow: 0 0 0.175rem 0.175rem white;
+}
+}
+.textProp {
+  display: inline;
+}
+
+/* .buttonBasic_Invisible - START */
+.buttonBasic_Invisible .button,
+.buttonBasic_Invisible .button:disabled {
+  transition-duration: 0.4s;
+  background: transparent;
+  box-shadow: 0 0 0 0.45vh rgba(85, 188, 234, 0);
+  padding: 1.2vh;
+  border-radius: 1vh;
+  margin: 0px;
+  font-size: inherit;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  line-height: 3vh;
+}
+.buttonBasic_Invisible .button:enabled:active {
+  box-shadow: 0 0 0 0.45vh rgba(85, 188, 234, 0);
+  background: linear-gradient(var(--color-blue3), var(--color-blue4));
+}
+.buttonBasic_Invisible .button:enabled:hover {
+  box-shadow: 0 0 0 0.45vh #55bcea;
+}
+
+/* .buttonBasic_Invisible - END */
+/* .buttonBasic_Arrow - START */
+.buttonBasic_Arrow .button {
+  transition-duration: 0.4s;
+  color: var(--color-white);
+  margin: 0px;
+  font-size: inherit;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  width: 100%;
+  height: 100%;
+}
+.buttonBasic_Arrow.up .button {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Up_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.up .button:enabled:active {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Up_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.up .button:enabled:hover {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Hover_Up_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.up .button:disabled {
+  background: url(vue-extracted-assets/arrow_Large_Grey_DisabledDepressed_Down_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.down .button {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Down_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.down .button:enabled:active {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Normal_Down_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.down .button:enabled:hover {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Hover_Down_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.down .button:disabled {
+  background: url(vue-extracted-assets/arrow_Large_Grey_DisabledDepressed_Down_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.left .button {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Left_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.left .button:enabled:active {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Left_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.left .button:enabled:hover {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Hover_Left_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.left .button:disabled {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Left_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.right .button {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Right_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.right .button:enabled:active {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Right_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.right .button:enabled:hover {
+  background: url(vue-extracted-assets/arrow_Large_Grey_Hover_Right_SVG.svg) no-repeat center;
+}
+.buttonBasic_Arrow.right .button:disabled {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Right_SVG.svg) no-repeat center;
+}
+
+/* .buttonBasic_Arrow - END */
+
+.internalLink {
+  color: var(--color-orange5);
+  font-weight: bold;
+  text-decoration: none;
+}
+.internalLink:visited {
+  color: var(--color-orange5);
+}
+.internalLink:hover {
+  color: var(--color-orange5);
+}
+.internalLink-underlined {
+  text-decoration: underline;
+}
+
+/* Regular <a> tag links  */
+a,
+.grapesExternalLinkRender {
+  color: var(--color-blue5);
+  text-decoration: underline;
+  z-index: 2;
+}
+a:hover,
+.grapesExternalLinkRender:hover {
+  color: var(--color-blue3);
+}
+a:visited {
+  color: var(--color-purple4);
+}
+.grapesLinkTextRender {
+  pointer-events: none !important;
+}
+
+#glossaryParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#glossaryBG {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+}
+#glossaryBody {
+  background-color: #5c4866;
+  color: white;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 220;
+  border-radius: 0.626rem;
+}
+#glossaryTitleBar {
+  padding: 1.137vh;
+}
+#glossaryContent {
+  background-color: #74617a;
+  margin: 0 1.137vh 1.137vh 1.137vh;
+  padding: 2.25vh;
+  display: grid;
+  grid-template-columns: auto 22.75vh;
+  grid-template-rows: min-content 1fr min-content;
+  flex-grow: 1;
+  max-height: 100%;
+  min-height: 0;
+  height: 100%;
+  border-radius: 0.626rem;
+}
+#glossaryDefinitionTitle {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+#glossaryDefinition {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  max-height: 100%;
+  overflow-y: auto;
+  padding-right: 2.25vh;
+}
+#glossaryRelatedTerms {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  align-self: center;
+  padding-top: 2.25vh;
+}
+#glossarySidebarSearch {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  padding-left: 2.25vh;
+  padding-bottom: 0.2rem;
+  border-left: 1px solid #5c4866;
+  position: relative;
+}
+#glossarySidebar {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+  border-left: 1px solid #5c4866;
+  padding-left: 2.25vh;
+  min-height: 0;
+  overflow: hidden;
+}
+#termsScroll {
+  position: relative;
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#glossaryCloseButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.glossarySelectedTerm {
+  color: #5c4866 !important;
+  background-color: white;
+  border-radius: 0.15em;
+  padding: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.glossarySelectedTerm span {
+  position: relative;
+}
+.glossaryTermLink {
+  margin: 0.75em 0 0.75em 0;
+}
+.glossarySearchClear {
+  position: absolute;
+  top: 0.57vh;
+  right: 0.57vh;
+}
+.glossarySearchClear .bgImage {
+  width: 0.75rem !important;
+  height: 1.5rem !important;
+}
+
+#guidePreviousPage {
+  position: absolute;
+  bottom: 1.137vh;
+  left: 1.725vh;
+  pointer-events: all;
+}
+#guidePreviousPage .bgImage,
+#guideNextPage .bgImage {
+  width: 6vh;
+  height: 6vh;
+}
+#guideNextPage {
+  position: absolute;
+  bottom: 1.137vh;
+  right: 1.725vh;
+  pointer-events: all;
+}
+
+.popper[data-v-ab9a3e80] {
+  position: absolute;
+  padding: 3vh;
+  display: block;
+  z-index: 210;
+}
+.popper .popperArrow[data-v-ab9a3e80] {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  margin: 10px;
+  border-color: inherit;
+}
+.popper[x-placement^="top"][data-v-ab9a3e80] {
+  margin-bottom: 15px;
+}
+.popper[x-placement^="top"] .popperArrow[data-v-ab9a3e80] {
+  border-width: 10px 10px 0 10px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  bottom: -10px;
+  left: calc(50% - 20px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.popper[x-placement^="bottom"][data-v-ab9a3e80] {
+  margin-top: 15px;
+}
+.popper[x-placement^="bottom"] .popperArrow[data-v-ab9a3e80] {
+  border-width: 0 10px 10px 10px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  top: -10px;
+  left: calc(50% - 20px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.popper[x-placement^="right"][data-v-ab9a3e80] {
+  margin-left: 15px;
+}
+.popper[x-placement^="right"] .popperArrow[data-v-ab9a3e80] {
+  border-width: 10px 10px 10px 0;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  left: -10px;
+  top: calc(50% - 20px);
+  margin-left: 0;
+  margin-right: 0;
+}
+.popper[x-placement^="left"][data-v-ab9a3e80] {
+  margin-right: 15px;
+}
+.popper[x-placement^="left"] .popperArrow[data-v-ab9a3e80] {
+  border-width: 10px 0 10px 10px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  right: -10px;
+  top: calc(50% - 20px);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.popper.collapsed {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.progressBar[data-v-c55e1cb4] {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  background-color: #252525;
+  color: white;
+  overflow: hidden;
+  font-size: medium;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pages .locked[data-v-c55e1cb4] {
+  color: #adadad;
+}
+.sectionName[data-v-c55e1cb4] {
+  font-weight: bold;
+}
+.sectionName.unlocked[data-v-c55e1cb4],
+.subsectionName.unlocked[data-v-c55e1cb4] {
+  cursor: pointer;
+}
+.sections[data-v-c55e1cb4] {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 0;
+  /* this fixes a flexbox scroll resizing quirk in Chrome */
+  flex-grow: 1;
+  /* the folling is to break long words */
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+  padding: 0 0 0 0.4rem;
+}
+.section[data-v-c55e1cb4] {
+  padding: 0.4rem;
+}
+.subsections[data-v-c55e1cb4],
+.pages[data-v-c55e1cb4] {
+  display: block;
+  position: relative;
+  left: 0.8em;
+  width: calc(100% - 0.8em);
+}
+.subsection[data-v-c55e1cb4] {
+  display: block;
+}
+.subsection[data-v-c55e1cb4],
+.page[data-v-c55e1cb4] {
+  margin: 0.75em 0 0.75em 0;
+}
+.page a[data-v-c55e1cb4] {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+.page a.currentPage[data-v-c55e1cb4] {
+  color: #393a39;
+  background-color: white;
+  border-radius: 0.15em;
+  padding: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.page a.currentPage span[data-v-c55e1cb4] {
+  position: relative;
+}
+.page a.unlockedNextPage[data-v-c55e1cb4] {
+  border-radius: 0.15em;
+  padding: 0.1em;
+  margin: 0.15em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  animation-name: blinkGray-data-v-c55e1cb4;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+@keyframes blinkGray-data-v-c55e1cb4 {
+from {
+    background-color: rgba(105, 105, 105, 0);
+    box-shadow: 0 0 0.15rem 0.15rem rgba(105, 105, 105, 0);
+    /* white with 0 alpha */
+}
+to {
+    background-color: gray;
+    box-shadow: 0 0 0.15rem 0.15rem gray;
+}
+}
+.pages[data-v-c55e1cb4] :last-child,
+.subsections :last-child .subsection[data-v-c55e1cb4] {
+  margin-bottom: 0;
+}
+.guide .section.open[data-v-c55e1cb4]:not(.handbookPages) {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+.guide .sections .section.open:not(.handbookPages) .sectionName[data-v-c55e1cb4] {
+  color: #273e51;
+  background-color: white;
+  border-radius: 0.15em;
+  padding: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.guide .sections .section.open:not(.handbookPages) .sectionName span[data-v-c55e1cb4] {
+  position: relative;
+}
+.guide .subsections .subsection.open:not(.handbookPages) .subsectionName[data-v-c55e1cb4] {
+  color: #273e51;
+  background-color: white;
+  border-radius: 0.15em;
+  padding: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.guide .subsections .subsection.open:not(.handbookPages) .subsectionName span[data-v-c55e1cb4] {
+  position: relative;
+}
+.moduleSelection[data-v-c55e1cb4],
+.bottomButtons[data-v-c55e1cb4] {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.moduleSelection[data-v-c55e1cb4] {
+  align-items: stretch;
+  padding: 0 0 0.2rem 0;
+}
+.bottomButtons[data-v-c55e1cb4] {
+  justify-content: space-evenly;
+  align-self: flex-end;
+  padding: 0.2rem;
+}
+.bottomButtons span[data-v-c55e1cb4] {
+  padding: 0.4em 0.2em;
+  flex-grow: 1;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+.moduleButton[data-v-c55e1cb4] {
+  flex-grow: 1;
+}
+.moduleButton label[data-v-c55e1cb4] {
+  padding: 0.4em;
+  display: inline-block;
+  width: 100%;
+}
+.moduleButton input:enabled + label[data-v-c55e1cb4] {
+  cursor: pointer;
+}
+.moduleButton input:disabled + label[data-v-c55e1cb4] {
+  color: #adadad;
+}
+.moduleButton input:checked + label[data-v-c55e1cb4] {
+  color: white;
+}
+.progressBar.case .moduleButton.case input + label[data-v-c55e1cb4] {
+  border-radius: 0 0.3em 0 0;
+}
+.progressBar.case .moduleButton.guide input + label[data-v-c55e1cb4] {
+  border-radius: 0 0 0 0.3em;
+}
+.progressBar.guide .moduleButton.case input + label[data-v-c55e1cb4] {
+  border-radius: 0 0 0.3em 0;
+}
+.progressBar.guide .moduleButton.guide input + label[data-v-c55e1cb4] {
+  border-radius: 0.3em 0 0 0;
+}
+#glossaryButton[data-v-c55e1cb4] {
+  background-color: #5c4866;
+  margin-right: 0.2rem;
+}
+.progressBar.case[data-v-c55e1cb4],
+#caseRadio + label[data-v-c55e1cb4],
+.moduleButton.guide[data-v-c55e1cb4] {
+  background-color: #393939;
+}
+.progressBar.case #muteButton[data-v-c55e1cb4] {
+  background-color: #606060;
+}
+
+/* .sections .section.unlocked {
+	border-left-style: solid;
+	border-left-width: 5px;
+} */
+.progressBar.guide[data-v-c55e1cb4],
+#guideRadio + label[data-v-c55e1cb4],
+.moduleButton.case[data-v-c55e1cb4] {
+  background-color: #3d627a;
+}
+.progressBar.guide #muteButton[data-v-c55e1cb4] {
+  background-color: #273e51;
+}
+
+#startScreen {
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.startScreenBG {
+  background-size: cover;
+}
+#startScreenContainer {
+  padding: 5vh !important;
+}
+
+.appLoadingBar.loadingBarParent {
+  height: 97vh;
+}
+.appGrid {
+  margin: 0 auto;
+  /* align center */
+  display: grid;
+  grid-template-columns: auto 150px;
+  grid-template-rows: auto;
+  min-width: 640px;
+  min-height: 400px;
+  max-width: 160vh;
+  /* 16:10 - max 160% of height */
+  max-height: 62vw;
+  /* 16:10 - max 62% of width */
+  height: 62vw;
+  /* 16:10 - 62% of width - (10/16) = .625 */
+  width: 100vw;
+  /* full size width */
+  background-color: white;
+  overflow: hidden;
+}
+#case-content {
+  position: relative;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  overflow: auto;
+}
+#guideButtonsContainer {
+  position: relative;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  z-index: 120;
+  pointer-events: none;
+}
+#glossaryContainer {
+  position: relative;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+html {
+  font-family: Roboto, sans-serif;
+}
+html {
+    font-size: 11px;
+}
+@media screen and (min-height: 400px) {
+html {
+        font-size: calc( 11px + 16 * ((100vh - 400px) / 1040));
+}
+}
+
+@charset "UTF-8";
+body {
+  margin: 0px;
+}
+
+/* ==
+Color Variables
+== */
+:root {
+  /* ==== Colors ==== */
+  /* == GENERAL == */
+  --color-white: rgba(255, 255, 255, 1);
+  /* #ffffff */
+  --color-black: rgba(0, 0, 0, 1);
+  /* #000000 */
+  --color-transparent: rgba(
+		255,
+		255,
+		255,
+		0
+	);
+  /* #ffffffff (transparent white)  Use For:  making table lines 'invisible' */
+  /* == GREY == */
+  --color-grey1: rgba(
+		241,
+		241,
+		241,
+		1
+	);
+  /* #f1f1f1  Use For: slider bar background,  text input field background, instruction text background, tableCell-Grey, */
+  --color-grey2: rgba(
+		217,
+		217,
+		217,
+		1
+	);
+  /* #d9d9d9  Use For: Grey button Disabled, normal state icons arrows and check, slider bar, slider bar button outline (normal) and entire button disabled, time slider hands (normal), Text Box - Note Grey, textBackground-Instruction border, textBackgroundPage border, textBackground-Popup-White border, slider bar border */
+  --color-grey3: rgba(
+		187,
+		187,
+		187,
+		1
+	);
+  /* #cdcccc Use For: tableTitle-Grey, drop shadow color */
+  --color-grey4: rgba(
+		153,
+		153,
+		153,
+		1
+	);
+  /* #bbbbbb  Use For: dividing line color, placeholder text color, Text Box - Note Border Grey */
+  --color-grey5: rgba(
+		83,
+		84,
+		83,
+		1
+	);
+  /* #535453  Use For:  Grey button gradient top, */
+  --color-grey6: rgba(57, 58, 57, 1);
+  /* #393a39  Use For:  Grey button gradient bottom, */
+  --color-grey7: rgba(
+		33,
+		37,
+		41,
+		1
+	);
+  /* #212529  Use For:  page title backgrounds, drop shadows (we may need varying drop shadow colors depending on if we need varying levels of opacity), and progress bar background, as well as the body text color (if it is dark enough) */
+  --color-grey8: rgb(17, 18, 17);
+  --color-grey8-trans: rgba(
+		17,
+		18,
+		17,
+		0.25
+	);
+  /* #111211 (transparent)  Used For: top and bottom of linear gradient for .hero-image background (this is the dimming of that page’s background image) */
+  /* == RED == */
+  --color-red1: rgba(242, 223, 223, 1);
+  /* #f2dfdf   Use For: tableCell-Red, */
+  --color-red2: rgba(249, 88, 88, 1);
+  /* #f95858  Use For: progressBarSection-Red, Incorrect border */
+  --color-red3: rgba(254, 161, 161, 1);
+  /* #fea1a1  Use For: tableTitle-Red */
+  /* == ORANGE == */
+  --color-orange1: rgba(
+		242,
+		236,
+		223,
+		1
+	);
+  /* #f2ecdf  Use For: tableCell-Orange, */
+  --color-orange2: rgba(
+		252,
+		178,
+		89,
+		1
+	);
+  /* #fcb259  Use For: progressBarSection-Orange, */
+  --color-orange3: rgba(
+		254,
+		216,
+		147,
+		1
+	);
+  /* #fed893  Use For: tableTitle-Orange, */
+  --color-orange4: rgba(
+		235,
+		169,
+		31,
+		1
+	);
+  /* #eba91f  Use For: Text Box - Key Concept Border Yellow */
+  --color-orange5: rgba(
+		236,
+		137,
+		26,
+		1
+	);
+  /* #ec891a  Use For: only terms linked to glossary */
+  /* == YELLOW == */
+  --color-yellow1: rgba(
+		236,
+		242,
+		223,
+		1
+	);
+  /* #ecf2df  Use For: tableCell-Yellow, */
+  --color-yellow2: rgba(
+		255,
+		250,
+		153,
+		1
+	);
+  /* #fffa99  Use For: progressBarSection-Yellow, tableTitle-Yellow, */
+  --color-yellow3: rgba(
+		255,
+		236,
+		106,
+		1
+	);
+  /* #ffec6a Use For: Text Box - Key Concept Yellow */
+  /* == GREEN == */
+  --color-green1: rgba(
+		223,
+		242,
+		223,
+		1
+	);
+  /* #dff2df  Use For: tableCell-Green, */
+  --color-green2: rgba(
+		193,
+		255,
+		138,
+		1
+	);
+  /* #c1ff8a  Use For: progressBarSection-Green, tableTitle-Green, */
+  --color-green3: rgba(
+		146,
+		222,
+		28,
+		1
+	);
+  /* #92de1c  Use For: Text Box - Correct Border Green */
+  --color-green4: rgba(
+		188,
+		248,
+		98,
+		1
+	);
+  /* #bcf862  Use For: bottom of correct button gradient */
+  --color-green5: rgba(
+		214,
+		247,
+		135,
+		1
+	);
+  /* #d6f787  Use For: Text Box - Correct Green, top of correct button gradient */
+  /* == TEAL == */
+  --color-teal1: rgba(223, 242, 236, 1);
+  /* #dff2ec  Use For: tableCell-Teal, */
+  --color-teal2: rgba(
+		131,
+		255,
+		214,
+		1
+	);
+  /* #83ffd6  Use For: progressBarSection-Teal, */
+  --color-teal3: rgba(
+		169,
+		255,
+		251,
+		1
+	);
+  /* #a9fffb  Use For: tableTitle-Teal, */
+  /* == BLUE == */
+  --color-blue1: rgba(223, 236, 242, 1);
+  /* #dfecf2  Use For: tableCell-Blue, */
+  --color-blue2: rgba(133, 203, 255, 1);
+  /* #85cbff  Use For: progressBarSection-Blue, tableTitle-Blue, */
+  --color-blue3: rgba(
+		126,
+		214,
+		255,
+		1
+	);
+  /* #7ed6ff  Use For:  Blue Hover Outline, Blinking HLB,  External/Hyperlink/Glossary-Hover, Blue button gradient top, */
+  --color-blue3-a: rgba(
+		126,
+		214,
+		255,
+		0.5
+	);
+  /* #7ed6ff  Use For:  Blue Hover Outline, Blinking HLB,  External/Hyperlink/Glossary-Hover, Blue button gradient top, */
+  --color-blue4: rgba(
+		85,
+		188,
+		234,
+		1
+	);
+  /* #55bcea  Use For:  Blue button gradient bottom, Popup blue border */
+  --color-blue4-a: rgba(
+		85,
+		188,
+		234,
+		0.5
+	);
+  /* #55bcea  Use For:  Blue button gradient bottom, Popup blue border */
+  --color-blue5: rgba(
+		61,
+		133,
+		198,
+		1
+	);
+  /* #3d85c6  Use For: External/Hyperlink-Normal */
+  --color-blue6: rgba(
+		39,
+		61,
+		82,
+		1
+	);
+  /* #273d52 Use For: Text Box - Manual Blue */
+  --color-blue7: rgba(
+		27,
+		41,
+		55,
+		1
+	);
+  /* #1b2937 Use For: Text Box - Manual Border Blue */
+  /* == INDIGO == */
+  --color-indigo1: rgba(223, 223, 242, 1);
+  /* #dfdff2  Use For: tableCell-Indigo, */
+  --color-indigo2: rgba(
+		169,
+		179,
+		252,
+		1
+	);
+  /* #a9b3fc  Use For: progressBarSection-Indigo, tableTitle-Indigo, */
+  /* == PURPLE == */
+  --color-purple1: rgba(
+		236,
+		223,
+		242,
+		1
+	);
+  /* #ecdff2  Use For: tableCell-Purple, */
+  --color-purple2: rgba(
+		227,
+		153,
+		255,
+		1
+	);
+  /* #e399ff  Use For: progressBarSection-Purple, */
+  --color-purple3: rgba(
+		207,
+		172,
+		254,
+		1
+	);
+  /* #cfacfe  Use For: tableTitle-Purple, */
+  --color-purple4: rgba(
+		103,
+		78,
+		167,
+		1
+	);
+  /* #674ea7  Use For:  External/Hyperlink-Visited/Clicked (but not glossary links), */
+  /* == PINK == */
+  --color-pink1: rgba(242, 223, 236, 1);
+  /* #f2dfec  Use For: tableCell-Pink, */
+  --color-pink2: rgba(255, 203, 205, 1);
+  /* #ffcbcd Use For: Text Box - Incorrect Box, Placeholder Color */
+  --color-pink3: rgba(254, 170, 224, 1);
+  /* #feaae0 Use For: tableTitle-Pink, */
+}
+
+/* ==
+Color classes
+== */
+.colorWhite {
+  color: var(--color-white);
+}
+.colorBlack {
+  color: var(--color-black);
+}
+.colorGrey1 {
+  color: var(--color-grey1);
+}
+.colorGrey2 {
+  color: var(--color-grey2);
+}
+.colorGrey3 {
+  color: var(--color-grey3);
+}
+.colorGrey4 {
+  color: var(--color-grey4);
+}
+.colorGrey5 {
+  color: var(--color-grey5);
+}
+.colorGrey6 {
+  color: var(--color-grey6);
+}
+.colorGrey7 {
+  color: var(--color-grey7);
+}
+.colorRed1 {
+  color: var(--color-red1);
+}
+.colorRed2 {
+  color: var(--color-red2);
+}
+.colorRed3 {
+  color: var(--color-red3);
+}
+.colorOrange1 {
+  color: var(--color-orange1);
+}
+.colorOrange2 {
+  color: var(--color-orange2);
+}
+.colorOrange3 {
+  color: var(--color-orange3);
+}
+.colorOrange4 {
+  color: var(--color-orange4);
+}
+.colorOrange5 {
+  color: var(--color-orange5);
+}
+.colorYellow1 {
+  color: var(--color-yellow1);
+}
+.colorYellow2 {
+  color: var(--color-yellow2);
+}
+.colorYellow3 {
+  color: var(--color-yellow3);
+}
+.colorGreen1 {
+  color: var(--color-green1);
+}
+.colorGreen2 {
+  color: var(--color-green2);
+}
+.colorGreen3 {
+  color: var(--color-green3);
+}
+.colorGreen4 {
+  color: var(--color-green4);
+}
+.colorGreen5 {
+  color: var(--color-green5);
+}
+.colorTeal1 {
+  color: var(--color-teal1);
+}
+.colorTeal2 {
+  color: var(--color-teal2);
+}
+.colorTeal3 {
+  color: var(--color-teal3);
+}
+.colorBlue1 {
+  color: var(--color-blue1);
+}
+.colorBlue2 {
+  color: var(--color-blue2);
+}
+.colorBlue3 {
+  color: var(--color-blue3);
+}
+.colorBlue4 {
+  color: var(--color-blue4);
+}
+.colorBlue5 {
+  color: var(--color-blue5);
+}
+.colorBlue6 {
+  color: var(--color-blue6);
+}
+.colorBlue7 {
+  color: var(--color-blue7);
+}
+.colorIndigo1 {
+  color: var(--color-indigo1);
+}
+.colorIndigo2 {
+  color: var(--color-indigo2);
+}
+.colorPurple1 {
+  color: var(--color-purple1);
+}
+.colorPurple2 {
+  color: var(--color-purple2);
+}
+.colorPurple3 {
+  color: var(--color-purple3);
+}
+.colorPurple4 {
+  color: var(--color-purple4);
+}
+.colorPink1 {
+  color: var(--color-pink1);
+}
+.colorPink2 {
+  color: var(--color-pink2);
+}
+.colorPink3 {
+  color: var(--color-pink3);
+}
+
+/* ==
+Color background classes
+== */
+.colorBkgndWhite {
+  background-color: var(--color-white);
+}
+.colorBkgndBlack {
+  background-color: var(--color-black);
+}
+.transparency {
+  background-color: var(--color-transparent);
+}
+.colorBkgndGrey1 {
+  background-color: var(--color-grey1);
+}
+.colorBkgndGrey2 {
+  background-color: var(--color-grey2);
+}
+.colorBkgndGrey3 {
+  background-color: var(--color-grey3);
+}
+.colorBkgndGrey4 {
+  background-color: var(--color-grey4);
+}
+.colorBkgndGrey5 {
+  background-color: var(--color-grey5);
+}
+.colorBkgndGrey6 {
+  background-color: var(--color-grey6);
+}
+.colorBkgndGrey7 {
+  background-color: var(--color-grey7);
+}
+.colorBkgndRed1 {
+  background-color: var(--color-red1);
+}
+.colorBkgndRed2 {
+  background-color: var(--color-red2);
+}
+.colorBkgndRed3 {
+  background-color: var(--color-red3);
+}
+.colorBkgndOrange1 {
+  background-color: var(--color-orange1);
+}
+.colorBkgndOrange2 {
+  background-color: var(--color-orange2);
+}
+.colorBkgndOrange3 {
+  background-color: var(--color-orange3);
+}
+.colorBkgndOrange4 {
+  background-color: var(--color-orange4);
+}
+.colorBkgndOrange5 {
+  background-color: var(--color-orange5);
+}
+.colorBkgndYellow1 {
+  background-color: var(--color-yellow1);
+}
+.colorBkgndYellow2 {
+  background-color: var(--color-yellow2);
+}
+.colorBkgndYellow3 {
+  background-color: var(--color-yellow3);
+}
+.colorBkgndGreen1 {
+  background-color: var(--color-green1);
+}
+.colorBkgndGreen2 {
+  background-color: var(--color-green2);
+}
+.colorBkgndGreen3 {
+  background-color: var(--color-green3);
+}
+.colorBkgndGreen4 {
+  background-color: var(--color-green4);
+}
+.colorBkgndGreen5 {
+  background-color: var(--color-green5);
+}
+.colorBkgndTeal1 {
+  background-color: var(--color-teal1);
+}
+.colorBkgndTeal2 {
+  background-color: var(--color-teal2);
+}
+.colorBkgndTeal3 {
+  background-color: var(--color-teal3);
+}
+.colorBkgndBlue1 {
+  background-color: var(--color-blue1);
+}
+.colorBkgndBlue2 {
+  background-color: var(--color-blue2);
+}
+.colorBkgndBlue3 {
+  background-color: var(--color-blue3);
+}
+.colorBkgndBlue4 {
+  background-color: var(--color-blue4);
+}
+.colorBkgndBlue5 {
+  background-color: var(--color-blue5);
+}
+.colorBkgndBlue6 {
+  background-color: var(--color-blue6);
+}
+.colorBkgndBlue7 {
+  background-color: var(--color-blue7);
+}
+.colorBkgndIndigo1 {
+  background-color: var(--color-indigo1);
+}
+.colorBkgndIndigo2 {
+  background-color: var(--color-indigo2);
+}
+.colorBkgndPurple1 {
+  background-color: var(--color-purple1);
+}
+.colorBkgndPurple2 {
+  background-color: var(--color-purple2);
+}
+.colorBkgndPurple3 {
+  background-color: var(--color-purple3);
+}
+.colorBkgndPurple4 {
+  background-color: var(--color-purple4);
+}
+.colorBkgndPink1 {
+  background-color: var(--color-pink1);
+}
+.colorBkgndPink2 {
+  background-color: var(--color-pink2);
+}
+.colorBkgndPink3 {
+  background-color: var(--color-pink3);
+}
+
+/* ==
+Text Styling
+== */
+.placeholderText {
+  font-style: italic;
+  color: var(--color-grey2);
+}
+h1 {
+  font-size: 3em;
+  margin: 0px;
+}
+
+/* h2: 2.25x the size of the body text ~36px */
+h2 {
+  font-size: 2.25em;
+  margin: 0px;
+}
+
+/* h3: .75x the size of the body text ~28px */
+h3 {
+  font-size: 1.75em;
+  margin: 0px;
+}
+
+/* h4: .75x the size of the body text ~18px */
+h4 {
+  font-size: 1.125em;
+  margin: 0px;
+}
+
+/* h5: same size as body text just bold */
+h5 {
+  font-weight: bold;
+  margin: 0px;
+}
+
+/* h5: same size as body text just the light version */
+h6 {
+  font-weight: 300;
+  /* 300 = roboto light */
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+
+/* ======== Start - Background: Text ======== */
+.textBackgroundBasic {
+  /* textBackgroundBasic: displays as a white background is used only in the Case
+      		 Used:  on all basic text boxes within the case an manual */
+  border-radius: 1.3vh;
+  padding: 3vh;
+  margin: 0px;
+  /* margin: 40px 0 40px 0;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px; */
+  border: 0.2vh solid;
+  border-color: var(--color-grey2);
+  background-color: var(--color-white);
+  /* max-width: 0%; Need a max width setting
+      	min-width: 0%; Need a min width setting */
+}
+.dropShadow {
+  box-shadow: 0 4px 8px 0 rgba(17, 18, 17, 0.25), 0 6px 20px 0 rgba(17, 18, 17, 0.25);
+}
+.textBackground-Transparent {
+  border: none;
+  background-color: transparent;
+}
+.textBackground-Transparent-White {
+  border: none;
+  color: var(--color-white);
+  /* makes text white */
+  background-color: black;
+  /* replace "var(--color-black)" with "none" on actual implimentation */
+}
+.textBackground-DarkBlue {
+  /* Used: only in the Manual */
+  background-color: var(--color-blue6);
+  border-color: var(--color-blue7);
+  color: var(--color-white);
+  /* makes text white */
+}
+.textBackground-Correct {
+  background-color: var(--color-green5);
+  border-color: var(--color-green3);
+}
+.textBackground-Incorrect {
+  background-color: var(--color-pink2);
+  border-color: var(--color-red2);
+}
+.textBackground-KeyConcept {
+  background-color: var(--color-yellow3);
+  border-color: var(--color-orange4);
+}
+.textBackground-Note {
+  background-color: var(--color-grey2);
+  border-color: var(--color-grey3);
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0;
+  /* margin: 10px 0; */
+  color: var(--color-grey6);
+}
+
+/* ==== Start - Popups ==== */
+/* textBackground-Popup is the sizeing basics of a popup and how it functions */
+.textBackground-Popup {
+  max-width: 250px;
+  /* 25% = 25% of the container the popup is held inside */
+  /* Need to specify a max width setting */
+  /* In order for the position attribute (below) to work correctly the popup needs to be inside a container that matches the size of the whole "visual space" and that visual space needs to have it's position: relative; */
+  position: absolute;
+}
+.textBackground-Popup-Blue {
+  background-color: var(--color-blue3);
+  border-color: var(--color-blue4);
+}
+.textBackground-Popup-White {
+  background-color: var(--color-white);
+  border-color: var(--color-grey2);
+}
+.white {
+  color: var(--color-white);
+}
+.pLight {
+  font-weight: 300;
+  /* 300 = light */
+}
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.textInline {
+  display: inline;
+}
+
+/* ===
+Page styles - Deprecated
+== */
+.overlayBackground {
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  width: 100%;
+}
+.textBackground-SemiTransparent {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background-color: var(--color-white);
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+}
+.textBackgroundPage {
+  padding: 4.5vh;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid;
+  border-color: var(--color-grey2);
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: var(--color-white);
+  /* box-shadow: 0 4px 8px 0 var(--color-grey3), 0 6px 20px 0 var(--color-grey3); */
+}
+.textBackground-Instruction {
+  background-color: var(--color-grey1);
+  padding: 30px 61px 30px 61px;
+  /* margin: 0; */
+  border-left: 1px solid var(--color-grey2);
+  border-right: 1px solid var(--color-grey2);
+  top: 0;
+  position: relative;
+}
+.textBackground-Credits {
+  background-color: var(--color-grey6);
+  /* height: 100%;
+      width: 100%; */
+  opacity: 0.75;
+  /* margin: 0; */
+}
+.pageHeader {
+  /* box-shadow: 0 4px 8px 0 var(--color-grey3), 0 6px 20px 0 var(--color-grey3); */
+  border-radius: 10px 10px 0 0;
+  background-color: var(--color-grey6);
+  padding: 14px 20px 18px 20px;
+}
+.pageHeaderText {
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5em;
+  display: inline;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+.pagePadding {
+  padding: 60px;
+}
+.pageBaseWrapper {
+  margin: 9.185vh;
+  box-shadow: 0 4px 8px 0 var(--color-grey3), 0 6px 20px 0 var(--color-grey3);
+}
+.pageBase {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  padding: 9.185vh 9.185vh 9.185vh 9.185vh;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0;
+  position: relative;
+}
+.span_Box1_CBP {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+.span_Box2_CBP {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  /* the following is to fix a bug that causes scrolling to the top in Safari */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.pageHeader.span_Box1_CBP {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.articleTitleBackground {
+  background-color: var(--color-grey1);
+  margin: 0px 20px 40px 0px;
+  padding: 20px;
+}
+.dotRed {
+  background-color: var(--color-red2);
+}
+.dotOrange {
+  background-color: var(--color-orange2);
+}
+.dotYellow {
+  background-color: var(--color-yellow2);
+}
+.dotGreen {
+  background-color: var(--color-green2);
+}
+.dotTeal {
+  background-color: var(--color-teal2);
+}
+.dotBlue {
+  background-color: var(--color-blue2);
+}
+.dotIndigo {
+  background-color: var(--color-indigo2);
+}
+.dotViolet {
+  background-color: var(--color-purple2);
+}
+
+/* ===
+Page styles - vh
+== */
+@media (min-width: 640px), (max-width: 640px) {
+.div_Header_MQ {
+    border-radius: 0;
+}
+}
+@media (min-width: 640px), (max-width: 640px) {
+.div_PageBackground_MQ {
+    border-radius: 0;
+}
+}
+@media (min-width: 640px), (max-width: 640px) {
+.grid_CaseBase_MQ {
+    padding: 0;
+    border-radius: 0;
+}
+}
+@media (min-width: 880px) {
+.div_Header_MQ {
+    border-radius: 1.5vh 1.5vh 0 0;
+}
+}
+@media (min-width: 880px) {
+.div_PageBackground_MQ {
+    border-radius: 0 0 1.5vh 1.5vh;
+}
+}
+@media (min-width: 880px) {
+.grid_CaseBase_MQ {
+    padding: 6vh;
+    border-radius: 0;
+}
+}
+.grid_CaseBase {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+.item1_CaseBase_Header {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+.item2_CaseBase_PageBackground {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+.div_Header {
+  background-color: var(--color-grey6);
+  padding: 2vh 4.5vh 2vh 4.5vh;
+  border: 0.2vh solid var(--color-grey7);
+}
+.div_PageBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 4.5vh;
+  border: 0.2vh solid var(--color-grey2);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: var(--color-white);
+}
+.dot {
+  height: 2.5vh;
+  width: 2.5vh;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text_Header {
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5em;
+  display: inline;
+  padding-left: 1.5vh;
+  vertical-align: middle;
+}
+
+/* ==
+link styles
+== */
+.linkGlossaryTerm {
+  color: var(--color-orange5);
+  font-weight: bold;
+  text-decoration: none;
+}
+.linkGlossaryTerm:visited {
+  color: var(--color-orange5);
+}
+.linkGlossaryTerm:hover,
+visited {
+  color: var(--color-orange5);
+}
+.linkGlossaryTerm-underlined {
+  text-decoration: underline;
+}
+
+/* Regular <a> tag links */
+a {
+  color: var(--color-blue5);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--color-blue3);
+}
+a:visited {
+  color: var(--color-purple4);
+}
+a:hover,
+visited {
+  color: var(--color-blue3);
+}
+
+/* Button Links (btn = button) */
+.btn-link {
+  padding: 0;
+  font-size: 0.95em;
+  color: var(--color-blue5);
+  text-decoration: underline;
+}
+.btn-link:hover {
+  color: var(--color-blue3);
+}
+.btn-link:visited {
+  color: var(--color-purple4);
+}
+.btn-link:hover,
+visited {
+  color: var(--color-blue3);
+}
+
+/* ==
+placeholder styles
+== */
+.placeholderWindow {
+  margin: 0;
+}
+.placeholderTemplateBorder {
+  border: 2px solid var(--color-grey3);
+  max-width: 100%;
+  height: 100%;
+}
+
+/* ==
+ table styles
+ == */
+/* ======== Start - Tables (Renee) ======== */
+/* Table: General */
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  /* table = whole table; th = table headers; td = table rows */
+  border: 0.3vh solid var(--color-white);
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 0.7vh;
+  padding-right: 0.7vh;
+  padding-bottom: 0.7vh;
+  padding-left: 0.7vh;
+}
+.th-LowSameHigh {
+  width: 10%;
+}
+.tableCaseSpecific-CellRepiration {
+  width: 14.285714285714286%;
+}
+.tableCaseSpecific-Diffusion-Data1 {
+  width: 18%;
+}
+.tableCaseSpecific-Diffusion-Data2 {
+  width: 10%;
+}
+.tableCaseSpecific-Diffusion-Data3 {
+  width: 5%;
+}
+.unitsOfMeasure {
+  /* Scales down the font size for units of measure mM, mmHg, Microns, etc */
+  font-size: 0.75em;
+}
+
+/* Special Tabel Styles */
+.th1emptyNoTLBoarder {
+  /* no border on the Top/Left */
+  border-top: 3px solid var(--color-transparent);
+  border-left: 3px solid var(--color-transparent);
+}
+.th1emptyNoTRLBoarder {
+  /* no border on the Top/Right/Left */
+  border-top: 3px solid var(--color-transparent);
+  border-left: 3px solid var(--color-transparent);
+  border-right: 3px solid var(--color-transparent);
+}
+.th1emptyNoRBLBoarder {
+  /* no border on the Right/Bottom/Left */
+  border-right: 3px solid var(--color-transparent);
+  border-bottom: 3px solid var(--color-transparent);
+  border-left: 3px solid var(--color-transparent);
+}
+.th1emptyNoTRBLBoarder {
+  border: 3px solid var(--color-transparent);
+}
+.thTabT {
+  /* Tab effect on Top of cell */
+  border-radius: 20px 20px 0 0;
+}
+.thTabB {
+  /* Tab effect on Bottom of cell */
+  border-radius: 0 0 20px 20px;
+}
+.td1-BackgroundColorSplit70 {
+  background: linear-gradient(to left, var(--color-grey1) 70%, var(--color-transparent) 0%);
+}
+
+/* Tabel Headers */
+.th1,
+.grey3 {
+  /* this is the 1st cell in a column */
+  background-color: #cccccc;
+}
+.th2,
+.red3 {
+  /* this is the 2nd cell in a column */
+  background-color: var(--color-red3);
+}
+.th3,
+.orange3 {
+  /* this is the 3rd cell in a column */
+  background-color: var(--color-orange3);
+}
+.th4,
+.yellow2 {
+  /* this is the 4th cell in a column */
+  background-color: var(--color-yellow2);
+}
+.th5,
+.green2 {
+  /* this is the 5th cell in a column */
+  background-color: var(--color-green2);
+}
+.th6,
+.teal3 {
+  /* this is the 6th cell in a column */
+  background-color: var(--color-teal3);
+}
+.th7,
+.blue2 {
+  /* this is the 7th cell in a column */
+  background-color: var(--color-blue2);
+}
+.th8,
+.indigo2 {
+  /* this is the 8th cell in a column */
+  background-color: var(--color-indigo2);
+}
+.th9,
+.purple3 {
+  /* this is the 9th cell in a column */
+  background-color: var(--color-purple3);
+}
+.th10,
+.pink3 {
+  /* this is the 10th cell in a column */
+  background-color: var(--color-pink3);
+}
+
+/* Tabel Rows */
+.td1,
+.grey1 {
+  /* this is the 1st cell in a row */
+  background-color: #eaeaea;
+}
+.td2,
+.red1 {
+  /* this is the 2nd cell in a row */
+  background-color: var(--color-red1);
+}
+.td3,
+.orange1 {
+  /* this is the 3rd cell in a row */
+  background-color: var(--color-orange1);
+}
+.td4,
+.yellow1 {
+  /* this is the 4th cell in a row */
+  background-color: var(--color-yellow1);
+}
+.td5,
+.green1 {
+  /* this is the 5th cell in a row */
+  background-color: var(--color-green1);
+}
+.td6,
+.teal1 {
+  /* this is the 6th cell in a row */
+  background-color: var(--color-teal1);
+}
+.td7,
+.blue1 {
+  /* this is the 7th cell in a row */
+  background-color: var(--color-blue1);
+}
+.td8,
+.indigo1 {
+  /* this is the 8th cell in a row */
+  background-color: var(--color-indigo1);
+}
+.td9,
+.purple1 {
+  /* this is the 9th cell in a row */
+  background-color: var(--color-purple1);
+}
+.td10,
+.pink1 {
+  /* this is the 10th cell in a row */
+  background-color: var(--color-pink1);
+}
+.arrowInTable {
+  width: 25%;
+  height: 25%;
+}
+
+/* Exclusive for grid_Table */
+.border-bottom-right-radius_GridTable {
+  border-bottom-right-radius: 1vh;
+}
+.border-bottom-left-radius_GridTable {
+  border-bottom-left-radius: 1vh;
+}
+.border-top-left-radius_GridTable {
+  border-top-left-radius: 1vh;
+}
+.border-top-right-radius_GridTable {
+  border-top-right-radius: 1vh;
+}
+
+/* Exclusive for all other tables (not made using css grid) */
+.border-bottom-right-radius_Table {
+  border-bottom-right-radius: 1.5vh;
+}
+.border-bottom-left-radius_Table {
+  border-bottom-left-radius: 1.5vh;
+}
+.border-top-left-radius_Table {
+  border-top-left-radius: 1.5vh;
+}
+.border-top-right-radius_Table {
+  border-top-right-radius: 1.5vh;
+}
+
+/* * put this before margin classes so they can override margin: 0 */
+.no-border {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 25px;
+}
+:root {
+  /* ==== Lengths ==== */
+  --length1: 0.7vh;
+  /* 10.8px/2=5.4px */
+  --length2: 1.5vh;
+  /* 21.6px/2=10.8px */
+  --length3: 3vh;
+  /* 43.2px/2=21.6px */
+  --length4: 4.5vh;
+  /* 64.8px/2=32.4px */
+}
+
+/* * margins for grid */
+.marginBottom1 {
+  /* Used between label and associated element */
+  margin-bottom: var(--length1);
+}
+.marginBottom2 {
+  /* Used for elements that are associated with each other */
+  margin-bottom: var(--length2);
+}
+.marginBottom3 {
+  /* Used for elements not associated with each other */
+  margin-bottom: var(--length3);
+}
+.marginBottom4 {
+  /* Used for spacing between edge of layout and page content */
+  margin-bottom: var(--length4);
+}
+
+/* marginRight */
+.marginRight1 {
+  margin-right: var(--length1);
+}
+.marginRight2 {
+  margin-right: var(--length2);
+}
+.marginRight3 {
+  margin-right: var(--length3);
+}
+.marginRight4 {
+  margin-right: var(--length4);
+}
+
+/* marginLeft */
+.marginLeft1 {
+  margin-left: var(--length1);
+}
+.marginLeft2 {
+  margin-left: var(--length2);
+}
+.marginLeft3 {
+  margin-left: var(--length3);
+}
+.marginLeft4 {
+  margin-left: var(--length4);
+}
+
+/* marginTop */
+.marginTop1 {
+  margin-top: var(--length1);
+}
+.marginTop2 {
+  margin-top: var(--length2);
+}
+.marginTop3 {
+  margin-top: var(--length3);
+}
+.marginTop4 {
+  margin-top: var(--length4);
+}
+
+/* ==
+scaling
+== */
+.scaleBy90Percent {
+  transform: scale(0.9);
+}
+.scaleBy80Percent {
+  transform: scale(0.8);
+}
+.scaleBy75Percent {
+  transform: scale(0.75);
+}
+.scaleBy70Percent {
+  transform: scale(0.7);
+}
+.scaleBy60Percent {
+  transform: scale(0.6);
+}
+.scaleBy50Percent {
+  transform: scale(0.5);
+}
+.scaleBy45Percent {
+  transform: scale(0.45);
+}
+.scaleBy40Percent {
+  transform: scale(0.4);
+}
+.scaleBy30Percent {
+  transform: scale(0.3);
+}
+.scaleBy25Percent {
+  transform: scale(0.25);
+}
+.scaleBy20Percent {
+  transform: scale(0.2);
+}
+.scaleBy10Percent {
+  transform: scale(0.1);
+}
+
+/* ==
+image styles
+== */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.backgroundImage {
+  background-size: cover;
+  resize: both;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Unsure of how to get the images to be positioned at the bottom of the page */
+.hero-image {
+  background: linear-gradient(rgba(17, 18, 17, 0.45), rgba(17, 18, 17, 0.45)), url("http://dev.cogenteducation.com/public/WebStyle/img/labBlurredScreenshot.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.imageGaLogo {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  height: 15%;
+}
+.imageNIHLogo {
+  position: absolute;
+  right: 30px;
+  bottom: 200px;
+  height: 3%;
+}
+.placeholderImage-FurtherResearch {
+  background-color: var(--color-pink2);
+  margin: 0px 0px 40px 20px;
+  padding: 20px;
+}
+
+/* ==
+//lines and boxes
+== */
+.colorBox {
+  width: 100%;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 0.2vh;
+}
+.vLine {
+  height: 100%;
+  width: 2px;
+  min-height: 2px;
+}
+
+/* ==
+//arrow heads
+== */
+.arrowDown {
+  background: url(vue-extracted-assets/arrowDown.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+}
+.arrowLeft {
+  background: url(vue-extracted-assets/arrowLeft.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+}
+.arrowRight {
+  background: url(vue-extracted-assets/arrowRight.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+}
+.arrowUp {
+  background: url(vue-extracted-assets/arrowUp.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+}
+.horizontalArrow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.verticalArrow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#debugLabel {
+  position: absolute;
+  z-index: 1000;
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  background-color: white;
+}
+
+.page[data-v-4e0031a0] {
+  /* the following is to fix a bug that causes scrolling to the top in Safari */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  min-height: 25px;
+}
+
+.anchorTransition {
+  transition: top, left 0.0666s linear;
+}
+
+/* in safari we need to apply this style to the child <svg> element */
+.imageOutline > svg {
+  filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+  -webkit-filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+}
+
+.yarrow {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  overflow: visible;
+}
+.yarrow .arrow {
+  stroke-width: 1;
+  stroke: #000;
+  fill: none;
+  -webkit-animation: 2s linear 2s 1 normal forwards yarrow-draw;
+  -moz-animation: 2s linear 2s 1 normal forwards yarrow-draw;
+  -ms-animation: 2s linear 2s 1 normal forwards yarrow-draw;
+  -o-animation: 2s linear 2s 1 normal forwards yarrow-draw;
+  animation: 2s linear 2s 1 normal forwards yarrow-draw;
+}
+.yarrow .arrow.text {
+  stroke: none;
+  fill: #000;
+}
+@-webkit-keyframes yarrow-draw {
+to {
+    stroke-dashoffset: 0;
+}
+}
+@-moz-keyframes yarrow-draw {
+to {
+    stroke-dashoffset: 0;
+}
+}
+@-ms-keyframes yarrow-draw {
+to {
+    stroke-dashoffset: 0;
+}
+}
+@keyframes yarrow-draw {
+to {
+    stroke-dashoffset: 0;
+}
+}
+
+.checkboxContainer[data-v-083f0e52] {
+  display: inline-block;
+  vertical-align: top;
+}
+.checkbox[data-v-083f0e52] {
+  display: inline-block;
+  cursor: pointer;
+}
+input:disabled + .checkbox[data-v-083f0e52] {
+  cursor: not-allowed;
+}
+.buttonToggle[data-v-083f0e52] {
+  border: none;
+}
+.buttonToggle input:enabled .checkbox[data-v-083f0e52] {
+  cursor: pointer;
+}
+.buttonToggle input[data-v-083f0e52],
+.buttonToggle_White input[data-v-083f0e52],
+.buttonToggle_Point input[data-v-083f0e52] {
+  display: none;
+}
+.buttonToggle input:checked:hover + .checkbox .checkmark[data-v-083f0e52],
+.buttonToggle .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_Normal.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 5.4vh;
+  width: 5.4vh;
+}
+.buttonToggle input:checked + .checkbox .checkmark[data-v-083f0e52],
+.buttonToggle input:hover + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_HoverDepressed.svg);
+  background-repeat: no-repeat;
+}
+.buttonToggle input:disabled + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_DisabledUnchecked.svg);
+  background-repeat: no-repeat;
+}
+.buttonToggle input:disabled:checked + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_DisabledChecked.svg);
+  background-repeat: no-repeat;
+}
+.buttonToggle input:enabled:active + .checkbox .checkmark[data-v-083f0e52] {
+  transform: scale(0.95);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* .buttonToggle_White - START */
+.buttonToggle_White input:checked:hover + .checkbox .checkmark[data-v-083f0e52],
+.buttonToggle_White .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_White_Normal.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 5.4vh;
+  width: 5.4vh;
+}
+.buttonToggle_White input:checked + .checkbox .checkmark[data-v-083f0e52],
+.buttonToggle_White input:hover + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_White_HoverDepressed.svg);
+  background-repeat: no-repeat;
+}
+.buttonToggle_White input:disabled + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_DisabledUnchecked.svg);
+  background-repeat: no-repeat;
+}
+.buttonToggle_White input:disabled:checked + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/buttonToggle_DisabledChecked.svg);
+  background-repeat: no-repeat;
+}
+
+/* .buttonToggle_White - END */
+/* .buttonToggle_Point - START */
+.buttonToggle_Point .checkbox[data-v-083f0e52] {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  justify-content: center;
+  background: transparent;
+  border: 0.45vh solid var(--color-blue4);
+  border-radius: 6vh;
+  min-height: 5.4vh;
+  min-width: 5.4vh;
+  padding: 0 1.5vh 0 1.5vh;
+  color: var(--color-blue4);
+}
+.buttonToggle_Point .checkbox .checkmark[data-v-083f0e52] {
+  background: transparent;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+  justify-self: center;
+  color: var(--color-blue4);
+}
+.buttonToggle_Point .checkbox .slot[data-v-083f0e52] {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+}
+.buttonToggle_Point .checkbox p[data-v-083f0e52] {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+}
+.buttonToggle_Point .checkbox .checkmark[data-v-083f0e52] {
+  width: 0;
+  height: 0;
+}
+.buttonToggle_Point input:hover + .checkbox[data-v-083f0e52] {
+  background: rgba(126, 214, 255, 0.5);
+  border: 0.45vh solid var(--color-blue4);
+  color: var(--color-black);
+}
+.buttonToggle_Point input:checked + .checkbox[data-v-083f0e52] {
+  background: linear-gradient(var(--color-blue3), var(--color-blue4));
+  border: 0.45vh solid var(--color-blue4);
+  color: var(--color-black);
+}
+.buttonToggle_Point input:disabled + .checkbox[data-v-083f0e52] {
+  background: transparent;
+  border: 0.45vh solid rgba(187, 187, 187, 0.5);
+  color: rgba(57, 58, 57, 0.5);
+}
+.buttonToggle_Point input:disabled + .checkbox .checkmark[data-v-083f0e52] {
+  background: transparent;
+}
+.buttonToggle_Point input:disabled:checked + .checkbox[data-v-083f0e52] {
+  background: rgba(187, 187, 187, 0.5);
+  border: 0.45vh solid rgba(187, 187, 187, 0);
+}
+.buttonToggle_Point input:disabled:checked + .checkbox .checkmark[data-v-083f0e52] {
+  background: transparent;
+}
+
+/* .buttonToggle_Point - END */
+.buttonCheck input[data-v-083f0e52] {
+  display: none;
+}
+.buttonCheck .checkmark[data-v-083f0e52] {
+  border: 0.4vh solid var(--color-blue4);
+  display: inline-block;
+  border-radius: 1.3vh;
+  display: inline-block;
+  background: url(vue-extracted-assets/iconCheck_Normal.svg) no-repeat center, transparent;
+  background-size: 50%, 100%;
+  width: 4.5vh;
+  height: 4.5vh;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonCheck input:enabled:active + .checkbox .checkmark[data-v-083f0e52] {
+  transform: scale(0.95);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonCheck input:enabled + .checkbox:hover .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/iconCheck_HoverNormal.svg) center, rgba(126, 214, 255, 0.5);
+  /* color-blue3 at 50% transparency */
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  /* opacity: 0.5; */
+}
+.buttonCheck input:enabled:checked + .checkbox:hover .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/iconCheck_HoverDepressed.svg) center, rgba(126, 214, 255, 0.5);
+  /* color-blue3 at 50% transparency */
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  /* opacity: 0.5; */
+}
+.buttonCheck input:enabled:checked + .checkbox .checkmark[data-v-083f0e52],
+.buttonCheck input:disabled + .checkbox.correct .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/iconCheck_HoverDepressed.svg) center, linear-gradient(var(--color-blue3), var(--color-blue4));
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+}
+.buttonCheck input:disabled + .checkbox .checkmark[data-v-083f0e52] {
+  background-image: url(vue-extracted-assets/iconCheck_HoverDepressed.svg);
+  background-color: Transparent;
+  border: 0.45vh solid var(--color-grey4);
+  color: var(--color-grey4);
+  opacity: 0.5;
+}
+.buttonCheck input:disabled:checked + .checkbox .checkmark[data-v-083f0e52] {
+  background: url(vue-extracted-assets/iconCheck_HoverDepressed.svg) center, linear-gradient(var(--color-grey3), var(--color-grey4));
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  color: var(--color-grey4);
+  opacity: 0.5;
+}
+.buttonCheck input:disabled + .checkbox.correct .checkmark[data-v-083f0e52] {
+  border: 0.45vh solid var(--color-green3);
+  background: url(vue-extracted-assets/iconCheck_HoverDepressed.svg) center, linear-gradient(var(--color-green4), var(--color-green3));
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  color: var(--color-black);
+  opacity: 1;
+}
+.buttonCheck.incorrect input:disabled + .checkbox .checkmark[data-v-083f0e52] {
+  border: 0.45vh solid var(--color-red3);
+  background: url(vue-extracted-assets/iconCheck_HoverDepressed.svg) center, linear-gradient(var(--color-pink2), var(--color-red3));
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  color: var(--color-black);
+  opacity: 1;
+}
+
+.drop {
+  display: inline-block;
+}
+.buttonDrop {
+  transition-duration: 0.4s;
+  background-color: var(--color-white);
+  /* opacity: 0%; */
+  border: 0.4vh solid var(--color-grey2);
+  border-radius: 1.3vh;
+  transition-duration: 0.4s;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  line-height: 3vh;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.buttonDrop .contentSlot {
+  /* this is to vertical align slot contents */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  z-index: 0;
+}
+.buttonDrop .dragSlot {
+  /* this is to vertical align slot contents */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  line-height: 3vh;
+  /* top: -10.25vh; */
+  position: relative;
+  z-index: 1;
+}
+.buttonDrop:enabled:hover {
+  background-color: var(--color-white);
+  border: 3px solid var(--color-blue3);
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+.dropFlexHorizontal .dragSlot {
+  flex-direction: row;
+}
+.dropFlexVertical .dragSlot {
+  flex-direction: column;
+}
+.drop.dropDiamond {
+  background: url(vue-extracted-assets/dropDiamond.svg) no-repeat center;
+  border: 0vh solid var(--color-grey2);
+  border-radius: 0;
+  transition-duration: 0.4s;
+  width: 8.5vh;
+  height: 8.5vh;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.drop.drop_ButtonBasic-Grey_Dark {
+  background-color: #ffffff80;
+  color: #ffffff80;
+  border: 0.25vh solid #ffffff80;
+  border-radius: 1.3vh;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  padding: 0;
+}
+.drop.drop_ButtonBasic-Grey_Light {
+  background-color: #ffffff40;
+  color: #ffffff80;
+  border: 0.25vh solid #ffffff80;
+  border-radius: 1.3vh;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  padding: 0;
+}
+
+/* basic drag "button" styles. (normal aka "diamond", ) */
+.drag {
+  display: inline-block;
+}
+.drag:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.drag:enabled:hover {
+  cursor: grab;
+}
+.drag:enabled:active {
+  cursor: grabbing;
+}
+.buttonDrag {
+  background: transparent url(vue-extracted-assets/buttonDrag_Normal.svg) no-repeat center;
+  width: 8.5vh;
+  height: 8.5vh;
+  border: none;
+  cursor: default;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+.buttonDrag:enabled:hover {
+  background: transparent url(vue-extracted-assets/buttonDrag_HoverDepressed.svg) no-repeat center;
+}
+.buttonDrag:disabled,
+.buttonDrag_White:disabled {
+  background: transparent url(vue-extracted-assets/buttonDragDisabled.svg) no-repeat center;
+  cursor: not-allowed;
+}
+.buttonDrag .slot {
+  /* this is to vertical align slot contents */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* .buttonDrag_White - START */
+.buttonDrag_White {
+  background: transparent url(vue-extracted-assets/buttonDrag_White_Normal.svg) no-repeat center;
+  width: 8.5vh;
+  height: 8.5vh;
+  border: none;
+  cursor: default;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+.buttonDrag_White:enabled:hover {
+  background: transparent url(vue-extracted-assets/buttonDrag_White_HoverDepressed.svg) no-repeat center;
+}
+
+/* .buttonDrag_White - END */
+.drag.buttonBasic-Grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+  border: 0.25vh solid var(--color-grey6);
+  padding: 1.2vh;
+  color: var(--color-white);
+  margin: 0px;
+  font-size: inherit;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+  line-height: 1.2em;
+  border-radius: 1.3vh;
+}
+.drag.buttonBasic-Grey:enabled:active {
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+}
+.drag.buttonBasic-Grey:enabled:hover {
+  box-shadow: 0 0 0 0.45vh var(--color-blue3);
+}
+.drag.buttonBasic-Grey:disabled {
+  background: linear-gradient(var(--color-grey4), var(--color-grey5));
+  border: 0.25vh solid var(--color-grey5);
+  opacity: 0.5;
+}
+.buttonBlinkBlue.drag:enabled {
+  animation-name: blinkBlue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+.buttonBlinkBlue.drag:enabled:hover {
+  animation-name: none;
+}
+
+.imageOutline[data-v-5179d3f7] {
+  filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+  -webkit-filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+}
+
+.radioParent[data-v-4bfcee97] {
+  display: inline-block;
+  min-width: 4.5vh;
+  min-height: 4.5vh;
+}
+input:enabled + .radioButton[data-v-4bfcee97]:active {
+  transform: scale(0.95);
+}
+.radioButtonMargin[data-v-4bfcee97] {
+  margin: 15px;
+}
+.buttonRadio .radioButton[data-v-4bfcee97] {
+  display: inline-block;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0.45vh solid var(--color-blue4);
+  line-height: 4.5vh;
+  min-height: 4.5vh;
+  border-radius: 1.3vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+}
+input:disabled + .radioButton[data-v-4bfcee97] {
+  cursor: not-allowed;
+}
+.buttonRadio input[data-v-4bfcee97] {
+  display: none;
+}
+.buttonRadio input:enabled + .radioButton[data-v-4bfcee97]:hover {
+  background-color: rgba(126, 214, 255, 0.5);
+  /* color-blue3 at 50% transparency */
+}
+.buttonRadio input:enabled:checked + .radioButton[data-v-4bfcee97] {
+  background: linear-gradient(var(--color-blue3), var(--color-blue4));
+}
+.buttonRadio.incorrect input:disabled + .radioButton[data-v-4bfcee97],
+.buttonRadio.incorrect input:disabled:checked + .radioButton[data-v-4bfcee97] {
+  background: linear-gradient(var(--color-pink2), var(--color-red3));
+  border: 0.45vh solid var(--color-red3);
+  color: var(--color-black);
+  opacity: 1;
+}
+.buttonRadio input:disabled + .radioButton.correct[data-v-4bfcee97],
+.buttonRadio input:disabled:checked + .radioButton.correct[data-v-4bfcee97] {
+  border: 0.45vh solid var(--color-green3);
+  background: linear-gradient(var(--color-green4), var(--color-green3));
+  color: var(--color-black);
+  opacity: 1;
+}
+.buttonRadio input:disabled + .radioButton[data-v-4bfcee97] {
+  border: 0.45vh solid var(--color-grey4);
+  color: #535453;
+  opacity: 0.5;
+}
+.buttonRadio input:disabled:checked + .radioButton[data-v-4bfcee97] {
+  background: linear-gradient(var(--color-grey3), var(--color-grey4));
+  opacity: 0.5;
+}
+.buttonRadio.buttonBlinkBlue input:enabled + .radioButton[data-v-4bfcee97] {
+  animation-name: blinkBlue;
+  /* this animation is defined in WidgetButton */
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+.buttonRadio.Variation .radioButton[data-v-4bfcee97] {
+  padding: 1.3vh;
+}
+.buttonRadio.Variation input:enabled:checked + .radioButton[data-v-4bfcee97] {
+  color: var(--color-white);
+}
+.buttonRadio.Variation input:disabled:checked + .radioButton[data-v-4bfcee97] {
+  color: var(--color-grey8);
+}
+.buttonRadio.Up .radioButton[data-v-4bfcee97] {
+  line-height: 0px;
+  padding: 0;
+}
+.buttonRadio.Up .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowUp_Normal.svg) no-repeat center, transparent;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+}
+.buttonRadio.Up input:enabled + .radioButton:hover .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowUp_HoverDepressed.svg) center;
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 0.5;
+}
+.buttonRadio.Up input:enabled:checked + .radioButton .checkmark[data-v-4bfcee97],
+.buttonRadio.Up input:disabled + .radioButton.correct .checkmark[data-v-4bfcee97],
+.buttonRadio.Up.incorrect input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowUp_HoverDepressed.svg) center;
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.buttonRadio.Up input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowUp_HoverDepressed.svg) no-repeat center;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.buttonRadio.NoChange .radioButton[data-v-4bfcee97] {
+  line-height: 0px;
+  padding: 0;
+}
+.buttonRadio.NoChange .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowNoChange_Normal.svg) no-repeat center, transparent;
+  background-size: 75%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+}
+.buttonRadio.NoChange input:enabled + .radioButton:hover .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowNoChange_HoverDepressed.svg) no-repeat center;
+  background-size: 75%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 0.5;
+}
+.buttonRadio.NoChange input:enabled:checked + .radioButton .checkmark[data-v-4bfcee97],
+.buttonRadio.NoChange input:disabled + .radioButton.correct .checkmark[data-v-4bfcee97],
+.buttonRadio.NoChange.incorrect input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowNoChange_HoverDepressed.svg) center;
+  background-repeat: no-repeat;
+  background-size: 75%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.buttonRadio.NoChange input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowNoChange_HoverDepressed.svg) no-repeat center;
+  background-size: 75%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.buttonRadio.Down .radioButton[data-v-4bfcee97] {
+  line-height: 0px;
+  padding: 0;
+}
+.buttonRadio.Down .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowDown_Normal.svg) no-repeat center, transparent;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+}
+.buttonRadio.Down .radioButton:hover .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowDown_HoverDepressed.svg) no-repeat center;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 0.5;
+}
+.buttonRadio.Down input:enabled:checked + .radioButton .checkmark[data-v-4bfcee97],
+.buttonRadio.Down input:disabled + .radioButton.correct .checkmark[data-v-4bfcee97],
+.buttonRadio.Down.incorrect input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowDown_HoverDepressed.svg) center;
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.buttonRadio.Down input:disabled + .radioButton .checkmark[data-v-4bfcee97] {
+  background: url(vue-extracted-assets/iconArrowDown_HoverDepressed.svg) no-repeat center;
+  background-size: 50%, 100%;
+  display: inline-block;
+  width: 3.7vh;
+  height: 3.7vh;
+  opacity: 1;
+}
+.slotHorizontal .slot[data-v-4bfcee97] {
+  display: flex;
+  align-items: center;
+}
+.radioFillHeight .radioButton[data-v-4bfcee97] {
+  height: 100%;
+}
+.radioMultiLine .radioButton[data-v-4bfcee97] {
+  line-height: normal;
+}
+
+/* INCOMPLETE PARTS - Start */
+.buttonRadio_Complete1_Incomplete input {
+  /* Turns off the little round radio button */
+  display: none;
+}
+.buttonRadio_Complete1_Incomplete .slot {
+  /* MainButtonShape */
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* Incomplete: Normal (Enabled) */
+.buttonRadio_Complete1_Incomplete .radioButton {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: rgba(126, 214, 255, 0.5);
+  border-radius: 1.3vh;
+  line-height: 3vh;
+  min-height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  height: 100%;
+}
+.buttonRadio_Complete1_Incomplete input:enabled + .radioButton {
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+}
+.buttonRadio_Complete1_Incomplete input:enabled + label .radioInComplete_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border-right: 0 solid var(--color-grey7);
+  border-top: 0.25vh solid var(--color-grey7);
+  border-left: 0.25vh solid var(--color-grey7);
+  border-bottom: 0.25vh solid var(--color-grey7);
+}
+.buttonRadio_Complete1_Incomplete
+input:enabled
++ label
+.radioInComplete_box_Check {
+  background-color: var(--color-white);
+  border: 0.25vh solid var(--color-grey2);
+}
+
+/* Incomplete: Disabled */
+.buttonRadio_Complete1_Incomplete input:disabled + .radioButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0 solid var(--color-grey4);
+  border-radius: 1.3vh;
+}
+.buttonRadio_Complete1_Incomplete input:disabled + label .radioInComplete_Text {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(top, #999999 4.58716%, var(--color-grey5) 99%);
+  border-top: 0.25vh solid var(--color-grey5);
+  border-right: 0 solid var(--color-grey5);
+  border-bottom: 0.25vh solid var(--color-grey5);
+  border-left: 0.25vh solid var(--color-grey5);
+  opacity: 0.5;
+}
+.buttonRadio_Complete1_Incomplete
+input:disabled
++ label
+.radioInComplete_box_Check {
+  background-color: var(--color-white);
+  border: 0.25vh solid var(--color-grey5);
+  opacity: 0.5;
+}
+
+/* Incomplete: Hover (Enabled) */
+.buttonRadio_Complete1_Incomplete input:enabled + .radioButton:hover {
+  /* border-width: 0.313rem; */
+  background-color: rgba(126, 214, 255, 0);
+  box-shadow: 0 0 0 0.45vh var(--color-blue3);
+}
+
+/* .buttonRadio_Complete1_Incomplete
+	input:enabled
+	+ label:hover
+	.radioInComplete_Text {
+	background-image: -webkit-linear-gradient(
+		top,
+		rgb(126, 214, 255, 0.5) 4.58716%,
+		rgb(85, 188, 234, 0.5) 99%
+	);
+	border-right: 0 solid var(--color-blue3);
+	border-top: 0.25vh solid var(--color-blue3);
+	border-left: 0.25vh solid var(--color-blue3);
+	border-bottom: 0.25vh solid var(--color-blue3);
+	background-color: transparent;
+}
+.buttonRadio_Complete1_Incomplete
+	input:enabled
+	+ label:hover
+	.radioInComplete_box_Check {
+	background-image: -webkit-linear-gradient(
+		top,
+		rgb(126, 214, 255, 0.5) 4.58716%,
+		rgb(85, 188, 234, 0.5) 99%
+	);
+	border: 0.25vh solid var(--color-blue3);
+}
+
+.buttonRadio_Complete1_Incomplete
+	input:enabled
+	+ label:hover
+	.radioInComplete_box_Check
+	img {
+	opacity: 0.5;
+} */
+/* Incomplete: Depressed - Down/Chosen/Checked (Enabled) */
+.buttonRadio_Complete1_Incomplete input:enabled:checked + .radioButton {
+  background-color: rgba(126, 214, 255, 0.5);
+  border-width: 0vh;
+  border-style: solid;
+  border-color: var(--color-blue4);
+  margin-left: 0vh;
+  box-shadow: 0 0 0 0.45vh var(--color-blue3);
+}
+.buttonRadio_Complete1_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border-top: 0.25vh solid var(--color-grey6);
+  border-bottom: 0.25vh solid var(--color-grey6);
+  border-left: 0.25vh solid var(--color-grey6);
+  border-right: 0 solid var(--color-grey6);
+}
+.buttonRadio_Complete1_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_box_Check {
+  background-color: var(--color-blue3);
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border-top: 0.25vh solid var(--color-blue4);
+  border-bottom: 0.25vh solid var(--color-blue4);
+  border-right: 0.25vh solid var(--color-blue4);
+  border-left: 0.25vh solid var(--color-blue4);
+}
+
+/* Turning on and off the black and grey checkmarks */
+.buttonRadio_Complete1_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_black_check {
+  display: block;
+}
+.buttonRadio_Complete1_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_grey_check {
+  display: none;
+}
+
+/* INCOMPLETE PARTS - END */
+/* COMPLETE PARTS - Start */
+.buttonRadio_Complete1_Completed input {
+  /* Turns off the little round radio button */
+  display: none;
+}
+.buttonRadio_Complete1_Completed .slot {
+  /* MainButtonShape */
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* Complete: Normal (Enabled) */
+.buttonRadio_Complete1_Completed .radioButton {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: var(--color-grey6);
+  border-radius: 1.3vh;
+  line-height: 3vh;
+  min-height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  height: 100%;
+}
+.buttonRadio_Complete1_Completed input:enabled + .radioButton {
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+}
+.buttonRadio_Complete1_Completed input:enabled + label .radioInComplete_Text {
+  background-color: var(--color-grey7);
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border-top: 0.25vh solid var(--color-grey6);
+  border-right: 0 solid var(--color-grey6);
+  border-bottom: 0.25vh solid var(--color-grey6);
+  border-left: 0.25vh solid var(--color-grey6);
+}
+.buttonRadio_Complete1_Completed
+input:enabled
++ label
+.radioInComplete_box_Check {
+  background-color: var(--color-grey7);
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border: 0.25vh solid var(--color-grey6);
+}
+
+/* Complete: Disabled */
+.buttonRadio_Complete1_Completed input:disabled + .radioButton {
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 0vh;
+  border-style: solid;
+  border-color: var(--color-grey2);
+}
+.buttonRadio_Complete1_Completed input:disabled + label .radioInComplete_Text {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(top, #999999 4.58716%, var(--color-grey5) 99%);
+  border-top: 0.25vh solid var(--color-grey5);
+  border-right: 0 solid var(--color-grey5);
+  border-bottom: 0.25vh solid var(--color-grey5);
+  border-left: 0.25vh solid var(--color-grey5);
+  opacity: 0.5;
+}
+.buttonRadio_Complete1_Completed
+input:disabled
++ label
+.radioInComplete_box_Check {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(top, #999999 4.58716%, var(--color-grey5) 99%);
+  border: 0.25vh solid var(--color-grey5);
+  opacity: 0.5;
+}
+
+/* Complete: Depressed - Down/Chosen/Checked (Enabled) */
+.buttonRadio_Complete1_Completed input:enabled:checked + .radioButton {
+  background-color: rgba(126, 214, 255, 0.5);
+  border-width: 0vh;
+  border-style: solid;
+  border-color: var(--color-blue4);
+  margin-left: 0vh;
+  /* box-shadow: 0 0 0 0.45vh var(--color-blue3); */
+}
+.buttonRadio_Complete1_Completed
+input:enabled:checked
++ label
+.radioInComplete_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border-top: 0.25vh solid var(--color-grey6);
+  border-bottom: 0.25vh solid var(--color-grey6);
+  border-left: 0.25vh solid var(--color-grey6);
+  border-right: 0 solid var(--color-grey6);
+}
+.buttonRadio_Complete1_Completed
+input:enabled:checked
++ label
+.radioInComplete_black_check {
+  display: inherit;
+}
+.buttonRadio_Complete1_Completed
+input:enabled:checked
++ label
+.radioInComplete_grey_check {
+  display: none;
+}
+
+/* Complete: Hover (Enabled) */
+.buttonRadio_Complete1_Completed input:enabled + .radioButton:hover {
+  background-color: rgba(126, 214, 255, 0);
+  box-shadow: 0 0 0 0.45vh var(--color-blue3);
+}
+
+/* .buttonRadio_Complete1_Completed
+	input:enabled
+	+ label:hover
+	.radioInComplete_Text {
+	background-image: -webkit-linear-gradient(
+		top,
+		rgb(126, 214, 255, 0.5) 4.58716%,
+		rgb(85, 188, 234, 0.5) 99%
+	);
+	border-left: 0.25vh solid var(--color-blue3);
+	border-top: 0.25vh solid var(--color-blue3);
+	border-right: 0 solid var(--color-blue3);
+	border-bottom: 0.25vh solid var(--color-blue3);
+	background-color: transparent;
+} */
+/* .buttonRadio_Complete1_Completed
+	input:enabled
+	+ label:hover
+	.radioInComplete_box_Check
+	img {
+	opacity: 0.5;
+} */
+/* .buttonRadio_Complete1_Completed
+	input:enabled
+	+ label:hover
+	.radioInComplete_box_Check {
+	background-image: -webkit-linear-gradient(
+		top,
+		rgb(126, 214, 255, 0.5) 4.58716%,
+		rgb(85, 188, 234, 0.5) 99%
+	);
+	border: 0.25vh solid var(--color-blue3);
+	background-color: transparent;
+} */
+/* COMPLETE PARTS - END */
+.buttonBlinkBlue input:enabled + label {
+  border: none;
+  animation-name: blinkBlue;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+.buttonBlinkBlue input:enabled + label:hover {
+  animation-name: none;
+}
+.radioInComplete_Text {
+  background-color: #2b2b2b;
+  background-image: -webkit-linear-gradient(top, #535453 4.58716%, rgba(57, 58, 57, 0.97) 99%);
+  border-radius: 1vh 0px 0px 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radioInComplete_buttonText {
+  margin: 1.5vh;
+  text-align: center;
+}
+.radioInComplete_box_Check {
+  background-color: white;
+  width: 5.75vh;
+  height: auto;
+  padding: 0.7vh;
+  border-radius: 0px 1vh 1vh 0px;
+  display: flex;
+}
+.radioInComplete_image_Check {
+  align-self: center;
+}
+.radioInComplete_black_check {
+  display: none;
+}
+
+/* INCOMPLETE BLUE PARTS - Start */
+.buttonRadio_CompleteBlue_Incomplete input {
+  /* Turns off the little round radio button */
+  display: none;
+}
+.buttonRadio_CompleteBlue_Incomplete .slot {
+  /* MainButtonShape */
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* Incomplete: Normal (Enabled) */
+.buttonRadio_CompleteBlue_Incomplete .radioButton {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: transparent;
+  border-radius: 1vh;
+  line-height: 3vh;
+  min-height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  height: 100%;
+}
+.buttonRadio_CompleteBlue_Incomplete input:enabled + .radioButton {
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled
++ label
+.radioInComplete_Text {
+  background-color: transparent;
+  border-top: 0.45vh solid var(--color-blue4);
+  border-right: 0vh solid var(--color-blue4);
+  border-bottom: 0.45vh solid var(--color-blue4);
+  border-left: 0.45vh solid var(--color-blue4);
+  background-image: none;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled
++ label
+.radioInComplete_box_Check {
+  background-color: transparent;
+  border: 0.45vh solid var(--color-blue4);
+}
+
+/* Incomplete: Disabled */
+.buttonRadio_CompleteBlue_Incomplete input:disabled + .radioButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0 solid var(--color-grey4);
+  border-radius: 1.3vh;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:disabled
++ label
+.radioInComplete_Text {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: none;
+  border-top: 0.45vh solid var(--color-grey4);
+  border-right: 0 solid var(--color-grey4);
+  border-bottom: 0.45vh solid var(--color-grey4);
+  border-left: 0.45vh solid var(--color-grey4);
+  opacity: 0.5;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:disabled
++ label
+.radioInComplete_box_Check {
+  background-color: transparent;
+  border: 0.45vh solid var(--color-grey4);
+  opacity: 0.5;
+}
+
+/* Incomplete: Hover (Enabled) */
+.buttonRadio_CompleteBlue_Incomplete input:enabled + .radioButton:hover {
+  background-color: rgba(126, 214, 255, 0.5);
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled
++ label:hover
+.radioInComplete_Text,
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label:hover
+.radioInComplete_Text {
+  background-color: rgba(126, 214, 255, 0.5);
+  background-image: none;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled
++ label:hover
+.radioInComplete_box_Check,
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label:hover
+.radioInComplete_box_Check {
+  background-color: rgba(126, 214, 255, 0.5);
+  background-image: none;
+  border: 0.45vh solid var(--color-blue4);
+}
+
+/* Incomplete: Depressed - Down/Chosen/Checked (Enabled) */
+.buttonRadio_CompleteBlue_Incomplete input:enabled:checked + .radioButton {
+  background-image: none;
+  /*border-width: 0.45vh;
+	border-style: solid;
+	border-color: var(--color-blue4);*/
+  margin-left: 0vh;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_box_Check {
+  background-color: transparent;
+}
+
+/* Turning on and off the black and grey checkmarks */
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_black_check,
+.buttonRadio_CompleteBlue_Completed
+input:enabled:checked
++ label
+.radioInComplete_black_check,
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label
+.radioInComplete_black_check,
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:hover
++ label
+.radioInComplete_black_check {
+  display: block;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:hover
++ label
+.radioInComplete_black_check {
+  opacity: 0.5;
+}
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:checked
++ label
+.radioInComplete_blue_check,
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label
+.radioInComplete_blue_check,
+.buttonRadio_CompleteBlue_Incomplete
+input:enabled:hover
++ label
+.radioInComplete_blue_check {
+  display: none;
+}
+
+/* INCOMPLETE BLUE PARTS - END */
+/* COMPLETE BLUE PARTS - Start */
+.buttonRadio_CompleteBlue_Completed input {
+  /* Turns off the little round radio button */
+  display: none;
+}
+.buttonRadio_CompleteBlue_Completed .slot {
+  /* MainButtonShape */
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* Complete: Normal (Enabled) */
+.buttonRadio_CompleteBlue_Completed .radioButton {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: var(--color-grey6);
+  border-radius: 1.3vh;
+  line-height: 3vh;
+  min-height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  height: 100%;
+}
+.buttonRadio_CompleteBlue_Completed input:enabled + .radioButton {
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label
+.radioInComplete_Text {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border-top: 0.45vh solid var(--color-blue4);
+  border-right: 0 solid var(--color-blue4);
+  border-bottom: 0.45vh solid var(--color-blue4);
+  border-left: 0.45vh solid var(--color-blue4);
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label
+.radioInComplete_box_Check {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border: 0.45vh solid var(--color-blue4);
+}
+
+/* Complete: Disabled */
+.buttonRadio_CompleteBlue_Completed input:disabled + .radioButton {
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 0vh;
+  border-style: solid;
+  border-color: var(--color-grey2);
+}
+.buttonRadio_CompleteBlue_Completed
+input:disabled
++ label
+.radioInComplete_Text {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(top, var(--color-grey3) 4.58716%, var(--color-grey4) 99%);
+  border-top: 0.45vh solid var(--color-grey4);
+  border-right: 0 solid var(--color-grey4);
+  border-bottom: 0.45vh solid var(--color-grey4);
+  border-left: 0.45vh solid var(--color-grey4);
+  opacity: 0.5;
+}
+.buttonRadio_CompleteBlue_Completed
+input:disabled
++ label
+.radioInComplete_box_Check {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(top, var(--color-grey3) 4.58716%, var(--color-grey4) 99%);
+  border: 0.45vh solid var(--color-grey4);
+  opacity: 0.5;
+}
+
+/* Complete: Hover (Enabled) */
+.buttonRadio_CompleteBlue_Completed input:enabled + .radioButton:hover {
+  background-color: rgba(126, 214, 255, 0);
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label:hover
+.radioInComplete_Text {
+  background-color: rgba(126, 214, 255, 0.5);
+  background-image: none;
+  border-left: 0.45vh solid var(--color-blue4);
+  border-top: 0.45vh solid var(--color-blue4);
+  border-right: 0 solid var(--color-blue4);
+  border-bottom: 0.45vh solid var(--color-blue4);
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled
++ label:hover
+.radioInComplete_box_Check {
+  background-color: rgba(126, 214, 255, 0.5);
+  background-image: none;
+}
+
+/* Complete: Depressed - Down/Chosen/Checked (Enabled) */
+.buttonRadio_CompleteBlue_Completed input:enabled:checked + .radioButton {
+  background-color: rgba(126, 214, 255, 0.5);
+  border-width: 0vh;
+  border-style: solid;
+  border-color: var(--color-blue4);
+  margin-left: 0vh;
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled:checked
++ label
+.radioInComplete_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border-top: 0.45vh solid var(--color-blue4);
+  border-bottom: 0.45vh solid var(--color-blue4);
+  border-left: 0.45vh solid var(--color-blue4);
+  border-right: 0 solid var(--color-blue4);
+}
+.buttonRadio_CompleteBlue_Completed
+input:enabled:checked
++ label
+.radioInComplete_box_Check {
+  background-color: var(--color-blue3);
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border: 0.45vh solid var(--color-blue4);
+}
+
+/* COMPLETEBLUE PARTS - END */
+/* Radio3_Incomplete: PARTS - Start */
+.buttonRadio-Complete3 input {
+  /* Turns off the little round radio button */
+  display: none;
+}
+.buttonRadio-Complete3 .slot {
+  /* MainButtonShape */
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.buttonRadio-Complete3 .inclBox_1 {
+  border-radius: 0px 1vh 0px 0px;
+}
+.buttonRadio-Complete3 .inclBox_3 {
+  border-radius: 0px 0px 1vh 0px;
+}
+.radioInComplete3_Text {
+  background-color: none;
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border: 0.25vh solid var(--color-grey6);
+  border-radius: 1vh 0px 0px 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vh;
+  color: white;
+}
+.radioInComplete3_buttonText {
+  margin: 1.5vh;
+  text-align: center;
+}
+.radioInComplete3_box_Check {
+  background-color: white;
+  width: 4.75vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  color: var(--color-grey4);
+}
+.buttonRadio-Complete3 .inclBox_1 {
+  border-top-width: 0.25vh;
+  border-right-width: 0.25vh;
+  border-bottom-width: 0.13vh;
+  border-left-width: 0;
+  border-color: var(--color-grey3);
+  border-style: solid;
+}
+.buttonRadio-Complete3 .inclBox_2 {
+  border-top-width: 0.13vh;
+  border-right-width: 0.25vh;
+  border-bottom-width: 0.13vh;
+  border-left-width: 0;
+  border-color: var(--color-grey3);
+  border-style: solid;
+}
+.buttonRadio-Complete3 .inclBox_3 {
+  border-top-width: 0.13vh;
+  border-right-width: 0.25vh;
+  border-bottom-width: 0.25vh;
+  border-left-width: 0;
+  border-color: var(--color-grey3);
+  border-style: solid;
+}
+.radioInComplete3_image_Check {
+  align-self: center;
+}
+.radioInComplete3_check,
+.radioInComplete3_checkWhite {
+  display: none;
+  height: 2.7vh;
+  padding: 0.4vh 0 0.4vh 0;
+}
+
+/* Radio3_Incomplete: Normal (Enabled) */
+.buttonRadio-Complete3 .radioButton {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: none;
+  border-radius: 1vh;
+  line-height: 3vh;
+  min-height: 4.5vh;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+}
+.buttonRadio-Complete3 input:enabled + .radioButton {
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+}
+.buttonRadio-Complete3 .radioInComplete3_box_Check {
+  background-color: var(--color-white);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* Incomplete: Disabled */
+.buttonRadio-Complete3 input:disabled + label .radioInComplete3_Text {
+  background-color: none;
+  opacity: 0.5;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.buttonRadio-Complete3 input:disabled + label .radioInComplete3_box_Check {
+  background-color: var(--color-white);
+  opacity: 0.5;
+}
+
+/* Radio3_Incomplete: Hover (Enabled) */
+.buttonRadio-Complete3 input:enabled + .radioButton:hover {
+  background-color: none;
+  border: 0.45vh solid var(--color-blue3);
+  border-radius: 1.5vh;
+}
+.buttonRadio-Complete3 input:enabled + label:hover .radioInComplete3_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border: 0.25vh solid var(--color-grey6);
+  color: white;
+}
+
+/* Hover, highlight the appropriate box */
+.buttonRadio-Complete3.select1 input:enabled + label:hover .inclBox_1,
+.buttonRadio-Complete3.select2 input:enabled + label:hover .inclBox_2,
+.buttonRadio-Complete3.select3 input:enabled + label:hover .inclBox_3 {
+  background-color: none;
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border-color: var(--color-blue4);
+  border-style: solid;
+  color: black;
+}
+
+/* Incomplete: Depressed - Down/Chosen/Checked (Enabled) */
+.buttonRadio-Complete3 input:enabled:checked + .radioButton {
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border: 0vh solid var(--color-blue4);
+  margin-left: 0vh;
+}
+
+/* when the button is enabled and checked, highlight whole button */
+.buttonRadio-Complete3 input:enabled:checked + .radioButton:hover {
+  border: 0.45vh solid var(--color-blue3);
+}
+
+/* when the button is enabled and checked, color left text blue */
+.buttonRadio-Complete3 input:enabled:checked + label .radioInComplete3_Text {
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border: 0.25vh solid var(--color-blue4);
+  color: black;
+}
+
+/* Selected, highlight the number box */
+.buttonRadio-Complete3.select1 input:enabled:checked + label .inclBox_1,
+.buttonRadio-Complete3.select2 input:enabled:checked + label .inclBox_2,
+.buttonRadio-Complete3.select3 input:enabled:checked + label .inclBox_3 {
+  background-image: -webkit-linear-gradient(top, var(--color-blue3) 4.58716%, var(--color-blue4) 99%);
+  border-color: var(--color-blue4);
+  color: black;
+}
+
+/* Set the box background to grey gradient */
+.buttonRadio-Complete3.complete1 .inclBox_1,
+.buttonRadio-Complete3.select2 .inclBox_1,
+.buttonRadio-Complete3.complete2 .inclBox_1,
+.buttonRadio-Complete3.complete2 .inclBox_2,
+.buttonRadio-Complete3.select3 .inclBox_1,
+.buttonRadio-Complete3.select3 .inclBox_2,
+.buttonRadio-Complete3.complete3 .inclBox_1,
+.buttonRadio-Complete3.complete3 .inclBox_2,
+.buttonRadio-Complete3.complete3 .inclBox_3 {
+  background-color: #2b2b2b;
+  background-image: -webkit-linear-gradient(top, var(--color-grey5) 4.58716%, var(--color-grey6) 99%);
+  border-color: var(--color-grey6);
+}
+
+/* Hide the number 1 in the box */
+.buttonRadio-Complete3.complete1 .inclBox_1 .stepNumber,
+.buttonRadio-Complete3.select2 .inclBox_1 .stepNumber,
+.buttonRadio-Complete3.complete2 .inclBox_1 .stepNumber,
+.buttonRadio-Complete3.select3 .inclBox_1 .stepNumber,
+.buttonRadio-Complete3.complete3 .inclBox_1 .stepNumber {
+  display: none;
+}
+
+/* Show the arrow in the 1 box */
+.buttonRadio-Complete3.complete1 .inclBox_1 .radioInComplete3_check,
+.buttonRadio-Complete3.select2 .inclBox_1 .radioInComplete3_check,
+.buttonRadio-Complete3.complete2 .inclBox_1 .radioInComplete3_check,
+.buttonRadio-Complete3.select3 .inclBox_1 .radioInComplete3_check,
+.buttonRadio-Complete3.complete3 .inclBox_1 .radioInComplete3_check {
+  display: block;
+}
+
+/* Hide the number 2 in the box */
+.buttonRadio-Complete3.complete2 .inclBox_2 .stepNumber,
+.buttonRadio-Complete3.select3 .inclBox_2 .stepNumber,
+.buttonRadio-Complete3.complete3 .inclBox_2 .stepNumber {
+  display: none;
+}
+
+/* Show the arrow in the 2 box */
+.buttonRadio-Complete3.complete2 .inclBox_2 .radioInComplete3_check,
+.buttonRadio-Complete3.select3 .inclBox_2 .radioInComplete3_check,
+.buttonRadio-Complete3.complete3 .inclBox_2 .radioInComplete3_check {
+  display: block;
+}
+
+/* Hide the number 3 in the box */
+.buttonRadio-Complete3.complete3 .inclBox_3 .stepNumber {
+  display: none;
+}
+
+/* Show the arrow in the 3 box */
+.buttonRadio-Complete3.complete3 .inclBox_3 .radioInComplete3_check {
+  display: block;
+}
+
+/* Hide white checkmark */
+.buttonRadio-Complete3 .inclBox_2 .radioInComplete3_checkWhite,
+.buttonRadio-Complete3 .inclBox_3 .radioInComplete3_checkWhite,
+.buttonRadio-Complete3 .inclBox_1 .radioInComplete3_checkWhite {
+  display: none;
+}
+
+/* Show white checkmark when completed button is disabled */
+.buttonRadio-Complete3.complete1
+input:disabled
++ label
+.inclBox_1
+.radioInComplete3_checkWhite,
+.buttonRadio-Complete3.complete2
+input:disabled
++ label
+.inclBox_2
+.radioInComplete3_checkWhite,
+.buttonRadio-Complete3.complete3
+input:disabled
++ label
+.inclBox_3
+.radioInComplete3_checkWhite {
+  display: block;
+}
+
+/* Hide black checkmark when completed button is disabled */
+.buttonRadio-Complete3.complete1
+input:disabled
++ label
+.inclBox_1
+.radioInComplete3_check,
+.buttonRadio-Complete3.complete2
+input:disabled
++ label
+.inclBox_2
+.radioInComplete3_check,
+.buttonRadio-Complete3.complete3
+input:disabled
++ label
+.inclBox_3
+.radioInComplete3_check {
+  display: none;
+}
+
+/* Radio3_Incomplete: PARTS - END */
+.arrowRadio .radioButton {
+  display: block;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: transparent;
+  border: 0vh solid var(--color-blue4);
+  height: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  line-height: 4.5vh;
+  min-height: 4.5vh;
+}
+.arrowRadio input {
+  display: none;
+}
+.arrowRadio .checkmark {
+  background: none;
+}
+
+/* .arrowRadio.large.up - START */
+.arrowRadio.up.large .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Up_SVG.svg) no-repeat center;
+}
+.arrowRadio.up.large.white .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Up_SVG.svg) no-repeat center;
+}
+.arrowRadio.up.large input:enabled + .radioButton:hover {
+  background: url(vue-extracted-assets/arrow_Large_Hover_Up_SVG.svg) no-repeat center;
+}
+.arrowRadio.up.large input:enabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Depressed_Up_SVG.svg) no-repeat center;
+}
+.arrowRadio.up.large input:disabled + .radioButton.correct,
+.arrowRadio.up.large input:disabled:checked + .radioButton.correct {
+  background: url(vue-extracted-assets/arrow_Large_Correct_Up_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.up.large.incorrect input:disabled + .radioButton,
+.arrowRadio.up.large.incorrect input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Incorrect_Up_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.up.large.keyConcept input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_KeyConcept_Up_SVG.svg) no-repeat center;
+}
+.arrowRadio.up.large input:disabled + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledNormal_Up_SVG.svg) no-repeat center;
+  color: var(--color-grey4);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+.arrowRadio.up.large input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Up_SVG.svg) no-repeat center;
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* .arrowRadio.large.up - END */
+/* .arrowRadio.large.down - START */
+.arrowRadio.down.large .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Down_SVG.svg) no-repeat center;
+}
+.arrowRadio.down.large.white .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Down_SVG.svg) no-repeat center;
+}
+.arrowRadio.down.large input:enabled + .radioButton:hover {
+  background: url(vue-extracted-assets/arrow_Large_Hover_Down_SVG.svg) no-repeat center;
+}
+.arrowRadio.down.large input:enabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Depressed_Down_SVG.svg) no-repeat center;
+}
+.arrowRadio.down.large input:disabled + .radioButton.correct,
+.arrowRadio.down.large input:disabled:checked + .radioButton.correct {
+  background: url(vue-extracted-assets/arrow_Large_Correct_Down_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.down.large.incorrect input:disabled + .radioButton,
+.arrowRadio.down.large.incorrect input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Incorrect_Down_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.down.large.keyConcept input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_KeyConcept_Down_SVG.svg) no-repeat center;
+}
+.arrowRadio.down.large input:disabled + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledNormal_Down_SVG.svg) no-repeat center;
+  color: var(--color-grey4);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+.arrowRadio.down.large input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Down_SVG.svg) no-repeat center;
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* .arrowRadio.large.down - END */
+/* .arrowRadio.large.left - START */
+.arrowRadio.left.large .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Left_SVG.svg) no-repeat center;
+}
+.arrowRadio.left.large.white .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Left_SVG.svg) no-repeat center;
+}
+.arrowRadio.left.large input:enabled + .radioButton:hover {
+  background: url(vue-extracted-assets/arrow_Large_Hover_Left_SVG.svg) no-repeat center;
+}
+.arrowRadio.left.large input:enabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Depressed_Left_SVG.svg) no-repeat center;
+}
+.arrowRadio.left.large input:disabled + .radioButton.correct,
+.arrowRadio.left.large input:disabled:checked + .radioButton.correct {
+  background: url(vue-extracted-assets/arrow_Large_Correct_Left_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.left.large.incorrect input:disabled + .radioButton,
+.arrowRadio.left.large.incorrect input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Incorrect_Left_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.left.large.keyConcept input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_KeyConcept_Left_SVG.svg) no-repeat center;
+}
+.arrowRadio.left.large input:disabled + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledNormal_Left_SVG.svg) no-repeat center;
+  color: var(--color-grey4);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+.arrowRadio.left.large input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Left_SVG.svg) no-repeat center;
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* .arrowRadio.large.left - END */
+/* .arrowRadio.large.right - START */
+.arrowRadio.right.large .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Normal_Right_SVG.svg) no-repeat center;
+}
+.arrowRadio.right.large.white .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Right_SVG.svg) no-repeat center;
+}
+.arrowRadio.right.large input:enabled + .radioButton:hover {
+  background: url(vue-extracted-assets/arrow_Large_Hover_Right_SVG.svg) no-repeat center;
+}
+.arrowRadio.right.large input:enabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Depressed_Right_SVG.svg) no-repeat center;
+}
+.arrowRadio.right.large input:disabled + .radioButton.correct,
+.arrowRadio.right.large input:disabled:checked + .radioButton.correct {
+  background: url(vue-extracted-assets/arrow_Large_Correct_Right_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.right.large.incorrect input:disabled + .radioButton,
+.arrowRadio.right.large.incorrect input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_Incorrect_Right_SVG.svg) no-repeat center;
+  color: var(--color-black);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+}
+.arrowRadio.right.large.keyConcept input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_KeyConcept_Right_SVG.svg) no-repeat center;
+}
+.arrowRadio.right.large input:disabled + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledNormal_Right_SVG.svg) no-repeat center;
+  color: var(--color-grey4);
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+.arrowRadio.right.large input:disabled:checked + .radioButton {
+  background: url(vue-extracted-assets/arrow_Large_DisabledDepressed_Right_SVG.svg) no-repeat center;
+  border: 0vh solid var(--color-blue4);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* .arrowRadio.large.right - END */
+
+.slidecontainer {
+  width: 100%;
+  height: 4.25vh;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.7vh;
+  background: var(--color-grey2);
+  outline: none;
+  border-radius: 0.7vh;
+  touch-action: pan-y;
+  /* prevents scrolling in Chrome when touching vertical sliders */
+}
+.slider::-webkit-slider-thumb {
+  transition-duration: 0.4s;
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+  -webkit-appearance: none;
+  width: 5.4vh;
+  height: 5.4vh;
+  border-radius: 5.4vh;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0.7vh var(--color-grey2);
+}
+.slider::-moz-range-thumb {
+  transition-duration: 0.4s;
+  background: linear-gradient(var(--color-grey5), var(--color-grey6));
+  -moz-appearance: none;
+  width: 5.4vh;
+  height: 5.4vh;
+  border-radius: 5.4vh;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0.7vh var(--color-grey2);
+}
+.slider:enabled::-webkit-slider-thumb:hover {
+  transition-duration: 0.4s;
+  -webkit-appearance: none;
+  width: 5.4vh;
+  height: 5.4vh;
+  border-radius: 5.4vh;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0.9vh var(--color-blue4);
+}
+.slider:disabled::-webkit-slider-thumb {
+  background: var(--color-grey2);
+}
+.slider:disabled::-webkit-slider-thumb:hover {
+  cursor: not-allowed;
+}
+.slider:enabled::-moz-range-thumb:hover {
+  transition-duration: 0.4s;
+  -moz-appearance: none;
+  width: 5.4vh;
+  height: 5.4vh;
+  border-radius: 5.4vh;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0.9vh var(--color-blue4);
+}
+.slider:disabled::-moz-range-thumb:hover {
+  cursor: not-allowed;
+}
+.slider:disabled::-moz-range-thumb {
+  background: var(--color-grey2);
+}
+input[type="range"]::-moz-focus-outer {
+  /* fixes selection border in Firefox when using the slider */
+  border: 0;
+}
+
+textarea {
+  background-color: var(--color-grey1);
+  border: 0.2vh solid var(--color-grey3);
+  box-shadow: inset 0 0 1.2vh var(--color-grey3);
+  border-radius: 0.7vh;
+  padding: 0.7vh;
+  margin: 0;
+  min-height: 11.5vh;
+  width: 100%;
+  font-size: inherit;
+}
+textarea:disabled {
+  background-color: var(--color-grey2);
+}
+textarea:focus {
+  border: 1px solid var(--color-blue3);
+  outline: none;
+}
+textarea::placeholder {
+  font-style: italic;
+  color: var(--color-grey3);
+}
+
+input[type="text"] {
+  background-color: var(--color-grey1);
+  border: 0.2vh solid var(--color-grey3);
+  box-shadow: inset 0 0 1.2vh var(--color-grey3);
+  border-radius: 0.7vh;
+  padding: 0.7vh;
+  margin: 0;
+  width: 100%;
+  font-size: inherit;
+}
+input[type="text"]:disabled {
+  background-color: var(--color-grey2);
+}
+input[type="text"]:focus {
+  border: 1px solid var(--color-blue3);
+  outline: none;
+}
+input[type="text"]::placeholder {
+  font-style: italic;
+  color: var(--color-grey3);
+}
+
+.simView {
+  overflow: hidden;
+}
+.simStateRetry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 6vh;
+  font-size: initial;
+  color: initial;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 110;
+  /* 10 behind App.vue #guideButtonsContainer */
+}
+.simStateRetry .textBackgroundBasic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.smallSimRetry {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.svgParent {
+  cursor: pointer;
+}
+.svgParent[disabled="disabled"] {
+  cursor: not-allowed;
+}
+
+.widgetSVG {
+  pointer-events: all;
+}
+.widgetSVG object {
+  pointer-events: none;
+}
+.imageOutline {
+  filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+  -webkit-filter: drop-shadow(0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem 0.2rem 0 var(--color-blue4)) drop-shadow(0.2rem -0.2rem 0 var(--color-blue4)) drop-shadow(-0.2rem -0.2rem 0 var(--color-blue4));
+}
+
+.videoFill .video-js {
+  width: 100%;
+  height: 100%;
+}
+.videoCover video {
+  object-fit: cover;
+}
+.videoCover .vjs-poster {
+  background-size: cover;
+}
+.videoReplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: initial;
+  color: initial;
+}
+.videoReplay .textBackgroundBasic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.smallVideoReplay {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
+.vjs-button > .vjs-icon-placeholder:before,
+.video-js .vjs-modal-dialog,
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
+.vjs-button > .vjs-icon-placeholder:before {
+  text-align: center;
+}
+
+/*
+@font-face {
+	font-family: VideoJS;
+	src: url("font/VideoJS.eot?#iefix") format("eot");
+}
+	 */
+@font-face {
+  font-family: VideoJS;
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAABBIAAsAAAAAGoQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAAPgAAAFZRiV3RY21hcAAAAYQAAADQAAADIjn098ZnbHlmAAACVAAACv4AABEIAwnSw2hlYWQAAA1UAAAAKwAAADYSy2hLaGhlYQAADYAAAAAbAAAAJA4DByFobXR4AAANnAAAAA8AAACE4AAAAGxvY2EAAA2sAAAARAAAAEQ9NEHGbWF4cAAADfAAAAAfAAAAIAEyAIFuYW1lAAAOEAAAASUAAAIK1cf1oHBvc3QAAA84AAABDwAAAZ5AAl/0eJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGQ7xTiBgZWBgaWQ5RkDA8MvCM0cwxDOeI6BgYmBlZkBKwhIc01hcPjI+FGBHcRdyA4RZgQRAC4HCwEAAHic7dFprsIgAEXhg8U61XmeWcBb1FuQP4w7ZQXK5boMm3yclFDSANAHmuKviBBeBPQ8ymyo8w3jOh/5r2ui5nN6v8sYNJb3WMdeWRvLji0DhozKdxM6psyYs2DJijUbtuzYc+DIiTMXrty4k8oGLb+n0xCe37ekM7Z66j1DbUy3l6PpHnLfdLO5NdSBoQ4NdWSoY9ON54mhdqa/y1NDnRnq3FAXhro01JWhrg11Y6hbQ90Z6t5QD4Z6NNSToZ4N9WKoV0O9GerdUJORPqkhTd54nJ1YDXBU1RV+576/JBs2bPYPkrDZt5vsJrv53V/I5mclhGDCTwgGBQQSTEji4hCkYIAGd4TGIWFAhV0RQTpWmQp1xv6hA4OTOlNr2zFANbHUYbq2OtNCpViRqsk+e+7btqahzti8vpfupffcc88959zznbcmmpjhd/KDDGEY0ABpYX384NhlomIYlo4JISGEY9mMh2FSidYiqkEUphtNYDSY/dXg9023l4DdxlqUl0chuZRhncJKrsCQHIwcGuwfnhMIzBnuH4Sym+1d2zagjhexlhyfd238z80mkymmvj5xeotzd8z9eujbmxjnhu4c9xpe/bCMiDuSNIWgkTQwBE55hLSAE7ZwhrHLnAHZOGV/kmBGTiNjZxzI77Hb7Hqjz68TjT6vh+5jt/cCIkqS0D6CqPf5jX4Qjdx5j6vlDfZM4aZFdbVXIxtOlJaP/WottMnH6CJQ3bTiue3PrY23HjnChtuamxwvvzFjxkPrNj3z0tG9T561HDYf6OgmRWvlY3JQHoQb8ltV2Yet7YfWctEjR1AtxS/cSX6U4alf6NJEBQ7YKg9wrXQKd0IeZCb2ux75Uhh1Un+Nz+9ltoe7pk777nn5xqdtnetbhcbx446mzrhnukrcz2yha9dsmxag0symt8hi9zpu1e94pjyqsh6lrmhxec7q7zexntgquvpbh+a4qWNsckVyTdn0P7o7DpgPW84+uRcq0BITflBikGdUjAZ9wYBVI3mtrNvr9kpg1UsaK6t3690aoorC1lg0GpMH2HAMtkZjsSi5Ig9ESVosOh7GQfLjKNLvKpMKkLSKNFAka710GdgSi8oDMSoNhqjkKBXTgn3swtaxyzGkUzIzae9RtLdWkSlZ1KDX6EzgllzV4NV4SoDFSOGD4+HCeQUF8wrZ5Hs8zIb5EaVxy8DYFTbMCJPnLIWZxugZE2NlivC0gc1qEQUR8jEKgZcAXeH18BiCgl5nlHh0CrjB4Hb5fX4gb0J7c9PuHVsfgkx2n/vTY/JV8kn8PGxf7faOZ8qX8JVByuIf4whk9sqXli2hvPJV9hrp0hY7l8r2x37ydaVsb4xvXv/47v2NjfCl8m5oRDJclFMoE1yk0Uh1Te4/m8lFXe9qBZD0EkheicebXvzI2PLCuoKCukLuhPIeKwaHPEouxw3kMqaIUXDQ1p0mip+MyCORSCQaoUsnY1VZ38nUTrG21WvVo4f1OsEJFhvSfAFwGfT8VHRMeAVUpwLOoLzjT/REIj3O3FhuURE+nERF+0ptid5fyxv5sfwgyg4o+my4vZv0sZm7oeQlFZORiB+tG0MweVNraeitl7yxiPIHTk4/diVxs94o5lEYishB2iAtkchEnsActoEpx44Fo8XnsQMaA22BlqC20RmhBKzYojZyYaxg+JggMc4HHY2m+L9EkWSYljirOisrO7d3VorxzyZ6Vc4lJqITAu1b2wOBdrLElAP+bFc2eGaZFVbkmJktv5uT6Jlz5D/MnBFor6ig/JPnRViBsV3LNKGGqB1ChJ0tgQywlVLFJIuQgTFttwkiKxhyQdAZMdMYtSaoAewqfvXVYPAbDT6/1mez85YS8FSDywQ6NfAnef6FNEGMilnppyvn5rB6tTyq1pOceRWnp2WJEZFXHeX5oyoem1nTTgdqc4heDY7bOeKz63vnz+/dRx+s31Ht2JGanQ5seirfWJL9tjozU/12TnEjn5oux9OzU3ckGbBzBwNOyk69JykKH0n/0LM9A72tuwM3zQpIRu4AxiToseEpgPOmbROyFe9/X2yeUvoUsCyEvjcgs7fpWP3/aKlFN0+6hfue6d9hfz/XPwBlN9tTqNyZjFJ8UO2RUT5/h4CptCctEyeisnOyXjALEp7dXKaQKf6O7IMnGjNNACRMLxqdYJX8eMLvmmd68D+ayBLyKKYZwYxDt/GNhzETDJ05Qxlyi3pi3/Z93ndYVSumgj0V/KkIFlO6+1k3ff2+3g0q+YtuSIf0bvmLqV09nnobI6hwcjIP8aPCKayjsF5JBY3LaKAeRLSyYB1h81oTwe9SlPMkXB7G0mfL9q71gaqqwPqu67QRKS1+ObTx+sbQy9QV2OQHEScGkdFBeT7v7qisqqrs6N52i78/R+6s0qqonvj26agovoswcyqwiv5d86vh53bxnuexv0k+XZaHv/nm/KsHhOvylwsWnJX/HE8l/4WCv5x+l5n08z6UU8bUMa3MBpSmM7F63AxntdC9eBCKEZW9Hr+ABNqtxgAQrSbMtmrW7lKQuoSgBhSrTazWVU2QAKWY8wiiuhqFmQgWJBgoXiuWIm42N7hqZbBsgXz52O5P5uSvaNgFGnOuvsRw8I8Laha91wMvDuxqWFheN7/8GVtTltdS83DQsXRmqc5ZtcJXEVrlV2doTWk5+Yunm71dG5f55m/qY0MjI93vv9/NfpxXV9sUXrxy2fbNy1or65cOlDRnOoKFeeXcbw42H/bNDT5Qs3flgs31gWC1lD1nfUV/X7NdCnSUdHY2e8afzfKsqZ5ZljfDqjLOmk3UebNXB+aHArPYDRs+/HDDxeT5DiP+sFg7OpRaVQMGBV89PpeBdj22hCE0Uub0UqwLrNWsG0cuyadgLXTeR5rbO4+3c/vl15cur2nRq+TXCQDcS3SO+s6ak+e5/eMS+1dw3btu3yg2tvfl8xdizvdjdw6to/4b7idrzwvpmctm5/59agspittsbciibr2oqigzmu20smkas7yqwgbufgfgjdyllldef0sfclb2lsx8flt+08/kzz6yOj96rft4rpTjdPQcmLd47uKibbDq7ZSz/XtbH2nN717Nd62rU+c8Icevvv7I09wA6WvjVcafb+FsbNG+ZQ80Rn6ZZsvrP7teP2dzTdoETvNhjCmsr8FID2sJ69VYvdUcxk4AzYRlKcaE38eXNRlfW9H1as9i6acLHp1XpuNB5K7DIvkX08y1ZYvh3KfWaiCzH+ztrSDmD7LuX73x/mJelB8Yj39t8nhNQJJ2CAthpoFGLsGgtSOCJooCGoaJAMTjSWHVZ08YAa1Fg9lPI5U6DOsGVjDasJeZZ+YyhfCwfOzCxlBA69M9XLXtza7H/rav+9tjq5xni0wpkqirno4lrzz7yp5qvym6jd/oc1Uvn/mQhhuWh6ENXoS2YTZ8QT42bF5d/559zp5r0Uff2VnR2tdf2/WCOd2cO0Mw6qpWPnvxpV0nrt5fZd2yItc199GWe8vlNfNDq+CH/7yAAnB9hn7T4QO4c1g9ScxsZgmzntnE/IDGndtHMw69lFwoCnYsMGx+rBp8JSBqdLzBr9QRPq/PbhWMWFtQZp1xguy/haw3TEHm3TWAnxFWQQWgt7M5OV0lCz1VRYucpWliy7z6Zd4urwPIyeZQqli2Lgg7szJV09PysATbOQtYIrB2YzbkJYkGgJ0m4AjPUap1pvYu1K9qr97z0Yl3p332b2LYB78ncYIlRkau/8GObSsOlZancACE5d5ily+c2+7h5yj4lqhvmxxb+iXLfvdqSgqfKtQvfHDV0OnvQR1qhw42XS/vkvsh/hXcrDFP0a+SJNIomEfD1nsrYGO+1bgtojhm8hv6ek+7vvglxusrwokn17s937bm6yjcessg0op1n+7te37tcz/p7dsTv4EUrGpDbWueKigsLHhqTVsoEj+JU0kaSjnj9tz8/gryQWwJ9BcJXBC/7smO+I/IFURJetFPrdt5WcoL6DbEJaygI8CTHfQTjf40ofD+DwalTqIAAHicY2BkYGAA4jC5t2/j+W2+MnCzM4DAtTC+5cg0oynyniobcuqbaaceb90aejxjygrgygcaard5/z87IwMjAypQBAAtgwI4AHicY2BgYGAfYAwAOkQA4QAAAAAAAA4AaAB+AMwA4AECAUIBbAGYAcICGAJYArQC4AMwA7AD3gQwBJYE3AUkBWYFigYgBmYGtAbqB1gIEghYCG4IhHicY2BkYGBQZChlYGcAASYg5gJCBob/YD4DABfTAbQAeJxdkE1qg0AYhl8Tk9AIoVDaVSmzahcF87PMARLIMoFAl0ZHY1BHdBJIT9AT9AQ9RQ9Qeqy+yteNMzDzfM+88w0k4by/cNAMB6N2bUaPPBLukybCLvleeAAPj8JD+hfhMV7hC3u4wxs7OO4NzQSZcI/8Ltwnfwi75E/hAR7wJTyk/xYeY49fYQ/PztM+jbTZ7LY6OWdBJdX/pqs6NYWa+zMxa13oKrA6Uoerqi/JwtpYxZXJ1coUVmeZUWVlTjq0/tHacjmdxuL90OR8O0UEDYMNdtiSEpz5XQGqzlm30kzUdAYFFOb8R7NOZk0q2lwAyz1i7oAr1xoXvrOgtYhZx8wY5KRV269JZ5yGpmzPTjQhvY9je6vEElPOuJP3mWKnP5M3V+YAAAB4nG2PyXLCMBBE3YCNDWEL2ffk7o8S8oCnkCVHC5C/jzBQlUP6IHVPzYyekl5y0iL5X5/ooY8BUmQYIkeBEca4wgRTzDDHAtdY4ga3uMM9HvCIJzzjBa94wzs+8imvznaq8tm+HqVkKxWlrQiOxjujQkNlEzyNzl6Z/cU2XF06at7U83VQyklLpEvSnuzsb+HAPnPfQVgaupa1Jlu4sPLsFblcitaz0dHU0ZF1qatjZ1+aTXYCmp6u0gSvWNPyHLtFZ+ZeXWVSaEkqs3T8S74WklbGbNNNq4LL4+CWKtZDv2cfX8l8aFbKFhEnJnJ+IULFpqwoQnNHlHaVQtPBl+ypmbSWdmyC61KS/AKZC3Y+AA==);
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-play,
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
+.video-js .vjs-play-control .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-play:before,
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
+.video-js .vjs-play-control .vjs-icon-placeholder:before {
+  content: "\F101";
+}
+.vjs-icon-play-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-play-circle:before {
+  content: "\F102";
+}
+.vjs-icon-pause,
+.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-pause:before,
+.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
+  content: "\F103";
+}
+.vjs-icon-volume-mute,
+.video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-volume-mute:before,
+.video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before {
+  content: "\F104";
+}
+.vjs-icon-volume-low,
+.video-js .vjs-mute-control.vjs-vol-1 .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-volume-low:before,
+.video-js .vjs-mute-control.vjs-vol-1 .vjs-icon-placeholder:before {
+  content: "\F105";
+}
+.vjs-icon-volume-mid,
+.video-js .vjs-mute-control.vjs-vol-2 .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-volume-mid:before,
+.video-js .vjs-mute-control.vjs-vol-2 .vjs-icon-placeholder:before {
+  content: "\F106";
+}
+.vjs-icon-volume-high,
+.video-js .vjs-mute-control .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-volume-high:before,
+.video-js .vjs-mute-control .vjs-icon-placeholder:before {
+  content: "\F107";
+}
+.vjs-icon-fullscreen-enter,
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-fullscreen-enter:before,
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder:before {
+  content: "\F108";
+}
+.vjs-icon-fullscreen-exit,
+.video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-fullscreen-exit:before,
+.video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder:before {
+  content: "\F109";
+}
+.vjs-icon-square {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-square:before {
+  content: "\F10A";
+}
+.vjs-icon-spinner {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-spinner:before {
+  content: "\F10B";
+}
+.vjs-resize-manager {
+  border: 0;
+  height: 0;
+  width: 0;
+}
+.vjs-icon-subtitles,
+.video-js .vjs-subtitles-button .vjs-icon-placeholder,
+.video-js .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-GB) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-IE) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-AU) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-subtitles:before,
+.video-js .vjs-subtitles-button .vjs-icon-placeholder:before,
+.video-js .vjs-subs-caps-button .vjs-icon-placeholder:before,
+.video-js.video-js:lang(en-GB)
+.vjs-subs-caps-button
+.vjs-icon-placeholder:before,
+.video-js.video-js:lang(en-IE)
+.vjs-subs-caps-button
+.vjs-icon-placeholder:before,
+.video-js.video-js:lang(en-AU)
+.vjs-subs-caps-button
+.vjs-icon-placeholder:before,
+.video-js.video-js:lang(en-NZ)
+.vjs-subs-caps-button
+.vjs-icon-placeholder:before {
+  content: "\F10C";
+}
+.vjs-icon-captions,
+.video-js .vjs-captions-button .vjs-icon-placeholder,
+.video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-captions:before,
+.video-js .vjs-captions-button .vjs-icon-placeholder:before,
+.video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder:before,
+.video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder:before {
+  content: "\F10D";
+}
+.vjs-icon-chapters,
+.video-js .vjs-chapters-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-chapters:before,
+.video-js .vjs-chapters-button .vjs-icon-placeholder:before {
+  content: "\F10E";
+}
+.vjs-icon-share {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-share:before {
+  content: "\F10F";
+}
+.vjs-icon-cog {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-cog:before {
+  content: "\F110";
+}
+.vjs-icon-circle,
+.video-js .vjs-play-progress,
+.video-js .vjs-volume-level {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-circle:before,
+.video-js .vjs-play-progress:before,
+.video-js .vjs-volume-level:before {
+  content: "\F111";
+}
+.vjs-icon-circle-outline {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-circle-outline:before {
+  content: "\F112";
+}
+.vjs-icon-circle-inner-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-circle-inner-circle:before {
+  content: "\F113";
+}
+.vjs-icon-hd {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-hd:before {
+  content: "\F114";
+}
+.vjs-icon-cancel,
+.video-js .vjs-control.vjs-close-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-cancel:before,
+.video-js .vjs-control.vjs-close-button .vjs-icon-placeholder:before {
+  content: "\F115";
+}
+.vjs-icon-replay,
+.video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-replay:before,
+.video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder:before {
+  content: "\F116";
+}
+.vjs-icon-facebook {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-facebook:before {
+  content: "\F117";
+}
+.vjs-icon-gplus {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-gplus:before {
+  content: "\F118";
+}
+.vjs-icon-linkedin {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-linkedin:before {
+  content: "\F119";
+}
+.vjs-icon-twitter {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-twitter:before {
+  content: "\F11A";
+}
+.vjs-icon-tumblr {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-tumblr:before {
+  content: "\F11B";
+}
+.vjs-icon-pinterest {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-pinterest:before {
+  content: "\F11C";
+}
+.vjs-icon-audio-description,
+.video-js .vjs-descriptions-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-audio-description:before,
+.video-js .vjs-descriptions-button .vjs-icon-placeholder:before {
+  content: "\F11D";
+}
+.vjs-icon-audio,
+.video-js .vjs-audio-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-audio:before,
+.video-js .vjs-audio-button .vjs-icon-placeholder:before {
+  content: "\F11E";
+}
+.vjs-icon-next-item {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-next-item:before {
+  content: "\F11F";
+}
+.vjs-icon-previous-item {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+}
+.vjs-icon-previous-item:before {
+  content: "\F120";
+}
+.video-js {
+  display: block;
+  vertical-align: top;
+  box-sizing: border-box;
+  color: #fff;
+  /* background-color: #000; */
+  position: relative;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  word-break: initial;
+}
+.video-js:-moz-full-screen {
+  position: absolute;
+}
+.video-js:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
+.video-js[tabindex="-1"] {
+  outline: none;
+}
+.video-js *,
+.video-js *:before,
+.video-js *:after {
+  box-sizing: inherit;
+}
+.video-js ul {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  list-style-position: outside;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-js.vjs-fluid,
+.video-js.vjs-16-9,
+.video-js.vjs-4-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+}
+.video-js.vjs-16-9 {
+  padding-top: 56.25%;
+}
+.video-js.vjs-4-3 {
+  padding-top: 75%;
+}
+.video-js.vjs-fill {
+  width: 100%;
+  height: 100%;
+}
+.video-js .vjs-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+.vjs-full-window .video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 190;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.video-js.vjs-fullscreen {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 0 !important;
+}
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none;
+}
+.vjs-hidden {
+  display: none !important;
+}
+.vjs-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.video-js .vjs-offscreen {
+  height: 1px;
+  left: -9999px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+.vjs-no-js {
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 175px;
+  margin: 0px auto;
+}
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #66a8cc;
+}
+.video-js .vjs-big-play-button {
+  font-size: 3em;
+  line-height: 1.5em;
+  height: 1.5em;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0;
+  cursor: pointer;
+  opacity: 1;
+  border: 0.06666em solid #fff;
+  background-color: #2b333f;
+  background-color: rgba(43, 51, 63, 0.7);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.vjs-big-play-centered .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  margin-top: -0.75em;
+  margin-left: -1.5em;
+}
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+  border-color: #fff;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5);
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+}
+.vjs-controls-disabled .vjs-big-play-button,
+.vjs-has-started .vjs-big-play-button,
+.vjs-using-native-controls .vjs-big-play-button,
+.vjs-error .vjs-big-play-button {
+  display: none;
+}
+.vjs-has-started.vjs-paused.vjs-show-big-play-button-on-pause
+.vjs-big-play-button {
+  display: block;
+}
+.video-js button {
+  background: none;
+  border: none;
+  color: inherit;
+  display: inline-block;
+  overflow: visible;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-decoration: none;
+  transition: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.vjs-control .vjs-button {
+  width: 100%;
+  height: 100%;
+}
+.video-js .vjs-control.vjs-close-button {
+  display: none;
+  cursor: pointer;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+  z-index: 2;
+}
+.video-js .vjs-modal-dialog {
+  background: rgba(0, 0, 0, 0.8);
+  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  overflow: auto;
+  box-sizing: content-box;
+}
+.video-js .vjs-modal-dialog > * {
+  box-sizing: border-box;
+}
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 20px 24px;
+  z-index: 1;
+}
+.vjs-menu-button {
+  cursor: pointer;
+}
+.vjs-menu-button.vjs-disabled {
+  cursor: default;
+}
+.vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {
+  display: none;
+}
+.vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+  box-sizing: content-box;
+}
+.vjs-menu .vjs-menu-content > * {
+  box-sizing: border-box;
+}
+.vjs-scrubbing .vjs-menu-button:hover .vjs-menu {
+  display: none;
+}
+.vjs-menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0.2em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase;
+}
+.vjs-menu li.vjs-menu-item:focus,
+.vjs-menu li.vjs-menu-item:hover {
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5);
+}
+.vjs-menu li.vjs-selected,
+.vjs-menu li.vjs-selected:focus,
+.vjs-menu li.vjs-selected:hover {
+  background-color: #fff;
+  color: #2b333f;
+}
+.vjs-menu li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default;
+}
+.vjs-menu-button-popup .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 10em;
+  left: -3em;
+  height: 0em;
+  margin-bottom: 1.5em;
+  border-top-color: rgba(43, 51, 63, 0.7);
+}
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  background-color: #2b333f;
+  background-color: rgba(43, 51, 63, 0.7);
+  position: absolute;
+  width: 100%;
+  bottom: 1.5em;
+  max-height: 15em;
+}
+.vjs-workinghover .vjs-menu-button-popup:hover .vjs-menu,
+.vjs-menu-button-popup .vjs-menu.vjs-lock-showing {
+  display: block;
+}
+.video-js .vjs-menu-button-inline {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.video-js .vjs-menu-button-inline:before {
+  width: 2.222222222em;
+}
+.video-js .vjs-menu-button-inline:hover,
+.video-js .vjs-menu-button-inline:focus,
+.video-js .vjs-menu-button-inline.vjs-slider-active,
+.video-js.vjs-no-flex .vjs-menu-button-inline {
+  width: 12em;
+}
+.vjs-menu-button-inline .vjs-menu {
+  opacity: 0;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 4em;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.vjs-menu-button-inline:hover .vjs-menu,
+.vjs-menu-button-inline:focus .vjs-menu,
+.vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  display: block;
+  opacity: 1;
+}
+.vjs-no-flex .vjs-menu-button-inline .vjs-menu {
+  display: block;
+  opacity: 1;
+  position: relative;
+  width: auto;
+}
+.vjs-no-flex .vjs-menu-button-inline:hover .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline:focus .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  width: auto;
+}
+.vjs-menu-button-inline .vjs-menu-content {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.video-js .vjs-control-bar {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  background-color: #2b333f;
+  background-color: rgba(43, 51, 63, 0.7);
+}
+.vjs-has-started .vjs-control-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -ms-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  visibility: visible;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+.vjs-controls-disabled .vjs-control-bar,
+.vjs-using-native-controls .vjs-control-bar,
+.vjs-error .vjs-control-bar {
+  display: none !important;
+}
+.vjs-audio.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  visibility: visible;
+}
+.vjs-has-started.vjs-no-flex .vjs-control-bar {
+  display: table;
+}
+.video-js .vjs-control {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 4em;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+.vjs-button > .vjs-icon-placeholder:before {
+  font-size: 1.8em;
+  line-height: 1.67;
+}
+.video-js .vjs-control:focus:before,
+.video-js .vjs-control:hover:before,
+.video-js .vjs-control:focus {
+  text-shadow: 0em 0em 1em white;
+}
+.video-js .vjs-control-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.vjs-no-flex .vjs-control {
+  display: table-cell;
+  vertical-align: middle;
+}
+.video-js .vjs-custom-control-spacer {
+  display: none;
+}
+.video-js .vjs-progress-control {
+  cursor: pointer;
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 4em;
+}
+.video-js .vjs-progress-control.disabled {
+  cursor: default;
+}
+.vjs-live .vjs-progress-control {
+  display: none;
+}
+.vjs-no-flex .vjs-progress-control {
+  width: auto;
+}
+.video-js .vjs-progress-holder {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  height: 0.3em;
+}
+.video-js .vjs-progress-control .vjs-progress-holder {
+  margin: 0 10px;
+}
+.video-js .vjs-progress-control:hover .vjs-progress-holder {
+  font-size: 1.666666666666666666em;
+}
+.video-js .vjs-progress-control:hover .vjs-progress-holder.disabled {
+  font-size: 1em;
+}
+.video-js .vjs-progress-holder .vjs-play-progress,
+.video-js .vjs-progress-holder .vjs-load-progress,
+.video-js .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  left: 0;
+  top: 0;
+}
+.video-js .vjs-play-progress {
+  background-color: #fff;
+}
+.video-js .vjs-play-progress:before {
+  font-size: 0.9em;
+  position: absolute;
+  right: -0.5em;
+  top: -0.333333333333333em;
+  z-index: 1;
+}
+.video-js .vjs-load-progress {
+  background: #bfc7d3;
+  background: rgba(115, 133, 159, 0.5);
+}
+.video-js .vjs-load-progress div {
+  background: white;
+  background: rgba(115, 133, 159, 0.75);
+}
+.video-js .vjs-time-tooltip {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  color: #000;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 6px 8px 8px 8px;
+  pointer-events: none;
+  position: relative;
+  top: -3.4em;
+  visibility: hidden;
+  z-index: 1;
+}
+.video-js .vjs-progress-holder:focus .vjs-time-tooltip {
+  display: none;
+}
+.video-js .vjs-progress-control:hover .vjs-time-tooltip,
+.video-js
+.vjs-progress-control:hover
+.vjs-progress-holder:focus
+.vjs-time-tooltip {
+  display: block;
+  font-size: 0.6em;
+  visibility: visible;
+}
+.video-js .vjs-progress-control.disabled:hover .vjs-time-tooltip {
+  font-size: 1em;
+}
+.video-js .vjs-progress-control .vjs-mouse-display {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  z-index: 1;
+}
+.vjs-no-flex .vjs-progress-control .vjs-mouse-display {
+  z-index: 0;
+}
+.video-js .vjs-progress-control:hover .vjs-mouse-display {
+  display: block;
+}
+.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+.video-js.vjs-user-inactive.vjs-no-flex
+.vjs-progress-control
+.vjs-mouse-display {
+  display: none;
+}
+.vjs-mouse-display .vjs-time-tooltip {
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.video-js .vjs-slider {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0.45em 0 0.45em;
+  /* iOS Safari */
+  -webkit-touch-callout: none;
+  /* Safari */
+  -webkit-user-select: none;
+  /* Konqueror HTML */
+  -khtml-user-select: none;
+  /* Firefox */
+  -moz-user-select: none;
+  /* Internet Explorer/Edge */
+  -ms-user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+  user-select: none;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5);
+}
+.video-js .vjs-slider.disabled {
+  cursor: default;
+}
+.video-js .vjs-slider:focus {
+  text-shadow: 0em 0em 1em white;
+  -webkit-box-shadow: 0 0 1em #fff;
+  -moz-box-shadow: 0 0 1em #fff;
+  box-shadow: 0 0 1em #fff;
+}
+.video-js .vjs-mute-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+}
+.video-js .vjs-volume-control {
+  cursor: pointer;
+  margin-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.video-js .vjs-volume-control.vjs-volume-horizontal {
+  width: 5em;
+}
+.video-js .vjs-volume-panel .vjs-volume-control {
+  visibility: visible;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin-left: -1px;
+}
+.vjs-no-flex .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.vjs-no-flex
+.vjs-volume-panel
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-bar,
+.vjs-no-flex
+.vjs-volume-panel
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-level {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.video-js .vjs-volume-panel {
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -ms-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+.video-js .vjs-volume-panel:hover .vjs-volume-control,
+.video-js .vjs-volume-panel:active .vjs-volume-control,
+.video-js .vjs-volume-panel:focus .vjs-volume-control,
+.video-js .vjs-volume-panel .vjs-volume-control:hover,
+.video-js .vjs-volume-panel .vjs-volume-control:active,
+.video-js .vjs-volume-panel .vjs-mute-control:hover ~ .vjs-volume-control,
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+  -moz-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+  -ms-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+  -o-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+  transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+}
+.video-js .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-horizontal,
+.video-js .vjs-volume-panel .vjs-volume-control:hover.vjs-volume-horizontal,
+.video-js .vjs-volume-panel .vjs-volume-control:active.vjs-volume-horizontal,
+.video-js
+.vjs-volume-panel
+.vjs-mute-control:hover
+~ .vjs-volume-control.vjs-volume-horizontal,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control.vjs-slider-active.vjs-volume-horizontal {
+  width: 5em;
+  height: 3em;
+}
+.video-js .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-vertical,
+.video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-vertical,
+.video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-vertical,
+.video-js .vjs-volume-panel .vjs-volume-control:hover.vjs-volume-vertical,
+.video-js .vjs-volume-panel .vjs-volume-control:active.vjs-volume-vertical,
+.video-js
+.vjs-volume-panel
+.vjs-mute-control:hover
+~ .vjs-volume-control.vjs-volume-vertical,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control.vjs-slider-active.vjs-volume-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.video-js
+.vjs-volume-panel:hover
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel:hover
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel:active
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel:active
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel:focus
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel:focus
+.vjs-volume-control.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control:hover.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control:hover.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control:active.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control:active.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel
+.vjs-mute-control:hover
+~ .vjs-volume-control.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel
+.vjs-mute-control:hover
+~ .vjs-volume-control.vjs-volume-vertical
+.vjs-volume-level,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control.vjs-slider-active.vjs-volume-vertical
+.vjs-volume-bar,
+.video-js
+.vjs-volume-panel
+.vjs-volume-control.vjs-slider-active.vjs-volume-vertical
+.vjs-volume-level {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal:hover,
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal:active,
+.video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active {
+  width: 9em;
+  -webkit-transition: width 0.1s;
+  -moz-transition: width 0.1s;
+  -ms-transition: width 0.1s;
+  -o-transition: width 0.1s;
+  transition: width 0.1s;
+}
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical {
+  height: 8em;
+  width: 3em;
+  left: -3.5em;
+  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+}
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+}
+.video-js.vjs-no-flex
+.vjs-volume-panel
+.vjs-volume-control.vjs-volume-horizontal {
+  width: 5em;
+  height: 3em;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.video-js.vjs-no-flex .vjs-volume-control.vjs-volume-vertical,
+.video-js.vjs-no-flex
+.vjs-volume-panel
+.vjs-volume-control.vjs-volume-vertical {
+  position: absolute;
+  bottom: 3em;
+  left: 0.5em;
+}
+.video-js .vjs-volume-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.video-js .vjs-volume-bar {
+  margin: 1.35em 0.45em;
+}
+.vjs-volume-bar.vjs-slider-horizontal {
+  width: 5em;
+  height: 0.3em;
+}
+.vjs-volume-bar.vjs-slider-vertical {
+  width: 0.3em;
+  height: 5em;
+  margin: 1.35em auto;
+}
+.video-js .vjs-volume-level {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.video-js .vjs-volume-level:before {
+  position: absolute;
+  font-size: 0.9em;
+}
+.vjs-slider-vertical .vjs-volume-level {
+  width: 0.3em;
+}
+.vjs-slider-vertical .vjs-volume-level:before {
+  top: -0.5em;
+  left: -0.3em;
+}
+.vjs-slider-horizontal .vjs-volume-level {
+  height: 0.3em;
+}
+.vjs-slider-horizontal .vjs-volume-level:before {
+  top: -0.3em;
+  right: -0.5em;
+}
+.video-js .vjs-volume-panel.vjs-volume-panel-vertical {
+  width: 4em;
+}
+.vjs-volume-bar.vjs-slider-vertical .vjs-volume-level {
+  height: 100%;
+}
+.vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {
+  width: 100%;
+}
+.video-js .vjs-volume-vertical {
+  width: 3em;
+  height: 8em;
+  bottom: 8em;
+  background-color: #2b333f;
+  background-color: rgba(43, 51, 63, 0.7);
+}
+.video-js .vjs-volume-horizontal .vjs-menu {
+  left: -2em;
+}
+.vjs-poster {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+.vjs-poster img {
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+.vjs-has-started .vjs-poster {
+  display: none;
+}
+.vjs-audio.vjs-has-started .vjs-poster {
+  display: block;
+}
+.vjs-using-native-controls .vjs-poster {
+  display: none;
+}
+.video-js .vjs-live-control {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-size: 1em;
+  line-height: 3em;
+}
+.vjs-no-flex .vjs-live-control {
+  display: table-cell;
+  width: auto;
+  text-align: left;
+}
+.video-js .vjs-time-control {
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  font-size: 1em;
+  line-height: 3em;
+  min-width: 2em;
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.vjs-live .vjs-time-control {
+  display: none;
+}
+.video-js .vjs-current-time,
+.vjs-no-flex .vjs-current-time {
+  display: none;
+}
+.vjs-no-flex .vjs-remaining-time.vjs-time-control.vjs-control {
+  width: 0px !important;
+  white-space: nowrap;
+}
+.video-js .vjs-duration,
+.vjs-no-flex .vjs-duration {
+  display: none;
+}
+.vjs-time-divider {
+  display: none;
+  line-height: 3em;
+}
+.vjs-live .vjs-time-divider {
+  display: none;
+}
+.video-js .vjs-play-control .vjs-icon-placeholder {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+.vjs-text-track-display {
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+}
+.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
+  bottom: 1em;
+}
+.video-js .vjs-text-track {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0.1em;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.vjs-subtitles {
+  color: #fff;
+}
+.vjs-captions {
+  color: #fc6;
+}
+.vjs-tt-cue {
+  display: block;
+}
+video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-3em);
+  -ms-transform: translateY(-3em);
+  -o-transform: translateY(-3em);
+  -webkit-transform: translateY(-3em);
+  transform: translateY(-3em);
+}
+.video-js.vjs-user-inactive.vjs-playing
+video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  -o-transform: translateY(-1.5em);
+  -webkit-transform: translateY(-1.5em);
+  transform: translateY(-1.5em);
+}
+.video-js .vjs-fullscreen-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+.vjs-playback-rate > .vjs-menu-button,
+.vjs-playback-rate .vjs-playback-rate-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.vjs-playback-rate .vjs-playback-rate-value {
+  pointer-events: none;
+  font-size: 1.5em;
+  line-height: 2;
+  text-align: center;
+}
+.vjs-playback-rate .vjs-menu {
+  width: 4em;
+  left: 0em;
+}
+.vjs-error .vjs-error-display .vjs-modal-dialog-content {
+  font-size: 1.4em;
+  text-align: center;
+}
+.vjs-error .vjs-error-display:before {
+  color: #fff;
+  content: "X";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  left: 0;
+  line-height: 1;
+  margin-top: -0.5em;
+  position: absolute;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  top: 50%;
+  vertical-align: middle;
+  width: 100%;
+}
+.vjs-loading-spinner {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  content: url(vue-extracted-assets/dnaSpinner.svg);
+}
+.vjs-seeking .vjs-loading-spinner,
+.vjs-waiting .vjs-loading-spinner {
+  display: block;
+  animation: 0s linear 0.3s forwards vjs-spinner-show;
+}
+.vjs-text-track-display,
+.vjs-big-play-button,
+.vjs-control-bar,
+.vjs-resize-manager {
+  display: none;
+}
+.vjs-loading-spinner:before,
+.vjs-loading-spinner:after {
+  content: "";
+  position: absolute;
+  margin: -6px;
+  box-sizing: inherit;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  opacity: 1;
+  border: inherit;
+  border-color: transparent;
+  border-top-color: white;
+}
+.vjs-seeking .vjs-loading-spinner:before,
+.vjs-seeking .vjs-loading-spinner:after,
+.vjs-waiting .vjs-loading-spinner:before,
+.vjs-waiting .vjs-loading-spinner:after {
+  -webkit-animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite;
+  animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite;
+}
+.vjs-seeking .vjs-loading-spinner:before,
+.vjs-waiting .vjs-loading-spinner:before {
+  border-top-color: white;
+}
+.vjs-seeking .vjs-loading-spinner:after,
+.vjs-waiting .vjs-loading-spinner:after {
+  border-top-color: white;
+  -webkit-animation-delay: 0.44s;
+  animation-delay: 0.44s;
+}
+@keyframes vjs-spinner-show {
+to {
+    visibility: visible;
+}
+}
+@-webkit-keyframes vjs-spinner-show {
+to {
+    visibility: visible;
+}
+}
+
+/*
+@keyframes vjs-spinner-spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes vjs-spinner-spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes vjs-spinner-fade {
+	0% {
+		border-top-color: #73859f;
+	}
+	20% {
+		border-top-color: #73859f;
+	}
+	35% {
+		border-top-color: white;
+	}
+	60% {
+		border-top-color: #73859f;
+	}
+	100% {
+		border-top-color: #73859f;
+	}
+}
+
+@-webkit-keyframes vjs-spinner-fade {
+	0% {
+		border-top-color: #73859f;
+	}
+	20% {
+		border-top-color: #73859f;
+	}
+	35% {
+		border-top-color: white;
+	}
+	60% {
+		border-top-color: #73859f;
+	}
+	100% {
+		border-top-color: #73859f;
+	}
+} */
+.vjs-chapters-button .vjs-menu ul {
+  width: 24em;
+}
+.video-js
+.vjs-subs-caps-button
++ .vjs-menu
+.vjs-captions-menu-item
+.vjs-menu-item-text
+.vjs-icon-placeholder {
+  position: absolute;
+}
+.video-js
+.vjs-subs-caps-button
++ .vjs-menu
+.vjs-captions-menu-item
+.vjs-menu-item-text
+.vjs-icon-placeholder:before {
+  font-family: VideoJS;
+  content: "\F10D";
+  font-size: 1.5em;
+  line-height: inherit;
+}
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-custom-control-spacer {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen).vjs-no-flex
+.vjs-custom-control-spacer {
+  width: auto;
+}
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-current-time,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-time-divider,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-duration,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-progress-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-mute-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-chapters-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-descriptions-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-subtitles-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none;
+}
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-current-time,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-time-divider,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-duration,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-descriptions-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subtitles-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none;
+}
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-current-time,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-time-divider,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-duration,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-descriptions-button,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-small:not(.vjs-fullscreen)
+.vjs-subtitles-button
+.vjs-audio-button {
+  display: none;
+}
+.vjs-modal-dialog.vjs-text-track-settings {
+  background-color: #2b333f;
+  background-color: rgba(43, 51, 63, 0.75);
+  color: #fff;
+  height: 70%;
+}
+.vjs-text-track-settings .vjs-modal-dialog-content {
+  display: table;
+}
+.vjs-text-track-settings .vjs-track-settings-colors,
+.vjs-text-track-settings .vjs-track-settings-font,
+.vjs-text-track-settings .vjs-track-settings-controls {
+  display: table-cell;
+}
+.vjs-text-track-settings .vjs-track-settings-controls {
+  text-align: right;
+  vertical-align: bottom;
+}
+.vjs-text-track-settings fieldset {
+  margin: 5px;
+  padding: 3px;
+  border: none;
+}
+.vjs-text-track-settings fieldset span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.vjs-text-track-settings legend {
+  color: #fff;
+  margin: 0 0 5px 0;
+}
+.vjs-text-track-settings .vjs-label {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.vjs-track-settings-controls button:focus,
+.vjs-track-settings-controls button:active {
+  outline-style: solid;
+  outline-width: medium;
+  background-image: linear-gradient(0deg, #fff 88%, #73859f 100%);
+}
+.vjs-track-settings-controls button:hover {
+  color: rgba(43, 51, 63, 0.75);
+}
+.vjs-track-settings-controls button {
+  background-color: #fff;
+  background-image: linear-gradient(-180deg, #fff 88%, #73859f 100%);
+  color: #2b333f;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.vjs-track-settings-controls .vjs-default-button {
+  margin-right: 1em;
+}
+@media print {
+.video-js > *:not(.vjs-tech):not(.vjs-poster) {
+    visibility: hidden;
+}
+}
+@media \0screen {
+.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
+    content: "";
+}
+}
+@media \0screen {
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+    visibility: hidden;
+}
+}
+
+.videoFill .seeThru-display {
+  height: 100%;
+  width: auto;
+}
+
+
+/*! project-api-plugin - 0.0.1 */
+.loadingBarParent {
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  display: flex;
+  background-image: url(vue-extracted-assets/circleBg.svg);
+}
+.loadingBar {
+  max-width: 50%;
+  align-self: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.loadingBarText {
+  text-align: center;
+}
+.loadingBarSpinner {
+  align-self: center;
+  margin: 0 auto;
+  width: 18.15vh;
+  height: 18.15vh;
+  background-image: url(vue-extracted-assets/dnaSpinner.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/*! project-api-plugin - 0.0.1 */
+.blackStroke {
+  filter: url(#black-stroke);
+}
+.codonParent {
+  background-color: #393a39;
+}
+.codonParent.noSelect {
+  cursor: not-allowed;
+}
+.codonSelected {
+  filter: url(#blue-stroke);
+}
+.thirdRowCodon.codonSelected {
+  filter: url(#blue-stroke-small);
+}
+.codonDisabled {
+  opacity: 0.35;
+}
+.codonDisabled .thirdRowCodon.codonSelected {
+  filter: none;
+}
+.codonDisabled .codonButton.codonDisabled {
+  opacity: 1;
+}
+.codonDisabled * {
+  stroke-width: 0px;
+}
+.codonTopLevel {
+  -webkit-transition: transform 1s ease-in-out;
+  /* Safari prior 6.1 */
+  transition: transform 1s ease-in-out;
+}
+.move-g {
+  transform: scale(2);
+}
+.move-u {
+  transform: scale(2) translate(-50%, 0);
+}
+.move-a {
+  transform: scale(2) translate(0, -50%);
+}
+.move-c {
+  transform: scale(2) translate(-50%, -50%);
+}
+.cw_amino-bg {
+  fill: #2f4eb5;
+  opacity: 0.35;
+}
+.aminoSelected .cw_amino-bg,
+.aminoSelected .cw_amino-font {
+  opacity: 1;
+}
+.cw_amino-font {
+  font-size: 32px;
+  fill: #fff;
+  opacity: 0.35;
+}
+.codonButton {
+  pointer-events: fill;
+  cursor: pointer;
+}
+.codonButton:hover > .cw_bg-G {
+  fill: #6aac71;
+}
+.codonButton:hover > .cw_bg-U {
+  fill: #929292;
+}
+.codonButton:hover > .cw_bg-C {
+  fill: #5ad5e0;
+}
+.codonButton:hover > .cw_bg-A {
+  fill: #faed76;
+}
+.codonDisabled .codonButton:hover > .cw_bg-G {
+  fill: #4aa152;
+}
+.codonDisabled .codonButton:hover > .cw_bg-U {
+  fill: #787878;
+}
+.codonDisabled .codonButton:hover > .cw_bg-C {
+  fill: #44c2cd;
+}
+.codonDisabled .codonButton:hover > .cw_bg-A {
+  fill: #efe057;
+}
+.cw_BigFont,
+.cw_MidFont-Other,
+.cw_amino-font,
+.cw_MidFont-A,
+.cw_SmallFont-Other,
+.cw_SmallFont-A {
+  font-family: Roboto-Bold, Roboto;
+  font-weight: 700;
+}
+.cw_amino-divider {
+  fill: #adc3f2;
+  opacity: 0.35;
+}
+.cw_letter-space1 {
+  letter-spacing: -0.02em;
+}
+.cw_letter-space2 {
+  letter-spacing: -0.01em;
+}
+.cw_letter-space3 {
+  letter-spacing: -0.03em;
+}
+.cw_letter-space4 {
+  letter-spacing: -0.02em;
+}
+.cw_letter-space5 {
+  letter-spacing: 0.02em;
+}
+.cw_blue-outline {
+  fill: #112568;
+}
+.cw_black-wedge,
+.cw_black-outline {
+  fill: #212021;
+  stroke: #212021;
+  stroke-miterlimit: 10;
+}
+.cw_black-wedge {
+  stroke-width: 3px;
+}
+.cw_bg-G {
+  fill: #4aa152;
+}
+.bevel-5,
+.bevel-4,
+.bevel-2,
+.bevel-1,
+.bevel-3 {
+  opacity: 0.5;
+}
+.bevel-4 {
+  fill: gray;
+}
+.bevel-2 {
+  fill: #e6e6e6;
+}
+.cw_BigFont {
+  font-size: 110px;
+}
+.cw_BigFont,
+.cw_MidFont-Other,
+.cw_SmallFont-Other,
+.bevel-3 {
+  fill: #f2f2f2;
+}
+.cw_bg-U {
+  fill: #787878;
+}
+.bevel-1 {
+  fill: #4d4d4d;
+}
+.cw_MidFont-Other,
+.cw_MidFont-A {
+  font-size: 80px;
+}
+.cw_bg-C {
+  fill: #44c2cd;
+}
+.cw_bg-A {
+  fill: #efe057;
+}
+.cw_MidFont-A,
+.cw_SmallFont-A {
+  fill: #333;
+}
+.cw_SmallFont-Other,
+.cw_SmallFont-A {
+  font-size: 30px;
+}
+
+
+/*! project-api-plugin - 0.0.1 */
+.appLoadingBar.loadingBarParent {
+  height: 97vh;
+}
+
+

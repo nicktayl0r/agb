@@ -1,0 +1,21 @@
+<br /><br />
+<p>This page assumes the next page is locked.</p>
+<p>Click either button below. The next page popper should not show.</p>
+
+<widget-button
+  class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+  id="goToPageButton"
+  :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'goToPage', pageID: 'goToToUnlock'}}] } ]}"
+>
+  <p class="marginLeft2 marginRight2">GoToPage effect: goToToUnlock</p>
+</widget-button>
+
+<widget-button
+  class="buttonBasic-Grey marginLeft2 buttonBlinkBlue"
+  id="goToNextButton"
+  :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+    {effectType: 'nextPage'}}] } ]}"
+>
+  <p class="marginLeft2 marginRight2">nextPage effect</p>
+</widget-button>

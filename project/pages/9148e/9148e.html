@@ -1,0 +1,34 @@
+<div class="simParent page9148e">
+  <widget-sim-view id="iywa" scenename="Sahara_Perspective" simstateid="iha2ub" :visible="true" :enabled="true" play-state="default" :muted="false" class="simPreview page9148e" />
+  <div class="grid_T62 simPageContent page9148e">
+    <div class="grid_T9 textBackgroundBasic page9148e item1_T62 dropShadow">
+      <p class="item1_T9 page9148e">What do you predict will happen to the percentage of corn that will be eaten or trampled?</p>
+      <container-enable-disable :visible="true" :enabled="false" id="ihil" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ip8i',key:'correctStyle',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNextPage_page9148e',delay:4}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'isco',selected:'radioIDEquals',radioID:'iw4k'}}],comparisonsLogic:'or',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i6ve',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'izgy',key:'visible',val:true},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" class="item2_T9 page9148e">
+        <div class="grid_T9_ButtonsGroup page9148e">
+          <div class="grid_T14 item1_T9_BGroup page9148e">
+            <widget-radio :visible="true" :enabled="true" id="iw4k" group="isco" value="A. The percentage of corn plants eaten and trampled will increase." shared-data-read-key="GroupBehavior.M.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page9148e">
+              <p class="page9148e">A</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page9148e">The percentage of corn plants eaten and trampled will increase.</p>
+          </div>
+          <div class="grid_T14 item2_T9_BGroup page9148e">
+            <widget-radio :visible="true" :enabled="true" id="ip8i" group="isco" value="B. The percentage of corn plants eaten and trampled will decrease." shared-data-read-key="GroupBehavior.M.PredictCornPlants2_response" class="buttonRadio buttonRadioNormal buttonRadioNormalCharacter item1_T14_Button page9148e">
+              <p class="page9148e">B</p>
+            </widget-radio>
+            <p class="item2_T14_Answer page9148e">The percentage of corn plants eaten and trampled will decrease.</p>
+          </div>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 page9148e">
+        <container-show-hide :visible="false" id="izgy" class="dropShadow textBackgroundBasic textBackground-Correct SH_Correct-Incorrect page9148e">
+          <p class="colorBlack page9148e"><strong>Correct!</strong> The percentage of corn plants eaten and trampled did decrease because the elephants were scared of
+            the bees. Some of the corn was still eaten and trampled.</p>
+        </container-show-hide>
+        <container-show-hide :visible="false" id="i6ve" class="dropShadow textBackgroundBasic textBackground-Incorrect SH_Correct-Incorrect page9148e">
+          <p class="colorBlack page9148e"><strong>Incorrect.</strong> The percentage of corn plants eaten and trampled did decrease because the elephants were scared of
+            the bees. Some of the corn was still eaten and trampled.</p>
+        </container-show-hide>
+      </div>
+    </div>
+  </div>
+</div>

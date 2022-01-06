@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 162">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #55bdea;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 30px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>iconCheck_Normal</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="normal">
+      <polyline id="icon_Check" class="cls-1" points="15 97 79 147 151 15"/>
+    </g>
+  </g>
+</svg>

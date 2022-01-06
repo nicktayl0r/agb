@@ -1,0 +1,12 @@
+publish
+local_api/dependencies/grapes/dist/**
+local_api/dependencies/PlaycanvasEngine/dist/**
+local_api/dependencies/app/dist/**
+
+**node_modules**
+
+project/assets/*/**
+!project/assets/case.css
+
+local.yaml
+

@@ -1,0 +1,3976 @@
+{
+	"name": "Animal Group Behavior",
+	"description": "some data to test the project.json file",
+	"appkey": "animal_group_behavior",
+	"version": "1.0.0",
+	"sharedData": [
+		{
+			"sharedDataID": "GroupBehavior.EExMMx.GroupSpeciesSurvival_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.EExMMx.IdentifySenses_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.Ex.StructuresToFunctions_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.EExMMx.OrderElephantEvents_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.EExMMx.ThingsElephantsLearn_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.EExMMx.ThingsElephantsLearn_attempts",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.M.TrampledPercentStep1_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "GroupBehavior.M.TrampledPercentStep2_response",
+			"value": 0
+		},
+		{
+			"sharedDataID": "m148_orderNum",
+			"value": 0
+		},
+		{
+			"sharedDataID": "Hypothesis_Text_SD",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.EM.PredictCornPlants_response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.E.PredictCornPlants2_response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.M.PredictCornPlants2_response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.M.PredictCornPlants_response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.EM.CaseSummary_Q1_Response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.EM.CaseSummary_Q2_Response",
+			"value": ""
+		},
+		{
+			"sharedDataID": "GroupBehavior.EM.CaseSummary_Q3_Response",
+			"value": ""
+		}
+	],
+	"appSharedData": [],
+	"case": {
+		"popperMessage": "Return to the crop field.",
+		"tracks": [
+			{
+				"trackID": "case-el",
+				"name": "case-el",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Introduction",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "Background",
+								"pageID": "79144",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Learn More",
+								"pageID": "b353c",
+								"visible": true,
+								"popperMessage": "You have a new phone message."
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Collect Data",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "Marula Farm",
+								"pageID": "3baa2",
+								"visible": true,
+								"popperMessage": "Take a closer look at Marula farm."
+							},
+							{
+								"name": "Elephants at Marula",
+								"pageID": "7538a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Farm Map",
+								"pageID": "81d7e",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Collect Data",
+								"pageID": "d76d9",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Data Analysis",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "Analyze the Farm",
+								"pageID": "39907",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Cotton Crop",
+								"pageID": "916f6",
+								"visible": true,
+								"popperMessage": "Now analyze cotton crops."
+							},
+							{
+								"name": "Cotton Fraction",
+								"pageID": "1bb93",
+								"visible": true,
+								"popperMessage": "Let’s make the fraction <div class=\"fraction_InlinePB\"><p class=\"text_NumeratorPB textCenter\">10</p><p class=\"text_DenominatorPB textCenter\">50</p></div> <br>more simple."
+							},
+							{
+								"name": "Corn Crop",
+								"pageID": "744a5",
+								"visible": true,
+								"popperMessage": "Look at the rest of the field."
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Data Interpretation",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "Trampled Field",
+								"pageID": "cdd90",
+								"visible": true,
+								"popperMessage": "Take a closer look at the data."
+							},
+							{
+								"name": "Interpret",
+								"pageID": "12033",
+								"visible": true,
+								"popperMessage": "Click to continue."
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Hypothesis",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "Solutions",
+								"pageID": "4d974",
+								"visible": true,
+								"popperMessage": "Make a hypothesis about how to <br>help Farmer Lucy."
+							},
+							{
+								"name": "Hypothesis",
+								"pageID": "0a578",
+								"visible": true,
+								"popperMessage": "Make your choice."
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Experiments",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "Experiment 1",
+								"pageID": "c89c9",
+								"visible": true,
+								"popperMessage": "Let’s test hypothesis 2."
+							},
+							{
+								"name": "Replant",
+								"pageID": "b0f3d",
+								"visible": true,
+								"popperMessage": "Continue with the experiment."
+							},
+							{
+								"name": "Prediction 1",
+								"pageID": "8d21f",
+								"visible": true,
+								"popperMessage": "What do you think will happen?"
+							},
+							{
+								"name": "Elephants Come",
+								"pageID": "a574f",
+								"visible": true,
+								"popperMessage": "Test your prediction."
+							},
+							{
+								"name": "Explanation",
+								"pageID": "015c4",
+								"visible": true,
+								"popperMessage": "Find out why."
+							},
+							{
+								"name": "Prediction Answer",
+								"pageID": "41636",
+								"visible": true,
+								"popperMessage": "Was your prediction correct?"
+							},
+							{
+								"name": "Revise Hypothesis",
+								"pageID": "d88f2",
+								"visible": true,
+								"popperMessage": "Return to your hypothesis."
+							},
+							{
+								"name": "Experiment 2",
+								"pageID": "d8a15",
+								"visible": true,
+								"popperMessage": "Let’s test hypothesis 1."
+							},
+							{
+								"name": "Prediction 2",
+								"pageID": "4f43f",
+								"visible": true,
+								"popperMessage": "What do you think will happen?"
+							},
+							{
+								"name": "Elephants Come 2",
+								"pageID": "d89b7",
+								"visible": true,
+								"popperMessage": "Test your prediction."
+							},
+							{
+								"name": "Prediction Answer",
+								"pageID": "21df9",
+								"visible": true,
+								"popperMessage": "Was your prediction correct?"
+							},
+							{
+								"name": "Farm Saved",
+								"pageID": "398e2",
+								"visible": true,
+								"popperMessage": "You did it!"
+							},
+							{
+								"name": "Message",
+								"pageID": "a5af6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Case Summary",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "Summary",
+								"pageID": "148da",
+								"visible": true,
+								"popperMessage": "Write your case report."
+							},
+							{
+								"name": "Real Story",
+								"pageID": "fcc04",
+								"visible": true,
+								"popperMessage": "Let’s learn a little more. "
+							},
+							{
+								"name": "Links",
+								"pageID": "a0cac",
+								"visible": true,
+								"popperMessage": "Learn more."
+							},
+							{
+								"name": "Case Completed",
+								"pageID": "853d0",
+								"visible": true,
+								"popperMessage": "Finish the case."
+							}
+						],
+						"entryColor": "#a9b3fc"
+					}
+				]
+			},
+			{
+				"trackID": "case-ms",
+				"name": "case-ms",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Introduction",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "Background",
+								"pageID": "79144",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Learn More",
+								"pageID": "b353c",
+								"visible": true,
+								"popperMessage": "You have a new phone message."
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Collect Data",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "Marula Farm",
+								"pageID": "3baa2",
+								"visible": true,
+								"popperMessage": "Take a closer look at Marula farm."
+							},
+							{
+								"name": "Elephants at Marula",
+								"pageID": "7538a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Farm Map",
+								"pageID": "81d7e",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Collect Data",
+								"pageID": "d76d9",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Data Analysis",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "Farm Area",
+								"pageID": "d956d",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Cotton Crop",
+								"pageID": "916f6",
+								"visible": true,
+								"popperMessage": "Now analyze cotton crops."
+							},
+							{
+								"name": "Corn Crop",
+								"pageID": "744a5",
+								"visible": true,
+								"popperMessage": "How much is used for corn?"
+							},
+							{
+								"name": "Cotton Percent",
+								"pageID": "d9ef7",
+								"visible": true,
+								"popperMessage": "Convert the cotton to a percent."
+							},
+							{
+								"name": "Corn Percent",
+								"pageID": "2a8ef",
+								"visible": true,
+								"popperMessage": "Find the percent of corn."
+							},
+							{
+								"name": "Trampled Percent",
+								"pageID": "bdba3",
+								"visible": true,
+								"popperMessage": "Calculate more data."
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Data Interpretation",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "Trampled Field",
+								"pageID": "cdd90",
+								"visible": true,
+								"popperMessage": "Take a closer look at the data."
+							},
+							{
+								"name": "Interpret",
+								"pageID": "12033",
+								"visible": true,
+								"popperMessage": "Click to continue."
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Hypothesis",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "Solutions",
+								"pageID": "29f8d",
+								"visible": true,
+								"popperMessage": "Make a hypothesis about how to <br>help Farmer Lucy."
+							},
+							{
+								"name": "Hypothesis",
+								"pageID": "de68f",
+								"visible": true,
+								"popperMessage": "Make your choice."
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Experiments",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "Experiment 1",
+								"pageID": "c89c9",
+								"visible": true,
+								"popperMessage": "Let’s test hypothesis 2."
+							},
+							{
+								"name": "Replant",
+								"pageID": "b0f3d",
+								"visible": true,
+								"popperMessage": "Continue with the experiment."
+							},
+							{
+								"name": "Prediction 1",
+								"pageID": "8d21f",
+								"visible": true,
+								"popperMessage": "What do you think will happen?"
+							},
+							{
+								"name": "Elephants Come",
+								"pageID": "a574f",
+								"visible": true,
+								"popperMessage": "Test your prediction."
+							},
+							{
+								"name": "Explanation",
+								"pageID": "015c4",
+								"visible": true,
+								"popperMessage": "Find out why."
+							},
+							{
+								"name": "Prediction Answer",
+								"pageID": "41636",
+								"visible": true,
+								"popperMessage": "Was your prediction correct?"
+							},
+							{
+								"name": "Revise Hypothesis",
+								"pageID": "990bc",
+								"visible": true,
+								"popperMessage": "Return to your hypothesis."
+							},
+							{
+								"name": "Beehives",
+								"pageID": "0c016",
+								"visible": true,
+								"popperMessage": "How many hives should Lucy add?"
+							},
+							{
+								"name": "Experiment 2",
+								"pageID": "cd813",
+								"visible": true,
+								"popperMessage": "Lucy made 5 hives. Add them to <br>the farm."
+							},
+							{
+								"name": "Prediction 2",
+								"pageID": "1f3ba",
+								"visible": true,
+								"popperMessage": "What do you think will happen?"
+							},
+							{
+								"name": "Elephants Come 2",
+								"pageID": "c433f",
+								"visible": true,
+								"popperMessage": "Test your prediction."
+							},
+							{
+								"name": "Recollect Data",
+								"pageID": "420f0",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "Analyze",
+								"pageID": "07531",
+								"visible": true,
+								"popperMessage": "Analyze the corn."
+							},
+							{
+								"name": "Prediction Answer",
+								"pageID": "9148e",
+								"visible": true,
+								"popperMessage": "Check your prediction."
+							},
+							{
+								"name": "Info",
+								"pageID": "c512c",
+								"visible": true,
+								"popperMessage": "Let’s try to help Lucy again."
+							},
+							{
+								"name": "More Info",
+								"pageID": "fdcc3",
+								"visible": true,
+								"popperMessage": "Continue."
+							},
+							{
+								"name": "Experiment 3",
+								"pageID": "4823c",
+								"visible": true,
+								"popperMessage": "Start experiment 3."
+							},
+							{
+								"name": "Elephants Come 3",
+								"pageID": "b1f52",
+								"visible": true,
+								"popperMessage": "Continue to see what happens."
+							},
+							{
+								"name": "Farm Saved",
+								"pageID": "398e2",
+								"visible": true,
+								"popperMessage": "You did it!"
+							},
+							{
+								"name": "Message",
+								"pageID": "a5af6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Case Summary",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "Summary",
+								"pageID": "148da",
+								"visible": true,
+								"popperMessage": "Write your case report."
+							},
+							{
+								"name": "Real Story",
+								"pageID": "fcc04",
+								"visible": true,
+								"popperMessage": "Let’s learn a little more. "
+							},
+							{
+								"name": "Links",
+								"pageID": "a0cac",
+								"visible": true,
+								"popperMessage": "Learn more."
+							},
+							{
+								"name": "Case Completed",
+								"pageID": "853d0",
+								"visible": true,
+								"popperMessage": "Finish the case."
+							}
+						],
+						"entryColor": "#a9b3fc"
+					}
+				]
+			}
+		]
+	},
+	"guide": {
+		"popperMessage": "Before you travel to the farm, go to the <br>Animal Group Behavior handbook to learn more.",
+		"tracks": [
+			{
+				"trackID": "guide-el",
+				"name": "guide-el",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Living in Groups",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "m100_E",
+								"pageID": "2abe5",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m101_EExMMx",
+								"pageID": "4f908",
+								"visible": true,
+								"popperMessage": "Use the arrows to move through the pages.<br>Click here to begin!"
+							},
+							{
+								"name": "m102_EExMMx",
+								"pageID": "6d57f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m103_EExMMx",
+								"pageID": "fc84a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m104_EExMMx",
+								"pageID": "f2df1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m105_EExMMx",
+								"pageID": "5a87b",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Learning in Groups",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "m109_EExMMx",
+								"pageID": "15c44",
+								"visible": true,
+								"popperMessage": "What else do baby elephants need to learn?"
+							},
+							{
+								"name": "m110_EExMMx",
+								"pageID": "0233c",
+								"visible": true,
+								"popperMessage": "See how baby elephants learn to drink water."
+							},
+							{
+								"name": "m111_EExMMx",
+								"pageID": "f0d86",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m112_EExMMx",
+								"pageID": "4bb09",
+								"visible": true,
+								"popperMessage": "The baby elephants only need to learn how to <br>drink one time."
+							},
+							{
+								"name": "m113_EExMMx",
+								"pageID": "f34b6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m114_EExMMx",
+								"pageID": "ddd67",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m115_EExMMx",
+								"pageID": "de784",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m116_EEx",
+								"pageID": "69367",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m117_EExMMx",
+								"pageID": "15b75",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Bees",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "m131_EExMMx",
+								"pageID": "3fd9d",
+								"visible": true,
+								"popperMessage": "Learn more about how elephants live in herds."
+							},
+							{
+								"name": "m132_EExMMx",
+								"pageID": "d9a77",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m133_EExMMx",
+								"pageID": "d8899",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m134_EExMMx",
+								"pageID": "d0186",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m137_EExMMx",
+								"pageID": "e1963",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Group Communication",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "m138_EExMMx",
+								"pageID": "2fd0b",
+								"visible": true,
+								"popperMessage": "Bees also communicate with smell."
+							},
+							{
+								"name": "m139_EExMMx",
+								"pageID": "3c87a",
+								"visible": true,
+								"popperMessage": "Communication is important in all groups."
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Elephants and Bees",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "m140_EExMMx",
+								"pageID": "7d823",
+								"visible": true,
+								"popperMessage": "Learn about the relationship between <br>elephants and bees."
+							},
+							{
+								"name": "m141_EExMMx",
+								"pageID": "a36bf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m142_EExMMx",
+								"pageID": "115bd",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m143_EExMMx",
+								"pageID": "f5b16",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m144_EExMMx",
+								"pageID": "72eb8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m145_EExMMx",
+								"pageID": "6f4a2",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m146_EExMMx",
+								"pageID": "71543",
+								"visible": true,
+								"popperMessage": "An elephant does not need to get <br>stung to be scared of bees!"
+							},
+							{
+								"name": "m147_EExMMx",
+								"pageID": "977f6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m148_EExMMx",
+								"pageID": "3d3d1",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Animal Groups and Humans",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "m149_EExMMx",
+								"pageID": "703ef",
+								"visible": true,
+								"popperMessage": "How do elephants and bees live with farmers?"
+							},
+							{
+								"name": "m150_EExMMx",
+								"pageID": "6b6d3",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m151_EExMMx",
+								"pageID": "c876d",
+								"visible": true,
+								"popperMessage": "Some plants need help from <br>animals for their pollination."
+							},
+							{
+								"name": "m153_EExMMx",
+								"pageID": "0c385",
+								"visible": true,
+								"popperMessage": "Elephants can kill the crops."
+							},
+							{
+								"name": "m154_EExMMx",
+								"pageID": "24fd8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m155_EExMMx",
+								"pageID": "89216",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m156_EExMMx",
+								"pageID": "55ad6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Review",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "m157_E",
+								"pageID": "e2ea5",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#a9b3fc"
+					}
+				]
+			},
+			{
+				"trackID": "guide-ms",
+				"name": "guide-ms",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Living in Groups",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "m200_M",
+								"pageID": "2487d",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m101_EExMMx",
+								"pageID": "4f908",
+								"visible": true,
+								"popperMessage": "Use the arrows to move through the pages.<br>Click here to begin!"
+							},
+							{
+								"name": "m102_EExMMx",
+								"pageID": "6d57f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m103_EExMMx",
+								"pageID": "fc84a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m104_EExMMx",
+								"pageID": "f2df1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m105_EExMMx",
+								"pageID": "5a87b",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m206_MMx",
+								"pageID": "ba40b",
+								"visible": true,
+								"popperMessage": "How is the elephant herd organized?"
+							},
+							{
+								"name": "m207_MMx",
+								"pageID": "2e98f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m208_MMx",
+								"pageID": "ad5a0",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Learning in Groups",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "m109_EExMMx",
+								"pageID": "15c44",
+								"visible": true,
+								"popperMessage": "How do animals learn?"
+							},
+							{
+								"name": "m110_EExMMx",
+								"pageID": "0233c",
+								"visible": true,
+								"popperMessage": "See how baby elephants learn to drink water."
+							},
+							{
+								"name": "m111_EExMMx",
+								"pageID": "f0d86",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m112_EExMMx",
+								"pageID": "4bb09",
+								"visible": true,
+								"popperMessage": "The baby elephants only need to learn how to <br>drink one time."
+							},
+							{
+								"name": "m113_EExMMx",
+								"pageID": "f34b6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m114_EExMMx",
+								"pageID": "ddd67",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m115_EExMMx",
+								"pageID": "de784",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m216_MMx",
+								"pageID": "3c9aa",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m117_EExMMx",
+								"pageID": "15b75",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Bees",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "m131_EExMMx",
+								"pageID": "3fd9d",
+								"visible": true,
+								"popperMessage": "Learn more about how elephants live in herds."
+							},
+							{
+								"name": "m132_EExMMx",
+								"pageID": "d9a77",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m133_EExMMx",
+								"pageID": "d8899",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m134_EExMMx",
+								"pageID": "d0186",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m235_MMx",
+								"pageID": "379d1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m137_EExMMx",
+								"pageID": "e1963",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Group Communication",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "m138_EExMMx",
+								"pageID": "2fd0b",
+								"visible": true,
+								"popperMessage": "Bees also communicate with smell."
+							},
+							{
+								"name": "m139_EExMMx",
+								"pageID": "3c87a",
+								"visible": true,
+								"popperMessage": "Communication is important in all groups."
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Elephants and Bees",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "m140_EExMMx",
+								"pageID": "7d823",
+								"visible": true,
+								"popperMessage": "Learn about the relationship between <br>elephants and bees."
+							},
+							{
+								"name": "m141_EExMMx",
+								"pageID": "a36bf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m142_EExMMx",
+								"pageID": "115bd",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m143_EExMMx",
+								"pageID": "f5b16",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m144_EExMMx",
+								"pageID": "72eb8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m145_EExMMx",
+								"pageID": "6f4a2",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m146_EExMMx",
+								"pageID": "71543",
+								"visible": true,
+								"popperMessage": "An elephant does not need to get <br>stung to be scared of bees!"
+							},
+							{
+								"name": "m147_EExMMx",
+								"pageID": "977f6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m148_EExMMx",
+								"pageID": "3d3d1",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Animal Groups and Humans",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "m149_EExMMx",
+								"pageID": "703ef",
+								"visible": true,
+								"popperMessage": "How do elephants and bees live with farmers?"
+							},
+							{
+								"name": "m150_EExMMx",
+								"pageID": "6b6d3",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m151_EExMMx",
+								"pageID": "c876d",
+								"visible": true,
+								"popperMessage": "Some plants need help from <br>animals for their pollination."
+							},
+							{
+								"name": "m153_EExMMx",
+								"pageID": "0c385",
+								"visible": true,
+								"popperMessage": "Elephants can kill the crops."
+							},
+							{
+								"name": "m154_EExMMx",
+								"pageID": "24fd8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m155_EExMMx",
+								"pageID": "89216",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m156_EExMMx",
+								"pageID": "55ad6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Review",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "m257_M",
+								"pageID": "8ef28",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#a9b3fc"
+					}
+				]
+			},
+			{
+				"trackID": "guide-ext_el",
+				"name": "guide-ext_el",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Living in Groups",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "m100_Ex",
+								"pageID": "722fd",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m101_EExMMx",
+								"pageID": "4f908",
+								"visible": true,
+								"popperMessage": "Use the arrows to move through the pages.<br>Click here to begin!"
+							},
+							{
+								"name": "m102_EExMMx",
+								"pageID": "6d57f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m103_EExMMx",
+								"pageID": "fc84a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m104_EExMMx",
+								"pageID": "f2df1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m105_EExMMx",
+								"pageID": "5a87b",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Learning in Groups",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "m109_EExMMx",
+								"pageID": "15c44",
+								"visible": true,
+								"popperMessage": "What else do baby elephants need to learn?"
+							},
+							{
+								"name": "m110_EExMMx",
+								"pageID": "0233c",
+								"visible": true,
+								"popperMessage": "See how baby elephants learn to drink water."
+							},
+							{
+								"name": "m111_EExMMx",
+								"pageID": "f0d86",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m112_EExMMx",
+								"pageID": "4bb09",
+								"visible": true,
+								"popperMessage": "The baby elephants only need to learn how to <br>drink one time."
+							},
+							{
+								"name": "m113_EExMMx",
+								"pageID": "f34b6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m114_EExMMx",
+								"pageID": "ddd67",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m115_EExMMx",
+								"pageID": "de784",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m116_EEx",
+								"pageID": "69367",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m117_EExMMx",
+								"pageID": "15b75",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Structure and Function",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "m118_Ex",
+								"pageID": "aae7f",
+								"visible": true,
+								"popperMessage": "Learn more about how elephants survive."
+							},
+							{
+								"name": "m119_Ex",
+								"pageID": "c1818",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m120_Ex",
+								"pageID": "e28ac",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m121_Ex",
+								"pageID": "b561f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m122_Ex",
+								"pageID": "77b3c",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m123_Ex",
+								"pageID": "9224b",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m124_Ex",
+								"pageID": "0f009",
+								"visible": true,
+								"popperMessage": "Elephants can also be found in Asia."
+							},
+							{
+								"name": "m125_Ex",
+								"pageID": "1e566",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m126_Ex",
+								"pageID": "ce95f",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Herds and the Environment",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "m127_ExMx",
+								"pageID": "10eff",
+								"visible": true,
+								"popperMessage": "Learn more about how elephants live in herds."
+							},
+							{
+								"name": "m128_ExMx",
+								"pageID": "3a1e0",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m129_ExMx",
+								"pageID": "75363",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m130_ExMx",
+								"pageID": "581f2",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Bees",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "m131_EExMMx",
+								"pageID": "3fd9d",
+								"visible": true,
+								"popperMessage": "How do elephant herds live with other animal groups?"
+							},
+							{
+								"name": "m132_EExMMx",
+								"pageID": "d9a77",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m133_EExMMx",
+								"pageID": "d8899",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m134_EExMMx",
+								"pageID": "d0186",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m136_ExMx",
+								"pageID": "44daf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m137_EExMMx",
+								"pageID": "e1963",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Group Communication",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "m138_EExMMx",
+								"pageID": "2fd0b",
+								"visible": true,
+								"popperMessage": "Bees also communicate with smell."
+							},
+							{
+								"name": "m139_EExMMx",
+								"pageID": "3c87a",
+								"visible": true,
+								"popperMessage": "Communication is important in all groups."
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Elephants and Bees",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "m140_EExMMx",
+								"pageID": "7d823",
+								"visible": true,
+								"popperMessage": "Learn about the relationship between <br>elephants and bees."
+							},
+							{
+								"name": "m141_EExMMx",
+								"pageID": "a36bf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m142_EExMMx",
+								"pageID": "115bd",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m143_EExMMx",
+								"pageID": "f5b16",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m144_EExMMx",
+								"pageID": "72eb8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m145_EExMMx",
+								"pageID": "6f4a2",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m146_EExMMx",
+								"pageID": "71543",
+								"visible": true,
+								"popperMessage": "An elephant does not need to get <br>stung to be scared of bees!"
+							},
+							{
+								"name": "m147_EExMMx",
+								"pageID": "977f6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m148_EExMMx",
+								"pageID": "3d3d1",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#a9b3fc"
+					},
+					{
+						"name": "Animal Groups and Humans",
+						"visible": true,
+						"tocColor": "#e399ff",
+						"pages": [
+							{
+								"name": "m149_EExMMx",
+								"pageID": "703ef",
+								"visible": true,
+								"popperMessage": "How do elephants and bees live with farmers?"
+							},
+							{
+								"name": "m150_EExMMx",
+								"pageID": "6b6d3",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m151_EExMMx",
+								"pageID": "c876d",
+								"visible": true,
+								"popperMessage": "Some plants need help from <br>animals for their pollination."
+							},
+							{
+								"name": "m153_EExMMx",
+								"pageID": "0c385",
+								"visible": true,
+								"popperMessage": "Elephants can kill the crops."
+							},
+							{
+								"name": "m154_EExMMx",
+								"pageID": "24fd8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m155_EExMMx",
+								"pageID": "89216",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m156_EExMMx",
+								"pageID": "55ad6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#e399ff"
+					},
+					{
+						"name": "Review",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "m157_Ex",
+								"pageID": "e0de0",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m158_Ex",
+								"pageID": "7ca6d",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#f95858"
+					}
+				]
+			},
+			{
+				"trackID": "guide-ext_ms",
+				"name": "guide-ext_ms",
+				"popperMessage": "",
+				"sections": [
+					{
+						"name": "Living in Groups",
+						"visible": true,
+						"tocColor": "#f95858",
+						"pages": [
+							{
+								"name": "m200_Mx",
+								"pageID": "dc5b8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m101_EExMMx",
+								"pageID": "4f908",
+								"visible": true,
+								"popperMessage": "Use the arrows to move through the pages.<br>Click here to begin!"
+							},
+							{
+								"name": "m102_EExMMx",
+								"pageID": "6d57f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m103_EExMMx",
+								"pageID": "fc84a",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m104_EExMMx",
+								"pageID": "f2df1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m105_EExMMx",
+								"pageID": "5a87b",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m206_MMx",
+								"pageID": "ba40b",
+								"visible": true,
+								"popperMessage": "How is the elephant herd organized?"
+							},
+							{
+								"name": "m207_MMx",
+								"pageID": "2e98f",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m208_MMx",
+								"pageID": "ad5a0",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#f95858"
+					},
+					{
+						"name": "Learning in Groups",
+						"visible": true,
+						"tocColor": "#fcb259",
+						"pages": [
+							{
+								"name": "m109_EExMMx",
+								"pageID": "15c44",
+								"visible": true,
+								"popperMessage": "How do animals learn?"
+							},
+							{
+								"name": "m110_EExMMx",
+								"pageID": "0233c",
+								"visible": true,
+								"popperMessage": "See how baby elephants learn to drink water."
+							},
+							{
+								"name": "m111_EExMMx",
+								"pageID": "f0d86",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m112_EExMMx",
+								"pageID": "4bb09",
+								"visible": true,
+								"popperMessage": "The baby elephants only need to learn how to <br>drink one time."
+							},
+							{
+								"name": "m113_EExMMx",
+								"pageID": "f34b6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m114_EExMMx",
+								"pageID": "ddd67",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m115_EExMMx",
+								"pageID": "de784",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m216_MMx",
+								"pageID": "3c9aa",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m117_EExMMx",
+								"pageID": "15b75",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fcb259"
+					},
+					{
+						"name": "Herds and the Environment",
+						"visible": true,
+						"tocColor": "#fffa99",
+						"pages": [
+							{
+								"name": "m127_ExMx",
+								"pageID": "10eff",
+								"visible": true,
+								"popperMessage": "Learn more about how elephants live in herds."
+							},
+							{
+								"name": "m128_ExMx",
+								"pageID": "3a1e0",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m129_ExMx",
+								"pageID": "75363",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m130_ExMx",
+								"pageID": "581f2",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#fffa99"
+					},
+					{
+						"name": "Bees",
+						"visible": true,
+						"tocColor": "#c1ff8a",
+						"pages": [
+							{
+								"name": "m131_EExMMx",
+								"pageID": "3fd9d",
+								"visible": true,
+								"popperMessage": "How do elephant herds live with other animal groups?"
+							},
+							{
+								"name": "m132_EExMMx",
+								"pageID": "d9a77",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m133_EExMMx",
+								"pageID": "d8899",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m134_EExMMx",
+								"pageID": "d0186",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m235_MMx",
+								"pageID": "379d1",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m136_ExMx",
+								"pageID": "44daf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m137_EExMMx",
+								"pageID": "e1963",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#c1ff8a"
+					},
+					{
+						"name": "Group Communication",
+						"visible": true,
+						"tocColor": "#83ffd6",
+						"pages": [
+							{
+								"name": "m138_EExMMx",
+								"pageID": "2fd0b",
+								"visible": true,
+								"popperMessage": "Bees also communicate with smell."
+							},
+							{
+								"name": "m139_EExMMx",
+								"pageID": "3c87a",
+								"visible": true,
+								"popperMessage": "Communication is important in all groups."
+							}
+						],
+						"entryColor": "#83ffd6"
+					},
+					{
+						"name": "Elephants and Bees",
+						"visible": true,
+						"tocColor": "#85cbff",
+						"pages": [
+							{
+								"name": "m140_EExMMx",
+								"pageID": "7d823",
+								"visible": true,
+								"popperMessage": "Learn about the relationship between <br>elephants and bees."
+							},
+							{
+								"name": "m141_EExMMx",
+								"pageID": "a36bf",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m142_EExMMx",
+								"pageID": "115bd",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m143_EExMMx",
+								"pageID": "f5b16",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m144_EExMMx",
+								"pageID": "72eb8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m145_EExMMx",
+								"pageID": "6f4a2",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m146_EExMMx",
+								"pageID": "71543",
+								"visible": true,
+								"popperMessage": "An elephant does not need to get <br>stung to be scared of bees!"
+							},
+							{
+								"name": "m147_EExMMx",
+								"pageID": "977f6",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m148_EExMMx",
+								"pageID": "3d3d1",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#85cbff"
+					},
+					{
+						"name": "Animal Groups and Humans",
+						"visible": true,
+						"tocColor": "#a9b3fc",
+						"pages": [
+							{
+								"name": "m149_EExMMx",
+								"pageID": "703ef",
+								"visible": true,
+								"popperMessage": "How do elephants and bees live with farmers?"
+							},
+							{
+								"name": "m150_EExMMx",
+								"pageID": "6b6d3",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m151_EExMMx",
+								"pageID": "c876d",
+								"visible": true,
+								"popperMessage": "Some plants need help from <br>animals for their pollination."
+							},
+							{
+								"name": "m252_Mx",
+								"pageID": "2582a",
+								"visible": true,
+								"popperMessage": "This is a good relationship for <br>the bees and the plants."
+							},
+							{
+								"name": "m153_EExMMx",
+								"pageID": "0c385",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m154_EExMMx",
+								"pageID": "24fd8",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m155_EExMMx",
+								"pageID": "89216",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m156_EExMMx",
+								"pageID": "55ad6",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#a9b3fc"
+					},
+					{
+						"name": "Review",
+						"visible": true,
+						"tocColor": "#e399ff",
+						"pages": [
+							{
+								"name": "m257_Mx",
+								"pageID": "195db",
+								"visible": true,
+								"popperMessage": ""
+							},
+							{
+								"name": "m258_Mx",
+								"pageID": "6e53f",
+								"visible": true,
+								"popperMessage": ""
+							}
+						],
+						"entryColor": "#e399ff"
+					}
+				]
+			}
+		]
+	},
+	"glossary": {
+		"tracks": [
+			{
+				"trackID": "glossary-E",
+				"name": "glossary-E",
+				"pages": [
+					{
+						"name": "Alarm Pheromone",
+						"pageID": "g_alarm_pheromone_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pheromones",
+								"pageID": "g_pheromones_E-Ex-M-Mx"
+							},
+							{
+								"name": "Predators",
+								"pageID": "g_predators_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Area",
+						"pageID": "g_area_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Barbed Wire",
+						"pageID": "g_barbed_wire_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Blood Vessel",
+						"pageID": "g_blood_vessel_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Oxygen",
+								"pageID": "g_oxygen_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Colony",
+						"pageID": "g_colony_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Hive",
+								"pageID": "g_hive_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Deforestation",
+						"pageID": "g_deforestation_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Dominant",
+						"pageID": "g_dominant_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Endangered",
+						"pageID": "g_endangered_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							},
+							{
+								"name": "Wildlife Biologist",
+								"pageID": "g_wildlife_biologist_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Evolved",
+						"pageID": "g_evolved_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "External",
+						"pageID": "g_external_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Trunks",
+								"pageID": "g_trunks_E-Ex-M-Mx"
+							},
+							{
+								"name": "Tusks",
+								"pageID": "g_tusks_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Extinction",
+						"pageID": "g_extinction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Fertilization",
+						"pageID": "g_fertilization_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Function",
+						"pageID": "g_function_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Structure",
+								"pageID": "g_structure_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Group Conflict",
+						"pageID": "g_group_conflict_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Herds",
+						"pageID": "g_herds_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hierarchy",
+						"pageID": "g_hierarchy_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hive",
+						"pageID": "g_hive_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Colony",
+								"pageID": "g_colony_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hypothesis",
+						"pageID": "g_hypothesis_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Internal",
+						"pageID": "g_internal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							},
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Keystone Species",
+						"pageID": "g_keystone_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Species",
+								"pageID": "g_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Learned Behavior",
+						"pageID": "g_learned_behavior_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Memory",
+								"pageID": "g_memory_E-Ex-M-Mx"
+							},
+							{
+								"name": "Senses",
+								"pageID": "g_senses_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Memory",
+						"pageID": "g_memory_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Mutually Beneficial",
+						"pageID": "g_mutually_beneficial_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Nectar",
+						"pageID": "g_nectar_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Oxygen",
+						"pageID": "g_oxygen_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pheromones",
+						"pageID": "g_pheromones_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Poachers",
+						"pageID": "g_poachers_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pollination",
+						"pageID": "g_pollination_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predators",
+						"pageID": "g_predators_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predict",
+						"pageID": "g_predict_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Resources",
+						"pageID": "g_resources_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Senses",
+						"pageID": "g_senses_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Signal",
+						"pageID": "g_signal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Waggle Dance",
+								"pageID": "g_waggle_dance_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Social Interaction",
+						"pageID": "g_social_interaction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Species",
+						"pageID": "g_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Keystone Species",
+								"pageID": "g_keystone_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Structure",
+						"pageID": "g_structure_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Function",
+								"pageID": "g_function_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Trampled",
+						"pageID": "g_trampled_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Trunks",
+						"pageID": "g_trunks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Tusks",
+						"pageID": "g_tusks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Waggle Dance",
+						"pageID": "g_waggle_dance_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Signal",
+								"pageID": "g_signal_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Wildlife Biologist",
+						"pageID": "g_wildlife_biologist_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							}
+						]
+					}
+				]
+			},
+			{
+				"trackID": "glossary-Ex",
+				"name": "glossary-Ex",
+				"pages": [
+					{
+						"name": "Alarm Pheromone",
+						"pageID": "g_alarm_pheromone_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pheromones",
+								"pageID": "g_pheromones_E-Ex-M-Mx"
+							},
+							{
+								"name": "Predators",
+								"pageID": "g_predators_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Area",
+						"pageID": "g_area_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Barbed Wire",
+						"pageID": "g_barbed_wire_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Blood Vessel",
+						"pageID": "g_blood_vessel_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Oxygen",
+								"pageID": "g_oxygen_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Colony",
+						"pageID": "g_colony_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Hive",
+								"pageID": "g_hive_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Deforestation",
+						"pageID": "g_deforestation_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Dominant",
+						"pageID": "g_dominant_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Endangered",
+						"pageID": "g_endangered_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							},
+							{
+								"name": "Wildlife Biologist",
+								"pageID": "g_wildlife_biologist_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Evolved",
+						"pageID": "g_evolved_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "External",
+						"pageID": "g_external_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Trunks",
+								"pageID": "g_trunks_E-Ex-M-Mx"
+							},
+							{
+								"name": "Tusks",
+								"pageID": "g_tusks_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Extinction",
+						"pageID": "g_extinction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Fertilization",
+						"pageID": "g_fertilization_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Function",
+						"pageID": "g_function_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Structure",
+								"pageID": "g_structure_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Group Conflict",
+						"pageID": "g_group_conflict_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Herds",
+						"pageID": "g_herds_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hierarchy",
+						"pageID": "g_hierarchy_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hive",
+						"pageID": "g_hive_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Colony",
+								"pageID": "g_colony_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hypothesis",
+						"pageID": "g_hypothesis_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Internal",
+						"pageID": "g_internal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							},
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Keystone Species",
+						"pageID": "g_keystone_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Species",
+								"pageID": "g_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Learned Behavior",
+						"pageID": "g_learned_behavior_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Memory",
+								"pageID": "g_memory_E-Ex-M-Mx"
+							},
+							{
+								"name": "Senses",
+								"pageID": "g_senses_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Memory",
+						"pageID": "g_memory_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Mutually Beneficial",
+						"pageID": "g_mutually_beneficial_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Nectar",
+						"pageID": "g_nectar_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Oxygen",
+						"pageID": "g_oxygen_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pheromones",
+						"pageID": "g_pheromones_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Poachers",
+						"pageID": "g_poachers_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pollination",
+						"pageID": "g_pollination_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predators",
+						"pageID": "g_predators_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predict",
+						"pageID": "g_predict_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Resources",
+						"pageID": "g_resources_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Senses",
+						"pageID": "g_senses_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Signal",
+						"pageID": "g_signal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Waggle Dance",
+								"pageID": "g_waggle_dance_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Social Interaction",
+						"pageID": "g_social_interaction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Species",
+						"pageID": "g_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Keystone Species",
+								"pageID": "g_keystone_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Structure",
+						"pageID": "g_structure_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Function",
+								"pageID": "g_function_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Trampled",
+						"pageID": "g_trampled_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Trunks",
+						"pageID": "g_trunks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Tusks",
+						"pageID": "g_tusks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Waggle Dance",
+						"pageID": "g_waggle_dance_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Signal",
+								"pageID": "g_signal_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Wildlife Biologist",
+						"pageID": "g_wildlife_biologist_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							}
+						]
+					}
+				]
+			},
+			{
+				"trackID": "glossary-M",
+				"name": "glossary-M",
+				"pages": [
+					{
+						"name": "Alarm Pheromone",
+						"pageID": "g_alarm_pheromone_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pheromones",
+								"pageID": "g_pheromones_E-Ex-M-Mx"
+							},
+							{
+								"name": "Predators",
+								"pageID": "g_predators_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Area",
+						"pageID": "g_area_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Barbed Wire",
+						"pageID": "g_barbed_wire_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Blood Vessel",
+						"pageID": "g_blood_vessel_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Oxygen",
+								"pageID": "g_oxygen_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Colony",
+						"pageID": "g_colony_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Hive",
+								"pageID": "g_hive_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Deforestation",
+						"pageID": "g_deforestation_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Dominant",
+						"pageID": "g_dominant_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Endangered",
+						"pageID": "g_endangered_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							},
+							{
+								"name": "Wildlife Biologist",
+								"pageID": "g_wildlife_biologist_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Evolved",
+						"pageID": "g_evolved_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "External",
+						"pageID": "g_external_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Trunks",
+								"pageID": "g_trunks_E-Ex-M-Mx"
+							},
+							{
+								"name": "Tusks",
+								"pageID": "g_tusks_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Extinction",
+						"pageID": "g_extinction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Fertilization",
+						"pageID": "g_fertilization_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Function",
+						"pageID": "g_function_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Structure",
+								"pageID": "g_structure_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Group Conflict",
+						"pageID": "g_group_conflict_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Herds",
+						"pageID": "g_herds_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hierarchy",
+						"pageID": "g_hierarchy_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hive",
+						"pageID": "g_hive_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Colony",
+								"pageID": "g_colony_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hypothesis",
+						"pageID": "g_hypothesis_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Internal",
+						"pageID": "g_internal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							},
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Keystone Species",
+						"pageID": "g_keystone_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Species",
+								"pageID": "g_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Learned Behavior",
+						"pageID": "g_learned_behavior_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Memory",
+								"pageID": "g_memory_E-Ex-M-Mx"
+							},
+							{
+								"name": "Senses",
+								"pageID": "g_senses_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Memory",
+						"pageID": "g_memory_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Mutually Beneficial",
+						"pageID": "g_mutually_beneficial_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Nectar",
+						"pageID": "g_nectar_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Oxygen",
+						"pageID": "g_oxygen_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pheromones",
+						"pageID": "g_pheromones_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Poachers",
+						"pageID": "g_poachers_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pollination",
+						"pageID": "g_pollination_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predators",
+						"pageID": "g_predators_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predict",
+						"pageID": "g_predict_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Resources",
+						"pageID": "g_resources_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Senses",
+						"pageID": "g_senses_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Signal",
+						"pageID": "g_signal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Waggle Dance",
+								"pageID": "g_waggle_dance_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Social Interaction",
+						"pageID": "g_social_interaction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Species",
+						"pageID": "g_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Keystone Species",
+								"pageID": "g_keystone_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Structure",
+						"pageID": "g_structure_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Function",
+								"pageID": "g_function_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Trampled",
+						"pageID": "g_trampled_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Trunks",
+						"pageID": "g_trunks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Tusks",
+						"pageID": "g_tusks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Waggle Dance",
+						"pageID": "g_waggle_dance_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Signal",
+								"pageID": "g_signal_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Wildlife Biologist",
+						"pageID": "g_wildlife_biologist_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							}
+						]
+					}
+				]
+			},
+			{
+				"trackID": "glossary-Mx",
+				"name": "glossary-Mx",
+				"pages": [
+					{
+						"name": "Alarm Pheromone",
+						"pageID": "g_alarm_pheromone_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pheromones",
+								"pageID": "g_pheromones_E-Ex-M-Mx"
+							},
+							{
+								"name": "Predators",
+								"pageID": "g_predators_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Area",
+						"pageID": "g_area_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Barbed Wire",
+						"pageID": "g_barbed_wire_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Blood Vessel",
+						"pageID": "g_blood_vessel_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Oxygen",
+								"pageID": "g_oxygen_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Colony",
+						"pageID": "g_colony_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Hive",
+								"pageID": "g_hive_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Deforestation",
+						"pageID": "g_deforestation_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Dominant",
+						"pageID": "g_dominant_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Endangered",
+						"pageID": "g_endangered_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							},
+							{
+								"name": "Wildlife Biologist",
+								"pageID": "g_wildlife_biologist_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Evolved",
+						"pageID": "g_evolved_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "External",
+						"pageID": "g_external_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Internal",
+								"pageID": "g_internal_E-Ex-M-Mx"
+							},
+							{
+								"name": "Trunks",
+								"pageID": "g_trunks_E-Ex-M-Mx"
+							},
+							{
+								"name": "Tusks",
+								"pageID": "g_tusks_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Extinction",
+						"pageID": "g_extinction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Poachers",
+								"pageID": "g_poachers_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Fertilization",
+						"pageID": "g_fertilization_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Function",
+						"pageID": "g_function_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Structure",
+								"pageID": "g_structure_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Group Conflict",
+						"pageID": "g_group_conflict_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Herds",
+						"pageID": "g_herds_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							},
+							{
+								"name": "Social Interaction",
+								"pageID": "g_social_interaction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hierarchy",
+						"pageID": "g_hierarchy_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Dominant",
+								"pageID": "g_dominant_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hive",
+						"pageID": "g_hive_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Colony",
+								"pageID": "g_colony_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Hypothesis",
+						"pageID": "g_hypothesis_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Internal",
+						"pageID": "g_internal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							},
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Keystone Species",
+						"pageID": "g_keystone_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Species",
+								"pageID": "g_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Learned Behavior",
+						"pageID": "g_learned_behavior_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							},
+							{
+								"name": "Hierarchy",
+								"pageID": "g_hierarchy_E-Ex-M-Mx"
+							},
+							{
+								"name": "Memory",
+								"pageID": "g_memory_E-Ex-M-Mx"
+							},
+							{
+								"name": "Senses",
+								"pageID": "g_senses_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Memory",
+						"pageID": "g_memory_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Mutually Beneficial",
+						"pageID": "g_mutually_beneficial_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Nectar",
+						"pageID": "g_nectar_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Pollination",
+								"pageID": "g_pollination_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Oxygen",
+						"pageID": "g_oxygen_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Blood Vessel",
+								"pageID": "g_blood_vessel_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pheromones",
+						"pageID": "g_pheromones_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Poachers",
+						"pageID": "g_poachers_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							},
+							{
+								"name": "Extinction",
+								"pageID": "g_extinction_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Pollination",
+						"pageID": "g_pollination_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Fertilization",
+								"pageID": "g_fertilization_E-Ex-M-Mx"
+							},
+							{
+								"name": "Nectar",
+								"pageID": "g_nectar_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predators",
+						"pageID": "g_predators_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Alarm Pheromone",
+								"pageID": "g_alarm_pheromone_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Predict",
+						"pageID": "g_predict_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Resources",
+						"pageID": "g_resources_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Senses",
+						"pageID": "g_senses_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Learned Behavior",
+								"pageID": "g_learned_behavior_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Signal",
+						"pageID": "g_signal_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Waggle Dance",
+								"pageID": "g_waggle_dance_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Social Interaction",
+						"pageID": "g_social_interaction_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Group Conflict",
+								"pageID": "g_group_conflict_E-Ex-M-Mx"
+							},
+							{
+								"name": "Herds",
+								"pageID": "g_herds_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Species",
+						"pageID": "g_species_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Keystone Species",
+								"pageID": "g_keystone_species_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Structure",
+						"pageID": "g_structure_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Function",
+								"pageID": "g_function_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Trampled",
+						"pageID": "g_trampled_E-Ex-M-Mx",
+						"relatedTerms": []
+					},
+					{
+						"name": "Trunks",
+						"pageID": "g_trunks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Tusks",
+						"pageID": "g_tusks_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "External",
+								"pageID": "g_external_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Waggle Dance",
+						"pageID": "g_waggle_dance_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Signal",
+								"pageID": "g_signal_E-Ex-M-Mx"
+							}
+						]
+					},
+					{
+						"name": "Wildlife Biologist",
+						"pageID": "g_wildlife_biologist_E-Ex-M-Mx",
+						"relatedTerms": [
+							{
+								"name": "Endangered",
+								"pageID": "g_endangered_E-Ex-M-Mx"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"trackGroups": [
+		{
+			"trackGroupID": "animal_group_behavior_case_elementary-v1.0.0",
+			"name": "Case_E",
+			"productionRubricVersion": 78,
+			"stagingRubricVersion": 77,
+			"caseID": "case-el",
+			"guideID": "guide-el",
+			"glossaryID": "glossary-E"
+		},
+		{
+			"trackGroupID": "animal_group_behavior_guide_elementary-v1.0.0",
+			"name": "HB_Ex",
+			"productionRubricVersion": 79,
+			"stagingRubricVersion": 78,
+			"caseID": "",
+			"guideID": "guide-ext_el",
+			"glossaryID": "glossary-Ex"
+		},
+		{
+			"trackGroupID": "animal_group_behavior_case_middle-v1.0.0",
+			"name": "Case_M",
+			"productionRubricVersion": 80,
+			"stagingRubricVersion": 79,
+			"caseID": "case-ms",
+			"guideID": "guide-ms",
+			"glossaryID": "glossary-M"
+		},
+		{
+			"trackGroupID": "animal_group_behavior_guide_middle-v1.0.0",
+			"name": "HB_Mx",
+			"productionRubricVersion": 81,
+			"stagingRubricVersion": 80,
+			"caseID": "",
+			"guideID": "guide-ext_ms",
+			"glossaryID": "glossary-Mx"
+		}
+	],
+	"sims": [
+		{
+			"id": "789586",
+			"name": "Sim_Sahara_Farm_Map",
+			"loadMode": "LoadOnDemand",
+			"unloadMode": "UnloadOnDemand",
+			"antialias": true,
+			"alpha": false,
+			"scenes": [
+				{
+					"name": "Sahara_Farm_Map",
+					"fileName": "1139840.json"
+				}
+			],
+			"preloadSimStates": true,
+			"useBasis": true
+		},
+		{
+			"id": "789175",
+			"name": "Sim_Sahara_Perspective",
+			"loadMode": "LoadOnDemand",
+			"unloadMode": "UnloadOnDemand",
+			"antialias": true,
+			"alpha": false,
+			"scenes": [
+				{
+					"name": "Sahara_Perspective",
+					"fileName": "1139035.json"
+				}
+			],
+			"preloadSimStates": true,
+			"useBasis": true
+		}
+	],
+	"compatibility": []
+}

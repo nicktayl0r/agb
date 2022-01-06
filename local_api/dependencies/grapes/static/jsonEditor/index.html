@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Project Editor</title>
+	<link rel="icon" type="image/png" href="/assets/Thumbnails/STEM Case/CaseThumbnail.png" />
+	<!-- Bootstrap CSS framework (Foundation and jQueryUI also supported) -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<!-- Font Awesome icons (Bootstrap, Foundation, and jQueryUI also supported) -->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
+	<link rel="stylesheet" href="./css/awesomplete.css" />
+	<link rel="stylesheet" href="../jsoneditor.css" />
+
+	<!-- this is the dist from https://github.com/json-editor/json-editor -->
+	<!-- that github page has pretty good documentation for the editor options -->
+	<script src="./awesomplete.min.js"></script>
+	<script src="./jsoneditor.min.js"></script>
+	<style>
+		.pageButtons {
+			display: flex;
+			padding: 8px;
+		}
+
+		a.edit-link:before {
+			font-family: FontAwesome;
+			content: "\f044";
+		}
+
+		.edit-link {
+			/* margin-left: 0.5em; */
+			margin-right: 0.5em;
+			flex: 1;
+		}
+
+		.launch-link {
+			flex: 1;
+			margin-left: 10px;
+		}
+
+		a.launch-link:before {
+			/* content: url("./css/space-shuttle.svg"); */
+			content: "";
+			display: inline-block;
+			background: url("./css/space-shuttle.svg") no-repeat;
+			background-position: center;
+			width: 20px;
+			height: 20px;
+			margin: 0 6px -6px 0;
+		}
+
+		.project-header {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.topButtons {
+			display: flex;
+			flex-direction: row;
+			align-content: flex-end;
+			justify-content: flex-end;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="project-header">
+				<h2 id="project-name"></h2>
+				<div class="col-8 topButtons">
+					<a class="btn btn-info" href="./rubricIndex.html"> Rubrics</a>
+					<a class="btn btn-success launch-link" href="/preview?debug=true/#/" target="_blank">
+						Launch Full Case Preview</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<div id="allpages_editor_holder"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<div id="project_editor_holder"></div>
+				<button type="button" id="submit" class="btn btn-primary">
+					Save Project
+				</button>
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-8">
+				<div id="blocks_editor_holder"></div>
+				<button type="button" id="submit-blocks" class="btn btn-primary">
+					Save Blocks
+				</button>
+			</div>
+		</div>
+	</div>
+	<script src="./projectEditor.min.js"></script>
+</body>
+
+</html>

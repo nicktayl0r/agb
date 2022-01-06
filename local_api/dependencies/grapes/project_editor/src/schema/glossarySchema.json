@@ -1,0 +1,79 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"required": ["tracks"],
+	"properties": {
+		"tracks": {
+			"title": "Tracks",
+			"type": "array",
+			"format": "tabs",
+			"items": {
+				"type": "object",
+				"required": ["trackID", "name", "pages"],
+				"headerTemplate": "{{ i1 }} - {{ self.name }}",
+				"properties": {
+					"trackID": {
+						"type": "string",
+						"title": "Track ID",
+						"propertyOrder": 1
+					},
+					"name": {
+						"type": "string",
+						"title": "Track Name",
+						"propertyOrder": 2
+					},
+					"pages": {
+						"title": "Pages",
+						"type": "array",
+						"format": "tabs",
+						"propertyOrder": 4,
+						"options": {
+							"collapsed": true
+						},
+						"items": {
+							"type": "object",
+							"required": ["name", "pageID"],
+							"headerTemplate": "{{ i1 }} - {{ self.name }}",
+							"properties": {
+								"name": {
+									"type": "string",
+									"title": "Page Name",
+									"propertyOrder": 1
+								},
+								"pageID": {
+									"type": "string",
+									"title": "Page ID",
+									"propertyOrder": 2
+								},
+								"relatedTerms": {
+									"type": "array",
+									"format": "table",
+									"propertyOrder": 3,
+									"options": {
+										"collapsed": true
+									},
+									"items": {
+										"type": "object",
+										"required": ["name", "pageID"],
+										"properties": {
+											"name": {
+												"type": "string",
+												"title": "Page Name",
+												"propertyOrder": 1
+											},
+											"pageID": {
+												"type": "string",
+												"title": "Page ID",
+												"propertyOrder": 2
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

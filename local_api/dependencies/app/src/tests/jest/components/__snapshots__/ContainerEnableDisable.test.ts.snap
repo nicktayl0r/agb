@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContainerEnableDisable prop enabled:false matches html snapshot 1`] = `
+<fieldset
+  class="no-border"
+  disabled="disabled"
+  id="testWidget"
+>
+  slot text
+</fieldset>
+`;
+
+exports[`ContainerEnableDisable prop enabled:true matches html snapshot 1`] = `
+<fieldset
+  class="no-border"
+  id="testWidget"
+>
+  slot text
+</fieldset>
+`;

@@ -1,0 +1,42 @@
+<div class="grid_T4 paged88f2">
+  <div class="item1_T4 dropShadow textBackgroundBasic paged88f2">
+    <div class="grid_T9 paged88f2">
+      <div class="item1_T9 paged88f2">
+        <p class="paged88f2">The experiment showed that hypothesis 2 is not correct. <br />You can change your hypothesis.<br />Here are some facts to help:</p>
+        <ul class="text_List paged88f2">
+          <li>Lucy has trees on her farm that she can use to build hives. </li>
+          <li>Lucy will have to remove some corn crops to add cotton crops. </li>
+        </ul>
+      </div>
+      <container-enable-disable :visible="true" :enabled="true" id="i3aj6" class="item2_T9 paged88f2">
+        <div class="grid_T16 paged88f2">
+          <widget-radio :visible="true" :enabled="true" id="imz2" group="irmk" value="Hypothesis 1" :conditions="{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateRadioGroupSelection',group:'irmk',radioID:'imz2'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonRadio radioMultiLine radioFillHeight item1_T16 grid_T1 paged88f2">
+            <div class="item1_T1 grid_T2 paged88f2">
+              <p class="item1_T2 paged88f2"><strong>Hypothesis 1</strong></p>
+              <p class="paged88f2 item2_T2">Add beehives around the corn crops. The elephants will see the beehives and be scared away.</p>
+            </div>
+          </widget-radio>
+          <widget-radio :visible="true" :enabled="false" id="i6hi" group="irmk" value="Hypothesis 2" class="buttonRadio radioMultiLine radioFillHeight item2_T16 grid_T1 paged88f2">
+            <div class="item1_T1 grid_T2 paged88f2">
+              <p class="item1_T2 paged88f2"><strong>Hypothesis 2</strong></p>
+              <p class="paged88f2 item2_T2">Plant cotton crops around the corn crops to attract bees. The bees will scare away the elephants.</p>
+            </div>
+          </widget-radio>
+        </div>
+      </container-enable-disable>
+      <div class="item3_T9 paged88f2">
+        <container-enable-disable :visible="true" :enabled="true" id="igyh" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'radioSelection',group:'irmk',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'igyh',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="ED_EnableDisable paged88f2">
+          <div class="grid_T27 paged88f2">
+            <p class="item1_T27 paged88f2"><strong>Explain how the cotton experiment supports your hypothesis.</strong></p>
+            <div class="item2_T27 paged88f2">
+              <widget-textarea :visible="true" :enabled="true" id="ioo4" placeholder="Type your answer here" styles="resize: none;" class="WR_WritingField paged88f2" />
+            </div>
+            <div class="item3_T27 paged88f2">
+              <widget-button :visible="false" :enabled="true" id="i16y" :conditions="{conditionList:[{comparisons:[{comparisonData:{comparisonType:'textLength',textID:'ioo4'}},{comparisonData:{comparisonType:'radioSelection',group:'irmk',selected:'any'}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'addClasses',widgetID:'i16y',classes:'buttonBlinkBlue '},fireOnceID:'',delay:0}],effectsFail:[{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:false},fireOnceID:'',delay:0}],responsesPass:[],responsesFail:[]}]}" :click-effects="{conditionList:[{comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'igyh',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i3aj6',key:'enabled',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i16y',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[{rubricID:'GroupBehavior.E.HypothesisExplanation2',responseData:{responseType:'widget',format:'html',headerPairs:[{header:'',widgetID:'ioo4',key:'text'}]},fireOnceID:''}],responsesFail:[]}]}" class="buttonBasic-Grey paged88f2"><span class="marginRight2 marginLeft2 paged88f2">Submit</span></widget-button>
+            </div>
+          </div>
+        </container-enable-disable>
+      </div>
+    </div>
+  </div>
+</div>

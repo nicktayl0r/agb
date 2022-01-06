@@ -1,0 +1,71 @@
+<p>Initial simState has rotX, rotY = true. Initial widget props have rotH= false, rotV= true.</p>
+<p>Turntable should only rotate vertically.</p>
+<widget-turntable :visible="true" id="turntable" scenename="turntable" simstateid="urinm0" class="simPreview page48ef" style="height: 400px; width: 400px;"
+    :rotate-h="false" :rotate-v="true">
+</widget-turntable>
+<widget-button id="changeSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'simstateid', val:'testScript'}}
+        ]
+    }   
+    ] 
+} " text="Change to green state (h,v disabled) " />
+<widget-button id="changeSim2" :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'simstateid', val:'pu7ult'}}
+        ]
+    }   
+    ] 
+} " text="Change to purple state (h,v enabled) " />
+<widget-button id="changeSim " :clickEffects="{
+	conditionList:[ 
+    { 
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'simstateid', val:'vtve61'}}
+        ]
+    }   
+    ] 
+} " text="Change to green state (h,v enabled) " />
+<widget-button id="changeRotH " :clickEffects="{
+	conditionList:[ 
+    { 
+        comparisons:[
+        {comparisonData:{comparisonType: 'widgetVal', widgetID: 'turntable', key: 'rotateH', val:true}} ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'rotateH', val:false}}
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'rotateH', val:true}}
+        ]
+    }   
+    ] 
+} " text="Toggle Rot H " />
+<widget-button id="changeRotV " :clickEffects="{
+	conditionList:[ 
+    { 
+        comparisons:[
+        {comparisonData:{comparisonType: 'widgetVal', widgetID: 'turntable', key: 'rotateV', val:true}} ],
+        effectsPass:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'rotateV', val:false}}
+        ],
+        effectsFail:[
+        {effectData: {effectType: 'updateWidget', widgetID:'turntable', key:'rotateV', val:true}}
+        ]
+    }   
+    ] 
+} " text="Toggle Rot V " />
+<br>
+<br>
+<br>
+<widget-button id="prevPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData: {effectType:
+    'previousPage'}}] } ]}" class="buttonBasic-Grey">
+    <p class="marginLeft2 marginRight2">previous page</p>
+</widget-button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<widget-button class="buttonBasic-Grey marginLeft2 buttonBlinkBlue" id="nextPageButton" :clickEffects="{conditionList:[ { effectsPass:[{effectData:
+        {effectType: 'unlockNextPage'}}] } ]}">
+    <p class="marginLeft2 marginRight2">unlock next page</p>
+</widget-button>

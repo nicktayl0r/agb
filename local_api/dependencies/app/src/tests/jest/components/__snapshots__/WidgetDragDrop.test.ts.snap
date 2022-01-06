@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetDragDrop matches html snapshot 1`] = `
+<fieldset
+  class="drop"
+  id="testDrop"
+  maxchildren="1"
+  overflowstyle="reset-child"
+>
+  <span
+    class="contentSlot noSelect"
+  />
+   
+  <span
+    class="dragSlot"
+  >
+    <fieldset
+      class="drag"
+      draggable="true"
+      id="testDrag"
+      style="order: 0;"
+    >
+      <span
+        class="slot"
+      />
+    </fieldset>
+  </span>
+</fieldset>
+`;
