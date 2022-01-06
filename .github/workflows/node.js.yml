@@ -27,7 +27,7 @@ jobs:
           boto3
     - name: Clone Repository
       run: |
-        git clone "$repo" repo && cd repo
+        git clone https://${secrets.GH_KEY}@github.com/nicktayl0r/agb.git
     - name: Pull assets & scenes
       run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
