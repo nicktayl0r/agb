@@ -1,0 +1,39 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  repo: https://github.com/nicktayl0r/agb.git
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+    - name: Install Yarn
+      run: npm install -g yarn
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+        architecture: 'x64'
+    - uses: BSFishy/pip-action@v1
+      with:
+        packages: |
+          boto3
+    - name: Clone Repository
+      run: |
+        git clone "$matrix.repo" repo && cd repo
+    - name: Pull assets & scenes
+      run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
+    - name: Build dependencies
+      run: cd local_api/dependencies/PlaycanvasEngine && yarn build-all && cd ..
+    - run: cd app && yarn build-all && cd ..
+    - run: cd grapes && yarn build:all && cd ../..
+    - name: Build Case
+      run: yarn build-prod
