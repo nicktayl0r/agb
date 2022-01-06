@@ -31,10 +31,10 @@ jobs:
     - name: Clone Repository
       run: |
         git clone https://github.com/nicktayl0r/agb.git
-    - name: Pull assets & scenes
-      run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
+#     - name: Pull assets & scenes
+#       run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
-      run: cd local_api/dependencies/PlaycanvasEngine && yarn build-all && cd ..
+      run: cd agb/local_api/dependencies/PlaycanvasEngine && yarn build-all && cd ..
     - run: cd app && yarn build-all && cd ..
     - run: cd grapes && yarn build:all && cd ../..
     - name: Build Case
