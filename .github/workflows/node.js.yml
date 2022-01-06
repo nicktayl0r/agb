@@ -25,7 +25,7 @@ jobs:
       with:
         packages: |
           boto3
-          yaml
+          pyyaml
     - name: Clone Repository
       run: |
         git clone https://github.com/nicktayl0r/agb.git
