@@ -37,7 +37,7 @@ jobs:
       run: |
         git clone https://github.com/nicktayl0r/agb.git
     - name: Import Secrets
-      run: "echo \"PC_TOKEN: ${env.pc_token}\nAWS_ACCESS_KEY_ID: ${env.aws_key}\nAWS_SECRET_KEY: ${env.aws_secret}\" >> agb/local.yaml"
+      run: "echo \"PC_TOKEN: ${env.pc_token}\nAWS_ACCESS_KEY_ID: ${env.aws_key}\nAWS_SECRET_KEY: ${env.aws_secret}\n\" >> agb/local.yaml"
     - name: Pull assets & scenes
       run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
