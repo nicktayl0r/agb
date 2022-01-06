@@ -211,8 +211,8 @@
 										":enable-scrub": false,
 										":start-time": 0,
 										":end-time": 0,
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.webm"
+										"src-mp4": "../../assets/video/water_ElephantsDrink_4_NoBrain_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_4_NoBrain_compressed.webm"
 									},
 									"propagate": "",
 									"dmode": "",

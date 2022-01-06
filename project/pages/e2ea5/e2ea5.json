@@ -2924,7 +2924,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_Bees_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_Bees_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-position": "center bottom",
@@ -2958,7 +2958,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_LivingInGroups_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_LivingInGroups_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-position": "center bottom",
@@ -2992,7 +2992,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_LearningInGroups_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_LearningInGroups_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-position": "center bottom",
@@ -3026,7 +3026,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_GrpCommunication_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_GrpCommunication_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-position": "center bottom",
@@ -3060,7 +3060,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_ElephantsBees_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_ElephantsBees_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-size": "contain",
@@ -3094,7 +3094,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/review_AnimalGrpsHumans_IMG.jpg)",
+				"background-image": "url(../../assets/image/review_AnimalGrpsHumans_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-size": "contain",
 				"background-repeat": "no-repeat",

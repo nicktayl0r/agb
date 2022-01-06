@@ -3,12 +3,12 @@
   <widget-button :visible="true" :enabled="false" id="iusk" :click-effects="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iusk',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:true},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="buttonBasic_Invisible noPadding buttonBlinkBlue pagec89c9 button_1">
     <div class="buttonFillSq pagec89c9">
       <p class="colorWhite textCenter pagec89c9 text_Experiment1a">Experiment 1</p>
-      <widget-image src="../../assets/images/cotton_PlantFlowering_IMG.png" :visible="true" id="ia8n" class="pagec89c9 image_Cotton" />
+      <widget-image src="../../assets/image/cotton_PlantFlowering_IMG.png" :visible="true" id="ia8n" class="pagec89c9 image_Cotton" />
       <p class="colorWhite textCenter pagec89c9 text_Experiment1b">Plant cotton crops around the corn crops to attract bees.<br />The bees will scare away the elephants.<br /></p>
     </div>
   </widget-button>
   <container-show-hide :visible="false" id="ipf1y" class="pagec89c9 SH_PlantingSeeds dropShadow">
-    <widget-image src="../../assets/movies/plantSeeds_CornCotton_APNG.png" :visible="true" id="i1eo1" class="pagec89c9 APNG_PlantSeeds" />
+    <widget-image src="../../assets/image/plantSeeds_CornCotton_APNG.png" :visible="true" id="i1eo1" class="pagec89c9 APNG_PlantSeeds" />
   </container-show-hide>
   <container-show-hide :visible="true" id="iitq4" class="pagec89c9 anchor_WhitePopper"></container-show-hide>
   <widget-popper :visible="false" :click-to-dismiss="false" id="imifw" :delay="0" :delay-once="false" anchor-id="iitq4" :options="{placement:'top'}" class="pagec89c9"><span class="pagec89c9">The trampled corn is now replaced with new corn.<br/>Cotton now surrounds the farm to attract bees.</span></widget-popper>
@@ -23,7 +23,7 @@
         <widget-drag :visible="true" :enabled="true" id="iegd" :child-index="0" drop-id="ivj9" group-id="seedsPlantID" correct-drop-ids="['ioqt']" :conditions="{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[{comparisonData:{comparisonType:'dropsHaveDrags',dropIDs:['ioqt']}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ikl1',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ioqt',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iegd',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ipf1y',key:'visible',val:false},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'simstateid',val:'wxt43p'},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ipft',key:'playState',val:'play'},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ia9d',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'imifw',key:'visible',val:true},fireOnceID:'',delay:6},{effectData:{effectType:'updateWidget',widgetID:'ih2b',key:'visible',val:true},fireOnceID:'',delay:9}],effectsFail:[],responsesPass:[],responsesFail:[]}]}" class="drag_Appearance dragButtons_Appearance pagec89c9">
           <div class="div_DragFiller pagec89c9">
             <widget-button :visible="true" :enabled="true" id="i3c7" class="buttonBasic_Image pagec89c9 button_Seeds noSelect">
-              <widget-image :visible="true" id="ii2q" src="../../assets/images/seeds_CornCotton_IMG.png" class="buttonImage pagec89c9" />
+              <widget-image :visible="true" id="ii2q" src="../../assets/image/seeds_CornCotton_IMG.png" class="buttonImage pagec89c9" />
             </widget-button>
           </div>
         </widget-drag>
@@ -32,23 +32,23 @@
     </div>
     <div class="div_farmMapSimKey pagec89c9">
       <div class="div_farmMapSimKeyItem pagec89c9">
-        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i621" class="image_farmMapSimKeyItem pagec89c9" />
+        <widget-image src="../../assets/image/cotton_PlantFlowering_Icon_IMG.png" :visible="true" id="i621" class="image_farmMapSimKeyItem pagec89c9" />
         <p class="text_farmMapSimKeyItem pagec89c9">Cotton</p>
       </div>
       <div class="div_farmMapSimKeyItem pagec89c9">
-        <widget-image src="../../assets/images/icons/corn_PlantSilking_Icon_IMG.png" :visible="true" id="iujm" class="image_farmMapSimKeyItem pagec89c9" />
+        <widget-image src="../../assets/image/corn_PlantSilking_Icon_IMG.png" :visible="true" id="iujm" class="image_farmMapSimKeyItem pagec89c9" />
         <p class="text_farmMapSimKeyItem pagec89c9">Corn</p>
       </div>
       <div class="div_farmMapSimKeyItem pagec89c9">
-        <widget-image src="../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="iwng" class="image_farmMapSimKeyItem pagec89c9" />
+        <widget-image src="../../assets/image/corn_PlantSilking_Trampled_Icon_IMG.png" :visible="true" id="iwng" class="image_farmMapSimKeyItem pagec89c9" />
         <p class="text_farmMapSimKeyItem pagec89c9">Trampled Corn</p>
       </div>
       <div class="div_farmMapSimKeyItem pagec89c9">
-        <widget-image src="../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="ibqm" class="image_farmMapSimKeyItem pagec89c9" />
+        <widget-image src="../../assets/image/cotton_PlantFlowering_Trampled_Icon_IMG.png" :visible="true" id="ibqm" class="image_farmMapSimKeyItem pagec89c9" />
         <p class="text_farmMapSimKeyItem pagec89c9">Trampled Cotton</p>
       </div>
       <div class="div_farmMapSimKeyItem pagec89c9">
-        <widget-image src="../../assets/images/icons/beehive_Manmade2_Icon_IMG.png" :visible="true" id="ixus" class="image_farmMapSimKeyItem pagec89c9" />
+        <widget-image src="../../assets/image/beehive_Manmade2_Icon_IMG.png" :visible="true" id="ixus" class="image_farmMapSimKeyItem pagec89c9" />
         <p class="text_farmMapSimKeyItem pagec89c9">Beehive</p>
       </div>
     </div>

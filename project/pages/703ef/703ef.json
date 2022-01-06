@@ -900,7 +900,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/corn_PlantHarvest_Night_IMG.png",
+						"src": "../../assets/image/corn_PlantHarvest_Night_IMG.png",
 						":visible": "true",
 						"id": "ipr1"
 					},
@@ -956,7 +956,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/cotton_PlantHarvest_Night_IMG.png",
+						"src": "../../assets/image/cotton_PlantHarvest_Night_IMG.png",
 						":visible": "true",
 						"id": "il7i"
 					},
@@ -1561,7 +1561,7 @@
 				"display": "grid",
 				"width": "100%",
 				"height": "100%",
-				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_Sky_Night_IMG.jpg)",
+				"background-image": "url(../../assets/image/Sahara_Perspective_Sky_Night_IMG.jpg)",
 				"background-repeat": "no-repeat",
 				"background-position": "center center",
 				"background-size": "cover",

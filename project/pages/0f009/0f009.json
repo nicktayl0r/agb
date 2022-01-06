@@ -466,7 +466,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/elephants/elephantAsian_AdultMale_IMG.png",
+						"src": "../../assets/image/elephantAsian_AdultMale_IMG.png",
 						":visible": "true",
 						"id": "i654"
 					},
@@ -629,7 +629,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/elephants/elephantAfrican_AdultMale_IMG.png",
+						"src": "../../assets/image/elephantAfrican_AdultMale_IMG.png",
 						":visible": "false",
 						"id": "ijzyt"
 					},

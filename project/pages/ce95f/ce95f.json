@@ -2030,7 +2030,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/elephants/elephantAfrican_AdultMale_Heart_IMG.png",
+						"src": "../../assets/image/elephantAfrican_AdultMale_Heart_IMG.png",
 						":visible": "true",
 						"id": "iftt"
 					},

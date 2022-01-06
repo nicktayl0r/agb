@@ -311,7 +311,7 @@
 									],
 									"script": "",
 									"attributes": {
-										"src": "../../assets/svg/Other/logo_GA_Color_SVG.svg",
+										"src": "../../assets/svg/logo_GA_Color_SVG.svg",
 										":visible": true,
 										"id": "i4fy"
 									},
@@ -891,7 +891,7 @@
 			"selectorsAdd": "",
 			"style": {
 				"height": "100%",
-				"background-image": "url(../../assets/images/womanBeehive1_IMG.jpg)",
+				"background-image": "url(../../assets/image/womanBeehive1_IMG.jpg)",
 				"background-attachment": "scroll",
 				"background-repeat": "no-repeat",
 				"background-position": "25% 0%",

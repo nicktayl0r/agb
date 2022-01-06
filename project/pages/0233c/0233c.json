@@ -1440,8 +1440,8 @@
 										":start-time": "0",
 										":end-time": "0",
 										":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ijwa',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ijwa',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ijwa',key:'playState',val:'play'},fireOnceID:'',delay:0.1}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'inspg',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'inspg',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'inspg',key:'playState',val:'play'},fireOnceID:'',delay:0.1}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ivnuk',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ivnuk',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ivnuk',key:'playState',val:'play'},fireOnceID:'',delay:0.1}],effectsFail:[],responsesPass:[],responsesFail:[]},{evaluateWhen:'pageLoads',comparisons:[{comparisonData:{comparisonType:'widgetVal',comparison:'equals',widgetID:'ic0iw',key:'visible',val:true}}],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ic0iw',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ic0iw',key:'playState',val:'play'},fireOnceID:'',delay:0.1}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_1_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_1_compressed.webm"
+										"src-mp4": "../../assets/video/water_ElephantsDrink_1_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_1_compressed.webm"
 									},
 									"propagate": "",
 									"dmode": "",
@@ -1513,8 +1513,8 @@
 										":enable-scrub": "false",
 										":start-time": "0",
 										":end-time": "0",
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_2_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_2_compressed.webm",
+										"src-mp4": "../../assets/video/water_ElephantsDrink_2_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_2_compressed.webm",
 										"id": "inspg"
 									},
 									"propagate": "",
@@ -1588,8 +1588,8 @@
 										":start-time": "0",
 										":end-time": "0",
 										":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ic0iw',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ic0iw',key:'playState',val:'play'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'ivnuk',key:'visible',val:false},fireOnceID:'',delay:1},{effectData:{effectType:'unlockNextPage'},fireOnceID:'unlockNextOnce_page0233c',delay:2}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_3_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_3_compressed.webm",
+										"src-mp4": "../../assets/video/water_ElephantsDrink_3_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_3_compressed.webm",
 										"id": "ivnuk"
 									},
 									"propagate": "",
@@ -1662,8 +1662,8 @@
 										":enable-scrub": "false",
 										":start-time": "0",
 										":end-time": "0",
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_4_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_4_compressed.webm",
+										"src-mp4": "../../assets/video/water_ElephantsDrink_4_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_4_compressed.webm",
 										"id": "ic0iw"
 									},
 									"propagate": "",

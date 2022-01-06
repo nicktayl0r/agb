@@ -518,7 +518,7 @@
 											"attributes": {
 												":visible": "true",
 												"id": "i36z",
-												"src": "../../assets/images/elephant_Adult_Ear_IMG.jpg"
+												"src": "../../assets/image/elephant_Adult_Ear_IMG.jpg"
 											},
 											"propagate": "",
 											"dmode": "",
@@ -862,7 +862,7 @@
 							"attributes": {
 								":visible": "true",
 								"id": "iqw2",
-								"src": "../../assets/images/elephants/elephantAfrican_AdultMale_IMG.png"
+								"src": "../../assets/image/elephantAfrican_AdultMale_IMG.png"
 							},
 							"propagate": "",
 							"dmode": "",

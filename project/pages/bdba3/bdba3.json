@@ -214,7 +214,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassBermuda_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassBermuda_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "ia4j"
 							},
@@ -278,7 +278,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassElephant_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassElephant_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "i361"
 							},
@@ -342,7 +342,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassElephant_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassElephant_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "ivwc4"
 							},
@@ -406,7 +406,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassElephant_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassElephant_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "ihpw4"
 							},
@@ -470,7 +470,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassElephant_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassElephant_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "is13t"
 							},
@@ -534,7 +534,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassBermuda_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassBermuda_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "ivqjg"
 							},
@@ -598,7 +598,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassElephant_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassElephant_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "iu8ok"
 							},
@@ -662,7 +662,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/icons/grassBermuda_Sunset_Icon_IMG.png",
+								"src": "../../assets/image/grassBermuda_Sunset_Icon_IMG.png",
 								":visible": "true",
 								"id": "iifag"
 							},
@@ -8773,7 +8773,7 @@
 				"display": "grid",
 				"grid-template-columns": "1fr",
 				"grid-template-rows": "1fr",
-				"background-image": "url(../../assets/images/groundSahara_Sunset_IMG.jpg)",
+				"background-image": "url(../../assets/image/groundSahara_Sunset_IMG.jpg)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",

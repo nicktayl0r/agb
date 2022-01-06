@@ -6,7 +6,7 @@
 	grid-template-rows: 1fr;
 	width: 100%;
 	height: 100%;
-	background-image: url(../../assets/images/backgrounds/Sahara_Perspective_simState_047_IMG.jpg);
+	background-image: url(../../assets/image/Sahara_Perspective_simState_047_IMG.jpg);
 	background-repeat: no-repeat;
 	background-attachment: local;
 	background-size: cover;
@@ -185,7 +185,7 @@
 .div_Checkbox_2.page55ad6 {
 	width: 30vh;
 	height: 15vh;
-	background-image: url(../../assets/images/elephants/elephantEye_Sting_IMG.png);
+	background-image: url(../../assets/image/elephantEye_Sting_IMG.png);
 	background-repeat: no-repeat;
 	background-attachment: local;
 	background-position: center center;
@@ -201,7 +201,7 @@
 .div_Checkbox_3.page55ad6 {
 	width: 30vh;
 	height: 15vh;
-	background-image: url(../../assets/images/bee_SoundWaves_IMG.png);
+	background-image: url(../../assets/image/bee_SoundWaves_IMG.png);
 	background-repeat: no-repeat;
 	background-attachment: local;
 	background-position: center center;
@@ -217,7 +217,7 @@
 .div_Checkbox_4.page55ad6 {
 	width: 30vh;
 	height: 15vh;
-	background-image: url(../../assets/images/beehive_Manmade2_Hive_IMG.png);
+	background-image: url(../../assets/image/beehive_Manmade2_Hive_IMG.png);
 	background-repeat: no-repeat;
 	background-attachment: local;
 	background-position: center center;

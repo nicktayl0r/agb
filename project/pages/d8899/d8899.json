@@ -1327,8 +1327,8 @@
 										":start-time": 0,
 										":end-time": 0,
 										":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'ifelf',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i55f',key:'visible',val:false},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iby6',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'iyae8',key:'visible',val:true},fireOnceID:'',delay:3}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
-										"src-mp4": "../../assets/movies/honeycomb_RevealOffspring_1_MOV_compressed.mp4",
-										"src-webm": "../../assets/movies/honeycomb_RevealOffspring_1_MOV_compressed.webm"
+										"src-mp4": "../../assets/video/honeycomb_RevealOffspring_1_MOV_compressed.mp4",
+										"src-webm": "../../assets/video/honeycomb_RevealOffspring_1_MOV_compressed.webm"
 									},
 									"propagate": "",
 									"dmode": "",
@@ -1400,9 +1400,9 @@
 										":enable-scrub": "false",
 										":start-time": "0",
 										":end-time": "0",
-										"src-mp4": "../../assets/movies/honeycomb_RevealOffspring_2_MOV_compressed.mp4",
+										"src-mp4": "../../assets/video/honeycomb_RevealOffspring_2_MOV_compressed.mp4",
 										"id": "ifelf",
-										"src-webm": "../../assets/movies/honeycomb_RevealOffspring_2_MOV_compressed.webm",
+										"src-webm": "../../assets/video/honeycomb_RevealOffspring_2_MOV_compressed.webm",
 										":end-effects": "{conditionList:[{evaluateWhen:'widgetsChange',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'iasz',key:'visible',val:true},fireOnceID:'',delay:0},{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
 									},
 									"propagate": "",

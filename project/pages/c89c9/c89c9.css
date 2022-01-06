@@ -20,7 +20,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
-	background-image: url(../../assets/images/backgrounds/background_Sahara_Farm_Map_simState_46_IMG.png);
+	background-image: url(../../assets/image/background_Sahara_Farm_Map_simState_46_IMG.png);
 	background-repeat: no-repeat;
 	background-attachment: local;
 	background-position: center center;

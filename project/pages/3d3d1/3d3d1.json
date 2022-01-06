@@ -3183,7 +3183,7 @@
 			],
 			"selectorsAdd": "",
 			"style": {
-				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_Sky_Night_IMG.jpg)",
+				"background-image": "url(../../assets/image/Sahara_Perspective_Sky_Night_IMG.jpg)",
 				"background-repeat": "no-repeat",
 				"background-position": "center center",
 				"background-attachment": "local",

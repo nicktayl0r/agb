@@ -734,7 +734,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/elephants/elephant_Learn_IMG.png",
+						"src": "../../assets/image/elephant_Learn_IMG.png",
 						":visible": "true",
 						"id": "iyf6"
 					},

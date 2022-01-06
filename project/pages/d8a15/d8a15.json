@@ -350,7 +350,7 @@
 									],
 									"script": "",
 									"attributes": {
-										"src": "../../assets/images/beehive_Manmade2_Bees_IMG.png",
+										"src": "../../assets/image/beehive_Manmade2_Bees_IMG.png",
 										":visible": "true",
 										"id": "ia8n"
 									},
@@ -671,7 +671,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/plantSeeds_Corn_APNG.png",
+								"src": "../../assets/image/plantSeeds_Corn_APNG.png",
 								":visible": true,
 								"id": "i1eo1"
 							},
@@ -1584,7 +1584,7 @@
 																	"attributes": {
 																		":visible": "true",
 																		"id": "ii2q",
-																		"src": "../../assets/images/icons/beehive_Manmade2_Night_Icon_IMG.png"
+																		"src": "../../assets/image/beehive_Manmade2_Night_Icon_IMG.png"
 																	},
 																	"propagate": "",
 																	"dmode": "",
@@ -1944,7 +1944,7 @@
 																	"script": "",
 																	"attributes": {
 																		":visible": true,
-																		"src": "../../assets/images/seeds_Corn_IMG.png",
+																		"src": "../../assets/image/seeds_Corn_IMG.png",
 																		"id": "ir0dm"
 																	},
 																	"propagate": "",
@@ -2418,7 +2418,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png",
+												"src": "../../assets/image/cotton_PlantFlowering_Icon_IMG.png",
 												":visible": "true",
 												"id": "i621"
 											},
@@ -2577,7 +2577,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/corn_PlantSilking_Icon_IMG.png",
+												"src": "../../assets/image/corn_PlantSilking_Icon_IMG.png",
 												":visible": "true",
 												"id": "iujm"
 											},
@@ -2736,7 +2736,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png",
+												"src": "../../assets/image/corn_PlantSilking_Trampled_Icon_IMG.png",
 												":visible": "true",
 												"id": "iwng"
 											},
@@ -2895,7 +2895,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png",
+												"src": "../../assets/image/cotton_PlantFlowering_Trampled_Icon_IMG.png",
 												":visible": "true",
 												"id": "ibqm"
 											},
@@ -3054,7 +3054,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/beehive_Manmade2_Icon_IMG.png",
+												"src": "../../assets/image/beehive_Manmade2_Icon_IMG.png",
 												":visible": "true",
 												"id": "ixus"
 											},
@@ -3198,7 +3198,7 @@
 				"display": "grid",
 				"grid-template-columns": "1fr",
 				"grid-template-rows": "1fr",
-				"background-image": "url(../../assets/images/backgrounds/background_Sahara_Farm_Map_simState_46_IMG.png)",
+				"background-image": "url(../../assets/image/background_Sahara_Farm_Map_simState_46_IMG.png)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",

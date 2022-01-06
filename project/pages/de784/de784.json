@@ -833,7 +833,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/elephants/elephantAfrican_Herd_IMG.png",
+								"src": "../../assets/image/elephantAfrican_Herd_IMG.png",
 								":visible": true,
 								"id": "iba5"
 							},
@@ -889,7 +889,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/elephants/elephantAfrican_Herd_MaleLeave_IMG.png",
+								"src": "../../assets/image/elephantAfrican_Herd_MaleLeave_IMG.png",
 								":visible": false,
 								"id": "ii5ng"
 							},

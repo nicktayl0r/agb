@@ -555,7 +555,7 @@
 									],
 									"script": "",
 									"attributes": {
-										"src": "../../assets/images/elephants/elephantAfrican_Adult_Right_IMG.png",
+										"src": "../../assets/image/elephantAfrican_Adult_Right_IMG.png",
 										":visible": "true",
 										"id": "i5d5"
 									},
@@ -735,7 +735,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/elephants/elephantAfrican_Elder_Right_IMG.png",
+												"src": "../../assets/image/elephantAfrican_Elder_Right_IMG.png",
 												":visible": "true",
 												"id": "it4s"
 											},
@@ -3507,7 +3507,7 @@
 									],
 									"script": "",
 									"attributes": {
-										"src": "../../assets/images/elephants/elephantAfrican_Baby_Left_IMG.png",
+										"src": "../../assets/image/elephantAfrican_Baby_Left_IMG.png",
 										":visible": "true",
 										"id": "i9zs"
 									},

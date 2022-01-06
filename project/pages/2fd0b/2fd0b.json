@@ -716,7 +716,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/beeWorker_whole_Adult_Healthy_IMG.png",
+								"src": "../../assets/image/beeWorker_whole_Adult_Healthy_IMG.png",
 								":visible": "false",
 								"id": "isjd"
 							},
@@ -1060,7 +1060,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/beeQueen_whole_IMG.png",
+								"src": "../../assets/image/beeQueen_whole_IMG.png",
 								":visible": "true",
 								"id": "i2ok"
 							},
@@ -1174,7 +1174,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/beeWorker_whole_Adult_Healthy_IMG.png",
+								"src": "../../assets/image/beeWorker_whole_Adult_Healthy_IMG.png",
 								":visible": "false",
 								"id": "ixtj"
 							},
@@ -1230,7 +1230,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/beeWorker_whole_Adult_Healthy_IMG.png",
+								"src": "../../assets/image/beeWorker_whole_Adult_Healthy_IMG.png",
 								":visible": "false",
 								"id": "izdk"
 							},
@@ -1286,7 +1286,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/beeWorker_whole_Adult_Healthy_IMG.png",
+								"src": "../../assets/image/beeWorker_whole_Adult_Healthy_IMG.png",
 								":visible": "false",
 								"id": "i8m4"
 							},
@@ -1342,7 +1342,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/bee_Pheromone_Short_aPNG_24fps.png",
+								"src": "../../assets/image/bee_Pheromone_Short_aPNG_24fps.png",
 								":visible": "false",
 								"id": "iv6l"
 							},
@@ -1398,7 +1398,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/bee_Pheromone_Long_aPNG_24fps.png",
+								"src": "../../assets/image/bee_Pheromone_Long_aPNG_24fps.png",
 								":visible": "false",
 								"id": "idq8h"
 							},
@@ -1454,7 +1454,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/bee_Pheromone_Short_aPNG_24fps.png",
+								"src": "../../assets/image/bee_Pheromone_Short_aPNG_24fps.png",
 								":visible": "false",
 								"id": "ii0dk"
 							},
@@ -1510,7 +1510,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/bee_Pheromone_Long_aPNG_24fps.png",
+								"src": "../../assets/image/bee_Pheromone_Long_aPNG_24fps.png",
 								":visible": "false",
 								"id": "iy5q1"
 							},
@@ -1694,7 +1694,7 @@
 				"padding-right": "6vh",
 				"padding-bottom": "6vh",
 				"padding-left": "6vh",
-				"background-image": "url(../../assets/images/backgrounds/background_honeycomb_IMG.jpg)",
+				"background-image": "url(../../assets/image/background_honeycomb_IMG.jpg)",
 				"background-origin": "initial",
 				"background-clip": "initial",
 				"background-color": "initial",

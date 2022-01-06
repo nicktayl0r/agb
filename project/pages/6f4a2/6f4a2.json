@@ -197,7 +197,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/bee_SoundWaves_2_IMG.png",
+						"src": "../../assets/image/bee_SoundWaves_2_IMG.png",
 						":visible": true,
 						"id": "ihsv"
 					},
@@ -716,7 +716,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/brain_Memory_Elephant_IMG.png",
+								"src": "../../assets/image/brain_Memory_Elephant_IMG.png",
 								":visible": true,
 								"id": "ivxo8"
 							},
@@ -977,7 +977,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/elephants/elephantAfrican_AdultMemory_IMG.png",
+								"src": "../../assets/image/elephantAfrican_AdultMemory_IMG.png",
 								":visible": true,
 								"id": "iwkjf"
 							},

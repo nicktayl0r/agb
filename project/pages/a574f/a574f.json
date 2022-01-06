@@ -322,8 +322,8 @@
 												":enable-scrub": "false",
 												":start-time": "0",
 												":end-time": "0",
-												"src-mp4": "../../assets/movies/ss_54_ElephantEating_MOV_compressed.mp4",
-												"src-webm": "../../assets/movies/ss_54_ElephantEating_MOV_compressed.webm"
+												"src-mp4": "../../assets/video/ss_54_ElephantEating_MOV_compressed.mp4",
+												"src-webm": "../../assets/video/ss_54_ElephantEating_MOV_compressed.webm"
 											},
 											"propagate": "",
 											"dmode": "",
@@ -1018,7 +1018,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/cotton_PlantFlowering_Icon_IMG.png",
+												"src": "../../assets/image/cotton_PlantFlowering_Icon_IMG.png",
 												":visible": "true",
 												"id": "i6dk"
 											},
@@ -1177,7 +1177,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/corn_PlantSilking_Icon_IMG.png",
+												"src": "../../assets/image/corn_PlantSilking_Icon_IMG.png",
 												":visible": "true",
 												"id": "irrrc"
 											},
@@ -1336,7 +1336,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/corn_PlantSilking_Trampled_Icon_IMG.png",
+												"src": "../../assets/image/corn_PlantSilking_Trampled_Icon_IMG.png",
 												":visible": "true",
 												"id": "i6xdp"
 											},
@@ -1495,7 +1495,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/cotton_PlantFlowering_Trampled_Icon_IMG.png",
+												"src": "../../assets/image/cotton_PlantFlowering_Trampled_Icon_IMG.png",
 												":visible": "true",
 												"id": "i2w65"
 											},
@@ -1654,7 +1654,7 @@
 											],
 											"script": "",
 											"attributes": {
-												"src": "../../assets/images/icons/beehive_Manmade2_Icon_IMG.png",
+												"src": "../../assets/image/beehive_Manmade2_Icon_IMG.png",
 												":visible": "true",
 												"id": "i4geh"
 											},

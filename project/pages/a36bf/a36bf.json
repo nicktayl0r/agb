@@ -1269,8 +1269,8 @@
 										":start-time": "0",
 										":end-time": "0",
 										":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'updateWidget',widgetID:'i8m9',key:'playState',val:'stop'},fireOnceID:'',delay:0},{effectData:{effectType:'updateWidget',widgetID:'i8m9',key:'playState',val:'play'},fireOnceID:'',delay:0.05}],effectsFail:[],responsesPass:[],responsesFail:[]}]}",
-										"src-mp4": "../../assets/movies/bees_FlyToFromHive_Sahara_MOV_compressed.mp4",
-										"src-webm": "../../assets/movies/bees_FlyToFromHive_Sahara_MOV_compressed.webm"
+										"src-mp4": "../../assets/video/bees_FlyToFromHive_Sahara_MOV_compressed.mp4",
+										"src-webm": "../../assets/video/bees_FlyToFromHive_Sahara_MOV_compressed.webm"
 									},
 									"propagate": "",
 									"dmode": "",
@@ -1644,7 +1644,7 @@
 				"border-radius": "3vh 0 0 3vh",
 				"width": "50vh",
 				"height": "40vh",
-				"background-image": "url(../../assets/images/honeycomb_HoneyDrip_IMG.jpg)",
+				"background-image": "url(../../assets/image/honeycomb_HoneyDrip_IMG.jpg)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",

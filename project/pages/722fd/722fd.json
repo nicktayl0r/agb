@@ -211,8 +211,8 @@
 										":enable-scrub": false,
 										":start-time": 0,
 										":end-time": 0,
-										"src-mp4": "../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.mp4",
-										"src-webm": "../../assets/movies/water_ElephantsDrink_4_NoBrain_compressed.webm"
+										"src-mp4": "../../assets/video/water_ElephantsDrink_4_NoBrain_compressed.mp4",
+										"src-webm": "../../assets/video/water_ElephantsDrink_4_NoBrain_compressed.webm"
 									},
 									"propagate": "",
 									"dmode": "",
@@ -590,7 +590,7 @@
 						":visible": true,
 						":enabled": true,
 						"id": "i8rn",
-						":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:1},{effectData:{effectType:'playSound',type:'bgMusic',srcWebm:'../../assets/agb_background.webm',srcMp3:'../../assets/agb_background.mp3'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
+						":conditions": "{conditionList:[{evaluateWhen:'pageLoads',comparisons:[],comparisonsLogic:'and',effectsPass:[{effectData:{effectType:'unlockNextPage'},fireOnceID:'',delay:1},{effectData:{effectType:'playSound',type:'bgMusic',srcWebm:'../../assets/audio/agb_background.mp3'},fireOnceID:'',delay:0}],effectsFail:[],responsesPass:[],responsesFail:[]}]}"
 					},
 					"propagate": "",
 					"dmode": "",

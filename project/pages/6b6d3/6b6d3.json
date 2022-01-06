@@ -671,7 +671,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/corn_PlantHarvest_IMG.png",
+								"src": "../../assets/image/corn_PlantHarvest_IMG.png",
 								":visible": true,
 								"id": "ihck"
 							},
@@ -735,7 +735,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/corn_Fruit_IMG.png",
+								"src": "../../assets/image/corn_Fruit_IMG.png",
 								":visible": false,
 								"id": "i508d"
 							},
@@ -799,7 +799,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/corn_Seeds_IMG.png",
+								"src": "../../assets/image/corn_Seeds_IMG.png",
 								":visible": false,
 								"id": "i8okh"
 							},
@@ -863,7 +863,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/images/corn_PlantNew_IMG.png",
+								"src": "../../assets/image/corn_PlantNew_IMG.png",
 								":visible": false,
 								"id": "ivrd5"
 							},
@@ -919,7 +919,7 @@
 							],
 							"script": "",
 							"attributes": {
-								"src": "../../assets/movies/corn_PlantFlowering_Pollenation_APNG.png",
+								"src": "../../assets/image/corn_PlantFlowering_Pollenation_APNG.png",
 								":visible": true,
 								"id": "inm9"
 							},
@@ -2535,7 +2535,7 @@
 									],
 									"script": "",
 									"attributes": {
-										"src": "../../assets/movies/corn_PlantFlowering_Pollenation_APNG.png",
+										"src": "../../assets/image/corn_PlantFlowering_Pollenation_APNG.png",
 										":visible": true,
 										"id": "isdsi"
 									},

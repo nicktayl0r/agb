@@ -94,7 +94,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/elephants/elephant_Sting_IMG.png",
+						"src": "../../assets/image/elephant_Sting_IMG.png",
 						":visible": true,
 						"id": "i24o"
 					},
@@ -150,7 +150,7 @@
 					],
 					"script": "",
 					"attributes": {
-						"src": "../../assets/images/beehive_Manmade2_IMG.png",
+						"src": "../../assets/image/beehive_Manmade2_IMG.png",
 						":visible": "true",
 						"id": "i0h3i"
 					},
@@ -2485,7 +2485,7 @@
 				"grid-template-rows": "1fr",
 				"width": "100%",
 				"height": "100%",
-				"background-image": "url(../../assets/images/backgrounds/Sahara_Perspective_simState_047_IMG.jpg)",
+				"background-image": "url(../../assets/image/Sahara_Perspective_simState_047_IMG.jpg)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-size": "cover",
@@ -3184,7 +3184,7 @@
 			"style": {
 				"width": "30vh",
 				"height": "15vh",
-				"background-image": "url(../../assets/images/elephants/elephantEye_Sting_IMG.png)",
+				"background-image": "url(../../assets/image/elephantEye_Sting_IMG.png)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",
@@ -3226,7 +3226,7 @@
 			"style": {
 				"width": "30vh",
 				"height": "15vh",
-				"background-image": "url(../../assets/images/bee_SoundWaves_IMG.png)",
+				"background-image": "url(../../assets/image/bee_SoundWaves_IMG.png)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",
@@ -3268,7 +3268,7 @@
 			"style": {
 				"width": "30vh",
 				"height": "15vh",
-				"background-image": "url(../../assets/images/beehive_Manmade2_Hive_IMG.png)",
+				"background-image": "url(../../assets/image/beehive_Manmade2_Hive_IMG.png)",
 				"background-repeat": "no-repeat",
 				"background-attachment": "local",
 				"background-position": "center center",
