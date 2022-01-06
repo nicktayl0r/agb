@@ -37,9 +37,9 @@ jobs:
       run: |
         git clone https://github.com/nicktayl0r/agb.git
     - name: Import Secrets
-      run: "echo \"PC_TOKEN: ${pc_token}\nAWS_ACCESS_KEY_ID: ${aws_key}\nAWS_SECRET_KEY: ${aws_secret}\n\" >> agb/local.yaml"
+      run: "echo \"PC_TOKEN: ${pc_token}\nAWS_ACCESS_KEY_ID: ${aws_key}\nAWS_SECRET_KEY: ${aws_secret}\n\" >> local.yaml"
     - name: Pull assets & scenes
-      run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
+      run: pwd && cat local.yaml && cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
       run: cd agb/local_api/dependencies/PlaycanvasEngine && yarn && yarn build-all
     - run: pwd && cd agb/local_api/dependencies/app && yarn && yarn build-all
