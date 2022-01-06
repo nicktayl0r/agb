@@ -7,6 +7,9 @@ on: workflow_dispatch
 
 env:
   repo: https://github.com/nicktayl0r/agb.git
+  pc_token: ${{ secrets.PC_TOKEN }}
+  aws_key: ${{ secrets.AWS_KEY }}
+  aws_secret: ${{ secrets.AWS_SECRET }}
 
 jobs:
   build:
@@ -33,8 +36,10 @@ jobs:
     - name: Clone Repository
       run: |
         git clone https://github.com/nicktayl0r/agb.git
-#     - name: Pull assets & scenes
-#       run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
+    - name: Import Secrets
+      run: "echo \"PC_TOKEN: ${env.pc_token}\nAWS_ACCESS_KEY_ID: ${env.aws_key}\nAWS_SECRET_KEY: ${env.aws_secret}\" >> agb/local.yaml"
+    - name: Pull assets & scenes
+      run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
       run: cd agb/local_api/dependencies/PlaycanvasEngine && yarn && yarn build-all
     - run: pwd && cd agb/local_api/dependencies/app && yarn && yarn build-all
