@@ -3,11 +3,7 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: workflow_dispatch
 
 env:
   repo: https://github.com/nicktayl0r/agb.git
@@ -31,7 +27,7 @@ jobs:
           boto3
     - name: Clone Repository
       run: |
-        git clone "$matrix.repo" repo && cd repo
+        git clone "$repo" repo && cd repo
     - name: Pull assets & scenes
       run: cd local_api/imex && python3 get_assets.py && python3 get_sims.py && cd ../..
     - name: Build dependencies
