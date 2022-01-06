@@ -38,9 +38,9 @@ jobs:
     - name: Build dependencies
       run: cd agb/local_api/dependencies/PlaycanvasEngine && yarn && yarn build-all
     - run: pwd && cd agb/local_api/dependencies/app && yarn && yarn build-all
-    - run: cd grapes && yarn build:all && cd ../..
+    - run: cd agb/local_api/dependencies/grapes && yarn install && yarn build:all 
     - name: Build Case
-      run: yarn build-prod
+      run: cd agb/local_api && yarn && yarn build-prod
     
 
 
