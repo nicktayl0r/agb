@@ -27,6 +27,7 @@ jobs:
           boto3
           pyyaml
           requests
+          polling2
     - name: Clone Repository
       run: |
         git clone https://github.com/nicktayl0r/agb.git
